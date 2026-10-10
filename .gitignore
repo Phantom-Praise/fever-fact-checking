@@ -1,0 +1,31 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Large datasets
+data/raw/wiki-pages/
+data/raw/wiki-pages.zip
+
+# Processed datasets
+data/processed/
+
+# Model checkpoints
+checkpoints/
+
+# Training outputs
+results/
+
+# Course/reference files
+*.pdf
+*.xlsx
+
+# macOS ZIP extraction metadata
+__MACOSX/
+._*
+data/raw/train.jsonl
