@@ -1,0 +1,3 @@
+config,seed,learning_rate,weight_decay,batch_size,epoch,train_loss,val_loss,val_accuracy,val_macro_f1,predicted_0,predicted_1,predicted_2,elapsed_minutes
+H4,42,2e-05,0.0,8,1,0.8987063938971441,0.844930912733078,0.601,0.5728929524327421,945,574,481,25.71
+H4,42,2e-05,0.0,8,2,0.7784018265541249,0.7796955806612968,0.6575,0.6165337401866297,1131,400,469,91.96

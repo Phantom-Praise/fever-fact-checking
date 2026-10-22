@@ -1,0 +1,16 @@
+{
+  "config": "H1",
+  "seed": 42,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "batch_size": 8,
+  "epoch": 2,
+  "train_loss": 0.7810561472851618,
+  "val_loss": 0.8038904914855957,
+  "val_accuracy": 0.6465,
+  "val_macro_f1": 0.610322175913533,
+  "predicted_0": 1048,
+  "predicted_1": 444,
+  "predicted_2": 508,
+  "elapsed_minutes": 28.8
+}
