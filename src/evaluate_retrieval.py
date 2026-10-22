@@ -5,7 +5,13 @@ from pathlib import Path
 GOLD_PATH = Path("data/processed/validation.jsonl")
 RETRIEVED_DIR = Path("data/processed/retrieved")
 
-STRATEGIES = ["and", "or", "hybrid"]
+STRATEGIES = [
+    "and",
+    "or",
+    "hybrid",
+    "title",
+    "title_fast",
+]
 LIMIT = 100
 TOP_K = 5
 
