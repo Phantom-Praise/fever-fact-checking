@@ -1,0 +1,6 @@
+condition,n,accuracy,macro_f1,inference_seconds,inference_seconds_per_claim,checkpoint
+claim_only_H2,100,0.62,0.5760522389162197,1.7232489169999998,0.017232489169999997,checkpoints/tuning_weighted/H2_seed42/best
+retrieved_evidence,100,0.55,0.41628396479142743,1.6618939580000003,0.016618939580000002,checkpoints/roberta_evidence/epoch_1
+empty_evidence,100,0.45,0.45129922999976735,1.5613075829999996,0.015613075829999996,checkpoints/roberta_evidence/epoch_1
+wrong_claim_evidence,100,0.37,0.2897119341563786,1.494386540999999,0.01494386540999999,checkpoints/roberta_evidence/epoch_1
+gold_evidence_oracle,100,0.84,0.8314705882352941,1.485217875,0.01485217875,checkpoints/roberta_evidence/epoch_1
