@@ -1,0 +1,275 @@
+{
+  "dataset": "data/processed/retrieved/validation_first_100_top5_title_fast.jsonl",
+  "seed": 42,
+  "batch_size": 8,
+  "max_length": 256,
+  "device": "mps",
+  "label_mapping": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "n": 100,
+  "conditions": [
+    {
+      "condition": "claim_only_H2",
+      "checkpoint": "checkpoints/tuning_weighted/H2_seed42/best",
+      "n": 100,
+      "accuracy": 0.62,
+      "macro_f1": 0.5760522389162197,
+      "inference_seconds": 1.7232489169999998,
+      "inference_seconds_per_claim": 0.017232489169999997,
+      "prediction_counts": {
+        "0": 62,
+        "2": 17,
+        "1": 21
+      },
+      "confusion_matrix": [
+        [
+          39,
+          5,
+          3
+        ],
+        [
+          7,
+          13,
+          4
+        ],
+        [
+          16,
+          3,
+          10
+        ]
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "precision": 0.6290322580645161,
+          "recall": 0.8297872340425532,
+          "f1": 0.7155963302752294,
+          "support": 47
+        },
+        "REFUTES": {
+          "precision": 0.6190476190476191,
+          "recall": 0.5416666666666666,
+          "f1": 0.5777777777777777,
+          "support": 24
+        },
+        "NOT ENOUGH INFO": {
+          "precision": 0.5882352941176471,
+          "recall": 0.3448275862068966,
+          "f1": 0.43478260869565216,
+          "support": 29
+        }
+      }
+    },
+    {
+      "condition": "retrieved_evidence",
+      "checkpoint": "checkpoints/roberta_evidence/epoch_1",
+      "n": 100,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "inference_seconds": 1.6618939580000003,
+      "inference_seconds_per_claim": 0.016618939580000002,
+      "prediction_counts": {
+        "0": 57,
+        "1": 43
+      },
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "precision": 0.6491228070175439,
+          "recall": 0.7872340425531915,
+          "f1": 0.7115384615384616,
+          "support": 47
+        },
+        "REFUTES": {
+          "precision": 0.4186046511627907,
+          "recall": 0.75,
+          "f1": 0.5373134328358209,
+          "support": 24
+        },
+        "NOT ENOUGH INFO": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 29
+        }
+      }
+    },
+    {
+      "condition": "empty_evidence",
+      "checkpoint": "checkpoints/roberta_evidence/epoch_1",
+      "n": 100,
+      "accuracy": 0.45,
+      "macro_f1": 0.45129922999976735,
+      "inference_seconds": 1.5613075829999996,
+      "inference_seconds_per_claim": 0.015613075829999996,
+      "prediction_counts": {
+        "0": 22,
+        "2": 60,
+        "1": 18
+      },
+      "confusion_matrix": [
+        [
+          14,
+          6,
+          27
+        ],
+        [
+          2,
+          10,
+          12
+        ],
+        [
+          6,
+          2,
+          21
+        ]
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "precision": 0.6363636363636364,
+          "recall": 0.2978723404255319,
+          "f1": 0.4057971014492754,
+          "support": 47
+        },
+        "REFUTES": {
+          "precision": 0.5555555555555556,
+          "recall": 0.4166666666666667,
+          "f1": 0.47619047619047616,
+          "support": 24
+        },
+        "NOT ENOUGH INFO": {
+          "precision": 0.35,
+          "recall": 0.7241379310344828,
+          "f1": 0.47191011235955055,
+          "support": 29
+        }
+      }
+    },
+    {
+      "condition": "wrong_claim_evidence",
+      "checkpoint": "checkpoints/roberta_evidence/epoch_1",
+      "n": 100,
+      "accuracy": 0.37,
+      "macro_f1": 0.2897119341563786,
+      "inference_seconds": 1.494386540999999,
+      "inference_seconds_per_claim": 0.01494386540999999,
+      "prediction_counts": {
+        "0": 34,
+        "1": 66
+      },
+      "confusion_matrix": [
+        [
+          19,
+          28,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          9,
+          20,
+          0
+        ]
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "precision": 0.5588235294117647,
+          "recall": 0.40425531914893614,
+          "f1": 0.4691358024691358,
+          "support": 47
+        },
+        "REFUTES": {
+          "precision": 0.2727272727272727,
+          "recall": 0.75,
+          "f1": 0.4,
+          "support": 24
+        },
+        "NOT ENOUGH INFO": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 29
+        }
+      }
+    },
+    {
+      "condition": "gold_evidence_oracle",
+      "checkpoint": "checkpoints/roberta_evidence/epoch_1",
+      "n": 100,
+      "accuracy": 0.84,
+      "macro_f1": 0.8314705882352941,
+      "inference_seconds": 1.485217875,
+      "inference_seconds_per_claim": 0.01485217875,
+      "prediction_counts": {
+        "0": 55,
+        "2": 21,
+        "1": 24
+      },
+      "confusion_matrix": [
+        [
+          44,
+          3,
+          0
+        ],
+        [
+          5,
+          19,
+          0
+        ],
+        [
+          6,
+          2,
+          21
+        ]
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "precision": 0.8,
+          "recall": 0.9361702127659575,
+          "f1": 0.8627450980392157,
+          "support": 47
+        },
+        "REFUTES": {
+          "precision": 0.7916666666666666,
+          "recall": 0.7916666666666666,
+          "f1": 0.7916666666666666,
+          "support": 24
+        },
+        "NOT ENOUGH INFO": {
+          "precision": 1.0,
+          "recall": 0.7241379310344828,
+          "f1": 0.84,
+          "support": 29
+        }
+      }
+    }
+  ],
+  "notes": [
+    "All conditions evaluated on identical claim IDs.",
+    "Timing excludes retrieval and model loading; first condition may include device warmup.",
+    "Gold evidence is an oracle diagnostic and can leak label via empty NEI evidence.",
+    "Wrong-claim evidence is a deterministic cyclic shift, not gold evidence.",
+    "These are development results unless run on a held-out test set."
+  ]
+}
