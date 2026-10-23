@@ -2,7 +2,7 @@
 
 Uses the same saved FEVER retrieval predictions in both conditions.
 Symbolic decisions are SUPPORTS only for unambiguous, matched birth/death
-locations in Wikidata; unsupported/ambiguous claims abstain. This avoids
+locations, dates, occupations, and entity types in Wikidata; unsupported/ambiguous claims abstain. This avoids
 open-world REFUTES assertions. Network timing is recorded separately.
 """
 import argparse
@@ -70,7 +70,83 @@ class WikidataVerifier:
                           props="claims|labels|aliases", languages="en")
         return data.get("entities", {}).get(entity_id, {})
 
+    def claim_entity_ids(self, entity, property_id):
+        values = set()
+        for statement in entity.get("claims", {}).get(property_id, []):
+            if statement.get("rank") == "deprecated":
+                continue
+            value = statement.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+            if isinstance(value, dict) and value.get("id"):
+                values.add(value["id"])
+        return values
+
+    def verify_typed(self, claim):
+        occupation = OCCUPATION_PATTERN.fullmatch(claim.strip())
+        entity_type = TYPE_PATTERN.fullmatch(claim.strip())
+        match = occupation or entity_type
+        if not match:
+            return None
+        subject = match.group(1).strip()
+        term = match.group(2).casefold()
+        target = OCCUPATIONS[term] if occupation else TYPES[term]
+        subject_id = self.search_exact(subject)
+        if not subject_id:
+            return None, "unresolved_or_ambiguous_subject"
+        entity = self.entity(subject_id)
+        property_id = "P106" if occupation else "P31"
+        values = self.claim_entity_ids(entity, property_id)
+        if target in values:
+            return 0, f"wikidata_{property_id}_exact_match"
+        return None, "occupation_or_type_not_matched"
+
+    def verify_date(self, claim):
+        for pattern, property_id in DATE_PATTERNS:
+            match = pattern.fullmatch(claim.strip())
+            if not match:
+                continue
+            subject_id = self.search_exact(match.group(1).strip())
+            if not subject_id:
+                return None, "unresolved_or_ambiguous_subject"
+            entity = self.entity(subject_id)
+            dates = set()
+            for statement in entity.get("claims", {}).get(property_id, []):
+                if statement.get("rank") == "deprecated":
+                    continue
+                value = statement.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+                if isinstance(value, dict) and value.get("time"):
+                    dates.add(value["time"])
+            if len(dates) != 1:
+                return None, "missing_or_ambiguous_date"
+            date = next(iter(dates))
+            year_match = re.match(r"^[+-](\\d{4,})-", date)
+            if not year_match:
+                return None, "unparseable_date"
+            year = int(year_match.group(1))
+            term = match.group(2).strip().lower()
+            if term.isdigit() and len(term) == 4:
+                # Decade claims are only true when year falls within [decade, decade+9].
+                return (0, f"wikidata_{property_id}_decade_match") if int(term) <= year < int(term) + 10 else (None, "date_not_matched")
+            decades = {"sixties": 1960, "seventies": 1970, "eighties": 1980, "nineties": 1990}
+            if term in decades:
+                start = decades[term]
+                return (0, f"wikidata_{property_id}_decade_match") if start <= year < start + 10 else (None, "date_not_matched")
+            # Exact dates: avoid making claims from partial precision.
+            import datetime
+            try:
+                expected = datetime.datetime.strptime(term.replace(",", ""), "%B %d %Y")
+            except ValueError:
+                return None, "unsupported_date_format"
+            date_match = re.match(r"^[+-]\\d{4,}-(\\d{2})-(\\d{2})T", date)
+            if date_match and year == expected.year and int(date_match.group(1)) == expected.month and int(date_match.group(2)) == expected.day:
+                return 0, f"wikidata_{property_id}_exact_date_match"
+            return None, "date_not_matched"
+        return None
+
     def verify(self, claim):
+        for handler in (self.verify_typed, self.verify_date):
+            result = handler(claim)
+            if result is not None:
+                return result
         for pattern, property_id in PATTERNS:
             match = pattern.fullmatch(claim.strip())
             if not match:
@@ -171,7 +247,7 @@ def main():
             "Hybrid reuses saved retrieval-model predictions; no live retrieval or transformer timing.",
             "Calls avoided are counterfactual counts, not measured latency savings.",
             "Wikidata live HTTP response times and contents can change.",
-            "Symbolic rules cover only exact birth/death place claims; abstain otherwise.",
+            "Symbolic rules cover exact birth/death places, occupations, entity types and selected dates; abstain otherwise.",
             "A correct Wikidata property is not necessarily contemporaneous with FEVER annotations.",
             "Development sample of 100 claims; not a held-out final test."
         ],
