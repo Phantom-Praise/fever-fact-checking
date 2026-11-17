@@ -96,10 +96,12 @@ def main():
     run_id = f'{args.config}_seed{args.seed}'
     checkpoint_dir = Path('checkpoints/tuning_weighted') / run_id
     result_dir = Path('results/tuning_weighted')
-    checkpoint_dir.mkdir(parents=True, exist_ok=True)
-    result_dir.mkdir(parents=True, exist_ok=True)
     log_path = result_dir / f'{run_id}.csv'
     summary_path = result_dir / f'{run_id}_best.json'
+    if any(path.exists() for path in (checkpoint_dir, log_path, summary_path)):
+        parser.error(f'Refusing to overwrite existing run {run_id}; use a new seed/run directory')
+    checkpoint_dir.mkdir(parents=True, exist_ok=False)
+    result_dir.mkdir(parents=True, exist_ok=True)
 
     train_examples = read_jsonl(TRAIN_FILE)
     val_examples = read_jsonl(VAL_FILE)

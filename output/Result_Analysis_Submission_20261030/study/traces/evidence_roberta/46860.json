@@ -1,0 +1,62 @@
+{
+  "id": 46860,
+  "claim": "Three Days of the Condor is a 1975 spy novel.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.11839012056589127,
+    0.8814879655838013,
+    0.00012188000255264342
+  ],
+  "logits": [
+    1.1406382322311401,
+    3.1482644081115723,
+    -5.738065719604492
+  ],
+  "evidence": [
+    {
+      "page_id": "Three_Days_of_the_Condor",
+      "sentence_id": 0,
+      "text": "Three Days of the Condor -LRB- stylized on the poster art as 3 Days of the Condor -RRB- is a 1975 American political thriller film directed by Sydney Pollack and starring Robert Redford , Faye Dunaway , Cliff Robertson , and Max von Sydow .",
+      "score": 4.1
+    },
+    {
+      "page_id": "Six_Days_of_the_Condor",
+      "sentence_id": 1,
+      "text": "The story is a suspense drama set in contemporary Washington , D.C. , and is considerably different from the 1975 film version , Three Days of the Condor .",
+      "score": 4.016666666666667
+    },
+    {
+      "page_id": "Three_Days_of_the_Condor",
+      "sentence_id": 1,
+      "text": "The screenplay by Lorenzo Semple Jr. and David Rayfiel was adapted from the 1974 novel Six Days of the Condor by James Grady .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Six_Days_of_the_Condor",
+      "sentence_id": 0,
+      "text": "Six Days of the Condor is a thriller novel by American author James Grady , first published in 1974 by W.W. Norton .",
+      "score": 3.0166666666666666
+    },
+    {
+      "page_id": "Three_Days",
+      "sentence_id": 0,
+      "text": "Three Days or 3 Days may refer to :",
+      "score": 2.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 175,
+    "tokens_retained": 175,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Three Days of the Condor is a 1975 spy novel.</s></s>Three Days of the Condor -LRB- stylized on the poster art as 3 Days of the Condor -RRB- is a 1975 American political thriller film directed by Sydney Pollack and starring Robert Redford , Faye Dunaway , Cliff Robertson , and Max von Sydow . The story is a suspense drama set in contemporary Washington , D.C. , and is considerably different from the 1975 film version , Three Days of the Condor . The screenplay by Lorenzo Semple Jr. and David Rayfiel was adapted from the 1974 novel Six Days of the Condor by James Grady . Six Days of the Condor is a thriller novel by American author James Grady , first published in 1974 by W.W. Norton . Three Days or 3 Days may refer to :</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.5750259580000003
+}

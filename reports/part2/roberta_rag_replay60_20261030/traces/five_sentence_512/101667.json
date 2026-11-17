@@ -1,0 +1,69 @@
+{
+  "id": 101667,
+  "claim": "Stanley Kubrick edited his own memoir.",
+  "condition": "five_sentence_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.4052690863609314,
+    0.5942547917366028,
+    0.0004760332521982491
+  ],
+  "logits": [
+    1.7310059070587158,
+    2.113762855529785,
+    -5.015812873840332
+  ],
+  "inference_seconds": 0.11017241700000113,
+  "evidence_text": "A list of books and essays about Stanley Kubrick and his films : Stanley Kubrick -LRB- -LSB- ˈkuːbrɪk -RSB- July 26 , 1928 -- March 7 , 1999 -RRB- was an American film director , screenwriter , producer , cinematographer , editor , and photographer . Creative differences arising from his work with Douglas and the film studios , a dislike of Hollywood , and a growing concern about crime in America prompted Kubrick to move to the United Kingdom in 1961 , where he spent most of the remainder of his life and career . A demanding perfectionist , Kubrick assumed control over most aspects of the filmmaking process , from direction and writing to editing , and took painstaking care with researching his films and staging scenes , working in close coordination with his actors and other collaborators . The Stanley Kubrick Archive is held by the University of the Arts London in their Archives and Special Collection Centre at the London College of Communication .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 204,
+    "tokens_retained": 204,
+    "truncated": false,
+    "evidence_tokens_total": 191,
+    "evidence_tokens_retained": 191,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Stanley_Kubrick_bibliography",
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Stanley_Kubrick",
+        "tokens_total": 55,
+        "tokens_kept": 55,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Stanley_Kubrick",
+        "tokens_total": 50,
+        "tokens_kept": 50,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Stanley_Kubrick",
+        "tokens_total": 46,
+        "tokens_kept": 46,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Stanley_Kubrick_Archive",
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Stanley Kubrick edited his own memoir.</s></s>A list of books and essays about Stanley Kubrick and his films : Stanley Kubrick -LRB- -LSB- ˈkuːbrɪk -RSB- July 26 , 1928 -- March 7 , 1999 -RRB- was an American film director , screenwriter , producer , cinematographer , editor , and photographer . Creative differences arising from his work with Douglas and the film studios , a dislike of Hollywood , and a growing concern about crime in America prompted Kubrick to move to the United Kingdom in 1961 , where he spent most of the remainder of his life and career . A demanding perfectionist , Kubrick assumed control over most aspects of the filmmaking process , from direction and writing to editing , and took painstaking care with researching his films and staging scenes , working in close coordination with his actors and other collaborators . The Stanley Kubrick Archive is held by the University of the Arts London in their Archives and Special Collection Centre at the London College of Communication .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

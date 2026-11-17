@@ -1,0 +1,69 @@
+{
+  "id": 16200,
+  "claim": "Sunny Leone was a TV anchor.",
+  "condition": "five_sentence_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.34095683693885803,
+    0.6586867570877075,
+    0.0003563394711818546
+  ],
+  "logits": [
+    1.6613751649856567,
+    2.3198673725128174,
+    -5.202252388000488
+  ],
+  "inference_seconds": 0.11363249999999958,
+  "evidence_text": "Karenjit Kaur Vohra -LRB- born May 13 , 1981 -RRB- , known by her stage name Sunny Leone -LRB- pronounced -LSB- ˈsənē lēˈōn ' ē -RSB- -RRB- , is an actress and model , currently active in Indian film industry . Since 2011 , Leone has been married to Musician Daniel Weber . An anchor is a device , normally made of metal , used to connect a vessel to the bed of a body of water to prevent the craft from drifting due to wind or current . A sea anchor is a drogue , not in contact with the seabed , used to control a drifting vessel . Sunny may refer to :",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 165,
+    "tokens_retained": 165,
+    "truncated": false,
+    "evidence_tokens_total": 151,
+    "evidence_tokens_retained": 151,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Sunny_Leone",
+        "tokens_total": 73,
+        "tokens_kept": 73,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Sunny_Leone",
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Anchor",
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Anchor",
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Sunny",
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Sunny Leone was a TV anchor.</s></s>Karenjit Kaur Vohra -LRB- born May 13 , 1981 -RRB- , known by her stage name Sunny Leone -LRB- pronounced -LSB- ˈsənē lēˈōn ' ē -RSB- -RRB- , is an actress and model , currently active in Indian film industry . Since 2011 , Leone has been married to Musician Daniel Weber . An anchor is a device , normally made of metal , used to connect a vessel to the bed of a body of water to prevent the craft from drifting due to wind or current . A sea anchor is a drogue , not in contact with the seabed , used to control a drifting vessel . Sunny may refer to :</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

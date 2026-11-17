@@ -1,0 +1,70 @@
+{
+  "id": 42151,
+  "claim": "James Bond is portrayed by Pierce Brosnan.",
+  "condition": "five_sentence_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.988717794418335,
+    0.011207550764083862,
+    7.466286479029804e-05
+  ],
+  "logits": [
+    4.25734806060791,
+    -0.22247307002544403,
+    -5.233833312988281
+  ],
+  "inference_seconds": 0.056594207999999924,
+  "evidence_text": "In 1994 , Brosnan became the fifth actor to portray secret agent James Bond in the Eon Productions film series , starring in four films from 1995 to 2002 -LRB- GoldenEye , Tomorrow Never Dies , The World Is Not Enough and Die Another Day -RRB- . Pierce Brendan Brosnan , OBE -LRB- born 16 May 1953 -RRB- is an Irish actor , film producer , and activist who after leaving comprehensive school at age 16 , began training in commercial illustration . He lent his likeness for Bond in the video games James Bond 007 : Nightfire and James Bond 007 : Everything or Nothing , providing his voice for the latter . For the 19th-century New York politician , see James F. Pierce . James Hubert Pierce -LRB- August 8 , 1900 -- December 11 , 1983 -RRB- was the fourth actor to portray Tarzan on film .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 196,
+    "tokens_retained": 196,
+    "truncated": false,
+    "evidence_tokens_total": 183,
+    "evidence_tokens_retained": 183,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Pierce_Brosnan",
+        "tokens_total": 57,
+        "tokens_kept": 57,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Pierce_Brosnan",
+        "tokens_total": 44,
+        "tokens_kept": 44,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Pierce_Brosnan",
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "James_Pierce",
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "James_Pierce",
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>James Bond is portrayed by Pierce Brosnan.</s></s>In 1994 , Brosnan became the fifth actor to portray secret agent James Bond in the Eon Productions film series , starring in four films from 1995 to 2002 -LRB- GoldenEye , Tomorrow Never Dies , The World Is Not Enough and Die Another Day -RRB- . Pierce Brendan Brosnan , OBE -LRB- born 16 May 1953 -RRB- is an Irish actor , film producer , and activist who after leaving comprehensive school at age 16 , began training in commercial illustration . He lent his likeness for Bond in the video games James Bond 007 : Nightfire and James Bond 007 : Everything or Nothing , providing his voice for the latter . For the 19th-century New York politician , see James F. Pierce . James Hubert Pierce -LRB- August 8 , 1900 -- December 11 , 1983 -RRB- was the fourth actor to portray Tarzan on film .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

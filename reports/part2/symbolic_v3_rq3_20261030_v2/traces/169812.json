@@ -1,0 +1,116 @@
+{
+  "id": 169812,
+  "claim": "Outkast is an American hip hop duo from Atlanta.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.28783045800000195,
+      "symbolic": {
+        "claim": "Outkast is an American hip hop duo from Atlanta.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.512500000444561e-05
+      },
+      "evidence": [
+        {
+          "page_id": "ABN_-LRB-hip_hop_duo-RRB-",
+          "sentence_id": 0,
+          "text": "ABN or Assholes by Nature is an American hip hop duo , composed of Houston , Texas-based rappers Trae and Z-Ro .",
+          "score": 4.02
+        },
+        {
+          "page_id": "Dual_Core_-LRB-hip_hop_duo-RRB-",
+          "sentence_id": 0,
+          "text": "Dual Core is a nerdcore hip hop duo composed of American rapper int eighty -LRB- David Martinjak -RRB- and British producer c64 -LRB- Chris Hunger -RRB- .",
+          "score": 4.014285714285714
+        },
+        {
+          "page_id": "Atlanta_hip_hop",
+          "sentence_id": 0,
+          "text": "Although the music scene of Atlanta is rich and varied , the city 's production of hip-hop music has been especially noteworthy , acclaimed , and commercially successful .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Atlanta_hip_hop",
+          "sentence_id": 1,
+          "text": "In 2009 , the New York Times called Atlanta `` hip-hop 's center of gravity '' , and the city is home to many famous hip-hop , R&B and neo soul musicians .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Love_&_Hip_Hop-COLON-_Atlanta",
+          "sentence_id": 0,
+          "text": "Love & Hip Hop : Atlanta is the second installment of the Love & Hip Hop reality television franchise .",
+          "score": 3.05
+        }
+      ],
+      "probabilities": [
+        0.978412926197052,
+        0.021513432264328003,
+        7.376450957963243e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.11633154100000098,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "ABN_-LRB-hip_hop_duo-RRB-",
+          "sentence_id": 0,
+          "text": "ABN or Assholes by Nature is an American hip hop duo , composed of Houston , Texas-based rappers Trae and Z-Ro .",
+          "score": 4.02
+        },
+        {
+          "page_id": "Dual_Core_-LRB-hip_hop_duo-RRB-",
+          "sentence_id": 0,
+          "text": "Dual Core is a nerdcore hip hop duo composed of American rapper int eighty -LRB- David Martinjak -RRB- and British producer c64 -LRB- Chris Hunger -RRB- .",
+          "score": 4.014285714285714
+        },
+        {
+          "page_id": "Atlanta_hip_hop",
+          "sentence_id": 0,
+          "text": "Although the music scene of Atlanta is rich and varied , the city 's production of hip-hop music has been especially noteworthy , acclaimed , and commercially successful .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Atlanta_hip_hop",
+          "sentence_id": 1,
+          "text": "In 2009 , the New York Times called Atlanta `` hip-hop 's center of gravity '' , and the city is home to many famous hip-hop , R&B and neo soul musicians .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Love_&_Hip_Hop-COLON-_Atlanta",
+          "sentence_id": 0,
+          "text": "Love & Hip Hop : Atlanta is the second installment of the Love & Hip Hop reality television franchise .",
+          "score": 3.05
+        }
+      ],
+      "probabilities": [
+        0.978412926197052,
+        0.021513432264328003,
+        7.376450957963243e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06875304200000443,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.7186554670333862,
+        0.1354086995124817,
+        0.14593589305877686
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

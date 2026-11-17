@@ -1,0 +1,8 @@
+Population,Size and source,Class composition,Use,Comparison limit
+P1,"19,998 official FEVER development claims","6,666 per class",Main frozen-model comparison and 256/512 input comparison.,Do not compare directly with a small-sample percentage.
+P2,100 internal-validation claims,Original slice; not an untouched test,Evidence relevance/depth ablations with the same checkpoint.,Development diagnostic includes the earlier tuning pool.
+P3,300 official-development claims,100 per class,Original Llama 3.1 8B pilot versus neural references.,One local-model run; Telemundo kept separate.
+P4,60 internal-validation calibration claims,20 per class,Select among five predeclared configurations.,Selection data; not an unbiased final score.
+P5,120 new LLM assessment claims,40 per class,Original LLM versus the frozen selected pipeline.,"Disjoint from P4 and the earlier P3 texts; still official development, not a blind test."
+P6,20 selected cases from P3,Verifiable cases lacking a complete original annotated group,Artificial replacement with a complete gold-evidence group.,"Oracle diagnostic, not production accuracy; not an independent full sample."
+P7,100 internal held-out claims,52 SUPPORTS / 26 REFUTES / 22 NEI,Symbolic comparison and online pipeline timing.,Separate population/device conditions; never pool with P1–P6.

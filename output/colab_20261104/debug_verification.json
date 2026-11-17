@@ -1,0 +1,20 @@
+{
+  "revision": "colab-debug-v2",
+  "notebook_cells": 24,
+  "notebook_syntax": "passed",
+  "embedded_runtime_sha256": "edf927a76f7ef96076725640d404dd9879e2c1f60ced6f14cf37565a7e0e6bf6",
+  "original_bundle_reused": true,
+  "evaluation_target": 19998,
+  "cloud_gpu_execution_tested": false,
+  "real_training_or_inference_run": false,
+  "checks": [
+    "heartbeat log persistence",
+    "per-claim stage events",
+    "immutable resume",
+    "interruption leaves pending claim",
+    "consecutive invalid stop",
+    "raw-response inspector",
+    "oversized prompt retains input"
+  ],
+  "offline_unit_tests_passed": 13
+}

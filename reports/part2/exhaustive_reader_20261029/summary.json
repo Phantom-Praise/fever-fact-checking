@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "n": 10,
+  "model_correct": 2,
+  "derived_correct": 2,
+  "invalid": 7,
+  "chunks_total": 2129,
+  "chunks_processed": 2129,
+  "all_temporary_files_deleted": true,
+  "limitations": [
+    "Ten previously inspected development claims; not an unseen accuracy estimate.",
+    "All chunks delivered in completed validated calls does not prove the model understood them or extracted all relevant evidence.",
+    "Final judge reads exact quotes selected across all reader batches, not all raw article text at once.",
+    "Compared with earlier runs, batching, evidence selection, context/output budgets and prompt workflow change together.",
+    "Reference labels originate in historical FEVER; live article revisions and some reference inconsistencies can affect interpretation.",
+    "Headings, references/external links and extractor navigation exclusions follow the existing article chunker."
+  ]
+}

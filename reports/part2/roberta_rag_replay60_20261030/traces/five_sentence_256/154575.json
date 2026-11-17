@@ -1,0 +1,70 @@
+{
+  "id": 154575,
+  "claim": "A person born in Keene, New Hampshire directed Saving Private Ryan.",
+  "condition": "five_sentence_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.6303020119667053,
+    0.3689447045326233,
+    0.0007532874587923288
+  ],
+  "logits": [
+    2.0339395999908447,
+    1.498387336730957,
+    -4.695568084716797
+  ],
+  "inference_seconds": 0.05662024999999993,
+  "evidence_text": "Keene is a city in Cheshire County , New Hampshire , United States . The Beaver Mills are a historic mill complex located at 93-115 Railroad Street in Keene , New Hampshire , United States . The Colony House is a historic house at 104 West Street in Keene , New Hampshire . The Stone Arch Bridge is a stone arch railroad bridge located in Keene , Cheshire County , New Hampshire , United States . Keene is home to Keene State College and Antioch University New England and formerly hosted the state 's annual Pumpkin Festival .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 127,
+    "tokens_retained": 127,
+    "truncated": false,
+    "evidence_tokens_total": 109,
+    "evidence_tokens_retained": 109,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Keene,_New_Hampshire",
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Beaver_Mills_-LRB-Keene,_New_Hampshire-RRB-",
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Colony_House_-LRB-Keene,_New_Hampshire-RRB-",
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Stone_Arch_Bridge_-LRB-Keene,_New_Hampshire-RRB-",
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Keene,_New_Hampshire",
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>A person born in Keene, New Hampshire directed Saving Private Ryan.</s></s>Keene is a city in Cheshire County , New Hampshire , United States . The Beaver Mills are a historic mill complex located at 93-115 Railroad Street in Keene , New Hampshire , United States . The Colony House is a historic house at 104 West Street in Keene , New Hampshire . The Stone Arch Bridge is a stone arch railroad bridge located in Keene , Cheshire County , New Hampshire , United States . Keene is home to Keene State College and Antioch University New England and formerly hosted the state 's annual Pumpkin Festival .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

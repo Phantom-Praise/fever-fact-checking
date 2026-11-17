@@ -1,0 +1,46 @@
+{
+  "audit_type": "posthoc_consistency_check_not_new_annotation",
+  "models": [
+    {
+      "model": "llama3.1:8b",
+      "structurally_valid": 60,
+      "semantic_protocol_inconsistencies": 13,
+      "inconsistent_ids": [
+        "review_029",
+        "review_043",
+        "review_041",
+        "review_015",
+        "review_047",
+        "review_019",
+        "review_020",
+        "review_055",
+        "review_000",
+        "review_021",
+        "review_024",
+        "review_001",
+        "review_023"
+      ],
+      "unique_error_type_values": [
+        "NONE"
+      ]
+    },
+    {
+      "model": "gemma3:1B",
+      "structurally_valid": 60,
+      "semantic_protocol_inconsistencies": 7,
+      "inconsistent_ids": [
+        "review_040",
+        "review_004",
+        "review_044",
+        "review_031",
+        "review_017",
+        "review_054",
+        "review_023"
+      ],
+      "unique_error_type_values": [
+        "NONE"
+      ]
+    }
+  ],
+  "policy": "Preserve original model judgments. Do not convert them into corrected labels or human annotations."
+}

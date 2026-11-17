@@ -1,0 +1,45 @@
+{
+  "params": {
+    "action": "wbsearchentities",
+    "search": "Samuel Witwer",
+    "language": "en",
+    "limit": 5
+  },
+  "response": {
+    "searchinfo": {
+      "search": "Samuel Witwer"
+    },
+    "search": [
+      {
+        "id": "Q18918",
+        "title": "Q18918",
+        "pageid": 22011,
+        "concepturi": "http://www.wikidata.org/entity/Q18918",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q18918",
+        "display": {
+          "label": {
+            "value": "Sam Witwer",
+            "language": "en"
+          },
+          "description": {
+            "value": "American actor (born 1977)",
+            "language": "en"
+          }
+        },
+        "label": "Sam Witwer",
+        "description": "American actor (born 1977)",
+        "match": {
+          "type": "label",
+          "language": "fi",
+          "text": "Samuel Witwer"
+        },
+        "aliases": [
+          "Samuel Witwer"
+        ]
+      }
+    ],
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T18:31:19.690350+00:00"
+}

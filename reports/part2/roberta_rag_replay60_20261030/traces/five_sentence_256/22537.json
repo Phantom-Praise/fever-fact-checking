@@ -1,0 +1,70 @@
+{
+  "id": 22537,
+  "claim": "Stranger Things includes no psychic characters.",
+  "condition": "five_sentence_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.04179628938436508,
+    0.9581242799758911,
+    7.936063775559887e-05
+  ],
+  "logits": [
+    0.5254927277565002,
+    3.6576626300811768,
+    -5.741067886352539
+  ],
+  "inference_seconds": 0.05646325000000019,
+  "evidence_text": "Stranger Things is an American science fiction-horror web television series created , written , directed and co-executive produced by the Duffer Brothers , as well as co-executive-produced by Shawn Levy and Dan Cohen . No Stranger is Canadian singer Tom Cochrane 's fifth solo studio album and first album for Universal Music Canada released in October 2006 . No Stranger included the hits `` Did n't Mean '' , `` The Party 's Not Over '' , `` Northern Star '' , `` Out of My Head '' , and a cover version of Norman Greenbaum 's `` Spirit in the Sky '' . No Stranger received a Juno Award nomination for Canadian Adult Alternative Album of the Year . Stranger Things Have Happened may refer to :",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 160,
+    "tokens_retained": 160,
+    "truncated": false,
+    "evidence_tokens_total": 148,
+    "evidence_tokens_retained": 148,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Stranger_Things",
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "No_Stranger",
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "No_Stranger",
+        "tokens_total": 50,
+        "tokens_kept": 50,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "No_Stranger",
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Stranger_Things_Have_Happened",
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Stranger Things includes no psychic characters.</s></s>Stranger Things is an American science fiction-horror web television series created , written , directed and co-executive produced by the Duffer Brothers , as well as co-executive-produced by Shawn Levy and Dan Cohen . No Stranger is Canadian singer Tom Cochrane 's fifth solo studio album and first album for Universal Music Canada released in October 2006 . No Stranger included the hits `` Did n't Mean '' , `` The Party 's Not Over '' , `` Northern Star '' , `` Out of My Head '' , and a cover version of Norman Greenbaum 's `` Spirit in the Sky '' . No Stranger received a Juno Award nomination for Canadian Adult Alternative Album of the Year . Stranger Things Have Happened may refer to :</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

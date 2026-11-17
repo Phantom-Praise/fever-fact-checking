@@ -1,0 +1,74 @@
+{
+  "params": {
+    "action": "wbgetentities",
+    "ids": "Q1353805",
+    "props": "claims|labels|aliases",
+    "languages": "en"
+  },
+  "response": {
+    "entities": {
+      "Q1353805": {
+        "type": "item",
+        "id": "Q1353805",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Wyatt Earp"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "0ebb78ffecd3415a2dbc8db900881ff784fead2a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4167410,
+                    "id": "Q4167410"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q1353805$830B7791-44C1-4B52-9863-257BDA67EDED",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 328,
+                            "id": "Q328"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:30:10.188542+00:00"
+}

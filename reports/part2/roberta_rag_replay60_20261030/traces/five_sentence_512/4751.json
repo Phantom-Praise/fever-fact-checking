@@ -1,0 +1,69 @@
+{
+  "id": 4751,
+  "claim": "Same-sex marriage is legal in the American territory",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9747228622436523,
+    0.025162776932120323,
+    0.00011429239384597167
+  ],
+  "logits": [
+    3.8710665702819824,
+    0.21427929401397705,
+    -5.180081844329834
+  ],
+  "inference_seconds": 0.10873529200000043,
+  "evidence_text": "Same-sex marriage is legal in the overseas territories of Akrotiri and Dhekelia , Ascension Island , Bermuda , the British Antarctic Territory , the British Indian Ocean Territory , Gibraltar and the Pitcairn Islands ; and in the Crown dependencies of Guernsey and the Isle of Man . Thus , unless Congress passes a law regarding same-sex marriage for Indian tribes , federally recognized American Indian tribes have the legal right to form their own marriage laws . American Samoa is the only unincorporated territory of the United States not to have legalized same-sex marriage . Same-sex marriage is legal in the British Antarctic Territory , which is a sector of Antarctica and is one of 14 British Overseas Territories . In the late 20th century , rites of marriage for same-sex couples without legal recognition became increasingly common .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 177,
+    "tokens_retained": 177,
+    "truncated": false,
+    "evidence_tokens_total": 163,
+    "evidence_tokens_retained": 163,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Same-sex_marriage",
+        "tokens_total": 59,
+        "tokens_kept": 59,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Same-sex_marriage",
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Same-sex_marriage",
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Same-sex_marriage_in_the_British_Antarctic_Territory",
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Same-sex_marriage",
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Same-sex marriage is legal in the American territory</s></s>Same-sex marriage is legal in the overseas territories of Akrotiri and Dhekelia , Ascension Island , Bermuda , the British Antarctic Territory , the British Indian Ocean Territory , Gibraltar and the Pitcairn Islands ; and in the Crown dependencies of Guernsey and the Isle of Man . Thus , unless Congress passes a law regarding same-sex marriage for Indian tribes , federally recognized American Indian tribes have the legal right to form their own marriage laws . American Samoa is the only unincorporated territory of the United States not to have legalized same-sex marriage . Same-sex marriage is legal in the British Antarctic Territory , which is a sector of Antarctica and is one of 14 British Overseas Territories . In the late 20th century , rites of marriage for same-sex couples without legal recognition became increasingly common .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

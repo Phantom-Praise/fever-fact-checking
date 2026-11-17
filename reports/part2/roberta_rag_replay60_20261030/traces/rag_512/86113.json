@@ -1,0 +1,485 @@
+{
+  "id": 86113,
+  "claim": "Venus and Earth are 10,000 miles away from the Sun.",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.3533349335193634,
+    0.6427121758460999,
+    0.003952890634536743
+  ],
+  "logits": [
+    1.0182892084121704,
+    1.6165697574615479,
+    -3.474680185317993
+  ],
+  "inference_seconds": 0.10919170900000097,
+  "evidence_text": "\"1000 Miles Away\" – 4:34 \"1000 Miles Away\" – 4:34 7-inch single Venus de Miles is a non-competitive ride that started in 2008 with 650 riders and grew to over 2,000 riders in 2011. The Colorado course starts and ends in Prospect New Town, Longmont, Colorado, and the routes range in distance from 30 to 100 miles long. The Illinois course is new in 2012 and will start and end in Lake Forest. The festival following the ride includes gourmet lunch, spa services, a cocktail lounge, and live music. Top sponsors are Trek and WhiteWave Foods. 100% of net income from Venus de Miles benefit the students of Greenhouse Scholars, and the event raises funds to provide scholarships and other support services to approximately 16 students each year. Miles Away may refer to: \"1000 Miles Away\" is a song by Australian rock band Hoodoo Gurus. It was released in May 1991 as the second single from the group's fifth studio album, Kinky. \"1000 Miles Away\" peaked at number 37 on the Australian Singles Chart. \"1000 Miles Away\" Single by Hoodoo Gurus from the album Kinky B-side | \"I Think You Know\" Released | 6 May 1991 (1991-05-06) Length | 4:34 Label | RCA Songwriter | Dave Faulkner Producer | Hoodoo Gurus Hoodoo Gurus singles chronology \"Miss Freelove '69\" (1991) \"1000 Miles Away\" (1991) \"A Place in the Sun\" (1991) \"1000 Miles Away\" Back cover Venus de Miles is an all-women's bike ride in Colorado and Illinois. The event is organized by and benefits Greenhouse Scholars, a nonprofit organization that provides scholarship, mentorship, leadership training, and more to high-performing, under-resourced students in college. \"Stomp the Tumbarumba\" – 3:05 \"Miles Away\" (Madonna song) CD single In June 2000, Dave Faulkner said, \"Many people have told me '1000 Miles Away' is their favourite Gurus song and it's also among my top ten. There are references to airports and flying but I was writing about emotional distance rather than physical travel.\" \"I Think You Know\" – 3:30 \"I Think You Know\" – 3:30 \"Miles Away\", a 1999 song by A from 'A' vs. Monkey Kong Chart (1991) | Peak position Australia (ARIA) | 37 \"Miles Away\", a 2020 song by Knuckle Puck from 20/20 Competitor Magazine named Venus de Miles the Best Cycling Event in Colorado in 2009, and several renowned athletes ride in the event each year, including Alison Dunlap, Susie Wargin, Connie Carpenter-Phinney, Tricia Downing, and Colleen Cannon. \"Miles Away\", a 2019 song by Armin van Buuren from Balance Full Cycle, the oldest bike shop in Boulder, Colorado USA, started the Venus de Miles Bike Club in 2009 as a way to introduce women to cycling, help them train for the Venus de Miles ride, have fun, and benefit Greenhouse Scholars. The Venus Bike Club now has over 200 members and 1,000+ followers. This recreational, non-competitive, no-drop, women's cycling club is about sisterhood—supporting members' emotional and physical growth into strong, beautiful women. Mixer – Ed Stasium The crew of Royal Australian Navy frigate HMAS Canberra had an association with the song after they adopted it as their 'anthem'. Hoodoo Gurus played a concert including the Replenishment At Sea song \"1000 Miles Away\" on-board during their last voyage out of Fremantle to Fleet Base West, prior to its decommissioning in 2005. 64,000,000 = 80002 = 4003 = 206 — vigesimal \"million\" (1 alau in Mayan, 1 poaltzonxiquipilli in Nahuatl) The Allmusic review by Richard S. Ginell awarded the album 4 stars and states \"This was a rare thing, a group that could grab the public's attention and gently lead them into more difficult idioms without pandering or condescension\". Producer – Hoodoo Gurus Miles Away (band), an Australian hardcore punk band In scientific notation, it is written as 107. \"Miles Away\" (Winger song) The album just scrapped the charts, peaking at No. 186 on the Billboard Top LPs in late 1967, during a two-week run on the chart.",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 955,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 937,
+    "evidence_tokens_retained": 494,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 14967309,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 14967309,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 14967309,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 26766331,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 26766331,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 26766331,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 26766331,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 26766331,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 26766331,
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 17931437,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 14967309,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 14967309,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 14967309,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 14967309,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 14967309,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 14967309,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 14967309,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 14967309,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 14967309,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 14967309,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 14967309,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 14967309,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 14967309,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 14967309,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 14967309,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 14967309,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 26766331,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 26766331,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 14967309,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 17931437,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 14967309,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 14967309,
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 14967309,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 14967309,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 14967309,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 17931437,
+        "tokens_total": 16,
+        "tokens_kept": 15,
+        "visibility": "partial"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 17931437,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 14967309,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 14967309,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 17931437,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 26766331,
+        "tokens_total": 54,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 17931437,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 26766331,
+        "tokens_total": 50,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 26766331,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 26766331,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 14967309,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 14967309,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 14967309,
+        "tokens_total": 45,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 2847917,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 24869963,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 24869963,
+        "tokens_total": 42,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 14967309,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 17931437,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 2847917,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 17931437,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 24869963,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 24869963,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Venus and Earth are 10,000 miles away from the Sun.</s></s>\"1000 Miles Away\" – 4:34 \"1000 Miles Away\" – 4:34 7-inch single Venus de Miles is a non-competitive ride that started in 2008 with 650 riders and grew to over 2,000 riders in 2011. The Colorado course starts and ends in Prospect New Town, Longmont, Colorado, and the routes range in distance from 30 to 100 miles long. The Illinois course is new in 2012 and will start and end in Lake Forest. The festival following the ride includes gourmet lunch, spa services, a cocktail lounge, and live music. Top sponsors are Trek and WhiteWave Foods. 100% of net income from Venus de Miles benefit the students of Greenhouse Scholars, and the event raises funds to provide scholarships and other support services to approximately 16 students each year. Miles Away may refer to: \"1000 Miles Away\" is a song by Australian rock band Hoodoo Gurus. It was released in May 1991 as the second single from the group's fifth studio album, Kinky. \"1000 Miles Away\" peaked at number 37 on the Australian Singles Chart. \"1000 Miles Away\" Single by Hoodoo Gurus from the album Kinky B-side | \"I Think You Know\" Released | 6 May 1991 (1991-05-06) Length | 4:34 Label | RCA Songwriter | Dave Faulkner Producer | Hoodoo Gurus Hoodoo Gurus singles chronology \"Miss Freelove '69\" (1991) \"1000 Miles Away\" (1991) \"A Place in the Sun\" (1991) \"1000 Miles Away\" Back cover Venus de Miles is an all-women's bike ride in Colorado and Illinois. The event is organized by and benefits Greenhouse Scholars, a nonprofit organization that provides scholarship, mentorship, leadership training, and more to high-performing, under-resourced students in college. \"Stomp the Tumbarumba\" – 3:05 \"Miles Away\" (Madonna song) CD single In June 2000, Dave Faulkner said, \"Many people have told me '1000 Miles Away' is their favourite Gurus song and it's also among my top ten. There are references to airports and flying but I was writing about emotional distance rather than physical travel.\" \"I Think You Know\" – 3:30 \"I Think You Know\" – 3:30 \"Miles Away\", a 1999 song by A from 'A' vs</s>"
+  }
+}

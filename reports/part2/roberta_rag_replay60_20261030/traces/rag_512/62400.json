@@ -1,0 +1,357 @@
+{
+  "id": 62400,
+  "claim": "In Secret was based in 1911.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.5533225536346436,
+    0.4405706226825714,
+    0.00610690051689744
+  ],
+  "logits": [
+    1.342050552368164,
+    1.1141802072525024,
+    -3.16447114944458
+  ],
+  "inference_seconds": 0.11005008300000085,
+  "evidence_text": "The ads were aired on TV since April 10, 2008, and on the same day the video also was released on the MTV Japan channel and a special page of MTV Japan website \"MTV meets PTV\". Since 25 April 2008, the making-of processes of the video were repeatedly broadcast on the channel. The music video of Secret Secret was directed by Yuichi Kodama. The video shares the same concept with the ads for Japanese long-seller ice cream called \"Pino\" from Morinaga Milk Industry. The video and ads were produced by MTV Japan with the cooperation of Morinaga Milk Industry. The video starts with the logo \"PTV\" (Pino TV), a fictional TV station that parodies MTV. At first, the three mannequins, which look like the three members, stand on the stage, being adjusted by three assistants dressed in black. As the assistants walk away, the mannequins turn into the three Perfume members. Once the assistants have them eat a Pino piece, they are energized and suddenly begin to dance. At first, they wear grey-based uniforms and dance on the plain stage. In the next part, they dance wearing the clothes from their 3rd major single, Electro World, and partly feature the dance of their 2nd major single, Computer City. In the last part, the group finally becomes famous, and with an introduction by a blonde mushroom-haired host (played by Utamaru (宇多丸)), they dance in gorgeous dresses on the music program but with sad smiles. In the end, the February 19 February February 15 February 18 1911 June 13 February 23 January 11 August 11 August 11 August 1 \"Secret Secret\" (シークレットシークレット Shīkuretto Shīkuretto) is a song by Japanese electropop unit Perfume. The song is the 9th song of their 2nd album GAME. August January August 17 April 14 February 4 June 24 June 28 June 28 January 26 August 23 January 17 June April 3 January 3 January 3",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 433,
+    "tokens_retained": 433,
+    "truncated": false,
+    "evidence_tokens_total": 422,
+    "evidence_tokens_retained": 422,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 31347887,
+        "tokens_total": 42,
+        "tokens_kept": 42,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 31347887,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 31347887,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 31347887,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 31347887,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 31347887,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 31347887,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 31347887,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 31347887,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 31347887,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 31347887,
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 31347887,
+        "tokens_total": 49,
+        "tokens_kept": 49,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 31347887,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 34605,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 31106191,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 31347887,
+        "tokens_total": 37,
+        "tokens_kept": 37,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 31347887,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 34605,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 34605,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 34605,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 34605,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>In Secret was based in 1911.</s></s>The ads were aired on TV since April 10, 2008, and on the same day the video also was released on the MTV Japan channel and a special page of MTV Japan website \"MTV meets PTV\". Since 25 April 2008, the making-of processes of the video were repeatedly broadcast on the channel. The music video of Secret Secret was directed by Yuichi Kodama. The video shares the same concept with the ads for Japanese long-seller ice cream called \"Pino\" from Morinaga Milk Industry. The video and ads were produced by MTV Japan with the cooperation of Morinaga Milk Industry. The video starts with the logo \"PTV\" (Pino TV), a fictional TV station that parodies MTV. At first, the three mannequins, which look like the three members, stand on the stage, being adjusted by three assistants dressed in black. As the assistants walk away, the mannequins turn into the three Perfume members. Once the assistants have them eat a Pino piece, they are energized and suddenly begin to dance. At first, they wear grey-based uniforms and dance on the plain stage. In the next part, they dance wearing the clothes from their 3rd major single, Electro World, and partly feature the dance of their 2nd major single, Computer City. In the last part, the group finally becomes famous, and with an introduction by a blonde mushroom-haired host (played by Utamaru (宇多丸)), they dance in gorgeous dresses on the music program but with sad smiles. In the end, the February 19 February February 15 February 18 1911 June 13 February 23 January 11 August 11 August 11 August 1 \"Secret Secret\" (シークレットシークレット Shīkuretto Shīkuretto) is a song by Japanese electropop unit Perfume. The song is the 9th song of their 2nd album GAME. August January August 17 April 14 February 4 June 24 June 28 June 28 January 26 August 23 January 17 June April 3 January 3 January 3</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

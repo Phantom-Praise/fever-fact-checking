@@ -1,0 +1,116 @@
+{
+  "id": 200216,
+  "claim": "Dominick Dunne had involvement in the film Panic in Needle Park.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.13353158399999998,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Dominick_Dunne",
+          "sentence_id": 3,
+          "text": "He began his career as a producer in film and television , noted for involvement with the pioneering gay film The Boys in the Band -LRB- 1970 -RRB- and the award winning drug film Panic in Needle Park -LRB- 1971 -RRB- .",
+          "score": 5.1
+        },
+        {
+          "page_id": "The_Panic_in_Needle_Park",
+          "sentence_id": 0,
+          "text": "The Panic in Needle Park is a 1971 American romantic drama film directed by Jerry Schatzberg and starring Al Pacino , in his second film appearance .",
+          "score": 4.05
+        },
+        {
+          "page_id": "The_Panic_in_Needle_Park",
+          "sentence_id": 4,
+          "text": "The film portrays life among a group of heroin addicts who hang out in `` Needle Park '' -LRB- then-nickname of Sherman Square on Manhattan 's Upper West Side near 72nd Street and Broadway -RRB- .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Dominick_Dunne",
+          "sentence_id": 0,
+          "text": "Dominick John Dunne -LRB- October 29 , 1925 -- August 26 , 2009 -RRB- was an American producer , writer and investigative journalist .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Dominick_Dunne-COLON-_After_the_Party",
+          "sentence_id": 0,
+          "text": "Dominick Dunne : After the Party is a 2008 documentary directed by Kirsty de Garis and Timothy Jolley .",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.9902094602584839,
+        0.009680565446615219,
+        0.00011005615670001134
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.1267378749999999,
+      "symbolic": {
+        "claim": "Dominick Dunne had involvement in the film Panic in Needle Park.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.5000000001208491e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Dominick_Dunne",
+          "sentence_id": 3,
+          "text": "He began his career as a producer in film and television , noted for involvement with the pioneering gay film The Boys in the Band -LRB- 1970 -RRB- and the award winning drug film Panic in Needle Park -LRB- 1971 -RRB- .",
+          "score": 5.1
+        },
+        {
+          "page_id": "The_Panic_in_Needle_Park",
+          "sentence_id": 0,
+          "text": "The Panic in Needle Park is a 1971 American romantic drama film directed by Jerry Schatzberg and starring Al Pacino , in his second film appearance .",
+          "score": 4.05
+        },
+        {
+          "page_id": "The_Panic_in_Needle_Park",
+          "sentence_id": 4,
+          "text": "The film portrays life among a group of heroin addicts who hang out in `` Needle Park '' -LRB- then-nickname of Sherman Square on Manhattan 's Upper West Side near 72nd Street and Broadway -RRB- .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Dominick_Dunne",
+          "sentence_id": 0,
+          "text": "Dominick John Dunne -LRB- October 29 , 1925 -- August 26 , 2009 -RRB- was an American producer , writer and investigative journalist .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Dominick_Dunne-COLON-_After_the_Party",
+          "sentence_id": 0,
+          "text": "Dominick Dunne : After the Party is a 2008 documentary directed by Kirsty de Garis and Timothy Jolley .",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.9902094602584839,
+        0.009680565446615219,
+        0.00011005615670001134
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0567610409999979,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.6864981651306152,
+        0.061271462589502335,
+        0.25223034620285034
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "id": 86869,
+  "claim": "The Netherlands hosts the Oscars.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.7030431628227234,
+    0.2915465831756592,
+    0.005410210695117712
+  ],
+  "logits": [
+    1.6919171810150146,
+    0.8116987347602844,
+    -3.175212860107422
+  ],
+  "inference_seconds": 0.1078922079999991,
+  "evidence_text": "Netherlands Named after Prince Oscar (1829 – 1907), later King Oscar II of Norway (1872 - 1905) and Sweden (1872 - 1907). This vote was held in Zürich on 1 July 1992. Only one round of voting was required to have France assume the hosting job over Morocco. Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam However, in June 2018, FIFA executive committee member and crown prince and regent of Pahang, Tengku Abdullah who is also the former president of the Football Association of Malaysia (FAM) expressed interest in joining the three countries in hosting the World Cup together. The four countries have jointly hosted a football event before during the 2007 AFC Asian Cup: if the FAM agrees to rejoin the project, they would be the first to submit a four-country joint bid in the FIFA World Cup history. Host voting, handled by the then-FIFA Executive Committee (or Exco), met in Stockholm, Sweden on 9 June 1974 and ratified the unopposed Colombian bid. 2018 Bids Belgium and Netherlands England Portugal and Spain Russia | | 2022 Bids Australia Japan Qatar South Korea United States Results: Results: Results: Results: Results: Results: Results: Results: Results: Results: Result: Result: Result: Result: Result: Result: A number of significant buildings are located along Kong Oscars gate. The street's south-eastern end is at Stadsporten, the old city gate of Bergen. The intersection between Kong Oscars gate and Strømgaten, further north, is the location of Zander Kaae's Foundation (Zander Kaaes stiftelse, Kong Oscars gate 67), built in the 18th century for a charity and now the rooms are rented to students. On the west side of the intersection is St. Jørgens hospital, an 18th-century leprosy hospital and today a leprosy museum. Directly north of the museum is Danckert Krohn's Foundation, another charity for the elderly, built in the late 18th century. In September 2017, the Thai League 1 Deputy CEO Benjamin Tan, at the ASEAN Football Federation (AFF) Council meeting, confirmed that his Association has \"put in their interest to bid and co-host\" the 2034 World Cup with Indonesia. On the same occasion, the General Secretary of the AFF, Dato Sri Azzuddin Ahmad, confirmed that Indonesia and Thailand will submit a joint bid. Indonesia is the only Southeast Asian country to have participated in the World Cup, when the territory was known as the Dutch East Indies. Bids: Bids: Bids: Bids: Bids:",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 565,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 555,
+    "evidence_tokens_retained": 502,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 4743361,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 34902628,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 4743361,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 4743361,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 4743361,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 4743361,
+        "tokens_total": 55,
+        "tokens_kept": 55,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 4743361,
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 4743361,
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 4743361,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 4743361,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 23422445,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 23422445,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 23422445,
+        "tokens_total": 58,
+        "tokens_kept": 58,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 23422445,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 23422445,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 23422445,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 4743361,
+        "tokens_total": 52,
+        "tokens_kept": 52,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 4743361,
+        "tokens_total": 32,
+        "tokens_kept": 20,
+        "visibility": "partial"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 4743361,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 4743361,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 4743361,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 4743361,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 4743361,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 4743361,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>The Netherlands hosts the Oscars.</s></s>Netherlands Named after Prince Oscar (1829 – 1907), later King Oscar II of Norway (1872 - 1905) and Sweden (1872 - 1907). This vote was held in Zürich on 1 July 1992. Only one round of voting was required to have France assume the hosting job over Morocco. Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand and Vietnam However, in June 2018, FIFA executive committee member and crown prince and regent of Pahang, Tengku Abdullah who is also the former president of the Football Association of Malaysia (FAM) expressed interest in joining the three countries in hosting the World Cup together. The four countries have jointly hosted a football event before during the 2007 AFC Asian Cup: if the FAM agrees to rejoin the project, they would be the first to submit a four-country joint bid in the FIFA World Cup history. Host voting, handled by the then-FIFA Executive Committee (or Exco), met in Stockholm, Sweden on 9 June 1974 and ratified the unopposed Colombian bid. 2018 Bids Belgium and Netherlands England Portugal and Spain Russia | | 2022 Bids Australia Japan Qatar South Korea United States Results: Results: Results: Results: Results: Results: Results: Results: Results: Results: Result: Result: Result: Result: Result: Result: A number of significant buildings are located along Kong Oscars gate. The street's south-eastern end is at Stadsporten, the old city gate of Bergen. The intersection between Kong Oscars gate and Strømgaten, further north, is the location of Zander Kaae's Foundation (Zander Kaaes stiftelse, Kong Oscars gate 67), built in the 18th century for a charity and now the rooms are rented to students. On the west side of the intersection is St. Jørgens hospital, an 18th-century leprosy hospital and today a leprosy museum. Directly north of the museum is Danckert Krohn's Foundation, another charity for the elderly, built in the late 18th century. In September 2017, the Thai League 1 Deputy CEO Benjamin Tan, at the ASEAN Football Federation (AFF) Council meeting, confirmed that his Association has \"put in their interest to bid and co-host\" the 2034 World Cup with Indonesia. On the same occasion, the General Secretary of the AFF, Dato Sri Azzuddin Ahmad</s>"
+  }
+}

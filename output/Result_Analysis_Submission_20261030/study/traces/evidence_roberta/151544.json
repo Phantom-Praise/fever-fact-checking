@@ -1,0 +1,62 @@
+{
+  "id": 151544,
+  "claim": "Eddie Redmayne acted in Italy.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.16295719146728516,
+    0.8368973731994629,
+    0.00014541963173542172
+  ],
+  "logits": [
+    1.312703013420105,
+    2.9489169120788574,
+    -5.708916664123535
+  ],
+  "evidence": [
+    {
+      "page_id": "Redmayne",
+      "sentence_id": 8,
+      "text": "Eddie Redmayne -LRB- born 1982 -RRB- , English actor and model",
+      "score": 2.05
+    },
+    {
+      "page_id": "Eddie_Redmayne",
+      "sentence_id": 0,
+      "text": "Edward John David Redmayne , -LRB- -LSB- ` rɛdˌmeɪn -RSB- born 6 January 1982 -RRB- is an English actor of stage and screen .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Eddie_Redmayne",
+      "sentence_id": 2,
+      "text": "Redmayne began his professional acting career as a youth in West End theatre before making his screen debut in 1998 with guest appearances on television .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Eddie_Redmayne",
+      "sentence_id": 6,
+      "text": "Redmayne also starred in the stage productions of Red -LRB- 2009 -- 10 -RRB- and Richard II -LRB- 2011 -- 12 -RRB- .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Eddie_Redmayne",
+      "sentence_id": 9,
+      "text": "In 2014 , Redmayne portrayed English physicist Stephen Hawking in The Theory of Everything , winning an Academy Award , a Golden Globe Award and a BAFTA Award for Best Actor .",
+      "score": 1.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 182,
+    "tokens_retained": 182,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Eddie Redmayne acted in Italy.</s></s>Eddie Redmayne -LRB- born 1982 -RRB- , English actor and model Edward John David Redmayne , -LRB- -LSB- ` rɛdˌmeɪn -RSB- born 6 January 1982 -RRB- is an English actor of stage and screen . Redmayne began his professional acting career as a youth in West End theatre before making his screen debut in 1998 with guest appearances on television . Redmayne also starred in the stage productions of Red -LRB- 2009 -- 10 -RRB- and Richard II -LRB- 2011 -- 12 -RRB- . In 2014 , Redmayne portrayed English physicist Stephen Hawking in The Theory of Everything , winning an Academy Award , a Golden Globe Award and a BAFTA Award for Best Actor .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.07408587499999975
+}

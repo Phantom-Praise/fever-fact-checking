@@ -1,0 +1,69 @@
+{
+  "id": 218283,
+  "claim": "Dwayne Johnson is a professional skateboarder.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.8903980851173401,
+    0.10932417958974838,
+    0.0002776620676741004
+  ],
+  "logits": [
+    3.030397891998291,
+    0.9330467581748962,
+    -5.042620658874512
+  ],
+  "inference_seconds": 0.11546399999999934,
+  "evidence_text": "Dwayne Douglas Johnson -LRB- born May 2 , 1972 -RRB- , also known by his ring name , The Rock , is an American actor , producer , and professional wrestler . Professional-wrestler turned actor Dwayne Johnson made his lead acting debut in 2002 with The Scorpion King , a prequel to The Mummy Returns -LRB- 2001 -RRB- . Marc Johnson -LRB- born January 6 , 1977 -RRB- is an American professional skateboarder who is best known for founding the Enjoi skateboard brand and receiving the Thrasher `` Skater of the Year '' award in 2007 . This led him to become a professional wrestler like his grandfather , Peter Maivia , and his father , Rocky Johnson , from whom he also inherited his Canadian citizenship . Dwayne Anderson , II -LRB- born June 22 , 1986 -RRB- is a former American professional basketball player and basketball coach .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 206,
+    "tokens_retained": 206,
+    "truncated": false,
+    "evidence_tokens_total": 192,
+    "evidence_tokens_retained": 192,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Dwayne_Johnson",
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Dwayne_Johnson_filmography",
+        "tokens_total": 40,
+        "tokens_kept": 40,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Marc_Johnson_-LRB-skateboarder-RRB-",
+        "tokens_total": 52,
+        "tokens_kept": 52,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Dwayne_Johnson",
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Dwayne_Anderson",
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Dwayne Johnson is a professional skateboarder.</s></s>Dwayne Douglas Johnson -LRB- born May 2 , 1972 -RRB- , also known by his ring name , The Rock , is an American actor , producer , and professional wrestler . Professional-wrestler turned actor Dwayne Johnson made his lead acting debut in 2002 with The Scorpion King , a prequel to The Mummy Returns -LRB- 2001 -RRB- . Marc Johnson -LRB- born January 6 , 1977 -RRB- is an American professional skateboarder who is best known for founding the Enjoi skateboard brand and receiving the Thrasher `` Skater of the Year '' award in 2007 . This led him to become a professional wrestler like his grandfather , Peter Maivia , and his father , Rocky Johnson , from whom he also inherited his Canadian citizenship . Dwayne Anderson , II -LRB- born June 22 , 1986 -RRB- is a former American professional basketball player and basketball coach .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

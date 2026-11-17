@@ -1,0 +1,14 @@
+{
+  "pid": 22037,
+  "command": [
+    "/usr/bin/caffeinate",
+    "-i",
+    "/Users/praiseben/.pyenv/versions/3.9.18/bin/python3.9",
+    "/Users/praiseben/fever-fact-checking/reports/part2/ollama_full_dev_20261028/run_approved_batch.py"
+  ],
+  "approved_conditions": [
+    "A_original",
+    "D_both"
+  ],
+  "no_retraining": true
+}

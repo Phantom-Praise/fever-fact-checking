@@ -1,0 +1,69 @@
+{
+  "id": 130494,
+  "claim": "The Weeknd does not have a debut album.",
+  "condition": "five_sentence_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.03962274640798569,
+    0.9603005051612854,
+    7.683633884880692e-05
+  ],
+  "logits": [
+    0.49748915433883667,
+    3.6853320598602295,
+    -5.747991561889648
+  ],
+  "inference_seconds": 0.11039212500000062,
+  "evidence_text": "In 2013 , he released his debut studio album Kiss Land , which debuted at number two on the Billboard 200 . The Weeknd released his second album , Beauty Behind the Madness , in 2015 , breaking chart records in the process . The album 's title track topped the chart in several countries , including the U.S. , the UK and Canada , and became The Weeknd 's third number-one single . Does -LRB- album -RRB- , an album by rock/jazz band The Slip Canadian singer and songwriter The Weeknd has released three studio albums , three mixtapes , and one compilation album , Trilogy -LRB- 2012 -RRB- , which is the compilation of all three of his mixtapes : House of Balloons , Thursday , and Echoes of Silence .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 178,
+    "tokens_retained": 178,
+    "truncated": false,
+    "evidence_tokens_total": 164,
+    "evidence_tokens_retained": 164,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "The_Weeknd",
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "The_Weeknd",
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "The_Weeknd",
+        "tokens_total": 38,
+        "tokens_kept": 38,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Does",
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "The_Weeknd_discography",
+        "tokens_total": 60,
+        "tokens_kept": 60,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>The Weeknd does not have a debut album.</s></s>In 2013 , he released his debut studio album Kiss Land , which debuted at number two on the Billboard 200 . The Weeknd released his second album , Beauty Behind the Madness , in 2015 , breaking chart records in the process . The album 's title track topped the chart in several countries , including the U.S. , the UK and Canada , and became The Weeknd 's third number-one single . Does -LRB- album -RRB- , an album by rock/jazz band The Slip Canadian singer and songwriter The Weeknd has released three studio albums , three mixtapes , and one compilation album , Trilogy -LRB- 2012 -RRB- , which is the compilation of all three of his mixtapes : House of Balloons , Thursday , and Echoes of Silence .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

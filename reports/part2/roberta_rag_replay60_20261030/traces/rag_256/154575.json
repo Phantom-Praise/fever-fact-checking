@@ -1,0 +1,365 @@
+{
+  "id": 154575,
+  "claim": "A person born in Keene, New Hampshire directed Saving Private Ryan.",
+  "condition": "rag_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.37626853585243225,
+    0.6192588806152344,
+    0.00447258772328496
+  ],
+  "logits": [
+    1.0135332345962524,
+    1.5117535591125488,
+    -3.418802499771118
+  ],
+  "inference_seconds": 0.05600308300000023,
+  "evidence_text": "Keene Free Keene Robert Rodat (c. 1960), film and television writer In the 2020 United States census, the city's population was 23,047. Keene is a strongly Democratic-leaning city at the presidential level, as no Republican presidential nominee has carried the city in over two decades. Keene is a city in Cheshire County, New Hampshire, United States. Its population was 23,047 at the 2020 census, down from 23,409 at the 2010 census, and an estimated 23,072 in 2025. It is the county seat and the only city in Cheshire County. In the New Hampshire Senate, Keene is included in the 10th District and is represented by Democrat Donovan Fenton. On the New Hampshire Executive Council, Keene is in the 2nd District and is represented by Democrat Karen Liot Hill. In the United States House of Representatives, Keene is a part of New Hampshire's 2nd Congressional District and is currently represented by Democrat Maggie Goodlander. Duncan Watson (born 1963), former child actor Ernest Hebert (born 1941), author The Keene Sentinel Several media sources are located in Keene: The 1949 movie Lost Boundaries, starring Mel Ferrer, tells the true story of a black Keene physician who passed as white for many years. The film won the 1949 Cannes Film Festival award for best screenplay. AM Heather Wilson (born 1960), U.S. Secretary of the Air Force Horatio Colony Jr. (1900–1977), poet, playwright, and businessman Terry Pindell, travel writer Salma Hale (1787–1866), U.S. congressman from New Hampshire When Elderly Attack (season 8) W288BN 105.5 (Country, Translator of WYRY) Listed on the National Register of Historic Places: WSNI 97.7 (Adult Contemporary, Sunny 97). WSNI changed its city of license from Swanzey to Keene in September 2009. Adam \"Adeem\" Arnone (born 1978), American rapper Samuel W. Hale (1823–1891), 39th Governor of New Hampshire Free Talk Live, a nationally syndicated radio talk show, is based in Keene. Einbeck, in Germany, is a partner city. Michael Dubruiel (1958–2009), Catholic author As of the 2020 census, Keene had a population of 23,047. The median age was 37.8 years. 16.7% of residents were under the age of 18 and 19.6% of residents were 65 years of age or older. For every 100 females there were 92.8 males, and for every 100 females age 18 and over there were 90.6 males age 18 and over. Jimmy Cochran (born 1981), Olympic alpine skier Samuel Dinsmoor (1766–1835), fourteenth Governor of New Hampshire Christopher Cantwell (born 1980), white nationalist, federal informant, convicted felon",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 617,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 599,
+    "evidence_tokens_retained": 238,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 21134,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 21134,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 124546,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 124546,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 124546,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 124546,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 124546,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 124546,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 124546,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 124546,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 124546,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 124546,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 124546,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 124546,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 124546,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 124546,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 124546,
+        "tokens_total": 30,
+        "tokens_kept": 6,
+        "visibility": "partial"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 124546,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 124546,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 124546,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 124546,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 124546,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 124546,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 124546,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 124546,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 124546,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 124546,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 124546,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 124546,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 124546,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 124546,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 124546,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 124546,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 124546,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 124546,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 124546,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 124546,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 124546,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 124546,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 124546,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 124546,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 124546,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>A person born in Keene, New Hampshire directed Saving Private Ryan.</s></s>Keene Free Keene Robert Rodat (c. 1960), film and television writer In the 2020 United States census, the city's population was 23,047. Keene is a strongly Democratic-leaning city at the presidential level, as no Republican presidential nominee has carried the city in over two decades. Keene is a city in Cheshire County, New Hampshire, United States. Its population was 23,047 at the 2020 census, down from 23,409 at the 2010 census, and an estimated 23,072 in 2025. It is the county seat and the only city in Cheshire County. In the New Hampshire Senate, Keene is included in the 10th District and is represented by Democrat Donovan Fenton. On the New Hampshire Executive Council, Keene is in the 2nd District and is represented by Democrat Karen Liot Hill. In the United States House of Representatives, Keene is a part of New Hampshire's 2nd Congressional District and is currently represented by Democrat Maggie Goodlander. Duncan Watson (born 1963), former child actor Ernest Hebert (born 1941), author The Keene Sentinel Several media sources are located in Keene: The 1949 movie Lost Boundaries</s>"
+  }
+}

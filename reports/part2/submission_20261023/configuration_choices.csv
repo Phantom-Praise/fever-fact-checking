@@ -1,0 +1,6 @@
+family,checkpoint,selected,reason
+claim_only,checkpoints/tuning_weighted/H2_seed42/best,True,H2 epoch 2 has highest validation macro-F1 (0.620249) among H1-H4 and highest accuracy (0.6775) on the same 2000 claims.
+evidence_roberta,checkpoints/roberta_evidence/epoch_1,True,Epoch 1 exceeds epoch 2 in gold-evidence validation macro-F1 (0.933485 vs 0.931286). This selection does not validate retrieved-evidence transfer.
+retrieval,title_fast_top5,True,Top-5 reproduces the existing paired condition; top-10 ties first100 accuracy but has lower macro-F1. Selection is provisional on development data.
+symbolic_hybrid,v2_experimental_abstaining,False,V1 and V2 resolve zero first100 claims. Keep v2 as a reported variant; no accuracy/efficiency case for selecting it.
+llm_judge,llama3.2:latest (digest recorded in local pilot manifest),False,"Pilot comparator chosen for already installed local availability, not tuned or selected by performance. No final LLM selection from this small pilot."

@@ -1,0 +1,116 @@
+{
+  "id": 22754,
+  "claim": "Mitt Romney lost an election.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.10042983399999983,
+      "symbolic": {
+        "claim": "Mitt Romney lost an election.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.070799999958183e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Mitt_Romney",
+          "sentence_id": 0,
+          "text": "Willard Mitt Romney -LRB- born March 12 , 1947 -RRB- is an American businessman and politician who served as the 70th Governor of Massachusetts from 2003 to 2007 and the Republican Party 's nominee for President of the United States in the 2012 election .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Mitt_Romney_presidential_campaign,_2008",
+          "sentence_id": 0,
+          "text": "The Mitt Romney presidential campaign of 2008 began on January 3 , 2007 , two days before Mitt Romney left office as governor of Massachusetts , when he filed to form an exploratory committee with the Federal Election Commission to run for President of the United States as a Republican in the 2008 election .",
+          "score": 3.0125
+        },
+        {
+          "page_id": "Political_positions_of_Mitt_Romney",
+          "sentence_id": 0,
+          "text": "The political positions of Mitt Romney have been recorded from his 1994 U.S. senatorial campaign , the 2002 gubernatorial election , during his 2003 -- 2007 governorship , during his 2008 U.S. presidential campaign , in his 2010 book No Apology : The Case for American Greatness , and during his 2012 U.S. presidential campaign .",
+          "score": 3.01
+        },
+        {
+          "page_id": "Mitt_Romney",
+          "sentence_id": 15,
+          "text": "After stepping down from Bain Capital and his local leadership role in the LDS Church , Romney ran as the Republican candidate in the 1994 Massachusetts election for U.S. Senate .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Mitt_Romney",
+          "sentence_id": 27,
+          "text": "Following his term as Governor of Massachusetts in 2007 , Romney was the Republican Party 's nominee for President of the United States in the 2012 election .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.18484711647033691,
+        0.8149844408035278,
+        0.0001684320013737306
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08722708300000015,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Mitt_Romney",
+          "sentence_id": 0,
+          "text": "Willard Mitt Romney -LRB- born March 12 , 1947 -RRB- is an American businessman and politician who served as the 70th Governor of Massachusetts from 2003 to 2007 and the Republican Party 's nominee for President of the United States in the 2012 election .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Mitt_Romney_presidential_campaign,_2008",
+          "sentence_id": 0,
+          "text": "The Mitt Romney presidential campaign of 2008 began on January 3 , 2007 , two days before Mitt Romney left office as governor of Massachusetts , when he filed to form an exploratory committee with the Federal Election Commission to run for President of the United States as a Republican in the 2008 election .",
+          "score": 3.0125
+        },
+        {
+          "page_id": "Political_positions_of_Mitt_Romney",
+          "sentence_id": 0,
+          "text": "The political positions of Mitt Romney have been recorded from his 1994 U.S. senatorial campaign , the 2002 gubernatorial election , during his 2003 -- 2007 governorship , during his 2008 U.S. presidential campaign , in his 2010 book No Apology : The Case for American Greatness , and during his 2012 U.S. presidential campaign .",
+          "score": 3.01
+        },
+        {
+          "page_id": "Mitt_Romney",
+          "sentence_id": 15,
+          "text": "After stepping down from Bain Capital and his local leadership role in the LDS Church , Romney ran as the Republican candidate in the 1994 Massachusetts election for U.S. Senate .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Mitt_Romney",
+          "sentence_id": 27,
+          "text": "Following his term as Governor of Massachusetts in 2007 , Romney was the Republican Party 's nominee for President of the United States in the 2012 election .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.18484711647033691,
+        0.8149844408035278,
+        0.0001684320013737306
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05639083400000011,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.7919844388961792,
+        0.04279186204075813,
+        0.16522376239299774
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

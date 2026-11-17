@@ -1,0 +1,116 @@
+{
+  "id": 9609,
+  "claim": "Cate Blanchett won a BAFTA for Best Actress.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05797629100000279,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5980085134506226,
+        0.07979834824800491,
+        0.3221931457519531
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07980466700000122,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Cate_Blanchett",
+          "sentence_id": 2,
+          "text": "Blanchett came to international attention for her role as Elizabeth I of England in Shekhar Kapur 's 1998 film Elizabeth , for which she won the BAFTA Award for Best Actress , the Golden Globe Award , and earned her first Academy Award for Best Actress nomination .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Cate_Blanchett_on_screen_and_stage",
+          "sentence_id": 25,
+          "text": "For her performance as the titular socialite in Woody Allen 's 2013 drama Blue Jasmine , Blanchett won the Golden Globe , the BAFTA Award , the SAG Award and the Academy Award for Best Actress .",
+          "score": 5.033333333333333
+        },
+        {
+          "page_id": "Cate_Blanchett_on_screen_and_stage",
+          "sentence_id": 3,
+          "text": "Blanchett won the Sydney Theatre Critics Award for Best Newcomer for the former and Best Actress for the latter , making her the first person to win both awards at once .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "Yellow_Valentino_dress_of_Cate_Blanchett",
+          "sentence_id": 1,
+          "text": "It was the dress Blanchett wore when she won her Academy Award for Best Supporting Actress for her role in The Aviator in front of some 42.1 million people in American television .",
+          "score": 4.025
+        },
+        {
+          "page_id": "Cate_Blanchett",
+          "sentence_id": 4,
+          "text": "In 2013 , she starred as Jasmine Francis in Woody Allen 's Blue Jasmine , for which she won numerous accolades including the Academy Award for Best Actress .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.9877163767814636,
+        0.012207967229187489,
+        7.566398562630638e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07284441600000235,
+      "symbolic": {
+        "claim": "Cate Blanchett won a BAFTA for Best Actress.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.8250000000108457e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Cate_Blanchett",
+          "sentence_id": 2,
+          "text": "Blanchett came to international attention for her role as Elizabeth I of England in Shekhar Kapur 's 1998 film Elizabeth , for which she won the BAFTA Award for Best Actress , the Golden Globe Award , and earned her first Academy Award for Best Actress nomination .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Cate_Blanchett_on_screen_and_stage",
+          "sentence_id": 25,
+          "text": "For her performance as the titular socialite in Woody Allen 's 2013 drama Blue Jasmine , Blanchett won the Golden Globe , the BAFTA Award , the SAG Award and the Academy Award for Best Actress .",
+          "score": 5.033333333333333
+        },
+        {
+          "page_id": "Cate_Blanchett_on_screen_and_stage",
+          "sentence_id": 3,
+          "text": "Blanchett won the Sydney Theatre Critics Award for Best Newcomer for the former and Best Actress for the latter , making her the first person to win both awards at once .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "Yellow_Valentino_dress_of_Cate_Blanchett",
+          "sentence_id": 1,
+          "text": "It was the dress Blanchett wore when she won her Academy Award for Best Supporting Actress for her role in The Aviator in front of some 42.1 million people in American television .",
+          "score": 4.025
+        },
+        {
+          "page_id": "Cate_Blanchett",
+          "sentence_id": 4,
+          "text": "In 2013 , she starred as Jasmine Francis in Woody Allen 's Blue Jasmine , for which she won numerous accolades including the Academy Award for Best Actress .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.9877163767814636,
+        0.012207967229187489,
+        7.566398562630638e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

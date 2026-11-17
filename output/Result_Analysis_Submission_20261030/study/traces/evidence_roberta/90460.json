@@ -1,0 +1,62 @@
+{
+  "id": 90460,
+  "claim": "Katrina Kaif is a Buddhist.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.031237568706274033,
+    0.9686522483825684,
+    0.000110195207525976
+  ],
+  "logits": [
+    0.23786599934101105,
+    3.672150135040283,
+    -5.409256935119629
+  ],
+  "evidence": [
+    {
+      "page_id": "Katrina_Kaif",
+      "sentence_id": 0,
+      "text": "Katrina Kaif -LRB- -LSB- kəˈʈriːnaː ˈkɛːf -RSB- , born Katrina Turquotte , 16 July 1983 -RRB- is a British film actress and model known for her work in Indian films .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Katrina_Kaif_filmography",
+      "sentence_id": 0,
+      "text": "Katrina Kaif is a British actress who predominantly appears in Bollywood films .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Rhyme_Skool_with_Katrina_Kaif",
+      "sentence_id": 0,
+      "text": "Rhyme Skool is a two-part audio CD album of common nursery rhymes narrated by Bollywood actor Katrina Kaif .",
+      "score": 2.033333333333333
+    },
+    {
+      "page_id": "Kaif",
+      "sentence_id": 8,
+      "text": "Katrina Kaif -LRB- born 1983 -RRB- , British film actress and model",
+      "score": 2.025
+    },
+    {
+      "page_id": "List_of_awards_and_nominations_received_by_Katrina_Kaif",
+      "sentence_id": 0,
+      "text": "Katrina Kaif is a British Indian film actress who predominantly works in the Bollywood film industry .",
+      "score": 2.0125
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 157,
+    "tokens_retained": 157,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Katrina Kaif is a Buddhist.</s></s>Katrina Kaif -LRB- -LSB- kəˈʈriːnaː ˈkɛːf -RSB- , born Katrina Turquotte , 16 July 1983 -RRB- is a British film actress and model known for her work in Indian films . Katrina Kaif is a British actress who predominantly appears in Bollywood films . Rhyme Skool is a two-part audio CD album of common nursery rhymes narrated by Bollywood actor Katrina Kaif . Katrina Kaif -LRB- born 1983 -RRB- , British film actress and model Katrina Kaif is a British Indian film actress who predominantly works in the Bollywood film industry .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.07301249999999992
+}

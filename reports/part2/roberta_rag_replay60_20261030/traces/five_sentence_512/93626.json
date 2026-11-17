@@ -1,0 +1,69 @@
+{
+  "id": 93626,
+  "claim": "Saint Peter was ordained as a clergyman.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.6924083232879639,
+    0.3071118891239166,
+    0.00047981046373024583
+  ],
+  "logits": [
+    2.3203227519989014,
+    1.5073590278625488,
+    -4.954216957092285
+  ],
+  "inference_seconds": 0.1088956250000006,
+  "evidence_text": "Saint Peter -LRB- Syriac/Aramaic : ܫܸܡܥܘܿܢ ܟܹ݁ܐܦ݂ܵܐ , Shemayon Keppa , שמעון בר יונה , Πέτρος , according to the New Testament , was one of the Twelve Apostles of Jesus Christ , leaders of the early Christian Great Church . According to Catholic teaching , Peter was ordained by Jesus in the `` Rock of My Church '' dialogue in Matthew . The ancient Christian churches all venerate Peter as a major saint and as the founder of the Church of Antioch and the Roman Church , but differ in their attitudes regarding the authority of his present-day successors . Every 29 June since 1736 , a statue of Saint Peter in St. Peter 's Basilica is adorned with papal tiara , ring of the fisherman , and papal vestments , as part of the celebration of the Feast of Saints Peter and Paul . According to Catholic doctrine , the direct papal successor to Saint Peter is the incumbent pope , currently Pope .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 253,
+    "tokens_retained": 253,
+    "truncated": false,
+    "evidence_tokens_total": 238,
+    "evidence_tokens_retained": 238,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Saint_Peter",
+        "tokens_total": 101,
+        "tokens_kept": 101,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Saint_Peter",
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Saint_Peter",
+        "tokens_total": 41,
+        "tokens_kept": 41,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Saint_Peter",
+        "tokens_total": 53,
+        "tokens_kept": 53,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Saint_Peter",
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Saint Peter was ordained as a clergyman.</s></s>Saint Peter -LRB- Syriac/Aramaic : ܫܸܡܥܘܿܢ ܟܹ݁ܐܦ݂ܵܐ , Shemayon Keppa , שמעון בר יונה , Πέτρος , according to the New Testament , was one of the Twelve Apostles of Jesus Christ , leaders of the early Christian Great Church . According to Catholic teaching , Peter was ordained by Jesus in the `` Rock of My Church '' dialogue in Matthew . The ancient Christian churches all venerate Peter as a major saint and as the founder of the Church of Antioch and the Roman Church , but differ in their attitudes regarding the authority of his present-day successors . Every 29 June since 1736 , a statue of Saint Peter in St. Peter 's Basilica is adorned with papal tiara , ring of the fisherman , and papal vestments , as part of the celebration of the Feast of Saints Peter and Paul . According to Catholic doctrine , the direct papal successor to Saint Peter is the incumbent pope , currently Pope .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "params": {
+    "action": "wbgetentities",
+    "ids": "Q63995750",
+    "props": "claims|labels|aliases",
+    "languages": "en"
+  },
+  "response": {
+    "entities": {
+      "Q63995750": {
+        "type": "item",
+        "id": "Q63995750",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Prakash Jha"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P106": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P106",
+                "hash": "4b160f23716e832362b5802b7d10bdc4c8a499ab",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 82955,
+                    "id": "Q82955"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q63995750$E784177D-D672-4DDC-B4A0-78708FF1A909",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8daa8d415802c686dc45893c576cbe3fb1d20364",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d590bd29426b3ee7af2667cdf8316269dddaecf0",
+                        "datavalue": {
+                          "value": "https://eci.gov.in/files/category/97-general-election-2014/",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P27": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P27",
+                "hash": "a5adf99e78d4df9eb377b3a178eeb07d0b8bb809",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 668,
+                    "id": "Q668"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q63995750$45FA8571-D993-4B5C-9461-4EDDF7C7EF9F",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8daa8d415802c686dc45893c576cbe3fb1d20364",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d590bd29426b3ee7af2667cdf8316269dddaecf0",
+                        "datavalue": {
+                          "value": "https://eci.gov.in/files/category/97-general-election-2014/",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P102": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P102",
+                "hash": "2b4dedc9d4403712ddcb3f19c29e3b71f5e4495c",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 904827,
+                    "id": "Q904827"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q63995750$336E23B7-EA98-4325-B277-089BC392FC8C",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8daa8d415802c686dc45893c576cbe3fb1d20364",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d590bd29426b3ee7af2667cdf8316269dddaecf0",
+                        "datavalue": {
+                          "value": "https://eci.gov.in/files/category/97-general-election-2014/",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P3602": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3602",
+                "hash": "a21dbc14699de5cdc004ad41794e2e5efc791b19",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 63988118,
+                    "id": "Q63988118"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P102": [
+                  {
+                    "snaktype": "value",
+                    "property": "P102",
+                    "hash": "2b4dedc9d4403712ddcb3f19c29e3b71f5e4495c",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 904827,
+                        "id": "Q904827"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P1111": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1111",
+                    "hash": "a385b842b3d6226a7c9d1b036636d3fbfb7a7b00",
+                    "datavalue": {
+                      "value": {
+                        "amount": "+260978",
+                        "unit": "1"
+                      },
+                      "type": "quantity"
+                    },
+                    "datatype": "quantity"
+                  }
+                ],
+                "P1352": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1352",
+                    "hash": "270f0c96a63b9d8572cb04ebbdf12b98a9dff154",
+                    "datavalue": {
+                      "value": {
+                        "amount": "+2",
+                        "unit": "1"
+                      },
+                      "type": "quantity"
+                    },
+                    "datatype": "quantity"
+                  }
+                ],
+                "P768": [
+                  {
+                    "snaktype": "value",
+                    "property": "P768",
+                    "hash": "7f8a857e7d96334d5fbc9790a914db0f2326838d",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 7141801,
+                        "id": "Q7141801"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P102",
+                "P1111",
+                "P1352",
+                "P768"
+              ],
+              "id": "Q63995750$2E17CDDA-7B35-4AEF-BE0D-08782022D93B",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8daa8d415802c686dc45893c576cbe3fb1d20364",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d590bd29426b3ee7af2667cdf8316269dddaecf0",
+                        "datavalue": {
+                          "value": "https://eci.gov.in/files/category/97-general-election-2014/",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P21": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P21",
+                "hash": "85ad4b1c7348f7a5aac521135040d74e91fb5939",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 6581097,
+                    "id": "Q6581097"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q63995750$63E377F4-3D14-4270-B58E-BDFB69DADB5F",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8daa8d415802c686dc45893c576cbe3fb1d20364",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d590bd29426b3ee7af2667cdf8316269dddaecf0",
+                        "datavalue": {
+                          "value": "https://eci.gov.in/files/category/97-general-election-2014/",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "ad7d38a03cdd40cdc373de0dc4e7b7fcbccb31d9",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5,
+                    "id": "Q5"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q63995750$F5091DB7-3159-481A-A248-154CC386D125",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8daa8d415802c686dc45893c576cbe3fb1d20364",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "d590bd29426b3ee7af2667cdf8316269dddaecf0",
+                        "datavalue": {
+                          "value": "https://eci.gov.in/files/category/97-general-election-2014/",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1412": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1412",
+                "hash": "774f2e7131e3fca9b7049c28c95fa13fdf49bbe7",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1568,
+                    "id": "Q1568"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q63995750$8E0DFC01-2E01-4AA4-B706-EE1D4C063B11",
+              "rank": "normal"
+            }
+          ],
+          "P2671": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2671",
+                "hash": "ec3bd5408acc039d2f701bfee1130b5557291745",
+                "datavalue": {
+                  "value": "/g/11h7fttp7k",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q63995750$B5AC2CEB-577C-42EB-BF0F-738A2CFC2F73",
+              "rank": "normal"
+            }
+          ]
+        }
+      }
+    },
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:30:02.494742+00:00"
+}

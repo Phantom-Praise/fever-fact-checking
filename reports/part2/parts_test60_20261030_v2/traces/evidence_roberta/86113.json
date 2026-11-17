@@ -1,0 +1,62 @@
+{
+  "id": 86113,
+  "claim": "Venus and Earth are 10,000 miles away from the Sun.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.34803998470306396,
+    0.6514018177986145,
+    0.0005581342265941203
+  ],
+  "logits": [
+    1.5638890266418457,
+    2.1906983852386475,
+    -4.871583938598633
+  ],
+  "evidence": [
+    {
+      "page_id": "Miles_Away",
+      "sentence_id": 0,
+      "text": "Miles Away may refer to :",
+      "score": 2.1
+    },
+    {
+      "page_id": "Miles_Away",
+      "sentence_id": 3,
+      "text": "Miles Away -LRB- band -RRB- , an Australian hardcore punk band",
+      "score": 2.1
+    },
+    {
+      "page_id": "Miles_Away",
+      "sentence_id": 5,
+      "text": "`` Miles Away '' -LRB- John Foxx song -RRB-",
+      "score": 2.1
+    },
+    {
+      "page_id": "Miles_Away",
+      "sentence_id": 7,
+      "text": "`` Miles Away '' -LRB- Madonna song -RRB-",
+      "score": 2.1
+    },
+    {
+      "page_id": "Miles_Away",
+      "sentence_id": 9,
+      "text": "`` Miles Away '' -LRB- Winger song -RRB-",
+      "score": 2.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 87,
+    "tokens_retained": 87,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Venus and Earth are 10,000 miles away from the Sun.</s></s>Miles Away may refer to : Miles Away -LRB- band -RRB- , an Australian hardcore punk band `` Miles Away '' -LRB- John Foxx song -RRB- `` Miles Away '' -LRB- Madonna song -RRB- `` Miles Away '' -LRB- Winger song -RRB-</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.12480308399999984
+}

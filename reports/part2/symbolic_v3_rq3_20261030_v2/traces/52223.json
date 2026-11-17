@@ -1,0 +1,116 @@
+{
+  "id": 52223,
+  "claim": "Taylor Schilling has received nominations for three awards.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.09107366599999978,
+      "symbolic": {
+        "claim": "Taylor Schilling has received nominations for three awards.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.279199999970615e-05
+      },
+      "evidence": [
+        {
+          "page_id": "List_of_awards_and_nominations_received_by_Taylor_Swift",
+          "sentence_id": 0,
+          "text": "American singer-songwriter Taylor Swift has received many awards and nominations for her music work .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "List_of_awards_and_nominations_received_by_Elizabeth_Taylor",
+          "sentence_id": 0,
+          "text": "In her sixty two year career Elizabeth Taylor received some of the film industry 's top awards and honors .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Awards_and_nominations_received_by_Justice",
+          "sentence_id": 3,
+          "text": "Overall , Justice has received six awards from fifteen nominations .",
+          "score": 3.025
+        },
+        {
+          "page_id": "Awards_and_nominations_received_by_Tina_Fey",
+          "sentence_id": 0,
+          "text": "Below is a complete list of awards and nominations received by actress , writer , comedian , and producer Tina Fey .",
+          "score": 3.02
+        },
+        {
+          "page_id": "List_of_awards_and_nominations_received_by_24",
+          "sentence_id": 0,
+          "text": "This is the list of awards and nominations received by the television series 24 -LRB- 2001 -- 2010 -RRB- .",
+          "score": 3.0142857142857142
+        }
+      ],
+      "probabilities": [
+        0.3442385494709015,
+        0.6551856398582458,
+        0.0005758162587881088
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.10868999999999929,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "List_of_awards_and_nominations_received_by_Taylor_Swift",
+          "sentence_id": 0,
+          "text": "American singer-songwriter Taylor Swift has received many awards and nominations for her music work .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "List_of_awards_and_nominations_received_by_Elizabeth_Taylor",
+          "sentence_id": 0,
+          "text": "In her sixty two year career Elizabeth Taylor received some of the film industry 's top awards and honors .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Awards_and_nominations_received_by_Justice",
+          "sentence_id": 3,
+          "text": "Overall , Justice has received six awards from fifteen nominations .",
+          "score": 3.025
+        },
+        {
+          "page_id": "Awards_and_nominations_received_by_Tina_Fey",
+          "sentence_id": 0,
+          "text": "Below is a complete list of awards and nominations received by actress , writer , comedian , and producer Tina Fey .",
+          "score": 3.02
+        },
+        {
+          "page_id": "List_of_awards_and_nominations_received_by_24",
+          "sentence_id": 0,
+          "text": "This is the list of awards and nominations received by the television series 24 -LRB- 2001 -- 2010 -RRB- .",
+          "score": 3.0142857142857142
+        }
+      ],
+      "probabilities": [
+        0.3442385494709015,
+        0.6551856398582458,
+        0.0005758162587881088
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05764804200000029,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.4962030351161957,
+        0.20787841081619263,
+        0.29591861367225647
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

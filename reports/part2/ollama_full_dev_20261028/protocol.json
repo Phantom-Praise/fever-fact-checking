@@ -1,0 +1,104 @@
+{
+  "created_utc": "2026-10-28T19:13:28.355653+00:00",
+  "status": "prepared_not_started",
+  "n": 19998,
+  "model": {
+    "name": "llama3.1:8b",
+    "model": "llama3.1:8b",
+    "modified_at": "2026-03-13T13:02:12.733274727-04:00",
+    "size": 4920753328,
+    "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 131072,
+      "embedding_length": 4096,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "ollama": {
+    "version": "0.40.3"
+  },
+  "conditions": {
+    "A_original": {
+      "retrieval": "original",
+      "prompt": "direct",
+      "fallback": false
+    },
+    "D_both": {
+      "retrieval": "entity",
+      "prompt": "contrast",
+      "fallback": false
+    }
+  },
+  "derived_hybrid": "E_claim_fallback; derived from D_both, no additional LLM request",
+  "seed": 42,
+  "temperature": 0,
+  "num_predict": 128,
+  "num_ctx": 4096,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "label": {
+        "type": "string",
+        "enum": [
+          "SUPPORTS",
+          "REFUTES",
+          "NOT ENOUGH INFO"
+        ]
+      },
+      "reason": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "label",
+      "reason"
+    ],
+    "additionalProperties": false
+  },
+  "primary_comparator": "evidence_512",
+  "secondary_comparator": "evidence_256",
+  "primary_control": "A_original and evidence RoBERTa use exactly the same original five evidence sentences; different model sizes/tokenizers/context budgets remain.",
+  "system_comparison": "D_both changes both prompting and retrieval. This does not isolate architecture or either intervention individually.",
+  "scope": "All official development claims, including earlier inspected LLM samples and Telemundo. Expanded development evaluation, not an untouched test.",
+  "selection": "Original A and previously tested D are frozen now. No configuration selection on these full-dev outcomes.",
+  "previous_llm_text_count": 441,
+  "estimated_hours_per_condition": 12.557145420406366,
+  "estimate_note": "Extrapolation from prior 240 assessment request wall times; not a guaranteed completion time.",
+  "inputs_sha256": {
+    "/Users/praiseben/fever-fact-checking/src/experiment_ollama_full_dev.py": "73862a9cdaf0295474166f37c84a202782d059c0caefd949e580e334d4f58d31",
+    "/Users/praiseben/fever-fact-checking/src/experiment_llm_configurations.py": "3696d9bc9ea06b4bcf6e4e5589441f6f72ec9edf6fad675d95619971c4f52560",
+    "/Users/praiseben/fever-fact-checking/src/experiment_ollama_fever.py": "a70317310b5e6012a031399b3f811c7bce440f0d9fe24f584c8f4e6d2b40f3c1",
+    "/Users/praiseben/fever-fact-checking/src/local_llm_experiments.py": "0a1aabe3244431124128368ee38edfc364a37668b193bd07398b8a0461e51156",
+    "/Users/praiseben/fever-fact-checking/src/retrieve_entity_anchored.py": "1a9df00a59a0277ca743f3a3072e56060f8f6d841981a6349186ef0d35e608e3",
+    "/Users/praiseben/fever-fact-checking/src/retrieve_title_aware.py": "b76ccc025032b0ab9f939573018570602441dead07f9572b9240b40bbde0ce3b",
+    "/Users/praiseben/fever-fact-checking/src/experiment_token_budget.py": "906f33bf5332cb31cfccae4385e7f2d471b2741756a0f73f7ad36453e4c9e93c",
+    "/Users/praiseben/fever-fact-checking/src/experiment_symbolic_v2.py": "4fc180d2dc38287de0731ca9cdac9d527826e56bce96a04c35804df980d104c1",
+    "/Users/praiseben/fever-fact-checking/src/evaluate_retrieval.py": "6148b9662befb3ad07f5ee8a41bbc3210e7740eb504e98f19975dcd12c59ec72",
+    "/Users/praiseben/fever-fact-checking/src/vendor/fever_scorer.py": "fa12eaab2c88208f990948fc5d533ad4f91a6b8f48640f29317d1f00ab410ac9",
+    "/Users/praiseben/fever-fact-checking/data/official_fever/shared_task_dev.jsonl": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+    "/Users/praiseben/fever-fact-checking/reports/part2/official_fever_dev_20261023/outputs.jsonl": "757cc6b4caabb344ae572df276bc9e6232e99d4797b0fdc5ea92a517ac151a8b",
+    "/Users/praiseben/fever-fact-checking/reports/part2/token_budget_20261028/outputs.jsonl": "f2d06fe69be8078ae6dcc6f224611807bf0b13dd742ceb2061ed35a0502e2916",
+    "/Users/praiseben/fever-fact-checking/reports/part2/ollama_full_dev_20261028/inputs.jsonl": "5335e97b85d66f230c2a96f0934b583a1a47200905694bec35425b7a13a8c8ae"
+  },
+  "limitations": [
+    "Full official development set has previously been inspected/evaluated. This is not a blind test.",
+    "Llama pretraining exposure to FEVER/Wikipedia is unknown.",
+    "No equal-resource or training-budget match; RoBERTa uses a 512-token input limit and Llama a 4096-token context.",
+    "Keep any failed/invalid responses in the full denominator; do not silently convert to NEI.",
+    "Reasons are generated explanations, not faithful hidden reasoning or human validation.",
+    "Single local model, quantization and seed; no retraining or model-selection search.",
+    "D and hybrid use different evidence from the original baseline; label gains do not prove better reasoning alone."
+  ]
+}

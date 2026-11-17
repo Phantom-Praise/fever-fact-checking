@@ -1,0 +1,541 @@
+{
+  "id": 228942,
+  "claim": "Pulp Fiction is an American film.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9923959970474243,
+    0.007376436144113541,
+    0.00022762792650610209
+  ],
+  "logits": [
+    4.113076210021973,
+    -0.788755476474762,
+    -4.267088413238525
+  ],
+  "inference_seconds": 0.07813337500000017,
+  "evidence_text": ". American Film Institute Lists Pulp fiction or Pulp Fiction may refer to: Pulp Fiction is a 1994 American crime film written and directed by Quentin Tarantino from a story he conceived with Roger Avary. It tells four intertwining tales of crime and violence in Los Angeles. The film stars John Travolta, Samuel L. Jackson, Bruce Willis, Tim Roth, Ving Rhames, and Uma Thurman. The title refers to the pulp magazines and hardboiled crime novels popular during the mid-twentieth century, known for their graphic violence and punchy dialogue. List of cult films film's central moral dilemma whereas in Pulp Fiction it was merely 'the single weirdest day of [Butch's] life.'\" (\"American Me did it too,\" Tarantino observed. \"There's like three butt-fucking scenes in American Me. That's definitely the one to beat in that particular category!\") Pulp Fiction is regarded as Tarantino's magnum opus, with particular praise for its screenwriting. The self-reflexivity, unconventional structure, and extensive homage and pastiche have led critics to describe it as a touchstone of postmodern film. It is considered a cultural watershed, influencing films and other media that adopted elements of its style. The cast was also widely praised, with Travolta, Thurman, and Jackson earning high acclaim. In 2008, Entertainment Weekly named it the best film since 1983 and it has appeared on many critics' lists of the greatest films. In 2013, Pulp Fiction was selected for preservation in the United States National Film Registry by the Library of Congress as \"culturally, historically, or aesthetically significant\". Plump Fiction Pulp Fiction quickly came to be regarded as one of the most significant films of its era. In 1995, in a special edition of Siskel & Ebert devoted to Tarantino, Gene Siskel argued that the work posed a major challenge to the \"ossification of American movies with their brutal formulas\". In Siskel's view, macho myth by making it laughable and deheroicizes the power trip glorified by standard Hollywood violence.\" Stone reads the film as \"politically correct. There is no nudity and no violence directed against women ... [It] celebrates interracial friendship and cultural diversity; there are strong women and strong black men, and the director swims against the current of class stereotype.\" Real, Michael R. (1996). Exploring Media Culture: A Guide. Thousand Oaks, Calif., London, and New Delhi: Sage. ISBN 0-8039-5877-3. White, Glyn (2002). \"Quentin Tarantino\". In Tasker, Yvonne (ed.). Fifty Contemporary Filmmakers. London and New York: Routledge. ISBN 0-415-18973-X. Net\". Pulp fiction (genre), sensational fiction of varying length presented in that magazine format Pulp Fiction, 1994, directed by Quentin Tarantino Pulp Fiction premiered in May 1994 at the Cannes Film Festival. The Weinsteins \"hit the beach like commandos\", bringing the picture's entire cast over to France. The film was unveiled at a midnight hour screening and caused a sensation. It won the Palme d'Or, the festival's top prize, generating a further wave of publicity. Pulp Fiction Theatrical release poster Directed by | Quentin Tarantino Written by | Quentin Tarantino Story by | Quentin Tarantino Roger Avary Produced by | Lawrence Bender Starring | John Travolta Samuel L. Jackson Uma Thurman Harvey Keitel Tim Roth Amanda Plummer Maria de Medeiros Ving Rhames Eric Stoltz Rosanna Arquette Christopher Walken Bruce Willis Cinematography | Andrzej Sekuła Edited by | Sally Menke Production companies | A Band Apart Jersey Films Distributed by | Miramax Films Release dates | May 21, 1994 (1994-05-21) (Cannes) October 14, 1994 (1994-10-14) (United States) Running time | 154 minutes Country | United States Language | English Budget | $8–8.5 million Box office | $213.9 million List of works by Quentin Tarantino a new phenomenon, the movie whose style is created from the context of movie life rather than real life. The consequence is twofold – the presumption of deep knowledge on the part of the audience of those forms such as the gangster films or Westerns, horror films or adventure films. And that the parody or alteration of that film creates a new form, a different experience for the audience. Pulp Fiction (soundtrack), the soundtrack album from the film",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 968,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 956,
+    "evidence_tokens_retained": 244,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 54173,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 54173,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 11200132,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 54173,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 54173,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 54173,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 54173,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 54173,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 54173,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 54173,
+        "tokens_total": 38,
+        "tokens_kept": 38,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 54173,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 54173,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 54173,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 54173,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 54173,
+        "tokens_total": 19,
+        "tokens_kept": 2,
+        "visibility": "partial"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 54173,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 54173,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 54173,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 54173,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 54173,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 54173,
+        "tokens_total": 44,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 54173,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 54173,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 54173,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 54173,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 54173,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 54173,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 54173,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 54173,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 54173,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 54173,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 54173,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 54173,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 54173,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 54173,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 11200132,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 11200132,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 54173,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 54173,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 54173,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 54173,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 54173,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 54173,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 54173,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 54173,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 54173,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 54173,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 54173,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 54173,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 54173,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 54173,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 54173,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 54173,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 54173,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 54173,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 54173,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 54173,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 54173,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 54173,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 60,
+        "id": "E60",
+        "page_id": 54173,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 61,
+        "id": "E61",
+        "page_id": 54173,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 62,
+        "id": "E62",
+        "page_id": 54173,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 63,
+        "id": "E63",
+        "page_id": 54173,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 64,
+        "id": "E64",
+        "page_id": 11200132,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Pulp Fiction is an American film.</s></s>. American Film Institute Lists Pulp fiction or Pulp Fiction may refer to: Pulp Fiction is a 1994 American crime film written and directed by Quentin Tarantino from a story he conceived with Roger Avary. It tells four intertwining tales of crime and violence in Los Angeles. The film stars John Travolta, Samuel L. Jackson, Bruce Willis, Tim Roth, Ving Rhames, and Uma Thurman. The title refers to the pulp magazines and hardboiled crime novels popular during the mid-twentieth century, known for their graphic violence and punchy dialogue. List of cult films film's central moral dilemma whereas in Pulp Fiction it was merely 'the single weirdest day of [Butch's] life.'\" (\"American Me did it too,\" Tarantino observed. \"There's like three butt-fucking scenes in American Me. That's definitely the one to beat in that particular category!\") Pulp Fiction is regarded as Tarantino's magnum opus, with particular praise for its screenwriting. The self-reflexivity, unconventional structure, and extensive homage and pastiche have led critics to describe it as a touchstone of postmodern film. It is</s>"
+  }
+}

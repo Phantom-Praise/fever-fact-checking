@@ -1,0 +1,341 @@
+{
+  "id": 218116,
+  "claim": "A central venous catheter is also known as a central venous access catheter.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9572960138320923,
+    0.04226488620042801,
+    0.00043907729559578
+  ],
+  "logits": [
+    3.3136606216430664,
+    0.19350451231002808,
+    -4.373531818389893
+  ],
+  "inference_seconds": 0.05628504199999984,
+  "evidence_text": "The following are the major indications for the use of central venous catheters: A central venous catheter (CVC), also known as a central line (c-line), central venous line, or central venous access catheter, is a catheter placed into a large vein. It is a form of venous access. Placement of larger catheters in more centrally located veins is often needed in critically ill patients, or in those requiring prolonged intravenous therapies, for more reliable vascular access. These catheters are commonly placed in veins in the neck (internal jugular vein), chest (subclavian vein or axillary vein), groin (femoral vein), or through veins in the arms (also known as a PICC line, or peripherally inserted central catheters). Central venous catheter There are several types of central venous catheters; these can be further subdivided by site (where the catheter is inserted into the body) as well as the specific type of catheter used. Ports are typically used on patients requiring periodic venous access over an extended course of therapy, then flushed regularly until surgically removed. If venous access is required on a frequent basis over a short period, a catheter having external access is more commonly used. Difficult peripheral venous access – central venous catheters may be placed when it is difficult to gain or maintain venous access peripherally (e.g. obesity, scarred veins from prior cannulations, agitated patient). Quinton catheter Specialized treatment – interventions such as hemodialysis, plasmapheresis, transvenous cardiac pacing, and invasive hemodynamic monitoring (e.g. pulmonary artery catheterization) require central venous access. Central lines are used to administer medication or fluids that are unable to be taken by mouth or would harm a smaller peripheral vein, obtain blood tests (specifically the \"central venous oxygen saturation\"), administer fluid or blood products for large volume resuscitation, and measure central venous pressure. The catheters used are commonly 15–30 cm in length, made of silicone or polyurethane, and have single or multiple lumens for infusion. Using checklists, which detail the step by step process (including sterile techniques) of catheter placement has been shown to reduce catheter related bloodstream infections. This is often done with an observer reviewing the checklist as the operator places the central catheter. Having central line catheter kits (or a central line cart), which carry all of the necessary equipment needed for placing the central venous catheter, has also been shown to reduce central line related bloodstream infections. The catheter in between uses. Selection of catheters should include those with minimal ports to accomplish the clinical goal. Syringe with local anesthetic Guide wire Additional fasteners, and corresponding surgical thread A peripheral venous catheter is the most commonly used vascular access in medicine. It is given to most emergency department and surgical patients, and before some radiological imaging techniques using radiocontrast, for example. First described in 1975, it is an alternative to central venous catheters in major veins such as the subclavian vein, the internal jugular vein or the femoral vein. Subclavian and jugular line placements may result in pneumothorax (air in the pleural space of lung), while PICC lines have no such issue because of the method of placement. Scalpel A central venous catheter secured to the skin with suture A percutaneous central venous catheter, or CVC, is inserted directly through the skin. The internal or external jugular, subclavian, or femoral vein is used. It is most commonly used in critically ill patients. The CVC can be used for days to weeks, and the patient must remain in the hospital. It is usually held in place with sutures or a manufactured securement device. Commonly used catheters include Quinton catheters. A peripheral venous catheter is usually placed in a vein on the hand or arm. It should be distinguished from a central venous catheter which is inserted in a central vein (usually in the internal jugular vein of the neck or the subclavian vein of the chest), or an arterial catheter which can be placed in a peripheral or central artery. In children, a topical anaesthetic gel (such as lidocaine) may be applied to the insertion site to facilitate placement. Newer catheter with additional safety features. Dressing",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 959,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 937,
+    "evidence_tokens_retained": 234,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 81854,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 81854,
+        "tokens_total": 44,
+        "tokens_kept": 44,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 81854,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 81854,
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 81854,
+        "tokens_total": 62,
+        "tokens_kept": 62,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 1551811,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 81854,
+        "tokens_total": 42,
+        "tokens_kept": 42,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 81854,
+        "tokens_total": 26,
+        "tokens_kept": 20,
+        "visibility": "partial"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 81854,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 81854,
+        "tokens_total": 47,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 81854,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 81854,
+        "tokens_total": 46,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 81854,
+        "tokens_total": 57,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 81854,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 81854,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 81854,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 81854,
+        "tokens_total": 42,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 18785327,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 81854,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 81854,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 81854,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 81854,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 18785327,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 18785327,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 1551811,
+        "tokens_total": 39,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 1551811,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 81854,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 81854,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 81854,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 81854,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 81854,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 81854,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 81854,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 81854,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 18785327,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 18785327,
+        "tokens_total": 57,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 18785327,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 18785327,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 81854,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>A central venous catheter is also known as a central venous access catheter.</s></s>The following are the major indications for the use of central venous catheters: A central venous catheter (CVC), also known as a central line (c-line), central venous line, or central venous access catheter, is a catheter placed into a large vein. It is a form of venous access. Placement of larger catheters in more centrally located veins is often needed in critically ill patients, or in those requiring prolonged intravenous therapies, for more reliable vascular access. These catheters are commonly placed in veins in the neck (internal jugular vein), chest (subclavian vein or axillary vein), groin (femoral vein), or through veins in the arms (also known as a PICC line, or peripherally inserted central catheters). Central venous catheter There are several types of central venous catheters; these can be further subdivided by site (where the catheter is inserted into the body) as well as the specific type of catheter used. Ports are typically used on patients requiring periodic venous access over an extended course of therapy, then flushed</s>"
+  }
+}

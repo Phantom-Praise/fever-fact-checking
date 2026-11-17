@@ -1,0 +1,116 @@
+{
+  "id": 20850,
+  "claim": "A subtype of anti-nuclear antibodies are anti-centromere antibodies.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06714170900000127,
+      "symbolic": {
+        "claim": "A subtype of anti-nuclear antibodies are anti-centromere antibodies.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2291999997415815e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Anti-centromere_antibodies",
+          "sentence_id": 0,
+          "text": "Anti-centromere antibodies -LRB- ACAs ; often styled solid , anticentromere -RRB- are autoantibodies specific to centromere and kinetochore function .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Anti-centromere_antibodies",
+          "sentence_id": 5,
+          "text": "Anti-centromere antibodies are found in approximately 60 % of patients with limited systemic scleroderma and in 15 % of those with the diffuse form of scleroderma .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Anti-centromere_antibodies",
+          "sentence_id": 8,
+          "text": "Anti-centromere antibodies present early in the course of disease and are notably predictive of limited cutaneous involvement and a decreased likelihood of aggressive internal organ involvement , such as fibrosis in the lungs .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Anti-dsDNA_antibodies",
+          "sentence_id": 0,
+          "text": "Anti-dsDNA antibodies are a group of anti-nuclear antibodies -LRB- ANA -RRB- and their target antigen is double stranded DNA .",
+          "score": 3.02
+        },
+        {
+          "page_id": "Anti-centromere_antibodies",
+          "sentence_id": 7,
+          "text": "Thus , a positive anti-centromere antibody finding is strongly suggestive of limited systemic scleroderma .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.7195600867271423,
+        0.27978694438934326,
+        0.0006529210368171334
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06112891700000134,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Anti-centromere_antibodies",
+          "sentence_id": 0,
+          "text": "Anti-centromere antibodies -LRB- ACAs ; often styled solid , anticentromere -RRB- are autoantibodies specific to centromere and kinetochore function .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Anti-centromere_antibodies",
+          "sentence_id": 5,
+          "text": "Anti-centromere antibodies are found in approximately 60 % of patients with limited systemic scleroderma and in 15 % of those with the diffuse form of scleroderma .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Anti-centromere_antibodies",
+          "sentence_id": 8,
+          "text": "Anti-centromere antibodies present early in the course of disease and are notably predictive of limited cutaneous involvement and a decreased likelihood of aggressive internal organ involvement , such as fibrosis in the lungs .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Anti-dsDNA_antibodies",
+          "sentence_id": 0,
+          "text": "Anti-dsDNA antibodies are a group of anti-nuclear antibodies -LRB- ANA -RRB- and their target antigen is double stranded DNA .",
+          "score": 3.02
+        },
+        {
+          "page_id": "Anti-centromere_antibodies",
+          "sentence_id": 7,
+          "text": "Thus , a positive anti-centromere antibody finding is strongly suggestive of limited systemic scleroderma .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.7195600867271423,
+        0.27978694438934326,
+        0.0006529210368171334
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05633208300000092,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.760509729385376,
+        0.037630364298820496,
+        0.20185986161231995
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

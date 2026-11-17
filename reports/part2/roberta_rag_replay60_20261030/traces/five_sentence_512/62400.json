@@ -1,0 +1,69 @@
+{
+  "id": 62400,
+  "claim": "In Secret was based in 1911.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9715695381164551,
+    0.02834903448820114,
+    8.136763062793761e-05
+  ],
+  "logits": [
+    3.916712760925293,
+    0.382392942905426,
+    -5.470977783203125
+  ],
+  "inference_seconds": 0.11035116699999925,
+  "evidence_text": "`` Secret Secret '' -LRB- シークレットシークレット Shīkuretto Shīkuretto -RRB- is a song by Japanese electropop unit Perfume . 1911 Schubart , provisional designation 1973 UD , is an outer main-belt asteroid discovered on October 25 , 1973 , by Paul Wild at Zimmerwald Observatory , near Bern , Switzerland . 1911 Walnut is an approved 530 feet -LRB- 162 meters -RRB- tall , multipurpose building in Philadelphia , PA. . Southern Land is developing 1911 Walnut in a joint venture with an undisclosed domestic institutional investor , which is the way it proceeds with all of its projects . The following events occurred in April 1911 :",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 160,
+    "tokens_retained": 160,
+    "truncated": false,
+    "evidence_tokens_total": 148,
+    "evidence_tokens_retained": 148,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Secret_Secret",
+        "tokens_total": 43,
+        "tokens_kept": 43,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "1911_Schubart",
+        "tokens_total": 37,
+        "tokens_kept": 37,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "1911_Walnut",
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "1911_Walnut",
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "April_1911",
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>In Secret was based in 1911.</s></s>`` Secret Secret '' -LRB- シークレットシークレット Shīkuretto Shīkuretto -RRB- is a song by Japanese electropop unit Perfume . 1911 Schubart , provisional designation 1973 UD , is an outer main-belt asteroid discovered on October 25 , 1973 , by Paul Wild at Zimmerwald Observatory , near Bern , Switzerland . 1911 Walnut is an approved 530 feet -LRB- 162 meters -RRB- tall , multipurpose building in Philadelphia , PA. . Southern Land is developing 1911 Walnut in a joint venture with an undisclosed domestic institutional investor , which is the way it proceeds with all of its projects . The following events occurred in April 1911 :</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

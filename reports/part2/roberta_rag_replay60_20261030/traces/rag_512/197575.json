@@ -1,0 +1,477 @@
+{
+  "id": 197575,
+  "claim": "Netflix released Master of None.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.7257893681526184,
+    0.27068212628364563,
+    0.003528465051203966
+  ],
+  "logits": [
+    1.8542017936706543,
+    0.8678871393203735,
+    -3.4721951484680176
+  ],
+  "inference_seconds": 0.12287874999999815,
+  "evidence_text": "Master of None Also known as | Master of None Presents: Moments in Love (season 3) Genre | Comedy drama Romantic comedy Created by | Aziz Ansari Alan Yang Starring | Aziz Ansari Eric Wareheim Noël Wells Lena Waithe Kelvin Yu Alessandra Mastronardi Naomi Ackie Composers | Didier Leplae Joe Wong Country of origin | United States Original language | English No. of seasons | 3 No. of episodes | 25 Production Executive producers | Aziz Ansari Alan Yang Michael Schur Dave Becky David Miner Lena Waithe Naomi Ackie Producer | Igor Srubshchik Production locations | New York City Modena London Cinematography | Mark Schwartzbard Thimios Bakatakis Editors | Jennifer Lilly Suzy Elmiger Daniel Haworth Camera setup | Single-camera Running time | 21–57 minutes Production companies | Alan Yang Pictures Oh Brudder Productions Fremulon 3 Arts Entertainment Universal Television Netflix Originals Original release Network | Netflix Release | November 6, 2015 (2015-11-06 Master of None is an American comedy drama television series, which was released for streaming on November 6, 2015, on Netflix. The series was created by Aziz Ansari and Alan Yang, with the first two seasons starring Ansari in the lead role of Dev Shah, a 30-year-old actor, and the third season starring Lena Waithe in the lead role of Denise, a 37-year-old lesbian novelist, mostly following their romantic, professional, and personal experiences. The first season is set in New York City, and consists of ten episodes. The second season, which takes place in Italy and New York, consists of ten episodes and was released on May 12, 2017. The third season, Moments in Love, consists of five episodes and premiered on Netflix on May 23, 2021. In Season 2 of Master of None critics noted some distinct influences on the show. In the opening of the episode \"The Thief\", a stack of DVDs from The Criterion Collection on Dev's (Aziz Ansari) bed can be seen: cameos of Hollywood actors playing pantomime versions of themselves—along with painfully blunt awkwardness that attempts to wring every possible laugh out of increasingly cringe comedy—Master of None is content and confident to let the viewer warm to it entirely on its terms. And it's all the better for it.\" Critical response of Master of None Season | Rotten Tomatoes | Metacritic 1 | 100% (67 reviews) | 91 (31 reviews) 2 | 100% (62 reviews) | 91 (24 reviews) 3 | 82% (44 reviews) | 75 (18 reviews) James Poniewozik of The New York Times called it \"the year's best comedy straight out of the gate\" and a \"mature rom-com.\" IGN's Matt Fowler gave the entire first season an 8.8 out of 10, saying \"by the second episode it takes flight and offers up a very funny, unique take on food, dating, relationships, etc (the usual suspects). Ansari is a smart and engaging presence and his perspective on things lends itself very well to this type of single-camera comedy. And his supporting cast, particularly Wells, is on point. A few episodes may have fizzled out right at the finish...but there's no denying Master of None's success overall.\" James Dempsey of Newstalk described the show as \"like a transatlantic cousin of Ricky Gervais' Extras, another story of an actor navigating show business and his personal life. But whereas that show relied heavily on stunt Shortly before the premiere of the second season in April 2017, Ansari told Vulture, \"I don't know if we're going to do a season three. I wouldn't be surprised if I needed a looonng [sic] break before I could come back to it. I've got to become a different guy before I write a third season, is my personal thought, I've got to get married or have a kid or something. I don't have anything else to say about being a young guy being single in New York eating food around town all the time.\" In July 2018, Netflix head of original content Cindy Holland expressed interest in creating a third season \"when Aziz is ready.\" The show's title alludes to the phrase \"Jack of all trades, master of none\" and was originally suggested by Ansari. The series later incorporated a song of the same name by American band Beach House. Ansari said it took months to come up with the show's title and he and Yang did not agree on it until all of the episodes were completed. On Rotten Tomatoes, the first season holds an approval rating of 100% based on 67 reviews, with an average rating of 9/10. The site's critical consensus reads, \"Exceptionally executed with charm, humor, and heart, Master of None is a refreshingly offbeat take on a familiar premise.\" On Metacritic, the season has a score of 91 out of 100, based on 31 critics, indicating \"universal acclaim\". Season | Episodes | Originally released 1 | 10 | November 6, 2015 (2015-11-06) 2 | 10 | May 12, 2017 (2017-05-12) Moments in Love | 5 | May 23, 2021 (2021-05-23) Master of None has won three Emmy Awards and a Golden Globe. The series has received critical acclaim, appeared on multiple year-end top ten lists, and received multiple awards and nominations.",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1134,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1124,
+    "evidence_tokens_retained": 502,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 47366661,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 47366661,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 47366661,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 47366661,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 47366661,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 47366661,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 47366661,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 47366661,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 47366661,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 47366661,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 47366661,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 47366661,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 47366661,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 47366661,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 47366661,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 47366661,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 47366661,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 47366661,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 47366661,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 47366661,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 47366661,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 47366661,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 47366661,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 47366661,
+        "tokens_total": 72,
+        "tokens_kept": 72,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 47366661,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 47366661,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 47366661,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 47366661,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 47366661,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 47366661,
+        "tokens_total": 52,
+        "tokens_kept": 52,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 47366661,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 47366661,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 47366661,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 47366661,
+        "tokens_total": 14,
+        "tokens_kept": 7,
+        "visibility": "partial"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 47366661,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 47366661,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 47366661,
+        "tokens_total": 81,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 47366661,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 47366661,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 47366661,
+        "tokens_total": 63,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 47366661,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 47366661,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 47366661,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 47366661,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 47366661,
+        "tokens_total": 51,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 47366661,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 47366661,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 47366661,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 47366661,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 47366661,
+        "tokens_total": 60,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 47366661,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 47366661,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 47366661,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 47366661,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 47366661,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 47366661,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Netflix released Master of None.</s></s>Master of None Also known as | Master of None Presents: Moments in Love (season 3) Genre | Comedy drama Romantic comedy Created by | Aziz Ansari Alan Yang Starring | Aziz Ansari Eric Wareheim Noël Wells Lena Waithe Kelvin Yu Alessandra Mastronardi Naomi Ackie Composers | Didier Leplae Joe Wong Country of origin | United States Original language | English No. of seasons | 3 No. of episodes | 25 Production Executive producers | Aziz Ansari Alan Yang Michael Schur Dave Becky David Miner Lena Waithe Naomi Ackie Producer | Igor Srubshchik Production locations | New York City Modena London Cinematography | Mark Schwartzbard Thimios Bakatakis Editors | Jennifer Lilly Suzy Elmiger Daniel Haworth Camera setup | Single-camera Running time | 21–57 minutes Production companies | Alan Yang Pictures Oh Brudder Productions Fremulon 3 Arts Entertainment Universal Television Netflix Originals Original release Network | Netflix Release | November 6, 2015 (2015-11-06 Master of None is an American comedy drama television series, which was released for streaming on November 6, 2015, on Netflix. The series was created by Aziz Ansari and Alan Yang, with the first two seasons starring Ansari in the lead role of Dev Shah, a 30-year-old actor, and the third season starring Lena Waithe in the lead role of Denise, a 37-year-old lesbian novelist, mostly following their romantic, professional, and personal experiences. The first season is set in New York City, and consists of ten episodes. The second season, which takes place in Italy and New York, consists of ten episodes and was released on May 12, 2017. The third season, Moments in Love, consists of five episodes and premiered on Netflix on May 23, 2021. In Season 2 of Master of None critics noted some distinct influences on the show. In the opening of the episode \"The Thief\", a stack of DVDs from The Criterion Collection on Dev's (Aziz Ansari) bed can be seen: cameos of Hollywood actors playing pantomime versions of themselves—along with painfully blunt awkwardness that attempts to wring every possible laugh out of increasingly cringe comedy—Master of None is content and confident to let the viewer warm to it entirely on its terms. And it's all the better for it.\" Critical response of Master of None Season | Rotten Tomatoes | Metacritic 1 | 100% (67 reviews</s>"
+  }
+}

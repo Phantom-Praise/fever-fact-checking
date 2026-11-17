@@ -1,0 +1,62 @@
+{
+  "id": 101667,
+  "claim": "Stanley Kubrick edited his own memoir.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.4052690863609314,
+    0.5942547917366028,
+    0.0004760332521982491
+  ],
+  "logits": [
+    1.7310059070587158,
+    2.113762855529785,
+    -5.015812873840332
+  ],
+  "evidence": [
+    {
+      "page_id": "Stanley_Kubrick_bibliography",
+      "sentence_id": 0,
+      "text": "A list of books and essays about Stanley Kubrick and his films :",
+      "score": 3.033333333333333
+    },
+    {
+      "page_id": "Stanley_Kubrick",
+      "sentence_id": 0,
+      "text": "Stanley Kubrick -LRB- -LSB- ˈkuːbrɪk -RSB- July 26 , 1928 -- March 7 , 1999 -RRB- was an American film director , screenwriter , producer , cinematographer , editor , and photographer .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Stanley_Kubrick",
+      "sentence_id": 12,
+      "text": "Creative differences arising from his work with Douglas and the film studios , a dislike of Hollywood , and a growing concern about crime in America prompted Kubrick to move to the United Kingdom in 1961 , where he spent most of the remainder of his life and career .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Stanley_Kubrick",
+      "sentence_id": 18,
+      "text": "A demanding perfectionist , Kubrick assumed control over most aspects of the filmmaking process , from direction and writing to editing , and took painstaking care with researching his films and staging scenes , working in close coordination with his actors and other collaborators .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Stanley_Kubrick_Archive",
+      "sentence_id": 0,
+      "text": "The Stanley Kubrick Archive is held by the University of the Arts London in their Archives and Special Collection Centre at the London College of Communication .",
+      "score": 2.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 204,
+    "tokens_retained": 204,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Stanley Kubrick edited his own memoir.</s></s>A list of books and essays about Stanley Kubrick and his films : Stanley Kubrick -LRB- -LSB- ˈkuːbrɪk -RSB- July 26 , 1928 -- March 7 , 1999 -RRB- was an American film director , screenwriter , producer , cinematographer , editor , and photographer . Creative differences arising from his work with Douglas and the film studios , a dislike of Hollywood , and a growing concern about crime in America prompted Kubrick to move to the United Kingdom in 1961 , where he spent most of the remainder of his life and career . A demanding perfectionist , Kubrick assumed control over most aspects of the filmmaking process , from direction and writing to editing , and took painstaking care with researching his films and staging scenes , working in close coordination with his actors and other collaborators . The Stanley Kubrick Archive is held by the University of the Arts London in their Archives and Special Collection Centre at the London College of Communication .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.07838470799999975
+}

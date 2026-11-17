@@ -1,0 +1,116 @@
+{
+  "id": 40667,
+  "claim": "Shraddha Kapoor was nominated.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06031450000000049,
+      "symbolic": {
+        "claim": "Shraddha Kapoor was nominated.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.0834000001125332e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Shraddha_Kapoor",
+          "sentence_id": 0,
+          "text": "Shraddha Kapoor -LRB- born 3 March 1987 -RRB- is an Indian actress and singer who is noted for her work in Bollywood films .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Shraddha_Kapoor",
+          "sentence_id": 1,
+          "text": "The daughter of actor Shakti Kapoor , she began her acting career with a brief role in the 2010 heist film Teen Patti and followed it with her first leading role in the teen drama Luv Ka The End -LRB- 2011 -RRB- .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Shraddha_Kapoor",
+          "sentence_id": 4,
+          "text": "Kapoor gained wide recognition for playing a singer in the commercially successful romantic drama Aashiqui 2 -LRB- 2013 -RRB- , for which she received several accolades including a Filmfare nomination for the Best Actress .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Shraddha_Kapoor",
+          "sentence_id": 9,
+          "text": "In addition to acting in films , Kapoor has sung several of her film songs .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Shraddha_Kapoor",
+          "sentence_id": 12,
+          "text": "Kapoor features in listings of the most attractive and popular celebrities in India .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.9808647036552429,
+        0.01901925355195999,
+        0.00011598550190683454
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05749991699999768,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Shraddha_Kapoor",
+          "sentence_id": 0,
+          "text": "Shraddha Kapoor -LRB- born 3 March 1987 -RRB- is an Indian actress and singer who is noted for her work in Bollywood films .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Shraddha_Kapoor",
+          "sentence_id": 1,
+          "text": "The daughter of actor Shakti Kapoor , she began her acting career with a brief role in the 2010 heist film Teen Patti and followed it with her first leading role in the teen drama Luv Ka The End -LRB- 2011 -RRB- .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Shraddha_Kapoor",
+          "sentence_id": 4,
+          "text": "Kapoor gained wide recognition for playing a singer in the commercially successful romantic drama Aashiqui 2 -LRB- 2013 -RRB- , for which she received several accolades including a Filmfare nomination for the Best Actress .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Shraddha_Kapoor",
+          "sentence_id": 9,
+          "text": "In addition to acting in films , Kapoor has sung several of her film songs .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Shraddha_Kapoor",
+          "sentence_id": 12,
+          "text": "Kapoor features in listings of the most attractive and popular celebrities in India .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.9808647036552429,
+        0.01901925355195999,
+        0.00011598550190683454
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05715258400000067,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.8655936121940613,
+        0.00593398604542017,
+        0.12847237288951874
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

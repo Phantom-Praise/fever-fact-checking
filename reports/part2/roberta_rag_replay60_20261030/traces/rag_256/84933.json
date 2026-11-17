@@ -1,0 +1,509 @@
+{
+  "id": 84933,
+  "claim": "Steve Buscemi is a composer.",
+  "condition": "rag_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.0840844213962555,
+    0.9148085713386536,
+    0.0011069674510508776
+  ],
+  "logits": [
+    0.24462446570396423,
+    2.6315178871154785,
+    -4.085572719573975
+  ],
+  "inference_seconds": 0.05760337500000112,
+  "evidence_text": "The Listener (2022) Steven Vincent Buscemi (/buːˈsɛmi/ boo-SEH-mee, Italian: [buʃˈʃɛːmi]; born December 13, 1957) is an American actor, director, and producer. His accolades include two Emmy Awards, a Golden Globe Award and two Independent Spirit Awards. Interview (2007) a Primetime Emmy Award for Outstanding Short Form Variety Series for Park Bench with Steve Buscemi (2016). Key † | Denotes films that have not yet been released Jon Buscemi (/buːˈsɛmi/ boo-SEM-ee, Italian: [buʃˈʃɛːmi]; born October 3, 1975) is an American fashion designer known for his work at Oliver Peoples, co-founding Gourmet, and his eponymous brand Buscemi. Jon Buscemi is a cousin of the actor Steve Buscemi. Buscemi has also worked as a director, making his directing debut in the 1990s. His directorial credits include: Year | Title | Role | Artist | Notes 2011 | \"Make Some Noise\" | Waiter | Beastie Boys | 2023 | \"Baticano\" | Mentor | Bad Bunny | was born with examples of religious and civil Baroque architecture. Steve Buscemi Buscemi in 2026 Born | Steven Vincent Buscemi (1957-12-13) December 13, 1957 New York City, U.S. Occupations | Actordirectorproducer Years active | 1983–present Works | Full list Spouse(s) | Jo Andres ​ ​(m. 1987; died 2019)​ Karen Ho ​(m. 2025)​ Children | 1 Relatives | Michael Buscemi (brother) Awards | Full list Signature Jon Buscemi Buscemi in 2013 Labels | Buscemi Greats Brand Gourmet the film Saint John of Las Vegas (2009). During this time he continued to voice roles in films such as Monster House (2006), Igor (2008), G-Force (2009), and Hotel Transylvania (2012). In addition to feature films, he directed episodes of the television shows Love, Homicide: Life on the Street, The Sopranos, Oz, 30 Rock, Portlandia and Nurse Jackie. In the latter, his brother Michael played the character God in several episodes. While scouting a location for a film, Buscemi visited the Philadelphia Eastern State Penitentiary and found the building so interesting that he later provided the majority of the narration for the audio tour there. Before making his film debut, Buscemi was a regular live performer at the Pyramid Cocktail Lounge and other downtown no wave venues. For many years, he performed comic skits with Mark Boone Junior. In 1988, they presented as a duo called Buscemi and Boone an evening of original black comedy at La MaMa Experimental Theatre Club that they called In Your Mind, with one extended playlet titled Two Americans in Paris. Two Americans in Paris was set in Paris in the 1960s and portrayed manipulative confrontations between two young American men in a bistro. Prominent solo performances were given in John Jesurun's Chang in a Void Moon series, as well as appearing in an adaptation of William Shakespeare's play Titus Andronicus, directed by Kęstutis Nakas. Buscemi made his film debut in the 1985 film The Way It Is or Eurydice in the Avenues, directed by Eric Mitchell, which was part of the no wave cinema movement. Other early performances include Park Bench with Steve Buscemi is an American web series talk show created, directed and hosted by actor Steve Buscemi, distributed by digital network AOL. The series premiered on May 15, 2014. In each episode, Buscemi interviews a famous friend, former co-worker or everyday person in New York City. Steven Vincent Buscemi was born on December 13, 1957, in the borough of Brooklyn in New York City, to Dorothy (née Wilson) and John Buscemi. His father was a sanitation worker and served in the Korean War, and his mother was a hostess at Howard Johnson's. Buscemi's paternal ancestors were from the Sicilian town of Menfi and his mother is of English and Dutch ancestry. He has three brothers: Jon, Ken, and Michael. Buscemi was raised Catholic. Trees Lounge (1996) Lonesome Jim (2005) Buscemi is a fan of the musical group Beastie Boys. He appears in the music video for the band's 2011 song \"Make Some Noise\", which was nominated for MTV Video of the Year. He also has a post-credit scene in the Spike Jonze–directed documentary Beastie Boys Story in which he pokes fun at the commercial failure of the group's second studio album, Paul's Boutique; \"When the tree fell in the forest, nobody heard that shit\", jokes Buscemi. Buscemi sang in \"The Broadway Song\" for Lou Reed's 2003 album The Raven. Until 2025, Buscemi resided in Park Slope, Brooklyn, where he was given the key to the city in 2021. He previously resided in Sunset Strip, Los Angeles. Animal Factory (2000)",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1106,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1094,
+    "evidence_tokens_retained": 244,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 180487,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 180487,
+        "tokens_total": 54,
+        "tokens_kept": 54,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 180487,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 180487,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 180487,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 46192290,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 46192290,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 42951619,
+        "tokens_total": 71,
+        "tokens_kept": 71,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 42951619,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 180487,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 180487,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 46192290,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 46192290,
+        "tokens_total": 15,
+        "tokens_kept": 5,
+        "visibility": "partial"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 46192290,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 5661321,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 180487,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 180487,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 180487,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 180487,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 180487,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 180487,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 180487,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 180487,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 180487,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 180487,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 180487,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 180487,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 180487,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 42951619,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 42951619,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 42951619,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 180487,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 180487,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 180487,
+        "tokens_total": 39,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 180487,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 180487,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 180487,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 180487,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 180487,
+        "tokens_total": 45,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 180487,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 180487,
+        "tokens_total": 47,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 180487,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 180487,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 54063566,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 54063566,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 54063566,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 180487,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 180487,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 180487,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 180487,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 180487,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 180487,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 180487,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 180487,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 180487,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 180487,
+        "tokens_total": 62,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 180487,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 180487,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 180487,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 60,
+        "id": "E60",
+        "page_id": 180487,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Steve Buscemi is a composer.</s></s>The Listener (2022) Steven Vincent Buscemi (/buːˈsɛmi/ boo-SEH-mee, Italian: [buʃˈʃɛːmi]; born December 13, 1957) is an American actor, director, and producer. His accolades include two Emmy Awards, a Golden Globe Award and two Independent Spirit Awards. Interview (2007) a Primetime Emmy Award for Outstanding Short Form Variety Series for Park Bench with Steve Buscemi (2016). Key † | Denotes films that have not yet been released Jon Buscemi (/buːˈsɛmi/ boo-SEM-ee, Italian: [buʃˈʃɛːmi]; born October 3, 1975) is an American fashion designer known for his work at Oliver Peoples, co-founding Gourmet, and his eponymous brand Buscemi. Jon Buscemi is a cousin of the actor Steve Buscemi. Buscemi has also worked as a director, making his directing debut in the 1990s. His directorial credits include: Year | Title | Role | Artist | Notes 2011 | \"Make Some</s>"
+  }
+}

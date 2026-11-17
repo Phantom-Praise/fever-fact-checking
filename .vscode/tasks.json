@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Climate-FEVER: inspect",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["src/climate_local.py", "inspect"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    },
+    {
+      "label": "Climate-FEVER: Llama pilot",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["src/climate_local.py", "pilot", "--family", "llama", "--minutes", "30"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    },
+    {
+      "label": "Climate-FEVER: show latest Llama trace",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["src/climate_local.py", "trace", "--family", "llama"],
+      "options": {"cwd": "${workspaceFolder}"},
+      "problemMatcher": []
+    }
+  ]
+}

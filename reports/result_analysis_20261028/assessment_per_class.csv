@@ -1,0 +1,7 @@
+System,Positive label,TP,FP,FN,TN,Recall
+Original LLM,SUPPORTS,27,15,13,65,67.50%
+Original LLM,REFUTES,9,5,31,75,22.50%
+Original LLM,NOT ENOUGH INFO,26,38,14,42,65.00%
+Selected hybrid,SUPPORTS,26,16,14,64,65.00%
+Selected hybrid,REFUTES,30,17,10,63,75.00%
+Selected hybrid,NOT ENOUGH INFO,15,16,25,64,37.50%

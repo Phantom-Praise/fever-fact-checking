@@ -1,0 +1,70 @@
+{
+  "id": 95691,
+  "claim": "Alex Sharp was in a West End show.",
+  "condition": "five_sentence_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9898560047149658,
+    0.010041143745183945,
+    0.00010293176455888897
+  ],
+  "logits": [
+    4.224479675292969,
+    -0.3663886487483978,
+    -4.946768760681152
+  ],
+  "inference_seconds": 0.05628462499999998,
+  "evidence_text": "Alexander Ian `` Alex '' Sharp -LRB- born 2 February 1989 -RRB- is a Tony Award-winning English actor best known for originating the role of Christopher Boone in the Broadway Production of The Curious Incident of the Dog in the Night-Time . Sharp End International was an Australian-owned private military company -LRB- PMC -RRB- that trained government and corporate entities . The Sharp End was a 1991 British television comedy drama starring Gwen Taylor , James Cosmo and Philip Martin Brown . West End most commonly refers to : West End of London , an area of central London , England",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 135,
+    "tokens_retained": 135,
+    "truncated": false,
+    "evidence_tokens_total": 122,
+    "evidence_tokens_retained": 122,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Alex_Sharp",
+        "tokens_total": 52,
+        "tokens_kept": 52,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Sharp_End_International",
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "The_Sharp_End",
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "West_End",
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "West_End",
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Alex Sharp was in a West End show.</s></s>Alexander Ian `` Alex '' Sharp -LRB- born 2 February 1989 -RRB- is a Tony Award-winning English actor best known for originating the role of Christopher Boone in the Broadway Production of The Curious Incident of the Dog in the Night-Time . Sharp End International was an Australian-owned private military company -LRB- PMC -RRB- that trained government and corporate entities . The Sharp End was a 1991 British television comedy drama starring Gwen Taylor , James Cosmo and Philip Martin Brown . West End most commonly refers to : West End of London , an area of central London , England</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

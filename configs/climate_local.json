@@ -1,0 +1,16 @@
+{
+  "data": "data/climate_fever/prepared",
+  "database": "data/processed/wiki_fts.db",
+  "output": "reports/climate_fever/local_ollama_v1",
+  "ollama_url": "http://127.0.0.1:11434",
+  "context_tokens": 8192,
+  "excerpt_characters": 600,
+  "timeout_seconds": 300,
+  "models": {
+    "qwen": "qwen2.5:7b",
+    "llama": "llama3.1:8b",
+    "mistral": "mistral:7b",
+    "gemma": "gemma3:4b"
+  },
+  "roberta_checkpoint": null
+}

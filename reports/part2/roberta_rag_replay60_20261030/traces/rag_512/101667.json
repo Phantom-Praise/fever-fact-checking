@@ -1,0 +1,413 @@
+{
+  "id": 101667,
+  "claim": "Stanley Kubrick edited his own memoir.",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.2588702440261841,
+    0.7403340339660645,
+    0.0007956873159855604
+  ],
+  "logits": [
+    1.2094898223876953,
+    2.2602643966674805,
+    -4.575386047363281
+  ],
+  "inference_seconds": 0.10799437500000053,
+  "evidence_text": "who had also done much of his work under Kubrick's supervision. a film which showed Kubrick's talents as a \"unique kind of absurdist\" according to the film scholar Abrams. Southern made major contributions to the final script, and was co-credited (above George) in the film's opening titles; his perceived role in the writing later led to a public rift between Kubrick and George, who subsequently complained in a letter to Life magazine that Southern's intense but relatively brief involvement with the project was being given undue prominence in the media, while his own role as the author of the film's source novel, and his ten-month stint as the script's co-writer, were being downplayed – a perception Kubrick evidently did little to address. Kubrick spent extensive hours editing, often working seven days a week, and more hours a day as he got closer to deadlines. For Kubrick, written dialogue was one element to be put in balance with mise en scène (set arrangements), music, and especially, editing. Inspired by Pudovkin's treatise on film editing, Kubrick realized that one could create a performance in the editing room and often \"re-direct\" a film, and he remarked: \"I love editing. I think I like it more than any other phase of filmmaking ... Editing is the only unique aspect of filmmaking which does not resemble any other art form—a point so important it cannot be overstressed ... It can make or break a film\". Biographer John Baxter stated: in New York City. As a young man, Kubrick was fascinated by the films of Soviet filmmakers such as Sergei Eisenstein and Vsevolod Pudovkin. Kubrick read Pudovkin's seminal theoretical work, Film Technique, which argues that editing makes film a unique art form, and it needs to be employed to manipulate the medium to its fullest. Kubrick recommended this work to others for many years. Thomas Nelson describes this book as \"the greatest influence of any single written work on the evolution of [Kubrick's] private aesthetics\". Kubrick also found the ideas of Konstantin Stanislavski to be essential to his understanding the basics of directing. A list of books and essays about Stanley Kubrick and his films. He confirmed a lot of things for me about the process of making a film… single-mindedness… trusting your script, not trying to make everybody love it. Stanley Kubrick bibliography Stanley Kubrick Archive primarily in the unconscious\". Stanley Kubrick: A Life in Pictures William Arnold, in reviewing the film, wrote: 2023). Ciment, Michel (1980). Kubrick: The Definitive Edition. Faber and Faber, Inc. Stanley Kubrick's unrealized projects Christiane Kubrick Fenwick, James (2020). Stanley Kubrick Produces. New Brunswick, N.J.: Rutgers University Press. ISBN 9781978814882. Instead of finding the intellectual spine of a film in the script before starting work, Kubrick felt his way towards the final version of a film by shooting each scene from many angles and demanding scores of takes on each line. Then over months ... he arranged and rearranged the tens of thousands of scraps of film to fit a vision that really only began to emerge during editing. unpredictable, examining \"the duality and contradictions that exist in all of us\". Ciment notes how Kubrick often tried to confound audience expectations by establishing radically different moods from one film to the next, remarking that he was almost \"obsessed with contradicting himself, with making each work a critique of the previous one\". Kubrick stated that \"there is no deliberate pattern to the stories that I have chosen to make into films. About the only factor at work each time is that I try not to repeat myself\". As a result, Kubrick was often misunderstood by critics, and only once did he have unanimously positive reviews upon the release of a film—for Paths of Glory. Carr, Jeremy (June 2023). Kubrick and Control: Authority, Order and Independence in the Films and Working Life of Stanley Kubrick. Liverpool, England: Liverpool University Press. ISBN 978-1802078565. Naremore, James (2023). On Kubrick (Revised ed.). London, England: British Film Institute and Bloomsbury. ISBN 978-1-8390-2400-9.",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 884,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 872,
+    "evidence_tokens_retained": 500,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 26683,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 26683,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 26683,
+        "tokens_total": 114,
+        "tokens_kept": 114,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 26683,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 26683,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 26683,
+        "tokens_total": 44,
+        "tokens_kept": 44,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 26683,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 26683,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 26683,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 26683,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 26683,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 26683,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 26683,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 26683,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 26683,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 26683,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 42007420,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 42908426,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 26683,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 26683,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 26683,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 26683,
+        "tokens_total": 7,
+        "tokens_kept": 2,
+        "visibility": "partial"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 42908426,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 42908426,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 42908426,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 42908426,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 42908426,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 26683,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 20648586,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 42007420,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 42007420,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 42007420,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 42007420,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 26683,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 26683,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 26683,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 26683,
+        "tokens_total": 50,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 26683,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 26683,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 26683,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 42007420,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 42007420,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 42007420,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 42007420,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 42007420,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 42007420,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 42007420,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 42007420,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Stanley Kubrick edited his own memoir.</s></s>who had also done much of his work under Kubrick's supervision. a film which showed Kubrick's talents as a \"unique kind of absurdist\" according to the film scholar Abrams. Southern made major contributions to the final script, and was co-credited (above George) in the film's opening titles; his perceived role in the writing later led to a public rift between Kubrick and George, who subsequently complained in a letter to Life magazine that Southern's intense but relatively brief involvement with the project was being given undue prominence in the media, while his own role as the author of the film's source novel, and his ten-month stint as the script's co-writer, were being downplayed – a perception Kubrick evidently did little to address. Kubrick spent extensive hours editing, often working seven days a week, and more hours a day as he got closer to deadlines. For Kubrick, written dialogue was one element to be put in balance with mise en scène (set arrangements), music, and especially, editing. Inspired by Pudovkin's treatise on film editing, Kubrick realized that one could create a performance in the editing room and often \"re-direct\" a film, and he remarked: \"I love editing. I think I like it more than any other phase of filmmaking ... Editing is the only unique aspect of filmmaking which does not resemble any other art form—a point so important it cannot be overstressed ... It can make or break a film\". Biographer John Baxter stated: in New York City. As a young man, Kubrick was fascinated by the films of Soviet filmmakers such as Sergei Eisenstein and Vsevolod Pudovkin. Kubrick read Pudovkin's seminal theoretical work, Film Technique, which argues that editing makes film a unique art form, and it needs to be employed to manipulate the medium to its fullest. Kubrick recommended this work to others for many years. Thomas Nelson describes this book as \"the greatest influence of any single written work on the evolution of [Kubrick's] private aesthetics\". Kubrick also found the ideas of Konstantin Stanislavski to be essential to his understanding the basics of directing. A list of books and essays about Stanley Kubrick and his films. He confirmed a lot of things for me about the process of making a film… single-mindedness… trusting your script, not trying to make everybody love it. Stanley Kubrick bibliography Stanley Kubrick Archive primarily in the unconscious\". Stanley Kubrick</s>"
+  }
+}

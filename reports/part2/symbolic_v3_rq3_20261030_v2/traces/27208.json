@@ -1,0 +1,116 @@
+{
+  "id": 27208,
+  "claim": "Quentin Tarantino first released his film Reservoir Dogs in 1997.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.14473845800000085,
+      "symbolic": {
+        "claim": "Quentin Tarantino first released his film Reservoir Dogs in 1997.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.1790999998595453e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Quentin_Tarantino",
+          "sentence_id": 6,
+          "text": "In the early 1990s , he began his career as an independent filmmaker with the release of Reservoir Dogs in 1992 ; regarded as a classic and cult hit , it was called the `` Greatest Independent Film of All Time '' by Empire .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Quentin_Tarantino",
+          "sentence_id": 9,
+          "text": "For his next effort , Tarantino paid homage to the blaxploitation films of the 1970s with Jackie Brown -LRB- 1997 -RRB- , an adaptation of the novel Rum Punch .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Quentin_Tarantino",
+          "sentence_id": 17,
+          "text": "His eighth film , the mystery Western The Hateful Eight , was released in its roadshow version December 25 , 2015 , in 70 mm film format , complete with opening `` overture '' and halfway-point intermission , after the fashion of big-budget films of the 1960s and early 1970s .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Quentin_Tarantino",
+          "sentence_id": 24,
+          "text": "In December 2015 , Tarantino received a star on the Hollywood Walk of Fame for his contributions to the film industry .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Quentin_Tarantino_Film_Festival",
+          "sentence_id": 0,
+          "text": "The Quentin Tarantino Film Festival , or QT-Fest , is a semi-annual film and multimedia event held by the Austin Film Society in Austin , Texas and attended by film director Quentin Tarantino .",
+          "score": 3.05
+        }
+      ],
+      "probabilities": [
+        0.8298510909080505,
+        0.16979733109474182,
+        0.00035155349178239703
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05648249999999955,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.4558369219303131,
+        0.4705432057380676,
+        0.07361983507871628
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.1341715420000007,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Quentin_Tarantino",
+          "sentence_id": 6,
+          "text": "In the early 1990s , he began his career as an independent filmmaker with the release of Reservoir Dogs in 1992 ; regarded as a classic and cult hit , it was called the `` Greatest Independent Film of All Time '' by Empire .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Quentin_Tarantino",
+          "sentence_id": 9,
+          "text": "For his next effort , Tarantino paid homage to the blaxploitation films of the 1970s with Jackie Brown -LRB- 1997 -RRB- , an adaptation of the novel Rum Punch .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Quentin_Tarantino",
+          "sentence_id": 17,
+          "text": "His eighth film , the mystery Western The Hateful Eight , was released in its roadshow version December 25 , 2015 , in 70 mm film format , complete with opening `` overture '' and halfway-point intermission , after the fashion of big-budget films of the 1960s and early 1970s .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Quentin_Tarantino",
+          "sentence_id": 24,
+          "text": "In December 2015 , Tarantino received a star on the Hollywood Walk of Fame for his contributions to the film industry .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Quentin_Tarantino_Film_Festival",
+          "sentence_id": 0,
+          "text": "The Quentin Tarantino Film Festival , or QT-Fest , is a semi-annual film and multimedia event held by the Austin Film Society in Austin , Texas and attended by film director Quentin Tarantino .",
+          "score": 3.05
+        }
+      ],
+      "probabilities": [
+        0.8298510909080505,
+        0.16979733109474182,
+        0.00035155349178239703
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

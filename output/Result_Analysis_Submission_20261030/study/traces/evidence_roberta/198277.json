@@ -1,0 +1,62 @@
+{
+  "id": 198277,
+  "claim": "Super Metroid was developed by a company.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9930845499038696,
+    0.00675518624484539,
+    0.00016023404896259308
+  ],
+  "logits": [
+    4.236276626586914,
+    -0.7542284727096558,
+    -4.495658874511719
+  ],
+  "evidence": [
+    {
+      "page_id": "Metroid_Fusion",
+      "sentence_id": 1,
+      "text": "The fourth installment in the Metroid series , it was developed by the company 's Research & Development 1 -LRB- R&D 1 -RRB- divisionthe same team that previously developed the 1994 game Super Metroid , to which Fusion bears heavy resemblance .",
+      "score": 4.025
+    },
+    {
+      "page_id": "Super_Metroid",
+      "sentence_id": 0,
+      "text": "Super Metroid is a 2D side-scrolling action-adventure video game developed and published by Nintendo and released for the Super Nintendo Entertainment System in 1994 .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Super_Metroid",
+      "sentence_id": 6,
+      "text": "Super Metroid was directed and written by Yoshio Sakamoto , and produced by Makoto Kano , with Gunpei Yokoi serving as general manager .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Super_Metroid",
+      "sentence_id": 12,
+      "text": "Super Metroid received acclaim from critics , who praised its atmosphere , gameplay , music and graphics .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Super_Metroid",
+      "sentence_id": 15,
+      "text": "Super Metroid became popular among players for speedrunning , and its gameplay and design influenced other games .",
+      "score": 2.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 163,
+    "tokens_retained": 163,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Super Metroid was developed by a company.</s></s>The fourth installment in the Metroid series , it was developed by the company 's Research & Development 1 -LRB- R&D 1 -RRB- divisionthe same team that previously developed the 1994 game Super Metroid , to which Fusion bears heavy resemblance . Super Metroid is a 2D side-scrolling action-adventure video game developed and published by Nintendo and released for the Super Nintendo Entertainment System in 1994 . Super Metroid was directed and written by Yoshio Sakamoto , and produced by Makoto Kano , with Gunpei Yokoi serving as general manager . Super Metroid received acclaim from critics , who praised its atmosphere , gameplay , music and graphics . Super Metroid became popular among players for speedrunning , and its gameplay and design influenced other games .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.118676958
+}

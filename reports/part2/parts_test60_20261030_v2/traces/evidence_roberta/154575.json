@@ -1,0 +1,62 @@
+{
+  "id": 154575,
+  "claim": "A person born in Keene, New Hampshire directed Saving Private Ryan.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.6303020119667053,
+    0.3689447045326233,
+    0.0007532874587923288
+  ],
+  "logits": [
+    2.0339395999908447,
+    1.498387336730957,
+    -4.695568084716797
+  ],
+  "evidence": [
+    {
+      "page_id": "Keene,_New_Hampshire",
+      "sentence_id": 0,
+      "text": "Keene is a city in Cheshire County , New Hampshire , United States .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Beaver_Mills_-LRB-Keene,_New_Hampshire-RRB-",
+      "sentence_id": 0,
+      "text": "The Beaver Mills are a historic mill complex located at 93-115 Railroad Street in Keene , New Hampshire , United States .",
+      "score": 3.033333333333333
+    },
+    {
+      "page_id": "Colony_House_-LRB-Keene,_New_Hampshire-RRB-",
+      "sentence_id": 0,
+      "text": "The Colony House is a historic house at 104 West Street in Keene , New Hampshire .",
+      "score": 3.025
+    },
+    {
+      "page_id": "Stone_Arch_Bridge_-LRB-Keene,_New_Hampshire-RRB-",
+      "sentence_id": 0,
+      "text": "The Stone Arch Bridge is a stone arch railroad bridge located in Keene , Cheshire County , New Hampshire , United States .",
+      "score": 3.0142857142857142
+    },
+    {
+      "page_id": "Keene,_New_Hampshire",
+      "sentence_id": 5,
+      "text": "Keene is home to Keene State College and Antioch University New England and formerly hosted the state 's annual Pumpkin Festival .",
+      "score": 2.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 127,
+    "tokens_retained": 127,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>A person born in Keene, New Hampshire directed Saving Private Ryan.</s></s>Keene is a city in Cheshire County , New Hampshire , United States . The Beaver Mills are a historic mill complex located at 93-115 Railroad Street in Keene , New Hampshire , United States . The Colony House is a historic house at 104 West Street in Keene , New Hampshire . The Stone Arch Bridge is a stone arch railroad bridge located in Keene , Cheshire County , New Hampshire , United States . Keene is home to Keene State College and Antioch University New England and formerly hosted the state 's annual Pumpkin Festival .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.18542333399999933
+}

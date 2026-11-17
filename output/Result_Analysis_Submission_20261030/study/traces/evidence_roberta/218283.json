@@ -1,0 +1,62 @@
+{
+  "id": 218283,
+  "claim": "Dwayne Johnson is a professional skateboarder.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.8903980851173401,
+    0.10932417958974838,
+    0.0002776620676741004
+  ],
+  "logits": [
+    3.030397891998291,
+    0.9330467581748962,
+    -5.042620658874512
+  ],
+  "evidence": [
+    {
+      "page_id": "Dwayne_Johnson",
+      "sentence_id": 0,
+      "text": "Dwayne Douglas Johnson -LRB- born May 2 , 1972 -RRB- , also known by his ring name , The Rock , is an American actor , producer , and professional wrestler .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Dwayne_Johnson_filmography",
+      "sentence_id": 0,
+      "text": "Professional-wrestler turned actor Dwayne Johnson made his lead acting debut in 2002 with The Scorpion King , a prequel to The Mummy Returns -LRB- 2001 -RRB- .",
+      "score": 3.05
+    },
+    {
+      "page_id": "Marc_Johnson_-LRB-skateboarder-RRB-",
+      "sentence_id": 0,
+      "text": "Marc Johnson -LRB- born January 6 , 1977 -RRB- is an American professional skateboarder who is best known for founding the Enjoi skateboard brand and receiving the Thrasher `` Skater of the Year '' award in 2007 .",
+      "score": 3.033333333333333
+    },
+    {
+      "page_id": "Dwayne_Johnson",
+      "sentence_id": 6,
+      "text": "This led him to become a professional wrestler like his grandfather , Peter Maivia , and his father , Rocky Johnson , from whom he also inherited his Canadian citizenship .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Dwayne_Anderson",
+      "sentence_id": 0,
+      "text": "Dwayne Anderson , II -LRB- born June 22 , 1986 -RRB- is a former American professional basketball player and basketball coach .",
+      "score": 2.0125
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 206,
+    "tokens_retained": 206,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Dwayne Johnson is a professional skateboarder.</s></s>Dwayne Douglas Johnson -LRB- born May 2 , 1972 -RRB- , also known by his ring name , The Rock , is an American actor , producer , and professional wrestler . Professional-wrestler turned actor Dwayne Johnson made his lead acting debut in 2002 with The Scorpion King , a prequel to The Mummy Returns -LRB- 2001 -RRB- . Marc Johnson -LRB- born January 6 , 1977 -RRB- is an American professional skateboarder who is best known for founding the Enjoi skateboard brand and receiving the Thrasher `` Skater of the Year '' award in 2007 . This led him to become a professional wrestler like his grandfather , Peter Maivia , and his father , Rocky Johnson , from whom he also inherited his Canadian citizenship . Dwayne Anderson , II -LRB- born June 22 , 1986 -RRB- is a former American professional basketball player and basketball coach .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.10227124999999937
+}

@@ -1,0 +1,69 @@
+{
+  "id": 224847,
+  "claim": "Snoop Dogg is an actor.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9917717576026917,
+    0.008122171275317669,
+    0.00010602708061924204
+  ],
+  "logits": [
+    4.2755446434021,
+    -0.529350757598877,
+    -4.868009090423584
+  ],
+  "inference_seconds": 0.115443250000002,
+  "evidence_text": "Cordozar Calvin Broadus , Jr. -LRB- born October 20 , 1971 -RRB- , known professionally as Snoop Dogg -LRB- sometimes shortened to Snoop and formerly called Snoop Doggy Dogg and Snoop Lion -RRB- , is an American rapper and actor from Long Beach , California . Snoop Dogg has starred in motion pictures and hosted several television shows , including Doggy Fizzle Televizzle , Snoop Dogg 's Father Hood , and Dogg After Dark . Snoop Dogg holds the dubious distinction of having seventeen Grammy nominations without a win . The discography of American rapper Snoop Dogg of fifteen studio albums , four collaborative albums , seventeen compilation albums , one extended play , twenty mixtapes , 127 singles -LRB- including seventy-four as a featured artist -RRB- , and fourteen promotional singles . Snoop Dogg came to attention of the music industry in 1992 , through his vocal contributions on Dr. Dre 's The Chronic .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 222,
+    "tokens_retained": 222,
+    "truncated": false,
+    "evidence_tokens_total": 209,
+    "evidence_tokens_retained": 209,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Snoop_Dogg",
+        "tokens_total": 70,
+        "tokens_kept": 70,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Snoop_Dogg",
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Snoop_Dogg",
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Snoop_Dogg_discography",
+        "tokens_total": 56,
+        "tokens_kept": 56,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Snoop_Dogg_discography",
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Snoop Dogg is an actor.</s></s>Cordozar Calvin Broadus , Jr. -LRB- born October 20 , 1971 -RRB- , known professionally as Snoop Dogg -LRB- sometimes shortened to Snoop and formerly called Snoop Doggy Dogg and Snoop Lion -RRB- , is an American rapper and actor from Long Beach , California . Snoop Dogg has starred in motion pictures and hosted several television shows , including Doggy Fizzle Televizzle , Snoop Dogg 's Father Hood , and Dogg After Dark . Snoop Dogg holds the dubious distinction of having seventeen Grammy nominations without a win . The discography of American rapper Snoop Dogg of fifteen studio albums , four collaborative albums , seventeen compilation albums , one extended play , twenty mixtapes , 127 singles -LRB- including seventy-four as a featured artist -RRB- , and fourteen promotional singles . Snoop Dogg came to attention of the music industry in 1992 , through his vocal contributions on Dr. Dre 's The Chronic .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

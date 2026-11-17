@@ -1,0 +1,14 @@
+{
+  "scope": "90-claim development diagnostic, not final evaluation",
+  "class_counts": {
+    "REFUTES": 30,
+    "SUPPORTS": 30,
+    "NOT ENOUGH INFO": 30
+  },
+  "selection": "seed 42; original validation; excludes normalized official-dev/training/pilot overlaps",
+  "files": {
+    "eval_inputs.jsonl": "24ecf9f1abdb22496aff3921c06741e343ac79034a20d64327c69ad40010640f",
+    "eval_labels.json": "57da5df2fc28b66c560f8a05085049b3a851c53622f6b20b8c8077cbea15b36d",
+    "references.json": "36aea424a1a44fff0de5be9783266ac59beb10ccd6cb304315dfadad5f2d0555"
+  }
+}

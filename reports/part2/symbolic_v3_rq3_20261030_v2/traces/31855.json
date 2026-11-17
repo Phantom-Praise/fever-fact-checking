@@ -1,0 +1,116 @@
+{
+  "id": 31855,
+  "claim": "Daniel Radcliffe starred in a film.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.141548083,
+      "symbolic": {
+        "claim": "Daniel Radcliffe starred in a film.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 2.0250000000388013e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Daniel_Radcliffe",
+          "sentence_id": 0,
+          "text": "Daniel Jacob Radcliffe -LRB- born 23 July 1989 -RRB- is an English actor best known for his role as Harry Potter in the film series of the same name .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Daniel_Radcliffe_on_screen_and_stage",
+          "sentence_id": 0,
+          "text": "Daniel Radcliffe is an English actor who has appeared on film , television , and stage .",
+          "score": 3.0125
+        },
+        {
+          "page_id": "Daniel_Radcliffe",
+          "sentence_id": 2,
+          "text": "At age 11 , he was cast as Harry Potter in the first Harry Potter film , and starred in the series for 10 years until the release of the eighth and final film in 2011 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Starred_Up",
+          "sentence_id": 0,
+          "text": "Starred Up is a 2013 British prison crime drama film directed by David Mackenzie and written by Jonathan Asser .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Daniel_Radcliffe_-LRB-entrepreneur-RRB-",
+          "sentence_id": 0,
+          "text": "Daniel John Radcliffe -LRB- born 28 January 1984 -RRB- is a New Zealand entrepreneur from Taranaki .",
+          "score": 2.02
+        }
+      ],
+      "probabilities": [
+        0.9931081533432007,
+        0.006733379326760769,
+        0.00015839036495890468
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05874612499999898,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.9230511784553528,
+        0.005348827224224806,
+        0.07159998267889023
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.13423720800000005,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Daniel_Radcliffe",
+          "sentence_id": 0,
+          "text": "Daniel Jacob Radcliffe -LRB- born 23 July 1989 -RRB- is an English actor best known for his role as Harry Potter in the film series of the same name .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Daniel_Radcliffe_on_screen_and_stage",
+          "sentence_id": 0,
+          "text": "Daniel Radcliffe is an English actor who has appeared on film , television , and stage .",
+          "score": 3.0125
+        },
+        {
+          "page_id": "Daniel_Radcliffe",
+          "sentence_id": 2,
+          "text": "At age 11 , he was cast as Harry Potter in the first Harry Potter film , and starred in the series for 10 years until the release of the eighth and final film in 2011 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Starred_Up",
+          "sentence_id": 0,
+          "text": "Starred Up is a 2013 British prison crime drama film directed by David Mackenzie and written by Jonathan Asser .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Daniel_Radcliffe_-LRB-entrepreneur-RRB-",
+          "sentence_id": 0,
+          "text": "Daniel John Radcliffe -LRB- born 28 January 1984 -RRB- is a New Zealand entrepreneur from Taranaki .",
+          "score": 2.02
+        }
+      ],
+      "probabilities": [
+        0.9931081533432007,
+        0.006733379326760769,
+        0.00015839036495890468
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

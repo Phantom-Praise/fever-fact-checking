@@ -1,0 +1,116 @@
+{
+  "id": 218918,
+  "claim": "Renaissance art involved Masaccio, Brunelleschi, Ghiberti, Piero della Francesca, Donatello and Michelozzo, and Florence.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06648866599999792,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.7433080077171326,
+        0.017634276300668716,
+        0.23905764520168304
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.22517520800000312,
+      "symbolic": {
+        "claim": "Renaissance art involved Masaccio, Brunelleschi, Ghiberti, Piero della Francesca, Donatello and Michelozzo, and Florence.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 3.145800000226018e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Renaissance_art",
+          "sentence_id": 30,
+          "text": "The serendipitous presence within the region of Florence in the early 15th century of certain individuals of artistic genius , most notably Masaccio , Brunelleschi , Ghiberti , Piero della Francesca , Donatello and Michelozzo formed an ethos out of which sprang the great masters of the High Renaissance , as well as supporting and encouraging many lesser artists to achieve work of extraordinary quality .",
+          "score": 10.1
+        },
+        {
+          "page_id": "Lorenzo_Ghiberti",
+          "sentence_id": 0,
+          "text": "Lorenzo Ghiberti -LRB- -LSB- loˈrɛntso ɡiˈbɛrti -RSB- ; 1378 -- 1 December 1455 -RRB- , born Lorenzo di Bartolo , was a Florentine Italian artist of the Early Renaissance best known as the creator of the bronze doors of the Florence Baptistery , called by Michelangelo the Gates of Paradise .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Renaissance_art",
+          "sentence_id": 0,
+          "text": "Renaissance art is the painting , sculpture and decorative arts of that period of European history known as the Renaissance , emerging as a distinct style in Italy in about 1400 , in parallel with developments which occurred in philosophy , literature , music and science .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Renaissance_art",
+          "sentence_id": 1,
+          "text": "The Renaissance art , perceived as the noblest of ancient traditions , took as its foundation the art of Classical antiquity , but transformed that tradition by absorbing recent developments in the art of Northern Europe and by applying contemporary scientific knowledge .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Renaissance_art",
+          "sentence_id": 2,
+          "text": "Renaissance art , with Renaissance Humanist philosophy , spread throughout Europe , affecting both artists and their patrons with the development of new techniques and new artistic sensibilities .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9877617359161377,
+        0.012133639305830002,
+        0.00010473824659129605
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0848332090000028,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Renaissance_art",
+          "sentence_id": 30,
+          "text": "The serendipitous presence within the region of Florence in the early 15th century of certain individuals of artistic genius , most notably Masaccio , Brunelleschi , Ghiberti , Piero della Francesca , Donatello and Michelozzo formed an ethos out of which sprang the great masters of the High Renaissance , as well as supporting and encouraging many lesser artists to achieve work of extraordinary quality .",
+          "score": 10.1
+        },
+        {
+          "page_id": "Lorenzo_Ghiberti",
+          "sentence_id": 0,
+          "text": "Lorenzo Ghiberti -LRB- -LSB- loˈrɛntso ɡiˈbɛrti -RSB- ; 1378 -- 1 December 1455 -RRB- , born Lorenzo di Bartolo , was a Florentine Italian artist of the Early Renaissance best known as the creator of the bronze doors of the Florence Baptistery , called by Michelangelo the Gates of Paradise .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Renaissance_art",
+          "sentence_id": 0,
+          "text": "Renaissance art is the painting , sculpture and decorative arts of that period of European history known as the Renaissance , emerging as a distinct style in Italy in about 1400 , in parallel with developments which occurred in philosophy , literature , music and science .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Renaissance_art",
+          "sentence_id": 1,
+          "text": "The Renaissance art , perceived as the noblest of ancient traditions , took as its foundation the art of Classical antiquity , but transformed that tradition by absorbing recent developments in the art of Northern Europe and by applying contemporary scientific knowledge .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Renaissance_art",
+          "sentence_id": 2,
+          "text": "Renaissance art , with Renaissance Humanist philosophy , spread throughout Europe , affecting both artists and their patrons with the development of new techniques and new artistic sensibilities .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9877617359161377,
+        0.012133639305830002,
+        0.00010473824659129605
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": 20653,
+  "claim": "Dawn of the Planet of the Apes is a 20th Century Fox film.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07368400000000008,
+      "symbolic": {
+        "claim": "Dawn of the Planet of the Apes is a 20th Century Fox film.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3834000000656488e-05
+      },
+      "evidence": [
+        {
+          "page_id": "20th_Century_Fox",
+          "sentence_id": 0,
+          "text": "Twentieth Century Fox Film Corporation -LRB- known as Twentieth Century-Fox Film Corporation with a hyphen from 1935 until 1985 , professionally as 20th Century Fox , Twentieth Century Fox or simply known as Fox -RRB- is an American film studio currently owned by 21st Century Fox .",
+          "score": 4.1
+        },
+        {
+          "page_id": "20th_Century_Fox_Animation",
+          "sentence_id": 0,
+          "text": "Twentieth Century Fox Animation -LRB- stylized as 20th Century Fox Animation -RRB- is the animation division of the film studio 20th Century Fox , tasked for production feature-length animated film .",
+          "score": 4.05
+        },
+        {
+          "page_id": "20th_Century_Fox_Records",
+          "sentence_id": 0,
+          "text": "20th Century Fox Records , also known as 20th Fox Records and 20th Century Records , was a wholly owned subsidiary of film studio 20th Century Fox .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "20th_Century_Fox_Film_Noir",
+          "sentence_id": 0,
+          "text": "20th Century Fox Film Noir refers to a collection of films released on DVD by 20th Century Fox .",
+          "score": 4.014285714285714
+        },
+        {
+          "page_id": "20th_Century_Fox_Home_Entertainment",
+          "sentence_id": 0,
+          "text": "Twentieth Century Fox Home Entertainment LLC -LRB- formerly Twentieth Century Fox Home Entertainment , Inc. , doing business as 20th Century Fox Home Entertainment -RRB- is the home video distribution arm of the 20th Century Fox film studio .",
+          "score": 4.0125
+        }
+      ],
+      "probabilities": [
+        0.9625747799873352,
+        0.03735029697418213,
+        7.496460602851585e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06381670800000094,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5673376321792603,
+        0.30708765983581543,
+        0.12557469308376312
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07334837500000191,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "20th_Century_Fox",
+          "sentence_id": 0,
+          "text": "Twentieth Century Fox Film Corporation -LRB- known as Twentieth Century-Fox Film Corporation with a hyphen from 1935 until 1985 , professionally as 20th Century Fox , Twentieth Century Fox or simply known as Fox -RRB- is an American film studio currently owned by 21st Century Fox .",
+          "score": 4.1
+        },
+        {
+          "page_id": "20th_Century_Fox_Animation",
+          "sentence_id": 0,
+          "text": "Twentieth Century Fox Animation -LRB- stylized as 20th Century Fox Animation -RRB- is the animation division of the film studio 20th Century Fox , tasked for production feature-length animated film .",
+          "score": 4.05
+        },
+        {
+          "page_id": "20th_Century_Fox_Records",
+          "sentence_id": 0,
+          "text": "20th Century Fox Records , also known as 20th Fox Records and 20th Century Records , was a wholly owned subsidiary of film studio 20th Century Fox .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "20th_Century_Fox_Film_Noir",
+          "sentence_id": 0,
+          "text": "20th Century Fox Film Noir refers to a collection of films released on DVD by 20th Century Fox .",
+          "score": 4.014285714285714
+        },
+        {
+          "page_id": "20th_Century_Fox_Home_Entertainment",
+          "sentence_id": 0,
+          "text": "Twentieth Century Fox Home Entertainment LLC -LRB- formerly Twentieth Century Fox Home Entertainment , Inc. , doing business as 20th Century Fox Home Entertainment -RRB- is the home video distribution arm of the 20th Century Fox film studio .",
+          "score": 4.0125
+        }
+      ],
+      "probabilities": [
+        0.9625747799873352,
+        0.03735029697418213,
+        7.496460602851585e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

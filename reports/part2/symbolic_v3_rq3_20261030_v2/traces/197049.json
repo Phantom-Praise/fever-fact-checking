@@ -1,0 +1,327 @@
+{
+  "id": 197049,
+  "claim": "Charles Woodruff Yost died in 1981.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08964304099999865,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Charles_Woodruff_Yost",
+          "sentence_id": 0,
+          "text": "Charles Woodruff Yost -LRB- November 6 , 1907 -- May 21 , 1981 -RRB- was a career U.S. diplomat who was assigned as his country 's representative to the United Nations from 1969 to 1971 .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Charles_Woodruff",
+          "sentence_id": 0,
+          "text": "Charles Woodruff may refer to :",
+          "score": 2.05
+        },
+        {
+          "page_id": "Charles_Woodruff",
+          "sentence_id": 3,
+          "text": "Charles Woodruff -LRB- archer -RRB- -LRB- 1846 -- 1927 -RRB- , American Olympic archer",
+          "score": 2.05
+        },
+        {
+          "page_id": "Charles_Woodruff",
+          "sentence_id": 5,
+          "text": "Charles Armijo Woodruff -LRB- 1884 -- 1945 -RRB- , 11th Governor of American Samoa",
+          "score": 2.05
+        },
+        {
+          "page_id": "Charles_Woodruff",
+          "sentence_id": 7,
+          "text": "Charles Woodruff -LRB- general -RRB- -LRB- 1845-1920 -RRB-",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.7297083139419556,
+        0.26972290873527527,
+        0.000568839896004647
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.7377749159999993,
+      "symbolic": {
+        "claim": "Charles Woodruff Yost died in 1981.",
+        "label": null,
+        "reason": "incomplete_symbolic_evidence",
+        "parts": [
+          {
+            "property": "P570",
+            "kind": "date",
+            "expected": {
+              "year": 1981
+            },
+            "verdict": null,
+            "reason": "conflicting_date_values",
+            "statements": [
+              {
+                "mainsnak": {
+                  "snaktype": "value",
+                  "property": "P570",
+                  "hash": "e845a1186bb16aebcb8313cf000e0fe3c8408b13",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1981-05-21T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                },
+                "type": "statement",
+                "id": "Q1066494$F0B5A0ED-5C09-42DC-B1CB-D941EADD5C63",
+                "rank": "normal",
+                "references": [
+                  {
+                    "hash": "b9efce2fa38bd1eb0ada076bd0191f2bca4fddfa",
+                    "snaks": {
+                      "P248": [
+                        {
+                          "snaktype": "value",
+                          "property": "P248",
+                          "hash": "f98ec89708e8eab9511c049702ef59df0721d652",
+                          "datavalue": {
+                            "value": {
+                              "entity-type": "item",
+                              "numeric-id": 29861311,
+                              "id": "Q29861311"
+                            },
+                            "type": "wikibase-entityid"
+                          },
+                          "datatype": "wikibase-item"
+                        }
+                      ],
+                      "P3430": [
+                        {
+                          "snaktype": "value",
+                          "property": "P3430",
+                          "hash": "aa52c5e33794d298e178457a7a1ffa037f16c316",
+                          "datavalue": {
+                            "value": "w6j38tq6",
+                            "type": "string"
+                          },
+                          "datatype": "external-id"
+                        }
+                      ],
+                      "P1810": [
+                        {
+                          "snaktype": "value",
+                          "property": "P1810",
+                          "hash": "fc8cf8b13d4ff5a84867714068466ce7728f06d0",
+                          "datavalue": {
+                            "value": "Charles Woodruff Yost",
+                            "type": "string"
+                          },
+                          "datatype": "string"
+                        }
+                      ],
+                      "P813": [
+                        {
+                          "snaktype": "value",
+                          "property": "P813",
+                          "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                          "datavalue": {
+                            "value": {
+                              "time": "+2017-10-09T00:00:00Z",
+                              "timezone": 0,
+                              "before": 0,
+                              "after": 0,
+                              "precision": 11,
+                              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                            },
+                            "type": "time"
+                          },
+                          "datatype": "time"
+                        }
+                      ]
+                    },
+                    "snaks-order": [
+                      "P248",
+                      "P3430",
+                      "P1810",
+                      "P813"
+                    ]
+                  }
+                ]
+              },
+              {
+                "mainsnak": {
+                  "snaktype": "value",
+                  "property": "P570",
+                  "hash": "04bf9ba3a4adc953a3b2e342e4fe344742da4fc1",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1981-05-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                },
+                "type": "statement",
+                "id": "Q1066494$54396967-3455-47e5-914c-b75ef8e3cff4",
+                "rank": "normal",
+                "references": [
+                  {
+                    "hash": "74c1e5027bfc70d9b81b41520b35670bc79c9bf6",
+                    "snaks": {
+                      "P248": [
+                        {
+                          "snaktype": "value",
+                          "property": "P248",
+                          "hash": "b62f3fa8bab7eb5e1bfe16d03cda082d25315c85",
+                          "datavalue": {
+                            "value": {
+                              "entity-type": "item",
+                              "numeric-id": 63056,
+                              "id": "Q63056"
+                            },
+                            "type": "wikibase-entityid"
+                          },
+                          "datatype": "wikibase-item"
+                        }
+                      ],
+                      "P813": [
+                        {
+                          "snaktype": "value",
+                          "property": "P813",
+                          "hash": "a6372501a0bceb6777f6e780d14344318d98bd51",
+                          "datavalue": {
+                            "value": {
+                              "time": "+2019-08-29T00:00:00Z",
+                              "timezone": 0,
+                              "before": 0,
+                              "after": 0,
+                              "precision": 11,
+                              "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                            },
+                            "type": "time"
+                          },
+                          "datatype": "time"
+                        }
+                      ]
+                    },
+                    "snaks-order": [
+                      "P248",
+                      "P813"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "parsed": {
+          "subject": "Charles Woodruff Yost",
+          "human": true,
+          "parts": [
+            {
+              "property": "P570",
+              "kind": "date",
+              "expected": {
+                "year": 1981
+              }
+            }
+          ]
+        },
+        "entity_resolution": "unique_label_or_alias",
+        "subject_id": "Q1066494",
+        "source_url": "https://www.wikidata.org/wiki/Q1066494",
+        "source_revision": 2512501592,
+        "queries": [
+          {
+            "params": {
+              "action": "wbsearchentities",
+              "search": "Charles Woodruff Yost",
+              "language": "en",
+              "limit": 50
+            },
+            "snapshot_file": "dde9a22184d5f2059c3ac29b1859feee6d7686e440b57d5e2b58eb45d916e25b.json",
+            "fetched_utc": "2026-10-31T00:07:17.097915+00:00"
+          },
+          {
+            "params": {
+              "action": "wbgetentities",
+              "ids": "Q1066494",
+              "props": "info|claims|labels|aliases",
+              "languages": "en"
+            },
+            "snapshot_file": "72c77b7a9cf7f10bb35b89138ca2e2539e7d018e7d1c6e4b9f8a12ea7ddfb345.json",
+            "fetched_utc": "2026-10-31T00:07:17.557875+00:00"
+          }
+        ],
+        "http_calls": 2,
+        "wall_seconds": 0.6459863749999997
+      },
+      "evidence": [
+        {
+          "page_id": "Charles_Woodruff_Yost",
+          "sentence_id": 0,
+          "text": "Charles Woodruff Yost -LRB- November 6 , 1907 -- May 21 , 1981 -RRB- was a career U.S. diplomat who was assigned as his country 's representative to the United Nations from 1969 to 1971 .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Charles_Woodruff",
+          "sentence_id": 0,
+          "text": "Charles Woodruff may refer to :",
+          "score": 2.05
+        },
+        {
+          "page_id": "Charles_Woodruff",
+          "sentence_id": 3,
+          "text": "Charles Woodruff -LRB- archer -RRB- -LRB- 1846 -- 1927 -RRB- , American Olympic archer",
+          "score": 2.05
+        },
+        {
+          "page_id": "Charles_Woodruff",
+          "sentence_id": 5,
+          "text": "Charles Armijo Woodruff -LRB- 1884 -- 1945 -RRB- , 11th Governor of American Samoa",
+          "score": 2.05
+        },
+        {
+          "page_id": "Charles_Woodruff",
+          "sentence_id": 7,
+          "text": "Charles Woodruff -LRB- general -RRB- -LRB- 1845-1920 -RRB-",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.7297083139419556,
+        0.26972290873527527,
+        0.000568839896004647
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.056314749999998526,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.2917707860469818,
+        0.6513713002204895,
+        0.056857842952013016
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

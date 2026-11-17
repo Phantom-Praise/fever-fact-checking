@@ -1,0 +1,278 @@
+{
+  "scorecard": {
+    "n": 19998,
+    "scope": "full official development, paired retained evidence and token budget",
+    "conditions": [
+      "roberta_original_rag512",
+      "roberta_last3_rag512"
+    ],
+    "paired_counts": {
+      "both_correct": 8909,
+      "original_only_correct": 1311,
+      "selected_only_correct": 3532,
+      "both_wrong": 6246
+    },
+    "evidence_source": "FEVER Wikipedia snapshot",
+    "model_metrics": {
+      "roberta_original_rag512": {
+        "status": "complete",
+        "n": 19998,
+        "accuracy": 0.5110511051105111,
+        "macro_f1": 0.4084485729372056,
+        "invalid": 0,
+        "prediction_columns": [
+          "SUPPORTS",
+          "REFUTES",
+          "NOT ENOUGH INFO",
+          "INVALID"
+        ],
+        "confusion_matrix": [
+          [
+            5860,
+            806,
+            0,
+            0
+          ],
+          [
+            2306,
+            4360,
+            0,
+            0
+          ],
+          [
+            4167,
+            2499,
+            0,
+            0
+          ]
+        ],
+        "per_class": {
+          "SUPPORTS": {
+            "precision": 0.4751479769723506,
+            "recall": 0.8790879087908791,
+            "f1": 0.6168745723459129
+          },
+          "REFUTES": {
+            "precision": 0.5688193085453359,
+            "recall": 0.654065406540654,
+            "f1": 0.6084711464657038
+          },
+          "NOT ENOUGH INFO": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "metric_note": "Label metrics only; supplied passage citations are not scored with the official strict FEVER evidence scorer.",
+        "evidence_source": "FEVER Wikipedia snapshot"
+      },
+      "roberta_last3_rag512": {
+        "status": "complete",
+        "n": 19998,
+        "accuracy": 0.6221122112211221,
+        "macro_f1": 0.6111515605931236,
+        "invalid": 0,
+        "prediction_columns": [
+          "SUPPORTS",
+          "REFUTES",
+          "NOT ENOUGH INFO",
+          "INVALID"
+        ],
+        "confusion_matrix": [
+          [
+            5694,
+            435,
+            537,
+            0
+          ],
+          [
+            1733,
+            4071,
+            862,
+            0
+          ],
+          [
+            2967,
+            1023,
+            2676,
+            0
+          ]
+        ],
+        "per_class": {
+          "SUPPORTS": {
+            "precision": 0.5478160477198384,
+            "recall": 0.8541854185418541,
+            "f1": 0.6675263774912075
+          },
+          "REFUTES": {
+            "precision": 0.7362995116657624,
+            "recall": 0.6107110711071108,
+            "f1": 0.667650676506765
+          },
+          "NOT ENOUGH INFO": {
+            "precision": 0.6566871165644171,
+            "recall": 0.4014401440144014,
+            "f1": 0.4982776277813984
+          }
+        },
+        "metric_note": "Label metrics only; supplied passage citations are not scored with the official strict FEVER evidence scorer.",
+        "evidence_source": "FEVER Wikipedia snapshot"
+      }
+    },
+    "accuracy_difference_percentage_points": 11.106110611061105
+  },
+  "examples": [
+    {
+      "id": 81957,
+      "claim": "Trouble with the Curve is a television show.",
+      "label": "REFUTES",
+      "created_utc": "2026-11-07T15:16:03.688304+00:00",
+      "protocol_identity": "2ba14757e63fff0445d3283c8bc1328118d36117fb7970d6041fe0014e2fad02",
+      "evidence_identity": "ca5e41bc7064cd930bc0ed47bc8fb315551cd86706b3f71aeceb977d3da8bc34",
+      "evidence_status": "READY",
+      "inference_seconds": 0.04776074100027472,
+      "probabilities": [
+        0.03265736624598503,
+        0.9179640412330627,
+        0.049378614872694016
+      ],
+      "input_tokens": 502,
+      "untruncated_tokens": 502,
+      "truncated": false,
+      "retained_input": "<s>Trouble with the Curve is a television show.</s></s>Trouble with the Curve is a 2012 sports-drama film directed by Robert Lorenz , and starring Clint Eastwood , Amy Adams , Justin Timberlake , Matthew Lillard and John Goodman . The film revolves around an aging baseball scout whose daughter joins him on a scouting trip . Filming began in March 2012 , and the film was released on September 21 , 2012 . This was Eastwood 's first acting project since 2008 's Gran Torino and his first acting role in a film he did not direct since his cameo in 1995 's Casper . A year after its release the film became the subject of a plagiarism lawsuit by a producer alleging that his former partner had taken an unfinished script after a dispute and conspired with his agent and Warner Brothers to present it as the work of a relative unknown . In mathematics , a curve -LRB- also called a curved line in older texts -RRB- is , generally speaking , an object similar to a line but that need not be straight . Thus , a curve is a generalization of a line , in that curvature is not necessarily zero . Various disciplines within mathematics have given the term different meanings depending on the area of study , so the precise meaning depends on context . However , many of these meanings are special instances of the definition which follows . A curve is a topological space which is locally homeomorphic to a line . In everyday language , this means that a curve is a set of points which , near each of its points , looks like a line , up to a deformation . A simple example of a curve is the parabola , shown to the right . A large number of other curves have been studied in multiple mathematical fields . A closed curve is a curve that forms a path whose starting point is also its ending point -- that is , a path from any of its points to the same point . Closely related meanings include the graph of a function -LRB- as in Phillips curve -RRB- and a two-dimensional graph . Trouble may refer to : Never Trouble Trouble is a 1931 British comedy film directed by Lupino Lane and starring Lane , Renee Clama and Jack Hobbs . It was made at Cricklewood Studios . `` Trouble Trouble '' is a dance song by Irish Australian four piece band The Potbelleez , released as the third single from their self-titled debut album The Potbelleez .</s>"
+    },
+    {
+      "id": 111816,
+      "claim": "Theresa May worked the docks.",
+      "label": "NOT ENOUGH INFO",
+      "created_utc": "2026-11-07T15:16:02.661808+00:00",
+      "protocol_identity": "2ba14757e63fff0445d3283c8bc1328118d36117fb7970d6041fe0014e2fad02",
+      "evidence_identity": "c1818b03d9537cae75d873c7fc32e06794deef78fec7d6ef2cdf4217fe767674",
+      "evidence_status": "READY",
+      "inference_seconds": 0.04537630499999068,
+      "probabilities": [
+        0.05167829245328903,
+        0.0760064646601677,
+        0.8723152279853821
+      ],
+      "input_tokens": 512,
+      "untruncated_tokens": 773,
+      "truncated": true,
+      "retained_input": "<s>Theresa May worked the docks.</s></s>8 June . Theresa Mary May -LRB- n\u00e9e Brasier ; born 1 October 1956 -RRB- is a British politician who has served as Prime Minister of the United Kingdom since 2016 . She has been the Member of Parliament -LRB- MP -RRB- for Maidenhead since 1997 and Leader of the Conservative Party since July 2016 . She is the second female Prime Minister and Conservative leader after Margaret Thatcher . The daughter of a vicar , May grew up in Oxfordshire . From 1977 until 1983 , she worked for the Bank of England , and from 1985 until 1997 at the Association for Payment Clearing Services , also serving as a councillor for Durnsford in Merton . After unsuccessful attempts to be elected to the House of Commons in 1992 and 1994 , she was elected as the MP for Maidenhead in the 1997 general election . From 1999 to 2010 , May held a number of roles in the Shadow Cabinets of William Hague , Iain Duncan Smith , Michael Howard and David Cameron , including Shadow Transport Secretary and Shadow Work and Pensions The premiership of Theresa May began on 13 July 2016 , when May accepted Queen Elizabeth II 's invitation to form a government . This followed the resignation of May 's predecessor as Prime Minister , David Cameron , who resigned in the aftermath of the European Union membership referendum . The Home Office under Theresa May refers to the period during which British Prime Minister Theresa May served as Home Secretary . As a member of David Cameron 's first government May was appointed as Home Secretary on 12 May 2010 , shortly after Cameron became prime minister , and continued in the post as part of the second Cameron ministry following the 2015 general election . She held the post until she succeeded Cameron as prime minister on 13 July 2016 . May was the second woman to be appointed to the post of Home Secretary after Jacqui Smith , and the fourth woman to hold one of the Great Offices of State . The longest-serving Home Secretary since James Chuter Ede over 60 years previously , May pursued reform of the police , took a harder line on drug policy and introduced restrictions on immigration . Secretary . She was also Chairman of the Conservative Party from 2002 to 2003 . After the formation of a coalition government following the 2010 general election , May was appointed Home Secretary and Minister for Women and Equalities , giving up the latter role in 2012 . Reappointed after the Conservative victory in the 2015 general election , she went on to become the longest-serving Home Secretary since James Chuter Ede over 60</s>"
+    },
+    {
+      "id": 87517,
+      "claim": "The Cyclades are located to the southeast of Greece's mainland.",
+      "label": "SUPPORTS",
+      "created_utc": "2026-11-07T15:16:01.606039+00:00",
+      "protocol_identity": "2ba14757e63fff0445d3283c8bc1328118d36117fb7970d6041fe0014e2fad02",
+      "evidence_identity": "f60d2714f0580c6b2d9fbc8b5d6ada2b4406606affc6952dbe67af3f6e1c13d9",
+      "evidence_status": "READY",
+      "inference_seconds": 0.046470835999571136,
+      "probabilities": [
+        0.6973055601119995,
+        0.122343510389328,
+        0.18035097420215607
+      ],
+      "input_tokens": 512,
+      "untruncated_tokens": 691,
+      "truncated": true,
+      "retained_input": "<s>The Cyclades are located to the southeast of Greece's mainland.</s></s>The Cyclades -LRB- -LSB- \u02c8s\u026akl\u0259di\u02d0z -RSB- \u039a\u03c5\u03ba\u03bb\u03ac\u03b4\u03b5\u03c2 , -LSB- cik\u02c8la\u00f0es -RSB- -RRB- are an island group in the Aegean Sea , southeast of mainland Greece and a former administrative prefecture of Greece . They are one of the island groups which constitute the Aegean archipelago . The name refers to the islands around the sacred island of Delos . The largest island of the Cyclades is Naxos . Cymothoe cyclades is a butterfly in the Nymphalidae family . It is found in Cameroon and the eastern part of the Democratic Republic of the Congo . features of the Internet protocol in the ARPANET project . The network was sponsored by the French government , through the Institut de Recherche en lnformatique et en Automatique -LRB- IRIA -RRB- , the national research laboratory for computer science in France , now known as INRIA , which served as the co-ordinating agency . Several French computer manufacturers , research institutes and universities contributed to the effort . CYCLADES was designed and directed by Louis Pouzin . Mainland Southeast Asia , also known as the Indochinese Peninsula and previously Indochina , is the continental portion of Southeast Asia lying east of India and south of China , bounded by the Indian Ocean to the west and the Pacific Ocean to the east . The CYCLADES computer network -LRB- -LSB- siklad -RSB- -RRB- was a French research network created in the early 1970s . It was one of the pioneering networks experimenting with the concept of packet switching , and was developed to explore alternatives to the ARPANET design . It supported general local network research . The CYCLADES network was the first to make the hosts responsible for the reliable delivery of data , rather than this being a centralized service of the network itself . Datagrams were exchanged on the network using transport protocols that do not guarantee reliable delivery , but only attempt best-effort . To empower the network leaves , the hosts , to perform error-correction , the network ensured end-to-end protocol transparency , a concept later to be known as the end-to-end principle . This simplified network</s>"
+    },
+    {
+      "id": 145641,
+      "claim": "Michael Hutchence died on a boat.",
+      "label": "NOT ENOUGH INFO",
+      "created_utc": "2026-11-07T15:16:00.596491+00:00",
+      "protocol_identity": "2ba14757e63fff0445d3283c8bc1328118d36117fb7970d6041fe0014e2fad02",
+      "evidence_identity": "ea1a6465bd37674f5e58d09e6e632620d08b88adc76897a56853c935824d0c18",
+      "evidence_status": "READY",
+      "inference_seconds": 0.049460989000181144,
+      "probabilities": [
+        0.010283826850354671,
+        0.1533423364162445,
+        0.8363738656044006
+      ],
+      "input_tokens": 512,
+      "untruncated_tokens": 1123,
+      "truncated": true,
+      "retained_input": "<s>Michael Hutchence died on a boat.</s></s>life was often reported in the Australian and international press , with a string of love affairs with prominent actresses , models and singers . Hutchence 's relationship with UK television presenter Paula Yates began while she was married to musician and Live Aid organiser Bob Geldof . Geldof and Yates divorced in 1996 . During July of the same year , Hutchence and Yates had a daughter , Heavenly Hiraani Tiger Lily . On the morning of 22 November 1997 , Hutchence was found dead in his hotel room in Sydney . His death was reported by the New South Wales Coroner to be the result of suicide . In 2000 , Yates died of a heroin overdose . The couple 's daughter was placed in Geldof 's custody with her half-sisters . Michael Hutchence is the only solo posthumous album by INXS frontman Michael Hutchence . It was released on 14 December 1999 , just over two years after Hutchence 's death . Hutchence began work on what would become his posthumous solo album in 1995 with Tim Simenon . He then phoned Gang of Four guitarist Andy Gill and asked him to play on the album . Ten minutes later he phoned back and asked Gill to co-write the album . Gill joined Hutchence at his house and home studio in Roquefort-les-Pins and over a five-month period continued to write and record in France and London . They were fans of Black Grape and decided to enlist Black Grape producer Danny Saber as co-producer with Gill of the album . After Hutchence 's death in 1997 , Gill asked U2 singer , and Hutchence 's friend , Bono to record additional lyrics which were added to the track `` Slide Away '' . This Michael Kelland John Hutchence -LRB- 22 January 1960 -- 22 November 1997 -RRB- was an Australian musician and actor . He was a founding member , lead singer and lyricist of rock band : INXS from 1977 until his death in 1997 . He was a member of short-lived pop rock group Max Q and recorded solo material which was released posthumously . He acted in feature films , including Dogs in Space -LRB- 1986 -RRB- , Frankenstein Unbound -LRB- 1990 -RRB- and Limp -LRB- 1997 -RRB- . According to rock-music historian Ian McFarlane , `` Hut</s>"
+    },
+    {
+      "id": 81957,
+      "claim": "Trouble with the Curve is a television show.",
+      "label": "REFUTES",
+      "created_utc": "2026-11-07T15:16:03.578872+00:00",
+      "protocol_identity": "5194e58f24e4698203ce16fd6162a94f67825a2e5824ec357fb32c9ac4298e4f",
+      "evidence_identity": "ca5e41bc7064cd930bc0ed47bc8fb315551cd86706b3f71aeceb977d3da8bc34",
+      "evidence_status": "READY",
+      "inference_seconds": 0.04784008900060144,
+      "probabilities": [
+        0.057498905807733536,
+        0.9424284100532532,
+        7.270654896274209e-05
+      ],
+      "input_tokens": 502,
+      "untruncated_tokens": 502,
+      "truncated": false,
+      "retained_input": "<s>Trouble with the Curve is a television show.</s></s>Trouble with the Curve is a 2012 sports-drama film directed by Robert Lorenz , and starring Clint Eastwood , Amy Adams , Justin Timberlake , Matthew Lillard and John Goodman . The film revolves around an aging baseball scout whose daughter joins him on a scouting trip . Filming began in March 2012 , and the film was released on September 21 , 2012 . This was Eastwood 's first acting project since 2008 's Gran Torino and his first acting role in a film he did not direct since his cameo in 1995 's Casper . A year after its release the film became the subject of a plagiarism lawsuit by a producer alleging that his former partner had taken an unfinished script after a dispute and conspired with his agent and Warner Brothers to present it as the work of a relative unknown . In mathematics , a curve -LRB- also called a curved line in older texts -RRB- is , generally speaking , an object similar to a line but that need not be straight . Thus , a curve is a generalization of a line , in that curvature is not necessarily zero . Various disciplines within mathematics have given the term different meanings depending on the area of study , so the precise meaning depends on context . However , many of these meanings are special instances of the definition which follows . A curve is a topological space which is locally homeomorphic to a line . In everyday language , this means that a curve is a set of points which , near each of its points , looks like a line , up to a deformation . A simple example of a curve is the parabola , shown to the right . A large number of other curves have been studied in multiple mathematical fields . A closed curve is a curve that forms a path whose starting point is also its ending point -- that is , a path from any of its points to the same point . Closely related meanings include the graph of a function -LRB- as in Phillips curve -RRB- and a two-dimensional graph . Trouble may refer to : Never Trouble Trouble is a 1931 British comedy film directed by Lupino Lane and starring Lane , Renee Clama and Jack Hobbs . It was made at Cricklewood Studios . `` Trouble Trouble '' is a dance song by Irish Australian four piece band The Potbelleez , released as the third single from their self-titled debut album The Potbelleez .</s>"
+    },
+    {
+      "id": 111816,
+      "claim": "Theresa May worked the docks.",
+      "label": "REFUTES",
+      "created_utc": "2026-11-07T15:16:02.555769+00:00",
+      "protocol_identity": "5194e58f24e4698203ce16fd6162a94f67825a2e5824ec357fb32c9ac4298e4f",
+      "evidence_identity": "c1818b03d9537cae75d873c7fc32e06794deef78fec7d6ef2cdf4217fe767674",
+      "evidence_status": "READY",
+      "inference_seconds": 0.04573520199937775,
+      "probabilities": [
+        0.43099460005760193,
+        0.5685471892356873,
+        0.0004581945831887424
+      ],
+      "input_tokens": 512,
+      "untruncated_tokens": 773,
+      "truncated": true,
+      "retained_input": "<s>Theresa May worked the docks.</s></s>8 June . Theresa Mary May -LRB- n\u00e9e Brasier ; born 1 October 1956 -RRB- is a British politician who has served as Prime Minister of the United Kingdom since 2016 . She has been the Member of Parliament -LRB- MP -RRB- for Maidenhead since 1997 and Leader of the Conservative Party since July 2016 . She is the second female Prime Minister and Conservative leader after Margaret Thatcher . The daughter of a vicar , May grew up in Oxfordshire . From 1977 until 1983 , she worked for the Bank of England , and from 1985 until 1997 at the Association for Payment Clearing Services , also serving as a councillor for Durnsford in Merton . After unsuccessful attempts to be elected to the House of Commons in 1992 and 1994 , she was elected as the MP for Maidenhead in the 1997 general election . From 1999 to 2010 , May held a number of roles in the Shadow Cabinets of William Hague , Iain Duncan Smith , Michael Howard and David Cameron , including Shadow Transport Secretary and Shadow Work and Pensions The premiership of Theresa May began on 13 July 2016 , when May accepted Queen Elizabeth II 's invitation to form a government . This followed the resignation of May 's predecessor as Prime Minister , David Cameron , who resigned in the aftermath of the European Union membership referendum . The Home Office under Theresa May refers to the period during which British Prime Minister Theresa May served as Home Secretary . As a member of David Cameron 's first government May was appointed as Home Secretary on 12 May 2010 , shortly after Cameron became prime minister , and continued in the post as part of the second Cameron ministry following the 2015 general election . She held the post until she succeeded Cameron as prime minister on 13 July 2016 . May was the second woman to be appointed to the post of Home Secretary after Jacqui Smith , and the fourth woman to hold one of the Great Offices of State . The longest-serving Home Secretary since James Chuter Ede over 60 years previously , May pursued reform of the police , took a harder line on drug policy and introduced restrictions on immigration . Secretary . She was also Chairman of the Conservative Party from 2002 to 2003 . After the formation of a coalition government following the 2010 general election , May was appointed Home Secretary and Minister for Women and Equalities , giving up the latter role in 2012 . Reappointed after the Conservative victory in the 2015 general election , she went on to become the longest-serving Home Secretary since James Chuter Ede over 60</s>"
+    },
+    {
+      "id": 87517,
+      "claim": "The Cyclades are located to the southeast of Greece's mainland.",
+      "label": "SUPPORTS",
+      "created_utc": "2026-11-07T15:16:01.492464+00:00",
+      "protocol_identity": "5194e58f24e4698203ce16fd6162a94f67825a2e5824ec357fb32c9ac4298e4f",
+      "evidence_identity": "f60d2714f0580c6b2d9fbc8b5d6ada2b4406606affc6952dbe67af3f6e1c13d9",
+      "evidence_status": "READY",
+      "inference_seconds": 0.04672110600040469,
+      "probabilities": [
+        0.8482154011726379,
+        0.15137983858585358,
+        0.0004047527618240565
+      ],
+      "input_tokens": 512,
+      "untruncated_tokens": 691,
+      "truncated": true,
+      "retained_input": "<s>The Cyclades are located to the southeast of Greece's mainland.</s></s>The Cyclades -LRB- -LSB- \u02c8s\u026akl\u0259di\u02d0z -RSB- \u039a\u03c5\u03ba\u03bb\u03ac\u03b4\u03b5\u03c2 , -LSB- cik\u02c8la\u00f0es -RSB- -RRB- are an island group in the Aegean Sea , southeast of mainland Greece and a former administrative prefecture of Greece . They are one of the island groups which constitute the Aegean archipelago . The name refers to the islands around the sacred island of Delos . The largest island of the Cyclades is Naxos . Cymothoe cyclades is a butterfly in the Nymphalidae family . It is found in Cameroon and the eastern part of the Democratic Republic of the Congo . features of the Internet protocol in the ARPANET project . The network was sponsored by the French government , through the Institut de Recherche en lnformatique et en Automatique -LRB- IRIA -RRB- , the national research laboratory for computer science in France , now known as INRIA , which served as the co-ordinating agency . Several French computer manufacturers , research institutes and universities contributed to the effort . CYCLADES was designed and directed by Louis Pouzin . Mainland Southeast Asia , also known as the Indochinese Peninsula and previously Indochina , is the continental portion of Southeast Asia lying east of India and south of China , bounded by the Indian Ocean to the west and the Pacific Ocean to the east . The CYCLADES computer network -LRB- -LSB- siklad -RSB- -RRB- was a French research network created in the early 1970s . It was one of the pioneering networks experimenting with the concept of packet switching , and was developed to explore alternatives to the ARPANET design . It supported general local network research . The CYCLADES network was the first to make the hosts responsible for the reliable delivery of data , rather than this being a centralized service of the network itself . Datagrams were exchanged on the network using transport protocols that do not guarantee reliable delivery , but only attempt best-effort . To empower the network leaves , the hosts , to perform error-correction , the network ensured end-to-end protocol transparency , a concept later to be known as the end-to-end principle . This simplified network</s>"
+    },
+    {
+      "id": 145641,
+      "claim": "Michael Hutchence died on a boat.",
+      "label": "REFUTES",
+      "created_utc": "2026-11-07T15:16:00.484976+00:00",
+      "protocol_identity": "5194e58f24e4698203ce16fd6162a94f67825a2e5824ec357fb32c9ac4298e4f",
+      "evidence_identity": "ea1a6465bd37674f5e58d09e6e632620d08b88adc76897a56853c935824d0c18",
+      "evidence_status": "READY",
+      "inference_seconds": 0.04779348300053243,
+      "probabilities": [
+        0.08415313810110092,
+        0.9157708287239075,
+        7.60469411034137e-05
+      ],
+      "input_tokens": 512,
+      "untruncated_tokens": 1123,
+      "truncated": true,
+      "retained_input": "<s>Michael Hutchence died on a boat.</s></s>life was often reported in the Australian and international press , with a string of love affairs with prominent actresses , models and singers . Hutchence 's relationship with UK television presenter Paula Yates began while she was married to musician and Live Aid organiser Bob Geldof . Geldof and Yates divorced in 1996 . During July of the same year , Hutchence and Yates had a daughter , Heavenly Hiraani Tiger Lily . On the morning of 22 November 1997 , Hutchence was found dead in his hotel room in Sydney . His death was reported by the New South Wales Coroner to be the result of suicide . In 2000 , Yates died of a heroin overdose . The couple 's daughter was placed in Geldof 's custody with her half-sisters . Michael Hutchence is the only solo posthumous album by INXS frontman Michael Hutchence . It was released on 14 December 1999 , just over two years after Hutchence 's death . Hutchence began work on what would become his posthumous solo album in 1995 with Tim Simenon . He then phoned Gang of Four guitarist Andy Gill and asked him to play on the album . Ten minutes later he phoned back and asked Gill to co-write the album . Gill joined Hutchence at his house and home studio in Roquefort-les-Pins and over a five-month period continued to write and record in France and London . They were fans of Black Grape and decided to enlist Black Grape producer Danny Saber as co-producer with Gill of the album . After Hutchence 's death in 1997 , Gill asked U2 singer , and Hutchence 's friend , Bono to record additional lyrics which were added to the track `` Slide Away '' . This Michael Kelland John Hutchence -LRB- 22 January 1960 -- 22 November 1997 -RRB- was an Australian musician and actor . He was a founding member , lead singer and lyricist of rock band : INXS from 1977 until his death in 1997 . He was a member of short-lived pop rock group Max Q and recorded solo material which was released posthumously . He acted in feature films , including Dogs in Space -LRB- 1986 -RRB- , Frankenstein Unbound -LRB- 1990 -RRB- and Limp -LRB- 1997 -RRB- . According to rock-music historian Ian McFarlane , `` Hut</s>"
+    }
+  ]
+}

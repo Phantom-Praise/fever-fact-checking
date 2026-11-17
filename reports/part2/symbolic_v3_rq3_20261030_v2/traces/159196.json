@@ -1,0 +1,116 @@
+{
+  "id": 159196,
+  "claim": "Break on Me was released only by Capitol Nashville.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.13788112499999983,
+      "symbolic": {
+        "claim": "Break on Me was released only by Capitol Nashville.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2915999999307815e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Break_Me",
+          "sentence_id": 0,
+          "text": "`` Break Me '' is the second single by the singer Jewel , released from her 2002 album This Way .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Break_Me_Shake_Me",
+          "sentence_id": 0,
+          "text": "`` Break Me Shake Me '' is the fourth single released by Savage Garden from their eponymous debut album Savage Garden .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Break_on_Me",
+          "sentence_id": 2,
+          "text": "It was released on 23 October 2015 as the second single from his ninth studio album , Ripcord , through Hit Red and Capitol Nashville .",
+          "score": 3.025
+        },
+        {
+          "page_id": "Give_Me_a_Break",
+          "sentence_id": 7,
+          "text": "Give Me a Break , a song by The Ritchie Family , first released as a single in 1980",
+          "score": 3.0125
+        },
+        {
+          "page_id": "Make_or_Break_Me",
+          "sentence_id": 0,
+          "text": "Make or Break Me is a country music album released by singer-songwriter Kyle Park .",
+          "score": 3.011111111111111
+        }
+      ],
+      "probabilities": [
+        0.03189145401120186,
+        0.9680020213127136,
+        0.00010656371887307614
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.06999083300000031,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Break_Me",
+          "sentence_id": 0,
+          "text": "`` Break Me '' is the second single by the singer Jewel , released from her 2002 album This Way .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Break_Me_Shake_Me",
+          "sentence_id": 0,
+          "text": "`` Break Me Shake Me '' is the fourth single released by Savage Garden from their eponymous debut album Savage Garden .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Break_on_Me",
+          "sentence_id": 2,
+          "text": "It was released on 23 October 2015 as the second single from his ninth studio album , Ripcord , through Hit Red and Capitol Nashville .",
+          "score": 3.025
+        },
+        {
+          "page_id": "Give_Me_a_Break",
+          "sentence_id": 7,
+          "text": "Give Me a Break , a song by The Ritchie Family , first released as a single in 1980",
+          "score": 3.0125
+        },
+        {
+          "page_id": "Make_or_Break_Me",
+          "sentence_id": 0,
+          "text": "Make or Break Me is a country music album released by singer-songwriter Kyle Park .",
+          "score": 3.011111111111111
+        }
+      ],
+      "probabilities": [
+        0.03189145401120186,
+        0.9680020213127136,
+        0.00010656371887307614
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05658470799999993,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.012910484336316586,
+        0.9618232846260071,
+        0.025266239419579506
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

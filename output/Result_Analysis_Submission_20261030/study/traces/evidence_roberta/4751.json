@@ -1,0 +1,62 @@
+{
+  "id": 4751,
+  "claim": "Same-sex marriage is legal in the American territory",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9747228622436523,
+    0.025162776932120323,
+    0.00011429239384597167
+  ],
+  "logits": [
+    3.8710665702819824,
+    0.21427929401397705,
+    -5.180081844329834
+  ],
+  "evidence": [
+    {
+      "page_id": "Same-sex_marriage",
+      "sentence_id": 13,
+      "text": "Same-sex marriage is legal in the overseas territories of Akrotiri and Dhekelia , Ascension Island , Bermuda , the British Antarctic Territory , the British Indian Ocean Territory , Gibraltar and the Pitcairn Islands ; and in the Crown dependencies of Guernsey and the Isle of Man .",
+      "score": 5.1
+    },
+    {
+      "page_id": "Same-sex_marriage",
+      "sentence_id": 18,
+      "text": "Thus , unless Congress passes a law regarding same-sex marriage for Indian tribes , federally recognized American Indian tribes have the legal right to form their own marriage laws .",
+      "score": 5.1
+    },
+    {
+      "page_id": "Same-sex_marriage",
+      "sentence_id": 19,
+      "text": "American Samoa is the only unincorporated territory of the United States not to have legalized same-sex marriage .",
+      "score": 5.1
+    },
+    {
+      "page_id": "Same-sex_marriage_in_the_British_Antarctic_Territory",
+      "sentence_id": 0,
+      "text": "Same-sex marriage is legal in the British Antarctic Territory , which is a sector of Antarctica and is one of 14 British Overseas Territories .",
+      "score": 5.05
+    },
+    {
+      "page_id": "Same-sex_marriage",
+      "sentence_id": 3,
+      "text": "In the late 20th century , rites of marriage for same-sex couples without legal recognition became increasingly common .",
+      "score": 4.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 177,
+    "tokens_retained": 177,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Same-sex marriage is legal in the American territory</s></s>Same-sex marriage is legal in the overseas territories of Akrotiri and Dhekelia , Ascension Island , Bermuda , the British Antarctic Territory , the British Indian Ocean Territory , Gibraltar and the Pitcairn Islands ; and in the Crown dependencies of Guernsey and the Isle of Man . Thus , unless Congress passes a law regarding same-sex marriage for Indian tribes , federally recognized American Indian tribes have the legal right to form their own marriage laws . American Samoa is the only unincorporated territory of the United States not to have legalized same-sex marriage . Same-sex marriage is legal in the British Antarctic Territory , which is a sector of Antarctica and is one of 14 British Overseas Territories . In the late 20th century , rites of marriage for same-sex couples without legal recognition became increasingly common .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.396182542
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "n": 300,
+  "checks": [
+    "Frozen source and input hashes unchanged",
+    "300 unique IDs, balanced classes, Telemundo excluded",
+    "Exact original evidence references and five full visible sentences",
+    "All baseline labels match saved 256 and 512 results",
+    "Raw prompts contain only claim/evidence input data; no gold annotations",
+    "Fixed model, schema, seed and decoding settings",
+    "All parsed labels and reasons reproduce raw completed responses",
+    "Context usage below fixed limit",
+    "All metrics independently recompute with full sample denominator",
+    "Paired fixes/regressions equal accuracy differences",
+    "Model digest and Ollama version unchanged"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": 13198,
+  "claim": "Beautiful People is British.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0904670000000003,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Beautiful_People_-LRB-band-RRB-",
+          "sentence_id": 0,
+          "text": "Beautiful People are a British techno-dance group .",
+          "score": 3.0142857142857142
+        },
+        {
+          "page_id": "Beautiful_People_-LRB-film-RRB-",
+          "sentence_id": 0,
+          "text": "Beautiful People is a 1999 British satirical comedy film written and directed by Jasmin Dizdar .",
+          "score": 3.0125
+        },
+        {
+          "page_id": "Beautiful_People",
+          "sentence_id": 0,
+          "text": "Beautiful People may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "British_people",
+          "sentence_id": 0,
+          "text": "British people , or Britons , are the citizens of the United Kingdom , British Overseas Territories , and Crown dependencies , and their descendants .",
+          "score": 2.05
+        },
+        {
+          "page_id": "British_people",
+          "sentence_id": 2,
+          "text": "When used in a historical context , `` British '' or `` Britons '' can refer to the Celtic Britons , the indigenous inhabitants of Great Britain and Brittany , whose surviving members are the modern Welsh people , Cornish people and Bretons .",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.9887969493865967,
+        0.01112523302435875,
+        7.779718725942075e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08611125000000008,
+      "symbolic": {
+        "claim": "Beautiful People is British.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2291999999192171e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Beautiful_People_-LRB-band-RRB-",
+          "sentence_id": 0,
+          "text": "Beautiful People are a British techno-dance group .",
+          "score": 3.0142857142857142
+        },
+        {
+          "page_id": "Beautiful_People_-LRB-film-RRB-",
+          "sentence_id": 0,
+          "text": "Beautiful People is a 1999 British satirical comedy film written and directed by Jasmin Dizdar .",
+          "score": 3.0125
+        },
+        {
+          "page_id": "Beautiful_People",
+          "sentence_id": 0,
+          "text": "Beautiful People may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "British_people",
+          "sentence_id": 0,
+          "text": "British people , or Britons , are the citizens of the United Kingdom , British Overseas Territories , and Crown dependencies , and their descendants .",
+          "score": 2.05
+        },
+        {
+          "page_id": "British_people",
+          "sentence_id": 2,
+          "text": "When used in a historical context , `` British '' or `` Britons '' can refer to the Celtic Britons , the indigenous inhabitants of Great Britain and Brittany , whose surviving members are the modern Welsh people , Cornish people and Bretons .",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.9887969493865967,
+        0.01112523302435875,
+        7.779718725942075e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.059841625000000676,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.31352734565734863,
+        0.6024184823036194,
+        0.08405422419309616
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

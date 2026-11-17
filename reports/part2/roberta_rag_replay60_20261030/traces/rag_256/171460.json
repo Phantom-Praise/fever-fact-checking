@@ -1,0 +1,357 @@
+{
+  "id": 171460,
+  "claim": "Splash starred a dog.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.991253674030304,
+    0.007054368034005165,
+    0.0016920806374400854
+  ],
+  "logits": [
+    3.574738025665283,
+    -1.370585560798645,
+    -2.798273801803589
+  ],
+  "inference_seconds": 0.056380999999999126,
+  "evidence_text": "Splash, a Portuguese water dog owned by Ted Kennedy Last Splash, by The Breeders (1993) Splash! (disambiguation) Splash (dinghy), a boat Splash (American TV series), an American reality series \"Splash\", by Can, 1974 \"Splash!\" (B'z song), 2006 Splash or Splash! or The Splash may refer to: Splash (film), a 1984 fantasy film starring Tom Hanks and Daryl Hannah Splash (wrestling), a professional wrestling technique Splash, the main character in the PBS Kids show Splash and Bubbles Splash (otter), an otter trained in search and rescue Splash! (British TV series), a British reality television series Splash (Flow album) (2003) \"Splash\" (Sub Focus song), 2010 \"Splash\" (Yesung song), 2017 Danbi is a senior high school student taking the College Scholastic Ability Test (CSAT). However, she is not good at mathematics and is reluctant to take the exam. On exam day, she decides to run away and stops by a playground, where she hears a drum from a puddle of water. As she has the ability to travel through spacetime, she takes a leap of faith and jumps into the puddle of water and into the Joseon era. Reality television series based on the Celebrity Splash! franchise Splash (fluid mechanics), sudden disturbances on the surface of water In Joseon, she is mistaken for a eunuch and becomes a confidante of King Lee Do. Danbi finds that in the Joseon Dynasty, her high school level of math and science makes her the greatest scientist in the entire Kingdom. She falls in love with the King and inspires him in his goal to reform the country. However, fearing for their own privileges, Danbi becomes the target of traditionalist courtiers who seek her death. Having a hand in saving both the King and the Queen, Danbi becomes friends with the Queen who, in order to allow the King and Danbi to be together, endorses Danbi becoming a royal consort. Presented to the Queen Dowager, who is a doppelganger of her own mother, Danbi becomes very home sick and therefore decides to return to her era. Lee accepts her decision, and they leave, heading for the beach, where they share a passionate good bye with each other before Danbi disappears into the portal in the water. When she has disappeared, Lee swears that he will find her again, no matter how long it will take. Splash (German band) Splash (Jeremy Jay album) (2009) \"Splash\", by Chon from Grow, 2015 Suzuki Splash, an automobile The series aired two years after the popular novel Moonlight Drawn by Clouds was serialized on Naver in 2013. Like Splash, Moonlight is about the love story between a cross-dressing eunuch and a monarch. The novel is the original work from which the drama Love in the Moonlight (2016) was adapted from. Splash (Japanese band) Kang Hyun Kim Soo-hyun Lee Dae-yeon as Choe Man-ri",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 644,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 634,
+    "evidence_tokens_retained": 246,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 1470229,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 1470229,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 1470229,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 1470229,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 1470229,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 1470229,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 1470229,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 1470229,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 1470229,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 1470229,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 1470229,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 1470229,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 1470229,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 1470229,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 1470229,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 1470229,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 48968186,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 48968186,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 48968186,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 48968186,
+        "tokens_total": 32,
+        "tokens_kept": 16,
+        "visibility": "partial"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 1470229,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 1470229,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 48968186,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 48968186,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 48968186,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 48968186,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 48968186,
+        "tokens_total": 44,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 48968186,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 48968186,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 48968186,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 1470229,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 1470229,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 1470229,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 1470229,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 48968186,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 48968186,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 48968186,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 1470229,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 48968186,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 48968186,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 48968186,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Splash starred a dog.</s></s>Splash, a Portuguese water dog owned by Ted Kennedy Last Splash, by The Breeders (1993) Splash! (disambiguation) Splash (dinghy), a boat Splash (American TV series), an American reality series \"Splash\", by Can, 1974 \"Splash!\" (B'z song), 2006 Splash or Splash! or The Splash may refer to: Splash (film), a 1984 fantasy film starring Tom Hanks and Daryl Hannah Splash (wrestling), a professional wrestling technique Splash, the main character in the PBS Kids show Splash and Bubbles Splash (otter), an otter trained in search and rescue Splash! (British TV series), a British reality television series Splash (Flow album) (2003) \"Splash\" (Sub Focus song), 2010 \"Splash\" (Yesung song), 2017 Danbi is a senior high school student taking the College Scholastic Ability Test (CSAT). However, she is not good at mathematics and is reluctant to take the exam. On exam day, she decides to run away and stops by a playground, where she hears a drum from a puddle of water. As she has the ability to travel through spacetime, she takes a leap of</s>"
+  }
+}

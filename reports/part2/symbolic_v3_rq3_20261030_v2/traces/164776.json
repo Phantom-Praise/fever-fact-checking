@@ -1,0 +1,116 @@
+{
+  "id": 164776,
+  "claim": "Tiger Woods participated in 79 PGA Tour events.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09374591699999968,
+      "symbolic": {
+        "claim": "Tiger Woods participated in 79 PGA Tour events.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.1416000000430415e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Tiger_Woods_PGA_Tour_06",
+          "sentence_id": 0,
+          "text": "Tiger Woods PGA Tour 06 is a golf video game in the PGA Tour series available for PlayStation Portable , PlayStation 2 , Xbox , Xbox 360 , GameCube , Mobile phones , and PC .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Tiger_Woods_PGA_Tour_07",
+          "sentence_id": 0,
+          "text": "Tiger Woods PGA Tour 07 is the ninth golfing video game in the PGA Tour series from EA Sports .",
+          "score": 4.05
+        },
+        {
+          "page_id": "Tiger_Woods_PGA_Tour_08",
+          "sentence_id": 0,
+          "text": "Tiger Woods PGA Tour 08 is the fourth-to-latest Tiger Woods golfing video game in the PGA Tour series from Electronic Arts .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "Tiger_Woods_PGA_Tour_09",
+          "sentence_id": 0,
+          "text": "Tiger Woods PGA Tour 09 is a golfing video game in the PGA Tour series from Electronic Arts .",
+          "score": 4.025
+        },
+        {
+          "page_id": "Tiger_Woods_PGA_Tour_09",
+          "sentence_id": 4,
+          "text": "The Wii version is called Tiger Woods PGA Tour 09 All-Play , as part of EA Sports ' new brand for their Wii games from 2009 .",
+          "score": 4.025
+        }
+      ],
+      "probabilities": [
+        0.5185562968254089,
+        0.48066195845603943,
+        0.0007817390142008662
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07276225000000025,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Tiger_Woods_PGA_Tour_06",
+          "sentence_id": 0,
+          "text": "Tiger Woods PGA Tour 06 is a golf video game in the PGA Tour series available for PlayStation Portable , PlayStation 2 , Xbox , Xbox 360 , GameCube , Mobile phones , and PC .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Tiger_Woods_PGA_Tour_07",
+          "sentence_id": 0,
+          "text": "Tiger Woods PGA Tour 07 is the ninth golfing video game in the PGA Tour series from EA Sports .",
+          "score": 4.05
+        },
+        {
+          "page_id": "Tiger_Woods_PGA_Tour_08",
+          "sentence_id": 0,
+          "text": "Tiger Woods PGA Tour 08 is the fourth-to-latest Tiger Woods golfing video game in the PGA Tour series from Electronic Arts .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "Tiger_Woods_PGA_Tour_09",
+          "sentence_id": 0,
+          "text": "Tiger Woods PGA Tour 09 is a golfing video game in the PGA Tour series from Electronic Arts .",
+          "score": 4.025
+        },
+        {
+          "page_id": "Tiger_Woods_PGA_Tour_09",
+          "sentence_id": 4,
+          "text": "The Wii version is called Tiger Woods PGA Tour 09 All-Play , as part of EA Sports ' new brand for their Wii games from 2009 .",
+          "score": 4.025
+        }
+      ],
+      "probabilities": [
+        0.5185562968254089,
+        0.48066195845603943,
+        0.0007817390142008662
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05632420899999957,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.37837135791778564,
+        0.41020601987838745,
+        0.21142254769802094
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

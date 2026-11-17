@@ -1,0 +1,62 @@
+{
+  "id": 97557,
+  "claim": "Meghan McCain was named a co-host of an American nighttime news and talk show.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.43712469935417175,
+    0.5622228980064392,
+    0.0006524247583001852
+  ],
+  "logits": [
+    1.713704228401184,
+    1.9653841257095337,
+    -4.79357385635376
+  ],
+  "evidence": [
+    {
+      "page_id": "Meghan_McCain",
+      "sentence_id": 10,
+      "text": "McCain also signed on as a FOX News contributor in July 2015 , and was officially named a regular co-host of the afternoon talk program Outnumbered on November 14 , 2016 .",
+      "score": 6.1
+    },
+    {
+      "page_id": "Meghan_McCain",
+      "sentence_id": 0,
+      "text": "Meghan Marguerite McCain -LRB- born October 23 , 1984 -RRB- is an American columnist , author , Fox News host and contributor , and blogger .",
+      "score": 5.1
+    },
+    {
+      "page_id": "Meghan_McCain",
+      "sentence_id": 6,
+      "text": "In 2013 , she began hosting on the start-up Pivot channel and in 2014 assumed the co-host role on Pivot 's TakePart Live until that show was canceled later in the year .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Host",
+      "sentence_id": 12,
+      "text": "Talk show host , a presenter of a TV or radio talk show",
+      "score": 3.025
+    },
+    {
+      "page_id": "Meghan_Allen",
+      "sentence_id": 0,
+      "text": "Meghan Allen -LRB- born November 12 , 1980 in Meadville , Pennsylvania -RRB- is an American softcore model and reality show contestant .",
+      "score": 3.0142857142857142
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 179,
+    "tokens_retained": 179,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Meghan McCain was named a co-host of an American nighttime news and talk show.</s></s>McCain also signed on as a FOX News contributor in July 2015 , and was officially named a regular co-host of the afternoon talk program Outnumbered on November 14 , 2016 . Meghan Marguerite McCain -LRB- born October 23 , 1984 -RRB- is an American columnist , author , Fox News host and contributor , and blogger . In 2013 , she began hosting on the start-up Pivot channel and in 2014 assumed the co-host role on Pivot 's TakePart Live until that show was canceled later in the year . Talk show host , a presenter of a TV or radio talk show Meghan Allen -LRB- born November 12 , 1980 in Meadville , Pennsylvania -RRB- is an American softcore model and reality show contestant .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.18801299999999976
+}

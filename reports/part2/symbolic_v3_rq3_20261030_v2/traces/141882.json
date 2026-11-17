@@ -1,0 +1,116 @@
+{
+  "id": 141882,
+  "claim": "Minneapolis has thirteen prunes.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.06797866700000021,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Virgin_Prunes",
+          "sentence_id": 0,
+          "text": "Virgin Prunes were an Irish post-punk band formed in 1977 .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Virgin_Prunes",
+          "sentence_id": 2,
+          "text": "The other members continued under the name The Prunes until they split up in 1990 .",
+          "score": 1.1
+        },
+        {
+          "page_id": "The_Electric_Prunes",
+          "sentence_id": 0,
+          "text": "The Electric Prunes are an American psychedelic rock band , formed in Los Angeles , California , in 1965 .",
+          "score": 1.05
+        },
+        {
+          "page_id": "The_Electric_Prunes",
+          "sentence_id": 7,
+          "text": "Their first album , The Electric Prunes , included the band 's two nationally charting songs , `` I Had Too Much to Dream -LRB- Last Night -RRB- '' and `` Get Me to the World on Time '' .",
+          "score": 1.05
+        },
+        {
+          "page_id": "Minneapolis",
+          "sentence_id": 0,
+          "text": "Minneapolis -LRB- -LSB- mɪniˈæpəlɪs -RSB- -RRB- is the county seat of Hennepin County , and the larger of the Twin Cities , the 16th-largest metropolitan area in the United States .",
+          "score": 1.0333333333333334
+        }
+      ],
+      "probabilities": [
+        0.48093360662460327,
+        0.5183802843093872,
+        0.00068612489849329
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "NOT ENOUGH INFO",
+      "wall_seconds": 0.056184417000000764,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.010060434229671955,
+        0.19358229637145996,
+        0.796357274055481
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05826945799999983,
+      "symbolic": {
+        "claim": "Minneapolis has thirteen prunes.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3625000001127319e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Virgin_Prunes",
+          "sentence_id": 0,
+          "text": "Virgin Prunes were an Irish post-punk band formed in 1977 .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Virgin_Prunes",
+          "sentence_id": 2,
+          "text": "The other members continued under the name The Prunes until they split up in 1990 .",
+          "score": 1.1
+        },
+        {
+          "page_id": "The_Electric_Prunes",
+          "sentence_id": 0,
+          "text": "The Electric Prunes are an American psychedelic rock band , formed in Los Angeles , California , in 1965 .",
+          "score": 1.05
+        },
+        {
+          "page_id": "The_Electric_Prunes",
+          "sentence_id": 7,
+          "text": "Their first album , The Electric Prunes , included the band 's two nationally charting songs , `` I Had Too Much to Dream -LRB- Last Night -RRB- '' and `` Get Me to the World on Time '' .",
+          "score": 1.05
+        },
+        {
+          "page_id": "Minneapolis",
+          "sentence_id": 0,
+          "text": "Minneapolis -LRB- -LSB- mɪniˈæpəlɪs -RSB- -RRB- is the county seat of Hennepin County , and the larger of the Twin Cities , the 16th-largest metropolitan area in the United States .",
+          "score": 1.0333333333333334
+        }
+      ],
+      "probabilities": [
+        0.48093360662460327,
+        0.5183802843093872,
+        0.00068612489849329
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

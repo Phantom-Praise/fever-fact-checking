@@ -1,0 +1,209 @@
+{
+  "status": "complete",
+  "n": 60,
+  "conditions": {
+    "evidence_roberta": {
+      "n": 60,
+      "accuracy": 0.5666666666666667,
+      "macro_f1": 0.45478036175710596,
+      "confusion_matrix": [
+        [
+          19,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          15,
+          0,
+          0
+        ],
+        [
+          13,
+          7,
+          0,
+          0
+        ]
+      ],
+      "prediction_columns": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO",
+        "INVALID"
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 19,
+          "FP": 18,
+          "FN": 1,
+          "TN": 22,
+          "precision": 0.5135135135135135,
+          "recall": 0.95,
+          "f1": 0.6666666666666666
+        },
+        "REFUTES": {
+          "TP": 15,
+          "FP": 8,
+          "FN": 5,
+          "TN": 32,
+          "precision": 0.6521739130434783,
+          "recall": 0.75,
+          "f1": 0.6976744186046512
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 20,
+          "TN": 40,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "invalid": 0,
+      "mean_wall_seconds": 0.1442773479333333
+    },
+    "parts_rag": {
+      "n": 60,
+      "accuracy": 0.6333333333333333,
+      "macro_f1": 0.658312447786132,
+      "confusion_matrix": [
+        [
+          14,
+          1,
+          5,
+          0
+        ],
+        [
+          1,
+          12,
+          5,
+          2
+        ],
+        [
+          3,
+          3,
+          12,
+          2
+        ]
+      ],
+      "prediction_columns": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO",
+        "INVALID"
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 14,
+          "FP": 4,
+          "FN": 6,
+          "TN": 36,
+          "precision": 0.7777777777777778,
+          "recall": 0.7,
+          "f1": 0.7368421052631579
+        },
+        "REFUTES": {
+          "TP": 12,
+          "FP": 4,
+          "FN": 8,
+          "TN": 36,
+          "precision": 0.75,
+          "recall": 0.6,
+          "f1": 0.6666666666666666
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 12,
+          "FP": 10,
+          "FN": 8,
+          "TN": 30,
+          "precision": 0.5454545454545454,
+          "recall": 0.6,
+          "f1": 0.5714285714285714
+        }
+      },
+      "invalid": 4,
+      "mean_wall_seconds": 58.75750074941665
+    },
+    "parts_model_label": {
+      "n": 60,
+      "accuracy": 0.6333333333333333,
+      "macro_f1": 0.6543859649122806,
+      "confusion_matrix": [
+        [
+          14,
+          1,
+          5,
+          0
+        ],
+        [
+          1,
+          14,
+          3,
+          2
+        ],
+        [
+          3,
+          5,
+          10,
+          2
+        ]
+      ],
+      "prediction_columns": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO",
+        "INVALID"
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 14,
+          "FP": 4,
+          "FN": 6,
+          "TN": 36,
+          "precision": 0.7777777777777778,
+          "recall": 0.7,
+          "f1": 0.7368421052631579
+        },
+        "REFUTES": {
+          "TP": 14,
+          "FP": 6,
+          "FN": 6,
+          "TN": 34,
+          "precision": 0.7,
+          "recall": 0.7,
+          "f1": 0.7
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 10,
+          "FP": 8,
+          "FN": 10,
+          "TN": 32,
+          "precision": 0.5555555555555556,
+          "recall": 0.5,
+          "f1": 0.5263157894736842
+        }
+      },
+      "invalid": 4
+    }
+  },
+  "paired_accuracy_difference": 0.06666666666666667,
+  "paired_accuracy_95_percentile_interval": [
+    -0.1,
+    0.21666666666666667
+  ],
+  "bootstrap_seed": 42,
+  "fixed": 14,
+  "introduced": 10,
+  "inconsistent": 4,
+  "all_workspaces_deleted": true,
+  "limitations": [
+    "60-claim single-run balanced study, not full test-set performance.",
+    "Selected prompt was developed on ten other inspected examples.",
+    "Live Wikipedia versions differ from the historical FEVER evidence corpus.",
+    "Baseline trained on annotated evidence with empty NEI inputs; no retraining.",
+    "No strict FEVER score for live article block citations.",
+    "Full article text and vectors are deleted; exact supplied prompts can be replayed."
+  ]
+}

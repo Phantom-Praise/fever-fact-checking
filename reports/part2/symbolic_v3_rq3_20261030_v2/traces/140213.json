@@ -1,0 +1,116 @@
+{
+  "id": 140213,
+  "claim": "Mel Gibson never won a Best Actor Award from the Australian Film Institute.",
+  "conditions": {
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05633229200000045,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.02722543105483055,
+        0.9592463970184326,
+        0.013528186827898026
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08780412499999812,
+      "symbolic": {
+        "claim": "Mel Gibson never won a Best Actor Award from the Australian Film Institute.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.4249999999549345e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Mel_Gibson",
+          "sentence_id": 9,
+          "text": "Director Peter Weir cast him as one of the leads in the critically acclaimed World War I drama Gallipoli -LRB- 1981 -RRB- , which earned Gibson a Best Actor Award from the Australian Film Institute .",
+          "score": 7.1
+        },
+        {
+          "page_id": "Mel_Gibson",
+          "sentence_id": 13,
+          "text": "Gibson produced , directed , and starred in the epic historical drama film Braveheart -LRB- 1995 -RRB- , for which he won the Golden Globe Award and Academy Award for Best Director , along with the Academy Award for Best Picture .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Mel_Gibson",
+          "sentence_id": 16,
+          "text": "After a 10-year hiatus from directing , Gibson returned with the critically praised and financially successful Hacksaw Ridge -LRB- 2016 -RRB- , which won the Academy Awards for Best Sound Mixing and Best Film Editing and earned Gibson his second nomination for Best Director .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Mel_Gibson_filmography",
+          "sentence_id": 0,
+          "text": "Mel Gibson , AO , is an American actor , director , producer and screenwriter who made his acting debut on the Australian television drama series The Sullivans -LRB- 19761983 -RRB- .",
+          "score": 4.05
+        },
+        {
+          "page_id": "Mel_Gibson_filmography",
+          "sentence_id": 12,
+          "text": "The film earned him a Golden Globe Award and the Academy Award for Best Director , and the film won an Academy Award for Best Picture .",
+          "score": 4.05
+        }
+      ],
+      "probabilities": [
+        0.050025954842567444,
+        0.9499036073684692,
+        7.048602128634229e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08095120800000188,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Mel_Gibson",
+          "sentence_id": 9,
+          "text": "Director Peter Weir cast him as one of the leads in the critically acclaimed World War I drama Gallipoli -LRB- 1981 -RRB- , which earned Gibson a Best Actor Award from the Australian Film Institute .",
+          "score": 7.1
+        },
+        {
+          "page_id": "Mel_Gibson",
+          "sentence_id": 13,
+          "text": "Gibson produced , directed , and starred in the epic historical drama film Braveheart -LRB- 1995 -RRB- , for which he won the Golden Globe Award and Academy Award for Best Director , along with the Academy Award for Best Picture .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Mel_Gibson",
+          "sentence_id": 16,
+          "text": "After a 10-year hiatus from directing , Gibson returned with the critically praised and financially successful Hacksaw Ridge -LRB- 2016 -RRB- , which won the Academy Awards for Best Sound Mixing and Best Film Editing and earned Gibson his second nomination for Best Director .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Mel_Gibson_filmography",
+          "sentence_id": 0,
+          "text": "Mel Gibson , AO , is an American actor , director , producer and screenwriter who made his acting debut on the Australian television drama series The Sullivans -LRB- 19761983 -RRB- .",
+          "score": 4.05
+        },
+        {
+          "page_id": "Mel_Gibson_filmography",
+          "sentence_id": 12,
+          "text": "The film earned him a Golden Globe Award and the Academy Award for Best Director , and the film won an Academy Award for Best Picture .",
+          "score": 4.05
+        }
+      ],
+      "probabilities": [
+        0.050025954842567444,
+        0.9499036073684692,
+        7.048602128634229e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

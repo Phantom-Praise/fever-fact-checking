@@ -1,0 +1,62 @@
+{
+  "id": 41404,
+  "claim": "Greece has the 11th longest coastline.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.3757116496562958,
+    0.623780369758606,
+    0.0005079485126771033
+  ],
+  "logits": [
+    1.6561079025268555,
+    2.1630842685699463,
+    -4.950088977813721
+  ],
+  "evidence": [
+    {
+      "page_id": "Coastline_FM",
+      "sentence_id": 0,
+      "text": "Coastline FM is Spain 's longest established English-speaking radio station in Spain , operating on line and on 97.6 FM on the Costa del Sol .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Coastline_FM",
+      "sentence_id": 4,
+      "text": "Coastline employs a team of professional broadcasters whose aim is to create a relationship with their listeners .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Coastline_paradox",
+      "sentence_id": 0,
+      "text": "The coastline paradox is the counterintuitive observation that the coastline of a landmass does not have a well-defined length .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Coastline_paradox",
+      "sentence_id": 5,
+      "text": "More concretely , the length of the coastline depends on the method used to measure it .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Concordant_coastline",
+      "sentence_id": 0,
+      "text": "A concordant , longitudinal , or Pacific type coastline occurs where beds , or layers , of differing rock types are folded into ridges that run parallel to the coast .",
+      "score": 1.0333333333333334
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 142,
+    "tokens_retained": 142,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Greece has the 11th longest coastline.</s></s>Coastline FM is Spain 's longest established English-speaking radio station in Spain , operating on line and on 97.6 FM on the Costa del Sol . Coastline employs a team of professional broadcasters whose aim is to create a relationship with their listeners . The coastline paradox is the counterintuitive observation that the coastline of a landmass does not have a well-defined length . More concretely , the length of the coastline depends on the method used to measure it . A concordant , longitudinal , or Pacific type coastline occurs where beds , or layers , of differing rock types are folded into ridges that run parallel to the coast .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.09437733300000017
+}

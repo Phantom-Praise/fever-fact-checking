@@ -1,0 +1,65 @@
+{
+  "n": 100,
+  "symbolic_resolved": 0,
+  "symbolic_coverage": 0.0,
+  "symbolic_correct": 0,
+  "estimated_retrieval_calls_avoided": 0,
+  "estimated_transformer_calls_avoided": 0,
+  "wikidata_http_calls": 2,
+  "wikidata_http_failures": 0,
+  "symbolic_wall_seconds": 0.2636823719999998,
+  "reason_counts": {
+    "unsupported_claim_pattern": 98,
+    "unresolved_or_ambiguous_subject": 2
+  },
+  "baseline": {
+    "accuracy": 0.55,
+    "macro_f1": 0.41628396479142743,
+    "confusion_matrix": [
+      [
+        37,
+        10,
+        0
+      ],
+      [
+        6,
+        18,
+        0
+      ],
+      [
+        14,
+        15,
+        0
+      ]
+    ]
+  },
+  "hybrid": {
+    "accuracy": 0.55,
+    "macro_f1": 0.41628396479142743,
+    "confusion_matrix": [
+      [
+        37,
+        10,
+        0
+      ],
+      [
+        6,
+        18,
+        0
+      ],
+      [
+        14,
+        15,
+        0
+      ]
+    ]
+  },
+  "limitations": [
+    "Hybrid reuses saved retrieval-model predictions; no live retrieval or transformer timing.",
+    "Calls avoided are counterfactual counts, not measured latency savings.",
+    "Wikidata live HTTP response times and contents can change.",
+    "Symbolic rules cover only exact birth/death place claims; abstain otherwise.",
+    "A correct Wikidata property is not necessarily contemporaneous with FEVER annotations.",
+    "Development sample of 100 claims; not a held-out final test."
+  ]
+}

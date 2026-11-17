@@ -1,0 +1,5 @@
+{
+  "status": "exploratory_superseded",
+  "replacement": "reports/part2/literature_improvements_20261023_corrected",
+  "reason": "The first process imported a subject parser that used rstrip and could truncate names ending in s. The corrected run repeats the same predeclared grid and samples after fixing this parser. Original outputs are preserved; the repeated assessment is not a new independent sample."
+}

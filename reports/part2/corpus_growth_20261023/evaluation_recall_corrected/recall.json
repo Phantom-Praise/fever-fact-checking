@@ -1,0 +1,94 @@
+[
+  {
+    "db": "data/processed/controlled_corpora_20261023/pages_2000.db",
+    "pages": 2000,
+    "sentences": 10835,
+    "recall": [
+      {
+        "k": 1,
+        "eligible": 71,
+        "any_hits": 36,
+        "complete_hits": 33,
+        "any_recall": 0.5070422535211268,
+        "complete_recall": 0.4647887323943662
+      },
+      {
+        "k": 5,
+        "eligible": 71,
+        "any_hits": 45,
+        "complete_hits": 43,
+        "any_recall": 0.6338028169014085,
+        "complete_recall": 0.6056338028169014
+      }
+    ]
+  },
+  {
+    "db": "data/processed/controlled_corpora_20261023/pages_10000.db",
+    "pages": 10000,
+    "sentences": 50124,
+    "recall": [
+      {
+        "k": 1,
+        "eligible": 71,
+        "any_hits": 36,
+        "complete_hits": 33,
+        "any_recall": 0.5070422535211268,
+        "complete_recall": 0.4647887323943662
+      },
+      {
+        "k": 5,
+        "eligible": 71,
+        "any_hits": 45,
+        "complete_hits": 43,
+        "any_recall": 0.6338028169014085,
+        "complete_recall": 0.6056338028169014
+      }
+    ]
+  },
+  {
+    "db": "data/processed/controlled_corpora_20261023/pages_50000.db",
+    "pages": 50000,
+    "sentences": 239351,
+    "recall": [
+      {
+        "k": 1,
+        "eligible": 71,
+        "any_hits": 35,
+        "complete_hits": 32,
+        "any_recall": 0.49295774647887325,
+        "complete_recall": 0.4507042253521127
+      },
+      {
+        "k": 5,
+        "eligible": 71,
+        "any_hits": 46,
+        "complete_hits": 44,
+        "any_recall": 0.647887323943662,
+        "complete_recall": 0.6197183098591549
+      }
+    ]
+  },
+  {
+    "db": "data/processed/wiki_fts.db",
+    "pages": 5396106,
+    "sentences": 25247888,
+    "recall": [
+      {
+        "k": 1,
+        "eligible": 71,
+        "any_hits": 35,
+        "complete_hits": 32,
+        "any_recall": 0.49295774647887325,
+        "complete_recall": 0.4507042253521127
+      },
+      {
+        "k": 5,
+        "eligible": 71,
+        "any_hits": 46,
+        "complete_hits": 44,
+        "any_recall": 0.647887323943662,
+        "complete_recall": 0.6197183098591549
+      }
+    ]
+  }
+]

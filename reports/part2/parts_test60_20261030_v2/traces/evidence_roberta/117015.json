@@ -1,0 +1,62 @@
+{
+  "id": 117015,
+  "claim": "Robert Redford is a performer.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9922584891319275,
+    0.007595389150083065,
+    0.00014607093180529773
+  ],
+  "logits": [
+    4.208266258239746,
+    -0.6641762256622314,
+    -4.615379810333252
+  ],
+  "evidence": [
+    {
+      "page_id": "Robert_Redford",
+      "sentence_id": 0,
+      "text": "Charles Robert Redford Jr. -LRB- born August 18 , 1936 -RRB- is an American actor , director , producer , businessman , environmentalist , and philanthropist .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Robert_Redford_filmography",
+      "sentence_id": 0,
+      "text": "The filmography of actor , director and producer Robert Redford :",
+      "score": 2.05
+    },
+    {
+      "page_id": "Robert_Redford",
+      "sentence_id": 1,
+      "text": "Redford is the founder of the Sundance Film Festival .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Robert_Redford",
+      "sentence_id": 4,
+      "text": "Redford 's career began in 1960 as a guest star on numerous TV shows , including : The Untouchables , Perry Mason , Alfred Hitchcock Presents , and The Twilight Zone , among others .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Robert_Redford",
+      "sentence_id": 9,
+      "text": "Redford made his film debut in War Hunt -LRB- 1962 -RRB- .",
+      "score": 1.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 131,
+    "tokens_retained": 131,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Robert Redford is a performer.</s></s>Charles Robert Redford Jr. -LRB- born August 18 , 1936 -RRB- is an American actor , director , producer , businessman , environmentalist , and philanthropist . The filmography of actor , director and producer Robert Redford : Redford is the founder of the Sundance Film Festival . Redford 's career began in 1960 as a guest star on numerous TV shows , including : The Untouchables , Perry Mason , Alfred Hitchcock Presents , and The Twilight Zone , among others . Redford made his film debut in War Hunt -LRB- 1962 -RRB- .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.09018512499999964
+}

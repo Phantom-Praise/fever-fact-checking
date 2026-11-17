@@ -1,0 +1,116 @@
+{
+  "id": 120888,
+  "claim": "Overwatch features people.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.14897179100000013,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Characters_of_Overwatch",
+          "sentence_id": 0,
+          "text": "The team-based first person shooter video game Overwatch , developed by Blizzard Entertainment and released in May 2016 , features 24 playable characters -LRB- Heroes -RRB- and a number of supporting characters as part of the game 's narrative , which is told through animated media and digital comics outside of the game .",
+          "score": 2.025
+        },
+        {
+          "page_id": "Overwatch",
+          "sentence_id": 0,
+          "text": "Overwatch may refer to :",
+          "score": 1.1
+        },
+        {
+          "page_id": "Overwatch",
+          "sentence_id": 3,
+          "text": "Overwatch -LRB- military tactic -RRB-",
+          "score": 1.1
+        },
+        {
+          "page_id": "Overwatch",
+          "sentence_id": 5,
+          "text": "Bounding overwatch",
+          "score": 1.1
+        },
+        {
+          "page_id": "Overwatch",
+          "sentence_id": 7,
+          "text": "Overwatch -LRB- video game -RRB- , by Blizzard Entertainment",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.969894289970398,
+        0.030006298795342445,
+        9.948071965482086e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07108433400000003,
+      "symbolic": {
+        "claim": "Overwatch features people.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.1916000000056215e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Characters_of_Overwatch",
+          "sentence_id": 0,
+          "text": "The team-based first person shooter video game Overwatch , developed by Blizzard Entertainment and released in May 2016 , features 24 playable characters -LRB- Heroes -RRB- and a number of supporting characters as part of the game 's narrative , which is told through animated media and digital comics outside of the game .",
+          "score": 2.025
+        },
+        {
+          "page_id": "Overwatch",
+          "sentence_id": 0,
+          "text": "Overwatch may refer to :",
+          "score": 1.1
+        },
+        {
+          "page_id": "Overwatch",
+          "sentence_id": 3,
+          "text": "Overwatch -LRB- military tactic -RRB-",
+          "score": 1.1
+        },
+        {
+          "page_id": "Overwatch",
+          "sentence_id": 5,
+          "text": "Bounding overwatch",
+          "score": 1.1
+        },
+        {
+          "page_id": "Overwatch",
+          "sentence_id": 7,
+          "text": "Overwatch -LRB- video game -RRB- , by Blizzard Entertainment",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.969894289970398,
+        0.030006298795342445,
+        9.948071965482086e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05617437500000033,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.8606029748916626,
+        0.004068962763994932,
+        0.13532805442810059
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

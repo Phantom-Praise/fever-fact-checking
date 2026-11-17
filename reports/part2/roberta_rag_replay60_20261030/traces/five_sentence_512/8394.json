@@ -1,0 +1,69 @@
+{
+  "id": 8394,
+  "claim": "De Profundis was written to a poet.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.7412428855895996,
+    0.25824877619743347,
+    0.0005083288415335119
+  ],
+  "logits": [
+    2.379976987838745,
+    1.3255720138549805,
+    -4.904978275299072
+  ],
+  "inference_seconds": 0.10976450000000071,
+  "evidence_text": "De Profundis -LRB- letter -RRB- , an 1897 work written by Oscar Wilde during his imprisonment , in the form of a letter to Lord Alfred Douglas `` De Profundis '' , a short story by Arthur Conan Doyle written in 1892 De Profundis -LRB- Latin : `` from the depths '' -RRB- is a letter written by Oscar Wilde during his imprisonment in Reading Gaol , to `` Bosie '' -LRB- Lord Alfred Douglas -RRB- . De profundis refers to Psalm 130 -LRB- 129 in the Vulgate -RRB- , traditionally known as the De profundis -LRB- `` Out of the depths '' -RRB- from its opening words in Latin . De profundis -LRB- Pärt -RRB- , a composition by Arvo Pärt for men 's voices , percussion -LRB- ad lib . -RRB-",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 212,
+    "tokens_retained": 212,
+    "truncated": false,
+    "evidence_tokens_total": 198,
+    "evidence_tokens_retained": 198,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "De_Profundis",
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "De_Profundis",
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "De_Profundis_-LRB-letter-RRB-",
+        "tokens_total": 51,
+        "tokens_kept": 51,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "De_Profundis",
+        "tokens_total": 52,
+        "tokens_kept": 52,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "De_Profundis",
+        "tokens_total": 42,
+        "tokens_kept": 42,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>De Profundis was written to a poet.</s></s>De Profundis -LRB- letter -RRB- , an 1897 work written by Oscar Wilde during his imprisonment , in the form of a letter to Lord Alfred Douglas `` De Profundis '' , a short story by Arthur Conan Doyle written in 1892 De Profundis -LRB- Latin : `` from the depths '' -RRB- is a letter written by Oscar Wilde during his imprisonment in Reading Gaol , to `` Bosie '' -LRB- Lord Alfred Douglas -RRB- . De profundis refers to Psalm 130 -LRB- 129 in the Vulgate -RRB- , traditionally known as the De profundis -LRB- `` Out of the depths '' -RRB- from its opening words in Latin . De profundis -LRB- Pärt -RRB- , a composition by Arvo Pärt for men 's voices , percussion -LRB- ad lib . -RRB-</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

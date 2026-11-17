@@ -1,0 +1,116 @@
+{
+  "id": 205386,
+  "claim": "All parts of Google Home were praised.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08491670900000159,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Google_Home",
+          "sentence_id": 0,
+          "text": "Google Home is a smart speaker developed by Google .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Google_Home",
+          "sentence_id": 4,
+          "text": "Google Home enables users to speak voice commands to interact with services through the Home 's intelligent personal assistant called Google Assistant .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Google_Home",
+          "sentence_id": 6,
+          "text": "Google Home also has integrated support for home automation features , letting users speak commands to the device to control smart home appliances .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Google_Home",
+          "sentence_id": 7,
+          "text": "Multiple Google Home devices can be placed in different rooms in a home for synchronized playback of music , and an update in April 2017 brought multi-user support , allowing up to six people to engage with the device .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Google_Home",
+          "sentence_id": 9,
+          "text": "In May 2017 , Google announced multiple updates to Google Home 's functionality , including free hands-free phone calling in the United States and Canada , proactive updates ahead of scheduled events , visual responses on mobile devices or Chromecast-enabled televisions , Bluetooth music streaming , and the ability to schedule calendar appointments , with upcoming support for reminders .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.17202208936214447,
+        0.8278294801712036,
+        0.00014842850214336067
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05657883299999966,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.6128788590431213,
+        0.12967689335346222,
+        0.2574443221092224
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.0772514589999993,
+      "symbolic": {
+        "claim": "All parts of Google Home were praised.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3709000000972082e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Google_Home",
+          "sentence_id": 0,
+          "text": "Google Home is a smart speaker developed by Google .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Google_Home",
+          "sentence_id": 4,
+          "text": "Google Home enables users to speak voice commands to interact with services through the Home 's intelligent personal assistant called Google Assistant .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Google_Home",
+          "sentence_id": 6,
+          "text": "Google Home also has integrated support for home automation features , letting users speak commands to the device to control smart home appliances .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Google_Home",
+          "sentence_id": 7,
+          "text": "Multiple Google Home devices can be placed in different rooms in a home for synchronized playback of music , and an update in April 2017 brought multi-user support , allowing up to six people to engage with the device .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Google_Home",
+          "sentence_id": 9,
+          "text": "In May 2017 , Google announced multiple updates to Google Home 's functionality , including free hands-free phone calling in the United States and Canada , proactive updates ahead of scheduled events , visual responses on mobile devices or Chromecast-enabled televisions , Bluetooth music streaming , and the ability to schedule calendar appointments , with upcoming support for reminders .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.17202208936214447,
+        0.8278294801712036,
+        0.00014842850214336067
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

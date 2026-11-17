@@ -1,0 +1,21 @@
+{
+  "input_sha256": {
+    "reports/part2/corpus_growth_20261023/index_manifest.json": "38a501be171c4023e1e92f98d2a0a2ba74c616afee4499fbf8dbc168020c502f",
+    "data/processed/retrieved/validation_first_100_top5_title_fast.jsonl": "53f48709f6670c33f036c6bb4f1f1b1bb378d199a5f0aa55d179ab639d6edd18",
+    "data/processed/validation.jsonl": "7dae66bba22858d756cb857d405783a1500fa8f3aff92a92e5462d308628c0ef",
+    "reports/part2/symbolic_v2/run_20261023_retry/predictions.csv": "9b61f7aac5816cd8bebb7ca975ba5cc2ac0c6d1dbafd534d902f073690ec0be9",
+    "/Users/praiseben/fever-fact-checking/src/experiment_corpus_growth.py": "29663c948ec2c439dd39f7249f3ce25ec9b70c01902b699aeab22bbab2285727",
+    "/Users/praiseben/fever-fact-checking/src/benchmark_hierarchy.py": "7169b125bfd29a28fdbfe1b15aa272e16f21d3abf35f9a92020a8b0716a341b2"
+  },
+  "command": null,
+  "recall_only": true,
+  "limitations": [
+    "Query-aware core selected using the full title index; not a representative random corpus sample.",
+    "Core uses no gold labels or gold evidence.",
+    "Growth experiment isolates added distractors and index size; evidence availability is deliberately preserved.",
+    "Index schema contains only structures used by title-aware retrieval; full source also stores unrelated indexes.",
+    "Two inference repeats are not independent training repeats.",
+    "Cached symbolic routing excludes live KB costs; zero coverage cannot save model/retrieval calls.",
+    "Fixed growth order and warm caches limit latency interpretation."
+  ]
+}

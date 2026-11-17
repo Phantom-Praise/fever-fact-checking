@@ -1,0 +1,62 @@
+{
+  "id": 118995,
+  "claim": "Hitman is based in America.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.21347211301326752,
+    0.786320149898529,
+    0.0002077539829770103
+  ],
+  "logits": [
+    1.4129419326782227,
+    2.716799736022949,
+    -5.521965026855469
+  ],
+  "evidence": [
+    {
+      "page_id": "Hitman_Go",
+      "sentence_id": 0,
+      "text": "Hitman Go is a turn-based puzzle video game developed by Square Enix Montreal and published by Square Enix .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Hitman_Go",
+      "sentence_id": 8,
+      "text": "The player guides Agent 47 , protagonist of the Hitman franchise , through a series of grid-based levels .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Another_Lonely_Hitman",
+      "sentence_id": 2,
+      "text": "The Japanese title of the film begins with the character 新 , shin -LRB- new -RRB- , to distinguish this movie from a 1989 film -LRB- Lonely or Sad Hitman -RRB- , also based on a novel by Yamanouchi but unrelated in plot .",
+      "score": 2.0142857142857142
+    },
+    {
+      "page_id": "Hitman_City",
+      "sentence_id": 0,
+      "text": "Hitman City is a 2003 action-adventure movie that was directed by Scott Shaw .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Hitman_Go",
+      "sentence_id": 14,
+      "text": "Following its announcement , Hitman Go was met with some scepticism from critics .",
+      "score": 1.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 147,
+    "tokens_retained": 147,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Hitman is based in America.</s></s>Hitman Go is a turn-based puzzle video game developed by Square Enix Montreal and published by Square Enix . The player guides Agent 47 , protagonist of the Hitman franchise , through a series of grid-based levels . The Japanese title of the film begins with the character 新 , shin -LRB- new -RRB- , to distinguish this movie from a 1989 film -LRB- Lonely or Sad Hitman -RRB- , also based on a novel by Yamanouchi but unrelated in plot . Hitman City is a 2003 action-adventure movie that was directed by Scott Shaw . Following its announcement , Hitman Go was met with some scepticism from critics .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.10298387500000139
+}

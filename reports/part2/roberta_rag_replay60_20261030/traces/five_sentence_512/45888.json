@@ -1,0 +1,69 @@
+{
+  "id": 45888,
+  "claim": "Lil Wayne's sixth album came out in 2008.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9835076332092285,
+    0.016407940536737442,
+    8.445632556686178e-05
+  ],
+  "logits": [
+    4.094501495361328,
+    0.0011417418718338013,
+    -5.268144607543945
+  ],
+  "inference_seconds": 0.10955733399999978,
+  "evidence_text": "Wayne gained more prominence with his sixth album Tha Carter III -LRB- 2008 -RRB- , which became his most successful album to date , with first-week sales of over one million copies in the United States . Lights Out is the second studio album by American rapper Lil Wayne . Lil Wayne 's solo debut album Tha Block Is Hot -LRB- 1999 -RRB- , was certified platinum by the Recording Industry Association of America -LRB- RIAA -RRB- . Lil Wayne 's thirteenth studio album , Tha Carter V , has been delayed multiple times and has no scheduled release date . Rebirth is the seventh studio album by American rapper Lil Wayne , released February 2 , 2010 , on Cash Money Records , Young Money Entertainment and Universal Motown .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 177,
+    "tokens_retained": 177,
+    "truncated": false,
+    "evidence_tokens_total": 162,
+    "evidence_tokens_retained": 162,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Lil_Wayne",
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Lights_Out_-LRB-Lil_Wayne_album-RRB-",
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Lil_Wayne",
+        "tokens_total": 44,
+        "tokens_kept": 44,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Lil_Wayne",
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Rebirth_-LRB-Lil_Wayne_album-RRB-",
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Lil Wayne's sixth album came out in 2008.</s></s>Wayne gained more prominence with his sixth album Tha Carter III -LRB- 2008 -RRB- , which became his most successful album to date , with first-week sales of over one million copies in the United States . Lights Out is the second studio album by American rapper Lil Wayne . Lil Wayne 's solo debut album Tha Block Is Hot -LRB- 1999 -RRB- , was certified platinum by the Recording Industry Association of America -LRB- RIAA -RRB- . Lil Wayne 's thirteenth studio album , Tha Carter V , has been delayed multiple times and has no scheduled release date . Rebirth is the seventh studio album by American rapper Lil Wayne , released February 2 , 2010 , on Cash Money Records , Young Money Entertainment and Universal Motown .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "id": 8394,
+  "claim": "De Profundis was written to a poet.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9886658191680908,
+    0.011233177967369556,
+    0.00010095239122165367
+  ],
+  "logits": [
+    4.175169944763184,
+    -0.3023146390914917,
+    -5.0142927169799805
+  ],
+  "inference_seconds": 0.05609312499999852,
+  "evidence_text": "\"De Profundis\", a 1998 poem by Regina Derieva De profundis may also refer to: \"De Profundis\", an 1876 poem by Christina Rossetti \"De Profundis\", a poem by J. Slauerhoff in the 1928 collection Eldorado De Profundis (1704) by Henry Desmarest Suspiria de Profundis, a collection of essays by Thomas De Quincey . First published in fragmentary form in 1845, the work is a collection of short essays in psychological fantasy — what De Quincey himself called \"impassioned prose,\" and what is now termed prose poetry. The essays of the Suspiria \"are among the finest examples of De Quincey's or anyone else's English style.\" Wilde, who still loved Lord Alfred, became troubled as communication from him became rare, then annoyed when he learned that the latter planned to publish Wilde's letters without permission and dedicate poems to him unasked. He wrote to friends immediately, forbidding the former and refusing the latter. Wilde still maintained his belief that the Queensberrys owed him a debt of honour as a result of his bankruptcy trial. De Profundis, a grand-motet by J.-B. Lully, 1683 Max Beerbohm, an old friend of Wilde's, wrote a signed review, \"A Lord of Language\", for Vanity Fair. He described the writing in De Profundis as having achieved the perfect grace of Wilde's earlier work, and said that Wilde had remained a detached artist of words, concluding: \"We see him here as the spectator of his own tragedy. His tragedy was great. It is one of the tragedies that will always live on in romantic history.\" Because of its posthumous publication in 1962 and the many changes to copyright law since then, the copyright of the full original text of De Profundis (the 1962 Hart-Davis edition) has had a very different history in different countries. Substantially, the text is in the public domain in the UK and in the European Union (at the very least in Ireland, France and Germany), but copyright in the United States and Australia. A second, slightly expanded, version of De Profundis appeared in the edition of Collected Works of Wilde published by Ross between 1908 and 1922. Also included were three other letters Wilde wrote from Reading Prison and his two letters to the editor of the Daily Chronicle written after his release. Ross then donated the manuscript to the British Museum on the understanding that it would not be made public until 1960. The manuscript is now in the British Library. \"AMERICA '62: De Profundis\", a 2007 prose piece by Panos Ioannides He also felt redemption and fulfilment in his ordeal, realising that his hardship had at least filled him with the fruit of experience: In 1960, Rupert Hart-Davis examined the manuscript in the library of the British Museum, and produced a new, corrected text from it, which was published in The Letters of Oscar Wilde in 1962. He wrote that: G. S. Street, who had earlier been an intellectual opponent of the decadents, had two impressions of De Profundis: one, \"that it was poignantly touching, the other it was extraordinarily and profoundly interesting\". Street dismissed contemporary complaints that the letter lacked sincerity, saying this was just a manifestation of those who opposed Wilde's graceful writing style. Ellmann, Richard (1988). Oscar Wilde. New York: Vintage Books. ISBN 978-0-394-75984-5. Holland, Merlin; Hart-Davis, Rupert, eds. (2000). The Complete Letters of Oscar Wilde. New York: Henry Holt and Co. ISBN 0-8050-5915-6. (British edition: London: Fourth Estate. ISBN 978-1-85702-781-5). Wilde entrusted the manuscript to the journalist Robert Ross (another former lover, loyal friend, and rival to \"Bosie\"). Ross published the letter in 1905, five years after Wilde's death, giving it the title \"De Profundis\" from Psalm 130. It was an incomplete version, excised of its autobiographical elements and references to the Queensberry family; various editions gave more text until in 1962 the complete and correct version appeared in a volume of Wilde's letters. Wilde, Oscar (1996). De Profundis. Mineola, NY: Dover. ISBN 0-486-29308-4. De Profundis (Latin: \"from the depths\") is a letter written by Oscar Wilde during his imprisonment in Reading Gaol, to his friend and lover Lord Alfred \"Bosie\" Douglas. Out of the Depths (disambiguation) De Profundis C.117, a grand-motet by Louis-Nicolas Clérambault",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1003,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 989,
+    "evidence_tokens_retained": 242,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 1943752,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 1943752,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 1943752,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 1943752,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 1943752,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 1943752,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 1943752,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 24067121,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 19480021,
+        "tokens_total": 43,
+        "tokens_kept": 43,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 19480021,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 24067121,
+        "tokens_total": 42,
+        "tokens_kept": 42,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 24067121,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 24067121,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 1943752,
+        "tokens_total": 15,
+        "tokens_kept": 2,
+        "visibility": "partial"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 1943752,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 24067121,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 24067121,
+        "tokens_total": 48,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 24067121,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 24067121,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 24067121,
+        "tokens_total": 49,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 24067121,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 24067121,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 24067121,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 24067121,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 24067121,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 1943752,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 24067121,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 24067121,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 24067121,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 24067121,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 24067121,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 24067121,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 24067121,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 24067121,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 24067121,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 24067121,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 24067121,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 24067121,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 24067121,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 24067121,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 24067121,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 24067121,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 24067121,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 24067121,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 24067121,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 24067121,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 24067121,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 24067121,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 24067121,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 24067121,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 1943752,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 1943752,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>De Profundis was written to a poet.</s></s>\"De Profundis\", a 1998 poem by Regina Derieva De profundis may also refer to: \"De Profundis\", an 1876 poem by Christina Rossetti \"De Profundis\", a poem by J. Slauerhoff in the 1928 collection Eldorado De Profundis (1704) by Henry Desmarest Suspiria de Profundis, a collection of essays by Thomas De Quincey . First published in fragmentary form in 1845, the work is a collection of short essays in psychological fantasy — what De Quincey himself called \"impassioned prose,\" and what is now termed prose poetry. The essays of the Suspiria \"are among the finest examples of De Quincey's or anyone else's English style.\" Wilde, who still loved Lord Alfred, became troubled as communication from him became rare, then annoyed when he learned that the latter planned to publish Wilde's letters without permission and dedicate poems to him unasked. He wrote to friends immediately, forbidding the former and refusing the latter. Wilde still maintained his belief that the Queensberrys owed him a debt of honour as a result of his bankruptcy trial. De Prof</s>"
+  }
+}

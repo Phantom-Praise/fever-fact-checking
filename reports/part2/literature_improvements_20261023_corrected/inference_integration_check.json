@@ -1,0 +1,27 @@
+{
+  "n": 200,
+  "mismatch_ids": [],
+  "matches_saved_predictions": true,
+  "device": "mps",
+  "source_sha256": {
+    "src/verify_calibrated.py": "2b01012120c0e52cbe9757f4977359c31a03c9427572d1adb2d6da5ced8d639c",
+    "src/evidence_pipeline_v2.py": "9db9767ff29aa345c0c75cc26866726e74ed60dc73f71147b9859206aba18321"
+  },
+  "checkpoint_sha256": {
+    "checkpoints/tuning_weighted/H2_seed42/best/config.json": "6e879816747faab2f1f1577d7c3e687d7481691a9c4277ee93fbf56ca29f5686",
+    "checkpoints/tuning_weighted/H2_seed42/best/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "checkpoints/tuning_weighted/H2_seed42/best/model.safetensors": "72da1d9f32a02fd5d76ea868fbd96bcde746e424e2b49cad907b2c00c5f18553",
+    "checkpoints/tuning_weighted/H2_seed42/best/special_tokens_map.json": "06e405a36dfe4b9604f484f6a1e619af1a7f7d09e34a8555eb0b77b66318067f",
+    "checkpoints/tuning_weighted/H2_seed42/best/tokenizer.json": "2c4c25f79756307e6e7e5bd219a0d602f784db9cdb63a9d76d8da7d05a032335",
+    "checkpoints/tuning_weighted/H2_seed42/best/tokenizer_config.json": "4ea8648e4067230942ac6b32dd61328675bc99ae0a9f4cc665c30a95f0f68712",
+    "checkpoints/tuning_weighted/H2_seed42/best/vocab.json": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e",
+    "checkpoints/roberta_evidence/epoch_1/config.json": "6e879816747faab2f1f1577d7c3e687d7481691a9c4277ee93fbf56ca29f5686",
+    "checkpoints/roberta_evidence/epoch_1/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "checkpoints/roberta_evidence/epoch_1/model.safetensors": "7a4a377205db4adf4af1671345e0ddbed2b164b78f1f4c1aaa13666b3b07e7f2",
+    "checkpoints/roberta_evidence/epoch_1/special_tokens_map.json": "06e405a36dfe4b9604f484f6a1e619af1a7f7d09e34a8555eb0b77b66318067f",
+    "checkpoints/roberta_evidence/epoch_1/tokenizer.json": "2c4c25f79756307e6e7e5bd219a0d602f784db9cdb63a9d76d8da7d05a032335",
+    "checkpoints/roberta_evidence/epoch_1/tokenizer_config.json": "4ea8648e4067230942ac6b32dd61328675bc99ae0a9f4cc665c30a95f0f68712",
+    "checkpoints/roberta_evidence/epoch_1/vocab.json": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e"
+  },
+  "note": "Integration replay on the same assessment, not additional independent evaluation."
+}

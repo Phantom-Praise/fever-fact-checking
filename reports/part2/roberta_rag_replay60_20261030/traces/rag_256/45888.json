@@ -1,0 +1,437 @@
+{
+  "id": 45888,
+  "claim": "Lil Wayne's sixth album came out in 2008.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.8697186708450317,
+    0.1256677657365799,
+    0.004613563884049654
+  ],
+  "logits": [
+    2.19661021232605,
+    0.26208215951919556,
+    -3.0425591468811035
+  ],
+  "inference_seconds": 0.05744883299999959,
+  "evidence_text": "Solo studio albums World\" Released: December 28, 2009 \"Knockout\" Released: February 2, 2010 I Am Music Tour (2008-2009) Rebirth (2010) Collaborative studio albums Tha Carter III (2008) List of best-selling albums by year in the United States The artwork for Tha Carter IV was unveiled on April 20. Originally scheduled to be released on May 16, it was delayed several times until being confirmed for release on August 29, 2011. On May 26, the album's third single, \"How to Love\", was released. He released another track, \"Dear Anne (Stan Part 2)\", in June. In preparation for Tha Carter IV, Carter released a mixtape, Sorry 4 the Wait, in similarity to his mixtape No Ceilings (2009); the mixtape was re-released on streaming services in January 2022 with four additional tracks. Money Records in 2014. In 2007, Carter stated that he would reunite with Hot Boys, with plans to release an album after B.G.'s solo album Too Hood to Be Hollywood was completed. Tha Carter III was originally scheduled to be released in 2007, but it was delayed after several recordings were leaked and distributed through mixtapes, including The Drought Is Over Pt. 2 and The Drought Is Over Pt. 4. Lil Wayne initially planned to release The Leak, a separate album with leaked songs and four additional tracks, on December 18, 2007, with Tha Carter III delayed to March 18, 2008. Instead, The Leak became an EP with five songs and was released digitally on December 25, 2007. The album was originally thought to be the re-release of his triple-platinum album Tha Carter III. The album was supposed to be released December 21, 2008, but Wayne pushed the date back. A week before its first scheduled release Amazon accidentally shipped 500 copies of the album to customers who pre-ordered it. On January 23, 2009, Wayne told MTV that the album will not be a re-release, but will be his rock album debut. The album was originally scheduled for an April 7, 2009 release, however it went through multiple release dates and was finally released on February 2, 2010. Young Money artist, Shanell, stated that the delays were due to Wayne's desire for the album to be \"perfect\". The first single, \"Prom Queen\", was produced by Infamous and Andrew \"Drew\" Correa. The song made its official debut on January 27, appearing on Wayne's MySpace page. Wayne performed the single live for the first time during a concert 's album Top on the track \"My Window\", released on September 11. His verse received praise from critics. On September 25, he released the deluxe edition of his twelfth album Tha Carter V, to celebrate the album's second anniversary; it consists of songs that did not make the cut on the original album. Lil Wayne albums discography Drought Is Over 2 (The Carter 3 Sessions) \"among the best albums of 2007\". Lights Out (2000) number 24 in the UK and at number 86 in France. Rebirth is the seventh studio album by American rapper Lil Wayne, released February 2, 2010, on Cash Money Records, Young Money Entertainment and Universal Motown. The album's production was primarily handled by Cool & Dre, DJ Infamous, DJ Nasty & LVM, Kevin Rudolf, and J.U.S.T.I.C.E. League. Rebirth was promoted as Wayne's rock music debut, though it includes some hip-hop tracks. The album features guest appearances from Eminem, Kevin Rudolf, Shanell and Nicki Minaj. Carter's seventh studio album, Rebirth (2010), experimented with rap rock and was released to generally negative critical reception. A month after its release, he began serving an 8-month jail sentence for criminal possession of a weapon stemming from an incident in 2007. His eighth album, I Am Not a Human Being (2010), was released during his incarceration, while his ninth album, Tha Carter IV (2011), followed months after his release from prison. Despite mixed reviews, Tha Carter IV sold 964,000 units in its first-week in the U.S. His 12th studio album, Tha Carter V (2018)—preceded by I Am Not a Human Being II (2013) and Free Weezy Album (2015)—was released following long-term delays and label disputes, and sold 480,000 units in its first-week. His 13th album, Funeral (2020), became his fifth non-consecutive number one album, followed by his 14th album, Free Weezy Album (2015) Lights Out is the second studio album by American rapper Lil Wayne. It was released on December 19, 2000, by Cash Money Records and Universal Records. The album peaked at number 16 on the US Billboard 200 chart. The album was certified gold by the Recording Industry Association of America (RIAA).",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1034,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1019,
+    "evidence_tokens_retained": 241,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 168540,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 21242497,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 168540,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 168540,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 168540,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 168540,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 168540,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 168540,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 168540,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 168540,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 168540,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 168540,
+        "tokens_total": 49,
+        "tokens_kept": 49,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 168540,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 168540,
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 168540,
+        "tokens_total": 37,
+        "tokens_kept": 20,
+        "visibility": "partial"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 168540,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 168540,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 168540,
+        "tokens_total": 39,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 168540,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 21242497,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 21242497,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 21242497,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 21242497,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 21242497,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 21242497,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 21242497,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 21242497,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 21242497,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 168540,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 168540,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 168540,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 25763702,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 168540,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 168540,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 21242497,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 21242497,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 21242497,
+        "tokens_total": 42,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 21242497,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 21242497,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 21242497,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 168540,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 168540,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 168540,
+        "tokens_total": 39,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 168540,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 168540,
+        "tokens_total": 58,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 168540,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 168540,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 5645372,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 5645372,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 5645372,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 5645372,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Lil Wayne's sixth album came out in 2008.</s></s>Solo studio albums World\" Released: December 28, 2009 \"Knockout\" Released: February 2, 2010 I Am Music Tour (2008-2009) Rebirth (2010) Collaborative studio albums Tha Carter III (2008) List of best-selling albums by year in the United States The artwork for Tha Carter IV was unveiled on April 20. Originally scheduled to be released on May 16, it was delayed several times until being confirmed for release on August 29, 2011. On May 26, the album's third single, \"How to Love\", was released. He released another track, \"Dear Anne (Stan Part 2)\", in June. In preparation for Tha Carter IV, Carter released a mixtape, Sorry 4 the Wait, in similarity to his mixtape No Ceilings (2009); the mixtape was re-released on streaming services in January 2022 with four additional tracks. Money Records in 2014. In 2007, Carter stated that he would reunite with Hot Boys, with plans to release an album after B.G.'s solo album Too Hood to Be Hollywood was completed. Tha Carter III was originally scheduled to be released in 2007, but it was delayed after several recordings</s>"
+  }
+}

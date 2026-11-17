@@ -1,0 +1,246 @@
+[
+  {
+    "id": "Q1 / #111897",
+    "claim": "Telemundo is a English-language television network.",
+    "observed": "Gold REFUTES; evidence RoBERTa SUPPORTS; local LLM REFUTES.",
+    "evidence": "Telemundo is described as Spanish-language. The annotated sentence reached the 256-token RoBERTa input completely; 512 tokens still did not fix that prediction.",
+    "interpretation": "Relevant evidence can be retrieved and visible while the classifier still gets the label wrong.",
+    "source": "E3, E9; /ollama-traces#111897",
+    "raw_llm_reason": "The evidence states that Telemundo is an American Spanish-language broadcast television network, contradicting the claim that it is an English-language television network.",
+    "sentences": [
+      {
+        "page_id": "Noticias_Telemundo",
+        "sentence_id": 8,
+        "text": "Noticias Telemundo maintains bureaus located at many of the network 's television stations across the United States -LRB- particularly those owned by parent subsidiary Telemundo Station Group , that are owned-and-operated stations of the network -RRB- and throughout Latin America , and uses video content from English language sister network NBC 's news division NBC News ."
+      },
+      {
+        "page_id": "Noticiero_Telemundo",
+        "sentence_id": 0,
+        "text": "Noticiero Telemundo -LRB- -LSB- noti\u02c8sje\u027eo tele\u02c8mundo -RSB- ; English translation : Telemundo News -RRB- is the flagship daily evening television news program of Noticias Telemundo , the news division of the American Spanish language broadcast television network Telemundo ."
+      },
+      {
+        "page_id": "Telemundo",
+        "sentence_id": 0,
+        "text": "Telemundo -LRB- -LSB- tele\u02c8mundo -RSB- -RRB- is an American Spanish-language terrestrial television network owned by Comcast through the NBCUniversal division NBCUniversal Telemundo Enterprises ."
+      },
+      {
+        "page_id": "Noticias_Telemundo",
+        "sentence_id": 0,
+        "text": "Noticias Telemundo -LRB- -LSB- no\u02c8tisjas tele\u02c8mundo -RSB- , Telemundo News -RRB- is the news division of Telemundo , an American Spanish language broadcast television network that is owned by NBCUniversal Hispanic Enterprises and Content , a subsidiary of the NBCUniversal Television Group division of NBCUniversal ."
+      },
+      {
+        "page_id": "Telemundo_Deportes",
+        "sentence_id": 0,
+        "text": "Telemundo Deportes is the programming division of the NBC Sports Group , owned by the NBCUniversal Television Group division of NBCUniversal , that is responsible for the production of sports events and magazine programs that air on NBCUniversal 's Spanish language television networks Telemundo and Universo ."
+      }
+    ]
+  },
+  {
+    "id": "Q2 / #146231",
+    "claim": "Juventus F.C. rejected their traditional black-and-white-striped home uniform in 1903.",
+    "observed": "Gold REFUTES; LLM NOT ENOUGH INFO.",
+    "evidence": "The evidence does not mention Juventus F.C. or their uniforms, so it does not support or contradict the claim.",
+    "interpretation": "The original candidate search missed Juventus; the supplied texts about black/white topics do not establish or contradict the uniform claim.",
+    "source": "E4, E6; /ollama-traces#146231",
+    "sentences": [
+      {
+        "page_id": "Traditional_black_gospel",
+        "sentence_id": 0,
+        "text": "Traditional black gospel is music that is written to express either personal or a communal belief regarding African American Christian life , as well as -LRB- in terms of the varying music styles -RRB- to give a Christian alternative to mainstream secular music ."
+      },
+      {
+        "page_id": "Black+White",
+        "sentence_id": 0,
+        "text": "-LRB- not only -RRB- Black + White was an arts and popular culture magazine , published in Australia between 1992 and 2007 ."
+      },
+      {
+        "page_id": "Black._White.",
+        "sentence_id": 3,
+        "text": "The series premiered on March 8 , 2006 and followed two families of three , one white , and the other black ."
+      },
+      {
+        "page_id": "Black-veined_white",
+        "sentence_id": 0,
+        "text": "Black-veined white may refer to"
+      },
+      {
+        "page_id": "Rejected",
+        "sentence_id": 0,
+        "text": "Rejected is an animated short comedy film by Don Hertzfeldt that in 2000 was nominated for an Academy Award for Best Animated Short Film at the 73rd Academy Awards ."
+      }
+    ]
+  },
+  {
+    "id": "Q3 / #149173",
+    "claim": "Psych is a drama and comedy that aired in 2004.",
+    "observed": "Gold REFUTES; LLM SUPPORTS.",
+    "evidence": "The evidence confirms that Psych is a comedy-drama series and provides its airing year as 2006, which is close to the claimed 2004.",
+    "interpretation": "The 2006 debut sentence is present; accepting it as close enough to a 2004 claim is an explicit date-comparison error.",
+    "source": "E4, E6; /ollama-traces#149173",
+    "sentences": [
+      {
+        "page_id": "Psych",
+        "sentence_id": 0,
+        "text": "Psych is an American detective comedy-drama television series created by Steve Franks and broadcast on USA Network with syndicated reruns on ION Television ."
+      },
+      {
+        "page_id": "Comedy-drama",
+        "sentence_id": 0,
+        "text": "Comedy-drama , occasionally known as dramedy -LRB- portmanteau of words drama and comedy -RRB- , is a subgenre in contemporary forms of tragicomedy , especially in television , that combines elements of comedy and drama ."
+      },
+      {
+        "page_id": "Psych_Out",
+        "sentence_id": 0,
+        "text": "`` Psych Out '' is the 16th episode of the ninth season of the American police procedural drama NCIS , and the 202nd episode overall ."
+      },
+      {
+        "page_id": "Psych",
+        "sentence_id": 6,
+        "text": "Psych debuted on Friday , July 7 , 2006 , immediately following the fifth-season premiere of Monk , and continued to be paired with the series until Monk 's conclusion on December 4 , 2009 ."
+      },
+      {
+        "page_id": "Psych",
+        "sentence_id": 10,
+        "text": "On February 5 , 2014 , USA Network confirmed that the eighth season of Psych would be its last , with the series finale airing on March 26 , 2014 ."
+      }
+    ]
+  },
+  {
+    "id": "Q4 / #75152",
+    "claim": "Tool has not performed worldwide tours.",
+    "observed": "Gold REFUTES; original LLM NOT ENOUGH INFO \u2192 selected pipeline REFUTES.",
+    "evidence": "The evidence states that Tool has toured worldwide extensively, contradicting the claim that they have not performed worldwide tours.",
+    "interpretation": "A useful fix: selected evidence explicitly says the band toured worldwide extensively, contradicting the negated claim.",
+    "source": "E10; /llm-configurations",
+    "claim_override": false,
+    "sentences": [
+      {
+        "page_id": "Tool",
+        "sentence_id": 0,
+        "text": "A tool is any physical item that can be used to achieve a goal , especially if the item is not consumed in the process .",
+        "score": 7.266080547268069,
+        "entity_anchor": true
+      },
+      {
+        "page_id": "Tool",
+        "sentence_id": 1,
+        "text": "Tool use by humans dates back millions of years , and other animals are also known to employ simple tools .",
+        "score": 4.550641250772707,
+        "entity_anchor": true
+      },
+      {
+        "page_id": "List_of_Tool_concert_tours",
+        "sentence_id": 3,
+        "text": "Tool has performed songs by other artists occasionally in their live sets , including `` Spasm '' and `` You Lied '' by Peach , `` Stranglehold '' by Ted Nugent , `` Demon Cleaner '' by Kyuss , `` No Quarter '' by Led Zeppelin , and `` Commando '' by The Ramones .",
+        "score": 3.9768731082130375,
+        "entity_anchor": false
+      },
+      {
+        "page_id": "List_of_Tool_concert_tours",
+        "sentence_id": 0,
+        "text": "Grammy Award winning American metal band Tool has toured worldwide extensively .",
+        "score": 3.821673760457571,
+        "entity_anchor": false
+      },
+      {
+        "page_id": "List_of_Tool_concert_tours",
+        "sentence_id": 6,
+        "text": "The song `` Ticks & Leeches '' is only rarely performed live due to the immense strain on Keenan 's voice .",
+        "score": 3.211020759276017,
+        "entity_anchor": false
+      }
+    ]
+  },
+  {
+    "id": "Q5 / #52731",
+    "claim": "Duff McKagan was born in Vietnam.",
+    "observed": "Gold NOT ENOUGH INFO; original LLM NOT ENOUGH INFO \u2192 selected pipeline REFUTES.",
+    "evidence": "The evidence states Duff McKagan was born in 1964, which is not Vietnam.",
+    "interpretation": "A regression: a birth date does not contradict a birthplace. The final REFUTES label is wrong against FEVER\u2019s NEI reference.",
+    "source": "E10; /llm-configurations",
+    "claim_override": false,
+    "sentences": [
+      {
+        "page_id": "Duff_McKagan",
+        "sentence_id": 0,
+        "text": "Michael Andrew `` Duff '' McKagan -LRB- born February 5 , 1964 -RRB- is an American musician , singer , songwriter and author .",
+        "score": 7.845407677037852,
+        "entity_anchor": true
+      },
+      {
+        "page_id": "Alan_Duff",
+        "sentence_id": 0,
+        "text": "Alan Duff , -LRB- born 26 October 1950 -RRB- , is a New Zealand novelist and newspaper columnist .",
+        "score": 4.439373116160494,
+        "entity_anchor": false
+      },
+      {
+        "page_id": "Duff_McKagan",
+        "sentence_id": 11,
+        "text": "In addition to his musical career , McKagan has established himself as a writer .",
+        "score": 3.9061858154625804,
+        "entity_anchor": true
+      },
+      {
+        "page_id": "Behind_the_Player-COLON-_Duff_McKagan",
+        "sentence_id": 0,
+        "text": "Behind The Player : Duff McKagan is an Interactive Music Video featuring Guns N ' Roses and Velvet Revolver bassist Duff McKagan",
+        "score": 3.755508222085517,
+        "entity_anchor": false
+      },
+      {
+        "page_id": "Duff_McKagan",
+        "sentence_id": 2,
+        "text": "McKagan rejoined the band in 2016 , following their induction into the Rock and Roll Hall of Fame .",
+        "score": 3.6543471584888563,
+        "entity_anchor": true
+      }
+    ]
+  },
+  {
+    "id": "Q6 / #121517",
+    "claim": "Halsey's debut EP is titled The Simpsons.",
+    "observed": "Gold REFUTES; original LLM NOT ENOUGH INFO \u2192 selected pipeline REFUTES.",
+    "evidence": "The evidence mentions a racehorse named Titled Hero, which contradicts the claim that Halsey's debut EP is titled The Simpsons.",
+    "interpretation": "Correct label, poor justification: the racehorse text does not establish a contradiction about Halsey\u2019s EP. Accuracy credit does not validate the explanation.",
+    "source": "E10; /llm-configurations",
+    "claim_override": false,
+    "sentences": [
+      {
+        "page_id": "Halsey",
+        "sentence_id": 0,
+        "text": "Halsey may refer to :",
+        "score": 5.137990380135074,
+        "entity_anchor": false
+      },
+      {
+        "page_id": "Self-Titled_Long-Playing_Debut_Album",
+        "sentence_id": 0,
+        "text": "Self-Titled Long-Playing Debut Album is the first album released by + / - .",
+        "score": 2.432532519826314,
+        "entity_anchor": false
+      },
+      {
+        "page_id": "Titled_Hero",
+        "sentence_id": 12,
+        "text": "Titled Hero went on to win the Breeders ' Stakes on turf .",
+        "score": 1.7819382163709891,
+        "entity_anchor": false
+      },
+      {
+        "page_id": "Titled_Hero",
+        "sentence_id": 7,
+        "text": "At age two , Titled Hero won eight of his twelve starts .",
+        "score": 1.6535756531566705,
+        "entity_anchor": false
+      },
+      {
+        "page_id": "Titled_Hero",
+        "sentence_id": 0,
+        "text": "Titled Hero -LRB- foaled 1963 in Ontario -RRB- was a Canadian Thoroughbred racehorse .",
+        "score": 1.5961247127608649,
+        "entity_anchor": false
+      }
+    ]
+  }
+]

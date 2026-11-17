@@ -1,0 +1,27 @@
+{
+  "candidate_n": 96,
+  "accepted_n": 77,
+  "accepted_class_counts": {
+    "0": 25,
+    "1": 20,
+    "2": 32
+  },
+  "reasons": {
+    "complete_annotated_group_present": 45,
+    "verifiable_claim_missing_complete_group": 19,
+    "human_NEI_with_nonempty_retrieval": 32
+  },
+  "seed": 42,
+  "input_sha256": {
+    "data/processed/train.jsonl": "9db57a59c4dd7b85fb18aec61024714dce892d0376580150c7a45d188d0a1838",
+    "/Users/praiseben/fever-fact-checking/src/prepare_retrieved_training.py": "b3dbfb605bd53af2959e7a11c110671fa3a4aae9d817f4a91e99a4c915888086",
+    "src/evidence_pipeline_v2.py": "9db9767ff29aa345c0c75cc26866726e74ed60dc73f71147b9859206aba18321"
+  },
+  "policy": [
+    "Only the original training partition is sampled.",
+    "No label is inferred from retrieval failure.",
+    "Nonempty NEI evidence removes the empty-input shortcut opportunity.",
+    "Filtering verifiable claims creates a retrieval-success bias; report this selection explicitly.",
+    "This is a data-format pilot, not a trained or validated replacement model."
+  ]
+}

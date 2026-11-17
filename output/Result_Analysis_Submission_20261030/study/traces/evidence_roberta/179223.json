@@ -1,0 +1,62 @@
+{
+  "id": 179223,
+  "claim": "Up All Night is a Warner Bros. film.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.8977913856506348,
+    0.10198497772216797,
+    0.000223659910261631
+  ],
+  "logits": [
+    3.1005916595458984,
+    0.9254794716835022,
+    -5.196974754333496
+  ],
+  "evidence": [
+    {
+      "page_id": "Up_All_Night",
+      "sentence_id": 0,
+      "text": "Up All Night or Up All Nite may refer to :",
+      "score": 3.05
+    },
+    {
+      "page_id": "Warner_Bros._Museum",
+      "sentence_id": 3,
+      "text": "Opened in 1996 , the 7,000 sq. foot museum brings together costumes , props , animation cells and letters collected from the history of Warner Bros. film-making and television programs .",
+      "score": 3.02
+    },
+    {
+      "page_id": "Warner_Bros._Records",
+      "sentence_id": 3,
+      "text": "Records was established on March 19 , 1958 , as the recorded-music division of the American film studio Warner Bros. .",
+      "score": 3.0142857142857142
+    },
+    {
+      "page_id": "Stayin'_Up_All_Night",
+      "sentence_id": 0,
+      "text": "Stayin ' Up All Night is the eighth studio album by English-Irish country singer Nathan Carter .",
+      "score": 3.011111111111111
+    },
+    {
+      "page_id": "USA_Up_All_Night",
+      "sentence_id": 0,
+      "text": "USA Up All Night -LRB- also known as Up All Night and Up All Night with Rhonda Shear -RRB- is an American cable television series that aired weekly on Friday and Saturday nights on the USA Network .",
+      "score": 3.01
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 154,
+    "tokens_retained": 154,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Up All Night is a Warner Bros. film.</s></s>Up All Night or Up All Nite may refer to : Opened in 1996 , the 7,000 sq. foot museum brings together costumes , props , animation cells and letters collected from the history of Warner Bros. film-making and television programs . Records was established on March 19 , 1958 , as the recorded-music division of the American film studio Warner Bros. . Stayin ' Up All Night is the eighth studio album by English-Irish country singer Nathan Carter . USA Up All Night -LRB- also known as Up All Night and Up All Night with Rhonda Shear -RRB- is an American cable television series that aired weekly on Friday and Saturday nights on the USA Network .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.2616850829999997
+}

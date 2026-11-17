@@ -1,0 +1,116 @@
+{
+  "id": 144580,
+  "claim": "Sally Field was a communist.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07900554100000079,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Sally_Field",
+          "sentence_id": 0,
+          "text": "Sally Margaret Field -LRB- born November 6 , 1946 -RRB- is an American actress and director .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Sally_Field",
+          "sentence_id": 1,
+          "text": "Field began her career on television , starring on the sitcoms Gidget -LRB- 1965 -- 66 -RRB- , The Flying Nun -LRB- 1967 -- 70 -RRB- , and The Girl with Something Extra -LRB- 1973 -- 74 -RRB- .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Sally_Field",
+          "sentence_id": 4,
+          "text": "Field received further nominations for a Golden Globe Award for Best Actress for Murphy 's Romance -LRB- 1985 -RRB- and Steel Magnolias -LRB- 1989 -RRB- .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Sally_Field",
+          "sentence_id": 7,
+          "text": "In the 1990s , Field appeared in a wide range of films , including Not Without My Daughter -LRB- 1991 -RRB- and Mrs. Doubtfire -LRB- 1993 -RRB- , before being nominated for the BAFTA Award for Best Actress in a Supporting Role for Forrest Gump -LRB- 1994 -RRB- .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Sally_Field",
+          "sentence_id": 10,
+          "text": "Field later starred as Mary Todd Lincoln in Lincoln -LRB- 2012 -RRB- , for which she was nominated for the Academy Award for Best Supporting Actress and the Golden Globe Award for Best Supporting Actress , among other accolades .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.045023635029792786,
+        0.9548922181129456,
+        8.410891314269975e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07207683300000056,
+      "symbolic": {
+        "claim": "Sally Field was a communist.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.491699999967011e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Sally_Field",
+          "sentence_id": 0,
+          "text": "Sally Margaret Field -LRB- born November 6 , 1946 -RRB- is an American actress and director .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Sally_Field",
+          "sentence_id": 1,
+          "text": "Field began her career on television , starring on the sitcoms Gidget -LRB- 1965 -- 66 -RRB- , The Flying Nun -LRB- 1967 -- 70 -RRB- , and The Girl with Something Extra -LRB- 1973 -- 74 -RRB- .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Sally_Field",
+          "sentence_id": 4,
+          "text": "Field received further nominations for a Golden Globe Award for Best Actress for Murphy 's Romance -LRB- 1985 -RRB- and Steel Magnolias -LRB- 1989 -RRB- .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Sally_Field",
+          "sentence_id": 7,
+          "text": "In the 1990s , Field appeared in a wide range of films , including Not Without My Daughter -LRB- 1991 -RRB- and Mrs. Doubtfire -LRB- 1993 -RRB- , before being nominated for the BAFTA Award for Best Actress in a Supporting Role for Forrest Gump -LRB- 1994 -RRB- .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Sally_Field",
+          "sentence_id": 10,
+          "text": "Field later starred as Mary Todd Lincoln in Lincoln -LRB- 2012 -RRB- , for which she was nominated for the Academy Award for Best Supporting Actress and the Golden Globe Award for Best Supporting Actress , among other accolades .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.045023635029792786,
+        0.9548922181129456,
+        8.410891314269975e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "NOT ENOUGH INFO",
+      "wall_seconds": 0.056786792000000474,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.04871945455670357,
+        0.04979517310857773,
+        0.9014853835105896
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

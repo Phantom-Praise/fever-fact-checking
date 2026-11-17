@@ -1,0 +1,369 @@
+{
+  "n": 300,
+  "by_annotation_coverage": {
+    "NEI": {
+      "n": 100,
+      "combined_correct": 42,
+      "llm_correct": 66,
+      "llm_NEI": 66,
+      "new_errors": 10,
+      "errors_fixed": 34
+    },
+    "no_complete_annotated_group": {
+      "n": 79,
+      "combined_correct": 49,
+      "llm_correct": 16,
+      "llm_NEI": 61,
+      "new_errors": 39,
+      "errors_fixed": 6
+    },
+    "complete_annotated_group": {
+      "n": 121,
+      "combined_correct": 90,
+      "llm_correct": 73,
+      "llm_NEI": 36,
+      "new_errors": 29,
+      "errors_fixed": 12
+    }
+  },
+  "llm_gold_to_prediction": {
+    "NOT ENOUGH INFO": {
+      "NOT ENOUGH INFO": 66,
+      "SUPPORTS": 28,
+      "REFUTES": 6
+    },
+    "REFUTES": {
+      "NOT ENOUGH INFO": 60,
+      "REFUTES": 28,
+      "SUPPORTS": 12
+    },
+    "SUPPORTS": {
+      "SUPPORTS": 61,
+      "NOT ENOUGH INFO": 37,
+      "REFUTES": 2
+    }
+  },
+  "correct_by_gold_label": {
+    "NOT ENOUGH INFO": {
+      "combined_correct": 42,
+      "llm_correct": 66,
+      "net_correct_change": 24
+    },
+    "REFUTES": {
+      "combined_correct": 55,
+      "llm_correct": 28,
+      "net_correct_change": -27
+    },
+    "SUPPORTS": {
+      "combined_correct": 84,
+      "llm_correct": 61,
+      "net_correct_change": -23
+    }
+  },
+  "predicted_label_counts": {
+    "llm": {
+      "NOT ENOUGH INFO": 163,
+      "SUPPORTS": 101,
+      "REFUTES": 36
+    },
+    "combined_512": {
+      "NOT ENOUGH INFO": 72,
+      "REFUTES": 75,
+      "SUPPORTS": 153
+    }
+  },
+  "comparable_metrics": {
+    "evidence_512": {
+      "n": 300,
+      "accuracy": 0.5233333333333333,
+      "macro_f1": 0.4177777777777778,
+      "fever_score": 0.35333333333333333,
+      "labels": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO"
+      ],
+      "predicted_columns": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO",
+        "INVALID"
+      ],
+      "confusion_matrix": [
+        [
+          88,
+          12,
+          0,
+          0
+        ],
+        [
+          31,
+          69,
+          0,
+          0
+        ],
+        [
+          56,
+          44,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 88,
+          "FP": 87,
+          "FN": 12,
+          "TN": 113,
+          "precision": 0.5028571428571429,
+          "recall": 0.88,
+          "f1": 0.64
+        },
+        "REFUTES": {
+          "TP": 69,
+          "FP": 56,
+          "FN": 31,
+          "TN": 144,
+          "precision": 0.552,
+          "recall": 0.69,
+          "f1": 0.6133333333333333
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 100,
+          "TN": 200,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "invalid_responses": 0
+    },
+    "combined_512": {
+      "n": 300,
+      "accuracy": 0.6033333333333334,
+      "macro_f1": 0.5936583807160147,
+      "fever_score": 0.44,
+      "labels": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO"
+      ],
+      "predicted_columns": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO",
+        "INVALID"
+      ],
+      "confusion_matrix": [
+        [
+          84,
+          6,
+          10,
+          0
+        ],
+        [
+          25,
+          55,
+          20,
+          0
+        ],
+        [
+          44,
+          14,
+          42,
+          0
+        ]
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 84,
+          "FP": 69,
+          "FN": 16,
+          "TN": 131,
+          "precision": 0.5490196078431373,
+          "recall": 0.84,
+          "f1": 0.6640316205533597
+        },
+        "REFUTES": {
+          "TP": 55,
+          "FP": 20,
+          "FN": 45,
+          "TN": 180,
+          "precision": 0.7333333333333333,
+          "recall": 0.55,
+          "f1": 0.6285714285714286
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 42,
+          "FP": 30,
+          "FN": 58,
+          "TN": 170,
+          "precision": 0.5833333333333334,
+          "recall": 0.42,
+          "f1": 0.4883720930232558
+        }
+      },
+      "invalid_responses": 0
+    },
+    "local_llm": {
+      "n": 300,
+      "accuracy": 0.5166666666666667,
+      "macro_f1": 0.5068770068987055,
+      "fever_score": 0.4633333333333333,
+      "labels": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO"
+      ],
+      "predicted_columns": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO",
+        "INVALID"
+      ],
+      "confusion_matrix": [
+        [
+          61,
+          2,
+          37,
+          0
+        ],
+        [
+          12,
+          28,
+          60,
+          0
+        ],
+        [
+          28,
+          6,
+          66,
+          0
+        ]
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 61,
+          "FP": 40,
+          "FN": 39,
+          "TN": 160,
+          "precision": 0.6039603960396039,
+          "recall": 0.61,
+          "f1": 0.6069651741293532
+        },
+        "REFUTES": {
+          "TP": 28,
+          "FP": 8,
+          "FN": 72,
+          "TN": 192,
+          "precision": 0.7777777777777778,
+          "recall": 0.28,
+          "f1": 0.4117647058823529
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 66,
+          "FP": 97,
+          "FN": 34,
+          "TN": 103,
+          "precision": 0.4049079754601227,
+          "recall": 0.66,
+          "f1": 0.5019011406844106
+        }
+      },
+      "invalid_responses": 0
+    }
+  },
+  "paired_comparisons": {
+    "claim_only_256": {
+      "n": 300,
+      "fixed_errors": 60,
+      "newly_wrong": 75,
+      "both_correct": 95,
+      "both_wrong": 70,
+      "accuracy_delta": -0.05,
+      "paired_accuracy_ci95": [
+        -0.12666666666666668,
+        0.02666666666666667
+      ],
+      "mcnemar_exact_p_unadjusted": 0.22810347806601305,
+      "bootstrap_samples": 10000,
+      "bootstrap_seed": 42
+    },
+    "evidence_256": {
+      "n": 300,
+      "fixed_errors": 76,
+      "newly_wrong": 77,
+      "both_correct": 79,
+      "both_wrong": 68,
+      "accuracy_delta": -0.0033333333333333335,
+      "paired_accuracy_ci95": [
+        -0.08333333333333333,
+        0.07666666666666666
+      ],
+      "mcnemar_exact_p_unadjusted": 1.0,
+      "bootstrap_samples": 10000,
+      "bootstrap_seed": 42
+    },
+    "combined_256": {
+      "n": 300,
+      "fixed_errors": 53,
+      "newly_wrong": 78,
+      "both_correct": 102,
+      "both_wrong": 67,
+      "accuracy_delta": -0.08333333333333333,
+      "paired_accuracy_ci95": [
+        -0.15666666666666668,
+        -0.01
+      ],
+      "mcnemar_exact_p_unadjusted": 0.0355999858705583,
+      "bootstrap_samples": 10000,
+      "bootstrap_seed": 42
+    },
+    "evidence_512": {
+      "n": 300,
+      "fixed_errors": 75,
+      "newly_wrong": 77,
+      "both_correct": 80,
+      "both_wrong": 68,
+      "accuracy_delta": -0.006666666666666667,
+      "paired_accuracy_ci95": [
+        -0.08666666666666667,
+        0.07333333333333333
+      ],
+      "mcnemar_exact_p_unadjusted": 0.9353893704780406,
+      "bootstrap_samples": 10000,
+      "bootstrap_seed": 42
+    },
+    "combined_512": {
+      "n": 300,
+      "fixed_errors": 52,
+      "newly_wrong": 78,
+      "both_correct": 103,
+      "both_wrong": 67,
+      "accuracy_delta": -0.08666666666666667,
+      "paired_accuracy_ci95": [
+        -0.16,
+        -0.013333333333333334
+      ],
+      "mcnemar_exact_p_unadjusted": 0.027944840955287733,
+      "bootstrap_samples": 10000,
+      "bootstrap_seed": 42
+    }
+  },
+  "integrity": {
+    "invalid_responses": 0,
+    "incomplete_responses": 0,
+    "max_prompt_plus_output_tokens": 594,
+    "context_limit": 4096,
+    "roberta512_truncated_inputs": 0
+  },
+  "caveats": [
+    "Annotation coverage is observable, not proof that all unannotated evidence is insufficient.",
+    "The combined baseline uses claim-only and evidence models plus frozen calibration; Llama is a single prompted model.",
+    "No aggregate count reveals a model's hidden reasoning. Examples illustrate specific errors, not a complete manual taxonomy.",
+    "Gold evidence interventions are oracle diagnostics, not achievable retrieval or production accuracy.",
+    "This is the existing 300-claim development pilot, not a new untouched test."
+  ]
+}

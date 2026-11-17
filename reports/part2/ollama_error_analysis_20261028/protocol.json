@@ -1,0 +1,71 @@
+{
+  "model": {
+    "name": "llama3.1:8b",
+    "model": "llama3.1:8b",
+    "modified_at": "2026-03-13T13:02:12.733274727-04:00",
+    "size": 4920753328,
+    "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 131072,
+      "embedding_length": 4096,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "ollama": {
+    "version": "0.40.3"
+  },
+  "seed": 42,
+  "n": 20,
+  "selection": "Random.sample(seed=42) of 20 verifiable pilot claims lacking a complete annotated group in original top five, restricted to cases with a complete gold group in the local index. No selection on LLM correctness.",
+  "incomplete_group_population": 79,
+  "eligible": 79,
+  "missing_gold_from_index": [],
+  "ids": [
+    1076,
+    140517,
+    85895,
+    7639,
+    181823,
+    20623,
+    37749,
+    83351,
+    8830,
+    177974,
+    77690,
+    178227,
+    168612,
+    184099,
+    39599,
+    111976,
+    182936,
+    191430,
+    78660,
+    185188
+  ],
+  "intervention": "Keep claim/model/prompt/decoding fixed; replace original evidence texts with the shortest available complete FEVER-annotated group (lexicographic reference tie-break).",
+  "settings": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 128,
+    "num_ctx": 4096
+  },
+  "oracle": true,
+  "input_sha256": {
+    "/Users/praiseben/fever-fact-checking/src/analyze_ollama_errors.py": "800e474a3e099340a17d8e247d1e884253a2e6455f4fe9a7451d1c558238717f",
+    "/Users/praiseben/fever-fact-checking/reports/part2/ollama_comparison_20261028/sample.jsonl": "d73af515eb6cdfe016b8a17d024d5e9d96285a31fcf327fdab405eb5db6b24d4",
+    "/Users/praiseben/fever-fact-checking/reports/part2/ollama_comparison_20261028/responses.jsonl": "087922760046e804a7dee1138f77868617796b974cb148cdf1cdc753da40dd8c",
+    "/Users/praiseben/fever-fact-checking/reports/part2/ollama_error_analysis_20261028/oracle_inputs.jsonl": "331b855e33c18f24b148308e0578c02803a97d7da3cf83914a204a00787367fb"
+  }
+}

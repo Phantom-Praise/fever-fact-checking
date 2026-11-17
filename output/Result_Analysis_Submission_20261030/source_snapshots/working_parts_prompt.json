@@ -1,0 +1,120 @@
+{
+  "selected_utc": "2026-10-29T18:52:35.781227+00:00",
+  "status": "frozen_working_research_condition",
+  "condition": "original essential-parts prompt with code-derived final label",
+  "prompt_file": "reports/part2/parts_prompt_replay_20261029/USER_PROMPT.txt",
+  "prompt_sha256": "fe055c9423bfb56812951900613e63c4bcf5afd9f44b7f642e21c3d3cf186950",
+  "implementation": "src/replay_claim_parts.py",
+  "implementation_sha256": "1bc8d181be9d98acbf11e1e9e345887bb097336dddf95a1a83984dc5c1e8b85b",
+  "model": {
+    "name": "llama3.1:8b",
+    "model": "llama3.1:8b",
+    "modified_at": "2026-03-13T13:02:12.733274727-04:00",
+    "size": 4920753328,
+    "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "llama",
+      "families": [
+        "llama"
+      ],
+      "parameter_size": "8.0B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 131072,
+      "embedding_length": 4096,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "tools"
+    ]
+  },
+  "ollama": {
+    "version": "0.40.3"
+  },
+  "settings": {
+    "temperature": 0,
+    "seed": 42,
+    "num_ctx": 4096,
+    "num_predict": 256
+  },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "parts": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "properties": {
+            "part": {
+              "type": "string"
+            },
+            "verdict": {
+              "type": "string",
+              "enum": [
+                "SUPPORTS",
+                "REFUTES",
+                "NOT ENOUGH INFO"
+              ]
+            },
+            "evidence_ids": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            },
+            "justification": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "part",
+            "verdict",
+            "evidence_ids",
+            "justification"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "label": {
+        "type": "string",
+        "enum": [
+          "SUPPORTS",
+          "REFUTES",
+          "NOT ENOUGH INFO"
+        ]
+      }
+    },
+    "required": [
+      "parts",
+      "label"
+    ],
+    "additionalProperties": false
+  },
+  "aggregation": "Any part REFUTES -> REFUTES; otherwise all parts SUPPORTS -> SUPPORTS; otherwise NEI. Empty/malformed parts -> INVALID.",
+  "evidence": "Original saved RAG evidence inputs used in the parts-prompt replay, not the exhaustive-reader inputs.",
+  "development_ids": [
+    130325,
+    40442,
+    4807,
+    219203,
+    178210,
+    2147,
+    47172,
+    226843,
+    118664,
+    61564
+  ],
+  "observed_development_results": {
+    "n": 10,
+    "model_correct": 5,
+    "derived_correct": 7,
+    "invalid": 0
+  },
+  "inspection_policy": "These ten inspected claims are development examples. Inspect evidence, decomposition and reasoning without changing the frozen prompt. Record general failure patterns separately. Do not claim held-out accuracy or independent human-review validation.",
+  "next_evaluation_policy": "Before another evaluation, freeze sampling, model/settings, evidence pipeline, scoring/INVALID rules and prompt. Exclude training overlap and previously inspected prompt-evaluation claims and normalized duplicates. Run both comparison conditions on the same fresh inputs, save predictions before revealing labels, and report all cases. Any set used to revise the prompt becomes development data; reserve a separate final holdout.",
+  "no_new_evaluation_started": true
+}

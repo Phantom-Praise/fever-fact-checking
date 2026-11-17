@@ -1,0 +1,3538 @@
+{
+  "id": 130325,
+  "claim": "Dark matter is different from neutrinos.",
+  "status": "failed",
+  "model_label": "INVALID",
+  "derived_label": "INVALID",
+  "articles": [
+    {
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "text_sha256": "0cd4936b8f182731af6990ac2d10df39bb3bd2b5b5890392867be092bcc24101",
+      "matches_previous_text": true
+    },
+    {
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "text_sha256": "0ebf0999c74433182e945ddaa900c2f3db0a4c0122cb6327996c414221509481",
+      "matches_previous_text": true
+    },
+    {
+      "title": "Baryonic dark matter",
+      "url": "https://en.wikipedia.org/wiki/Baryonic_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Baryonic_dark_matter&oldid=1334448316",
+      "revision_id": 1334448316,
+      "text_sha256": "1d9f68d54b81320b5af20143bd87af23f96b5188d2c16ae1d10235af699403da",
+      "matches_previous_text": true
+    },
+    {
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "text_sha256": "252028223b50bd4b6cda1b6418e00d768687e4cc0efb0043b711e1ffaad7bcd1",
+      "matches_previous_text": true
+    },
+    {
+      "title": "Cold Dark Matter",
+      "url": "https://en.wikipedia.org/wiki/Cold_Dark_Matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Cold_Dark_Matter&oldid=1134190061",
+      "revision_id": 1134190061,
+      "text_sha256": "f6bbd75ddb040f2be908d283154fca3638dd2597ad3491765edad2c7b39cd2f9",
+      "matches_previous_text": true
+    }
+  ],
+  "prior_fetch_errors": [],
+  "batches": [
+    {
+      "number": 1,
+      "chunk_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14",
+        "C15",
+        "C16"
+      ],
+      "attempts": [
+        {
+          "file": "batch_001_attempt_1.json",
+          "valid": false,
+          "error": "ValueError: Invented ID or non-verbatim quotation"
+        },
+        {
+          "file": "batch_001_attempt_2.json",
+          "valid": false,
+          "error": "ValueError: Invented ID or non-verbatim quotation"
+        }
+      ],
+      "findings": null
+    }
+  ],
+  "findings": [],
+  "coverage": {
+    "total": 206,
+    "processed": 0
+  },
+  "retention": "Delete temporary downloads and SQLite after each claim, including failures. Full batch prompts retain all supplied chunk text in audit traces; this is not full-text erasure.",
+  "database_chunks": 206,
+  "batch_count": 10,
+  "chunk_manifest": [
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00001",
+      "block_kind": "paragraph",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 852,
+      "id": "C1",
+      "text_sha256": "d4aacc58c1a38a27044358c132b76905a03d049551e52c75ad14912a85f0d1e2"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00002",
+      "block_kind": "paragraph",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 829,
+      "id": "C2",
+      "text_sha256": "a09ea185f2f5f9a9221501b7f1120e24e7e37de388b45d605fa045f2063785ea"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00003",
+      "block_kind": "paragraph",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 409,
+      "id": "C3",
+      "text_sha256": "5b15f548cbf5dac1aa0df44ea1dbaf55b3656ce26e5cb2ca36522d6cf5a176c6"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00004",
+      "block_kind": "paragraph",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 606,
+      "id": "C4",
+      "text_sha256": "36b973e0b724a985807e0f1ba27d870c6325db94165a699d6571b3c9723b6705"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00007",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1884 to 1940"
+      ],
+      "char_start": 0,
+      "char_end": 530,
+      "id": "C5",
+      "text_sha256": "b35a9ea64c3e09be362d4ec1a219f5ed147318e7876cfd934818690f5631df3e"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00008",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1884 to 1940"
+      ],
+      "char_start": 0,
+      "char_end": 102,
+      "id": "C6",
+      "text_sha256": "1429d6904856a80160a3fa2757efb30f9d162e31bb2642650f1f4acfa4234e60"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00009",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1884 to 1940"
+      ],
+      "char_start": 0,
+      "char_end": 237,
+      "id": "C7",
+      "text_sha256": "7c742ed0f3a59ac848f763c4a5398d3f5200787d6ae8ebae46403c5ae7e02e46"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00010",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1884 to 1940"
+      ],
+      "char_start": 0,
+      "char_end": 599,
+      "id": "C8",
+      "text_sha256": "bfd75e91c26b7de249b29fde8c0cccc1a4a2772eadcedaaf2847b8595afbeffe"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00011",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1884 to 1940"
+      ],
+      "char_start": 0,
+      "char_end": 988,
+      "id": "C9",
+      "text_sha256": "137ec1dd7ea306d399a2b15b0ee6559a37704800bdb46721e3dd58e4790541a1"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00011",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1884 to 1940"
+      ],
+      "char_start": 988,
+      "char_end": 1197,
+      "id": "C10",
+      "text_sha256": "1f5253563e406ff12adf1318c4884104714bc5b97924f6f37fc97aa2064efbb0"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00012",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1884 to 1940"
+      ],
+      "char_start": 0,
+      "char_end": 646,
+      "id": "C11",
+      "text_sha256": "3e993d46b5d1a8489aa42551259cf35a8bb051829323c577c4904d02dea5668c"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00014",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1970s"
+      ],
+      "char_start": 0,
+      "char_end": 420,
+      "id": "C12",
+      "text_sha256": "d408dc24b1d9061007451330db56f47dd92afddc9c06f5fb4890eb3607e79627"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00015",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1970s"
+      ],
+      "char_start": 0,
+      "char_end": 358,
+      "id": "C13",
+      "text_sha256": "4ecb52129056917da412d17dde79c358cd2cd0c0b16e270b9803d03f1c06db23"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00016",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1970s"
+      ],
+      "char_start": 0,
+      "char_end": 642,
+      "id": "C14",
+      "text_sha256": "1e80ba279a0d3e7b8792a0bc18eda52c3627361be4b869683aa1be679a73174d"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00017",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1970s"
+      ],
+      "char_start": 0,
+      "char_end": 952,
+      "id": "C15",
+      "text_sha256": "2b755c9106d7722e43eb9df87f329f409bc1d90231c5268dce8531e4be386ac5"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00017",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1970s"
+      ],
+      "char_start": 952,
+      "char_end": 1142,
+      "id": "C16",
+      "text_sha256": "4e1b1bddf0bdea998cf36d0dd6e00a683a91edf02720df02cf135cccf7023791"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00018",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1970s"
+      ],
+      "char_start": 0,
+      "char_end": 1054,
+      "id": "C17",
+      "text_sha256": "45fbb34506360b2f9c23caa4c4058dc32e780135810739ed0db7040e6c3a5028"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00020",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "1980s and 90s"
+      ],
+      "char_start": 0,
+      "char_end": 401,
+      "id": "C18",
+      "text_sha256": "417701ad922c8cdb8176e916215e5f699244100dc87b326ed6ad584ea9389c84"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00022",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "Since 2000"
+      ],
+      "char_start": 0,
+      "char_end": 906,
+      "id": "C19",
+      "text_sha256": "6b15afbbc517c5e5bb780b46a8cd2b107116ee0c42d97b79fe267ebff9a3f8c0"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00022",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "Since 2000"
+      ],
+      "char_start": 907,
+      "char_end": 1290,
+      "id": "C20",
+      "text_sha256": "d1327bba9fef314f7d67adc039fd26240e459e6d09fd92b137027338fb477fb3"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00023",
+      "block_kind": "paragraph",
+      "section_path": [
+        "History",
+        "Since 2000"
+      ],
+      "char_start": 0,
+      "char_end": 506,
+      "id": "C21",
+      "text_sha256": "cb7ed5e0b5d78f95349dfaff31591e119127f685c80784663374f84367018cc1"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00025",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Technical definition"
+      ],
+      "char_start": 0,
+      "char_end": 897,
+      "id": "C22",
+      "text_sha256": "dd5639ae120d9b7a9c03ea434cce488c4547851541cdfb009212add73d5b745c"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00025",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Technical definition"
+      ],
+      "char_start": 898,
+      "char_end": 943,
+      "id": "C23",
+      "text_sha256": "1ec9147b60bbd46e15785350b38f7397526c02dc6fdf800cfd9a244dffbffcab"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00026",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Technical definition"
+      ],
+      "char_start": 0,
+      "char_end": 309,
+      "id": "C24",
+      "text_sha256": "337d54130c236eb6a1e04ce9e2b8222e955dac00dde56643f283dd49909c8be8"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00029",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Galaxy rotation curves"
+      ],
+      "char_start": 0,
+      "char_end": 600,
+      "id": "C25",
+      "text_sha256": "2fa44d5fd34869817e687b29bd1dfe9085efa896f0fe1d82b3e5b8d2e5861f43"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00030",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Galaxy rotation curves"
+      ],
+      "char_start": 0,
+      "char_end": 281,
+      "id": "C26",
+      "text_sha256": "3a68c796779db037bb7ba95bc082c5ef439afa7d73fb2169cd9d1115d87fc054"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00032",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Velocity dispersions"
+      ],
+      "char_start": 0,
+      "char_end": 576,
+      "id": "C27",
+      "text_sha256": "5b96f9f4e27add7261347513414fa8c115cdc7324084d0043e8e5f1e62c53b1a"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00034",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Galaxy clustering"
+      ],
+      "char_start": 0,
+      "char_end": 129,
+      "id": "C28",
+      "text_sha256": "3912edca31490c3c839ad2c42310f466e58b7fe71201c026e48101d0a8d8320b"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00035",
+      "block_kind": "list_item",
+      "section_path": [
+        "Observational evidence",
+        "Galaxy clustering"
+      ],
+      "char_start": 0,
+      "char_end": 69,
+      "id": "C29",
+      "text_sha256": "3da63f5dcdce11a4a74574fb4f156e237c0bfb707077397675442721a2fa24a7"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00036",
+      "block_kind": "list_item",
+      "section_path": [
+        "Observational evidence",
+        "Galaxy clustering"
+      ],
+      "char_start": 0,
+      "char_end": 242,
+      "id": "C30",
+      "text_sha256": "83de6aa0d288ec206d0687b504028f31ae527122e00c46544ff9db0e7283913c"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00037",
+      "block_kind": "list_item",
+      "section_path": [
+        "Observational evidence",
+        "Galaxy clustering"
+      ],
+      "char_start": 0,
+      "char_end": 145,
+      "id": "C31",
+      "text_sha256": "600d7ab676951da628cb1fd3e19889bdc321d1a091e2ccf6a2ac4f9387ffcf5e"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00038",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Galaxy clustering"
+      ],
+      "char_start": 0,
+      "char_end": 125,
+      "id": "C32",
+      "text_sha256": "dd17e58ea4354b4f24cc37f82ce9c018b1150172ff02c5d8b07b4ac4acdbee7b"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00039",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Galaxy clustering"
+      ],
+      "char_start": 0,
+      "char_end": 968,
+      "id": "C33",
+      "text_sha256": "06b10e9c2b34eb42e488a153294b04f63604bce2cc67cb68c89820bd722ffaa8"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00039",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Galaxy clustering"
+      ],
+      "char_start": 969,
+      "char_end": 1211,
+      "id": "C34",
+      "text_sha256": "f04e1d1c543d5d81f09811e07766edb9e5caa2cd88ad162dd25ab6951e237434"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00041",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Bullet Cluster"
+      ],
+      "char_start": 0,
+      "char_end": 710,
+      "id": "C35",
+      "text_sha256": "ff59a548c06ccce94df8d1acf06d63644bdf4d0c60b228457cebbc7a38e77c6d"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00043",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Gravitational lensing"
+      ],
+      "char_start": 0,
+      "char_end": 522,
+      "id": "C36",
+      "text_sha256": "4fc5c2677fb8d8b69f19fe8336a5afbf119f25ecfd293e0d8a4b1e1933fe32f4"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00044",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Gravitational lensing"
+      ],
+      "char_start": 0,
+      "char_end": 673,
+      "id": "C37",
+      "text_sha256": "cd8772e80207ea83f646ef3cd45dabe530c43ac77cc420b0e61b8e72ca408a3c"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00046",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Type Ia supernova distance measurements"
+      ],
+      "char_start": 0,
+      "char_end": 744,
+      "id": "C38",
+      "text_sha256": "5ab62b5dffcc409532c3e76e8d93e333b5e15b89af2a0b1f966c772b5e7b2901"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00048",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Lyman-alpha forest"
+      ],
+      "char_start": 0,
+      "char_end": 327,
+      "id": "C39",
+      "text_sha256": "bbcfe608878cf66df8eb2aba0946fcecd57d72d8568b954e498ce801d63232da"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00050",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Cosmic microwave background"
+      ],
+      "char_start": 0,
+      "char_end": 578,
+      "id": "C40",
+      "text_sha256": "fd80fd37832042ca7efdaeafc12218c2e52fd43b04949c9fca94e6dcfb163b6a"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00051",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Cosmic microwave background"
+      ],
+      "char_start": 0,
+      "char_end": 433,
+      "id": "C41",
+      "text_sha256": "31ed4ed12cdcd9b65fec6470f52d9b6d0f79ee9e2c61606dc61f857989eba69d"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00052",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Cosmic microwave background"
+      ],
+      "char_start": 0,
+      "char_end": 646,
+      "id": "C42",
+      "text_sha256": "1bce562058d55bc949c4d25f320b5fd97c5996c26f3790f4baba20ba908fb02f"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00054",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Structure formation"
+      ],
+      "char_start": 0,
+      "char_end": 741,
+      "id": "C43",
+      "text_sha256": "221b31f44214ed2039ec4e1035ab9cbd059495e7baf0525b3034d43614e132dc"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00055",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Structure formation"
+      ],
+      "char_start": 0,
+      "char_end": 297,
+      "id": "C44",
+      "text_sha256": "42bd2e7b72ae6928d9fa26b2b04f9ca8639e167670c57e324df10519e9c7c806"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00057",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Sky surveys and baryon acoustic oscillations"
+      ],
+      "char_start": 0,
+      "char_end": 911,
+      "id": "C45",
+      "text_sha256": "b36cc466e32c8abee6cc7ee4d0516d237701d72bddc473559a4e5985967da66c"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00057",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Observational evidence",
+        "Sky surveys and baryon acoustic oscillations"
+      ],
+      "char_start": 912,
+      "char_end": 1103,
+      "id": "C46",
+      "text_sha256": "e375ac2c640fb51b2a085684b9a6df67fcbec2f1d21a29d0d375932a8457eaaa"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00059",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Theoretical classifications"
+      ],
+      "char_start": 0,
+      "char_end": 896,
+      "id": "C47",
+      "text_sha256": "c889d20884a09d0cafa9a1ce05d59e23bb8eb33b71e52d345420b9f3e436b519"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00060",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Theoretical classifications"
+      ],
+      "char_start": 0,
+      "char_end": 864,
+      "id": "C48",
+      "text_sha256": "08bb9d63ff653b602283d9cfb1e20be92d443ad05754caada9bd000a59218a62"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00061",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Theoretical classifications"
+      ],
+      "char_start": 0,
+      "char_end": 335,
+      "id": "C49",
+      "text_sha256": "70ef36d43d40a8fa7a94a6ef9f4ec229e4f8c6493b91c3e07f9a6d44c89161d1"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00062",
+      "block_kind": "caption",
+      "section_path": [
+        "Theoretical classifications"
+      ],
+      "char_start": 0,
+      "char_end": 393,
+      "id": "C50",
+      "text_sha256": "8ad9eaf0ef1f78bbd079e694ea436d95071c3a1a438923ac129160c408d146f1"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00064",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition"
+      ],
+      "char_start": 0,
+      "char_end": 141,
+      "id": "C51",
+      "text_sha256": "c970c0f3ebee7ab8721336b7d518bbd6ed288de6b0d5b246af4e3c244aa1566e"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00065",
+      "block_kind": "table",
+      "section_path": [
+        "Composition"
+      ],
+      "char_start": 0,
+      "char_end": 382,
+      "id": "C52",
+      "text_sha256": "ed074621d751c0c0091c93b551bd75e446c6e9285788746e1cc2030f646f0e76"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00067",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Baryonic matter"
+      ],
+      "char_start": 0,
+      "char_end": 653,
+      "id": "C53",
+      "text_sha256": "083d69425c6b6dfea47ef2db8909f5103a688785d1571e7b3c09f6717226ec8c"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00068",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Baryonic matter"
+      ],
+      "char_start": 0,
+      "char_end": 183,
+      "id": "C54",
+      "text_sha256": "2e880be51d7b629d49431ca6ca8f7cc2d9bfff586136de55c77ec27a7cef0160"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00069",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Baryonic matter"
+      ],
+      "char_start": 0,
+      "char_end": 88,
+      "id": "C55",
+      "text_sha256": "39035357ae497d9c6aea6cc2a8c70fbfc89ae3957754275d66b2d44add5985ad"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00070",
+      "block_kind": "list_item",
+      "section_path": [
+        "Composition",
+        "Baryonic matter"
+      ],
+      "char_start": 0,
+      "char_end": 80,
+      "id": "C56",
+      "text_sha256": "2ded934099437b8d41631cb30f15d42c24abe5c913596ca8a8e4dcaf264d2dbc"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00071",
+      "block_kind": "list_item",
+      "section_path": [
+        "Composition",
+        "Baryonic matter"
+      ],
+      "char_start": 0,
+      "char_end": 482,
+      "id": "C57",
+      "text_sha256": "ecfc29b5316eddcb7f8287671bb1edccbee81a61c55308fd364f9810eaabc2dd"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00072",
+      "block_kind": "list_item",
+      "section_path": [
+        "Composition",
+        "Baryonic matter"
+      ],
+      "char_start": 0,
+      "char_end": 325,
+      "id": "C58",
+      "text_sha256": "437d57a2e480c40e42790dd009c2b059976c43a811d1273133d15ed19efff81d"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00073",
+      "block_kind": "list_item",
+      "section_path": [
+        "Composition",
+        "Baryonic matter"
+      ],
+      "char_start": 0,
+      "char_end": 277,
+      "id": "C59",
+      "text_sha256": "e0efa3fd5d06aa2fd4c8c424b9ab1d01c0edfceec1bab9b5608eefbc6697e248"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00075",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter"
+      ],
+      "char_start": 0,
+      "char_end": 663,
+      "id": "C60",
+      "text_sha256": "69a12c4d289fe2a3d3cb6b705566ddcf8fad988a4ae9e29b2a7b1dd272bd8cc9"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00078",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Particle candidates",
+        "Weakly Interacting Massive Particles"
+      ],
+      "char_start": 0,
+      "char_end": 810,
+      "id": "C61",
+      "text_sha256": "91be645b18777c60e6c60eff0f132714f81f0dfede85eb807d4090b37b5eacbe"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00079",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Particle candidates",
+        "Weakly Interacting Massive Particles"
+      ],
+      "char_start": 0,
+      "char_end": 870,
+      "id": "C62",
+      "text_sha256": "56fc68a4694c4330faec1cd7bdccf9e3fcad8ed36fb13b51476b8d3f862821eb"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00081",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Particle candidates",
+        "Axions"
+      ],
+      "char_start": 0,
+      "char_end": 665,
+      "id": "C63",
+      "text_sha256": "c52512d02943bcbbbf187686119ec2d1030b8a93814cee5b6cb52316e56ad1a5"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00082",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Particle candidates",
+        "Axions"
+      ],
+      "char_start": 0,
+      "char_end": 508,
+      "id": "C64",
+      "text_sha256": "89fa03ed15dea2f4711625e1f18ba74f199d67d54d7f9367dd9380cc8d080203"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00083",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Particle candidates",
+        "Axions"
+      ],
+      "char_start": 0,
+      "char_end": 442,
+      "id": "C65",
+      "text_sha256": "f349249b844d60871b23cf3e1957824fb68ad7b2b0c499a4c3cea3212a866f7d"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00085",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Particle candidates",
+        "Particle aggregation and dense dark matter objects"
+      ],
+      "char_start": 0,
+      "char_end": 230,
+      "id": "C66",
+      "text_sha256": "297873d860a54ee1bd252ca9c2950bc36c41e28a8d0d5ce55180dc79b995f477"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00086",
+      "block_kind": "list_item",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Particle candidates",
+        "Particle aggregation and dense dark matter objects"
+      ],
+      "char_start": 0,
+      "char_end": 42,
+      "id": "C67",
+      "text_sha256": "e39a61341f7da499005f7efaf545be9951d8452ce23ec666d89ab4f841969c51"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00087",
+      "block_kind": "definition",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Particle candidates",
+        "Particle aggregation and dense dark matter objects"
+      ],
+      "char_start": 0,
+      "char_end": 671,
+      "id": "C68",
+      "text_sha256": "be1cad9d29207e908abd55897ac01bac543cd6698e29ba7d6c6d2186ce05ee21"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00088",
+      "block_kind": "list_item",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Particle candidates",
+        "Particle aggregation and dense dark matter objects"
+      ],
+      "char_start": 0,
+      "char_end": 62,
+      "id": "C69",
+      "text_sha256": "9ba2f425726fc23028c5fe7e0afbcd891a2a52b33e9b5564a4b74e42b37bad5f"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00089",
+      "block_kind": "definition",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Particle candidates",
+        "Particle aggregation and dense dark matter objects"
+      ],
+      "char_start": 0,
+      "char_end": 733,
+      "id": "C70",
+      "text_sha256": "05d1c86383c639a26ee0fd73b188bd7b80e71f88d417c26aa2c0399d4b7fca48"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00091",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Primordial black holes"
+      ],
+      "char_start": 0,
+      "char_end": 739,
+      "id": "C71",
+      "text_sha256": "57ce7e5e35d004d7751bfd7c641f660417d7b0d71e27e5644b3e283f4203252b"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00092",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Primordial black holes"
+      ],
+      "char_start": 0,
+      "char_end": 967,
+      "id": "C72",
+      "text_sha256": "08e93d9ded4aaa3144ad8c10510fa6aeea9e74d82ba2f898540c228cf53e2667"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00093",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Primordial black holes"
+      ],
+      "char_start": 0,
+      "char_end": 677,
+      "id": "C73",
+      "text_sha256": "5a937c056b550bca9e01a9f27376bea977a9fe1630e4dd14870d59f69f140b91"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00094",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Primordial black holes"
+      ],
+      "char_start": 0,
+      "char_end": 798,
+      "id": "C74",
+      "text_sha256": "f9273276bb764d88b1c85e83d8dea699b15e65cdf6f47a706f60180fbf2e2e80"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00096",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Primordial black holes",
+        "Fine tuning issues"
+      ],
+      "char_start": 0,
+      "char_end": 1104,
+      "id": "C75",
+      "text_sha256": "3a6b919135ee1e4189dc85121f5423dd3c3adec9a2e3cf6072376c4d9b87a608"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00096",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Primordial black holes",
+        "Fine tuning issues"
+      ],
+      "char_start": 1105,
+      "char_end": 1254,
+      "id": "C76",
+      "text_sha256": "940d87071cade0340206044adfbc3403d5d4bb6987796c3e242f09f731d01e3b"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00097",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Composition",
+        "Non-baryonic matter",
+        "Primordial black holes",
+        "Fine tuning issues"
+      ],
+      "char_start": 0,
+      "char_end": 933,
+      "id": "C77",
+      "text_sha256": "dd147f5be960a3044e1e5ea87e9a9c249fd2b46835d6721d7a558b9788a52ceb"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00099",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches"
+      ],
+      "char_start": 0,
+      "char_end": 788,
+      "id": "C78",
+      "text_sha256": "d05e57d1ea24a33a02c8c8e21eb447fa1ce69a09ddddb20682b42640a8a905c4"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00101",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Direct particle detection"
+      ],
+      "char_start": 0,
+      "char_end": 504,
+      "id": "C79",
+      "text_sha256": "174e19925405d29e881e2457f0e699104e936f777fb258f3407f32a90aa05530"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00102",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Direct particle detection"
+      ],
+      "char_start": 0,
+      "char_end": 340,
+      "id": "C80",
+      "text_sha256": "0f5b1f4fb4adefeaec00d5a744e4a68c925c9cf0f526fafd24d5f8cb1c54eb7f"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00104",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Direct particle detection",
+        "WIMPs"
+      ],
+      "char_start": 0,
+      "char_end": 303,
+      "id": "C81",
+      "text_sha256": "d8357238fcaf19610962ee6c68d8cfbdcbe9319492b6143aee1db371048b3b51"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00105",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Direct particle detection",
+        "WIMPs"
+      ],
+      "char_start": 0,
+      "char_end": 346,
+      "id": "C82",
+      "text_sha256": "53cd957b7c0cd3622c8ee93d224f38b58d2e29f9cfbefafb0bf43e707f90aa5d"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00106",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Direct particle detection",
+        "WIMPs"
+      ],
+      "char_start": 0,
+      "char_end": 615,
+      "id": "C83",
+      "text_sha256": "8268ff4294ce1a1adbf4364322bdb63f6faac7d7ce6701162ff7c03efeb76477"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00108",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Direct particle detection",
+        "Axions"
+      ],
+      "char_start": 0,
+      "char_end": 362,
+      "id": "C84",
+      "text_sha256": "0ce573b8ba95d1d1b98655fa1b69c01bfc35b7f2b1eb1fef92e28b5a4e2c398e"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00110",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Direct particle detection",
+        "Annual modulation and directionality"
+      ],
+      "char_start": 0,
+      "char_end": 391,
+      "id": "C85",
+      "text_sha256": "020a5f5733e803aa2879a5387e44394d6c723e4755eb7d639848f1fc389dd57d"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00111",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Direct particle detection",
+        "Annual modulation and directionality"
+      ],
+      "char_start": 0,
+      "char_end": 282,
+      "id": "C86",
+      "text_sha256": "4b1ed1eb8fa63e04862ee9363eb3c67c1070679d0c3e2a8b3a8ec801937ca598"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00113",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection"
+      ],
+      "char_start": 0,
+      "char_end": 819,
+      "id": "C87",
+      "text_sha256": "d0a04dbfdf7bc1b307722a3fca110fbde75357a1e48262371b1b95ffcbc5bfb2"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00114",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection"
+      ],
+      "char_start": 0,
+      "char_end": 601,
+      "id": "C88",
+      "text_sha256": "17ff892f95087c433585ac4afae9042a5e516245331cc239a803ac2b3ffbff13"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00115",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection"
+      ],
+      "char_start": 0,
+      "char_end": 217,
+      "id": "C89",
+      "text_sha256": "d0b666c5521037f0ed4148edc2bad46aacc02e9a0613e22990763c98e14aec99"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00116",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection"
+      ],
+      "char_start": 0,
+      "char_end": 567,
+      "id": "C90",
+      "text_sha256": "82f1623e7e08c4b442a06642da56ec7a06c51744c6ea4fb26c3b5c8370994511"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00117",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection"
+      ],
+      "char_start": 0,
+      "char_end": 162,
+      "id": "C91",
+      "text_sha256": "c4c97309db64c1e75be79c4de3a50a5030973323786a5b34284fe690325139fd"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00118",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection"
+      ],
+      "char_start": 0,
+      "char_end": 165,
+      "id": "C92",
+      "text_sha256": "190c9e1b864db054ff7c2c83e28cd680742dd0206653ec9f964f8f8fa20e1338"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00119",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection"
+      ],
+      "char_start": 0,
+      "char_end": 177,
+      "id": "C93",
+      "text_sha256": "d900a9e1f3a21bf374f9c11fa2f8201b7ba890f2b45dc6678cba4b628be4024d"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00120",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection"
+      ],
+      "char_start": 0,
+      "char_end": 184,
+      "id": "C94",
+      "text_sha256": "709f204edcac2d5bf9c5e1a93418e0b7ce2ea853d6e11aed59d1d9ecf7d0cc47"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00122",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection",
+        "Astrophysical observations"
+      ],
+      "char_start": 0,
+      "char_end": 154,
+      "id": "C95",
+      "text_sha256": "57750b9a13b2e0bfbce5192070d83c1ae0ea324b2a09673d7a8b259f54be75ba"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00123",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection",
+        "Astrophysical observations"
+      ],
+      "char_start": 0,
+      "char_end": 603,
+      "id": "C96",
+      "text_sha256": "bf3583b6c87c452c2caa4dd96edcf2513d9cc3dd7d5543cf45ab98d58e4a4ab5"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00124",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection",
+        "Astrophysical observations"
+      ],
+      "char_start": 0,
+      "char_end": 456,
+      "id": "C97",
+      "text_sha256": "3eda76fa5c3ffb6a7046c4706f48f28dd07c626814d5ee2124879b1f74dbc0a6"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00125",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Indirect particle detection",
+        "Astrophysical observations"
+      ],
+      "char_start": 0,
+      "char_end": 609,
+      "id": "C98",
+      "text_sha256": "cdcff1caa9925d56e58fc8ccf0f83878f999f3cf46caff89e302433c54c333bf"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00127",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Collider searches"
+      ],
+      "char_start": 0,
+      "char_end": 515,
+      "id": "C99",
+      "text_sha256": "3a44e0aa78fb05aee3f0ed850f29f772edc399eb9796dc1e63ccee0c2544f684"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00129",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Collider searches",
+        "Constraints on supersymmetry"
+      ],
+      "char_start": 0,
+      "char_end": 728,
+      "id": "C100",
+      "text_sha256": "24021df4e4cf586810d745ac896a03255ef0bdc177feb10e00c805417b330054"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00131",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Collider searches",
+        "Shift to dark sectors and exotic signatures"
+      ],
+      "char_start": 0,
+      "char_end": 279,
+      "id": "C101",
+      "text_sha256": "50d69999caf241ccb97d583bc488c6310f284d41b0fb68de34ad2053a6e15f82"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00132",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Collider searches",
+        "Shift to dark sectors and exotic signatures"
+      ],
+      "char_start": 0,
+      "char_end": 344,
+      "id": "C102",
+      "text_sha256": "b43711ae69d3ebbb543904d5ffa3c572beea809d7acb7d0f7f84475b1eb6d5fc"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00133",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Collider searches",
+        "Shift to dark sectors and exotic signatures"
+      ],
+      "char_start": 0,
+      "char_end": 334,
+      "id": "C103",
+      "text_sha256": "d5daaacc25467272f830af3a6114417f01044bf01f46156047ca13d730310b55"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00134",
+      "block_kind": "list_item",
+      "section_path": [
+        "Particle searches",
+        "Collider searches",
+        "Shift to dark sectors and exotic signatures"
+      ],
+      "char_start": 0,
+      "char_end": 287,
+      "id": "C104",
+      "text_sha256": "563ed795ec08b6844b2440752969ae8ca4660ca97376e63f491de5900dc279b0"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00135",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Particle searches",
+        "Collider searches",
+        "Shift to dark sectors and exotic signatures"
+      ],
+      "char_start": 0,
+      "char_end": 385,
+      "id": "C105",
+      "text_sha256": "149559cd68bb13ac85486231721975d4d05ced4956667ad243feacc9a5367f1f"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00138",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Alternative hypotheses",
+        "Modified gravity"
+      ],
+      "char_start": 0,
+      "char_end": 670,
+      "id": "C106",
+      "text_sha256": "8b0ff0016a9343251672fa001d8c3b16537f8868c9117a831a692e09e9110d33"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00139",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Alternative hypotheses",
+        "Modified gravity"
+      ],
+      "char_start": 0,
+      "char_end": 779,
+      "id": "C107",
+      "text_sha256": "0684823529538ffff633c4d6f4f0e741ed40b33d48a3e2d8319460c6be26697c"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00141",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 697,
+      "id": "C108",
+      "text_sha256": "171bec3dde853f14846d8f74c430a9bf0bb4a094235e93e2ff6c225d1d11cddd"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00142",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 97,
+      "id": "C109",
+      "text_sha256": "840399da5a337b9abf6f046226066170bb9d2969f0bb5fbf0769c9c229a2c2da"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00143",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 61,
+      "id": "C110",
+      "text_sha256": "c3ba0691cd75076c2a8d8ec5e8cf3dc0de3088b4103bb0f6472192e76255dce9"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00144",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 87,
+      "id": "C111",
+      "text_sha256": "1545e0934810be9f35d8f7ea1b96f36d6ed6452f47e5fd767842c285898f8314"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00145",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 128,
+      "id": "C112",
+      "text_sha256": "aeb71856d9a9b3efe2ef7700f014f17323b1c84be09cd6f503f64f124ee53fc2"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00146",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 21,
+      "id": "C113",
+      "text_sha256": "89c00ca2a025af2a23cc88a796dcd5e56e537b9f55acd3d434f94841fa7d56df"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00147",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 50,
+      "id": "C114",
+      "text_sha256": "c7612ed65a6b7e05363dbaea4c6a25be17b9cf4878328e05257d5901cc47a4d5"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00148",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 28,
+      "id": "C115",
+      "text_sha256": "77379296b21cac0034b605748dddb7046c4eeb3728bb688072290113a9b94a00"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00149",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 107,
+      "id": "C116",
+      "text_sha256": "8fc29adb49a814be1115aae711c4e4ccd4d7018acf74f45fc434e4f6450a8968"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00150",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 59,
+      "id": "C117",
+      "text_sha256": "8bf9eae6aa12e479a8754a701d20287fbf8689d5dbd0fae77ab4a0a42977f085"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00151",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 88,
+      "id": "C118",
+      "text_sha256": "936a6a16772a6599a96714776551663122dfc5396215e67a76d8f8fc6589ef2b"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00152",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 63,
+      "id": "C119",
+      "text_sha256": "69f37652d147d2e958f618d0f22ffb94ccc8251b2044c16051058ab12db16aaf"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00153",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 68,
+      "id": "C120",
+      "text_sha256": "0770a6ae7fe984123796e433901d7548b4c6ce105ed6fe2313c327f64e7819e3"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00154",
+      "block_kind": "list_item",
+      "section_path": [
+        "Alternative hypotheses",
+        "Non-mainstream and less established particle, field, and structure theories"
+      ],
+      "char_start": 0,
+      "char_end": 70,
+      "id": "C121",
+      "text_sha256": "b924ad5b5349436e707726a07b9d8a938b4e6de3c61edd989971f565e12818ef"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00156",
+      "block_kind": "paragraph",
+      "section_path": [
+        "In popular culture"
+      ],
+      "char_start": 0,
+      "char_end": 204,
+      "id": "C122",
+      "text_sha256": "18b5873da4119c6267ab880de1c0e0e3a71f6869954e20f4c50d761991612d73"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00157",
+      "block_kind": "paragraph",
+      "section_path": [
+        "In popular culture"
+      ],
+      "char_start": 0,
+      "char_end": 251,
+      "id": "C123",
+      "text_sha256": "bfebd93e9ba1f91de9d9fe78eab7540d3540bdf193eca199090611eadc0dc142"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00158",
+      "block_kind": "list_item",
+      "section_path": [
+        "In popular culture"
+      ],
+      "char_start": 0,
+      "char_end": 77,
+      "id": "C124",
+      "text_sha256": "63e16a5616805ce965af31a287bb0f9612411ad478e18f6fad90f36b5d7e6cc8"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00159",
+      "block_kind": "list_item",
+      "section_path": [
+        "In popular culture"
+      ],
+      "char_start": 0,
+      "char_end": 117,
+      "id": "C125",
+      "text_sha256": "8cfc65fa4d03c58304522a147a807792fd4618c22422672e1e57695546999b45"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00160",
+      "block_kind": "list_item",
+      "section_path": [
+        "In popular culture"
+      ],
+      "char_start": 0,
+      "char_end": 79,
+      "id": "C126",
+      "text_sha256": "ccfe4d1cfd53a4075886f408c0cd466d588c59b83d58a591e8d157273cc8aee1"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00161",
+      "block_kind": "paragraph",
+      "section_path": [
+        "In popular culture"
+      ],
+      "char_start": 0,
+      "char_end": 106,
+      "id": "C127",
+      "text_sha256": "415f4cc6a608e5255ee8a91639f79d4c274044a3ba46411cae9d8ce2302a0794"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00163",
+      "block_kind": "list_item",
+      "section_path": [
+        "Gallery"
+      ],
+      "char_start": 0,
+      "char_end": 95,
+      "id": "C128",
+      "text_sha256": "88976bb6a7f7449d1d3ea77d65d8afeb210bab9cb2fedc028668a690d669c787"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00164",
+      "block_kind": "list_item",
+      "section_path": [
+        "Gallery"
+      ],
+      "char_start": 0,
+      "char_end": 128,
+      "id": "C129",
+      "text_sha256": "d2b6ad034f8d7d106ecc3d94623a686e6cbaf1817515e0c4c19e01b28a2362af"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00165",
+      "block_kind": "list_item",
+      "section_path": [
+        "Gallery"
+      ],
+      "char_start": 0,
+      "char_end": 86,
+      "id": "C130",
+      "text_sha256": "f6472c7b853f73c08da4f00e741b652b04584396bc5718a5a99f65317b23cc0c"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00166",
+      "block_kind": "list_item",
+      "section_path": [
+        "Gallery"
+      ],
+      "char_start": 0,
+      "char_end": 88,
+      "id": "C131",
+      "text_sha256": "d5173c295b643536e27f1a608492df868a6b149411d296ab7d8e24b41000ed49"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00167",
+      "block_kind": "list_item",
+      "section_path": [
+        "Gallery"
+      ],
+      "char_start": 0,
+      "char_end": 91,
+      "id": "C132",
+      "text_sha256": "fdc8ed87372245441aef0782c1baa8c77d20a62a9f27f43a56fd6e2c3004923b"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00169",
+      "block_kind": "definition",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 16,
+      "id": "C133",
+      "text_sha256": "9b35afba9f8e3c00eb0d334bc9419ce61ce0e7a35eccb39f48ffa69aad97b84e"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00170",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 70,
+      "id": "C134",
+      "text_sha256": "4c9192258ea09acc3de543aeefa8332f4bfeecd7c8f0eaa7499d1180fa95cad5"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00171",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 62,
+      "id": "C135",
+      "text_sha256": "68fd0e844ff4620bdf30fda414224ad1f0c0a9e382b56fd60d9cd247c27e4d1d"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00172",
+      "block_kind": "definition",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 11,
+      "id": "C136",
+      "text_sha256": "716b52c42e9527503e369fdeae351ac2c1cf7e6fae3f440f49e1483aa09e585b"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00173",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 56,
+      "id": "C137",
+      "text_sha256": "16044e564196f1baf992b985c460754405d7a9eea86f601783075977b4c5d8db"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00174",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 65,
+      "id": "C138",
+      "text_sha256": "5cc45da7515e459b8888b16bb80eb38eae98d8d7fed26ea93fc6b29d87befaf8"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00175",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 130,
+      "id": "C139",
+      "text_sha256": "0a54651cd97af9ca9412729de7da593a7853c85f4e9c615773ffe87ecd89dd3c"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00176",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 29,
+      "id": "C140",
+      "text_sha256": "4efb3d1787e90da611151c0ac5a4fbbf9c9496cd9afa4d12183c7a5a20e8f6ba"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00177",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 75,
+      "id": "C141",
+      "text_sha256": "cd9609f814a6fb62a8d86926ab107030bd6a3d47ade8d11b19244b98d3a23668"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00178",
+      "block_kind": "definition",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 5,
+      "id": "C142",
+      "text_sha256": "f97e9da0e3b879f0a9df979ae260a5f7e1371edb127c1862d4f861981166cdc1"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00179",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 76,
+      "id": "C143",
+      "text_sha256": "1552fb36bba9a53178308917669a7ac995cb72c4bf8af6fe2475881ea6a37f97"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00180",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 185,
+      "id": "C144",
+      "text_sha256": "8d86afe6294e65fb8e9f48f4cf63c59b56b03d38637cc333230e313d1b5c213c"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00184",
+      "block_kind": "list_item",
+      "section_path": [
+        "Further reading"
+      ],
+      "char_start": 0,
+      "char_end": 89,
+      "id": "C145",
+      "text_sha256": "2b5bb2647213c9607ef1106837db6248efdb26ec8a38b3ac64fd79494030e844"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00185",
+      "block_kind": "list_item",
+      "section_path": [
+        "Further reading"
+      ],
+      "char_start": 0,
+      "char_end": 179,
+      "id": "C146",
+      "text_sha256": "fda5f34a4b7bb244023bef512daf21bb7c6c20611c01efa42e0473a0b63bb314"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00186",
+      "block_kind": "list_item",
+      "section_path": [
+        "Further reading"
+      ],
+      "char_start": 0,
+      "char_end": 190,
+      "id": "C147",
+      "text_sha256": "6f3e1a1a438ff0d7b3fc06ba3a177485b960bdbff94832d621fb4f71d1c9a7fb"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00187",
+      "block_kind": "list_item",
+      "section_path": [
+        "Further reading"
+      ],
+      "char_start": 0,
+      "char_end": 150,
+      "id": "C148",
+      "text_sha256": "ef21500aa6cdbdd8968b16a1d9ce10adb74436951b4edda0eb0a33fc635c2209"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00188",
+      "block_kind": "list_item",
+      "section_path": [
+        "Further reading"
+      ],
+      "char_start": 0,
+      "char_end": 159,
+      "id": "C149",
+      "text_sha256": "dfa17503ca1aee59ac7750a5c57e937c7313e28d634fb59b0bc0155afe284748"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00189",
+      "block_kind": "list_item",
+      "section_path": [
+        "Further reading"
+      ],
+      "char_start": 0,
+      "char_end": 147,
+      "id": "C150",
+      "text_sha256": "75a0b0b0d9d1ce0c7c213b506515adeca457952903e21d2f41d7a9494ff4eebf"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00190",
+      "block_kind": "list_item",
+      "section_path": [
+        "Further reading"
+      ],
+      "char_start": 0,
+      "char_end": 177,
+      "id": "C151",
+      "text_sha256": "c389615a7bbd7b4b7a6346beefadafe85250db2f356d6b761661f4f3116ea7c6"
+    },
+    {
+      "page_id": 8651,
+      "title": "Dark matter",
+      "url": "https://en.wikipedia.org/wiki/Dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+      "revision_id": 1380661687,
+      "block_id": "B00191",
+      "block_kind": "list_item",
+      "section_path": [
+        "Further reading"
+      ],
+      "char_start": 0,
+      "char_end": 117,
+      "id": "C152",
+      "text_sha256": "d763863e2ff902b2f5de0a0f3c9d077b011a56ad391044b22564ac8f86361b4c"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00001",
+      "block_kind": "infobox",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 210,
+      "id": "C153",
+      "text_sha256": "5d4894d432d8f939fc25c27e3fa950395ea46aa7ee89915cca6355f6016558b2"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00002",
+      "block_kind": "paragraph",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 428,
+      "id": "C154",
+      "text_sha256": "e7409bac7407c78405b2928378864179a1ccd14aafb15cda43c46ea36546acff"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00004",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Development"
+      ],
+      "char_start": 0,
+      "char_end": 145,
+      "id": "C155",
+      "text_sha256": "fdf839d03a7546d87804d59f05593bc6a2c6c3e0c9d01974cd49d8c1f62580fb"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00006",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Setting"
+      ],
+      "char_start": 0,
+      "char_end": 485,
+      "id": "C156",
+      "text_sha256": "eb327fe4392c333c8f00b6dc97c17b50fc02f0baf879032b3195571bccdaa0a8"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00008",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Contents"
+      ],
+      "char_start": 0,
+      "char_end": 321,
+      "id": "C157",
+      "text_sha256": "b5b2a454c092f9e52b2269d7a1e7b4a2f8e9dc79e3099426e48311153f3c8618"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00009",
+      "block_kind": "list_item",
+      "section_path": [
+        "Contents"
+      ],
+      "char_start": 0,
+      "char_end": 37,
+      "id": "C158",
+      "text_sha256": "e71b5d3bed726defda51e00c61e7f59f2992d6f3e27500a1cad9a622f8ae5782"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00010",
+      "block_kind": "list_item",
+      "section_path": [
+        "Contents"
+      ],
+      "char_start": 0,
+      "char_end": 141,
+      "id": "C159",
+      "text_sha256": "8e464fa2fdc9cae1200598012eaad6c7c1def9fe8470fbcab742879147dce96c"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00011",
+      "block_kind": "list_item",
+      "section_path": [
+        "Contents"
+      ],
+      "char_start": 0,
+      "char_end": 131,
+      "id": "C160",
+      "text_sha256": "a99e598d195fadc16f4fe7edd7fd18fc6a0ee25cf2bab536537d6f199cdbbf05"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00012",
+      "block_kind": "list_item",
+      "section_path": [
+        "Contents"
+      ],
+      "char_start": 0,
+      "char_end": 77,
+      "id": "C161",
+      "text_sha256": "37e96c559dcba3b6e40ecd862cb47c881deb7b52a3e0bfad3011a865f113540f"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00013",
+      "block_kind": "list_item",
+      "section_path": [
+        "Contents"
+      ],
+      "char_start": 0,
+      "char_end": 122,
+      "id": "C162",
+      "text_sha256": "889eb75f5c1367589a4a4b111e9c4df3c1d1c7ec44aeaeaedea7cd692fccaac1"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00014",
+      "block_kind": "list_item",
+      "section_path": [
+        "Contents"
+      ],
+      "char_start": 0,
+      "char_end": 35,
+      "id": "C163",
+      "text_sha256": "e200bc5e0d1e852b2278f420e6ec8b814cfadb24e9a4426afec1998a3a25ee65"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00015",
+      "block_kind": "list_item",
+      "section_path": [
+        "Contents"
+      ],
+      "char_start": 0,
+      "char_end": 78,
+      "id": "C164",
+      "text_sha256": "a7fcbc04ee5b51758ffed3f23beca0841688fee2e7542d4949ae5fac417ee602"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00016",
+      "block_kind": "list_item",
+      "section_path": [
+        "Contents"
+      ],
+      "char_start": 0,
+      "char_end": 40,
+      "id": "C165",
+      "text_sha256": "96b0e24aae70c53ff21314668f79b77a5931dec33d0c5d4a9446c539f5ebe6ae"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00017",
+      "block_kind": "list_item",
+      "section_path": [
+        "Contents"
+      ],
+      "char_start": 0,
+      "char_end": 26,
+      "id": "C166",
+      "text_sha256": "e41c94d74c1145e765476ea297ea7b9271c5c996370b07044cd499bfa90e2af3"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00020",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Works related to the core book",
+        "Supplements and adventures"
+      ],
+      "char_start": 0,
+      "char_end": 195,
+      "id": "C167",
+      "text_sha256": "ce23a4033c12af3b72ab8fd84ba66cba3fd05330fdab1d7cbfbd995f591aa9c8"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00021",
+      "block_kind": "list_item",
+      "section_path": [
+        "Works related to the core book",
+        "Supplements and adventures"
+      ],
+      "char_start": 0,
+      "char_end": 118,
+      "id": "C168",
+      "text_sha256": "b115ee02300d91a10beedd3c9ff6339763e4764e5732c83278dd98774c68b0d7"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00022",
+      "block_kind": "list_item",
+      "section_path": [
+        "Works related to the core book",
+        "Supplements and adventures"
+      ],
+      "char_start": 0,
+      "char_end": 78,
+      "id": "C169",
+      "text_sha256": "d32f578f2a0978f7330e3e6e1179baf7fa81cf66682dd34e75a02af2eb67cd15"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00023",
+      "block_kind": "list_item",
+      "section_path": [
+        "Works related to the core book",
+        "Supplements and adventures"
+      ],
+      "char_start": 0,
+      "char_end": 93,
+      "id": "C170",
+      "text_sha256": "bd6409449a11b9d940172e4afb9678479fd8fb20676a1ed851fa7c74a81cf564"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00024",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Works related to the core book",
+        "Supplements and adventures"
+      ],
+      "char_start": 0,
+      "char_end": 218,
+      "id": "C171",
+      "text_sha256": "4e55ce17257373963e19cb59df12ab12ad027ec2e6ef1c89eb84c1ab264d6440"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00027",
+      "block_kind": "list_item",
+      "section_path": [
+        "Tie-in novels",
+        "In print"
+      ],
+      "char_start": 0,
+      "char_end": 45,
+      "id": "C172",
+      "text_sha256": "ed4dde2d39e1f1eebdb27e5f7b8b62003dcc74c8a69a112225d48fdd48ff8dc4"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00028",
+      "block_kind": "list_item",
+      "section_path": [
+        "Tie-in novels",
+        "In print"
+      ],
+      "char_start": 0,
+      "char_end": 46,
+      "id": "C173",
+      "text_sha256": "be35e6b999d2b655b0ba9e553df991822303d0617303988c0773deb98b56cebd"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00029",
+      "block_kind": "list_item",
+      "section_path": [
+        "Tie-in novels",
+        "In print"
+      ],
+      "char_start": 0,
+      "char_end": 55,
+      "id": "C174",
+      "text_sha256": "67b7b57f3c2582d301bfc34fa1e365a399eedd9aa9d6f421107598b42e2e2108"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00030",
+      "block_kind": "list_item",
+      "section_path": [
+        "Tie-in novels",
+        "In print"
+      ],
+      "char_start": 0,
+      "char_end": 36,
+      "id": "C175",
+      "text_sha256": "be14d12e89bd61f1098bec976a8fab4303df3b8efc0018e8e158155e76233bf9"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00032",
+      "block_kind": "list_item",
+      "section_path": [
+        "Tie-in novels",
+        "PDF only"
+      ],
+      "char_start": 0,
+      "char_end": 108,
+      "id": "C176",
+      "text_sha256": "dff132566acc5ffd531d6f0ffaf604227a8c6b3e38eb82762c53fe15b9ee310b"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00034",
+      "block_kind": "paragraph",
+      "section_path": [
+        "d20 Modern system"
+      ],
+      "char_start": 0,
+      "char_end": 306,
+      "id": "C177",
+      "text_sha256": "84fcbc17a73284d3ce709b6df06df581b27637528b03595a5554365a6d077c62"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00036",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Reception"
+      ],
+      "char_start": 0,
+      "char_end": 130,
+      "id": "C178",
+      "text_sha256": "da45f51fe00d3aef347d0a5ac83f80e10c20a816c37535e17dc89ba7c16552ed"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00037",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Reception"
+      ],
+      "char_start": 0,
+      "char_end": 197,
+      "id": "C179",
+      "text_sha256": "94e115200327aa9628a72adb01e3b8be98521aa817de074e7e612506feedd0c3"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00039",
+      "block_kind": "list_item",
+      "section_path": [
+        "Reviews"
+      ],
+      "char_start": 0,
+      "char_end": 12,
+      "id": "C180",
+      "text_sha256": "8e24c74025fd9afb820e373b46e2f7664274a22816965289bf3e96cf51ee0c90"
+    },
+    {
+      "page_id": 2854515,
+      "title": "Dark Matter (role-playing game)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Matter_(role-playing_game)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_Matter_%28role-playing_game%29&oldid=1354234136",
+      "revision_id": 1354234136,
+      "block_id": "B00041",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 11,
+      "id": "C181",
+      "text_sha256": "78b3ebcee12822cd0c824d33d467041e573b93150218322b8e2d03b210e75d6f"
+    },
+    {
+      "page_id": 264752,
+      "title": "Baryonic dark matter",
+      "url": "https://en.wikipedia.org/wiki/Baryonic_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Baryonic_dark_matter&oldid=1334448316",
+      "revision_id": 1334448316,
+      "block_id": "B00001",
+      "block_kind": "paragraph",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 182,
+      "id": "C182",
+      "text_sha256": "d1cd7bcf056b57d76d267f6649fa0095b98383d1874ed8cb3414579b102f4855"
+    },
+    {
+      "page_id": 264752,
+      "title": "Baryonic dark matter",
+      "url": "https://en.wikipedia.org/wiki/Baryonic_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Baryonic_dark_matter&oldid=1334448316",
+      "revision_id": 1334448316,
+      "block_id": "B00003",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Characteristics"
+      ],
+      "char_start": 0,
+      "char_end": 331,
+      "id": "C183",
+      "text_sha256": "5c6f7349c884e89c10650efabed5f8c67a750f8eb2202575d24dbfffcb60de7b"
+    },
+    {
+      "page_id": 264752,
+      "title": "Baryonic dark matter",
+      "url": "https://en.wikipedia.org/wiki/Baryonic_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Baryonic_dark_matter&oldid=1334448316",
+      "revision_id": 1334448316,
+      "block_id": "B00005",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Presence"
+      ],
+      "char_start": 0,
+      "char_end": 251,
+      "id": "C184",
+      "text_sha256": "c77c20b468a5d93449e7e5b7c8260cd0a0dbc45bbe35513008cd17b1150719cf"
+    },
+    {
+      "page_id": 264752,
+      "title": "Baryonic dark matter",
+      "url": "https://en.wikipedia.org/wiki/Baryonic_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Baryonic_dark_matter&oldid=1334448316",
+      "revision_id": 1334448316,
+      "block_id": "B00007",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Estimates of quantity"
+      ],
+      "char_start": 0,
+      "char_end": 258,
+      "id": "C185",
+      "text_sha256": "19b8bf9238e0c93ecd1def218479f2f11b80178a02362a76e8eec491a41c720e"
+    },
+    {
+      "page_id": 264752,
+      "title": "Baryonic dark matter",
+      "url": "https://en.wikipedia.org/wiki/Baryonic_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Baryonic_dark_matter&oldid=1334448316",
+      "revision_id": 1334448316,
+      "block_id": "B00009",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Estimates of quantity",
+        "Big Bang nucleosynthesis"
+      ],
+      "char_start": 0,
+      "char_end": 856,
+      "id": "C186",
+      "text_sha256": "1539774fdb94d7fdc89b7bb50b9a9d02e41c113d9d00167a6ae381774b8d0370"
+    },
+    {
+      "page_id": 264752,
+      "title": "Baryonic dark matter",
+      "url": "https://en.wikipedia.org/wiki/Baryonic_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Baryonic_dark_matter&oldid=1334448316",
+      "revision_id": 1334448316,
+      "block_id": "B00009",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Estimates of quantity",
+        "Big Bang nucleosynthesis"
+      ],
+      "char_start": 856,
+      "char_end": 909,
+      "id": "C187",
+      "text_sha256": "195078ba1567ed6eb35404f05dfbf332bf9740d57a1668b11f42c148563642b2"
+    },
+    {
+      "page_id": 264752,
+      "title": "Baryonic dark matter",
+      "url": "https://en.wikipedia.org/wiki/Baryonic_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Baryonic_dark_matter&oldid=1334448316",
+      "revision_id": 1334448316,
+      "block_id": "B00011",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 19,
+      "id": "C188",
+      "text_sha256": "cd4cde33aec3353023bed9935175a0b742d6c537d5ae1bfde4de57bfa89a2dcc"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00001",
+      "block_kind": "paragraph",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 747,
+      "id": "C189",
+      "text_sha256": "fc470fe80931a5a25e7f80d1a67dd6028c786456f1a01251c491792ef62c2e95"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00003",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Genomic dark matter"
+      ],
+      "char_start": 0,
+      "char_end": 316,
+      "id": "C190",
+      "text_sha256": "a3140bd7e62dd097ab2ec5c8953351158b21190844d6ad7203b7a01c87bed215"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00005",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Unclassified microorganisms"
+      ],
+      "char_start": 0,
+      "char_end": 141,
+      "id": "C191",
+      "text_sha256": "8ad1c1d1a6e8a9dc78a7a6f1f13ec8d941f95ca4a174455806eba64e37c02938"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00006",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Unclassified microorganisms"
+      ],
+      "char_start": 0,
+      "char_end": 482,
+      "id": "C192",
+      "text_sha256": "95b82cee4dca2b70429abc4e7487a1f4fed6239d0d495d22139af69cb05d9c4b"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00007",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Unclassified microorganisms"
+      ],
+      "char_start": 0,
+      "char_end": 994,
+      "id": "C193",
+      "text_sha256": "18d0db392858c79573ef8af27079215d6ec20b5d9a5dbc9fcecbbeb5779a6c6b"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00007",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Unclassified microorganisms"
+      ],
+      "char_start": 995,
+      "char_end": 1094,
+      "id": "C194",
+      "text_sha256": "bc9eabb63f0401950f7eb301df8c9d860561dbdd961be882f68602da07c6bd5a"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00008",
+      "block_kind": "paragraph",
+      "section_path": [
+        "Unclassified microorganisms"
+      ],
+      "char_start": 0,
+      "char_end": 183,
+      "id": "C195",
+      "text_sha256": "ff23ab3908bb6e315a9ddcdf29aef5f10804ed78d6b3c217b2533595a5851a18"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00010",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 102,
+      "id": "C196",
+      "text_sha256": "cec60099943bb8f78740d7257ff7943a9061e6bb732af7861007eaab2eb4d040"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00011",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 69,
+      "id": "C197",
+      "text_sha256": "cff2da2ebb52ab5e0ba6db46a9e402bc1db5ae9d3881f14c5d0672244fb070a7"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00012",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 94,
+      "id": "C198",
+      "text_sha256": "877228dc351bff337f8dfaee2434cedbda89279364ab0542d995fd1c60e9b4ab"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00013",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 56,
+      "id": "C199",
+      "text_sha256": "b26093d00e5c182b57b2c84307b84a53005a231575facfade749e8f3bbc6453b"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00014",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 50,
+      "id": "C200",
+      "text_sha256": "c16441d3ca2610c685f14f1f040cc7cf4d5f085c857ab21ea87c7946f0037730"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00015",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 43,
+      "id": "C201",
+      "text_sha256": "0763ad5412e5c140e3848fa195ff2f8fb89e1da715ec5d955bcab8e5a8f434af"
+    },
+    {
+      "page_id": 35942883,
+      "title": "Biological dark matter",
+      "url": "https://en.wikipedia.org/wiki/Biological_dark_matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Biological_dark_matter&oldid=1369611307",
+      "revision_id": 1369611307,
+      "block_id": "B00016",
+      "block_kind": "list_item",
+      "section_path": [
+        "See also"
+      ],
+      "char_start": 0,
+      "char_end": 45,
+      "id": "C202",
+      "text_sha256": "af592c8e5e664b8641c3bd41c3d2b13aa35e559d7a5d4ecc5c219fb18236ea20"
+    },
+    {
+      "page_id": 54100852,
+      "title": "Cold Dark Matter",
+      "url": "https://en.wikipedia.org/wiki/Cold_Dark_Matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Cold_Dark_Matter&oldid=1134190061",
+      "revision_id": 1134190061,
+      "block_id": "B00001",
+      "block_kind": "paragraph",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 30,
+      "id": "C203",
+      "text_sha256": "29e92010551a636eeffe182a0c3d6190310f34dcff2c7990a65ff0d17c1c4b4a"
+    },
+    {
+      "page_id": 54100852,
+      "title": "Cold Dark Matter",
+      "url": "https://en.wikipedia.org/wiki/Cold_Dark_Matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Cold_Dark_Matter&oldid=1134190061",
+      "revision_id": 1134190061,
+      "block_id": "B00002",
+      "block_kind": "list_item",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 77,
+      "id": "C204",
+      "text_sha256": "a513d3ac6d07a29b6fc6f25baa90decab9bc6fe44124f28ca9d9ac945048dd28"
+    },
+    {
+      "page_id": 54100852,
+      "title": "Cold Dark Matter",
+      "url": "https://en.wikipedia.org/wiki/Cold_Dark_Matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Cold_Dark_Matter&oldid=1134190061",
+      "revision_id": 1134190061,
+      "block_id": "B00003",
+      "block_kind": "list_item",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 35,
+      "id": "C205",
+      "text_sha256": "e1e5e46aef1a49c3ae849258e47026d800ac6cdba223c2f8741a80d63b3c8ea7"
+    },
+    {
+      "page_id": 54100852,
+      "title": "Cold Dark Matter",
+      "url": "https://en.wikipedia.org/wiki/Cold_Dark_Matter",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Cold_Dark_Matter&oldid=1134190061",
+      "revision_id": 1134190061,
+      "block_id": "B00004",
+      "block_kind": "list_item",
+      "section_path": [],
+      "char_start": 0,
+      "char_end": 42,
+      "id": "C206",
+      "text_sha256": "d5eb1eb6a614bb100d341dbc3b38d8f66591b014febbb021ffceb64a6f3e62c5"
+    }
+  ],
+  "error": "ValueError: Reader batch failed validation: 1",
+  "cleanup": {
+    "temporary_files_deleted": true
+  },
+  "wall_seconds": 75.683611916
+}

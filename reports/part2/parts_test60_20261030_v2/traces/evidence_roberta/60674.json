@@ -1,0 +1,62 @@
+{
+  "id": 60674,
+  "claim": "Marc Maron has a studio.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.992344081401825,
+    0.007545130327343941,
+    0.00011081445700256154
+  ],
+  "logits": [
+    4.313795566558838,
+    -0.5653721690177917,
+    -4.786172389984131
+  ],
+  "evidence": [
+    {
+      "page_id": "Marc_Maron",
+      "sentence_id": 3,
+      "text": "He has been host of The Marc Maron Show and co-host of both Morning Sedition and Breakroom Live , all politically oriented shows produced by Air America Media .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Marc_Maron",
+      "sentence_id": 9,
+      "text": "In September 2009 , Maron began hosting a twice-weekly podcast titled WTF with Marc Maron in which he interviews comedians and celebrities .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Marc_Maron",
+      "sentence_id": 11,
+      "text": "In June 2015 , Maron interviewed the President of the United States , Barack Obama , at his podcast studio and home , in Highland Park , Los Angeles , California .",
+      "score": 2.1
+    },
+    {
+      "page_id": "The_Marc_Maron_Show",
+      "sentence_id": 0,
+      "text": "The Marc Maron Show was a late night radio show produced in affiliation with the Air America Radio network and hosted by comedian Marc Maron .",
+      "score": 2.05
+    },
+    {
+      "page_id": "WTF_with_Marc_Maron",
+      "sentence_id": 0,
+      "text": "WTF with Marc Maron is a weekly podcast and radio show hosted by stand up comedian Marc Maron .",
+      "score": 2.033333333333333
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 156,
+    "tokens_retained": 156,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Marc Maron has a studio.</s></s>He has been host of The Marc Maron Show and co-host of both Morning Sedition and Breakroom Live , all politically oriented shows produced by Air America Media . In September 2009 , Maron began hosting a twice-weekly podcast titled WTF with Marc Maron in which he interviews comedians and celebrities . In June 2015 , Maron interviewed the President of the United States , Barack Obama , at his podcast studio and home , in Highland Park , Los Angeles , California . The Marc Maron Show was a late night radio show produced in affiliation with the Air America Radio network and hosted by comedian Marc Maron . WTF with Marc Maron is a weekly podcast and radio show hosted by stand up comedian Marc Maron .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.08283087499999997
+}

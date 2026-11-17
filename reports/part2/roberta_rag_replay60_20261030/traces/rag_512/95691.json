@@ -1,0 +1,573 @@
+{
+  "id": 95691,
+  "claim": "Alex Sharp was in a West End show.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.6761450171470642,
+    0.3138974606990814,
+    0.009957533329725266
+  ],
+  "logits": [
+    1.4549283981323242,
+    0.6875872015953064,
+    -2.7631497383117676
+  ],
+  "inference_seconds": 0.1073371659999971,
+  "evidence_text": "Year | Title | Role | Notes 2020 | The Good Lord Bird | Preacher | Episode: \"A Wicked Plot\" 2024 | 3 Body Problem | Will Downing | Year | Title | Role | Notes 2017 | To the Bone | Luke | How to Talk to Girls at Parties | Enn | 2018 | Better Start Running | Harley | UFO | Derek Echevaro | 2019 | The Sunlit Night | Yasha | The Hustle | Thomas Westerburg | 2020 | The Trial of the Chicago 7 | Rennie Davis | 2022 | Living | Mr Wakeling | 2023 | One Life | Trevor Chadwick | When working on a house in Montreal, Sharp decided that he wanted to become an actor. He asked a friend what the best theatre schools were, and the friend told him Yale and Juilliard. Sharp decided on Juilliard due to its location in the middle of Manhattan, and he auditioned with a scene from Hamlet. Against school rules, he also performed a scene from a play that he had written, claiming that it was the work of a little-known English playwright. He was accepted to Juilliard and attended the Drama Division's Group 43. During his time at Juilliard, he wrote and directed a play that was an adaptation of A Clockwork Orange. He graduated from Juilliard with a Bachelor of Fine Arts degree in 2014. Sharp was born circa 1988/1989, and was raised travelling throughout Europe and the Southwest of the United States in a caravan, before moving to east Devon, England, age eight. He was educated by his mother, a teacher, and his father, who worked in real estate, until the family moved back to England. He has a sister, Nicole, also highly successful in her own field. His mother homeschooled him with both \"rigorous and unorthodox\" lessons. Upon his return to east Devon, he was unable to adjust easily to a traditional school environment, and eventually left England aged 18. The duo managed to keep the company running, but the series was less successful, and was cancelled after one season. It also aired on ABC TV in Australia. After graduating from the Juilliard School in the summer of 2014, he made his Broadway and acting debut in the play The Curious Incident of the Dog in the Night-Time in the autumn. For his role as the autistic teenager Christopher Boone, he was awarded the Tony Award for Best Actor in a Play, Drama Desk Award for Outstanding Actor in a Play, and the Outer Critics Circle Award. Year | Title | Role | Location | Category 2014–2015 | The Curious Incident of the Dog in the Night-Time | Christopher Boone | Ethel Barrymore Theatre | Broadway Alexander Ian Sharp (born 1988/1989) is an English actor. He is known for originating the role of Christopher Boone in the Broadway production of The Curious Incident of the Dog in the Night-Time. He is also known to a wider audience as Will Downing in 3 Body Problem. In 2008, Sharp went to North America and worked as a carpenter and handyman, and in call centres often, in Canada. At times, he travelled to Latin America to pursue physical activities. Alex Sharp Sharp signing autographs at the stage door of The Curious Incident of the Dog in the Night-Time in 2015 Born | 1988 or 1989 (age 37–38) Westminster, London, England Education | Yeovil CollegeJuilliard School (BFA) Occupation | Actor Years active | 2014–present Signature The Sharp End Created by | Roy Clarke Directed by | Brian Parker David Penn Starring | Gwen Taylor James Cosmo Philip Martin Brown Country of origin | United Kingdom Original language | English No. of series | 1 No. of episodes | 8 Production Running time | 50 minutes Original release Network | BBC1 Release | 12 April (1991-04-12) – 31 May 1991 (1991-05-31) The Sharp End was a 1991 British television comedy drama starring Gwen Taylor, James Cosmo and Philip Martin Brown. It was written by Roy Clarke and directed by Brian Parker and David Penn, and ran for eight episodes on BBC1 from 12 April 1991. The programme was partly filmed on location in Stoke-on-Trent. Sharp wanted to be an actor from an early age. According to the Irish Mirror, his acting debut was at age 4 when he appeared in A Touch of Frost for £10. According to The Daily Beast, at age 7, he made his acting debut as Piglet in Winnie-the-Pooh. He also did extensive regional theatre work at the Northcott Theatre in Exeter. Sharp studied Performing Arts at Yeovil College in Yeovil, Somerset and attended Beaminster Comprehensive School in Dorset. James Cosmo also starred as Carmichael, an illiterate hermit who was hired by Forrest as her assistant. He spent much of the series riding around on a pushbike with a tape recorder on which Forrest would record instructions of his tasks for the day. Eddie Gordon (born 1959), English music producer known professionally as \"West End\" West End, New York",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1051,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1038,
+    "evidence_tokens_retained": 499,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 46861235,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 46861235,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 46861235,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 46861235,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 46861235,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 46861235,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 46861235,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 46861235,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 46861235,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 46861235,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 46861235,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 46861235,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 46861235,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 46861235,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 46861235,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 46861235,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 46861235,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 46861235,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 46861235,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 46861235,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 46861235,
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 46861235,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 46861235,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 46861235,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 46861235,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 14600047,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 14600047,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 46861235,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 46861235,
+        "tokens_total": 41,
+        "tokens_kept": 28,
+        "visibility": "partial"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 46861235,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 46861235,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 46861235,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 46861235,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 46861235,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 46861235,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 46861235,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 46861235,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 46861235,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 46861235,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 46861235,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 46861235,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 46861235,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 46861235,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 14600047,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 14600047,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 14600047,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 14600047,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 14600047,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 14600047,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 14600047,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 14600047,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 14600047,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 14600047,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 14600047,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 14600047,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 14600047,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 14600047,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 14600047,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 14600047,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 60,
+        "id": "E60",
+        "page_id": 46861235,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 61,
+        "id": "E61",
+        "page_id": 46861235,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 62,
+        "id": "E62",
+        "page_id": 46861235,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 63,
+        "id": "E63",
+        "page_id": 46861235,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 64,
+        "id": "E64",
+        "page_id": 46861235,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 65,
+        "id": "E65",
+        "page_id": 14600047,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 66,
+        "id": "E66",
+        "page_id": 14600047,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 67,
+        "id": "E67",
+        "page_id": 685243,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 68,
+        "id": "E68",
+        "page_id": 685243,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Alex Sharp was in a West End show.</s></s>Year | Title | Role | Notes 2020 | The Good Lord Bird | Preacher | Episode: \"A Wicked Plot\" 2024 | 3 Body Problem | Will Downing | Year | Title | Role | Notes 2017 | To the Bone | Luke | How to Talk to Girls at Parties | Enn | 2018 | Better Start Running | Harley | UFO | Derek Echevaro | 2019 | The Sunlit Night | Yasha | The Hustle | Thomas Westerburg | 2020 | The Trial of the Chicago 7 | Rennie Davis | 2022 | Living | Mr Wakeling | 2023 | One Life | Trevor Chadwick | When working on a house in Montreal, Sharp decided that he wanted to become an actor. He asked a friend what the best theatre schools were, and the friend told him Yale and Juilliard. Sharp decided on Juilliard due to its location in the middle of Manhattan, and he auditioned with a scene from Hamlet. Against school rules, he also performed a scene from a play that he had written, claiming that it was the work of a little-known English playwright. He was accepted to Juilliard and attended the Drama Division's Group 43. During his time at Juilliard, he wrote and directed a play that was an adaptation of A Clockwork Orange. He graduated from Juilliard with a Bachelor of Fine Arts degree in 2014. Sharp was born circa 1988/1989, and was raised travelling throughout Europe and the Southwest of the United States in a caravan, before moving to east Devon, England, age eight. He was educated by his mother, a teacher, and his father, who worked in real estate, until the family moved back to England. He has a sister, Nicole, also highly successful in her own field. His mother homeschooled him with both \"rigorous and unorthodox\" lessons. Upon his return to east Devon, he was unable to adjust easily to a traditional school environment, and eventually left England aged 18. The duo managed to keep the company running, but the series was less successful, and was cancelled after one season. It also aired on ABC TV in Australia. After graduating from the Juilliard School in the summer of 2014, he made his Broadway and acting debut in the play The Curious Incident of the Dog in the Night-Time in the autumn. For his role as the autistic teenager Christopher Boone, he was awarded the Tony Award for Best Actor in a Play, Drama Desk Award for Out</s>"
+  }
+}

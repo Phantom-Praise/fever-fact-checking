@@ -1,0 +1,1778 @@
+{
+  "params": {
+    "action": "wbgetentities",
+    "ids": "Q10798782",
+    "props": "claims|labels|aliases",
+    "languages": "en"
+  },
+  "response": {
+    "entities": {
+      "Q10798782": {
+        "type": "item",
+        "id": "Q10798782",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "television actor"
+          }
+        },
+        "aliases": {
+          "en": [
+            {
+              "language": "en",
+              "value": "TV actor"
+            },
+            {
+              "language": "en",
+              "value": "actor"
+            },
+            {
+              "language": "en",
+              "value": "television actress"
+            },
+            {
+              "language": "en",
+              "value": "actress"
+            },
+            {
+              "language": "en",
+              "value": "TV actress"
+            }
+          ]
+        },
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "4636e171d4132da3a4aeeeecd2f9fab5d7f996fd",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 28640,
+                    "id": "Q28640"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q10798782$e4166a93-44ac-f079-345b-8e783d813c9d",
+              "rank": "normal"
+            }
+          ],
+          "P279": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P279",
+                "hash": "64607d99d9eb68a698c269fa3bde39109145909c",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 33999,
+                    "id": "Q33999"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "q10798782$10210215-5651-4624-9E75-0B0C2AC061D7",
+              "rank": "normal"
+            }
+          ],
+          "P910": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P910",
+                "hash": "8326b3fa7a706da033b3bd23b5f3575d1fb52a28",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5479560,
+                    "id": "Q5479560"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q10798782$3826d21a-4f13-583f-b97d-4516592f85b5",
+              "rank": "normal"
+            }
+          ],
+          "P3321": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "7f4b0b8a1d2a6d184bef3a5782930f2260b52555",
+                "datavalue": {
+                  "value": {
+                    "text": "Televisiounsschauspiller",
+                    "language": "lb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$4e84b764-4cbe-527d-c5a0-91db709fd722",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "1c113d06e8c63bb0c32bec28bdcceef4a3d218c7",
+                "datavalue": {
+                  "value": {
+                    "text": "attore televisivo",
+                    "language": "it"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$2d5f37e3-4228-9afe-ae55-f95c95c3774e",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "65b5719dc34bdd88eecc74064e4a64c264c9af00",
+                "datavalue": {
+                  "value": {
+                    "text": "телевизијски глумац",
+                    "language": "sr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$a8d87fe3-4724-f25d-f810-48eab50ab82f",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "45e3f44ce3a28581e46d4c959fd8d5a528f8fd92",
+                "datavalue": {
+                  "value": {
+                    "text": "ҳунарманди телевизион",
+                    "language": "tg"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$7f0175c5-4ba1-adc8-c4fc-af3cd987e5c2",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "e0896c45256087d589251cb9be051b2fead2daf8",
+                "datavalue": {
+                  "value": {
+                    "text": "টেলিভিশন অভিনেতা",
+                    "language": "bn"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$07053a5e-425e-08a0-7c7a-5c72ed5f7353",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "e3e8fbb902211349ad5f51c554a340cff1c37ea7",
+                "datavalue": {
+                  "value": {
+                    "text": "lîstikvanê televîzyonê",
+                    "language": "ku-latn"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$4d3e5bf1-4ce0-4f87-9b0e-e1303305d711",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "8da53e5370ed258cf39c5e3abae7954bec9aee30",
+                "datavalue": {
+                  "value": {
+                    "text": "ممثل تيليڤزيون",
+                    "language": "arz"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$92228959-4d9b-9dbf-4b74-c206079ebc1d",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "f98f713510c8545e88a295084c6d2206fef47906",
+                "datavalue": {
+                  "value": {
+                    "text": "acteur de télévision",
+                    "language": "fr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$2efdbf07-4ec2-dd7e-ad21-e09912558161",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "430cb85463239d3f14b497f6521beea11480a75e",
+                "datavalue": {
+                  "value": {
+                    "text": "ator de televisão",
+                    "language": "pt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$c158bb48-4f46-fa38-a342-5d2d86f6e1af",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "6954cab977ba866423ff221216009ec4ff493d18",
+                "datavalue": {
+                  "value": {
+                    "text": "atol de televisión",
+                    "language": "ext"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$789f202d-482e-ffd0-2814-9ec6e5b2e4c9",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "f4db0ce434b4e30570221b1d12fb0ff7421e1b5a",
+                "datavalue": {
+                  "value": {
+                    "text": "aktour skinwel",
+                    "language": "br"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$01e229d2-4953-7b0d-2477-8f3d618b40c1",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "055a4f7cce1cbc2b7f1f8f7e05f8abd96169caea",
+                "datavalue": {
+                  "value": {
+                    "text": "televizijos aktorius",
+                    "language": "lt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$a6d905c4-4d47-c8cb-cca2-76e715fd6288",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "3ca309e689113ce258499a26a24f61d84781d034",
+                "datavalue": {
+                  "value": {
+                    "text": "Tëleesschauspiller",
+                    "language": "lb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$3a029461-409e-05ae-0cff-53a792a046f7",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "2c7be158aa164faa7a3c75bfef2b4b718bd246fa",
+                "datavalue": {
+                  "value": {
+                    "text": "ممتيل د التلفازة",
+                    "language": "ary"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$090045D2-3DBF-4588-A892-C1C8A96D3462",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "439f4392745f350d4c93ad469530f95102463877",
+                "datavalue": {
+                  "value": {
+                    "text": "दूरदर्शन अभिनेता",
+                    "language": "mr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$0585ac8d-4372-b657-1b2f-3823056257a1",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "25e80d5fb53313f5a5f5d308c77196e1f1c9b785",
+                "datavalue": {
+                  "value": {
+                    "text": "ٹیلی ویژن اداکار",
+                    "language": "ur"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$495cccc6-4c69-594b-dd71-4d0e7e6b652a",
+              "rank": "normal"
+            }
+          ],
+          "P1687": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1687",
+                "hash": "3dda7e7f1abcc9a63c2c3d2176bb95eac1aaad8e",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "property",
+                    "numeric-id": 161,
+                    "id": "P161"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-property"
+              },
+              "type": "statement",
+              "id": "Q10798782$630bdfdf-44d6-4fc9-83af-b88e52e01685",
+              "rank": "normal"
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "f133efd3d602bfa98305f77adc2978873aeb8dae",
+                "datavalue": {
+                  "value": "Television actors",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q10798782$22908C4E-0772-47EA-8756-7BCCBA62589A",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "40a91ac5de1c0cd044fcc88f2cec772392366be2",
+                  "snaks": {
+                    "P3452": [
+                      {
+                        "snaktype": "value",
+                        "property": "P3452",
+                        "hash": "a508aaf1d6b4fc9b29a49aa5b6e8674e79466b02",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 5479560,
+                            "id": "Q5479560"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P3452"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P244": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P244",
+                "hash": "bcd81df3bb15a3ef15a8bebafbd7cd7b6faadbf6",
+                "datavalue": {
+                  "value": "sh86004470",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10798782$5b1e84a6-4839-3b39-4633-e75f280fedb0",
+              "rank": "normal"
+            }
+          ],
+          "P268": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P268",
+                "hash": "bc3b9b29eca6e9e44779510c2af35cd7877ad1ef",
+                "datavalue": {
+                  "value": "12192030w",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10798782$f6035767-4302-3539-764a-95aaf6a3aef7",
+              "rank": "normal"
+            }
+          ],
+          "P8408": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8408",
+                "hash": "6b288f1a301b72a2f320dd3ef11fbf593566dd89",
+                "datavalue": {
+                  "value": "ActorOnTV",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10798782$C39F17DB-07CC-45E2-B240-8343817311D7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 64139102,
+                            "id": "Q64139102"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-07-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2671": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2671",
+                "hash": "39b297cab42fd3aee553c21bd03d70caad84f614",
+                "datavalue": {
+                  "value": "/g/11gm8_k2ys",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10798782$7245C83A-751D-4D4A-B5C1-69F59723FF0E",
+              "rank": "normal"
+            }
+          ],
+          "P8189": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8189",
+                "hash": "8cb38e1047e73effe1c747d1c3be4ee859841f56",
+                "datavalue": {
+                  "value": "987012440946005171",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P14457": [
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "8c3a0fc4477e3fe71ad7d38fd08bfee40f2f1eae",
+                    "datavalue": {
+                      "value": {
+                        "text": "Television actors and actresses",
+                        "language": "en"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "b2d9584859dd53f3f1f1802ce12c88d12958363d",
+                    "datavalue": {
+                      "value": {
+                        "text": "שחקנים ושחקניות טלוויזיה",
+                        "language": "he"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P14457"
+              ],
+              "id": "Q10798782$75124A34-A785-4048-810B-2DA9DC7A8F56",
+              "rank": "normal"
+            }
+          ],
+          "P425": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P425",
+                "hash": "ee4f795b033fcf8d42d0c05f7f83ba93032e9ed0",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 114247460,
+                    "id": "Q114247460"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q10798782$df5e12f5-46bc-31cf-7f9e-81fc7e20c89d",
+              "rank": "normal"
+            }
+          ],
+          "P2347": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2347",
+                "hash": "c465499b9d9e9d376c64c3d73b52f02928d73f72",
+                "datavalue": {
+                  "value": "28596",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P14457": [
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "7ec1f2fd11d98b313bd06000fb94c84965154907",
+                    "datavalue": {
+                      "value": {
+                        "text": "tv-skådespelare",
+                        "language": "sv"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "fc77432ae5b5b490c45914a0cbcb93710c790799",
+                    "datavalue": {
+                      "value": {
+                        "text": "televisionäyttelijät",
+                        "language": "fi"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "2b7a8d4642214961808f168c4832f2f714317e65",
+                    "datavalue": {
+                      "value": {
+                        "text": "televišuvdnaneavttárat",
+                        "language": "se"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "e28faec172a48c9baaf680d96d99016a44dbb1d5",
+                    "datavalue": {
+                      "value": {
+                        "text": "television actors",
+                        "language": "en"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ],
+                "P14458": [
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "f47d30010e1bd52e2cab67ce5a448b1eb576289c",
+                    "datavalue": {
+                      "value": {
+                        "text": "TV-näyttelijät",
+                        "language": "fi"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "b7557dde8cc0812bfc4053dcaadac4b3d8d66775",
+                    "datavalue": {
+                      "value": {
+                        "text": "teveskådespelare",
+                        "language": "sv"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "98de1d3550201dd5543519c86ea039810dd103a6",
+                    "datavalue": {
+                      "value": {
+                        "text": "televisionskådespelare",
+                        "language": "sv"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "d07b0e508d0662eea9d3eba9e8816bdaecacffe4",
+                    "datavalue": {
+                      "value": {
+                        "text": "televisionsskådespelare",
+                        "language": "sv"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "d29f3283c11030805bab57cfdc0651e782c1a719",
+                    "datavalue": {
+                      "value": {
+                        "text": "TV-skådespelare",
+                        "language": "sv"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P14457",
+                "P14458"
+              ],
+              "id": "Q10798782$B40E9AD9-061F-4A4A-8F39-BB4B4396B2EC",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "f03d5562c00680921cda149fc819ebb304261c61",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 89345680,
+                            "id": "Q89345680"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e3580bd6245b02ddb62b7276262b12f6ae8e22a6",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2024-01-18T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P2521": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "29211197634e4aa821804953af3ed35c4603bada",
+                "datavalue": {
+                  "value": {
+                    "text": "телеактриса",
+                    "language": "ru"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$91a2d974-4362-b87b-7337-5cc09911f4be",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "0b1f7c4a43ee86c2dc9fe42fd6553759edceab5a",
+                "datavalue": {
+                  "value": {
+                    "text": "actrice de télévision",
+                    "language": "fr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$c99761b9-49e8-7b84-9564-dc4562190d09",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "4b76406a605878397505003b4d720fa85b45d17d",
+                "datavalue": {
+                  "value": {
+                    "text": "actriz de televisión",
+                    "language": "es"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$671732e9-446d-6e01-e4d0-ee7c7652b233",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "32c324bae6415ae38b4ae2e69c257ef85cca3f5c",
+                "datavalue": {
+                  "value": {
+                    "text": "aktorka telewizyjna",
+                    "language": "pl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$6911a0d1-4d70-8642-5634-804ea0ba6556",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "e7409792ab9adf6ab0f75d2af40ec17807145fc0",
+                "datavalue": {
+                  "value": {
+                    "text": "Fernsehschauspielerin",
+                    "language": "de"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$5db4c05b-4a2e-b799-e68d-d118a7bdfabc",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "14ddc77de0f0718b619d70c1b9f47d0fb5080a64",
+                "datavalue": {
+                  "value": {
+                    "text": "televizní herečka",
+                    "language": "cs"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$524D4B92-DBB7-4B42-86C2-A0D7FE6C0A56",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "70766b37993ece6bc44a5d3fbadd3c2e2cec0181",
+                "datavalue": {
+                  "value": {
+                    "text": "televisieactrice",
+                    "language": "nl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$DFB68813-8722-4F57-A18D-578AF4745153",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "004c7a0942903d458995815a86f2b75e862f79fd",
+                "datavalue": {
+                  "value": {
+                    "text": "tv-skådespelerska",
+                    "language": "sv"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$262679ff-4676-5d49-42ca-bec5ec29f7e3",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "796ad0e8987185301414aaced2fe5d10ae0acddb",
+                "datavalue": {
+                  "value": {
+                    "text": "television actress",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$3299b674-42bc-51fc-2e52-69cabd8a4a66",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "759e4dfbea21d8a0e4bb03ff394956394ae6db6d",
+                "datavalue": {
+                  "value": {
+                    "text": "attrice televisiva",
+                    "language": "it"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$4ba07c71-4735-dbc4-25f4-434e49f5d7ca",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "f4a76e5a417469a0e3803cf8d4487afd6a2253b9",
+                "datavalue": {
+                  "value": {
+                    "text": "televizijska igralka",
+                    "language": "sl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$98cb5e8e-41bd-ab29-354b-dce7e7227ef9",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "e0533a6cb73cf7af2bfee48bd263e39cd2d3e3df",
+                "datavalue": {
+                  "value": {
+                    "text": "ممثلة تلفزيونية",
+                    "language": "ar"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$a63373e2-427b-7fb7-82cc-1523e8f96038",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "562cc70a7096b2dce4acdd1d1986e6f362a9f935",
+                "datavalue": {
+                  "value": {
+                    "text": "televīzijas aktrise",
+                    "language": "lv"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$8E19BE54-FFFE-4C5D-B85E-67E399F14E4E",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "372453c0a87b68d0523ca373ec36e2a3c030b12c",
+                "datavalue": {
+                  "value": {
+                    "text": "actriu de televisió",
+                    "language": "ca"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$67f586dc-4f16-b21f-bab9-439d049a2223",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "8ea286188cbd40d631345a50ec15dd2178b11611",
+                "datavalue": {
+                  "value": {
+                    "text": "телевизиска глумица",
+                    "language": "mk"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$4f971c40-472f-731d-9ce4-446fc0ccfb6c",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9a7a2385ac29d8b66ffd07731ad379b8a2b793ef",
+                "datavalue": {
+                  "value": {
+                    "text": "televida aktorino",
+                    "language": "eo"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$e1d1faa8-4ff6-bb61-b842-5c2a7adf4f89",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "a85b780690edf07ac05c6f21a6d81799aace2004",
+                "datavalue": {
+                  "value": {
+                    "text": "televízna herečka",
+                    "language": "sk"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$69973f90-4f49-e80f-d48d-1dc3f73cc91b",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "c7e75688ae6067d82361d80db20fc4baabb34f8e",
+                "datavalue": {
+                  "value": {
+                    "text": "actriță de televiziune",
+                    "language": "ro"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$f1a97cd5-4aae-e740-649d-9473ff64a57d",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "8b66ee3e83cf4f55b15c48c7a43f463caebe7bd7",
+                "datavalue": {
+                  "value": {
+                    "text": "שחקנית טלוויזיה",
+                    "language": "he"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$fe176ae1-4dcb-6e3c-7c39-2726939c2c83",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "14890119aa3fb9eac3672ad3835825307fd48b1a",
+                "datavalue": {
+                  "value": {
+                    "text": "টেলিভিশন অভিনেত্রী",
+                    "language": "bn"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$2872ee5b-47f8-fb24-abe6-ca347fd0400e",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "228b3cdcc32f0ceed82f778bf0b3ab5ba809e5e5",
+                "datavalue": {
+                  "value": {
+                    "text": "aktres ti telebision",
+                    "language": "ilo"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$d2a251fc-4033-07a4-2ec6-141e0d200acb",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "b4699a269b8f48e4e16af3e71ec72b74a39772c6",
+                "datavalue": {
+                  "value": {
+                    "text": "телеакторка",
+                    "language": "uk"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$0fd90c82-494d-3335-934d-a9282679cb68",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "1cc8705d09dacd6127a8e8a800033269c17ca739",
+                "datavalue": {
+                  "value": {
+                    "text": "Televisiounsschauspillerin",
+                    "language": "lb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$f9bf0d4d-40a9-c4fd-6c96-34cc2dc2df56",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "be910283ec43ce69c6b642761ca9969cc8771319",
+                "datavalue": {
+                  "value": {
+                    "text": "actriz de televisión",
+                    "language": "gl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$e83eb891-4d9f-c27d-5296-bd7664acbadd",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9ce161f8cae2d3693ebbc8c8dd1b6bdddc5e5eed",
+                "datavalue": {
+                  "value": {
+                    "text": "телевизијска глумица",
+                    "language": "sr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$2ee0d6f6-4fbe-5c83-c3aa-af98e0444568",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9bb76ff9c2066f2ee4351b45f3deae99f098c1bb",
+                "datavalue": {
+                  "value": {
+                    "text": "հեռուստատեսային դերասանուհի",
+                    "language": "hy"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$5920296c-4a60-ab73-5f8e-0ed616eef15c",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9fb9df957f9473fda3ef3a2679e908adaf0c6322",
+                "datavalue": {
+                  "value": {
+                    "text": "actriz de televisión",
+                    "language": "ast"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$e0995f62-41cd-314a-52fc-f33da410a92b",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "3a9008b100580508f47949ded28c304002aa4162",
+                "datavalue": {
+                  "value": {
+                    "text": "Nữ diễn viên truyền hình",
+                    "language": "vi"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$79dd23be-4712-3e23-8d8b-08c526b96998",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "aa2e3991b327654b7ddb811eaf2c613a1b0a15e7",
+                "datavalue": {
+                  "value": {
+                    "text": "televiziya aktrisası",
+                    "language": "az"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$988cc2f9-405a-00af-ddb6-e6f53a226e4e",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "a60f46989e9b507b0e381df9ba415d51fdf9ba88",
+                "datavalue": {
+                  "value": {
+                    "text": "հեռուստատեսային դերասան",
+                    "language": "hyw"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$5ead419b-44be-d5ae-71b1-a4701c45a95e",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9cfa73d0d09a79884fe689e7df3efacba5952f5f",
+                "datavalue": {
+                  "value": {
+                    "text": "televizion aktrisası",
+                    "language": "crh-latn"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$1cd2bdca-4b3d-19f3-12a4-cb975c1c1fa0",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "d62bcef4df296cc6d6ef8bf5ec506152724014f6",
+                "datavalue": {
+                  "value": {
+                    "text": "ҳунарпешаи телевизион",
+                    "language": "tg"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$c61f0e5c-484d-fac7-170f-9c16908bbd91",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "cf47dbd50607ff2670529caed77a854d81cec49a",
+                "datavalue": {
+                  "value": {
+                    "text": "հեռատեսիլի դերասանուհի",
+                    "language": "hyw"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$70d2a563-48e1-68a4-9bb7-934ec88fefd6",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "f046fb6be21d22dbc23510168931396dac5b6b44",
+                "datavalue": {
+                  "value": {
+                    "text": "тэлеактрыса",
+                    "language": "be"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$4364945d-4da5-0b53-985b-058352834844",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "d47b9914c02ae943b7039eedb05f59f21aadebf1",
+                "datavalue": {
+                  "value": {
+                    "text": "atriz de televisão",
+                    "language": "pt-br"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$8cb083fd-4a77-319a-9599-b455ccc7f7d8",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "76dddd4bf7714554700907c1f939bce54242248b",
+                "datavalue": {
+                  "value": {
+                    "text": "lîstikvana televîzyonê",
+                    "language": "ku-latn"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$a7d72975-4ca8-a7c6-ff0c-aafc9b91e944",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "2d3e3a5f79890a9413989dbe226fa1e45b956175",
+                "datavalue": {
+                  "value": {
+                    "text": "atriz de televisão",
+                    "language": "pt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$377f7368-4daa-e399-dbc6-5bb31c203ae5",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "fe6fbc11dc9fc5f8f60f49e0c749ac25145b9c82",
+                "datavalue": {
+                  "value": {
+                    "text": "ممثلة تيليڤزيون",
+                    "language": "arz"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$64b1a91e-4a02-080c-b901-008469e07da4",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "664bd78e3b66c0835ce6579b706df602494562e4",
+                "datavalue": {
+                  "value": {
+                    "text": "atrís de televisión",
+                    "language": "ext"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$77e1b63e-4143-76ea-ddde-835d882fa291",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "904feca67d1e4220bfa071d40dc878c2e2360a83",
+                "datavalue": {
+                  "value": {
+                    "text": "aktourez skinwel",
+                    "language": "br"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$7fca8e60-49c0-026b-873b-3c6f47b7ad67",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9b7568c6b0f1e38716b816fdb6517cd3be48ec74",
+                "datavalue": {
+                  "value": {
+                    "text": "televizijos aktorė",
+                    "language": "lt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$c060837b-49ed-24db-b1d8-20f028797544",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "c5b4b3fa769db29e8d3670cd6f1ea2dbe89d8bd5",
+                "datavalue": {
+                  "value": {
+                    "text": "ηθοποιός τηλεόρασης",
+                    "language": "el"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$1c2905e3-4c3c-a74c-a271-d80859e00157",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "4d7e83ed4ced404c114c6a453332d53f1ec808df",
+                "datavalue": {
+                  "value": {
+                    "text": "телеактрисæ",
+                    "language": "os"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$81fb4dda-4994-a63d-e29e-7a5ea11d6592",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "ee5c3e8e43e366f9887b59bb015a5f9198ab87ee",
+                "datavalue": {
+                  "value": {
+                    "text": "ممتيلة د التلفازة",
+                    "language": "ary"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$EB2AD4D1-3085-4CE3-8D18-61CB22F52415",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "f55f5a4e5b04414562fa05f8e8644b49fdba7471",
+                "datavalue": {
+                  "value": {
+                    "text": "दूरदर्शन अभिनेत्री",
+                    "language": "mr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$8de1f3fb-4dff-d1f5-dec8-449d461d1f2d",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "cd9da7c8ee78605027c216928871425af4a0f3b5",
+                "datavalue": {
+                  "value": {
+                    "text": "ben-aghteyr çhellveeish",
+                    "language": "gv"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$ea1811d0-4d78-fd35-135f-fd1dd301897e",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "c8d177db2b384c9bce7473fb43556a48ee9ef0f8",
+                "datavalue": {
+                  "value": {
+                    "text": "ٹیلی ویژن اداکارہ",
+                    "language": "ur"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10798782$be09f363-4b76-a139-8ba0-8a71866e1226",
+              "rank": "normal"
+            }
+          ],
+          "P13591": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P13591",
+                "hash": "5c1d21d77ab3a39c645fb04ba25629aa99f323c7",
+                "datavalue": {
+                  "value": "concept/9e462f60-4f73-4259-865a-e66f8a8e2c2f",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10798782$FFBD5FF7-0BC2-43CF-814E-F7F63BA8348E",
+              "rank": "normal"
+            }
+          ],
+          "P13059": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P13059",
+                "hash": "621a8057cf9c00b65b2ff66d735c32de28a3fb70",
+                "datavalue": {
+                  "value": "78589",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10798782$5887ED3C-73D0-45AF-AD9B-E4D4D08A4C04",
+              "rank": "normal"
+            }
+          ],
+          "P13204": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P13204",
+                "hash": "32360b04c76d39346cc70dfdc44bf840870b4a75",
+                "datavalue": {
+                  "value": "c36vk9p2",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10798782$240FA326-E1B1-4759-A0BC-375FDB3DDA17",
+              "rank": "normal"
+            }
+          ],
+          "P13772": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P13772",
+                "hash": "e5ed56ce8d0eb7b2e7f876ea5e69100cbea07d61",
+                "datavalue": {
+                  "value": "television-actors-and-actresses",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10798782$C5D4A6F9-1CB9-48A5-BEE9-67560BCD804E",
+              "rank": "normal"
+            }
+          ],
+          "P12861": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P12861",
+                "hash": "0ddd2508d7cdadac3f8765ff2d1581e03fb93ece",
+                "datavalue": {
+                  "value": {
+                    "id": "E534",
+                    "entity-type": "entity-schema"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "entity-schema"
+              },
+              "type": "statement",
+              "id": "Q10798782$4e33777f-4068-536f-cd75-d525e13c528f",
+              "rank": "normal"
+            }
+          ]
+        }
+      }
+    },
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:31:09.084884+00:00"
+}

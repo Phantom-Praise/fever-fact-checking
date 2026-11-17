@@ -1,0 +1,70 @@
+{
+  "id": 141957,
+  "claim": "The Chainsmokers has yet to have a top 5 single.",
+  "condition": "five_sentence_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.036380328238010406,
+    0.9635397791862488,
+    7.99151457613334e-05
+  ],
+  "logits": [
+    0.43573054671287537,
+    3.7123160362243652,
+    -5.685088157653809
+  ],
+  "inference_seconds": 0.05878133300000066,
+  "evidence_text": "The Single Top 100 is a Dutch chart , based on official physical single sales , legal downloads and since July 2013 streaming and composed by MegaCharts . In Dutch TV programmes the Single Top 100 is often cited , although it has not been broadcast since December 2006 . The EDM-pop duo achieved a breakthrough with their 2014 song '' #Selfie '' , which was a top twenty single in several countries . Their debut EP , Bouquet was released in October 2015 and featured the single `` Roses '' , which reached the top 10 on the US Billboard Hot 100 . `` Do n't Let Me Down '' became their first top 5 single there and won the Grammy Award for Best Dance Recording at the 59th awards ceremony , while `` Closer '' became their first number-one single on the chart .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 176,
+    "tokens_retained": 176,
+    "truncated": false,
+    "evidence_tokens_total": 159,
+    "evidence_tokens_retained": 159,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Single_Top_100",
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Single_Top_100",
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "The_Chainsmokers",
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "The_Chainsmokers",
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "The_Chainsmokers",
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>The Chainsmokers has yet to have a top 5 single.</s></s>The Single Top 100 is a Dutch chart , based on official physical single sales , legal downloads and since July 2013 streaming and composed by MegaCharts . In Dutch TV programmes the Single Top 100 is often cited , although it has not been broadcast since December 2006 . The EDM-pop duo achieved a breakthrough with their 2014 song '' #Selfie '' , which was a top twenty single in several countries . Their debut EP , Bouquet was released in October 2015 and featured the single `` Roses '' , which reached the top 10 on the US Billboard Hot 100 . `` Do n't Let Me Down '' became their first top 5 single there and won the Grammy Award for Best Dance Recording at the 59th awards ceremony , while `` Closer '' became their first number-one single on the chart .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

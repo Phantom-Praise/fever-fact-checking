@@ -1,0 +1,62 @@
+{
+  "id": 16200,
+  "claim": "Sunny Leone was a TV anchor.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.34095683693885803,
+    0.6586867570877075,
+    0.0003563394711818546
+  ],
+  "logits": [
+    1.6613751649856567,
+    2.3198673725128174,
+    -5.202252388000488
+  ],
+  "evidence": [
+    {
+      "page_id": "Sunny_Leone",
+      "sentence_id": 0,
+      "text": "Karenjit Kaur Vohra -LRB- born May 13 , 1981 -RRB- , known by her stage name Sunny Leone -LRB- pronounced -LSB- ˈsənē lēˈōn ' ē -RSB- -RRB- , is an actress and model , currently active in Indian film industry .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Sunny_Leone",
+      "sentence_id": 19,
+      "text": "Since 2011 , Leone has been married to Musician Daniel Weber .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Anchor",
+      "sentence_id": 0,
+      "text": "An anchor is a device , normally made of metal , used to connect a vessel to the bed of a body of water to prevent the craft from drifting due to wind or current .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Anchor",
+      "sentence_id": 9,
+      "text": "A sea anchor is a drogue , not in contact with the seabed , used to control a drifting vessel .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Sunny",
+      "sentence_id": 0,
+      "text": "Sunny may refer to :",
+      "score": 1.0333333333333334
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 165,
+    "tokens_retained": 165,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Sunny Leone was a TV anchor.</s></s>Karenjit Kaur Vohra -LRB- born May 13 , 1981 -RRB- , known by her stage name Sunny Leone -LRB- pronounced -LSB- ˈsənē lēˈōn ' ē -RSB- -RRB- , is an actress and model , currently active in Indian film industry . Since 2011 , Leone has been married to Musician Daniel Weber . An anchor is a device , normally made of metal , used to connect a vessel to the bed of a body of water to prevent the craft from drifting due to wind or current . A sea anchor is a drogue , not in contact with the seabed , used to control a drifting vessel . Sunny may refer to :</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.10332629100000013
+}

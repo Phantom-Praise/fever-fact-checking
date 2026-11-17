@@ -1,0 +1,116 @@
+{
+  "id": 126891,
+  "claim": "Machete appears in a film.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0565732919999995,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.9194653630256653,
+        0.010335376486182213,
+        0.07019923627376556
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.12767837499999857,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Machete_-LRB-film-RRB-",
+          "sentence_id": 0,
+          "text": "Machete is a 2010 American action film written , produced , and directed by Robert Rodriguez and Ethan Maniquis .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Juan_Machete",
+          "sentence_id": 5,
+          "text": "He appears at night to lone wanderers obsessed for money looking for him , and if they can support three hits from his machete on the naked body , they will find the buried fortune Juan Machete buried , but no one could ever withstand his three hits .",
+          "score": 2.0166666666666666
+        },
+        {
+          "page_id": "Machete_Kills",
+          "sentence_id": 0,
+          "text": "Machete Kills is a 2013 American action-comedy film written and directed by Robert Rodriguez .",
+          "score": 2.011111111111111
+        },
+        {
+          "page_id": "Machete_Kills",
+          "sentence_id": 1,
+          "text": "It is a sequel to Machete , and the third film based on a Grindhouse fake trailer .",
+          "score": 2.011111111111111
+        },
+        {
+          "page_id": "Appears",
+          "sentence_id": 0,
+          "text": "`` Appears '' is a song recorded by Japanese recording artist Ayumi Hamasaki .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.9930127263069153,
+        0.00681579252704978,
+        0.00017156737158074975
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.1250279999999968,
+      "symbolic": {
+        "claim": "Machete appears in a film.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2708999999944126e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Machete_-LRB-film-RRB-",
+          "sentence_id": 0,
+          "text": "Machete is a 2010 American action film written , produced , and directed by Robert Rodriguez and Ethan Maniquis .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Juan_Machete",
+          "sentence_id": 5,
+          "text": "He appears at night to lone wanderers obsessed for money looking for him , and if they can support three hits from his machete on the naked body , they will find the buried fortune Juan Machete buried , but no one could ever withstand his three hits .",
+          "score": 2.0166666666666666
+        },
+        {
+          "page_id": "Machete_Kills",
+          "sentence_id": 0,
+          "text": "Machete Kills is a 2013 American action-comedy film written and directed by Robert Rodriguez .",
+          "score": 2.011111111111111
+        },
+        {
+          "page_id": "Machete_Kills",
+          "sentence_id": 1,
+          "text": "It is a sequel to Machete , and the third film based on a Grindhouse fake trailer .",
+          "score": 2.011111111111111
+        },
+        {
+          "page_id": "Appears",
+          "sentence_id": 0,
+          "text": "`` Appears '' is a song recorded by Japanese recording artist Ayumi Hamasaki .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.9930127263069153,
+        0.00681579252704978,
+        0.00017156737158074975
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

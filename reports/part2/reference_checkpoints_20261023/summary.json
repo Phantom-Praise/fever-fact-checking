@@ -1,0 +1,134 @@
+{
+  "conditions": [
+    {
+      "scope": "first100",
+      "condition": "unweighted_reference",
+      "checkpoint": "checkpoints/roberta_epoch_1",
+      "n": 100,
+      "accuracy": 0.47,
+      "macro_f1": 0.21315192743764175,
+      "confusion_matrix": [
+        [
+          47,
+          0,
+          0
+        ],
+        [
+          24,
+          0,
+          0
+        ],
+        [
+          29,
+          0,
+          0
+        ]
+      ],
+      "macro_precision": 0.15666666666666665,
+      "macro_recall": 0.3333333333333333,
+      "inference_seconds": 6.140683541
+    },
+    {
+      "scope": "first100",
+      "condition": "weighted_reference_epoch2",
+      "checkpoint": "checkpoints/roberta_weighted/epoch_2",
+      "n": 100,
+      "accuracy": 0.6,
+      "macro_f1": 0.5766022198353026,
+      "confusion_matrix": [
+        [
+          32,
+          9,
+          6
+        ],
+        [
+          4,
+          17,
+          3
+        ],
+        [
+          12,
+          6,
+          11
+        ]
+      ],
+      "macro_precision": 0.5826388888888888,
+      "macro_recall": 0.5894982473302356,
+      "inference_seconds": 5.78763225
+    },
+    {
+      "scope": "extension100",
+      "condition": "unweighted_reference",
+      "checkpoint": "checkpoints/roberta_epoch_1",
+      "n": 100,
+      "accuracy": 0.57,
+      "macro_f1": 0.24203821656050953,
+      "confusion_matrix": [
+        [
+          57,
+          0,
+          0
+        ],
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          33,
+          0,
+          0
+        ]
+      ],
+      "macro_precision": 0.18999999999999997,
+      "macro_recall": 0.3333333333333333,
+      "inference_seconds": 5.601964834
+    },
+    {
+      "scope": "extension100",
+      "condition": "weighted_reference_epoch2",
+      "checkpoint": "checkpoints/roberta_weighted/epoch_2",
+      "n": 100,
+      "accuracy": 0.66,
+      "macro_f1": 0.5851370851370851,
+      "confusion_matrix": [
+        [
+          44,
+          8,
+          5
+        ],
+        [
+          1,
+          7,
+          2
+        ],
+        [
+          10,
+          8,
+          15
+        ]
+      ],
+      "macro_precision": 0.5953886693017129,
+      "macro_recall": 0.6421584263689527,
+      "inference_seconds": 5.334144708
+    }
+  ],
+  "device": "cpu",
+  "seed": 42,
+  "batch_size": 8,
+  "max_length": 256,
+  "input_sha256": {
+    "data/processed/retrieved/validation_first_100_top5_title_fast.jsonl": "53f48709f6670c33f036c6bb4f1f1b1bb378d199a5f0aa55d179ab639d6edd18",
+    "reports/part2/validation_extension_20261023_complete/retrieved_top10.jsonl": "e671def4f2c262a4cc803e2f2cd54e73adad889a46b4c6c4938a525c0a4cbce5",
+    "/Users/praiseben/fever-fact-checking/src/evaluate_reference_checkpoints.py": "70f2f5999dfd79b65b62c9f253b3be54e030814be70af824daae9a1708e08d0f"
+  },
+  "checkpoint_config_sha256": {
+    "checkpoints/roberta_epoch_1": "955a6754c6b0a3b96ed3d47625843b0cfeba497959656833da0ff760474cb865",
+    "checkpoints/roberta_weighted/epoch_2": "6e879816747faab2f1f1577d7c3e687d7481691a9c4277ee93fbf56ca29f5686"
+  },
+  "limitations": [
+    "Frozen inference, not retraining or independent seeds.",
+    "Validation development samples; not final testing.",
+    "Historical training samples/configurations differ, so these comparisons are descriptive."
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "id": 87300,
+  "claim": "Don Henley has released a live DVD.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9563525319099426,
+    0.043167173862457275,
+    0.0004803055489901453
+  ],
+  "logits": [
+    3.2574658393859863,
+    0.15941941738128662,
+    -4.338993549346924
+  ],
+  "inference_seconds": 0.10703362499999969,
+  "evidence_text": "Studio albums Title | Details | Certification Inside Job Live | Released: 2001 | ARIA: Gold — | — | — | — | | Inside Out 2002 | \"It's So Easy\" | Sheryl Crow | — | — | — | — | — | — | — | — | — | | C'mon, C'mon 2007 | \"Calling Me\" | Kenny Rogers | — | — | — | 53 | — | — | — | — | — | | Water & Bridges 2012 | \"More Life\" | Randy Travis | — | — | — | — | — | — | — | — | — | | Anniversary Celebration \"—\" denotes releases that did not chart Inside Job (2000) On July 18, 2015, Henley began pre-orders of his fifth solo studio album, Cass County. The album was released on September 25. The End of the Innocence (1989) In 2000, after 11 years, Henley released his fourth solo studio album Inside Job which peaked at number 7 on the Billboard 200 and contained the new singles \"Taking You Home\", \"Everything Is Different Now\", \"Workin' It\" and \"For My Wedding\". He performed songs from the album in a VH1 Storytellers episode during 2000. In 2002 a live DVD entitled Don Henley: Live Inside Job was released. In 2005, Henley opened 10 of Stevie Nicks' concerts on her Two Voices Tour. Year | Video 1982 | \"Johnny Can't Read\" 1984 | \"The Boys of Summer\" 1985 | \"All She Wants to Do Is Dance\" \"Not Enough Love in the World\" 1989 | \"The End of the Innocence\" \"The Last Worthless Evening\" 1990 | \"The Heart of the Matter\" 1995 | \"The Garden of Allah\" 2000 | \"For My Wedding\" \"Taking You Home\" 2001 | \"Everything Is Different Now\" 2015 | \"Take a Picture of This\" \"When I Stop Dreaming\" (feat. Dolly Parton) After the Eagles' 1980 breakup, Henley pursued a solo career and released his debut studio album I Can't Stand Still in 1982. As a solo artist, he has released five studio albums, two compilation albums, and one live DVD. Henley's notable solo tracks include \"Dirty Laundry\", \"The Boys of Summer\", \"All She Wants to Do Is Dance\", \"Not Enough Love in the World\", \"Sunset Grill\", \"New York Minute\", \"The End of the Innocence\", \"The Last Worthless Evening\", \"The Heart of the Matter\", and \"Taking You Home\". In a fundraiser hosted by actor Matthew McConaughey to raise money for Texans affected by the snowstorms in February 2021, Henley performed \"Snow\", which was written by Jesse Winchester. The show premiered on March 21, 2021. Henley remarked \"On that bitter cold Tuesday of February 16th, we had a busted pipe at the attic at my house, and me and my family were shoveling and bailing for 8 or 9 hours there. Nothing, of course, compared to the shoveling and bailing that's been going on down in the state capitol the past three weeks.\" In a 2007 interview with CNN, while discussing the future of the Eagles, Henley indicated he still has plans for more records: \"But we all have some solo plans still. I still have a contract with a major label [Warner] for a couple of solo albums.\" In January 2011, Henley commenced work on a solo studio album of country covers featuring special guests. Ronnie Dunn of Brooks & Dunn and Alison Krauss recorded a song with Henley for the album. Year | Single | Peak chart positions | Album US | US Main | US AC | US Adult | US Country | CAN AC 2000 | \"Workin' It\" [US promo] | — | 21 | — | — | — | — | Inside Job \"Taking You Home\" | 58 | — | 1 | 12 | — | 1 \"Everything Is Different Now\" [US promo] | — | — | 21 | — | — | — \"For My Wedding\" [airplay] | — | — | — | — | 61 | — 2015 | \"Take a Picture of This\" | — | — | 14 | — | — | — | Cass County \"—\" denotes releases that did not chart —\" denotes releases that did not chart In 1995, Henley released the single \"The Garden of Allah\" to promote his solo greatest hits compilation album Actual Miles: Henley's Greatest Hits. I Can't Stand Still (1982) Don Henley discography Henley performing with the Eagles in 2008 Studio albums | 5 Compilation albums | 2 Singles | 27 Guest singles | 7 In February 2024, ahead of another criminal trial in New York over the alleged theft of Henley's original handwritten lyrics for many of the Eagles' hits, Judge Curtis Farber sided with attorneys for the two young female defendants arrested for prostitution and drug use. The attorneys had sought to introduce a letter Henley wrote to a Santa Monica probation officer giving his account of the events leading up to Henley's arrest. | — | — | — | — | — | — | — | \"If Dirt Were Dollars\" [airplay] | — | 8 | — | — | — | — | — | — | — | \"—\" denotes releases that did not chart",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1120,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1107,
+    "evidence_tokens_retained": 499,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 339989,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 25657840,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 25657840,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 25657840,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 25657840,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 25657840,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 25657840,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 25657840,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 339989,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 339989,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 339989,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 339989,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 339989,
+        "tokens_total": 54,
+        "tokens_kept": 54,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 339989,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 339989,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 339989,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 25657840,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 25657840,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 25657840,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 25657840,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 25657840,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 25657840,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 25657840,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 25657840,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 25657840,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 25657840,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 25657840,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 25657840,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 25657840,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 25657840,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 25657840,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 339989,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 339989,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 339989,
+        "tokens_total": 77,
+        "tokens_kept": 40,
+        "visibility": "partial"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 339989,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 339989,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 339989,
+        "tokens_total": 44,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 339989,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 339989,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 339989,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 339989,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 25657840,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 25657840,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 25657840,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 25657840,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 25657840,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 25657840,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 25657840,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 25657840,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 25657840,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 339989,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 339989,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 25657840,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 25657840,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 25657840,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 25657840,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 25657840,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 25657840,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 339989,
+        "tokens_total": 51,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 60,
+        "id": "E60",
+        "page_id": 339989,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 61,
+        "id": "E61",
+        "page_id": 25657840,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 62,
+        "id": "E62",
+        "page_id": 25657840,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 63,
+        "id": "E63",
+        "page_id": 25657840,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Don Henley has released a live DVD.</s></s>Studio albums Title | Details | Certification Inside Job Live | Released: 2001 | ARIA: Gold — | — | — | — | | Inside Out 2002 | \"It's So Easy\" | Sheryl Crow | — | — | — | — | — | — | — | — | — | | C'mon, C'mon 2007 | \"Calling Me\" | Kenny Rogers | — | — | — | 53 | — | — | — | — | — | | Water & Bridges 2012 | \"More Life\" | Randy Travis | — | — | — | — | — | — | — | — | — | | Anniversary Celebration \"—\" denotes releases that did not chart Inside Job (2000) On July 18, 2015, Henley began pre-orders of his fifth solo studio album, Cass County. The album was released on September 25. The End of the Innocence (1989) In 2000, after 11 years, Henley released his fourth solo studio album Inside Job which peaked at number 7 on the Billboard 200 and contained the new singles \"Taking You Home\", \"Everything Is Different Now\", \"Workin' It\" and \"For My Wedding\". He performed songs from the album in a VH1 Storytellers episode during 2000. In 2002 a live DVD entitled Don Henley: Live Inside Job was released. In 2005, Henley opened 10 of Stevie Nicks' concerts on her Two Voices Tour. Year | Video 1982 | \"Johnny Can't Read\" 1984 | \"The Boys of Summer\" 1985 | \"All She Wants to Do Is Dance\" \"Not Enough Love in the World\" 1989 | \"The End of the Innocence\" \"The Last Worthless Evening\" 1990 | \"The Heart of the Matter\" 1995 | \"The Garden of Allah\" 2000 | \"For My Wedding\" \"Taking You Home\" 2001 | \"Everything Is Different Now\" 2015 | \"Take a Picture of This\" \"When I Stop Dreaming\" (feat. Dolly Parton) After the Eagles' 1980 breakup, Henley pursued a solo career and released his debut studio album I Can't Stand Still in 1982. As a solo artist, he has released five studio albums, two compilation albums, and one live DVD. Henley's notable solo tracks include \"Dirty Laundry\", \"The Boys of Summer\", \"All She Wants to Do Is Dance\", \"Not Enough Love in the World\", \"Sun</s>"
+  }
+}

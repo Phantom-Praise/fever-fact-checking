@@ -1,0 +1,13 @@
+{
+  "n": 60,
+  "comparison": "saved RAG Llama vs saved RAG RoBERTa 256; exploratory",
+  "accuracy_difference": 0.1,
+  "fixed": 15,
+  "introduced": 9,
+  "bootstrap_seed": 42,
+  "bootstrap_repetitions": 10000,
+  "paired_percentile_95_interval": [
+    -0.06666666666666667,
+    0.25
+  ]
+}

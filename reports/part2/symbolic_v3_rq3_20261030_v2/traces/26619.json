@@ -1,0 +1,116 @@
+{
+  "id": 26619,
+  "claim": "Natalie Portman won the Academy Award for Best Actress.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.11201008299999948,
+      "symbolic": {
+        "claim": "Natalie Portman won the Academy Award for Best Actress.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3042000000851317e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Natalie_Portman",
+          "sentence_id": 11,
+          "text": "Portman won a Golden Globe and was nominated for an Academy Award for starring in the 2004 drama Closer , appeared in Star Wars : Episode III -- Revenge of the Sith the following year , and won a Constellation Award for Best Female Performance and the Saturn Award for Best Actress for her starring role in the political thriller V for Vendetta -LRB- 2006 -RRB- .",
+          "score": 6.1
+        },
+        {
+          "page_id": "Natalie_Portman",
+          "sentence_id": 16,
+          "text": "She was nominated for an Academy Award , a BAFTA Award , a Golden Globe Award , a Screen Actors Guild Award and won the BFCA for Best Actress .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Natalie_Portman_filmography",
+          "sentence_id": 13,
+          "text": "In 2010 , Portman 's performance as a mentally tortured ballerina in Darren Aronofsky 's psychological thriller Black Swan garnered her the Academy Award for Best Actress , the Golden Globe Award for Best Actress in a Motion Picture -- Drama , and the BAFTA Award for Best Actress in a Leading Role .",
+          "score": 5.05
+        },
+        {
+          "page_id": "Natalie_Portman",
+          "sentence_id": 14,
+          "text": "Her performance received widespread critical acclaim and she earned her first Academy Award for Best Actress , her second Golden Globe Award , the SAG Award , the BAFTA Award and the BFCA Award in 2011 .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Natalie_Portman_filmography",
+          "sentence_id": 9,
+          "text": "For her role as a stripper in the 2004 romantic drama Closer she received the Golden Globe Award for Best Supporting Actress -- Motion Picture , and a nomination for the Academy Award for Best Supporting Actress .",
+          "score": 4.05
+        }
+      ],
+      "probabilities": [
+        0.9872862696647644,
+        0.012639986351132393,
+        7.383917545666918e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.10182541700000058,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Natalie_Portman",
+          "sentence_id": 11,
+          "text": "Portman won a Golden Globe and was nominated for an Academy Award for starring in the 2004 drama Closer , appeared in Star Wars : Episode III -- Revenge of the Sith the following year , and won a Constellation Award for Best Female Performance and the Saturn Award for Best Actress for her starring role in the political thriller V for Vendetta -LRB- 2006 -RRB- .",
+          "score": 6.1
+        },
+        {
+          "page_id": "Natalie_Portman",
+          "sentence_id": 16,
+          "text": "She was nominated for an Academy Award , a BAFTA Award , a Golden Globe Award , a Screen Actors Guild Award and won the BFCA for Best Actress .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Natalie_Portman_filmography",
+          "sentence_id": 13,
+          "text": "In 2010 , Portman 's performance as a mentally tortured ballerina in Darren Aronofsky 's psychological thriller Black Swan garnered her the Academy Award for Best Actress , the Golden Globe Award for Best Actress in a Motion Picture -- Drama , and the BAFTA Award for Best Actress in a Leading Role .",
+          "score": 5.05
+        },
+        {
+          "page_id": "Natalie_Portman",
+          "sentence_id": 14,
+          "text": "Her performance received widespread critical acclaim and she earned her first Academy Award for Best Actress , her second Golden Globe Award , the SAG Award , the BAFTA Award and the BFCA Award in 2011 .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Natalie_Portman_filmography",
+          "sentence_id": 9,
+          "text": "For her role as a stripper in the 2004 romantic drama Closer she received the Golden Globe Award for Best Supporting Actress -- Motion Picture , and a nomination for the Academy Award for Best Supporting Actress .",
+          "score": 4.05
+        }
+      ],
+      "probabilities": [
+        0.9872862696647644,
+        0.012639986351132393,
+        7.383917545666918e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06614229200000032,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5685974359512329,
+        0.08274324983358383,
+        0.3486592769622803
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

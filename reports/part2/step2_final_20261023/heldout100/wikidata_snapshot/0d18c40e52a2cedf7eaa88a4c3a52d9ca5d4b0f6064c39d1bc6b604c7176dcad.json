@@ -1,0 +1,142 @@
+{
+  "params": {
+    "action": "wbsearchentities",
+    "search": "Halle Berry",
+    "language": "en",
+    "limit": 5
+  },
+  "response": {
+    "searchinfo": {
+      "search": "Halle Berry"
+    },
+    "search": [
+      {
+        "id": "Q1033016",
+        "title": "Q1033016",
+        "pageid": 982289,
+        "concepturi": "http://www.wikidata.org/entity/Q1033016",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q1033016",
+        "display": {
+          "label": {
+            "value": "Halle Berry",
+            "language": "en"
+          },
+          "description": {
+            "value": "American actress (born 1966)",
+            "language": "en"
+          }
+        },
+        "label": "Halle Berry",
+        "description": "American actress (born 1966)",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Halle Berry"
+        }
+      },
+      {
+        "id": "Q5642822",
+        "title": "Q5642822",
+        "pageid": 5403907,
+        "concepturi": "http://www.wikidata.org/entity/Q5642822",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q5642822",
+        "display": {
+          "label": {
+            "value": "Halle Berry (She's Fine)",
+            "language": "en"
+          },
+          "description": {
+            "value": "2009 single by Hurricane Chris",
+            "language": "en"
+          }
+        },
+        "label": "Halle Berry (She's Fine)",
+        "description": "2009 single by Hurricane Chris",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Halle Berry (She's Fine)"
+        }
+      },
+      {
+        "id": "Q110036512",
+        "title": "Q110036512",
+        "pageid": 105127948,
+        "concepturi": "http://www.wikidata.org/entity/Q110036512",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q110036512",
+        "display": {
+          "label": {
+            "value": "Halle Berry/Britney Spears",
+            "language": "en"
+          },
+          "description": {
+            "value": "episode of Saturday Night Live (S29 E3)",
+            "language": "en"
+          }
+        },
+        "label": "Halle Berry/Britney Spears",
+        "description": "episode of Saturday Night Live (S29 E3)",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Halle Berry/Britney Spears"
+        }
+      },
+      {
+        "id": "Q61056353",
+        "title": "Q61056353",
+        "pageid": 60909086,
+        "concepturi": "http://www.wikidata.org/entity/Q61056353",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q61056353",
+        "display": {
+          "label": {
+            "value": "Halle Berry filmography",
+            "language": "en"
+          },
+          "description": {
+            "value": "filmography",
+            "language": "en"
+          }
+        },
+        "label": "Halle Berry filmography",
+        "description": "filmography",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Halle Berry filmography"
+        }
+      },
+      {
+        "id": "Q110058735",
+        "title": "Q110058735",
+        "pageid": 105148218,
+        "concepturi": "http://www.wikidata.org/entity/Q110058735",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q110058735",
+        "display": {
+          "label": {
+            "value": "Halle Berry Monologue",
+            "language": "en"
+          },
+          "description": {
+            "value": "sketch from Saturday Night Live",
+            "language": "en"
+          }
+        },
+        "label": "Halle Berry Monologue",
+        "description": "sketch from Saturday Night Live",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "Halle Berry Monologue"
+        }
+      }
+    ],
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T18:31:03.851171+00:00"
+}

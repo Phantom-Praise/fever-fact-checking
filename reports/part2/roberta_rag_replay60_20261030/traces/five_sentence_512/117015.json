@@ -1,0 +1,69 @@
+{
+  "id": 117015,
+  "claim": "Robert Redford is a performer.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9922584891319275,
+    0.007595389150083065,
+    0.00014607093180529773
+  ],
+  "logits": [
+    4.208266258239746,
+    -0.6641762256622314,
+    -4.615379810333252
+  ],
+  "inference_seconds": 0.11150620799999977,
+  "evidence_text": "Charles Robert Redford Jr. -LRB- born August 18 , 1936 -RRB- is an American actor , director , producer , businessman , environmentalist , and philanthropist . The filmography of actor , director and producer Robert Redford : Redford is the founder of the Sundance Film Festival . Redford 's career began in 1960 as a guest star on numerous TV shows , including : The Untouchables , Perry Mason , Alfred Hitchcock Presents , and The Twilight Zone , among others . Redford made his film debut in War Hunt -LRB- 1962 -RRB- .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 131,
+    "tokens_retained": 131,
+    "truncated": false,
+    "evidence_tokens_total": 120,
+    "evidence_tokens_retained": 120,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Robert_Redford",
+        "tokens_total": 37,
+        "tokens_kept": 37,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Robert_Redford_filmography",
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Robert_Redford",
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Robert_Redford",
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Robert_Redford",
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Robert Redford is a performer.</s></s>Charles Robert Redford Jr. -LRB- born August 18 , 1936 -RRB- is an American actor , director , producer , businessman , environmentalist , and philanthropist . The filmography of actor , director and producer Robert Redford : Redford is the founder of the Sundance Film Festival . Redford 's career began in 1960 as a guest star on numerous TV shows , including : The Untouchables , Perry Mason , Alfred Hitchcock Presents , and The Twilight Zone , among others . Redford made his film debut in War Hunt -LRB- 1962 -RRB- .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

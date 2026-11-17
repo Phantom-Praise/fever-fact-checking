@@ -1,0 +1,22 @@
+{
+  "train_full": {
+    "n": 116356,
+    "class_counts": {
+      "SUPPORTS": 63986,
+      "REFUTES": 23853,
+      "NOT ENOUGH INFO": 28517
+    },
+    "empty_retrieval": 0
+  },
+  "validation_full": {
+    "n": 14534,
+    "class_counts": {
+      "SUPPORTS": 7964,
+      "NOT ENOUGH INFO": 3591,
+      "REFUTES": 2979
+    },
+    "empty_retrieval": 0
+  },
+  "normalized_partition_overlap": 0,
+  "archive_verified": true
+}

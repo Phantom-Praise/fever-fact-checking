@@ -1,0 +1,69 @@
+{
+  "id": 46860,
+  "claim": "Three Days of the Condor is a 1975 spy novel.",
+  "condition": "five_sentence_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.11839012056589127,
+    0.8814879655838013,
+    0.00012188000255264342
+  ],
+  "logits": [
+    1.1406382322311401,
+    3.1482644081115723,
+    -5.738065719604492
+  ],
+  "inference_seconds": 0.10908408399999914,
+  "evidence_text": "Three Days of the Condor -LRB- stylized on the poster art as 3 Days of the Condor -RRB- is a 1975 American political thriller film directed by Sydney Pollack and starring Robert Redford , Faye Dunaway , Cliff Robertson , and Max von Sydow . The story is a suspense drama set in contemporary Washington , D.C. , and is considerably different from the 1975 film version , Three Days of the Condor . The screenplay by Lorenzo Semple Jr. and David Rayfiel was adapted from the 1974 novel Six Days of the Condor by James Grady . Six Days of the Condor is a thriller novel by American author James Grady , first published in 1974 by W.W. Norton . Three Days or 3 Days may refer to :",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 175,
+    "tokens_retained": 175,
+    "truncated": false,
+    "evidence_tokens_total": 159,
+    "evidence_tokens_retained": 159,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Three_Days_of_the_Condor",
+        "tokens_total": 59,
+        "tokens_kept": 59,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Six_Days_of_the_Condor",
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Three_Days_of_the_Condor",
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Six_Days_of_the_Condor",
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Three_Days",
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Three Days of the Condor is a 1975 spy novel.</s></s>Three Days of the Condor -LRB- stylized on the poster art as 3 Days of the Condor -RRB- is a 1975 American political thriller film directed by Sydney Pollack and starring Robert Redford , Faye Dunaway , Cliff Robertson , and Max von Sydow . The story is a suspense drama set in contemporary Washington , D.C. , and is considerably different from the 1975 film version , Three Days of the Condor . The screenplay by Lorenzo Semple Jr. and David Rayfiel was adapted from the 1974 novel Six Days of the Condor by James Grady . Six Days of the Condor is a thriller novel by American author James Grady , first published in 1974 by W.W. Norton . Three Days or 3 Days may refer to :</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

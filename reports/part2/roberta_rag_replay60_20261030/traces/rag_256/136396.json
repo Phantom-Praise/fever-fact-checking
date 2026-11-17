@@ -1,0 +1,373 @@
+{
+  "id": 136396,
+  "claim": "The Eagles are a band who sang Hotel California.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9260962009429932,
+    0.07253934442996979,
+    0.0013644372811540961
+  ],
+  "logits": [
+    2.7961361408233643,
+    0.24928723275661469,
+    -3.724099636077881
+  ],
+  "inference_seconds": 0.05691862499999978,
+  "evidence_text": "Eagles Hotel California is the fifth studio album by the American rock band the Eagles, released on December 8, 1976, by Asylum Records. Recorded by the band and produced by Bill Szymczyk at the Criteria and Record Plant studios between March and October 1976, it was the band's first album with guitarist Joe Walsh, who had replaced founding member Bernie Leadon, and the last to feature founding bassist/vocalist Randy Meisner. The album cover is a photograph of the Beverly Hills Hotel, taken by David Alexander. \"Hotel California\" is a song by the American rock band Eagles, released as the second single of their 1976 album Hotel California on February 22, 1977. It was written by Don Felder (music), Glenn Frey, and Don Henley (lyrics). It features Henley on lead vocals and concludes with a long electric guitar solo by Felder and Joe Walsh, in which they take turns playing the lead before harmonizing and playing arpeggios. According to Henley in a 1982 interview, the Eagles \"probably peaked on Hotel California\". Henley said: \"After that, we started growing apart as collaborators and as friends.\" In 1998, at the induction of the Eagles into the Rock and Roll Hall of Fame, all seven members of the Eagles (Henley, Frey, Felder, Walsh, Leadon, Randy Meisner, and Timothy B. Schmit) appeared on stage together for the only time to perform \"Hotel California\". \"Hotel California\" is one of the best-known recordings by the Eagles. In 1998, its guitar solo was voted the best all time by readers of Guitarist. It was awarded the Grammy Award for Record of the Year in 1978. Fans and critics have discussed the meaning of the lyrics. The Eagles described the song as their \"interpretation of the high life in Los Angeles\". In the 2013 documentary History of the Eagles, Henley said it was about \"a journey from innocence to experience ... that's all.\" \"Hotel California\" reached number 1 on the Billboard Hot 100 and the top ten of several international charts. The Eagles have performed \"Hotel California\" over a thousand times live, and it is the third-most performed of all their songs, after \"Desperado\" and \"Take It Easy\". The song is rated highly in many rock music lists and polls. Rolling Stone magazine ranked it number 49 on its list of \"The 500 Greatest Songs of All Time\" in 2004 and #311 in 2021. It was named one of The Rock and Roll Hall of Fame's 500 Songs that Shaped Rock and Roll. At the induction of the Eagles into the Rock and Roll Hall of Fame in 1998, all seven former and present members of the band reunited to perform \"Hotel California\" and \"Take It Easy.\" The Eagles recorded the track with Don Henley on lead vocal three times, twice at the Record Plant in Los Angeles and finally at the Criteria Studios in Miami. They first recorded a riff, but when it came to recording the vocal, it was found to be in too high a key for Henley's voice, so Felder progressively lowered the key from E minor, eventually settling on B minor. The second recording, however, was judged too fast. In Miami, the band fine-tuned the instrumentation and the lyrics and recorded numerous complete takes. Five or six best ones were selected, and the best parts were then spliced together to create the released version. According to the producer Bill Szymczyk, there were 33 edits on the two‑inch master. The final section features a guitar battle between Joe Walsh (who had replaced Bernie Leadon after Leadon's departure from the band in 1975) with a Fender Telecaster and Felder with a Gibson Les Paul, which A music video for the song, filmed at the Capital Centre in March 1977, was first aired on the USA Network as part of the Night Flight program in August 1985. This video would continue to air on VH1. In 2013, a re-edited version of the video, as well as other footage from the Capital Centre concerts, was released as part of the History of the Eagles documentary set. Although the Eagles were noted for their reluctance to license their songs for use in shows, the song has been used in a number of films and television shows, such as The Big Lebowski (performed by the Gipsy Kings), Absolutely Fabulous, American Horror Story (Hotel), The Sopranos, and the end credits of Shang-Chi and the Legend of the Ten Rings. The Eagles won the 1977 Grammy Award for Record of the Year for \"Hotel California\" at the 20th Grammy Awards in 1978. Cash Box said that \"the luxuriant harmonies are here, of course, along with muted rhythm guitars and vocal inflections that add a West Indian flavor\" and \"the multi-tracked guitar harmonies ... end the cut with melodrama\". In 2003, the song was inducted into the Grammy Hall of Fame. \"Hotel California\" has been performed at least 3,327 times by 347 different artists as of June 2026. This includes 1,233 performances of the song by Eagles, 359 by Don Felder solo, and 209 by Don Henley solo. \"Hotel California\" has been widely regarded as one of the greatest rock songs of all time, and has been covered by many artists. The filmmaker Julia Phillips proposed adapting it into a film, but the Eagles disliked the idea and it never came to fruition. Production .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1147,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1133,
+    "evidence_tokens_retained": 242,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 189003,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 189003,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 189003,
+        "tokens_total": 63,
+        "tokens_kept": 63,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 189003,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 621527,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 621527,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 621527,
+        "tokens_total": 40,
+        "tokens_kept": 40,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 189003,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 189003,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 621527,
+        "tokens_total": 46,
+        "tokens_kept": 5,
+        "visibility": "partial"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 621527,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 621527,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 621527,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 621527,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 621527,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 621527,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 621527,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 621527,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 621527,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 621527,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 621527,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 621527,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 621527,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 621527,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 621527,
+        "tokens_total": 48,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 621527,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 621527,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 621527,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 621527,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 621527,
+        "tokens_total": 44,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 621527,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 621527,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 621527,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 621527,
+        "tokens_total": 81,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 621527,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 621527,
+        "tokens_total": 52,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 621527,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 621527,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 621527,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 621527,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 621527,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 189003,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 189003,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>The Eagles are a band who sang Hotel California.</s></s>Eagles Hotel California is the fifth studio album by the American rock band the Eagles, released on December 8, 1976, by Asylum Records. Recorded by the band and produced by Bill Szymczyk at the Criteria and Record Plant studios between March and October 1976, it was the band's first album with guitarist Joe Walsh, who had replaced founding member Bernie Leadon, and the last to feature founding bassist/vocalist Randy Meisner. The album cover is a photograph of the Beverly Hills Hotel, taken by David Alexander. \"Hotel California\" is a song by the American rock band Eagles, released as the second single of their 1976 album Hotel California on February 22, 1977. It was written by Don Felder (music), Glenn Frey, and Don Henley (lyrics). It features Henley on lead vocals and concludes with a long electric guitar solo by Felder and Joe Walsh, in which they take turns playing the lead before harmonizing and playing arpeggios. According to Henley in a 1982 interview, the Eagles \"probably peaked on Hotel California\". Henley said: \"After that, we started growing apart as collaborators and as friends.\" In 1998, at the</s>"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "Every evidence-manifest SHA256 matches the preserved source artifact",
+    "Main local metrics exactly reproduce the official benchmark summaries",
+    "Published development rows match the verified KGAT Table 2 values",
+    "Five explicit hypothesis verdicts retain negative/inconclusive findings",
+    "Retrospective adoption and the unanswered original question are disclosed",
+    "Derived 120-claim neural strict reference checked",
+    "Six case examples preserve evidence and explanation limits",
+    "HTML parsed and submission ZIP integrity/path checks passed"
+  ]
+}

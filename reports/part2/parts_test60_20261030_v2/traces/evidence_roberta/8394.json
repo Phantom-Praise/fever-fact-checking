@@ -1,0 +1,62 @@
+{
+  "id": 8394,
+  "claim": "De Profundis was written to a poet.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.7412428855895996,
+    0.25824877619743347,
+    0.0005083288415335119
+  ],
+  "logits": [
+    2.379976987838745,
+    1.3255720138549805,
+    -4.904978275299072
+  ],
+  "evidence": [
+    {
+      "page_id": "De_Profundis",
+      "sentence_id": 11,
+      "text": "De Profundis -LRB- letter -RRB- , an 1897 work written by Oscar Wilde during his imprisonment , in the form of a letter to Lord Alfred Douglas",
+      "score": 3.1
+    },
+    {
+      "page_id": "De_Profundis",
+      "sentence_id": 51,
+      "text": "`` De Profundis '' , a short story by Arthur Conan Doyle written in 1892",
+      "score": 3.1
+    },
+    {
+      "page_id": "De_Profundis_-LRB-letter-RRB-",
+      "sentence_id": 0,
+      "text": "De Profundis -LRB- Latin : `` from the depths '' -RRB- is a letter written by Oscar Wilde during his imprisonment in Reading Gaol , to `` Bosie '' -LRB- Lord Alfred Douglas -RRB- .",
+      "score": 3.02
+    },
+    {
+      "page_id": "De_Profundis",
+      "sentence_id": 0,
+      "text": "De profundis refers to Psalm 130 -LRB- 129 in the Vulgate -RRB- , traditionally known as the De profundis -LRB- `` Out of the depths '' -RRB- from its opening words in Latin .",
+      "score": 2.1
+    },
+    {
+      "page_id": "De_Profundis",
+      "sentence_id": 6,
+      "text": "De profundis -LRB- Pärt -RRB- , a composition by Arvo Pärt for men 's voices , percussion -LRB- ad lib . -RRB-",
+      "score": 2.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 212,
+    "tokens_retained": 212,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>De Profundis was written to a poet.</s></s>De Profundis -LRB- letter -RRB- , an 1897 work written by Oscar Wilde during his imprisonment , in the form of a letter to Lord Alfred Douglas `` De Profundis '' , a short story by Arthur Conan Doyle written in 1892 De Profundis -LRB- Latin : `` from the depths '' -RRB- is a letter written by Oscar Wilde during his imprisonment in Reading Gaol , to `` Bosie '' -LRB- Lord Alfred Douglas -RRB- . De profundis refers to Psalm 130 -LRB- 129 in the Vulgate -RRB- , traditionally known as the De profundis -LRB- `` Out of the depths '' -RRB- from its opening words in Latin . De profundis -LRB- Pärt -RRB- , a composition by Arvo Pärt for men 's voices , percussion -LRB- ad lib . -RRB-</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.15798516699999965
+}

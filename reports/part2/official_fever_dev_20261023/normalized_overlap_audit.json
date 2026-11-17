@@ -1,0 +1,26 @@
+{
+  "note": "Conservative overlap against all original official training claims, not necessarily the sampled training subset. No official evaluation claims are removed.",
+  "rows": [
+    {
+      "official_dev_id": 198218,
+      "claim": "Saturn is a planet in the Solar System.",
+      "original_training_pool_ids": [
+        142165
+      ]
+    },
+    {
+      "official_dev_id": 154383,
+      "claim": "Warren Beatty co-wrote Reds.",
+      "original_training_pool_ids": [
+        216752
+      ]
+    },
+    {
+      "official_dev_id": 36399,
+      "claim": "Floyd Mayweather Jr. is a professional boxer.",
+      "original_training_pool_ids": [
+        57807
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "id": 5941,
+  "claim": "Saif Ali Khan worked in literature.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.5380979180335999,
+    0.4595614969730377,
+    0.0023405670654028654
+  ],
+  "logits": [
+    1.5916922092437744,
+    1.4339244365692139,
+    -3.8459551334381104
+  ],
+  "inference_seconds": 0.05856820800000051,
+  "evidence_text": "\" In an interview with Rajeev Masand, Khan described himself as \"a very private person\". The journalist Roshmila Bhattacharya added, \"Unlike most actors, his interests are not limited to box office collections and workout routines. [He] can converse on anything, from philosophy to politics, from sports to books and music.\" Filmfare wrote that earlier in his career, Khan gained a reputation for being arrogant, but later matured into \"one of showbiz's biggest and most respected stars.\" During his career, he has played roles in both high-profile mainstream productions and lesser-publicised films by independent filmmakers, and he has appeared in a range of film genres, although he has found a niche playing roles in romantic comedies. The Tribune wrote that his roles in Dil Chahta Hai (2001), Kal Ho Naa Ho (2003), Hum Tum (2004), Salaam Namaste (2005), Love After graduating from the boarding school, Khan returned to India and worked for an advertising firm in Delhi for two months. He later appeared in a television commercial for Gwalior Suiting upon the insistence of a family friend, and was subsequently cast by director Anand Mahindroo. The project eventually got cancelled but Khan relocated to Mumbai to pursue a career in film; he recalls, \"Finally I had some direction and focus. I remember [...] feeling so excited that I could go to Mumbai, stay in my own place and enjoy the adventure of starting my own career.\" One of the highest-paid actors in Bollywood, Khan is considered among the most popular and high-profile celebrities in India. He is known to commit heavily to each role and believes in \"staying on a sharp learning curve\". This commitment, combined with his busy schedule and heavy smoking, resulted in a health scare in 2007. Analysing his career, the journalist Shomini Sen noted that \"[t]he actor was part of some major films in the early 1990s [...] yet critics wrote him of[f] due to lack of a screen presence and poor dialogue delivery.\" Critics noted that Dil Chahta Hai marked a major turning point for Khan, and credited him for pioneering a movement in actors being part of \"a new genre of films which was more urban\"; film historian Nasreen Munni Kabir stated that the film helped him find \"his own style, combining great comic timing and a natural personality.\" Sen further explained that \"his anglicized upbringing List of Indian film actors \"Perhaps related is his finesse for playing petulant, arrogant, almost insufferable young men in need of reform, which, this being Bollywood, they can easily achieve through the love of a good woman. Does his real-life golden status—with literature, cinema, cricket and royalty in his lineage—make him exceptionally effective at coming across as spoiled?\" , which initially was a hindrance to his career, became his strongest point.\" Following his portrayal of a variety of character types in Ek Hasina Thi (2004), Parineeta (2005), Being Cyrus and Omkara (both 2006), Khan was noted for his versatility; India Today attributed his roles in these films to the establishment of a new image for leading actors in Bollywood, and The Tribune published that Khan had successfully \"matured, both as an actor of substance and as a bankable star\". Speaking about his childhood, Khan said that he was exposed to a \"life beyond movies\", and his mother described him as someone who was \"not an easy child [...] He was impulsive [and] spontaneous.\" Saif grew up a Muslim. As a child, he recalls fond memories of watching his father playing cricket in the garden and has emphasized that his father's education and background had a lasting impression on how family life was conducted. Khan studied at The Lawrence School, Sanawar in Himachal Pradesh, and was later sent to Lockers Park School in Hertfordshire at the age of nine. He next enrolled at Winchester College and explained that \"I did not take advantage of my tenure [there]. My classmates went on to Oxford and Cambridge, but I was not academically inclined. When I applied myself, which was not often, I stood first. I should have studied harder.\" He has also a family connection with Urdu poet Mirza Ghalib, as both Ghalib and Khan's paternal great-grandfather married daughters of the Nawab of Loharu. Khan's desire to choose films based upon artistic merit rather than commercial appeal led him to feature as the protagonist in the 2019 action-drama Laal Kaptaan. Directed by Navdeep Singh, it is set in the 18th century and tells the story of a sadhu (Khan) who goes on a killing spree with the intention of exacting revenge upon a subedar. Filming in the barren landscape of rural Rajasthan proved physically daunting for Khan, and in preparation for the role he learned sword-fighting and horse-riding, and worked with a dialect coach to speak in a Rajasthani accent. He described it as \"the hardest thing I have done so far\", and considered the opportunity a critical learning experience that helped him personally and professionally; however, it failed at the box office. The Huffington Post praised Khan's decision to choose \"morally ambiguous roles\", but noted that he was \"too wooden, bereft of any allure or mystery. Following appearances in two poorly-received films (Rehnaa Hai Terre Dil Mein (2001) and Na Tum Jaano Na Hum (2002), Khan played a photographer in the second chapter (\"No Smoking\") of Prawaal Raman's anthology ensemble thriller Darna Mana Hai (2003). The film failed to find a wide audience and earned little at the box office.",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1195,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1183,
+    "evidence_tokens_retained": 244,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 1606261,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 1606261,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 1606261,
+        "tokens_total": 133,
+        "tokens_kept": 133,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 1606261,
+        "tokens_total": 38,
+        "tokens_kept": 38,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 1606261,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 1606261,
+        "tokens_total": 33,
+        "tokens_kept": 29,
+        "visibility": "partial"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 1606261,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 1606261,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 1606261,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 1606261,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 1606261,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 1606261,
+        "tokens_total": 129,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 1606261,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 1606261,
+        "tokens_total": 45,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 1606261,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 1606261,
+        "tokens_total": 104,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 1606261,
+        "tokens_total": 49,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 1606261,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 1606261,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 1606261,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 1606261,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 1606261,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 1606261,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 1606261,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 1606261,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 1606261,
+        "tokens_total": 45,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 1606261,
+        "tokens_total": 50,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 1606261,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 1606261,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 1606261,
+        "tokens_total": 63,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 1606261,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Saif Ali Khan worked in literature.</s></s>\" In an interview with Rajeev Masand, Khan described himself as \"a very private person\". The journalist Roshmila Bhattacharya added, \"Unlike most actors, his interests are not limited to box office collections and workout routines. [He] can converse on anything, from philosophy to politics, from sports to books and music.\" Filmfare wrote that earlier in his career, Khan gained a reputation for being arrogant, but later matured into \"one of showbiz's biggest and most respected stars.\" During his career, he has played roles in both high-profile mainstream productions and lesser-publicised films by independent filmmakers, and he has appeared in a range of film genres, although he has found a niche playing roles in romantic comedies. The Tribune wrote that his roles in Dil Chahta Hai (2001), Kal Ho Naa Ho (2003), Hum Tum (2004), Salaam Namaste (2005), Love After graduating from the boarding school, Khan returned to India and worked for an advertising firm in Delhi for two months. He later appeared in a television commercial for Gwalior Suiting upon the insistence of a family friend, and was subsequently cast by director Anand</s>"
+  }
+}

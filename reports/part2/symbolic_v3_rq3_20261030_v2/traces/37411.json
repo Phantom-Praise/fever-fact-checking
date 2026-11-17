@@ -1,0 +1,116 @@
+{
+  "id": 37411,
+  "claim": "Man of Steel began principal photography in West Chicago, Illinois in 2011.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.13976091700000381,
+      "symbolic": {
+        "claim": "Man of Steel began principal photography in West Chicago, Illinois in 2011.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.4542000002393252e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Principal_photography",
+          "sentence_id": 3,
+          "text": "Principal photography is the phase of film production in which the movie is filmed , with actors on set and cameras rolling , as distinct from pre-production and post-production .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Principal_photography",
+          "sentence_id": 6,
+          "text": "Principal photography is nearly always the most expensive phase of film production , due to actor , director , and set crew salaries , as well as the costs of certain shots , props , and on-set special effects .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Principal_photography",
+          "sentence_id": 8,
+          "text": "While it is common for a film to lose its greenlight status during pre-production -- for example , because an important cast member drops out -- it is extremely uncommon for financing to be withdrawn once principal photography has begun .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Principal_photography",
+          "sentence_id": 11,
+          "text": "Feature films usually have insurance in place by the time principal photography begins .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Principal_photography",
+          "sentence_id": 17,
+          "text": "Once a film concludes principal photography , it is said to have wrapped , and a wrap party may be organized to celebrate .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.8102924227714539,
+        0.18913371860980988,
+        0.0005739148473367095
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09696812499999652,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Principal_photography",
+          "sentence_id": 3,
+          "text": "Principal photography is the phase of film production in which the movie is filmed , with actors on set and cameras rolling , as distinct from pre-production and post-production .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Principal_photography",
+          "sentence_id": 6,
+          "text": "Principal photography is nearly always the most expensive phase of film production , due to actor , director , and set crew salaries , as well as the costs of certain shots , props , and on-set special effects .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Principal_photography",
+          "sentence_id": 8,
+          "text": "While it is common for a film to lose its greenlight status during pre-production -- for example , because an important cast member drops out -- it is extremely uncommon for financing to be withdrawn once principal photography has begun .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Principal_photography",
+          "sentence_id": 11,
+          "text": "Feature films usually have insurance in place by the time principal photography begins .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Principal_photography",
+          "sentence_id": 17,
+          "text": "Once a film concludes principal photography , it is said to have wrapped , and a wrap party may be organized to celebrate .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.8102924227714539,
+        0.18913371860980988,
+        0.0005739148473367095
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05566249999999684,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.48364725708961487,
+        0.20788545906543732,
+        0.3084672689437866
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": 97082,
+  "claim": "Stevie Ray Vaughan was voted Best New Talent by readers of Guitar Player in 1997.",
+  "condition": "five_sentence_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.3301401138305664,
+    0.6694737076759338,
+    0.0003861566656269133
+  ],
+  "logits": [
+    1.6020126342773438,
+    2.3089873790740967,
+    -5.149016380310059
+  ],
+  "inference_seconds": 0.059451792000000836,
+  "evidence_text": "In 1983 , readers of Guitar Player voted him Best New Talent and Best Electric Blues Guitar Player . Chris Gill of Guitar World commented : `` Stevie Ray Vaughan 's guitar tone was as dry as a San Antonio summer and as sparkling clean as a Dallas debutante , the product of the natural sound of amps with ample clean headroom . The Stevie Ray Vaughan Stratocaster is the signature model electric guitar of American guitarist Stevie Ray Vaughan , based on his favorite guitar , Number One . Double Trouble , an American blues rock band fronted by Stevie Ray Vaughan , did various live performances throughout the world , including tours in North America , Europe , Australia , New Zealand , and Japan . Stevie Ray Vaughan Memorial is a bronze sculpture of Stevie Ray Vaughan by Ralph Helmick , located at the intersection of Town Lake Hike and Bike Trail -LRB- South Bank at South 1st and Riverside Drive -RRB- in Austin , Texas , in the United States .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 218,
+    "tokens_retained": 218,
+    "truncated": false,
+    "evidence_tokens_total": 196,
+    "evidence_tokens_retained": 196,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Stevie_Ray_Vaughan",
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Stevie_Ray_Vaughan",
+        "tokens_total": 48,
+        "tokens_kept": 48,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Stevie_Ray_Vaughan_Stratocaster",
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Stevie_Ray_Vaughan_live_performances",
+        "tokens_total": 40,
+        "tokens_kept": 40,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Stevie_Ray_Vaughan_Memorial",
+        "tokens_total": 58,
+        "tokens_kept": 58,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Stevie Ray Vaughan was voted Best New Talent by readers of Guitar Player in 1997.</s></s>In 1983 , readers of Guitar Player voted him Best New Talent and Best Electric Blues Guitar Player . Chris Gill of Guitar World commented : `` Stevie Ray Vaughan 's guitar tone was as dry as a San Antonio summer and as sparkling clean as a Dallas debutante , the product of the natural sound of amps with ample clean headroom . The Stevie Ray Vaughan Stratocaster is the signature model electric guitar of American guitarist Stevie Ray Vaughan , based on his favorite guitar , Number One . Double Trouble , an American blues rock band fronted by Stevie Ray Vaughan , did various live performances throughout the world , including tours in North America , Europe , Australia , New Zealand , and Japan . Stevie Ray Vaughan Memorial is a bronze sculpture of Stevie Ray Vaughan by Ralph Helmick , located at the intersection of Town Lake Hike and Bike Trail -LRB- South Bank at South 1st and Riverside Drive -RRB- in Austin , Texas , in the United States .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

@@ -1,0 +1,12 @@
+{
+  "status": "superseded_before_predictions",
+  "total": 60,
+  "completed_pairs": 0,
+  "conditions": {
+    "evidence_roberta": 0,
+    "parts_rag": 0
+  },
+  "updated_utc": "2026-10-30T06:14:55.759035+00:00",
+  "reason": "Native OpenMP crash during model loading; isolate baseline worker. Same sample and model settings preserved.",
+  "replacement": "reports/part2/parts_test60_20261030_v2"
+}

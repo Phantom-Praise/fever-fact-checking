@@ -1,0 +1,405 @@
+{
+  "id": 198277,
+  "claim": "Super Metroid was developed by a company.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.8810204267501831,
+    0.11714702099561691,
+    0.001832475303672254
+  ],
+  "logits": [
+    2.4481382369995117,
+    0.4304872751235962,
+    -3.7272748947143555
+  ],
+  "inference_seconds": 0.056091667000000456,
+  "evidence_text": "Super Metroid was developed by Nintendo R&D1 with a staff of 15 managed by Gunpei Yokoi. It was written and directed by Yoshio Sakamoto, and produced by Makoto Kano. Intelligent Systems, who co-developed the original Metroid with R&D1, handled the programming. The opening was narrated by Dan Owsen, a Nintendo of America employee. platform. Metroid Fusion was developed by Nintendo Research & Development 1 (R&D1), the same team that created the 1994 Super Nintendo game Super Metroid. The gameplay, screen layout, and controls mimic those of Super Metroid, with enhancements. The story is revealed through text and close-ups. It was written and directed by the series designer, Yoshio Sakamoto, and produced by Takehiro Izushi. great from Metroid and Super Metroid. Like the previous two Metroid games, Super Metroid focuses on exploring a sprawling alien world to find power-ups used to reach previously inaccessible areas. New elements include an inventory screen, an automap, and the ability to fire in 8 directions. The development staff from previous Metroid games—including Yoshio Sakamoto, Makoto Kano and Gunpei Yokoi—returned to develop Super Metroid over the course of two years. Several ROM hacks were released by fans, which added new features to the game. Super Metroid: Redesign, created by \"drewseph\" in 2006, features new items, expanded areas and modified physics. In 2011, a Japanese hacker named \"SB\" released, Metroid: Super Zero Mission, which intends to combine elements from Super Metroid and Metroid: Zero Mission. Later hacks, such as Hyper Metroid by \"RealRed\" and Super Junkoid by \"P. Yoshi\", add altered game mechanics, graphics and new stories. Super Metroid was released almost a decade after the original Metroid. Sakamoto said: \"We wanted to wait until a true action game was needed. [...] And also to set the stage for the reappearance of Samus Aran\". It took half a year for Nintendo to approve the project, and two further years to develop. As R&D1 were committed to making another game, Nintendo brought in Intelligent Systems to develop Super Metroid for the 16-bit Super Nintendo Entertainment System (SNES). Development began in late 1991. Released in 1994, Super Metroid drastically expanded the Metroid formula, with numerous new power-ups and a richer story. It received acclaim and is considered one of the best SNES games. It was directed by Yoshio Sakamoto, the character designer for the first Metroid; Sakamoto has directed or produced most of the 2D Metroid games since. The developers' primary goal was to make a \"good action game\". It is the first Metroid game to let Samus fire in all directions while moving. It is among the first open world games with a map feature, which shows the outlines of rooms and indicates important locations and items. The team wanted to create a large map, but found it difficult to organize the amount of graphic data involved, and so broke it into smaller parts. Areas from previous Metroid games were included to create a sense of familiarity. Super Metroid is a 1994 action-adventure game developed by Nintendo and Intelligent Systems and published by Nintendo for the Super Nintendo Entertainment System (SNES). It is the third Metroid game, following the Game Boy game Metroid II: Return of Samus (1991). The player controls bounty hunter Samus Aran, who travels to the planet Zebes to retrieve an infant Metroid creature stolen by the Space Pirate leader Ridley. Super Metroid received acclaim, with praise for its atmosphere, gameplay, music and graphics. It is often cited as one of the greatest video games of all time. The game sold well and shipped 1.42 million copies worldwide by late 2003. Alongside Castlevania: Symphony of the Night, Super Metroid is credited for establishing the Metroidvania genre, inspiring numerous indie games and developers. Super Metroid was followed in 2002 by Metroid Fusion and Metroid Prime. It has been re-released on several Nintendo consoles and services. Pacini said that Retro tried to design the game so that the only difficult parts would be boss battles and players would not be afraid to explore because \"the challenge of the game was finding your way around\". Senior designer Mike Wikan said that the focus on exploration led the team to spend time making the platform jumping \"approachable to the player\", and to ensure the gameplay had \"shooting [as] a very important, though secondary, consideration\". Retro developed the storyline under the supervision of Yoshio Sakamoto, who verified that the ideas were consistent with the earlier games. The developers intended that Kraid, a boss from Metroid and Super Metroid, would appear in Metroid Prime, and designer Gene Kohler modeled and skinned him for that purpose, but he was cut for time reasons. The team considered implementing the Speed Booster power-up from Super Metroid but concluded it would not work well because of the first-person perspective and the limitations imposed by the scale -year-old SNES game\" that was no longer cutting-edge, he was still pleased with it and reiterated his belief that Super Metroid is \"one of the best 2D action adventure games ever produced\". of the environment.",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1072,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1060,
+    "evidence_tokens_retained": 244,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 355914,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 355914,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 355914,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 355914,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 355914,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 356429,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 356429,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 356429,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 356429,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 356429,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 355914,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 355914,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 355914,
+        "tokens_total": 37,
+        "tokens_kept": 31,
+        "visibility": "partial"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 355914,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 355914,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 355914,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 355914,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 355914,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 355914,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 355914,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 355914,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 176480,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 176480,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 176480,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 176480,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 176480,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 355914,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 355914,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 355914,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 355914,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 355914,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 355914,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 355914,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 355914,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 355914,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 355914,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 355914,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 355914,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 355914,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 355914,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 292736,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 292736,
+        "tokens_total": 49,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 292736,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 292736,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 292736,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 355914,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 292736,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Super Metroid was developed by a company.</s></s>Super Metroid was developed by Nintendo R&D1 with a staff of 15 managed by Gunpei Yokoi. It was written and directed by Yoshio Sakamoto, and produced by Makoto Kano. Intelligent Systems, who co-developed the original Metroid with R&D1, handled the programming. The opening was narrated by Dan Owsen, a Nintendo of America employee. platform. Metroid Fusion was developed by Nintendo Research & Development 1 (R&D1), the same team that created the 1994 Super Nintendo game Super Metroid. The gameplay, screen layout, and controls mimic those of Super Metroid, with enhancements. The story is revealed through text and close-ups. It was written and directed by the series designer, Yoshio Sakamoto, and produced by Takehiro Izushi. great from Metroid and Super Metroid. Like the previous two Metroid games, Super Metroid focuses on exploring a sprawling alien world to find power-ups used to reach previously inaccessible areas. New elements include an inventory screen, an automap, and the ability to fire in 8 directions. The development staff from previous Metroid games—including Yoshio Sakamoto, Makoto Kano and Gunpei Yokoi—returned to develop Super Metroid over</s>"
+  }
+}

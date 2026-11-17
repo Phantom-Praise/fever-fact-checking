@@ -1,0 +1,17 @@
+{
+  "model": "retrieved_roberta",
+  "input_limit": 512,
+  "cohort": "120 configuration assessment claims",
+  "n": 120,
+  "accuracy": 0.5416666666666666,
+  "macro_f1": 0.43342853257173947,
+  "strict_correct": 39,
+  "fever_score": 0.325,
+  "method": "Correct label and (NEI or complete annotated evidence group within saved predicted_evidence).",
+  "sources": [
+    "reports/part2/token_budget_20261028/outputs.jsonl",
+    "reports/part2/llm_configurations_20261028/inputs.jsonl",
+    "reports/part2/llm_configurations_20261028/assessment_summary.json"
+  ],
+  "new_inference": false
+}

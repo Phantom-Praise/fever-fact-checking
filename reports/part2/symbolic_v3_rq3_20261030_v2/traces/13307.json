@@ -1,0 +1,116 @@
+{
+  "id": 13307,
+  "claim": "Miranda Kerr is person from Australia.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08359837500000111,
+      "symbolic": {
+        "claim": "Miranda Kerr is person from Australia.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.1999999999900979e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Miranda_Kerr",
+          "sentence_id": 0,
+          "text": "Miranda May Kerr -LRB- born 20 April 1983 -RRB- is an Australian model .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Miranda,_South_Australia",
+          "sentence_id": 0,
+          "text": "Miranda is a coastal locality in the Far North region of South Australia , situated within the southeastern corner of the City of Port Augusta .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Miranda_Kerr",
+          "sentence_id": 1,
+          "text": "Kerr rose to prominence in 2007 as one of the Victoria 's Secret Angels .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Miranda_Kerr",
+          "sentence_id": 2,
+          "text": "Kerr was the first Australian Victoria 's Secret model and also represented the Australian department store chain David Jones .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Miranda_Kerr",
+          "sentence_id": 3,
+          "text": "Kerr has launched her own brand of organic skincare products , KORA Organics , and has written a self-help book .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.9869959354400635,
+        0.012903955765068531,
+        0.0001000697011477314
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0735620000000008,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Miranda_Kerr",
+          "sentence_id": 0,
+          "text": "Miranda May Kerr -LRB- born 20 April 1983 -RRB- is an Australian model .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Miranda,_South_Australia",
+          "sentence_id": 0,
+          "text": "Miranda is a coastal locality in the Far North region of South Australia , situated within the southeastern corner of the City of Port Augusta .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Miranda_Kerr",
+          "sentence_id": 1,
+          "text": "Kerr rose to prominence in 2007 as one of the Victoria 's Secret Angels .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Miranda_Kerr",
+          "sentence_id": 2,
+          "text": "Kerr was the first Australian Victoria 's Secret model and also represented the Australian department store chain David Jones .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Miranda_Kerr",
+          "sentence_id": 3,
+          "text": "Kerr has launched her own brand of organic skincare products , KORA Organics , and has written a self-help book .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.9869959354400635,
+        0.012903955765068531,
+        0.0001000697011477314
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05603195800000016,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.643316388130188,
+        0.03876454383134842,
+        0.3179190456867218
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

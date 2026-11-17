@@ -1,0 +1,62 @@
+{
+  "id": 171460,
+  "claim": "Splash starred a dog.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.0352347306907177,
+    0.9646703004837036,
+    9.496491111349314e-05
+  ],
+  "logits": [
+    0.33826082944869995,
+    3.648015022277832,
+    -5.578019142150879
+  ],
+  "evidence": [
+    {
+      "page_id": "Starred_Up",
+      "sentence_id": 0,
+      "text": "Starred Up is a 2013 British prison crime drama film directed by David Mackenzie and written by Jonathan Asser .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Starred_transform",
+      "sentence_id": 0,
+      "text": "In applied mathematics , the starred transform , or star transform , is a discrete-time variation of the Laplace transform , so-named because of the asterisk or `` star '' in the customary notation of the sampled signals .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Starred_transform",
+      "sentence_id": 8,
+      "text": "The starred transform is a convenient mathematical abstraction that represents the Laplace transform of an impulse sampled function , which is the output of an ideal sampler , whose input is a continuous function , .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Starred_transform",
+      "sentence_id": 11,
+      "text": "The starred transform is similar to the Z transform , with a simple change of variables , where the starred transform is explicitly declared in terms of the sampling period -LRB- T -RRB- , while the Z transform is performed on a discrete signal and is independent of the sampling period .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Starred_transform",
+      "sentence_id": 12,
+      "text": "This makes the starred transform a de-normalized version of the one-sided Z-transform , as it restores the dependence on sampling parameter T.",
+      "score": 1.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 204,
+    "tokens_retained": 204,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Splash starred a dog.</s></s>Starred Up is a 2013 British prison crime drama film directed by David Mackenzie and written by Jonathan Asser . In applied mathematics , the starred transform , or star transform , is a discrete-time variation of the Laplace transform , so-named because of the asterisk or `` star '' in the customary notation of the sampled signals . The starred transform is a convenient mathematical abstraction that represents the Laplace transform of an impulse sampled function , which is the output of an ideal sampler , whose input is a continuous function , . The starred transform is similar to the Z transform , with a simple change of variables , where the starred transform is explicitly declared in terms of the sampling period -LRB- T -RRB- , while the Z transform is performed on a discrete signal and is independent of the sampling period . This makes the starred transform a de-normalized version of the one-sided Z-transform , as it restores the dependence on sampling parameter T.</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.09378404200000023
+}

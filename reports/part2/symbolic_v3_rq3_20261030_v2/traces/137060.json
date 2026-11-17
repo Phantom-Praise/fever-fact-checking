@@ -1,0 +1,116 @@
+{
+  "id": 137060,
+  "claim": "Demi Lovato was an actor on Barney & Friends.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07663562499999976,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Demi_Lovato",
+          "sentence_id": 1,
+          "text": "After making her debut as a child actress in Barney & Friends , Lovato rose to prominence in 2008 when she starred in the Disney Channel television film Camp Rock and released her debut single `` This Is Me '' which peaked at number nine on the Billboard Hot 100 .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Demi_Lovato_discography",
+          "sentence_id": 0,
+          "text": "American entertainer Demi Lovato has released five studio albums , two extended plays -LRB- EPs -RRB- , and twenty-four singles -LRB- seven as a featured artist -RRB- .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Barney_&_Friends",
+          "sentence_id": 0,
+          "text": "Barney & Friends is an American children 's television series aimed at children from ages 1 to 8 , created by Sheryl Leach and produced by HIT Entertainment .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Demi_Lovato-COLON-_Stay_Strong",
+          "sentence_id": 0,
+          "text": "Demi Lovato : Stay Strong is a 2012 documentary film about American singer Demi Lovato which follows her recovery after leaving rehab and her return to the music industry after abrubtly cancelling her tour with the Jonas Brothers , putting her career on a hiatus in order to seek treatment .",
+          "score": 2.025
+        },
+        {
+          "page_id": "A_Special_Night_with_Demi_Lovato",
+          "sentence_id": 0,
+          "text": "A Special Night with Demi Lovato was the second headlining concert tour by American singer Demi Lovato , launched in support of her third studio album , Unbroken -LRB- 2011 -RRB- .",
+          "score": 2.02
+        }
+      ],
+      "probabilities": [
+        0.9873736500740051,
+        0.012543999589979649,
+        8.243460615631193e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05638620800000105,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.4925917088985443,
+        0.04176962748169899,
+        0.46563875675201416
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07046970799999919,
+      "symbolic": {
+        "claim": "Demi Lovato was an actor on Barney & Friends.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.62499999998289e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Demi_Lovato",
+          "sentence_id": 1,
+          "text": "After making her debut as a child actress in Barney & Friends , Lovato rose to prominence in 2008 when she starred in the Disney Channel television film Camp Rock and released her debut single `` This Is Me '' which peaked at number nine on the Billboard Hot 100 .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Demi_Lovato_discography",
+          "sentence_id": 0,
+          "text": "American entertainer Demi Lovato has released five studio albums , two extended plays -LRB- EPs -RRB- , and twenty-four singles -LRB- seven as a featured artist -RRB- .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Barney_&_Friends",
+          "sentence_id": 0,
+          "text": "Barney & Friends is an American children 's television series aimed at children from ages 1 to 8 , created by Sheryl Leach and produced by HIT Entertainment .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Demi_Lovato-COLON-_Stay_Strong",
+          "sentence_id": 0,
+          "text": "Demi Lovato : Stay Strong is a 2012 documentary film about American singer Demi Lovato which follows her recovery after leaving rehab and her return to the music industry after abrubtly cancelling her tour with the Jonas Brothers , putting her career on a hiatus in order to seek treatment .",
+          "score": 2.025
+        },
+        {
+          "page_id": "A_Special_Night_with_Demi_Lovato",
+          "sentence_id": 0,
+          "text": "A Special Night with Demi Lovato was the second headlining concert tour by American singer Demi Lovato , launched in support of her third studio album , Unbroken -LRB- 2011 -RRB- .",
+          "score": 2.02
+        }
+      ],
+      "probabilities": [
+        0.9873736500740051,
+        0.012543999589979649,
+        8.243460615631193e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

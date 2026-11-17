@@ -1,0 +1,27 @@
+{
+  "status": "stopped",
+  "started_utc": "2026-10-28T19:25:46.882005+00:00",
+  "approval": "User explicitly approved both Llama settings, approximately 26 hours.",
+  "python": "/Users/praiseben/fever-fact-checking/.venv/bin/python",
+  "conditions": {
+    "A_original": {
+      "status": "stopped",
+      "completed": 8232,
+      "total": 19998,
+      "pid": 22039,
+      "started_utc": "2026-10-28T19:25:46.886014+00:00",
+      "log": "/Users/praiseben/fever-fact-checking/reports/part2/ollama_full_dev_20261028/A_original_run.log",
+      "invalid": 1,
+      "estimated_remaining_seconds": 30951.692009011425,
+      "stopped_utc": "2026-10-29T03:08:16.945187+00:00"
+    },
+    "D_both": {
+      "status": "not_started_user_pause",
+      "completed": 0,
+      "total": 19998
+    }
+  },
+  "updated_utc": "2026-10-29T03:08:16.945187+00:00",
+  "active_config": null,
+  "stop_reason": "User requested pause for architecture/input audit; do not restart without further authorization."
+}

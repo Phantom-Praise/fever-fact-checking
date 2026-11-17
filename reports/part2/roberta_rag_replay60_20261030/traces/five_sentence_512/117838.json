@@ -1,0 +1,69 @@
+{
+  "id": 117838,
+  "claim": "Taylor Schilling made her film debut in 1807.",
+  "condition": "five_sentence_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.20008456707000732,
+    0.7996925711631775,
+    0.00022292816720437258
+  ],
+  "logits": [
+    1.368572473526001,
+    2.7540597915649414,
+    -5.431073188781738
+  ],
+  "inference_seconds": 0.11058291700000034,
+  "evidence_text": "She made her film debut in the 2007 drama Dark Matter . As God Made Her -LRB- Zoo als ik ben -RRB- is a 1920 Dutch silent film directed by Maurits Binger . She Made Her Bed is a 1934 American pre-Code comedy film directed by Ralph Murphy and written by James M. Cain , Casey Robinson and Frank R. Adams . They Made Her a Spy is a 1939 American spy drama film produced and distributed by RKO Radio Pictures . Taylor Schilling -LRB- born July 27 , 1984 -RRB- is an American actress .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 133,
+    "tokens_retained": 133,
+    "truncated": false,
+    "evidence_tokens_total": 117,
+    "evidence_tokens_retained": 117,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Taylor_Schilling",
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "As_God_Made_Her",
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "She_Made_Her_Bed",
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "They_Made_Her_a_Spy",
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Taylor_Schilling",
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Taylor Schilling made her film debut in 1807.</s></s>She made her film debut in the 2007 drama Dark Matter . As God Made Her -LRB- Zoo als ik ben -RRB- is a 1920 Dutch silent film directed by Maurits Binger . She Made Her Bed is a 1934 American pre-Code comedy film directed by Ralph Murphy and written by James M. Cain , Casey Robinson and Frank R. Adams . They Made Her a Spy is a 1939 American spy drama film produced and distributed by RKO Radio Pictures . Taylor Schilling -LRB- born July 27 , 1984 -RRB- is an American actress .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

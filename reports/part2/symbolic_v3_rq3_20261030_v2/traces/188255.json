@@ -1,0 +1,116 @@
+{
+  "id": 188255,
+  "claim": "Machine Gun Kelly is from a Christian family.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.09456466600000013,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Machine_Gun_Kelly",
+          "sentence_id": 0,
+          "text": "George Kelly Barnes -LRB- July 18 , 1895 -- July 18 , 1954 -RRB- , better known as `` Machine Gun Kelly '' , was an American gangster from Memphis , Tennessee , during the prohibition era .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Machine_Gun_Kelly_discography",
+          "sentence_id": 0,
+          "text": "The discography of American recording artist Machine Gun Kelly consists of three studio albums , one extended play , ten mixtapes , and eleven singles -LRB- including two as a featured artist -RRB- .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Machine-Gun_Kelly_-LRB-film-RRB-",
+          "sentence_id": 0,
+          "text": "Machine-Gun Kelly is a 1958 film noir directed by Roger Corman , chronicling the criminal activities of the real-life George `` Machine Gun '' Kelly .",
+          "score": 3.02
+        },
+        {
+          "page_id": "Machine_Gun_Kelly_-LRB-disambiguation-RRB-",
+          "sentence_id": 0,
+          "text": "Machine Gun Kelly , real name George Celino Barnes -LRB- 1895 -- 1954 -RRB- , was an American gangster .",
+          "score": 3.0166666666666666
+        },
+        {
+          "page_id": "Machine_Gun_Kelly_-LRB-disambiguation-RRB-",
+          "sentence_id": 3,
+          "text": "Machine Gun Kelly may also refer to :",
+          "score": 3.0166666666666666
+        }
+      ],
+      "probabilities": [
+        0.044662583619356155,
+        0.955247163772583,
+        9.031203080667183e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "NOT ENOUGH INFO",
+      "wall_seconds": 0.059557541999996744,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.2536262273788452,
+        0.07162134349346161,
+        0.6747523546218872
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08601845799999808,
+      "symbolic": {
+        "claim": "Machine Gun Kelly is from a Christian family.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.4332999999311369e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Machine_Gun_Kelly",
+          "sentence_id": 0,
+          "text": "George Kelly Barnes -LRB- July 18 , 1895 -- July 18 , 1954 -RRB- , better known as `` Machine Gun Kelly '' , was an American gangster from Memphis , Tennessee , during the prohibition era .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Machine_Gun_Kelly_discography",
+          "sentence_id": 0,
+          "text": "The discography of American recording artist Machine Gun Kelly consists of three studio albums , one extended play , ten mixtapes , and eleven singles -LRB- including two as a featured artist -RRB- .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Machine-Gun_Kelly_-LRB-film-RRB-",
+          "sentence_id": 0,
+          "text": "Machine-Gun Kelly is a 1958 film noir directed by Roger Corman , chronicling the criminal activities of the real-life George `` Machine Gun '' Kelly .",
+          "score": 3.02
+        },
+        {
+          "page_id": "Machine_Gun_Kelly_-LRB-disambiguation-RRB-",
+          "sentence_id": 0,
+          "text": "Machine Gun Kelly , real name George Celino Barnes -LRB- 1895 -- 1954 -RRB- , was an American gangster .",
+          "score": 3.0166666666666666
+        },
+        {
+          "page_id": "Machine_Gun_Kelly_-LRB-disambiguation-RRB-",
+          "sentence_id": 3,
+          "text": "Machine Gun Kelly may also refer to :",
+          "score": 3.0166666666666666
+        }
+      ],
+      "probabilities": [
+        0.044662583619356155,
+        0.955247163772583,
+        9.031203080667183e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

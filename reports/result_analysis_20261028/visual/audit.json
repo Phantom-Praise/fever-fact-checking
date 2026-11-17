@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "Chart values match preserved summaries",
+    "120 claim-grid outcomes reconcile with paired results",
+    "Heatmap totals match their own cohort sizes",
+    "Six examples preserve saved case data",
+    "Uncertainty includes zero and is explicitly shown",
+    "Browser checks: metric switching, grid inspection, cohort selection, positive-class counts, example switching",
+    "Standalone ZIP integrity checked; chart interactions make no API calls"
+  ]
+}

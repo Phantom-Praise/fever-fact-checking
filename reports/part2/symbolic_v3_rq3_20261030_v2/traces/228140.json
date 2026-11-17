@@ -1,0 +1,116 @@
+{
+  "id": 228140,
+  "claim": "Kafka stars Armin Mueller-stahl.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06960270800000146,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Armin_Mueller-Stahl",
+          "sentence_id": 0,
+          "text": "Armin Mueller-Stahl -LRB- born 17 December 1930 -RRB- is a German film actor , painter and author .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Stahl",
+          "sentence_id": 6,
+          "text": "Armin Mueller-Stahl -LRB- born 1930 -RRB- , German actor , painter , writer and musician",
+          "score": 3.05
+        },
+        {
+          "page_id": "Mueller",
+          "sentence_id": 7,
+          "text": "Armin Mueller-Stahl -LRB- born 1930 -RRB- , German actor",
+          "score": 3.025
+        },
+        {
+          "page_id": "Stahl",
+          "sentence_id": 0,
+          "text": "Stahl -LRB- German , steel -RRB- is a surname , and may refer to :",
+          "score": 1.05
+        },
+        {
+          "page_id": "Stahl",
+          "sentence_id": 2,
+          "text": "Agustín Stahl Puerto Rican physician , ethnologist , and botanist",
+          "score": 1.05
+        }
+      ],
+      "probabilities": [
+        0.9824077486991882,
+        0.01752067729830742,
+        7.159344386309385e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06126762499999927,
+      "symbolic": {
+        "claim": "Kafka stars Armin Mueller-stahl.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 2.0666999997587254e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Armin_Mueller-Stahl",
+          "sentence_id": 0,
+          "text": "Armin Mueller-Stahl -LRB- born 17 December 1930 -RRB- is a German film actor , painter and author .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Stahl",
+          "sentence_id": 6,
+          "text": "Armin Mueller-Stahl -LRB- born 1930 -RRB- , German actor , painter , writer and musician",
+          "score": 3.05
+        },
+        {
+          "page_id": "Mueller",
+          "sentence_id": 7,
+          "text": "Armin Mueller-Stahl -LRB- born 1930 -RRB- , German actor",
+          "score": 3.025
+        },
+        {
+          "page_id": "Stahl",
+          "sentence_id": 0,
+          "text": "Stahl -LRB- German , steel -RRB- is a surname , and may refer to :",
+          "score": 1.05
+        },
+        {
+          "page_id": "Stahl",
+          "sentence_id": 2,
+          "text": "Agustín Stahl Puerto Rican physician , ethnologist , and botanist",
+          "score": 1.05
+        }
+      ],
+      "probabilities": [
+        0.9824077486991882,
+        0.01752067729830742,
+        7.159344386309385e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.056196082999999675,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.7170554399490356,
+        0.05081643536686897,
+        0.2321281135082245
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

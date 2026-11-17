@@ -1,0 +1,24 @@
+{
+  "status": "ready_for_user_to_start_colab",
+  "notebook_name": "FEVER_Train_Full.ipynb",
+  "drive_notebook_id": "1oAYkQkLmmcBzot_xlxgIjavuSvQbmuPB",
+  "drive_training_zip_id": "1FnrbMlJ3pa51kAxL_uengGAcuzEbcqEF",
+  "train_n": 116356,
+  "validation_n": 14534,
+  "conditions": [
+    1,
+    2,
+    3
+  ],
+  "epochs": 2,
+  "max_length": 512,
+  "training_evidence": "historical retrieved top-five sentence text; not live RAG training contexts",
+  "runtime_revision": "colab-debug-v5",
+  "session_minutes": 180,
+  "checkpoint_steps": 1000,
+  "training_enabled": true,
+  "gpu_training_started": false,
+  "browser_blocker": "Google sign-in required in accessible in-app browser; user can open notebook in their signed-in browser",
+  "offline_tests_passed": 18,
+  "actual_full_supplement_import_verified": true
+}

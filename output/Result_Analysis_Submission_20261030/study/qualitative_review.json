@@ -1,0 +1,38 @@
+{
+  "quantitative_interpretation": "The net gain comes from NEI recognition: 12/20 correct versus 0/20 for the baseline. SUPPORTS recall fell from 19/20 to 14/20, and REFUTES recall fell from 15/20 to 12/20. Thus the method trades some support/refutation accuracy for better NEI coverage. The weak NEI baseline is consistent with its known training mismatch, but this comparison does not establish causation. The main model and its raw overall labels both achieved 38/60; code aggregation did not increase accuracy on this test sample.",
+  "hypothesis_verdict": "Partially supported. The main pipeline had higher observed accuracy (63.33% versus 56.67%) and macro-F1 (0.6583 versus 0.4548). However, the paired accuracy-difference interval spans -10.00 to +21.67 percentage points, so a reliable population accuracy gain is not established. Correct labels can still have unsupported explanations. The finding is limited to this balanced 60-claim study and this baseline.",
+  "examples": [
+    {
+      "id": 5941,
+      "title": "Main correct, baseline wrong: appropriate NEI",
+      "excerpt_ids": [
+        "E15"
+      ],
+      "interpretation": "FEVER labels this NEI. The supplied article mentions books, films and literature in Khan's family lineage; that does not establish that he personally worked in literature. The main model returned NEI rather than treating an association as proof. RoBERTa returned SUPPORTS.",
+      "model_excerpt": "There is no mention of Saif Ali Khan working in literature in the provided passages."
+    },
+    {
+      "id": 45888,
+      "title": "Baseline correct, main wrong: inconsistent verdict",
+      "excerpt_ids": [
+        "E6"
+      ],
+      "interpretation": "FEVER labels this SUPPORTS. The model's justification describes Tha Carter III as the sixth album released in 2008, yet its part verdict is REFUTES. E6 gives the year but does not itself establish the ordinal; no cited contradiction is offered. Deterministic aggregation faithfully propagates the wrong part verdict.",
+      "model_excerpt": "E6 states that Tha Carter III was released in 2008, which is the sixth studio album by Lil Wayne."
+    },
+    {
+      "id": 41404,
+      "title": "Both wrong: upstream evidence selection",
+      "excerpt_ids": [
+        "E2"
+      ],
+      "interpretation": "FEVER labels this SUPPORTS. The selected pages were Coastline FM, Coastline paradox, Concordant coastline, Discordant coastline and Emergent coastline; the Greece article was absent. E2 is only a related-list title, not evidence of Greece's rank. The main model returned NEI on that context, while RoBERTa returned REFUTES. More full article text did not repair selection of the wrong pages.",
+      "model_excerpt": "There is no evidence provided that directly supports or refutes the claim about Greece's coastline length."
+    }
+  ],
+  "faithfulness_example": {
+    "id": 24573,
+    "observation": "A correct label is not necessarily a grounded decision. For the Supernatural season-ending claim, the main model matched the REFUTES reference but justified it by saying the passages did not mention the season or its end date. It cited all 36 excerpt IDs, mostly from the general supernatural-concepts article. Missing information does not justify REFUTES. This example shows why label accuracy and structurally valid citations cannot establish explanation faithfulness."
+  },
+  "inspection_policy": "Purposefully selected qualitative examples, inspected with AI assistance; no independently annotated failure-category rates or human validation study is claimed."
+}

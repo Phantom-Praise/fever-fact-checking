@@ -1,0 +1,565 @@
+{
+  "device": "cpu",
+  "checkpoint": "checkpoints/roberta_evidence/epoch_1",
+  "max_length": 256,
+  "batch_size": 1,
+  "repeats": 2,
+  "results": [
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_2000.db",
+      "db_bytes": 2244608,
+      "db_mtime_ns": 1792778044369297186,
+      "repeat": 0,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 6.2424492899999935,
+      "mean_seconds": 0.062424492899999934,
+      "p50_seconds": 0.05956208299999988,
+      "p95_seconds": 0.08276034024999954,
+      "claims_per_second": 16.019353198462284,
+      "accuracy": 0.54,
+      "macro_f1": 0.4070633768746976,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          15,
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_2000.db",
+      "db_bytes": 2244608,
+      "db_mtime_ns": 1792778044369297186,
+      "repeat": 0,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 6.218089789999995,
+      "mean_seconds": 0.06218089789999995,
+      "p50_seconds": 0.05792404199999979,
+      "p95_seconds": 0.0779864604500002,
+      "claims_per_second": 16.082109357896563,
+      "accuracy": 0.54,
+      "macro_f1": 0.4070633768746976,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          15,
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_2000.db",
+      "db_bytes": 2244608,
+      "db_mtime_ns": 1792778044369297186,
+      "repeat": 1,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 7.320144250000009,
+      "mean_seconds": 0.07320144250000009,
+      "p50_seconds": 0.06850131200000042,
+      "p95_seconds": 0.1113466270999989,
+      "claims_per_second": 13.660932979565242,
+      "accuracy": 0.54,
+      "macro_f1": 0.4070633768746976,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          15,
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_2000.db",
+      "db_bytes": 2244608,
+      "db_mtime_ns": 1792778044369297186,
+      "repeat": 1,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 6.146301706999996,
+      "mean_seconds": 0.06146301706999996,
+      "p50_seconds": 0.0596096665000001,
+      "p95_seconds": 0.07313705894999725,
+      "claims_per_second": 16.269946508826674,
+      "accuracy": 0.54,
+      "macro_f1": 0.4070633768746976,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          15,
+          14,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_10000.db",
+      "db_bytes": 10076160,
+      "db_mtime_ns": 1792778046679602986,
+      "repeat": 0,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 5.917730163000012,
+      "mean_seconds": 0.05917730163000012,
+      "p50_seconds": 0.0588493335000031,
+      "p95_seconds": 0.06284705659999759,
+      "claims_per_second": 16.89837103848356,
+      "accuracy": 0.55,
+      "macro_f1": 0.41335268505079825,
+      "confusion_matrix": [
+        [
+          38,
+          9,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_10000.db",
+      "db_bytes": 10076160,
+      "db_mtime_ns": 1792778046679602986,
+      "repeat": 0,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 5.782541830999989,
+      "mean_seconds": 0.05782541830999989,
+      "p50_seconds": 0.05753670800000066,
+      "p95_seconds": 0.062021044349995336,
+      "claims_per_second": 17.293433047713336,
+      "accuracy": 0.55,
+      "macro_f1": 0.41335268505079825,
+      "confusion_matrix": [
+        [
+          38,
+          9,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_10000.db",
+      "db_bytes": 10076160,
+      "db_mtime_ns": 1792778046679602986,
+      "repeat": 1,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 5.7533249559999575,
+      "mean_seconds": 0.057533249559999576,
+      "p50_seconds": 0.057076791499998336,
+      "p95_seconds": 0.061371464249999265,
+      "claims_per_second": 17.38125358202012,
+      "accuracy": 0.55,
+      "macro_f1": 0.41335268505079825,
+      "confusion_matrix": [
+        [
+          38,
+          9,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_10000.db",
+      "db_bytes": 10076160,
+      "db_mtime_ns": 1792778046679602986,
+      "repeat": 1,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 5.8159637899999765,
+      "mean_seconds": 0.05815963789999976,
+      "p50_seconds": 0.057917687999999856,
+      "p95_seconds": 0.062257951449996796,
+      "claims_per_second": 17.19405477935419,
+      "accuracy": 0.55,
+      "macro_f1": 0.41335268505079825,
+      "confusion_matrix": [
+        [
+          38,
+          9,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_50000.db",
+      "db_bytes": 50016256,
+      "db_mtime_ns": 1792778053854124640,
+      "repeat": 0,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 6.82645704699997,
+      "mean_seconds": 0.0682645704699997,
+      "p50_seconds": 0.06356241649999816,
+      "p95_seconds": 0.10363156694999699,
+      "claims_per_second": 14.648887308819603,
+      "accuracy": 0.54,
+      "macro_f1": 0.4066378066378067,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_50000.db",
+      "db_bytes": 50016256,
+      "db_mtime_ns": 1792778053854124640,
+      "repeat": 0,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 5.837981834999972,
+      "mean_seconds": 0.058379818349999724,
+      "p50_seconds": 0.05821233350000199,
+      "p95_seconds": 0.062176022900000655,
+      "claims_per_second": 17.129207117514177,
+      "accuracy": 0.54,
+      "macro_f1": 0.4066378066378067,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_50000.db",
+      "db_bytes": 50016256,
+      "db_mtime_ns": 1792778053854124640,
+      "repeat": 1,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 5.762897163000062,
+      "mean_seconds": 0.05762897163000062,
+      "p50_seconds": 0.05663945850000118,
+      "p95_seconds": 0.0619031517999943,
+      "claims_per_second": 17.35238321482415,
+      "accuracy": 0.54,
+      "macro_f1": 0.4066378066378067,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/controlled_corpora_20261023/pages_50000.db",
+      "db_bytes": 50016256,
+      "db_mtime_ns": 1792778053854124640,
+      "repeat": 1,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 6.134393462999967,
+      "mean_seconds": 0.061343934629999666,
+      "p50_seconds": 0.05787177100000207,
+      "p95_seconds": 0.07089587049999863,
+      "claims_per_second": 16.301530151783897,
+      "accuracy": 0.54,
+      "macro_f1": 0.4066378066378067,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          7,
+          17,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/wiki_fts.db",
+      "db_bytes": 11903868928,
+      "db_mtime_ns": 1792674496346371586,
+      "repeat": 0,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 9.23316946,
+      "mean_seconds": 0.09233169459999999,
+      "p50_seconds": 0.08039331250000004,
+      "p95_seconds": 0.1373685148999939,
+      "claims_per_second": 10.830517129921713,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/wiki_fts.db",
+      "db_bytes": 11903868928,
+      "db_mtime_ns": 1792674496346371586,
+      "repeat": 0,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 10.375720207999947,
+      "mean_seconds": 0.10375720207999947,
+      "p50_seconds": 0.08931577050000072,
+      "p95_seconds": 0.2056976228999943,
+      "claims_per_second": 9.63788517763783,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/wiki_fts.db",
+      "db_bytes": 11903868928,
+      "db_mtime_ns": 1792674496346371586,
+      "repeat": 1,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 12.265483337999981,
+      "mean_seconds": 0.12265483337999981,
+      "p50_seconds": 0.10588291650000059,
+      "p95_seconds": 0.2313615788500094,
+      "claims_per_second": 8.152960404763476,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/wiki_fts.db",
+      "db_bytes": 11903868928,
+      "db_mtime_ns": 1792674496346371586,
+      "repeat": 1,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 12.01906255099999,
+      "mean_seconds": 0.1201906255099999,
+      "p50_seconds": 0.095330146000002,
+      "p95_seconds": 0.21509762439999344,
+      "claims_per_second": 8.320116446326336,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    }
+  ],
+  "input_sha256": {
+    "data/processed/retrieved/validation_first_100_top5_title_fast.jsonl": "53f48709f6670c33f036c6bb4f1f1b1bb378d199a5f0aa55d179ab639d6edd18",
+    "reports/part2/symbolic_v2/run_20261023_retry/predictions.csv": "9b61f7aac5816cd8bebb7ca975ba5cc2ac0c6d1dbafd534d902f073690ec0be9",
+    "/Users/praiseben/fever-fact-checking/src/benchmark_hierarchy.py": "7169b125bfd29a28fdbfe1b15aa272e16f21d3abf35f9a92020a8b0716a341b2"
+  },
+  "limitations": [
+    "Warm local cache, serialized per-claim inference; model loading excluded.",
+    "Symbolic route is a saved decision lookup: excludes KB network and rule execution.",
+    "One corpus size cannot establish scalability. Repeat with independently built nested indexes.",
+    "No monetary cost or live network hybrid latency is measured.",
+    "Condition order alternates; OS cache and thermal effects remain."
+  ]
+}

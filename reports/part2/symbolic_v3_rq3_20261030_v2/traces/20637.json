@@ -1,0 +1,116 @@
+{
+  "id": 20637,
+  "claim": "The Boys from Brazil features roles.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09811387499999924,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.875648558139801,
+        0.009510578587651253,
+        0.11484089493751526
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.11591491699999779,
+      "symbolic": {
+        "claim": "The Boys from Brazil features roles.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 2.3082999998536025e-05
+      },
+      "evidence": [
+        {
+          "page_id": "The_Boys_from_Brazil",
+          "sentence_id": 0,
+          "text": "The Boys from Brazil may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "The_Boys_from_Brazil",
+          "sentence_id": 3,
+          "text": "The Boys from Brazil -LRB- novel -RRB- , a 1976 novel by Ira Levin",
+          "score": 2.1
+        },
+        {
+          "page_id": "The_Boys_from_Brazil",
+          "sentence_id": 5,
+          "text": "The Boys from Brazil -LRB- film -RRB- , a 1978 film based on the novel , starring Gregory Peck , Laurence Olivier and James Mason",
+          "score": 2.1
+        },
+        {
+          "page_id": "Albie_Roles",
+          "sentence_id": 0,
+          "text": "Albert James `` Albie '' Roles -LRB- 29 September 1921 -- 3 October 2012 -RRB- was an English footballer who played as a full back for Southampton .",
+          "score": 1.05
+        },
+        {
+          "page_id": "Barbara_Roles",
+          "sentence_id": 0,
+          "text": "Barbara Ann Roles -LRB- married names : Pursley , Williams , born April 6 , 1941 -RRB- is an American former figure skater who currently works as a coach .",
+          "score": 1.0333333333333334
+        }
+      ],
+      "probabilities": [
+        0.9910915493965149,
+        0.008759264834225178,
+        0.00014919434033799917
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.11020295800000213,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "The_Boys_from_Brazil",
+          "sentence_id": 0,
+          "text": "The Boys from Brazil may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "The_Boys_from_Brazil",
+          "sentence_id": 3,
+          "text": "The Boys from Brazil -LRB- novel -RRB- , a 1976 novel by Ira Levin",
+          "score": 2.1
+        },
+        {
+          "page_id": "The_Boys_from_Brazil",
+          "sentence_id": 5,
+          "text": "The Boys from Brazil -LRB- film -RRB- , a 1978 film based on the novel , starring Gregory Peck , Laurence Olivier and James Mason",
+          "score": 2.1
+        },
+        {
+          "page_id": "Albie_Roles",
+          "sentence_id": 0,
+          "text": "Albert James `` Albie '' Roles -LRB- 29 September 1921 -- 3 October 2012 -RRB- was an English footballer who played as a full back for Southampton .",
+          "score": 1.05
+        },
+        {
+          "page_id": "Barbara_Roles",
+          "sentence_id": 0,
+          "text": "Barbara Ann Roles -LRB- married names : Pursley , Williams , born April 6 , 1941 -RRB- is an American former figure skater who currently works as a coach .",
+          "score": 1.0333333333333334
+        }
+      ],
+      "probabilities": [
+        0.9910915493965149,
+        0.008759264834225178,
+        0.00014919434033799917
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

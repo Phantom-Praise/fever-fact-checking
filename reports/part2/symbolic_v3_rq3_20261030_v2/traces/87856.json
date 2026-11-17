@@ -1,0 +1,116 @@
+{
+  "id": 87856,
+  "claim": "Prisoner is a TV series.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.10867733300000104,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Prisoner_-LRB-TV_series-RRB-",
+          "sentence_id": 7,
+          "text": "Due to an injunction requested by UK-based ATV , which considered the title too similar to their The Prisoner , overseas broadcasters had to change the series ' name .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Prisoner_Zero_-LRB-TV_series-RRB-",
+          "sentence_id": 0,
+          "text": "Prisoner Zero is an Australian animated children 's sci-fi , action-adventure series produced by Planet 55 Studios .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Ffizz_tv_series",
+          "sentence_id": 0,
+          "text": "Ffizz is a British TV series created by ITV which ran from 1987 through 1989 which followed Jack Mowbray -LRB- Richard Griffiths -RRB- and Hugo Walker -LRB- Benjamin Whitrow -RRB- , who owned a wine business but never had to actually run it until their accountant died leaving them not only with the work but the surprising knowledge that they were out of money .",
+          "score": 2.025
+        },
+        {
+          "page_id": "Prisoner_-LRB-TV_series-RRB-",
+          "sentence_id": 0,
+          "text": "Prisoner is an Australian soap opera set in the Wentworth Detention Centre , a fictional women 's prison .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Prisoner_-LRB-TV_series-RRB-",
+          "sentence_id": 1,
+          "text": "In the United States and United Kingdom it was known as Prisoner : Cell Block H , with the same title and Caged Women in Canada .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.9903485774993896,
+        0.00956299714744091,
+        8.839832298690453e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09939750000000025,
+      "symbolic": {
+        "claim": "Prisoner is a TV series.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.8665999999001315e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Prisoner_-LRB-TV_series-RRB-",
+          "sentence_id": 7,
+          "text": "Due to an injunction requested by UK-based ATV , which considered the title too similar to their The Prisoner , overseas broadcasters had to change the series ' name .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Prisoner_Zero_-LRB-TV_series-RRB-",
+          "sentence_id": 0,
+          "text": "Prisoner Zero is an Australian animated children 's sci-fi , action-adventure series produced by Planet 55 Studios .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Ffizz_tv_series",
+          "sentence_id": 0,
+          "text": "Ffizz is a British TV series created by ITV which ran from 1987 through 1989 which followed Jack Mowbray -LRB- Richard Griffiths -RRB- and Hugo Walker -LRB- Benjamin Whitrow -RRB- , who owned a wine business but never had to actually run it until their accountant died leaving them not only with the work but the surprising knowledge that they were out of money .",
+          "score": 2.025
+        },
+        {
+          "page_id": "Prisoner_-LRB-TV_series-RRB-",
+          "sentence_id": 0,
+          "text": "Prisoner is an Australian soap opera set in the Wentworth Detention Centre , a fictional women 's prison .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Prisoner_-LRB-TV_series-RRB-",
+          "sentence_id": 1,
+          "text": "In the United States and United Kingdom it was known as Prisoner : Cell Block H , with the same title and Caged Women in Canada .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.9903485774993896,
+        0.00956299714744091,
+        8.839832298690453e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.059978292000000266,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.504435658454895,
+        0.36837226152420044,
+        0.12719209492206573
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

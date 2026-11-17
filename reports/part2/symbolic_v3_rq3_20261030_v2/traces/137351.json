@@ -1,0 +1,116 @@
+{
+  "id": 137351,
+  "claim": "Shueisha is headquartered in Chiyoda.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.057056291000000314,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5303767919540405,
+        0.26224514842033386,
+        0.20737813413143158
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06415441600000005,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Shueisha",
+          "sentence_id": 0,
+          "text": "is a Japanese book and video game publisher headquartered in Chiyoda , Tokyo , Japan .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Shueisha",
+          "sentence_id": 2,
+          "text": "The following year , Shueisha became a separate , independent company .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Shueisha",
+          "sentence_id": 5,
+          "text": "Magazines published by Shueisha include Weekly Shōnen Jump , Weekly Young Jump , Non-no and Ultra Jump .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Shueisha",
+          "sentence_id": 6,
+          "text": "Shueisha , along with Shogakukan , owns VIZ Media , which publishes manga from all three companies in North America .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Chiyoda,_Hiroshima",
+          "sentence_id": 7,
+          "text": "On February 1 , 2005 , Chiyoda , along with the towns of Geihoku , Ōasa and Toyohira -LRB- all from Yamagata District -RRB- , was merged to create the town of Kitahiroshima .",
+          "score": 1.02
+        }
+      ],
+      "probabilities": [
+        0.9904113411903381,
+        0.00950815249234438,
+        8.049114694586024e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05719391600000012,
+      "symbolic": {
+        "claim": "Shueisha is headquartered in Chiyoda.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2916000000195993e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Shueisha",
+          "sentence_id": 0,
+          "text": "is a Japanese book and video game publisher headquartered in Chiyoda , Tokyo , Japan .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Shueisha",
+          "sentence_id": 2,
+          "text": "The following year , Shueisha became a separate , independent company .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Shueisha",
+          "sentence_id": 5,
+          "text": "Magazines published by Shueisha include Weekly Shōnen Jump , Weekly Young Jump , Non-no and Ultra Jump .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Shueisha",
+          "sentence_id": 6,
+          "text": "Shueisha , along with Shogakukan , owns VIZ Media , which publishes manga from all three companies in North America .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Chiyoda,_Hiroshima",
+          "sentence_id": 7,
+          "text": "On February 1 , 2005 , Chiyoda , along with the towns of Geihoku , Ōasa and Toyohira -LRB- all from Yamagata District -RRB- , was merged to create the town of Kitahiroshima .",
+          "score": 1.02
+        }
+      ],
+      "probabilities": [
+        0.9904113411903381,
+        0.00950815249234438,
+        8.049114694586024e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

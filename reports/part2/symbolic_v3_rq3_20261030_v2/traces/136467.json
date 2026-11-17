@@ -1,0 +1,127 @@
+{
+  "id": 136467,
+  "claim": "Cary Grant was born in Horfield, Boston.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.12938433400000093,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Cary_Grant",
+          "sentence_id": 0,
+          "text": "Cary Grant -LRB- born Archibald Alec Leach ; January 18 , 1904 -- November 29 , 1986 -RRB- was a British-American actor , known as one of classic Hollywood 's definitive leading men .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Cary_Grant",
+          "sentence_id": 5,
+          "text": "Born in Horfield , Bristol , Grant became attracted to theatre at a young age , and began performing with a troupe known as `` The Penders '' from the age of six .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Cary_Grant",
+          "sentence_id": 21,
+          "text": "He has one daughter with Cannon , Jennifer Grant -LRB- born 1966 -RRB- .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Cary_Grant_on_stage,_radio_and_screen",
+          "sentence_id": 0,
+          "text": "Cary Grant on stage , radio and screen",
+          "score": 2.0142857142857142
+        },
+        {
+          "page_id": "Cary_Grant",
+          "sentence_id": 13,
+          "text": "In the 1940s and 1950s , Grant forged a working relationship with the director Alfred Hitchcock , appearing in films such as Suspicion -LRB- 1941 -RRB- , Notorious -LRB- 1946 -RRB- , To Catch a Thief -LRB- 1955 -RRB- and North by Northwest -LRB- 1959 -RRB- .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.4996379315853119,
+        0.49949541687965393,
+        0.0008666174253448844
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "NOT ENOUGH INFO",
+      "wall_seconds": 0.05646512499999545,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.3796626627445221,
+        0.2303709089756012,
+        0.3899664580821991
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 3.282253875000002,
+      "symbolic": {
+        "claim": "Cary Grant was born in Horfield, Boston.",
+        "label": null,
+        "reason": "service_failure_fallback",
+        "parts": [],
+        "parsed": {
+          "subject": "Cary Grant",
+          "human": true,
+          "parts": [
+            {
+              "property": "P19",
+              "kind": "entity",
+              "expected": "Horfield, Boston"
+            }
+          ]
+        },
+        "error": "Wikidata unavailable; explicit operational fallback",
+        "queries": [],
+        "http_calls": 3,
+        "wall_seconds": 3.171730916999998
+      },
+      "evidence": [
+        {
+          "page_id": "Cary_Grant",
+          "sentence_id": 0,
+          "text": "Cary Grant -LRB- born Archibald Alec Leach ; January 18 , 1904 -- November 29 , 1986 -RRB- was a British-American actor , known as one of classic Hollywood 's definitive leading men .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Cary_Grant",
+          "sentence_id": 5,
+          "text": "Born in Horfield , Bristol , Grant became attracted to theatre at a young age , and began performing with a troupe known as `` The Penders '' from the age of six .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Cary_Grant",
+          "sentence_id": 21,
+          "text": "He has one daughter with Cannon , Jennifer Grant -LRB- born 1966 -RRB- .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Cary_Grant_on_stage,_radio_and_screen",
+          "sentence_id": 0,
+          "text": "Cary Grant on stage , radio and screen",
+          "score": 2.0142857142857142
+        },
+        {
+          "page_id": "Cary_Grant",
+          "sentence_id": 13,
+          "text": "In the 1940s and 1950s , Grant forged a working relationship with the director Alfred Hitchcock , appearing in films such as Suspicion -LRB- 1941 -RRB- , Notorious -LRB- 1946 -RRB- , To Catch a Thief -LRB- 1955 -RRB- and North by Northwest -LRB- 1959 -RRB- .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.4996379315853119,
+        0.49949541687965393,
+        0.0008666174253448844
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

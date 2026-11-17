@@ -1,0 +1,70 @@
+{
+  "id": 220082,
+  "claim": "Lust for Life was motivated by Irving Stone.",
+  "condition": "five_sentence_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.8007206320762634,
+    0.19873979687690735,
+    0.0005395907792262733
+  ],
+  "logits": [
+    2.5551371574401855,
+    1.1616214513778687,
+    -4.747319221496582
+  ],
+  "inference_seconds": 0.05684124999999973,
+  "evidence_text": "Irving Stone -LRB- born Tennenbaum , July 14 , 1903 , San Francisco , California -- August 26 , 1989 , Los Angeles -RRB- was an American writer , chiefly known for his biographical novels of noted artists , politicians and intellectuals ; among the best known are Lust for Life -LRB- 1934 -RRB- , about the life of Vincent van Gogh , and The Agony and the Ecstasy -LRB- 1961 -RRB- , about Michelangelo . Lust for Life -LRB- novel -RRB- , a 1934 biographical novel about Vincent Van Gogh , written by Irving Stone Lust for Life -LRB- 1956 -RRB- is a MGM -LRB- Metrocolor -RRB- biographical film about the life of the Dutch painter Vincent van Gogh , based on the 1934 novel of the same name by Irving Stone and adapted by Norman Corwin . To be distinguished from Irving I. Stone , philanthropist Lust for Life may refer to :",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 221,
+    "tokens_retained": 221,
+    "truncated": false,
+    "evidence_tokens_total": 207,
+    "evidence_tokens_retained": 207,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Irving_Stone",
+        "tokens_total": 102,
+        "tokens_kept": 102,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Lust_for_Life",
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Lust_for_Life_-LRB-film-RRB-",
+        "tokens_total": 59,
+        "tokens_kept": 59,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Irving_Stone",
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Lust_for_Life",
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Lust for Life was motivated by Irving Stone.</s></s>Irving Stone -LRB- born Tennenbaum , July 14 , 1903 , San Francisco , California -- August 26 , 1989 , Los Angeles -RRB- was an American writer , chiefly known for his biographical novels of noted artists , politicians and intellectuals ; among the best known are Lust for Life -LRB- 1934 -RRB- , about the life of Vincent van Gogh , and The Agony and the Ecstasy -LRB- 1961 -RRB- , about Michelangelo . Lust for Life -LRB- novel -RRB- , a 1934 biographical novel about Vincent Van Gogh , written by Irving Stone Lust for Life -LRB- 1956 -RRB- is a MGM -LRB- Metrocolor -RRB- biographical film about the life of the Dutch painter Vincent van Gogh , based on the 1934 novel of the same name by Irving Stone and adapted by Norman Corwin . To be distinguished from Irving I. Stone , philanthropist Lust for Life may refer to :</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

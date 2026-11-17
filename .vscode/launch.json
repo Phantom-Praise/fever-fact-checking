@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Climate-FEVER: inspect setup (no inference)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/climate_local.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "args": ["inspect"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Climate-FEVER: Llama 12-claim pilot",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/climate_local.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
+      "args": ["pilot", "--family", "llama", "--minutes", "30"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}

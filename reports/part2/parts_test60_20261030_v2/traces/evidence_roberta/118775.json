@@ -1,0 +1,62 @@
+{
+  "id": 118775,
+  "claim": "Jason Bonham played a real estate agent for Led Zeppelin.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9494608044624329,
+    0.05042995512485504,
+    0.00010917308827629313
+  ],
+  "logits": [
+    3.6326770782470703,
+    0.6973682641983032,
+    -5.438037872314453
+  ],
+  "evidence": [
+    {
+      "page_id": "Jason_Bonham",
+      "sentence_id": 1,
+      "text": "Bonham is perhaps best known for being the son of the late Led Zeppelin drummer John Bonham and Patricia `` Pat '' Bonham -LRB- born Phillips -RRB- .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Jason_Bonham",
+      "sentence_id": 2,
+      "text": "After his father 's death in September 1980 , he played with Led Zeppelin on different occasions , including the Ahmet Ertegun Tribute Concert at The O2 Arena in London in 2007 .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Jason_Bonham",
+      "sentence_id": 0,
+      "text": "Jason John Bonham -LRB- born 15 July 1966 -RRB- is an English drummer .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Estate_agent",
+      "sentence_id": 0,
+      "text": "An estate agent is a person or business that arranges the selling , renting or management of properties , and other buildings , in the United Kingdom and Ireland or other countries around the world .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Estate_agent",
+      "sentence_id": 6,
+      "text": "It is customary in the United Kingdom and in Ireland to refer to real estate or real property simply as property .",
+      "score": 2.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 175,
+    "tokens_retained": 175,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Jason Bonham played a real estate agent for Led Zeppelin.</s></s>Bonham is perhaps best known for being the son of the late Led Zeppelin drummer John Bonham and Patricia `` Pat '' Bonham -LRB- born Phillips -RRB- . After his father 's death in September 1980 , he played with Led Zeppelin on different occasions , including the Ahmet Ertegun Tribute Concert at The O2 Arena in London in 2007 . Jason John Bonham -LRB- born 15 July 1966 -RRB- is an English drummer . An estate agent is a person or business that arranges the selling , renting or management of properties , and other buildings , in the United Kingdom and Ireland or other countries around the world . It is customary in the United Kingdom and in Ireland to refer to real estate or real property simply as property .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.08555683400000014
+}

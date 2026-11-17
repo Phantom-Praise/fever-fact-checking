@@ -1,0 +1,69 @@
+{
+  "id": 84933,
+  "claim": "Steve Buscemi is a composer.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9850950241088867,
+    0.01482944842427969,
+    7.549808651674539e-05
+  ],
+  "logits": [
+    4.159073829650879,
+    -0.037049125880002975,
+    -5.317312240600586
+  ],
+  "inference_seconds": 0.10956137500000018,
+  "evidence_text": "Steve Buscemi is an American actor , director and writer known for his role in Boardwalk Empire , which earned him two Screen Actors Guild Awards , a Golden Globe , and two nominations for an Emmy Award . Park Bench with Steve Buscemi is an American web series talk show created , directed and hosted by actor Steve Buscemi , distributed by digital network AOL . Steve Brown is a British composer . Steve Hopkins , also known as Steven E. Hopkins and HipHopkins , is an Emmy nominated music composer , producer and musician based in Los Angeles , California , United States . Steve Kirk is a composer , arranger , guitarist , and singer .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 143,
+    "tokens_retained": 143,
+    "truncated": false,
+    "evidence_tokens_total": 131,
+    "evidence_tokens_retained": 131,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Steve_Buscemi_filmography",
+        "tokens_total": 43,
+        "tokens_kept": 43,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Park_Bench_with_Steve_Buscemi",
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Steve_Brown_-LRB-composer-RRB-",
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Steve_Hopkins_-LRB-composer-RRB-",
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Steve_Kirk_-LRB-composer-RRB-",
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Steve Buscemi is a composer.</s></s>Steve Buscemi is an American actor , director and writer known for his role in Boardwalk Empire , which earned him two Screen Actors Guild Awards , a Golden Globe , and two nominations for an Emmy Award . Park Bench with Steve Buscemi is an American web series talk show created , directed and hosted by actor Steve Buscemi , distributed by digital network AOL . Steve Brown is a British composer . Steve Hopkins , also known as Steven E. Hopkins and HipHopkins , is an Emmy nominated music composer , producer and musician based in Los Angeles , California , United States . Steve Kirk is a composer , arranger , guitarist , and singer .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

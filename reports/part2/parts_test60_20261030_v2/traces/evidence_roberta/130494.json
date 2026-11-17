@@ -1,0 +1,62 @@
+{
+  "id": 130494,
+  "claim": "The Weeknd does not have a debut album.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.03962274640798569,
+    0.9603005051612854,
+    7.683633884880692e-05
+  ],
+  "logits": [
+    0.49748915433883667,
+    3.6853320598602295,
+    -5.747991561889648
+  ],
+  "evidence": [
+    {
+      "page_id": "The_Weeknd",
+      "sentence_id": 7,
+      "text": "In 2013 , he released his debut studio album Kiss Land , which debuted at number two on the Billboard 200 .",
+      "score": 2.1
+    },
+    {
+      "page_id": "The_Weeknd",
+      "sentence_id": 11,
+      "text": "The Weeknd released his second album , Beauty Behind the Madness , in 2015 , breaking chart records in the process .",
+      "score": 2.1
+    },
+    {
+      "page_id": "The_Weeknd",
+      "sentence_id": 19,
+      "text": "The album 's title track topped the chart in several countries , including the U.S. , the UK and Canada , and became The Weeknd 's third number-one single .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Does",
+      "sentence_id": 9,
+      "text": "Does -LRB- album -RRB- , an album by rock/jazz band The Slip",
+      "score": 2.033333333333333
+    },
+    {
+      "page_id": "The_Weeknd_discography",
+      "sentence_id": 0,
+      "text": "Canadian singer and songwriter The Weeknd has released three studio albums , three mixtapes , and one compilation album , Trilogy -LRB- 2012 -RRB- , which is the compilation of all three of his mixtapes : House of Balloons , Thursday , and Echoes of Silence .",
+      "score": 2.025
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 178,
+    "tokens_retained": 178,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>The Weeknd does not have a debut album.</s></s>In 2013 , he released his debut studio album Kiss Land , which debuted at number two on the Billboard 200 . The Weeknd released his second album , Beauty Behind the Madness , in 2015 , breaking chart records in the process . The album 's title track topped the chart in several countries , including the U.S. , the UK and Canada , and became The Weeknd 's third number-one single . Does -LRB- album -RRB- , an album by rock/jazz band The Slip Canadian singer and songwriter The Weeknd has released three studio albums , three mixtapes , and one compilation album , Trilogy -LRB- 2012 -RRB- , which is the compilation of all three of his mixtapes : House of Balloons , Thursday , and Echoes of Silence .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.1343236670000003
+}

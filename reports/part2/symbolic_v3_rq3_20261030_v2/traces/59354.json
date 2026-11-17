@@ -1,0 +1,116 @@
+{
+  "id": 59354,
+  "claim": "Samoa Joe wrestles.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0722247920000001,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Samoa_Joe",
+          "sentence_id": 0,
+          "text": "Nuufolau Joel `` Joe '' Seanoa -LRB- born March 17 , 1979 -RRB- , better known by his ring name Samoa Joe , is an American professional wrestler currently signed to WWE and performing on the Raw brand .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Samoa_Joe",
+          "sentence_id": 4,
+          "text": "Joe established himself in ROH from the promotion 's beginning in 2002 , holding the ROH World Championship for a record 21 months from May 2003 to December 2004 .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Samoa_Joe",
+          "sentence_id": 12,
+          "text": "Joe officially debuted in WWE 's developmental territory NXT in May 2015 , and signed a full-time contract with the company in June ; he went on to become the first ever two-time NXT Champion .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Samoa",
+          "sentence_id": 0,
+          "text": "The Independent State of Samoa -LRB- Malo Saʻoloto Tutoʻatasi o Sāmoa , -LSB- ˌsaːˈmoa -RSB- -RRB- , commonly known as Samoa -LRB- Sāmoa -RRB- and , until 1997 , known as Western Samoa , is a unitary parliamentary democracy with eleven administrative divisions .",
+          "score": 1.05
+        },
+        {
+          "page_id": "Samoa",
+          "sentence_id": 7,
+          "text": "Samoa is a member of the Commonwealth of Nations .",
+          "score": 1.05
+        }
+      ],
+      "probabilities": [
+        0.9889649152755737,
+        0.010956494137644768,
+        7.865698717068881e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06507504200000014,
+      "symbolic": {
+        "claim": "Samoa Joe wrestles.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2874999999468173e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Samoa_Joe",
+          "sentence_id": 0,
+          "text": "Nuufolau Joel `` Joe '' Seanoa -LRB- born March 17 , 1979 -RRB- , better known by his ring name Samoa Joe , is an American professional wrestler currently signed to WWE and performing on the Raw brand .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Samoa_Joe",
+          "sentence_id": 4,
+          "text": "Joe established himself in ROH from the promotion 's beginning in 2002 , holding the ROH World Championship for a record 21 months from May 2003 to December 2004 .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Samoa_Joe",
+          "sentence_id": 12,
+          "text": "Joe officially debuted in WWE 's developmental territory NXT in May 2015 , and signed a full-time contract with the company in June ; he went on to become the first ever two-time NXT Champion .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Samoa",
+          "sentence_id": 0,
+          "text": "The Independent State of Samoa -LRB- Malo Saʻoloto Tutoʻatasi o Sāmoa , -LSB- ˌsaːˈmoa -RSB- -RRB- , commonly known as Samoa -LRB- Sāmoa -RRB- and , until 1997 , known as Western Samoa , is a unitary parliamentary democracy with eleven administrative divisions .",
+          "score": 1.05
+        },
+        {
+          "page_id": "Samoa",
+          "sentence_id": 7,
+          "text": "Samoa is a member of the Commonwealth of Nations .",
+          "score": 1.05
+        }
+      ],
+      "probabilities": [
+        0.9889649152755737,
+        0.010956494137644768,
+        7.865698717068881e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.056328416999999575,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.843198299407959,
+        0.005060091614723206,
+        0.15174153447151184
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

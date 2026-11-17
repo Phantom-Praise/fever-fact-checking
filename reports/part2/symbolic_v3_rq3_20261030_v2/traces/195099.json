@@ -1,0 +1,116 @@
+{
+  "id": 195099,
+  "claim": "We Found Love has a video.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.43102387500000106,
+      "symbolic": {
+        "claim": "We Found Love has a video.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2375000000730552e-05
+      },
+      "evidence": [
+        {
+          "page_id": "We_Found_Love_-LRB-music_video-RRB-",
+          "sentence_id": 0,
+          "text": "The music video for Barbadian singer Rihanna 's 2011 single `` We Found Love '' was directed by Melina Matsoukas .",
+          "score": 4.05
+        },
+        {
+          "page_id": "We_Found_Love",
+          "sentence_id": 0,
+          "text": "`` We Found Love '' is a song recorded by Bajan singer Rihanna from her sixth studio album , Talk That Talk -LRB- 2011 -RRB- .",
+          "score": 3.1
+        },
+        {
+          "page_id": "We_Found_Love",
+          "sentence_id": 2,
+          "text": "`` We Found Love '' premiered on September 22 , 2011 , on the Capital FM radio station in the United Kingdom , and was made available to download on the same day as the lead single from Talk That Talk .",
+          "score": 3.1
+        },
+        {
+          "page_id": "We_Found_Love",
+          "sentence_id": 3,
+          "text": "`` We Found Love '' is an uptempo electro house song , with elements of techno and Europop .",
+          "score": 3.1
+        },
+        {
+          "page_id": "We_Found_Love",
+          "sentence_id": 7,
+          "text": "`` We Found Love '' was met with mixed reviews from music critics , who praised the song 's composition and Rihanna 's vocal performance ; however , some critics felt that the lyrical content was sparse and came second to Harris ' production .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.9912318587303162,
+        0.008667190559208393,
+        0.00010094622120959684
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06996445900000126,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.8493022322654724,
+        0.004975597374141216,
+        0.1457221955060959
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.17098183299999903,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "We_Found_Love_-LRB-music_video-RRB-",
+          "sentence_id": 0,
+          "text": "The music video for Barbadian singer Rihanna 's 2011 single `` We Found Love '' was directed by Melina Matsoukas .",
+          "score": 4.05
+        },
+        {
+          "page_id": "We_Found_Love",
+          "sentence_id": 0,
+          "text": "`` We Found Love '' is a song recorded by Bajan singer Rihanna from her sixth studio album , Talk That Talk -LRB- 2011 -RRB- .",
+          "score": 3.1
+        },
+        {
+          "page_id": "We_Found_Love",
+          "sentence_id": 2,
+          "text": "`` We Found Love '' premiered on September 22 , 2011 , on the Capital FM radio station in the United Kingdom , and was made available to download on the same day as the lead single from Talk That Talk .",
+          "score": 3.1
+        },
+        {
+          "page_id": "We_Found_Love",
+          "sentence_id": 3,
+          "text": "`` We Found Love '' is an uptempo electro house song , with elements of techno and Europop .",
+          "score": 3.1
+        },
+        {
+          "page_id": "We_Found_Love",
+          "sentence_id": 7,
+          "text": "`` We Found Love '' was met with mixed reviews from music critics , who praised the song 's composition and Rihanna 's vocal performance ; however , some critics felt that the lyrical content was sparse and came second to Harris ' production .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.9912318587303162,
+        0.008667190559208393,
+        0.00010094622120959684
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

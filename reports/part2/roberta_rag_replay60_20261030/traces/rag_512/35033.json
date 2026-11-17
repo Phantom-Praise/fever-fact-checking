@@ -1,0 +1,437 @@
+{
+  "id": 35033,
+  "claim": "Wyatt Earp only has sisters.",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.033455315977334976,
+    0.9664183855056763,
+    0.00012639342457987368
+  ],
+  "logits": [
+    0.27743178606033325,
+    3.640817880630493,
+    -5.3011345863342285
+  ],
+  "inference_seconds": 0.12234574999999737,
+  "evidence_text": "| Nicholas Porter EarpVirginia Ann Cooksey Relatives | Newton Earp (brother) James Earp (brother) Virgil Earp (brother) Morgan Earp (brother) Warren Earp (brother) Signature . Both Earps were arrested for the same crime again on May 11. \"Wyat [sic] Earp and his brother Morgan Earp were each fined $44.55 and as they had not the money and would not work, they languish in the cold and silent calaboose ...\" After being freed, Wyatt and Morgan visited their sister Adelia in the family home in Lamar, Missouri. Wyatt returned to the Peoria area. which Earp saves two women, one a cripple, from a Tombstone fire. t Wyatt Earp was the last surviving Earp brother and the last surviving participant of the gunfight at the O.K. Corral when he died at home in the Earps' small rented bungalow at 4004 W 17th Street, in Los Angeles, of chronic cystitis on January 13, 1929, at the age of 80. The Los Angeles Times reported that he had been ill with liver disease for three years. His brother Newton had died almost a month prior on December 18, 1928. Wyatt was survived by Josephine and his sister, Adelia Earp Edwards. He had no children. Charlie Welsh's daughter Grace Spolidora and his daughter-in-law Alma were the only witnesses to Wyatt's cremation. Josephine was apparently too grief-stricken to assist. When the Welsh family moved to Los Angeles, the Earps accepted an invitation to stay with them in their top-floor apartment for a while until they found a place to rent. After Earp and Sadie moved into a bungalow nearby, Charlie Welsh's daughter, Grace Spolidora, recalled that Sadie, who had never had many domestic skills, did very little housekeeping or cooking for Wyatt. She and her sister Alma were concerned about the care Sadie gave Wyatt. Though he was at times very ill, Sadie still did not cook for him. Spolidora, her sisters, and her mother brought in meals. Chaput, Don. The Earp Papers: In a Brother's Image. Encampment, Wyoming: Affiliated Writers of America, 1994. ISBN 1-879915-10-3 e Wyatt Earp in popular culture . She wasn't that upset. She was peculiar. I don't think she was that devastated when he died.\" Around 1923, Charles Welsh, a retired railroad engineer and friend that Earp had known since Dodge City, frequently invited the Earps to visit his family in San Bernardino. Researchers have identified two women with similar names in the same region of the Arizona Territory whose lives bear many striking parallels. Sadie Mansfield and Sadie Marcus both made a stagecoach journey from San Francisco to Prescott, Arizona Territory; both traveled with a black woman named Julia; both were sexual partners with Behan; both were 19 years old, born in New York City, and had parents from Prussia. The only difference noted in the 1880 census is in their occupations: the Sadie who lived in San Francisco is listed as \"At home\", while the Sadie in Tip Top is recorded as a \"Courtesan\". Marcus said that her parents hid her activities, and they may have been covering for her when the census taker was a neighbor who knew the family. Jack Vermillion, whose horse was shot. Earp's relationship with Josephine was tempestuous at times. She gambled to excess, and he had adulterous affairs. He knew that she preferred being called \"Josephine\" and detested \"Sadie\", but he had a mischievous sense of humor and began calling her Sadie early in their relationship. Earp's good friends in the Welsh family did not appreciate Josephine's gambling habits, and they noted that she received an allowance from her half-sister Rebecca and gambled it away, often leaving her husband hungry. v In November 1901, at age 40, Sadie got pregnant again, and she and Wyatt decided to leave Alaska. They sold their interest in the Dexter to their partner, Charlie Hoxie. The day after Morgan's murder, Deputy U.S. Marshal Wyatt Earp formed a posse made up of his brothers James and Warren, Doc Holliday, Sherman McMaster, Jack \"Turkey Creek\" Johnson, Charles \"Hairlip Charlie\" Smith, Dan Tipton, and Texas Jack Vermillion to protect the family and pursue the suspects, paying them $5 a day. They took Morgan's body to the railhead in Benson, and James accompanied it to the family home in Colton, California, where Morgan's wife and parents waited to bury him. The posse guarded Virgil and Allie to Tucson, where they had heard that Frank Stilwell and other Cowboys were waiting to kill Virgil. The next morning, Frank Stilwell's body was found alongside the tracks, with a shotgun bullet in his chest. The coroner's jury returned a verdict that Stilwell was one of Morgan's assassins, \"if not the principal one.\" Pete Spence was arrested in",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1080,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1067,
+    "evidence_tokens_retained": 499,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 400247,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 400247,
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 400247,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 400247,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 400247,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 400247,
+        "tokens_total": 67,
+        "tokens_kept": 67,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 400247,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 400247,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 29399132,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 400247,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 400247,
+        "tokens_total": 46,
+        "tokens_kept": 46,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 400247,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 400247,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 400247,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 400247,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 400247,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 400247,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 400247,
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 400247,
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 400247,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 400247,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 400247,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 400247,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 400247,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 400247,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 400247,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 29399132,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 400247,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 400247,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 400247,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 400247,
+        "tokens_total": 4,
+        "tokens_kept": 1,
+        "visibility": "partial"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 400247,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 400247,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 400247,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 400247,
+        "tokens_total": 60,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 400247,
+        "tokens_total": 44,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 400247,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 400247,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 400247,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 400247,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 400247,
+        "tokens_total": 39,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 400247,
+        "tokens_total": 45,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 29399132,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 400247,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 400247,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 400247,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 400247,
+        "tokens_total": 66,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 400247,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 400247,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 400247,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 400247,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Wyatt Earp only has sisters.</s></s>| Nicholas Porter EarpVirginia Ann Cooksey Relatives | Newton Earp (brother) James Earp (brother) Virgil Earp (brother) Morgan Earp (brother) Warren Earp (brother) Signature . Both Earps were arrested for the same crime again on May 11. \"Wyat [sic] Earp and his brother Morgan Earp were each fined $44.55 and as they had not the money and would not work, they languish in the cold and silent calaboose ...\" After being freed, Wyatt and Morgan visited their sister Adelia in the family home in Lamar, Missouri. Wyatt returned to the Peoria area. which Earp saves two women, one a cripple, from a Tombstone fire. t Wyatt Earp was the last surviving Earp brother and the last surviving participant of the gunfight at the O.K. Corral when he died at home in the Earps' small rented bungalow at 4004 W 17th Street, in Los Angeles, of chronic cystitis on January 13, 1929, at the age of 80. The Los Angeles Times reported that he had been ill with liver disease for three years. His brother Newton had died almost a month prior on December 18, 1928. Wyatt was survived by Josephine and his sister, Adelia Earp Edwards. He had no children. Charlie Welsh's daughter Grace Spolidora and his daughter-in-law Alma were the only witnesses to Wyatt's cremation. Josephine was apparently too grief-stricken to assist. When the Welsh family moved to Los Angeles, the Earps accepted an invitation to stay with them in their top-floor apartment for a while until they found a place to rent. After Earp and Sadie moved into a bungalow nearby, Charlie Welsh's daughter, Grace Spolidora, recalled that Sadie, who had never had many domestic skills, did very little housekeeping or cooking for Wyatt. She and her sister Alma were concerned about the care Sadie gave Wyatt. Though he was at times very ill, Sadie still did not cook for him. Spolidora, her sisters, and her mother brought in meals. Chaput, Don. The Earp Papers: In a Brother's Image. Encampment, Wyoming: Affiliated Writers of America, 1994. ISBN 1-879915-10-3 e Wyatt Earp in popular culture . She wasn't that upset. She</s>"
+  }
+}

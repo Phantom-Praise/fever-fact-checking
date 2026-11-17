@@ -1,0 +1,92 @@
+[
+  {
+    "id": "E1",
+    "path": "reports/part2/official_fever_dev_20261023/summary.json",
+    "sha256": "b7422ee9853904e28d58e855245aabcd4c6f5d6f01bf96c8805844222c2c48cd",
+    "description": "Full 19,998-claim benchmark and paired intervals"
+  },
+  {
+    "id": "E2",
+    "path": "reports/part2/evidence_depth_20261023/summary.json",
+    "sha256": "a3184fca9fae5a19bd30cd3bf7e6a574ea0570d9f49cb601cfef70264bcecc37",
+    "description": "100-claim evidence-input ablations"
+  },
+  {
+    "id": "E3",
+    "path": "reports/part2/token_budget_20261028/summary.json",
+    "sha256": "c20b16c23ced2fac2a0fe0f783860b3f5637413e6fc76305ae0e0fac228c9d4a",
+    "description": "Frozen evidence-input 256 versus 512 comparison"
+  },
+  {
+    "id": "E4",
+    "path": "reports/part2/ollama_comparison_20261028/summary.json",
+    "sha256": "eac083fbb19f8535f26c6aafc7250acfc28d89c136856fcb168f812f0d57ca96",
+    "description": "Matched 300-claim local LLM pilot"
+  },
+  {
+    "id": "E5",
+    "path": "reports/part2/llm_configurations_20261028/assessment_summary.json",
+    "sha256": "dbbdda6ec1a45e70830ae6b7286c1e14853757409dcb97a62f7074bfa5f29fd7",
+    "description": "120-claim assessment after calibration-only selection"
+  },
+  {
+    "id": "E5a",
+    "path": "reports/part2/llm_configurations_20261028/calibration_summary.json",
+    "sha256": "11540755e843834202e3c5bb4639eb422a04285f7bf8cb53fcbbea88d1ad6e3d",
+    "description": "Five configurations on 60 calibration claims"
+  },
+  {
+    "id": "E5b",
+    "path": "reports/part2/llm_configurations_20261028/selected_config.json",
+    "sha256": "e1a7ea75ad7443436ac82c9fef91fefe8be7290474050ff8b8bb9bbbed694893",
+    "description": "Selection frozen before assessment"
+  },
+  {
+    "id": "E5c",
+    "path": "reports/part2/llm_configurations_20261028/assessment_start.json",
+    "sha256": "31c55c1930c07bffd13fcd01ed562c3f1c1a10dc260e32571f0d28daca10f553",
+    "description": "Pre-assessment selection hash and timestamp"
+  },
+  {
+    "id": "E5d",
+    "path": "reports/part2/llm_configurations_20261028/assessment_uncertainty.json",
+    "sha256": "f83259afe1518ac39cb01b9e736f279a7154a4d22d26be70f82d86cd370930fa",
+    "description": "Paired macro-F1 and strict-score intervals"
+  },
+  {
+    "id": "E6",
+    "path": "reports/part2/ollama_error_analysis_20261028/analysis.json",
+    "sha256": "3ce17a1aeb5f14f035a2f0f05a669ac3c82ff31b083ef7620ab002238d74701e",
+    "description": "300-claim error and annotation-coverage breakdown"
+  },
+  {
+    "id": "E7",
+    "path": "reports/part2/ollama_error_analysis_20261028/oracle_summary.json",
+    "sha256": "6206f2f6d23ab7a2f9fcbf9dfa20cd03b177f3b614952307daa9ce22da5730c9",
+    "description": "Separate 20-claim gold-evidence intervention"
+  },
+  {
+    "id": "E8",
+    "path": "reports/part2/step2_final_20261023/heldout100/summary.json",
+    "sha256": "a00b9da1ff5166400456fbd2939c3336b484beb12933d0f0f38494691a4f64f1",
+    "description": "Matched symbolic routing, calls and online timing"
+  },
+  {
+    "id": "E9",
+    "path": "reports/part2/ollama_comparison_20261028/telemundo_response.json",
+    "sha256": "fbfb6156b4ca27fb681608f423becf8724ece550ba470716e81f0dd4ecdd7083",
+    "description": "Separate saved Telemundo LLM diagnostic"
+  },
+  {
+    "id": "E10",
+    "path": "reports/part2/llm_configurations_20261028/final_decisions.jsonl",
+    "sha256": "e6b04b148546f3e57f4758d7521fb985653cfbf2613d5db152f1ca695c0cb130",
+    "description": "Raw LLM versus final hybrid decisions"
+  },
+  {
+    "id": "E11",
+    "path": "reports/part2/llm_configurations_20261028/protocol.json",
+    "sha256": "15b68d04626707e2b3f652672800af4eb74ede93e8326052fdd4e2a8bd4eac82",
+    "description": "Sampling, exclusion, prompts, model identity and fixed rules"
+  }
+]

@@ -1,0 +1,525 @@
+{
+  "id": 117838,
+  "claim": "Taylor Schilling made her film debut in 1807.",
+  "condition": "rag_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.36200788617134094,
+    0.6359879374504089,
+    0.002004252979531884
+  ],
+  "logits": [
+    1.2392704486846924,
+    1.8027840852737427,
+    -3.9571242332458496
+  ],
+  "inference_seconds": 0.05949979100000036,
+  "evidence_text": "Overnight. The film premiered at the 2015 Sundance Film Festival to positive reviews. Also in 2015, Schilling made her off-Broadway debut starring in play A Month in the Country. She made a guest starring appearance in an episode of Drunk History in 2016. Taylor Schilling Schilling in 2014 Born | (1984-07-27) July 27, 1984 Education | Fordham University (BA) Occupation | Actress Years active | 2007–present After graduating from Wayland High School in 2002, Schilling attended Fordham University's campus at Lincoln Center, where she continued to take part in stage productions while earning her Bachelor of Fine Arts in 2006. She entered the graduate acting program at New York University's Tisch School of the Arts to continue her acting studies, but left after her second year. While attempting to break into acting, she supported herself by working as a nanny for a Manhattan-based family. Schilling was born July 27, 1984, the daughter of Patricia (née Miller), an MIT administrator, and Robert Schilling, a former prosecutor. She grew up in West Roxbury and Wayland, dividing her time between her divorced parents. A fan of the NBC medical drama ER in her youth, she began acting at a young age. She became active in her middle school's theatre program when she appeared in their production of Fiddler on the Roof. In 2024, Schilling made her stage return playing the leading role in Second Stage Theater production of The Apiary. Year | Title | Role | Notes | Ref. 2015 | A Month in the Country | Natalya Petrovna | Off-Broadway; January 29, 2015-February 28, 2015 | 2024 | The Apiary | Gwen | Off-Broadway; January 31, 2024-February 25, 2024 | Schilling won the Emerson College Playwright's Festival Outstanding Performance Award. She made her feature-film debut with a supporting role in the independent film Dark Matter (2007). In 2009, she starred in the NBC medical drama series Mercy as a former military nurse returning home after a tour in Iraq. When she read for the part via videotape from New York City, she impressed the show's creator and executive producer, Liz Heldens, who flew her to Los Angeles to audition. Mercy ran for one season, from September 2009 to May 2010. Year | Title | Role | Notes | Ref. 2007 | Dark Matter | Jackie | | 2011 | Atlas Shrugged: Part I | Dagny Taggart | | 2012 | The Lucky One | Elizabeth \"Beth\" Green | | Argo | Christine Mendez | | 2013 | Stay | Abbey | | 2015 | The Overnight | Emily | | 2017 | Take Me | Anna St. Blair | | Phil | Samantha Ford | | 2018 | The Public | Angela | | The Titan | Dr. Abigail Janssen | | Family | Kate Stone | | 2019 | The Prodigy | Sarah Blume | | 2023 | Queen of Bones | Ida May | | In 2017, Schilling starred in the comedy film Take Me directed by Pat Healy, and appeared in the comedy-drama Phil by Greg Kinnear. She starred alongside Emilio Estevez in the drama film, The Public, which premiered at the 2018 Toronto International Film Festival. She starred alongside Sam Worthington in the science fiction thriller film The Titan, and played the leading role in the comedy film Family, both released in 2018. In 2019, Schilling starred in the horror film The Prodigy. \"Cu-Blu\" In 2020, Schilling starred in an episode of the horror-anthology series, Monsterland. The following year she starred alongside Audra McDonald in the satirical science fiction horror series, The Bite created by Robert King and Michelle King. She was featured as Erica Boyer in the Hulu miniseries Pam & Tommy which premiered February 2, 2022. In 2023 she played the leading role in the Apple TV+ drama series, Dear Edward. She also starred in the horror-thriller film, Queen of Bones directed by Robert Budreau. In 2013, Schilling began starring as Piper Chapman in the Netflix comedy-drama series Orange Is the New Black based on Piper Kerman, author of the non-fiction book Orange Is the New Black: My Year in a Women's Prison. For her work on the show, Schilling was nominated for the Golden Globe Award for Best Actress in a Television Series – Drama and the Primetime Emmy Award for Outstanding Lead Actress in a Comedy Series in 2014. She won three Satellite Awards for Best Actress – Television Series Musical or Comedy: in 2013, 2015 and 2016 and three Screen Actors Guild Awards for Outstanding Performance by an Ensemble in a Comedy Series. The series ended in 2019. During her time in Orange Is the New Black, Schilling starred in a number of movies. She played the lead in the 2013 Canadian romantic drama film, Stay directed by Wiebke von Carolsfeld. The film received mostly negative reviews from critics. In 2015 she starred alongside Adam Scott in the sex comedy The Britt Woodman – trombone \"Daddy-O\"",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1065,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1050,
+    "evidence_tokens_retained": 241,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 23882849,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 23882849,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 23882849,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 23882849,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 23882849,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 23882849,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 23882849,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 23882849,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 23882849,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 23882849,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 23882849,
+        "tokens_total": 41,
+        "tokens_kept": 41,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 23882849,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 23882849,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 23882849,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 23882849,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 23882849,
+        "tokens_total": 20,
+        "tokens_kept": 5,
+        "visibility": "partial"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 23882849,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 23882849,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 23882849,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 23882849,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 23882849,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 23882849,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 23882849,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 23882849,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 23882849,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 23882849,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 23882849,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 23882849,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 23882849,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 23882849,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 23882849,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 23882849,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 23882849,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 23882849,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 23882849,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 23882849,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 23882849,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 23882849,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 23882849,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 23882849,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 23882849,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 23882849,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 23882849,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 23882849,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 23882849,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 23882849,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 37047643,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 23882849,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 23882849,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 23882849,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 23882849,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 23882849,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 23882849,
+        "tokens_total": 50,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 23882849,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 23882849,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 23882849,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 23882849,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 23882849,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 23882849,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 60,
+        "id": "E60",
+        "page_id": 23882849,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 61,
+        "id": "E61",
+        "page_id": 37047643,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 62,
+        "id": "E62",
+        "page_id": 37047643,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Taylor Schilling made her film debut in 1807.</s></s>Overnight. The film premiered at the 2015 Sundance Film Festival to positive reviews. Also in 2015, Schilling made her off-Broadway debut starring in play A Month in the Country. She made a guest starring appearance in an episode of Drunk History in 2016. Taylor Schilling Schilling in 2014 Born | (1984-07-27) July 27, 1984 Education | Fordham University (BA) Occupation | Actress Years active | 2007–present After graduating from Wayland High School in 2002, Schilling attended Fordham University's campus at Lincoln Center, where she continued to take part in stage productions while earning her Bachelor of Fine Arts in 2006. She entered the graduate acting program at New York University's Tisch School of the Arts to continue her acting studies, but left after her second year. While attempting to break into acting, she supported herself by working as a nanny for a Manhattan-based family. Schilling was born July 27, 1984, the daughter of Patricia (née Miller), an MIT administrator, and Robert Schilling, a former prosecutor. She grew up in West Roxbury and Wayland, dividing her time between her divorced parents. A fan of the NBC</s>"
+  }
+}

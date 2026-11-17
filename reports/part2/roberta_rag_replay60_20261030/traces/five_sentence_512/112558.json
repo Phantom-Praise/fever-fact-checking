@@ -1,0 +1,69 @@
+{
+  "id": 112558,
+  "claim": "The Martian is based on Andy Weir's novel written in 1988.",
+  "condition": "five_sentence_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.12366724759340286,
+    0.8762151002883911,
+    0.00011766869283746928
+  ],
+  "logits": [
+    1.1846072673797607,
+    3.1426243782043457,
+    -5.77286958694458
+  ],
+  "inference_seconds": 0.11279791699999997,
+  "evidence_text": "The Martian is a 2011 science fiction novel written by Andy Weir . Andrew Taylor Weir -LRB- born June 16 , 1972 -RRB- , commonly known by his pen name , Andy Weir , is an American novelist whose debut novel , The Martian , was later adapted into a film of the same name directed by Ridley Scott in 2015 . It was his debut novel under his own name.Weir wrote a novel before this called Theft of Pride under the pen-name `` Jack Sharp '' which was released on the web for free . Andrew `` Andy '' Alan Weir -LRB- born 15 November 1937 -RRB- was a Scottish footballer , who played for Motherwell and the Scotland national team . Written in Blood is a crime novel by English author Caroline Graham , the fourth book in her popular Chief Inspector Barnaby series , which has been adapted into the equally successful ITV drama Midsomer Murders .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 199,
+    "tokens_retained": 199,
+    "truncated": false,
+    "evidence_tokens_total": 182,
+    "evidence_tokens_retained": 182,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "The_Martian_-LRB-Weir_novel-RRB-",
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Andy_Weir",
+        "tokens_total": 55,
+        "tokens_kept": 55,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "The_Martian_-LRB-Weir_novel-RRB-",
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Andy_Weir_-LRB-footballer-RRB-",
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Written_in_Blood_-LRB-novel-RRB-",
+        "tokens_total": 41,
+        "tokens_kept": 41,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>The Martian is based on Andy Weir's novel written in 1988.</s></s>The Martian is a 2011 science fiction novel written by Andy Weir . Andrew Taylor Weir -LRB- born June 16 , 1972 -RRB- , commonly known by his pen name , Andy Weir , is an American novelist whose debut novel , The Martian , was later adapted into a film of the same name directed by Ridley Scott in 2015 . It was his debut novel under his own name.Weir wrote a novel before this called Theft of Pride under the pen-name `` Jack Sharp '' which was released on the web for free . Andrew `` Andy '' Alan Weir -LRB- born 15 November 1937 -RRB- was a Scottish footballer , who played for Motherwell and the Scotland national team . Written in Blood is a crime novel by English author Caroline Graham , the fourth book in her popular Chief Inspector Barnaby series , which has been adapted into the equally successful ITV drama Midsomer Murders .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

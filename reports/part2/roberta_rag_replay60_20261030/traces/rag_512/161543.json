@@ -1,0 +1,317 @@
+{
+  "id": 161543,
+  "claim": "Enemy is a thriller dance.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.8158634901046753,
+    0.1807401180267334,
+    0.0033963345922529697
+  ],
+  "logits": [
+    2.0620956420898438,
+    0.5549087524414062,
+    -3.419454574584961
+  ],
+  "inference_seconds": 0.1110710829999988,
+  "evidence_text": "Thriller film, a film genre under the general thriller genre destroying the enemy Thriller may also refer to: Rivalry Thriller most often refers to: Enemy combatant Thriller, a 1982 album by Killer Thr!!!er, a 2013 album by !!! Ring of Terror \"Thriller\" (song), by Michael Jackson Thrill (disambiguation) Anti-fan Demonization An enemy or a foe is an individual or a group that is considered as forcefully adverse or threatening. The concept of an enemy has been observed to be \"basic for both individuals and communities\". The term \"enemy\" serves the social function of designating a particular entity as a threat, thereby invoking an intense emotional response to that entity. The state of being or having an enemy is enmity, foehood or foeship. Triller (disambiguation) Sing: Thriller, a 2024 animated short film from Illumination, based on the music video from Michael Jackson Thriller (Swoop album) (1993) Thriller (EP), 2013, by BtoB Thriller, a 2009 album by Part Chimp known group as an enemy, and to pejoratively frame that identification. A government may seek to represent a person or group as a threat to the public good by designating that person or group to be a public enemy, or an enemy of the people. The concept of the enemy is well covered in the field of peace and conflict studies, which is available as a major at many major universities. In peace studies, enemies are those entities who are perceived as frustrating or preventing achievement of a goal. The enemy may not even know they are being regarded as such, since the concept is one-sided. Frenemy Thriller (genre), a broad genre of literature, film and television \"Thriller\" (viral video), a 2007 video featuring prison inmates in Cebu, Philippines recreating the dance from Michael Jackson's music video Thriller (Cold Blood album) (1973) The Thriller (roller coaster) Thriller (Lambchop album) (1997) Some movies that were shown were: Thriller (album), 1982, by Michael Jackson \"Thriller\", a song by Fall Out Boy from Infinity on High",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 469,
+    "tokens_retained": 469,
+    "truncated": false,
+    "evidence_tokens_total": 457,
+    "evidence_tokens_retained": 457,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 957022,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 33884873,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 957022,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 33884873,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 957022,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 33884873,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 957022,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 957022,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 22947281,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 957022,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 957022,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 33884873,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 33884873,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 33884873,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 33884873,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 33884873,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 33884873,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 957022,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 957022,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 957022,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 957022,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 957022,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 33884873,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 33884873,
+        "tokens_total": 37,
+        "tokens_kept": 37,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 33884873,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 33884873,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 33884873,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 33884873,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 957022,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 957022,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 957022,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 957022,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 957022,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 22947281,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 957022,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 957022,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Enemy is a thriller dance.</s></s>Thriller film, a film genre under the general thriller genre destroying the enemy Thriller may also refer to: Rivalry Thriller most often refers to: Enemy combatant Thriller, a 1982 album by Killer Thr!!!er, a 2013 album by !!! Ring of Terror \"Thriller\" (song), by Michael Jackson Thrill (disambiguation) Anti-fan Demonization An enemy or a foe is an individual or a group that is considered as forcefully adverse or threatening. The concept of an enemy has been observed to be \"basic for both individuals and communities\". The term \"enemy\" serves the social function of designating a particular entity as a threat, thereby invoking an intense emotional response to that entity. The state of being or having an enemy is enmity, foehood or foeship. Triller (disambiguation) Sing: Thriller, a 2024 animated short film from Illumination, based on the music video from Michael Jackson Thriller (Swoop album) (1993) Thriller (EP), 2013, by BtoB Thriller, a 2009 album by Part Chimp known group as an enemy, and to pejoratively frame that identification. A government may seek to represent a person or group as a threat to the public good by designating that person or group to be a public enemy, or an enemy of the people. The concept of the enemy is well covered in the field of peace and conflict studies, which is available as a major at many major universities. In peace studies, enemies are those entities who are perceived as frustrating or preventing achievement of a goal. The enemy may not even know they are being regarded as such, since the concept is one-sided. Frenemy Thriller (genre), a broad genre of literature, film and television \"Thriller\" (viral video), a 2007 video featuring prison inmates in Cebu, Philippines recreating the dance from Michael Jackson's music video Thriller (Cold Blood album) (1973) The Thriller (roller coaster) Thriller (Lambchop album) (1997) Some movies that were shown were: Thriller (album), 1982, by Michael Jackson \"Thriller\", a song by Fall Out Boy from Infinity on High</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

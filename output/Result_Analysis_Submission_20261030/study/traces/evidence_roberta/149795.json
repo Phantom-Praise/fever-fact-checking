@@ -1,0 +1,62 @@
+{
+  "id": 149795,
+  "claim": "Scanline VFX is credited for special effects for The Avengers.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.8613511919975281,
+    0.138376384973526,
+    0.00027244994998909533
+  ],
+  "logits": [
+    2.9491896629333496,
+    1.1206648349761963,
+    -5.109612941741943
+  ],
+  "evidence": [
+    {
+      "page_id": "Scanline_VFX",
+      "sentence_id": 0,
+      "text": "Scanline VFX is a visual effects company with offices in Los Angeles , Vancouver and Munich .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Special_effects_supervisor",
+      "sentence_id": 6,
+      "text": "Special effects -LRB- SFX -RRB- or -LRB- SPFX -RRB- are produced on the set , as opposed to those created in post-production which are generally called `` visual effects '' -LRB- VFX -RRB- .",
+      "score": 3.02
+    },
+    {
+      "page_id": "Scanline_VFX",
+      "sentence_id": 11,
+      "text": "Scanline VFX/Los Angeles has worked on `` The Wolf of Wall Street '' , `` Man of Steel '' , `` 300 : Rise of an Empire '' , `` Iron Man 3 '' and `` A Good Day to Die Hard '' .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Best_Special_Effects",
+      "sentence_id": 0,
+      "text": "Best Special Effects usually refers to a specific award category at various awards ceremonies within cinema , TV and music .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Best_Special_Effects",
+      "sentence_id": 5,
+      "text": "The Academy Award for Best Visual Effects , which was called Best Special Effects from 1939 to 1963 , and included both visual and sound effects from 1939 to 1962",
+      "score": 2.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 192,
+    "tokens_retained": 192,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Scanline VFX is credited for special effects for The Avengers.</s></s>Scanline VFX is a visual effects company with offices in Los Angeles , Vancouver and Munich . Special effects -LRB- SFX -RRB- or -LRB- SPFX -RRB- are produced on the set , as opposed to those created in post-production which are generally called `` visual effects '' -LRB- VFX -RRB- . Scanline VFX/Los Angeles has worked on `` The Wolf of Wall Street '' , `` Man of Steel '' , `` 300 : Rise of an Empire '' , `` Iron Man 3 '' and `` A Good Day to Die Hard '' . Best Special Effects usually refers to a specific award category at various awards ceremonies within cinema , TV and music . The Academy Award for Best Visual Effects , which was called Best Special Effects from 1939 to 1963 , and included both visual and sound effects from 1939 to 1962</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.08288262499999988
+}

@@ -1,0 +1,269 @@
+{
+  "scope": "Post-hoc inspection only; original saved predictions remain unchanged",
+  "cases": [
+    {
+      "id": 106579,
+      "claim": "Clint Eastwood worked on the Western film Unforgiven in 2003.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 110,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The claim cannot be fully evaluated due to missing information about the year 2003.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "NOT ENOUGH INFO"
+    },
+    {
+      "id": 111557,
+      "claim": "Carolina Panthers are a team from New Jersey.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 298,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The claim 'Carolina Panthers are a team from New Jersey' is refuted by the provided evidence.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "REFUTES"
+    },
+    {
+      "id": 113256,
+      "claim": "Santorini has a population of 15,550 dogs.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 122,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The claim 'Santorini has a population of 15,550' cannot be evaluated based on the given evidence.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "NOT ENOUGH INFO"
+    },
+    {
+      "id": 116431,
+      "claim": "FC Barcelona has won American titles in basketball.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 117,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The claim cannot be supported or refuted based on the given evidence. There is no information about American titles won by FC Barcelona in basketball.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "NOT ENOUGH INFO"
+    },
+    {
+      "id": 128569,
+      "claim": "Dark Places stars two actors born in Japan.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 87,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "NOT ENOUGH INFO",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "NOT ENOUGH INFO"
+    },
+    {
+      "id": 128891,
+      "claim": "Jennifer Lawrence stars in The Hunger Games.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 125,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The provided evidence strongly supports the claim that Jennifer Lawrence stars in The Hunger Games.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "SUPPORTS"
+    },
+    {
+      "id": 167230,
+      "claim": "Count Basie took his son to the third-most populous city in the United States.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 95,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "NOT ENOUGH INFO",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "NOT ENOUGH INFO"
+    },
+    {
+      "id": 17174,
+      "claim": "28 Days (film) was unable to cast Dominic West.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 92,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "NOT ENOUGH INFO",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "NOT ENOUGH INFO"
+    },
+    {
+      "id": 197148,
+      "claim": "O. J. Simpson won the trophy.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 87,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "NOT ENOUGH INFO",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "NOT ENOUGH INFO"
+    },
+    {
+      "id": 198135,
+      "claim": "Julie Walters failed to be an actress.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 163,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The claim is refuted by the provided evidence.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "REFUTES"
+    },
+    {
+      "id": 199544,
+      "claim": "US Congress only has 30 Senators.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 253,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The claim is refuted by the evidence provided.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "REFUTES"
+    },
+    {
+      "id": 206937,
+      "claim": "Michael Keaton is an American director and actor.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 326,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The claim is supported by the provided evidence.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "SUPPORTS"
+    },
+    {
+      "id": 210134,
+      "claim": "Lonesome Dove (miniseries) had 18 wins at the 1989 Emmy Awards.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 142,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The claim is supported by the provided evidence.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "SUPPORTS"
+    },
+    {
+      "id": 40186,
+      "claim": "The Berlin Wall was in Germany.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 214,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The claim is supported by the provided evidence.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "SUPPORTS"
+    },
+    {
+      "id": 45676,
+      "claim": "Fairy Tail had a third series.",
+      "original_label": "INVALID",
+      "error": "Expecting value: line 1 column 1 (char 0)",
+      "normal_stop": true,
+      "output_tokens": 95,
+      "inspection_error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "id": 45987,
+      "claim": "Shueisha's CEO is from Japan.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 84,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "NOT ENOUGH INFO",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "NOT ENOUGH INFO"
+    },
+    {
+      "id": 79089,
+      "claim": "Steve Buscemi is a producer.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 119,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "NOT ENOUGH INFO",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "NOT ENOUGH INFO"
+    },
+    {
+      "id": 97558,
+      "claim": "Rachel McAdams starred in Twilight.",
+      "original_label": "INVALID",
+      "error": "Invalid top-level parts schema",
+      "normal_stop": true,
+      "output_tokens": 134,
+      "top_level_keys": [
+        "parts",
+        "overall_label"
+      ],
+      "overall_label": "The claim is refuted by the provided evidence.",
+      "parts_schema_and_id_check": "passes",
+      "derived_label_for_inspection": "REFUTES"
+    }
+  ]
+}

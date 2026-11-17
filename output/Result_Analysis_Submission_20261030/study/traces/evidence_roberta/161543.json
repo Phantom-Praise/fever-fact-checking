@@ -1,0 +1,62 @@
+{
+  "id": 161543,
+  "claim": "Enemy is a thriller dance.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.07084574550390244,
+    0.9290739893913269,
+    8.024721319088712e-05
+  ],
+  "logits": [
+    0.8824892044067383,
+    3.4561727046966553,
+    -5.90065860748291
+  ],
+  "evidence": [
+    {
+      "page_id": "Thriller",
+      "sentence_id": 0,
+      "text": "Thriller may refer to :",
+      "score": 1.1
+    },
+    {
+      "page_id": "Enemy",
+      "sentence_id": 0,
+      "text": "Enemy or foe is an individual or a group that is seen as forcefully adverse or threatening .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Enemy",
+      "sentence_id": 1,
+      "text": "The concept of an enemy has been observed to be `` basic for both individuals and communities '' .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Enemy",
+      "sentence_id": 2,
+      "text": "The term `` enemy '' serves the social function of designating a particular entity as a threat , thereby invoking an intense emotional response to that entity .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Enemy",
+      "sentence_id": 3,
+      "text": "The state of being or having an enemy is enmity , foehood or foeship .",
+      "score": 1.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 103,
+    "tokens_retained": 103,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Enemy is a thriller dance.</s></s>Thriller may refer to : Enemy or foe is an individual or a group that is seen as forcefully adverse or threatening . The concept of an enemy has been observed to be `` basic for both individuals and communities '' . The term `` enemy '' serves the social function of designating a particular entity as a threat , thereby invoking an intense emotional response to that entity . The state of being or having an enemy is enmity , foehood or foeship .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.08389758299999883
+}

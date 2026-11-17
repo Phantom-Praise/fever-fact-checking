@@ -1,0 +1,70 @@
+{
+  "id": 218116,
+  "claim": "A central venous catheter is also known as a central venous access catheter.",
+  "condition": "five_sentence_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9559749960899353,
+    0.043896354734897614,
+    0.00012871692888438702
+  ],
+  "logits": [
+    3.613126754760742,
+    0.5322263240814209,
+    -5.299744606018066
+  ],
+  "inference_seconds": 0.05605020800000027,
+  "evidence_text": "A central venous catheter -LRB- CVC -RRB- , also known as a central line , central venous line , or central venous access catheter , is a catheter placed into a large vein . Catheters can be placed in veins in the neck -LRB- internal jugular vein -RRB- , chest -LRB- subclavian vein or axillary vein -RRB- , groin -LRB- femoral vein -RRB- , or through veins in the arms -LRB- also known as a PICC line , or peripherally inserted central catheters -RRB- . In medicine , a peripheral venous catheter -LRB- PVC -RRB- , peripheral venous line or peripheral venous access catheter is a catheter -LRB- small , flexible tube -RRB- placed into a peripheral vein in order to administer medication or fluids . A peripheral venous catheter is the most commonly used vascular access in medicine . It should be distinguished from a central venous catheter which is inserted in a central vein -LRB- usually in the internal jugular vein of the neck or the subclavian vein of the chest -RRB- , or an arterial catheter which can be placed in a peripheral as well as a central artery .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 299,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 277,
+    "evidence_tokens_retained": 234,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Central_venous_catheter",
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Central_venous_catheter",
+        "tokens_total": 88,
+        "tokens_kept": 88,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Peripheral_venous_catheter",
+        "tokens_total": 59,
+        "tokens_kept": 59,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Peripheral_venous_catheter",
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Peripheral_venous_catheter",
+        "tokens_total": 67,
+        "tokens_kept": 24,
+        "visibility": "partial"
+      }
+    ],
+    "decoded_retained_input": "<s>A central venous catheter is also known as a central venous access catheter.</s></s>A central venous catheter -LRB- CVC -RRB- , also known as a central line , central venous line , or central venous access catheter , is a catheter placed into a large vein . Catheters can be placed in veins in the neck -LRB- internal jugular vein -RRB- , chest -LRB- subclavian vein or axillary vein -RRB- , groin -LRB- femoral vein -RRB- , or through veins in the arms -LRB- also known as a PICC line , or peripherally inserted central catheters -RRB- . In medicine , a peripheral venous catheter -LRB- PVC -RRB- , peripheral venous line or peripheral venous access catheter is a catheter -LRB- small , flexible tube -RRB- placed into a peripheral vein in order to administer medication or fluids . A peripheral venous catheter is the most commonly used vascular access in medicine . It should be distinguished from a central venous catheter which is inserted in a central vein -LRB- usually in</s>"
+  },
+  "saved_probability_max_difference": 0.0
+}

@@ -1,0 +1,1 @@
+Open index.html in a browser. Charts, all claim catalogs, and the saved pilot/assessment traces use bundled data.js. Full benchmark Wikipedia/token details require the local research server. No model requests are made. Saved measurements, cohort sizes and uncertainty are preserved. The full written analysis is included.

@@ -1,0 +1,307 @@
+{
+  "n": 60,
+  "status": "complete_exploratory",
+  "conditions": {
+    "five_sentence_256": {
+      "n": 60,
+      "accuracy": 0.5666666666666667,
+      "macro_f1": 0.45478036175710596,
+      "confusion_matrix": [
+        [
+          19,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          15,
+          0,
+          0
+        ],
+        [
+          13,
+          7,
+          0,
+          0
+        ]
+      ],
+      "prediction_columns": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO",
+        "INVALID"
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 19,
+          "FP": 18,
+          "FN": 1,
+          "TN": 22,
+          "precision": 0.5135135135135135,
+          "recall": 0.95,
+          "f1": 0.6666666666666666
+        },
+        "REFUTES": {
+          "TP": 15,
+          "FP": 8,
+          "FN": 5,
+          "TN": 32,
+          "precision": 0.6521739130434783,
+          "recall": 0.75,
+          "f1": 0.6976744186046512
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 20,
+          "TN": 40,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "invalid": 0,
+      "correct": 34,
+      "truncated_inputs": 2,
+      "mean_evidence_tokens_retained": 160.36666666666667
+    },
+    "rag_256": {
+      "n": 60,
+      "accuracy": 0.5333333333333333,
+      "macro_f1": 0.4264069264069264,
+      "confusion_matrix": [
+        [
+          18,
+          2,
+          0,
+          0
+        ],
+        [
+          6,
+          14,
+          0,
+          0
+        ],
+        [
+          12,
+          8,
+          0,
+          0
+        ]
+      ],
+      "prediction_columns": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO",
+        "INVALID"
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 18,
+          "FP": 18,
+          "FN": 2,
+          "TN": 22,
+          "precision": 0.5,
+          "recall": 0.9,
+          "f1": 0.6428571428571429
+        },
+        "REFUTES": {
+          "TP": 14,
+          "FP": 10,
+          "FN": 6,
+          "TN": 30,
+          "precision": 0.5833333333333334,
+          "recall": 0.7,
+          "f1": 0.6363636363636364
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 20,
+          "TN": 40,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "invalid": 0,
+      "correct": 32,
+      "truncated_inputs": 60,
+      "mean_evidence_tokens_retained": 241.56666666666666
+    },
+    "five_sentence_512": {
+      "n": 60,
+      "accuracy": 0.5666666666666667,
+      "macro_f1": 0.45478036175710596,
+      "confusion_matrix": [
+        [
+          19,
+          1,
+          0,
+          0
+        ],
+        [
+          5,
+          15,
+          0,
+          0
+        ],
+        [
+          13,
+          7,
+          0,
+          0
+        ]
+      ],
+      "prediction_columns": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO",
+        "INVALID"
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 19,
+          "FP": 18,
+          "FN": 1,
+          "TN": 22,
+          "precision": 0.5135135135135135,
+          "recall": 0.95,
+          "f1": 0.6666666666666666
+        },
+        "REFUTES": {
+          "TP": 15,
+          "FP": 8,
+          "FN": 5,
+          "TN": 32,
+          "precision": 0.6521739130434783,
+          "recall": 0.75,
+          "f1": 0.6976744186046512
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 20,
+          "TN": 40,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "invalid": 0,
+      "correct": 34,
+      "truncated_inputs": 0,
+      "mean_evidence_tokens_retained": 161.26666666666668
+    },
+    "rag_512": {
+      "n": 60,
+      "accuracy": 0.5333333333333333,
+      "macro_f1": 0.4264069264069264,
+      "confusion_matrix": [
+        [
+          18,
+          2,
+          0,
+          0
+        ],
+        [
+          6,
+          14,
+          0,
+          0
+        ],
+        [
+          12,
+          8,
+          0,
+          0
+        ]
+      ],
+      "prediction_columns": [
+        "SUPPORTS",
+        "REFUTES",
+        "NOT ENOUGH INFO",
+        "INVALID"
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 18,
+          "FP": 18,
+          "FN": 2,
+          "TN": 22,
+          "precision": 0.5,
+          "recall": 0.9,
+          "f1": 0.6428571428571429
+        },
+        "REFUTES": {
+          "TP": 14,
+          "FP": 10,
+          "FN": 6,
+          "TN": 30,
+          "precision": 0.5833333333333334,
+          "recall": 0.7,
+          "f1": 0.6363636363636364
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 20,
+          "TN": 40,
+          "precision": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "invalid": 0,
+      "correct": 32,
+      "truncated_inputs": 56,
+      "mean_evidence_tokens_retained": 491.1
+    }
+  },
+  "comparisons": {
+    "rag_256__vs__five_sentence_256": {
+      "accuracy_difference": -0.03333333333333333,
+      "fixed": 2,
+      "introduced": 4,
+      "paired_95_interval": [
+        -0.11666666666666667,
+        0.05
+      ]
+    },
+    "rag_512__vs__five_sentence_512": {
+      "accuracy_difference": -0.03333333333333333,
+      "fixed": 2,
+      "introduced": 4,
+      "paired_95_interval": [
+        -0.11666666666666667,
+        0.05
+      ]
+    },
+    "five_sentence_512__vs__five_sentence_256": {
+      "accuracy_difference": 0.0,
+      "fixed": 0,
+      "introduced": 0,
+      "paired_95_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "rag_512__vs__rag_256": {
+      "accuracy_difference": 0.0,
+      "fixed": 2,
+      "introduced": 2,
+      "paired_95_interval": [
+        -0.06666666666666667,
+        0.06666666666666667
+      ]
+    }
+  },
+  "limitations": [
+    "No retraining; annotated-evidence/empty-NEI training mismatch persists.",
+    "RAG changes passage selection and corpus date together; not an isolated vector-store effect.",
+    "Even 512 tokens cannot necessarily contain all saved RAG passages.",
+    "Inference time below excludes the earlier RAG fetching/embedding cost.",
+    "All 60 already reviewed claims are exploratory; do not choose a configuration then claim fresh test accuracy."
+  ]
+}

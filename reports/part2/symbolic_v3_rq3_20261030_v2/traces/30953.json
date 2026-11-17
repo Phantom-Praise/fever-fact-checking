@@ -1,0 +1,116 @@
+{
+  "id": 30953,
+  "claim": "Left Eye was Lisa Lopes's stage name.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.056612167000000824,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.7006067037582397,
+        0.17937281727790833,
+        0.12002052366733551
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08633387499999934,
+      "symbolic": {
+        "claim": "Left Eye was Lisa Lopes's stage name.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3458999999826915e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Lisa_Lopes",
+          "sentence_id": 0,
+          "text": "Lisa Nicole Lopes -LRB- May 27 , 1971 -- April 25 , 2002 -RRB- , better known by her stage name Left Eye , was an American hip hop singer , rapper , actress , songwriter and producer .",
+          "score": 6.1
+        },
+        {
+          "page_id": "Lisa_Lopes",
+          "sentence_id": 15,
+          "text": "The last days of her life were made into a documentary called The Last Days of Left Eye , which aired on VH1 in May 2007 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Stage_Left",
+          "sentence_id": 0,
+          "text": "Stage Left is Martin Barre 's fourth studio CD , released in 2003 .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Stage_Left",
+          "sentence_id": 3,
+          "text": "Stage Left was supported with a tour in small venues .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Stage_name",
+          "sentence_id": 0,
+          "text": "A stage name , also called a screen name , is a pseudonym used by performers and entertainers such as actors , comedians , and musicians .",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.9695641398429871,
+        0.03035915456712246,
+        7.664076838409528e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0758971250000009,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Lisa_Lopes",
+          "sentence_id": 0,
+          "text": "Lisa Nicole Lopes -LRB- May 27 , 1971 -- April 25 , 2002 -RRB- , better known by her stage name Left Eye , was an American hip hop singer , rapper , actress , songwriter and producer .",
+          "score": 6.1
+        },
+        {
+          "page_id": "Lisa_Lopes",
+          "sentence_id": 15,
+          "text": "The last days of her life were made into a documentary called The Last Days of Left Eye , which aired on VH1 in May 2007 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Stage_Left",
+          "sentence_id": 0,
+          "text": "Stage Left is Martin Barre 's fourth studio CD , released in 2003 .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Stage_Left",
+          "sentence_id": 3,
+          "text": "Stage Left was supported with a tour in small venues .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Stage_name",
+          "sentence_id": 0,
+          "text": "A stage name , also called a screen name , is a pseudonym used by performers and entertainers such as actors , comedians , and musicians .",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.9695641398429871,
+        0.03035915456712246,
+        7.664076838409528e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

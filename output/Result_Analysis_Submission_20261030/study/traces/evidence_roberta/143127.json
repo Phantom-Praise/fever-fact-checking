@@ -1,0 +1,62 @@
+{
+  "id": 143127,
+  "claim": "Imagine Dragons have a drummer.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.99290931224823,
+    0.006958434358239174,
+    0.00013228735770098865
+  ],
+  "logits": [
+    4.286004066467285,
+    -0.6746807098388672,
+    -4.63741397857666
+  ],
+  "evidence": [
+    {
+      "page_id": "Imagine_Dragons",
+      "sentence_id": 0,
+      "text": "Imagine Dragons is an American rock band from Las Vegas , Nevada , consisting of lead vocalist Dan Reynolds , lead guitarist Wayne Sermon , bassist Ben McKee , and drummer Daniel Platzman .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Imagine_Dragons",
+      "sentence_id": 8,
+      "text": "Imagine Dragons has won two American Music Awards for Favorite Alternative Artist , a Grammy Award for Best Rock Performance , five Billboard Music Awards , and a World Music Award .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Imagine_Dragons",
+      "sentence_id": 10,
+      "text": "As of January 2017 , Imagine Dragons have sold 9 million albums and 27 million singles worldwide .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Imagine_Dragons_discography",
+      "sentence_id": 0,
+      "text": "The discography of American rock band Imagine Dragons consists of two studio albums , four live albums , eight extended plays , seventeen singles , two promotional singles and twelve music videos .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Imagine_Dragons_discography",
+      "sentence_id": 2,
+      "text": "Imagine Dragons later found commercial success with the release of their fourth extended play , Continued Silence , in February 2012 .",
+      "score": 2.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 156,
+    "tokens_retained": 156,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Imagine Dragons have a drummer.</s></s>Imagine Dragons is an American rock band from Las Vegas , Nevada , consisting of lead vocalist Dan Reynolds , lead guitarist Wayne Sermon , bassist Ben McKee , and drummer Daniel Platzman . Imagine Dragons has won two American Music Awards for Favorite Alternative Artist , a Grammy Award for Best Rock Performance , five Billboard Music Awards , and a World Music Award . As of January 2017 , Imagine Dragons have sold 9 million albums and 27 million singles worldwide . The discography of American rock band Imagine Dragons consists of two studio albums , four live albums , eight extended plays , seventeen singles , two promotional singles and twelve music videos . Imagine Dragons later found commercial success with the release of their fourth extended play , Continued Silence , in February 2012 .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.07727970800000072
+}

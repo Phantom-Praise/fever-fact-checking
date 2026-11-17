@@ -1,0 +1,157 @@
+{
+  "A_original": {
+    "n": 60,
+    "accuracy": 0.4666666666666667,
+    "macro_f1": 0.4627003627003627,
+    "fever_score": 0.4,
+    "confusion_matrix": [
+      [
+        11,
+        0,
+        9,
+        0
+      ],
+      [
+        1,
+        5,
+        14,
+        0
+      ],
+      [
+        5,
+        3,
+        12,
+        0
+      ]
+    ],
+    "invalid": 0,
+    "retrieval_complete_hits": 22,
+    "retrieval_eligible": 40,
+    "retrieval_complete_recall": 0.55,
+    "claim_overrides": 0
+  },
+  "B_prompt": {
+    "n": 60,
+    "accuracy": 0.5333333333333333,
+    "macro_f1": 0.5258394282784528,
+    "fever_score": 0.43333333333333335,
+    "confusion_matrix": [
+      [
+        13,
+        2,
+        5,
+        0
+      ],
+      [
+        1,
+        13,
+        6,
+        0
+      ],
+      [
+        7,
+        7,
+        6,
+        0
+      ]
+    ],
+    "invalid": 0,
+    "retrieval_complete_hits": 22,
+    "retrieval_eligible": 40,
+    "retrieval_complete_recall": 0.55,
+    "claim_overrides": 0
+  },
+  "C_retrieval": {
+    "n": 60,
+    "accuracy": 0.55,
+    "macro_f1": 0.5527777777777777,
+    "fever_score": 0.48333333333333334,
+    "confusion_matrix": [
+      [
+        14,
+        0,
+        6,
+        0
+      ],
+      [
+        1,
+        8,
+        11,
+        0
+      ],
+      [
+        5,
+        4,
+        11,
+        0
+      ]
+    ],
+    "invalid": 0,
+    "retrieval_complete_hits": 26,
+    "retrieval_eligible": 40,
+    "retrieval_complete_recall": 0.65,
+    "claim_overrides": 0
+  },
+  "D_both": {
+    "n": 60,
+    "accuracy": 0.6,
+    "macro_f1": 0.5902356902356902,
+    "fever_score": 0.5166666666666667,
+    "confusion_matrix": [
+      [
+        14,
+        1,
+        5,
+        0
+      ],
+      [
+        1,
+        15,
+        4,
+        0
+      ],
+      [
+        5,
+        8,
+        7,
+        0
+      ]
+    ],
+    "invalid": 0,
+    "retrieval_complete_hits": 26,
+    "retrieval_eligible": 40,
+    "retrieval_complete_recall": 0.65,
+    "claim_overrides": 0
+  },
+  "E_claim_fallback": {
+    "n": 60,
+    "accuracy": 0.6333333333333333,
+    "macro_f1": 0.6181943780222116,
+    "fever_score": 0.5333333333333333,
+    "confusion_matrix": [
+      [
+        15,
+        1,
+        4,
+        0
+      ],
+      [
+        1,
+        16,
+        3,
+        0
+      ],
+      [
+        5,
+        8,
+        7,
+        0
+      ]
+    ],
+    "invalid": 0,
+    "retrieval_complete_hits": 26,
+    "retrieval_eligible": 40,
+    "retrieval_complete_recall": 0.65,
+    "claim_overrides": 2
+  }
+}

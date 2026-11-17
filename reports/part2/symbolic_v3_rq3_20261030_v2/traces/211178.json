@@ -1,0 +1,116 @@
+{
+  "id": 211178,
+  "claim": "Marcus Allen's younger brother is a monk.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08449483300000082,
+      "symbolic": {
+        "claim": "Marcus Allen's younger brother is a monk.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 2.033399999845642e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Marcus_Allen",
+          "sentence_id": 8,
+          "text": "His younger brother , Damon Allen , played quarterback for 23 seasons in the Canadian Football League and was professional football 's all-time leader in passing yards .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Younger_Brother",
+          "sentence_id": 0,
+          "text": "Younger Brother is an electronic duo formed in 2003 by Simon Posford and Benji Vaughan .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Younger_Brother",
+          "sentence_id": 14,
+          "text": "They also returned to play shows with the `` Younger Brother Live '' band in Boulder and Denver , Colorado and in California , which included Marc Brownstein -LRB- The Disco Biscuits , Electron -RRB- on bass , Tom Hamilton -LRB- Brothers Past , The American Babies , Electron -RRB- on guitar , and Joe Russo -LRB- The Benevento/Russo Duo , Furthur , Bustle In Your Hedgerow , The American Babies , Electron -RRB- on drums in Japan , the US and played a sell out show to 3,000 people at the Brixton Academy , London .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Younger_Brother",
+          "sentence_id": 17,
+          "text": "2009 saw Younger Brother produce `` Phoenix in Dynamite Sky '' for British cult film Heartless , directed by Philip Ridley and due for release in 2010 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Younger_Brother",
+          "sentence_id": 28,
+          "text": "The band 's name is taken from a Kogi prophecy ; the Kogi regarded themselves as the Older Brother and say that the destruction of the Earth and environment would be by Westerners called Younger Brother .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.033766064792871475,
+        0.966136634349823,
+        9.737176878843457e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "NOT ENOUGH INFO",
+      "wall_seconds": 0.056026166000000543,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.05242186412215233,
+        0.017514396458864212,
+        0.930063784122467
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.06487091700000036,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Marcus_Allen",
+          "sentence_id": 8,
+          "text": "His younger brother , Damon Allen , played quarterback for 23 seasons in the Canadian Football League and was professional football 's all-time leader in passing yards .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Younger_Brother",
+          "sentence_id": 0,
+          "text": "Younger Brother is an electronic duo formed in 2003 by Simon Posford and Benji Vaughan .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Younger_Brother",
+          "sentence_id": 14,
+          "text": "They also returned to play shows with the `` Younger Brother Live '' band in Boulder and Denver , Colorado and in California , which included Marc Brownstein -LRB- The Disco Biscuits , Electron -RRB- on bass , Tom Hamilton -LRB- Brothers Past , The American Babies , Electron -RRB- on guitar , and Joe Russo -LRB- The Benevento/Russo Duo , Furthur , Bustle In Your Hedgerow , The American Babies , Electron -RRB- on drums in Japan , the US and played a sell out show to 3,000 people at the Brixton Academy , London .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Younger_Brother",
+          "sentence_id": 17,
+          "text": "2009 saw Younger Brother produce `` Phoenix in Dynamite Sky '' for British cult film Heartless , directed by Philip Ridley and due for release in 2010 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Younger_Brother",
+          "sentence_id": 28,
+          "text": "The band 's name is taken from a Kogi prophecy ; the Kogi regarded themselves as the Older Brother and say that the destruction of the Earth and environment would be by Westerners called Younger Brother .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.033766064792871475,
+        0.966136634349823,
+        9.737176878843457e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,517 @@
+{
+  "id": 117015,
+  "claim": "Robert Redford is a performer.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9395613074302673,
+    0.05982191860675812,
+    0.0006168436375446618
+  ],
+  "logits": [
+    3.025297164916992,
+    0.27125614881515503,
+    -4.303255558013916
+  ],
+  "inference_seconds": 0.11448054199999902,
+  "evidence_text": "1980. Executive producer People I Know (2002) This is the filmography of American actor, director, producer and activist Robert Redford. The March (2013) (Documentary) Redford (surname) She's the One (1996) The American Epic Sessions (2017) (Documentary) Drunktown's Finest (2014) Redford may refer to: The American West (2016) American Epic (2017) (Documentary) Robert Redford Redford in 1971 Born | Charles Robert Redford Jr. (1936-08-18)August 18, 1936 Santa Monica, California, U.S. Died | September 16, 2025(2025-09-16) (aged 89) Sundance, Utah, U.S. Burial place | Robert Redford Home, Sundance Occupations | Actorfilm directorproducer Years active | 1958–2025 Works | Full list Spouses | Lola Van Wagenen ​ ​(m. 1958; div. 1985)​ Sibylle Szaggars ​(m. 2009)​ Children | 4, including James and Amy Awards | Full list Signature Charles Robert Redford Jr. (August 18, 1936 – September 16, 2025) was an American actor, director, and producer, celebrated for his magnetic presence as a leading man during the American New Wave. Across a career spanning more than six decades, Redford earned widespread recognition and numerous awards, including an Academy Award, a BAFTA Award and five Golden Globe Awards, including a Cecil B. DeMille Award in 1994. He also earned various other honors, including the Screen Actors Guild Life Achievement Award in 1996, the Academy Honorary Award in 2002, the Kennedy Center Honors in 2005, the Presidential Medal of Freedom in 2016, and the Honorary César in 2019. Redford died in his sleep at his home in Sundance, Utah, on September 16, 2025, at the age of 89. Several of Redford's co-stars paid tribute to him, including frequent collaborator Jane Fonda, who wrote, \"He meant a lot to me and was a beautiful person in every way. He stood for an America that we have to keep fighting for.\" Fonda later added: \"I was always in love with him. The most gorgeous human being and such great values. And he did a lot for movies, he really changed movies, lifted up independent movies.\" His Out of Africa co-star Meryl Streep wrote, \"One of the lions has passed. Rest in peace, my lovely friend.\" His The Way We Were co-star Barbra Streisand released a lengthy statement, which read in part, \"Bob was charismatic, intelligent, intense, always interesting—and one of the finest actors ever.\" best movie since 'Ordinary People'\". Redford, Angus In 2008, Redford received The Dorothy and Lillian Gish Prize, one of the richest prizes in the arts, given annually to \"a man or woman who has made an outstanding contribution to the beauty of the world and to mankind's enjoyment and understanding of life.\" The University of Southern California (USC) School of Dramatic Arts announced the first annual Robert Redford Award for Engaged Artists in 2009. According to the school's website, the award was created \"to honor those who have distinguished themselves not only in the exemplary quality, skill and innovation of their work, but also in their public commitment to social responsibility, to increasing awareness of global issues and events and to inspiring and empowering young people.\" Year | Title | Director | Producer | Notes 1980 | Ordinary People | Yes | No | 1988 | The Milagro Beanfield War | Yes | Yes | 1992 | A River Runs Through It | Yes | Yes | 1994 | Quiz Show | Yes | Yes | 1998 | The Horse Whisperer | Yes | Yes | A Civil Action | No | Yes | 2000 | The Legend of Bagger Vance | Yes | Yes | 2007 | Lions for Lambs | Yes | Yes | 2010 | The Conspirator | Yes | Yes | 2012 | The Company You Keep | Yes | Yes | 2014 | Cathedrals of Culture | Yes | No | Documentary; Segment: \"The Salk Institute\" 2015 | A Walk in the Woods | No | Yes | 2017 | Our Souls at Night | No | Yes | 2018 | The Old Man & the Gun | No | Yes | Redford was buried on his property in Sundance after a private funeral. At the 98th Academy Awards, Barbra Streisand eulogized Redford during the in memoriam segment. She also briefly sang \"The Way We Were\". Love in the Time of Money (2002) No Looking Back (1998)",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 976,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 965,
+    "evidence_tokens_retained": 501,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 61982,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 10393984,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 10393984,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 10393984,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 10393984,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 454682,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 10393984,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 10393984,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 10393984,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 454682,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 10393984,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 10393984,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 61982,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 61982,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 61982,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 61982,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 61982,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 61982,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 61982,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 61982,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 61982,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 61982,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 61982,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 61982,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 61982,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 61982,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 61982,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 61982,
+        "tokens_total": 42,
+        "tokens_kept": 42,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 61982,
+        "tokens_total": 38,
+        "tokens_kept": 38,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 61982,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 61982,
+        "tokens_total": 53,
+        "tokens_kept": 53,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 61982,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 61982,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 61982,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 61982,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 61982,
+        "tokens_total": 39,
+        "tokens_kept": 27,
+        "visibility": "partial"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 61982,
+        "tokens_total": 51,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 61982,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 454682,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 61982,
+        "tokens_total": 83,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 61982,
+        "tokens_total": 59,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 10393984,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 10393984,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 10393984,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 10393984,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 10393984,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 10393984,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 10393984,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 10393984,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 10393984,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 10393984,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 10393984,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 10393984,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 10393984,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 10393984,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 10393984,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 61982,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 61982,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 61982,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 60,
+        "id": "E60",
+        "page_id": 10393984,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 61,
+        "id": "E61",
+        "page_id": 10393984,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Robert Redford is a performer.</s></s>1980. Executive producer People I Know (2002) This is the filmography of American actor, director, producer and activist Robert Redford. The March (2013) (Documentary) Redford (surname) She's the One (1996) The American Epic Sessions (2017) (Documentary) Drunktown's Finest (2014) Redford may refer to: The American West (2016) American Epic (2017) (Documentary) Robert Redford Redford in 1971 Born | Charles Robert Redford Jr. (1936-08-18)August 18, 1936 Santa Monica, California, U.S. Died | September 16, 2025(2025-09-16) (aged 89) Sundance, Utah, U.S. Burial place | Robert Redford Home, Sundance Occupations | Actorfilm directorproducer Years active | 1958–2025 Works | Full list Spouses | Lola Van Wagenen ​ ​(m. 1958; div. 1985)​ Sibylle Szaggars ​(m. 2009)​ Children | 4, including James and Amy Awards | Full list Signature Charles Robert Redford Jr. (August 18, 1936 – September 16, 2025) was an American actor, director, and producer, celebrated for his magnetic presence as a leading man during the American New Wave. Across a career spanning more than six decades, Redford earned widespread recognition and numerous awards, including an Academy Award, a BAFTA Award and five Golden Globe Awards, including a Cecil B. DeMille Award in 1994. He also earned various other honors, including the Screen Actors Guild Life Achievement Award in 1996, the Academy Honorary Award in 2002, the Kennedy Center Honors in 2005, the Presidential Medal of Freedom in 2016, and the Honorary César in 2019. Redford died in his sleep at his home in Sundance, Utah, on September 16, 2025, at the age of 89. Several of Redford's co-stars paid tribute to him, including frequent collaborator Jane Fonda, who wrote, \"He meant a lot to me and was a beautiful person in every way. He stood for an America that we have to keep fighting for.\" Fonda later added: \"I was always in love with him. The most gorgeous human being and such great values. And he did a lot for movies, he really changed movies, lifted up independent movies.\" His Out of Africa co-star Meryl</s>"
+  }
+}

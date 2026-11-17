@@ -1,0 +1,116 @@
+{
+  "id": 212364,
+  "claim": "Linda McCartney was self-diagnosed with breast cancer in 1995.",
+  "conditions": {
+    "claim_only": {
+      "label": "NOT ENOUGH INFO",
+      "wall_seconds": 0.07491254199999986,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.3107016086578369,
+        0.3257937431335449,
+        0.36350464820861816
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.1198627500000029,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Linda_McCartney",
+          "sentence_id": 18,
+          "text": "In 1995 she was diagnosed with breast cancer and died from the disease in 1998 at the age of 56 .",
+          "score": 4.05
+        },
+        {
+          "page_id": "Breast_cancer",
+          "sentence_id": 0,
+          "text": "Breast cancer is cancer that develops from breast tissue .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Breast_cancer",
+          "sentence_id": 1,
+          "text": "Signs of breast cancer may include a lump in the breast , a change in breast shape , dimpling of the skin , fluid coming from the nipple , or a red scaly patch of skin .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Breast_cancer",
+          "sentence_id": 5,
+          "text": "Risk factors for developing breast cancer include being female , obesity , lack of physical exercise , drinking alcohol , hormone replacement therapy during menopause , ionizing radiation , early age at first menstruation , having children late or not at all , older age , and family history .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Breast_cancer",
+          "sentence_id": 7,
+          "text": "Breast cancer most commonly develops in cells from the lining of milk ducts and the lobules that supply the ducts with milk .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.23593884706497192,
+        0.763882577419281,
+        0.00017856179329100996
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07334458400000088,
+      "symbolic": {
+        "claim": "Linda McCartney was self-diagnosed with breast cancer in 1995.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.6166000001760494e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Linda_McCartney",
+          "sentence_id": 18,
+          "text": "In 1995 she was diagnosed with breast cancer and died from the disease in 1998 at the age of 56 .",
+          "score": 4.05
+        },
+        {
+          "page_id": "Breast_cancer",
+          "sentence_id": 0,
+          "text": "Breast cancer is cancer that develops from breast tissue .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Breast_cancer",
+          "sentence_id": 1,
+          "text": "Signs of breast cancer may include a lump in the breast , a change in breast shape , dimpling of the skin , fluid coming from the nipple , or a red scaly patch of skin .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Breast_cancer",
+          "sentence_id": 5,
+          "text": "Risk factors for developing breast cancer include being female , obesity , lack of physical exercise , drinking alcohol , hormone replacement therapy during menopause , ionizing radiation , early age at first menstruation , having children late or not at all , older age , and family history .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Breast_cancer",
+          "sentence_id": 7,
+          "text": "Breast cancer most commonly develops in cells from the lining of milk ducts and the lobules that supply the ducts with milk .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.23593884706497192,
+        0.763882577419281,
+        0.00017856179329100996
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "status": "complete",
+  "n": 10,
+  "conditions": {
+    "old_five_sentence": {
+      "n": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "macro_f1": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          2,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          2,
+          0
+        ]
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "precision": 0.5,
+          "recall": 0.5,
+          "f1": 0.5
+        },
+        "REFUTES": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "NOT ENOUGH INFO": {
+          "precision": 0.4,
+          "recall": 0.6666666666666666,
+          "f1": 0.5
+        }
+      },
+      "invalid": 0,
+      "mean_wall_seconds": 3.0823248917999964
+    },
+    "ephemeral_full_article_rag": {
+      "n": 10,
+      "correct": 4,
+      "accuracy": 0.4,
+      "macro_f1": 0.3151515151515151,
+      "confusion_matrix": [
+        [
+          3,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0
+        ]
+      ],
+      "per_class": {
+        "SUPPORTS": {
+          "precision": 0.42857142857142855,
+          "recall": 0.75,
+          "f1": 0.5454545454545454
+        },
+        "REFUTES": {
+          "precision": 0.5,
+          "recall": 0.3333333333333333,
+          "f1": 0.4
+        },
+        "NOT ENOUGH INFO": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "invalid": 0,
+      "mean_wall_seconds": 52.372849262500004
+    }
+  },
+  "fixed": 2,
+  "introduced": 2,
+  "all_workspaces_deleted": true,
+  "limitations": [
+    "Ten exploratory development claims; not a reliable population improvement estimate or a blind test.",
+    "Corpus date, evidence retrieval, input context and citation prompt differ together; this does not isolate the effect of a vector database.",
+    "No strict FEVER score is computed for live-Wikipedia citations; current revision/block offsets are not historical FEVER sentence IDs.",
+    "Citation validation proves only that quoted excerpts came from the supplied context, not that they logically establish the label.",
+    "Original title ranking can retain irrelevant/disambiguation pages. No retuning from these ten outcomes.",
+    "Baseline uses a 256-token output cap in this pilot, versus 128 in the earlier saved original experiment. Both current conditions have the same generation limits.",
+    "One local Llama model and embedding model; temperature zero and a fixed seed do not guarantee cross-runtime determinism."
+  ],
+  "embedding_setup_seconds": 0.058394584000000194,
+  "no_full_articles_retained": true
+}

@@ -1,0 +1,69 @@
+{
+  "id": 173750,
+  "claim": "Steel (1997 film) has Judd Nelson in its cast who originally tried out for Shaq's part.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9168798327445984,
+    0.08284051716327667,
+    0.00027954147662967443
+  ],
+  "logits": [
+    3.1461009979248047,
+    0.742041826248169,
+    -4.949480056762695
+  ],
+  "inference_seconds": 0.10972016699999898,
+  "evidence_text": "The film stars Shaquille O'Neal as John Henry Irons and his alter-ego Steel , Annabeth Gish as his wheelchair-using partner Susan Sparks , and Judd Nelson as their rival Nathaniel Burke . Steel is a 1997 American superhero action film based on the DC Comics character Steel . Judd Asher Nelson -LRB- born November 28 , 1959 -RRB- is an American actor , screenwriter , and producer . Cast in Steel is the tenth and last studio album by Norwegian band A-ha . Cast in Steel is the first a-ha album to use the original band logo since Memorial Beach from 1993 , and the first album to be produced by Alan Tarney since Stay on These Roads -LRB- 1988 -RRB- .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 178,
+    "tokens_retained": 178,
+    "truncated": false,
+    "evidence_tokens_total": 153,
+    "evidence_tokens_retained": 153,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Steel_-LRB-1997_film-RRB-",
+        "tokens_total": 44,
+        "tokens_kept": 44,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Steel_-LRB-1997_film-RRB-",
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Judd_Nelson",
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Cast_in_Steel",
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Cast_in_Steel",
+        "tokens_total": 48,
+        "tokens_kept": 48,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Steel (1997 film) has Judd Nelson in its cast who originally tried out for Shaq's part.</s></s>The film stars Shaquille O'Neal as John Henry Irons and his alter-ego Steel , Annabeth Gish as his wheelchair-using partner Susan Sparks , and Judd Nelson as their rival Nathaniel Burke . Steel is a 1997 American superhero action film based on the DC Comics character Steel . Judd Asher Nelson -LRB- born November 28 , 1959 -RRB- is an American actor , screenwriter , and producer . Cast in Steel is the tenth and last studio album by Norwegian band A-ha . Cast in Steel is the first a-ha album to use the original band logo since Memorial Beach from 1993 , and the first album to be produced by Alan Tarney since Stay on These Roads -LRB- 1988 -RRB- .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

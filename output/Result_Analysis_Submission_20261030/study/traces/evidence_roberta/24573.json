@@ -1,0 +1,62 @@
+{
+  "id": 24573,
+  "claim": "Supernatural's 12th season ended on May 19th, 2017.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.8933725357055664,
+    0.10644110292196274,
+    0.00018642116629052907
+  ],
+  "logits": [
+    3.1486148834228516,
+    1.0212030410766602,
+    -5.326135635375977
+  ],
+  "evidence": [
+    {
+      "page_id": "Supernatural_-LRB-season_12-RRB-",
+      "sentence_id": 0,
+      "text": "The twelfth season of Supernatural , an American fantasy horror television series created by Eric Kripke , premiered on October 13 , 2016 , on The CW and concluded on May 18 , 2017 .",
+      "score": 4.011111111111111
+    },
+    {
+      "page_id": "Supernatural_-LRB-season_1-RRB-",
+      "sentence_id": 0,
+      "text": "The first season of Supernatural , an American fantasy horror television series created by Eric Kripke , premiered on September 13 , 2005 , and concluded on May 4 , 2006 after 22 episodes .",
+      "score": 3.0166666666666666
+    },
+    {
+      "page_id": "Supernatural_-LRB-season_10-RRB-",
+      "sentence_id": 0,
+      "text": "The tenth season of Supernatural , an American fantasy horror television series created by Eric Kripke , premiered on October 7 , 2014 on The CW , and concluded on May 20 , 2015 , consisting of 23 episodes .",
+      "score": 3.0142857142857142
+    },
+    {
+      "page_id": "Supernatural_-LRB-season_11-RRB-",
+      "sentence_id": 0,
+      "text": "The eleventh season of Supernatural , an American fantasy horror television series created by Eric Kripke , premiered on October 7 , 2015 , on The CW and concluded on May 25 , 2016 .",
+      "score": 3.0125
+    },
+    {
+      "page_id": "Supernatural_-LRB-season_2-RRB-",
+      "sentence_id": 0,
+      "text": "The second season of Supernatural , an American fantasy horror television series created by Eric Kripke , premiered on September 28 , 2006 , and concluded on May 17 , 2007 , airing 22 episodes .",
+      "score": 3.01
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 216,
+    "tokens_retained": 216,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Supernatural's 12th season ended on May 19th, 2017.</s></s>The twelfth season of Supernatural , an American fantasy horror television series created by Eric Kripke , premiered on October 13 , 2016 , on The CW and concluded on May 18 , 2017 . The first season of Supernatural , an American fantasy horror television series created by Eric Kripke , premiered on September 13 , 2005 , and concluded on May 4 , 2006 after 22 episodes . The tenth season of Supernatural , an American fantasy horror television series created by Eric Kripke , premiered on October 7 , 2014 on The CW , and concluded on May 20 , 2015 , consisting of 23 episodes . The eleventh season of Supernatural , an American fantasy horror television series created by Eric Kripke , premiered on October 7 , 2015 , on The CW and concluded on May 25 , 2016 . The second season of Supernatural , an American fantasy horror television series created by Eric Kripke , premiered on September 28 , 2006 , and concluded on May 17 , 2007 , airing 22 episodes .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.14803908300000046
+}

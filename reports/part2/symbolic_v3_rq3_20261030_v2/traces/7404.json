@@ -1,0 +1,116 @@
+{
+  "id": 7404,
+  "claim": "Joan of Arc was a woman.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07328650000000003,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Joan_the_Woman",
+          "sentence_id": 0,
+          "text": "Joan the Woman is a 1916 American epic silent drama film directed by Cecil B. DeMille and starring Geraldine Farrar as Joan of Arc .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Joan_of_Arc",
+          "sentence_id": 0,
+          "text": "Joan of Arc -LRB- Jeanne d'Arc , -LSB- ʒan daʁk -RSB- ; 6 January c. 1412 -- 30 May 1431 -RRB- , nicknamed `` The Maid of Orléans '' -LRB- La Pucelle d'Orléans -RRB- , is considered a heroine of France for her role during the Lancastrian phase of the Hundred Years ' War and was canonized as a Roman Catholic saint .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Joan_of_Arc",
+          "sentence_id": 1,
+          "text": "Joan of Arc was born to Jacques d'Arc and Isabelle Romée , a peasant family , at Domrémy in north-east France .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Joan_of_Arc",
+          "sentence_id": 17,
+          "text": "Joan of Arc is one of the nine secondary patron saints of France , along with Saint Denis , Saint Martin of Tours , Saint Louis , Saint Michael , Saint Rémi , Saint Petronilla , Saint Radegund and Saint Thérèse of Lisieux .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Joan_of_Arc",
+          "sentence_id": 20,
+          "text": "Joan of Arc has remained a popular figure in literature , painting , sculpture , and other cultural works since the time of her death , and many famous writers , filmmakers and composers have created works about her .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.979107141494751,
+        0.02082473412156105,
+        6.813050276832655e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06340166700000083,
+      "symbolic": {
+        "claim": "Joan of Arc was a woman.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.5167000000815278e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Joan_the_Woman",
+          "sentence_id": 0,
+          "text": "Joan the Woman is a 1916 American epic silent drama film directed by Cecil B. DeMille and starring Geraldine Farrar as Joan of Arc .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Joan_of_Arc",
+          "sentence_id": 0,
+          "text": "Joan of Arc -LRB- Jeanne d'Arc , -LSB- ʒan daʁk -RSB- ; 6 January c. 1412 -- 30 May 1431 -RRB- , nicknamed `` The Maid of Orléans '' -LRB- La Pucelle d'Orléans -RRB- , is considered a heroine of France for her role during the Lancastrian phase of the Hundred Years ' War and was canonized as a Roman Catholic saint .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Joan_of_Arc",
+          "sentence_id": 1,
+          "text": "Joan of Arc was born to Jacques d'Arc and Isabelle Romée , a peasant family , at Domrémy in north-east France .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Joan_of_Arc",
+          "sentence_id": 17,
+          "text": "Joan of Arc is one of the nine secondary patron saints of France , along with Saint Denis , Saint Martin of Tours , Saint Louis , Saint Michael , Saint Rémi , Saint Petronilla , Saint Radegund and Saint Thérèse of Lisieux .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Joan_of_Arc",
+          "sentence_id": 20,
+          "text": "Joan of Arc has remained a popular figure in literature , painting , sculpture , and other cultural works since the time of her death , and many famous writers , filmmakers and composers have created works about her .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.979107141494751,
+        0.02082473412156105,
+        6.813050276832655e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05754287499999933,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.8982102274894714,
+        0.01918378472328186,
+        0.0826060101389885
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

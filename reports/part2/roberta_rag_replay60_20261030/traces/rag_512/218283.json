@@ -1,0 +1,501 @@
+{
+  "id": 218283,
+  "claim": "Dwayne Johnson is a professional skateboarder.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9407296776771545,
+    0.05857628211379051,
+    0.0006940081366337836
+  ],
+  "logits": [
+    3.0155961513519287,
+    0.2392701655626297,
+    -4.196331024169922
+  ],
+  "inference_seconds": 0.10778683300000225,
+  "evidence_text": "United States Wrestling Association WWE/World Wrestling Entertainment/Federation Wrestler of the Year (2000) Dwayne Johnson (born 1972), American actor and professional wrestler, also known as The Rock. Marc Johnson (January 6, 1977 – May 26, 2026) was an American professional skateboarder. He was known for his creative and passionate approach to skateboarding and was awarded Thrasher Magazine's Skater of the Year in 2007. Pro Wrestling Illustrated DeWayne Jackson (born 1990), American basketball player In a eulogy published in Closer Skateboarding Magazine, filmmaker Spike Jonze said: Sports Illustrated In 2018, Johnson started a skateboard company called Business & Company. Most Improved (1998) Dewane Dwayne Johnson Johnson in 2025 Born | Dwayne Douglas Johnson (1972-05-02) May 2, 1972 Hayward, California, U.S. Other name | Dwayne \"The Rock\" Johnson Citizenship | United StatesCanada Education | University of Miami (BGS) Occupations | Actorproducerprofessional wrestler Years active | 1996–present Works | Filmography Spouses | Dany Garcia ​ ​(m. 1997; div. 2008)​ Lauren Hashian ​(m. 2019)​ Children | 3, including Simone Father | Rocky Johnson Relatives | Anoaʻi family Professional wrestling career Ring names | Flex KavanaRocky MaiviaThe Rock Billed height | 6 ft 5 in (196 cm) Billed weight | 260 lb (118 kg) Billed from | Miami, Florida Trained by | Pat PattersonRocky JohnsonTom Prichard Debut | March 10, 1996 Signature Most Popular Wrestler of the Year (1999, 2000) DeWayne Walker (born 1960), American football player and coach Sixth Triple Crown Champion Elwood: 1st & Hope (2006) Professional skateboarder Paul Rodriguez included Johnson in his \"top ten\" list of favorite professional skateboarders in July 2013. Rodriguez praised Johnson as \"a boss\" with \"incredible style\" and \"incredible technical capabilities.\" The list was published on Rodriguez's personal website and he concluded with the statement, \"I think he is one of the all time greats for sure.\" ON Video: Spring 2001 (2001) Royal Rumble (2000) Duane Johnson was born in Hayward, California, on May 2, 1972, the son of former professional wrestler Rocky Johnson (born Wayde Douglas Bowles) and Mataniufeagaimaleata \"Ata\" Fitisemanu (née Maivia). Growing up, he briefly lived in Grey Lynn in Auckland, New Zealand, with his mother's family, where he played rugby and attended Richmond Road Primary School before returning to the U.S. Thrasher: King Of The Road 2011 (2011) After graduating, Johnson was signed by the Calgary Stampeders of the Canadian Football League. Calgary moved him from defensive tackle to linebacker. He was assigned to Calgary's practice roster, but was cut two months into Calgary's 1995 season. Marc Johnson was known for offering intellectual opinions on the creative side of skateboarding. In a 2007 Thrasher interview, Johnson explained his inspiration in the following manner: Dwayne Jones (disambiguation), various people Dwayne Anderson (born 1986), American basketball player Maple: Promo (1995) Slammy Award (10 times) Transworld: Modus Operandi (2000)",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 705,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 691,
+    "evidence_tokens_retained": 498,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 156126,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 156126,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 156126,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 2987078,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 4318942,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 4318942,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 156126,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 2987078,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 4318942,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 156126,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 4318942,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 156126,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 2987078,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 156126,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 156126,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 156126,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 156126,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 156126,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 156126,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 156126,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 156126,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 156126,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 156126,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 156126,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 156126,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 156126,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 156126,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 156126,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 156126,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 156126,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 156126,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 156126,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 156126,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 156126,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 156126,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 156126,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 156126,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 156126,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 2987078,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 156126,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 4318942,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 4318942,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 4318942,
+        "tokens_total": 52,
+        "tokens_kept": 52,
+        "visibility": "full"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 4318942,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 156126,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 2987078,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 156126,
+        "tokens_total": 53,
+        "tokens_kept": 36,
+        "visibility": "partial"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 156126,
+        "tokens_total": 39,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 4318942,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 156126,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 156126,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 156126,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 4318942,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 4318942,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 2987078,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 2987078,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 4318942,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 156126,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 4318942,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Dwayne Johnson is a professional skateboarder.</s></s>United States Wrestling Association WWE/World Wrestling Entertainment/Federation Wrestler of the Year (2000) Dwayne Johnson (born 1972), American actor and professional wrestler, also known as The Rock. Marc Johnson (January 6, 1977 – May 26, 2026) was an American professional skateboarder. He was known for his creative and passionate approach to skateboarding and was awarded Thrasher Magazine's Skater of the Year in 2007. Pro Wrestling Illustrated DeWayne Jackson (born 1990), American basketball player In a eulogy published in Closer Skateboarding Magazine, filmmaker Spike Jonze said: Sports Illustrated In 2018, Johnson started a skateboard company called Business & Company. Most Improved (1998) Dewane Dwayne Johnson Johnson in 2025 Born | Dwayne Douglas Johnson (1972-05-02) May 2, 1972 Hayward, California, U.S. Other name | Dwayne \"The Rock\" Johnson Citizenship | United StatesCanada Education | University of Miami (BGS) Occupations | Actorproducerprofessional wrestler Years active | 1996–present Works | Filmography Spouses | Dany Garcia ​ ​(m. 1997; div. 2008)​ Lauren Hashian ​(m. 2019)​ Children | 3, including Simone Father | Rocky Johnson Relatives | Anoaʻi family Professional wrestling career Ring names | Flex KavanaRocky MaiviaThe Rock Billed height | 6 ft 5 in (196 cm) Billed weight | 260 lb (118 kg) Billed from | Miami, Florida Trained by | Pat PattersonRocky JohnsonTom Prichard Debut | March 10, 1996 Signature Most Popular Wrestler of the Year (1999, 2000) DeWayne Walker (born 1960), American football player and coach Sixth Triple Crown Champion Elwood: 1st & Hope (2006) Professional skateboarder Paul Rodriguez included Johnson in his \"top ten\" list of favorite professional skateboarders in July 2013. Rodriguez praised Johnson as \"a boss\" with \"incredible style\" and \"incredible technical capabilities.\" The list was published on Rodriguez's personal website and he concluded with the statement, \"I think he is one of the all time greats for sure.\" ON Video: Spring 2001 (2001) Royal Rumble (2000) Duane Johnson was born in Hayward, California, on May 2, 1972, the son of former professional wrestler Rocky Johnson (born Wayde Douglas Bowles) and Mataniufeag</s>"
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "id": 72400,
+  "claim": "Monica Seles won her last Grand Slam singles title while she was a citizen of Bolivia.",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.27073174715042114,
+    0.7283406257629395,
+    0.0009276604978367686
+  ],
+  "logits": [
+    1.2012778520584106,
+    2.190918207168579,
+    -4.474939823150635
+  ],
+  "inference_seconds": 0.1077269579999971,
+  "evidence_text": "List of Grand Slam women's singles champions Grand Slam (tennis) During the height of her career (the 1990 French Open through the 1993 Australian Open), she won eight of the 11 Grand Slam singles tournaments she contested. With eight Grand Slam singles titles before her 20th birthday, Seles holds the record for most Grand Slam singles titles won as a teenager in the Open Era. From January 1991 through February 1993, Seles won 22 titles and reached 33 finals in 34 tournaments. She compiled a 159–12 win–loss record (92.9% winning percentage), including a 55–1 win–loss record (98%) in Grand Slam tournaments. In the broader context of her first four years on the circuit (1989–1992), Seles had a win–loss record of 231–25 (90.2%) and collected 30 titles. She once again ended the year as the number one ranked player in the world. Seles dominated the women's tour in 1991 and 1992. In 1991, she won the Australian Open in January, beating Jana Novotná in the final. In March, Seles replaced Graf as the world's top player. She successfully defended her French Open title, beating Arantxa Sánchez Vicario in the final. Suffering from shin splints, Seles was unable to play at Wimbledon and took a six-week break. She was back for the US Open, defeating Martina Navratilova in the final, her third Grand Slam title of the year.. Seles won the year-end Virginia Slims Championships for the second consecutive time, defeating Navratilova in four sets. At the end of season, Seles had won 10 out of the 16 tournaments she entered, reaching the final of every tournament that she entered that year. She ended the year as the world's number one player. Monica Seles (born December 2, 1973) is a former professional tennis player who represented Yugoslavia and the United States. She was ranked as the world No. 1 in women's singles by the WTA for 178 weeks (sixth-most of all time), and finished as the year-end No. 1 three times. Seles won 53 career singles titles, including nine majors: eight as a teenager while representing Yugoslavia and the final one while representing the United States. 1993 | Winner of 3 Grand Slam tournaments for 2 consecutive years | Stands alone Seles was the top-ranked women's player heading into 1993, having won the French Open for three consecutive years and both the US Open and Australian Open in consecutive years. In January 1993, Seles defeated Graf in the final of the Australian Open, which, at that time, was her third win in four Grand Slam tournament finals against Graf. She then won the Virginia Slims of Chicago over Martina Navratilova in three sets. While she did not reach another major singles final, she did consistently reach the quarterfinal and semifinal stages in those tournaments and was a fixture in the WTA Tour's top 10. In 2002, her last full year on the tour, she finished the year ranked world No. 7, defeated Venus Williams, Martina Hingis, Jennifer Capriati, Justine Henin, Maria Sharapova, Kim Clijsters, and Lindsay Davenport, and reached at least the quarter-finals at each Grand Slam tournament. In January 1996, Seles won her fourth Australian Open title, defeating Anke Huber in the final. Her pivotal match was the semi-final versus rising American star Chanda Rubin, who led her 5–2 in the final set, and had two break points to lead 5–1. Seles came back from two points from defeat to triumph and reach the final. This was to be Seles's last Grand Slam title, as she struggled to recapture her best form on a consistent basis. Seles was the runner-up to Graf again at the US Open in 1996. Seles' last Grand Slam final came at the French Open in 1998, just a few weeks after the death of her father and former coach, Karolj, from cancer. In the run to the final, she had defeated world No. 3 Jana Novotná in three sets and world No. 1 Martina Hingis in straight sets, but lost to Sánchez Vicario in the three-set Seles won eight major titles during her teenage years. However, her career was greatly affected by the stabbing incident. Some involved with the sport have declared that Seles could have become the most accomplished female player ever. In an article written 20 years after Seles was stabbed, Jonathan Scott of Tennis.com stated, \"Would Monica Seles have been the greatest female tennis player ever? The world will never know.\" In a 2013 interview, Martina Navratilova theorized that if Seles had not been stabbed, \"We'd be talking about Monica with the most Grand Slam titles [ahead of] Margaret Court or Steffi Graf.\" Mary Joe Fernandez declared that Seles would have at least doubled her Grand Slam championship tally, had she not been attacked. Tim Adams of The Guardian stated that Seles would have become \"the greatest female tennis player ever to pick up a racket.\" third set. Seles then won the Virginia Slims of Los Angeles title against Martina Navratilova and then defeated Navratilova again in winning the Oakland California tournament, in straight sets. She also won the 1990 year-end Virginia Slims Championships, defeating Gabriela Sabatini in five sets (in the first five-set women's match since the 1901 US National Championships), becoming the youngest to ever win the season-ending championships. She finished the year ranked world number 2.",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1201,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1178,
+    "evidence_tokens_retained": 489,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 300468,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 300468,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 300468,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 300468,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 300468,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 300468,
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 300468,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 300468,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 300468,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 300468,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 300468,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 300468,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 300468,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 300468,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 300468,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 300468,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 300468,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 300468,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 300468,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 300468,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 300468,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 300468,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 300468,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 300468,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 300468,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 300468,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 300468,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 300468,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 300468,
+        "tokens_total": 52,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 300468,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 300468,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 300468,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 300468,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 300468,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 300468,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 300468,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 300468,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 300468,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 300468,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 300468,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 300468,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 300468,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 300468,
+        "tokens_total": 78,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 300468,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 300468,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 300468,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 300468,
+        "tokens_total": 52,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 300468,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Monica Seles won her last Grand Slam singles title while she was a citizen of Bolivia.</s></s>List of Grand Slam women's singles champions Grand Slam (tennis) During the height of her career (the 1990 French Open through the 1993 Australian Open), she won eight of the 11 Grand Slam singles tournaments she contested. With eight Grand Slam singles titles before her 20th birthday, Seles holds the record for most Grand Slam singles titles won as a teenager in the Open Era. From January 1991 through February 1993, Seles won 22 titles and reached 33 finals in 34 tournaments. She compiled a 159–12 win–loss record (92.9% winning percentage), including a 55–1 win–loss record (98%) in Grand Slam tournaments. In the broader context of her first four years on the circuit (1989–1992), Seles had a win–loss record of 231–25 (90.2%) and collected 30 titles. She once again ended the year as the number one ranked player in the world. Seles dominated the women's tour in 1991 and 1992. In 1991, she won the Australian Open in January, beating Jana Novotná in the final. In March, Seles replaced Graf as the world's top player. She successfully defended her French Open title, beating Arantxa Sánchez Vicario in the final. Suffering from shin splints, Seles was unable to play at Wimbledon and took a six-week break. She was back for the US Open, defeating Martina Navratilova in the final, her third Grand Slam title of the year.. Seles won the year-end Virginia Slims Championships for the second consecutive time, defeating Navratilova in four sets. At the end of season, Seles had won 10 out of the 16 tournaments she entered, reaching the final of every tournament that she entered that year. She ended the year as the world's number one player. Monica Seles (born December 2, 1973) is a former professional tennis player who represented Yugoslavia and the United States. She was ranked as the world No. 1 in women's singles by the WTA for 178 weeks (sixth-most of all time), and finished as the year-end No. 1 three times. Seles won 53 career singles titles, including nine majors: eight as a teenager while representing Yugoslavia and the final one while representing the United States. 1993 | Winner of 3 Grand Slam tournaments for 2 consecutive years | Stands alone</s>"
+  }
+}

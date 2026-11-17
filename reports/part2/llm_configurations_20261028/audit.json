@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": [
+    "Frozen source, data and checkpoint hashes unchanged",
+    "60 balanced calibration and 120 disjoint assessment claims",
+    "Calibration excludes training text; assessment excludes prior pilot text",
+    "Every prompt contains exactly the declared claim/evidence, without gold labels",
+    "All recorded generation options and model identity match protocol",
+    "All calibration and assessment condition metrics independently recompute",
+    "Hybrid final labels and override counts reproduce the fixed rule",
+    "Selection reproduces calibration-only ranking",
+    "Selection hash frozen before assessment and unchanged afterward"
+  ]
+}

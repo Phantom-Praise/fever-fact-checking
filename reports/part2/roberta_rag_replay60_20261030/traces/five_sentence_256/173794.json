@@ -1,0 +1,70 @@
+{
+  "id": 173794,
+  "claim": "Nigeria is the most populous country in Europe.",
+  "condition": "five_sentence_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.7091940641403198,
+    0.2902602255344391,
+    0.0005456263897940516
+  ],
+  "logits": [
+    2.3445534706115723,
+    1.451202154159546,
+    -4.825396537780762
+  ],
+  "inference_seconds": 0.0564399579999999,
+  "evidence_text": "This is a list of the most populous cities of Pakistan according to the 1998 census . This is a list of the most populous municipalities in Belgium . Most Beautiful Girl in Nigeria -- often abbreviated as MBGN -- is a pageant organised by Silverbird Group with the main purpose of sending representatives to international competitions . Originally known as Miss Universe Nigeria , it was renamed Most Beautiful Girl in Nigeria after news publishers Daily Times lost its license to send delegates from rival contest Miss Nigeria to Miss World and Miss Universe . This is a list of the most populous metropolitan areas in Pakistan .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 127,
+    "tokens_retained": 127,
+    "truncated": false,
+    "evidence_tokens_total": 112,
+    "evidence_tokens_retained": 112,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "List_of_most_populous_cities_in_Pakistan",
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "List_of_most_populous_municipalities_in_Belgium",
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Most_Beautiful_Girl_in_Nigeria",
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Most_Beautiful_Girl_in_Nigeria",
+        "tokens_total": 38,
+        "tokens_kept": 38,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "List_of_most_populous_metropolitan_areas_in_Pakistan",
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Nigeria is the most populous country in Europe.</s></s>This is a list of the most populous cities of Pakistan according to the 1998 census . This is a list of the most populous municipalities in Belgium . Most Beautiful Girl in Nigeria -- often abbreviated as MBGN -- is a pageant organised by Silverbird Group with the main purpose of sending representatives to international competitions . Originally known as Miss Universe Nigeria , it was renamed Most Beautiful Girl in Nigeria after news publishers Daily Times lost its license to send delegates from rival contest Miss Nigeria to Miss World and Miss Universe . This is a list of the most populous metropolitan areas in Pakistan .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

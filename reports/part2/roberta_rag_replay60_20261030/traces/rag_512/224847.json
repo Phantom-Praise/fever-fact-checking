@@ -1,0 +1,365 @@
+{
+  "id": 224847,
+  "claim": "Snoop Dogg is an actor.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9848979115486145,
+    0.014805682003498077,
+    0.00029641948640346527
+  ],
+  "logits": [
+    3.776740312576294,
+    -0.4207865595817566,
+    -4.331777095794678
+  ],
+  "inference_seconds": 0.10946583299999801,
+  "evidence_text": ". Porn performers include: Calvin Cordozar Broadus Jr. (born October 20, 1971), known professionally as Snoop Dogg, is an American rapper, singer, record producer, record executive, songwriter, and actor. A key figure in West Coast hip-hop, he helped define G-funk and gangsta rap, and is often regarded as one of the greatest rappers of all time. Known for his signature drawled delivery and melodic flow, his lyrics frequently address social issues such as recreational drug use and gun violence. Snoop Dogg filmography Mr. Marcus List of Snoop Dogg guest appearances Tha Doggfather (1996) Snoop Dogg's entourage includes: Bush (2015) List of celebrities who own cannabis businesses BODR (2022) Coolaid (2016) Doggumentary (2011) Alize Snoop Dogg has appeared in numerous films and television episodes throughout his career. His starring roles in film includes The Wash (with Dr. Dre) and the horror film Bones. He also co-starred with rapper Wiz Khalifa in the 2012 movie Mac & Devin Go to High School which a sequel has been announced. He has had various supporting and cameo roles in film, including Half Baked, Training Day, Starsky & Hutch, and Brüno. From tha Streets 2 tha Suites (2021) Mark Anthony Charlie Angel /a | Also producer TBA | All-Star Weekend † | TBA | Completed Petro Snoop Dogg has been an active entrepreneur and investor. In 2009, he was appointed creative chairman of Priority Records. Snoop Dogg film discography Music videos | 101 Films | 87 TV series appearances | 38 Carla Harvey India Missionary (2024) Lil Scrappy's No Problem as himself. found liable. Tha Locs Video dancers include: Kaire",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 392,
+    "tokens_retained": 392,
+    "truncated": false,
+    "evidence_tokens_total": 379,
+    "evidence_tokens_retained": 379,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 88923,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 2582428,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 88923,
+        "tokens_total": 42,
+        "tokens_kept": 42,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 88923,
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 88923,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 2582428,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 2582428,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 2582428,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 3049502,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 88923,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 2582428,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 88923,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 88923,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 88923,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 88923,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 88923,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 2582428,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 88923,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 88923,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 88923,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 88923,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 88923,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 88923,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 2582428,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 2582428,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 11538558,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 11538558,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 2582428,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 88923,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 88923,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 11538558,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 11538558,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 11538558,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 11538558,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 2582428,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 2582428,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 88923,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 11538558,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 88923,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 2582428,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 2582428,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 2582428,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Snoop Dogg is an actor.</s></s>. Porn performers include: Calvin Cordozar Broadus Jr. (born October 20, 1971), known professionally as Snoop Dogg, is an American rapper, singer, record producer, record executive, songwriter, and actor. A key figure in West Coast hip-hop, he helped define G-funk and gangsta rap, and is often regarded as one of the greatest rappers of all time. Known for his signature drawled delivery and melodic flow, his lyrics frequently address social issues such as recreational drug use and gun violence. Snoop Dogg filmography Mr. Marcus List of Snoop Dogg guest appearances Tha Doggfather (1996) Snoop Dogg's entourage includes: Bush (2015) List of celebrities who own cannabis businesses BODR (2022) Coolaid (2016) Doggumentary (2011) Alize Snoop Dogg has appeared in numerous films and television episodes throughout his career. His starring roles in film includes The Wash (with Dr. Dre) and the horror film Bones. He also co-starred with rapper Wiz Khalifa in the 2012 movie Mac & Devin Go to High School which a sequel has been announced. He has had various supporting and cameo roles in film, including Half Baked, Training Day, Starsky & Hutch, and Brüno. From tha Streets 2 tha Suites (2021) Mark Anthony Charlie Angel /a | Also producer TBA | All-Star Weekend † | TBA | Completed Petro Snoop Dogg has been an active entrepreneur and investor. In 2009, he was appointed creative chairman of Priority Records. Snoop Dogg film discography Music videos | 101 Films | 87 TV series appearances | 38 Carla Harvey India Missionary (2024) Lil Scrappy's No Problem as himself. found liable. Tha Locs Video dancers include: Kaire</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

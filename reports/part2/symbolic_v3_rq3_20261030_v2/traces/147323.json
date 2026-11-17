@@ -1,0 +1,116 @@
+{
+  "id": 147323,
+  "claim": "Good Will Hunting was released in black and white.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.1086498339999995,
+      "symbolic": {
+        "claim": "Good Will Hunting was released in black and white.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.1333999999862954e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Good_Will_Hunting",
+          "sentence_id": 0,
+          "text": "Good Will Hunting is a 1997 American drama film , directed by Gus Van Sant , and starring Robin Williams , Matt Damon , Ben Affleck , Minnie Driver and Stellan Skarsgård .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Good_Will_Hunting",
+          "sentence_id": 1,
+          "text": "Written by Affleck and Damon -LRB- and with Damon in the title role -RRB- , the film follows 20-year-old South Boston laborer Will Hunting , an unrecognized genius who , as part of a deferred prosecution agreement after assaulting a police officer , becomes a client of a therapist and studies advanced mathematics with a renowned professor .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Good_Hunting",
+          "sentence_id": 0,
+          "text": "Good Hunting may refer to :",
+          "score": 2.05
+        },
+        {
+          "page_id": "Good_Hunting",
+          "sentence_id": 3,
+          "text": "Good Hunting , a play written by Nathanael West , in collaboration with Joseph Schrank",
+          "score": 2.05
+        },
+        {
+          "page_id": "Free_Will_Hunting",
+          "sentence_id": 0,
+          "text": "`` Free Will Hunting '' is the ninth episode of the seventh season of the animated sitcom Futurama .",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.47372308373451233,
+        0.5256053805351257,
+        0.0006715763593092561
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "NOT ENOUGH INFO",
+      "wall_seconds": 0.05759741699999932,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.3290759027004242,
+        0.055287767201662064,
+        0.6156363487243652
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08756229199999943,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Good_Will_Hunting",
+          "sentence_id": 0,
+          "text": "Good Will Hunting is a 1997 American drama film , directed by Gus Van Sant , and starring Robin Williams , Matt Damon , Ben Affleck , Minnie Driver and Stellan Skarsgård .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Good_Will_Hunting",
+          "sentence_id": 1,
+          "text": "Written by Affleck and Damon -LRB- and with Damon in the title role -RRB- , the film follows 20-year-old South Boston laborer Will Hunting , an unrecognized genius who , as part of a deferred prosecution agreement after assaulting a police officer , becomes a client of a therapist and studies advanced mathematics with a renowned professor .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Good_Hunting",
+          "sentence_id": 0,
+          "text": "Good Hunting may refer to :",
+          "score": 2.05
+        },
+        {
+          "page_id": "Good_Hunting",
+          "sentence_id": 3,
+          "text": "Good Hunting , a play written by Nathanael West , in collaboration with Joseph Schrank",
+          "score": 2.05
+        },
+        {
+          "page_id": "Free_Will_Hunting",
+          "sentence_id": 0,
+          "text": "`` Free Will Hunting '' is the ninth episode of the seventh season of the animated sitcom Futurama .",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.47372308373451233,
+        0.5256053805351257,
+        0.0006715763593092561
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

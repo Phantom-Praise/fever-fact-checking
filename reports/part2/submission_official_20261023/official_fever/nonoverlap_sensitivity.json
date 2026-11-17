@@ -1,0 +1,85 @@
+{
+  "n": 19995,
+  "removed": 3,
+  "note": "Supplementary conservative text-overlap exclusion, not the official full-population comparison.",
+  "conditions": {
+    "claim_only_H2": {
+      "n": 19995,
+      "fever_score": 0.12228057014253563,
+      "label_accuracy": 0.5877469367341835,
+      "evidence_macro_precision": 1.0,
+      "evidence_macro_recall": 0.0,
+      "evidence_f1": 0.0,
+      "classification_macro_f1": 0.5775041852397896,
+      "confusion_matrix": [
+        [
+          5474,
+          591,
+          598
+        ],
+        [
+          1923,
+          3833,
+          910
+        ],
+        [
+          3474,
+          747,
+          2445
+        ]
+      ]
+    },
+    "retrieved_roberta": {
+      "n": 19995,
+      "fever_score": 0.35058764691172795,
+      "label_accuracy": 0.5236309077269318,
+      "evidence_macro_precision": 0.1548353214795011,
+      "evidence_macro_recall": 0.6336559381799085,
+      "evidence_f1": 0.24886089653767585,
+      "classification_macro_f1": 0.41745953250592027,
+      "confusion_matrix": [
+        [
+          5994,
+          669,
+          0
+        ],
+        [
+          2190,
+          4476,
+          0
+        ],
+        [
+          3734,
+          2932,
+          0
+        ]
+      ]
+    },
+    "calibrated_ensemble": {
+      "n": 19995,
+      "fever_score": 0.4532133033258315,
+      "label_accuracy": 0.6169042260565142,
+      "evidence_macro_precision": 0.1548353214795011,
+      "evidence_macro_recall": 0.6336559381799085,
+      "evidence_f1": 0.24886089653767585,
+      "classification_macro_f1": 0.6077596259836561,
+      "confusion_matrix": [
+        [
+          5758,
+          284,
+          621
+        ],
+        [
+          1773,
+          3787,
+          1106
+        ],
+        [
+          3129,
+          747,
+          2790
+        ]
+      ]
+    }
+  }
+}

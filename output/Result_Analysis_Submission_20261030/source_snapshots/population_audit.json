@@ -1,0 +1,63 @@
+{
+  "status": "planning_only_no_inference",
+  "full_test_rows": 14548,
+  "full_test_class_counts": {
+    "SUPPORTS": 8078,
+    "NOT ENOUGH INFO": 3527,
+    "REFUTES": 2943
+  },
+  "unique_normalized_test_claims": 13555,
+  "eligible_unique_rows": 13448,
+  "eligible_class_counts": {
+    "SUPPORTS": 7406,
+    "NOT ENOUGH INFO": 3286,
+    "REFUTES": 2756
+  },
+  "excluded_rows": 1100,
+  "exclusion_counts_overlapping": {
+    "prior_experiment_input_or_output": 140,
+    "duplicate_within_test": 993,
+    "normalized_training_overlap": 6
+  },
+  "policy": "Exclude normalized train/validation overlap, prior saved experiment inputs/outputs, and duplicate test texts. Preserve original files and labels. Prior inputs are conservatively considered exposed even when inference did not finish.",
+  "limits": "This audit checks the listed saved artifacts. It cannot prove no manual inspection ever occurred. Existing test-sample analyses mean this is not an untouched project-wide test.",
+  "prior_artifacts": [
+    "reports/part2/ephemeral_rag_pilot_20261029/inputs.jsonl",
+    "reports/part2/ephemeral_rag_pilot_20261029/results.jsonl",
+    "reports/part2/exhaustive_precise_20261029/results.jsonl",
+    "reports/part2/exhaustive_reader_20261029/results.jsonl",
+    "reports/part2/exhaustive_reader_quote_attempt_20261029/results.jsonl",
+    "reports/part2/exhaustive_token_verified_20261029/results.jsonl",
+    "reports/part2/llm_configurations_20261028/inputs.jsonl",
+    "reports/part2/official_fever_dev_20261023/outputs.jsonl",
+    "reports/part2/ollama_comparison_20261028/sample.jsonl",
+    "reports/part2/ollama_full_dev_20261028/inputs.jsonl",
+    "reports/part2/parts_prompt_replay_20261029/results.jsonl",
+    "reports/part2/parts_prompt_v2_20261029/results.jsonl",
+    "reports/part2/step2_final_20261023/heldout100/claims_without_labels.jsonl",
+    "reports/part2/token_budget_20261028/outputs.jsonl",
+    "reports/part2/token_budget_20261028_smoke/outputs.jsonl",
+    "reports/part2/token_budget_20261028_smoke_verified/outputs.jsonl"
+  ],
+  "sha256": {
+    "data/processed/train.jsonl": "9db57a59c4dd7b85fb18aec61024714dce892d0376580150c7a45d188d0a1838",
+    "data/processed/validation.jsonl": "7dae66bba22858d756cb857d405783a1500fa8f3aff92a92e5462d308628c0ef",
+    "data/processed/test.jsonl": "52c9c71f42e9111f0d41c3ba8f759dc5d339d87e83b7f8aadd700cc1472f8eef",
+    "reports/part2/ephemeral_rag_pilot_20261029/inputs.jsonl": "4887341d35baf5e3d04bba7e367bad162e583f6a3ff7477b90cee7f672f636da",
+    "reports/part2/ephemeral_rag_pilot_20261029/results.jsonl": "a89fbbcc5a4e44050176a5eb68457e860a5c79682f971c7e9aa567e2fd8bf5c4",
+    "reports/part2/exhaustive_precise_20261029/results.jsonl": "802e4480f8564c3240edf5d1f0da5daf2ea288581b37f0c7434165a2c32d97af",
+    "reports/part2/exhaustive_reader_20261029/results.jsonl": "f3c51d137f31fabb75b476319124bb6221834656501c43ff5bdcd11c395ad13a",
+    "reports/part2/exhaustive_reader_quote_attempt_20261029/results.jsonl": "59375b698e18be38ee5e79e1105a8a60f247384ae6b9505d177029443c9e7f3c",
+    "reports/part2/exhaustive_token_verified_20261029/results.jsonl": "def83202941819ce54f2efb94738ed6347a81486e873b5c501eb89e7052df027",
+    "reports/part2/llm_configurations_20261028/inputs.jsonl": "5692d1a186c294eb3336ec649309e4d5e90402a384a5afbd5ef1a97a22fa0278",
+    "reports/part2/official_fever_dev_20261023/outputs.jsonl": "757cc6b4caabb344ae572df276bc9e6232e99d4797b0fdc5ea92a517ac151a8b",
+    "reports/part2/ollama_comparison_20261028/sample.jsonl": "d73af515eb6cdfe016b8a17d024d5e9d96285a31fcf327fdab405eb5db6b24d4",
+    "reports/part2/ollama_full_dev_20261028/inputs.jsonl": "5335e97b85d66f230c2a96f0934b583a1a47200905694bec35425b7a13a8c8ae",
+    "reports/part2/parts_prompt_replay_20261029/results.jsonl": "67e889453185e5b4caf9800b36cf8193d2e5d66488c1ec1bcf2355c29f39f9c4",
+    "reports/part2/parts_prompt_v2_20261029/results.jsonl": "26d9bdf0c3d9f699753569425008a2a9ae1109c35c46c2f293b819e92de20f32",
+    "reports/part2/step2_final_20261023/heldout100/claims_without_labels.jsonl": "3f653d02c2acfa63492b484b180e0b290494f11047ef28f871cce01bb3eb2700",
+    "reports/part2/token_budget_20261028/outputs.jsonl": "f2d06fe69be8078ae6dcc6f224611807bf0b13dd742ceb2061ed35a0502e2916",
+    "reports/part2/token_budget_20261028_smoke/outputs.jsonl": "14b6d1088999193ed9527e3afde63208015fb694ed7fda92d2d4c36ce074ce02",
+    "reports/part2/token_budget_20261028_smoke_verified/outputs.jsonl": "7429990916d99eb0cdbb8c74ea44824cd46bf4b074ac746e9525a17036660b1d"
+  }
+}

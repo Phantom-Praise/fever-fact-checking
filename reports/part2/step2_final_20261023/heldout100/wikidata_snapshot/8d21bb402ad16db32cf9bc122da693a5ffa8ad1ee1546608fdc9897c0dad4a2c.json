@@ -1,0 +1,138 @@
+{
+  "params": {
+    "action": "wbsearchentities",
+    "search": "David Beckham",
+    "language": "en",
+    "limit": 5
+  },
+  "response": {
+    "searchinfo": {
+      "search": "David Beckham"
+    },
+    "search": [
+      {
+        "id": "Q10520",
+        "title": "Q10520",
+        "pageid": 11936,
+        "concepturi": "http://www.wikidata.org/entity/Q10520",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q10520",
+        "display": {
+          "label": {
+            "value": "David Beckham",
+            "language": "en"
+          },
+          "description": {
+            "value": "English footballer (born 1975)",
+            "language": "en"
+          }
+        },
+        "label": "David Beckham",
+        "description": "English footballer (born 1975)",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "David Beckham"
+        }
+      },
+      {
+        "id": "Q136398485",
+        "title": "Q136398485",
+        "pageid": 130089089,
+        "concepturi": "http://www.wikidata.org/entity/Q136398485",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q136398485",
+        "display": {
+          "label": {
+            "value": "David Beckham",
+            "language": "en"
+          },
+          "description": {
+            "value": "Canadian political candidate",
+            "language": "en"
+          }
+        },
+        "label": "David Beckham",
+        "description": "Canadian political candidate",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "David Beckham"
+        }
+      },
+      {
+        "id": "Q5231242",
+        "title": "Q5231242",
+        "pageid": 5000778,
+        "concepturi": "http://www.wikidata.org/entity/Q5231242",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q5231242",
+        "display": {
+          "label": {
+            "value": "David Beckham Soccer",
+            "language": "en"
+          },
+          "description": {
+            "value": "2001 video game",
+            "language": "en"
+          }
+        },
+        "label": "David Beckham Soccer",
+        "description": "2001 video game",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "David Beckham Soccer"
+        }
+      },
+      {
+        "id": "Q113354182",
+        "title": "Q113354182",
+        "pageid": 108143834,
+        "concepturi": "http://www.wikidata.org/entity/Q113354182",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q113354182",
+        "display": {
+          "label": {
+            "value": "David Beckham Elkathchoongo",
+            "language": "en"
+          },
+          "description": {
+            "value": "Indian cyclist",
+            "language": "en"
+          }
+        },
+        "label": "David Beckham Elkathchoongo",
+        "description": "Indian cyclist",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "David Beckham Elkathchoongo"
+        }
+      },
+      {
+        "id": "Q132858108",
+        "title": "Q132858108",
+        "pageid": 126713139,
+        "concepturi": "http://www.wikidata.org/entity/Q132858108",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q132858108",
+        "display": {
+          "label": {
+            "value": "David Beckham Factfile",
+            "language": "en"
+          }
+        },
+        "label": "David Beckham Factfile",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "David Beckham Factfile"
+        }
+      }
+    ],
+    "search-continue": 5,
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T18:31:17.489260+00:00"
+}

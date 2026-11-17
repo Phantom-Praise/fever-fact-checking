@@ -1,0 +1,116 @@
+{
+  "id": 124813,
+  "claim": "Dark Places stars a South African-American singer.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05999783299999972,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.564949095249176,
+        0.024848930537700653,
+        0.41020190715789795
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.7173927089999994,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "List_of_African-American_historic_places_in_South_Carolina",
+          "sentence_id": 3,
+          "text": "This list of African American Historic Places in South Carolina was originally based on a report by the South Carolina Department of Archives & History .",
+          "score": 4.025
+        },
+        {
+          "page_id": "My_Dark_Places",
+          "sentence_id": 2,
+          "text": "My Dark Places -LRB- book -RRB- , a 1996 non-fiction book by American crime-fiction writer James Ellroy",
+          "score": 3.05
+        },
+        {
+          "page_id": "List_of_African-American_historic_places",
+          "sentence_id": 0,
+          "text": "The following are a list of African-American historic places :",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Dark_Places",
+          "sentence_id": 0,
+          "text": "Dark Places may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "Dark_Places",
+          "sentence_id": 3,
+          "text": "Dark Places -LRB- novel -RRB- , a mystery novel by Gillian Flynn",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.09243360161781311,
+        0.9074589610099792,
+        0.00010738975834101439
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.12666049999999984,
+      "symbolic": {
+        "claim": "Dark Places stars a South African-American singer.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3708000000001164e-05
+      },
+      "evidence": [
+        {
+          "page_id": "List_of_African-American_historic_places_in_South_Carolina",
+          "sentence_id": 3,
+          "text": "This list of African American Historic Places in South Carolina was originally based on a report by the South Carolina Department of Archives & History .",
+          "score": 4.025
+        },
+        {
+          "page_id": "My_Dark_Places",
+          "sentence_id": 2,
+          "text": "My Dark Places -LRB- book -RRB- , a 1996 non-fiction book by American crime-fiction writer James Ellroy",
+          "score": 3.05
+        },
+        {
+          "page_id": "List_of_African-American_historic_places",
+          "sentence_id": 0,
+          "text": "The following are a list of African-American historic places :",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Dark_Places",
+          "sentence_id": 0,
+          "text": "Dark Places may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "Dark_Places",
+          "sentence_id": 3,
+          "text": "Dark Places -LRB- novel -RRB- , a mystery novel by Gillian Flynn",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.09243360161781311,
+        0.9074589610099792,
+        0.00010738975834101439
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

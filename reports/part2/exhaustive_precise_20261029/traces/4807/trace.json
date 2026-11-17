@@ -1,0 +1,332 @@
+{
+  "id": 4807,
+  "claim": "Dark matter is distinguishable from dark energy.",
+  "status": "running",
+  "model_label": "INVALID",
+  "derived_label": "INVALID",
+  "refined": true,
+  "original_trace_sha256": "f24297700a38a6897c2dc5ada93ab092e45f5ad5917e283ec06ab9d65b1d66ee",
+  "coverage": {
+    "total": 269,
+    "processed": 269
+  },
+  "cleanup": {
+    "temporary_files_deleted": true
+  },
+  "batches": [
+    {
+      "number": 1,
+      "sentence_ids": [
+        "C1S1",
+        "C1S2",
+        "C1S3",
+        "C1S4",
+        "C1S5",
+        "C2S1",
+        "C2S2",
+        "C2S3",
+        "C2S4",
+        "C2S5",
+        "C2S6",
+        "C3S1",
+        "C3S2",
+        "C3S3",
+        "C4S1",
+        "C4S2",
+        "C4S3",
+        "C9S1",
+        "C9S2",
+        "C9S3",
+        "C9S4",
+        "C9S5",
+        "C9S6",
+        "C9S7",
+        "C9S8",
+        "C11S1",
+        "C11S2",
+        "C11S3",
+        "C11S4",
+        "C11S5",
+        "C12S1",
+        "C12S2",
+        "C12S3",
+        "C13S1",
+        "C13S2",
+        "C13S3"
+      ],
+      "attempts": [
+        {
+          "file": "batch_001_attempt_1.json",
+          "valid": true
+        }
+      ],
+      "findings": [
+        {
+          "evidence_id": "C2S1",
+          "quote": "In the standard Lambda-CDM model of cosmology, the mass–energy content of the universe is 5% ordinary matter, 26.8% dark matter, and 68.2% a form of energy known as dark energy.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C3S1",
+          "quote": "Dark matter is not known to interact with ordinary baryonic matter and radiation except through gravity, making it difficult to detect in the laboratory.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C4S1",
+          "quote": "Although the astrophysics community generally accepts the existence of dark matter, a minority of astrophysicists, intrigued by specific observations that are not well explained by ordinary dark matter, argue for various modifications of the standard laws of general relativity.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C9S2",
+          "quote": "Zwicky applied the virial theorem to the Coma Cluster and obtained evidence of unseen mass he called dunkle Materie ('dark matter').",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C11S3",
+          "quote": "Babcock reported the rotation curve for the Andromeda Galaxy (then called the Andromeda Nebula), which suggested the mass-to-luminosity ratio increases radially.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C12S2",
+          "quote": "Several different observations were synthesized to argue that galaxies should be surrounded by halos of unseen matter.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C13S1",
+          "quote": "One of the observations that served as evidence for the existence of galactic halos of dark matter was the shape of galaxy rotation curves.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "sentence_ids": [
+        "C14S1",
+        "C14S2",
+        "C14S3",
+        "C15S1",
+        "C15S2",
+        "C15S3",
+        "C15S4",
+        "C16S1",
+        "C16S2",
+        "C25S1",
+        "C25S2",
+        "C25S3",
+        "C25S4",
+        "C25S5",
+        "C25S6",
+        "C26S1",
+        "C26S2",
+        "C27S1",
+        "C27S2",
+        "C27S3",
+        "C27S4",
+        "C28S1",
+        "C29S1",
+        "C30S1",
+        "C30S2",
+        "C31S1",
+        "C32S1",
+        "C33S1",
+        "C33S2",
+        "C33S3",
+        "C33S4",
+        "C33S5",
+        "C33S6",
+        "C33S7"
+      ],
+      "attempts": [
+        {
+          "file": "batch_002_attempt_1.json",
+          "valid": true
+        }
+      ],
+      "findings": [
+        {
+          "evidence_id": "C25S5",
+          "quote": "This is not observed.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C25S6",
+          "quote": "Instead, the galaxy rotation curve remains flat or even increases as distance from the center increases.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C26S1",
+          "quote": "If Kepler's laws are correct, then the obvious way to resolve this discrepancy is to conclude the mass distribution in spiral galaxies is not similar to that of the Solar System.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C26S2",
+          "quote": "In particular, there may be a lot of non-luminous matter (dark matter) in the outskirts of the galaxy.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C27S3",
+          "quote": "With some exceptions, velocity dispersion estimates of elliptical galaxies do not match the predicted velocity dispersion from the observed mass distribution, even assuming complicated distributions of stellar orbits.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C27S4",
+          "quote": "As with galaxy rotation curves, the obvious way to resolve the discrepancy is to postulate the existence of non-luminous matter.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C28S1",
+          "quote": "Galaxy clusters are particularly important for dark matter studies since their masses can be estimated in three independent ways:",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C29S1",
+          "quote": "From the scatter in radial velocities of the galaxies within clusters",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C30S1",
+          "quote": "From X-rays emitted by hot gas in the clusters.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C30S2",
+          "quote": "From the X-ray energy spectrum and flux, the gas temperature and density can be estimated, hence giving the pressure; assuming pressure and gravity balance determines the cluster's mass profile.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C31S1",
+          "quote": "Gravitational lensing (usually of more distant galaxies) can measure cluster masses without relying on observations of dynamics (e.g., velocity).",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C32S1",
+          "quote": "Generally, these three methods are in reasonable agreement that dark matter outweighs visible matter by approximately 5 to 1.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C33S1",
+          "quote": "On larger scales, large galaxy redshift surveys may be used to make a three-dimensional map of the galaxy distribution.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C33S2",
+          "quote": "These maps are slightly distorted because distances are estimated from observed redshifts; the redshift contains a contribution from the galaxy's so-called peculiar velocity in addition to the dominant Hubble expansion term.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C33S3",
+          "quote": "On average, superclusters are expanding more slowly than the cosmic mean due to their gravity, while voids are expanding faster than average.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C33S4",
+          "quote": "In a redshift map, galaxies in front of a supercluster have excess radial velocities towards it and have redshifts slightly higher than their distance would imply, while galaxies behind the supercluster have redshifts slightly low for their distance.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C33S5",
+          "quote": "This effect causes superclusters to appear squashed in the radial direction, and likewise voids are stretched.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C33S6",
+          "quote": "Their angular positions are unaffected.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C33S7",
+          "quote": "This effect is not detectable for any one structure since the true shape is not",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "sentence_ids": [
+        "C34S1",
+        "C34S2",
+        "C34S3",
+        "C38S1",
+        "C38S2",
+        "C38S3",
+        "C38S4",
+        "C38S5",
+        "C42S1",
+        "C42S2",
+        "C42S3",
+        "C42S4",
+        "C45S1",
+        "C45S2",
+        "C45S3",
+        "C45S4",
+        "C45S5",
+        "C45S6",
+        "C46S1",
+        "C46S2",
+        "C49S1",
+        "C49S2",
+        "C55S1",
+        "C56S1",
+        "C57S1",
+        "C57S2",
+        "C57S3",
+        "C57S4",
+        "C59S1",
+        "C60S1",
+        "C60S2",
+        "C60S3",
+        "C60S4",
+        "C60S5"
+      ],
+      "attempts": [
+        {
+          "file": "batch_003_attempt_1.json",
+          "valid": true
+        }
+      ],
+      "findings": [
+        {
+          "evidence_id": "C38S5",
+          "quote": "This leaves a missing Ωdm ≈ 0.258 which nonetheless behaves like matter (see technical definition section above) – dark matter.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C42S4",
+          "quote": "The observed CMB angular power spectrum provides powerful evidence in support of dark matter, as its precise structure is well fitted by the Lambda-CDM model, but difficult to reproduce with any competing model such as modified Newtonian dynamics (MOND).",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C45S4",
+          "quote": "As the dark matter and baryons clumped together after recombination, the effect is much weaker in the galaxy distribution in the nearby universe, but is detectable as a subtle (~ 1%) preference for pairs of galaxies to be separated by 147 Mpc, compared to those separated by 130–160 Mpc.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C46S1",
+          "quote": "with BAO measurements from galaxy redshift surveys provides a precise estimate of the Hubble constant and the average matter density in the Universe.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C49S1",
+          "quote": "Deep-field observations show that galaxies formed first, followed by clusters and superclusters as galaxies clump together, and therefore that most dark matter is cold.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C55S1",
+          "quote": "However, multiple lines of evidence suggest the majority of dark matter is not baryonic:",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C59S1",
+          "quote": "Detailed analysis of the small irregularities (anisotropies) in the cosmic microwave background by WMAP and Planck indicate that around five-sixths of the total matter is in a form that only interacts significantly with ordinary matter or photons through gravitational effects.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        },
+        {
+          "evidence_id": "C60S1",
+          "quote": "There are two main candidates for non-baryonic dark matter: new particles and primordial black holes.",
+          "relevance": "Reader-selected chunk; original text copied verbatim by code."
+        }
+      ]
+    }
+  ],
+  "findings": []
+}

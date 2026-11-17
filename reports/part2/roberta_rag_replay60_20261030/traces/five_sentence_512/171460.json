@@ -1,0 +1,69 @@
+{
+  "id": 171460,
+  "claim": "Splash starred a dog.",
+  "condition": "five_sentence_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.0352347306907177,
+    0.9646703004837036,
+    9.496491111349314e-05
+  ],
+  "logits": [
+    0.33826082944869995,
+    3.648015022277832,
+    -5.578019142150879
+  ],
+  "inference_seconds": 0.11140020800000094,
+  "evidence_text": "Starred Up is a 2013 British prison crime drama film directed by David Mackenzie and written by Jonathan Asser . In applied mathematics , the starred transform , or star transform , is a discrete-time variation of the Laplace transform , so-named because of the asterisk or `` star '' in the customary notation of the sampled signals . The starred transform is a convenient mathematical abstraction that represents the Laplace transform of an impulse sampled function , which is the output of an ideal sampler , whose input is a continuous function , . The starred transform is similar to the Z transform , with a simple change of variables , where the starred transform is explicitly declared in terms of the sampling period -LRB- T -RRB- , while the Z transform is performed on a discrete signal and is independent of the sampling period . This makes the starred transform a de-normalized version of the one-sided Z-transform , as it restores the dependence on sampling parameter T.",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 204,
+    "tokens_retained": 204,
+    "truncated": false,
+    "evidence_tokens_total": 194,
+    "evidence_tokens_retained": 194,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Starred_Up",
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Starred_transform",
+        "tokens_total": 45,
+        "tokens_kept": 45,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Starred_transform",
+        "tokens_total": 38,
+        "tokens_kept": 38,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Starred_transform",
+        "tokens_total": 58,
+        "tokens_kept": 58,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Starred_transform",
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Splash starred a dog.</s></s>Starred Up is a 2013 British prison crime drama film directed by David Mackenzie and written by Jonathan Asser . In applied mathematics , the starred transform , or star transform , is a discrete-time variation of the Laplace transform , so-named because of the asterisk or `` star '' in the customary notation of the sampled signals . The starred transform is a convenient mathematical abstraction that represents the Laplace transform of an impulse sampled function , which is the output of an ideal sampler , whose input is a continuous function , . The starred transform is similar to the Z transform , with a simple change of variables , where the starred transform is explicitly declared in terms of the sampling period -LRB- T -RRB- , while the Z transform is performed on a discrete signal and is independent of the sampling period . This makes the starred transform a de-normalized version of the one-sided Z-transform , as it restores the dependence on sampling parameter T.</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

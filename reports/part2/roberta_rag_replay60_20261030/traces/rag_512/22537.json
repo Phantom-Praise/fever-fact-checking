@@ -1,0 +1,389 @@
+{
+  "id": 22537,
+  "claim": "Stranger Things includes no psychic characters.",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.029604347422719002,
+    0.9697012305259705,
+    0.0006944024935364723
+  ],
+  "logits": [
+    -0.30846303701400757,
+    3.1806037425994873,
+    -4.061087608337402
+  ],
+  "inference_seconds": 0.10791695800000056,
+  "evidence_text": "Psychic abilities are common in science fiction, often under the term \"psionics\". They may be depicted as innate and heritable, as in Alfred Bester's The Demolished Man, A. E. van Vogt's Slan, Anne McCaffrey's Talents universe series or setting, and the television series Babylon 5. Another recurring trope is the conveyance of psychic power through psychoactive drugs, as in the Dune novels and indirectly in the Scanners films, as well as the ghosts in the StarCraft franchise. Somewhat differently, in Madeleine L'Engle's A Wind in the Door and Robert A. Heinlein's Stranger in a Strange Land, psychic abilities may be achieved by any human who learns the proper mental discipline, known as kything in the former work. Popular movies include The Initiation of Sarah. Psychic characters are also common in superhero comics, for instance Jean Grey, Professor X and Emma Frost as well as many others from the They took inspiration from several title sequences of works from the 1980s that were previously designed by Richard Greenberg under R/GA, such as Altered States and The Dead Zone. They also got input from Dan Perri, who worked on the title credits of several 1980s films. Various iterations included having letters vanish, to reflect the \"missing\" theme of the series, and having letters cast shadows on others, alluding to the mysteries, before settling into the sliding letters. The studio began working on the title sequence before filming, and took about a month off during the filming process to let the producers get immersed in the series and come back with more input. Jamie Campbell Bower as Henry Creel / One / Vecna / Mr. Whatsit (season 5; also starring: season 4), a murderous psychic being from the Upside Down. Having attained supernatural abilities as a child, he murdered his family and was subsequently placed under Brenner's care. Flashbacks in season four reveal that an eight-year-old Eleven banished him to another dimension, where he was disfigured and joined the Mind Flayer's hive mind. Stranger Things takes place in the 1980s, with the main setting being the fictional rural town of Hawkins, Indiana, described as \"the town where nothing ever happens\". The nearby Hawkins National Laboratory ostensibly performs scientific research for the United States Department of Energy, but also secretly experiments with the paranormal and supernatural, sometimes with human test subjects. They inadvertently create a portal to an alternate dimension referred to as the Upside Down, whose presence begins to affect the residents of Hawkins in unusual ways. Stranger Things Genre | Science fiction Horror Mystery Drama Supernatural Epic Coming-of-age Created by | The Duffer Brothers Showrunners | Karl Gajdusek Matt Duffer Ross Duffer Starring | Winona Ryder David Harbour Finn Wolfhard Millie Bobby Brown Gaten Matarazzo Caleb McLaughlin Natalia Dyer Charlie Heaton Cara Buono Matthew Modine Noah Schnapp Sadie Sink Joe Keery Dacre Montgomery Sean Astin Paul Reiser Maya Hawke Priah Ferguson Brett Gelman Linda Hamilton Jamie Campbell Bower Nell Fisher Composers | Michael Stein Kyle Dixon Country of origin | United States Original language | English No. of seasons | 5 No. of episodes | 42 (list of episodes) Production Executive producers | Karl Gajdusek Cindy Holland Brian Wright Matt Thunell Shawn Levy Dan Cohen The Duffer Brothers Iain Paterson Curtis Gwinn Producer | Lampton Enochs Cinematography | Tim Ives Tod Campbell David Franco Lachlan Milne Ricardo Diaz Caleb Heymann Brett Jutkiewicz Editors | Dean Zimmerman Kevin D Stranger Things has received positive reviews throughout its run, with praise for its characterization, atmosphere, acting, direction, writing, and homage to 1980s cinema, making it a touchstone of 1980s nostalgia. It is a flagship series for Netflix, drawing record viewership with each season's release and garnering numerous accolades. The series has expanded into a media franchise, including an animated spin-off, Tales from '85 (2026), and a prequel stage play, The First Shadow (2023). It has also inspired several books, comics, tie-in media, a pop-up shop, and a Dungeons & Dragons role-playing starter set game based on the series. Stranger Things Have Happened may refer to: The success of the series has led to a wider multimedia franchise, which includes various television spin-offs, a stage play, a line of novels and comics, several video games, and extensive licensed merchandise. To introduce this monster into the narrative, they considered \"bizarre experiments we had read about taking place in the Cold War\" such as MKUltra, which gave a way to ground the monster's existence in science rather than something spiritual. This also helped them to decide on using 1983 as the time period, as it was a year before the film Red Dawn came out, which focused on Cold War paranoia. Subsequently, they were able to use all their own personal inspirations from the 1980s, the decade in which they were born, as elements of the series, crafting it in the realm of science fiction and horror. Regarding writing for the children characters of the series, the Duffers considered themselves outcasts from other students while in high school and thus found it easy to write for Mike and his friends, and particularly for Barb. Joyce was fashioned after Richard Dreyfuss' character Roy Neary in the 1977 film Close Encounters of the Third Kind, as she appears \"absolutely bonkers\" to everyone else as she tries to find Will.",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1154,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1142,
+    "evidence_tokens_retained": 500,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 58323,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 58323,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 58323,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 58323,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 58323,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 58323,
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 58323,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 58323,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 46301800,
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 46301800,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 46301800,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 46301800,
+        "tokens_total": 37,
+        "tokens_kept": 37,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 46301800,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 46301800,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 46301800,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 46301800,
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 46301800,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 46301800,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 46301800,
+        "tokens_total": 30,
+        "tokens_kept": 8,
+        "visibility": "partial"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 46301800,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 46301800,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 46301800,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 46301800,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 46301800,
+        "tokens_total": 75,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 46301800,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 46301800,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 46301800,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 46301800,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 46301800,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 46301800,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 46301800,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 46301800,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 46301800,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 46301800,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 46301800,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 46301800,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 46301800,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 46301800,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 21572419,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 46301800,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 46301800,
+        "tokens_total": 47,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 46301800,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 46301800,
+        "tokens_total": 44,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 46301800,
+        "tokens_total": 42,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 46301800,
+        "tokens_total": 44,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Stranger Things includes no psychic characters.</s></s>Psychic abilities are common in science fiction, often under the term \"psionics\". They may be depicted as innate and heritable, as in Alfred Bester's The Demolished Man, A. E. van Vogt's Slan, Anne McCaffrey's Talents universe series or setting, and the television series Babylon 5. Another recurring trope is the conveyance of psychic power through psychoactive drugs, as in the Dune novels and indirectly in the Scanners films, as well as the ghosts in the StarCraft franchise. Somewhat differently, in Madeleine L'Engle's A Wind in the Door and Robert A. Heinlein's Stranger in a Strange Land, psychic abilities may be achieved by any human who learns the proper mental discipline, known as kything in the former work. Popular movies include The Initiation of Sarah. Psychic characters are also common in superhero comics, for instance Jean Grey, Professor X and Emma Frost as well as many others from the They took inspiration from several title sequences of works from the 1980s that were previously designed by Richard Greenberg under R/GA, such as Altered States and The Dead Zone. They also got input from Dan Perri, who worked on the title credits of several 1980s films. Various iterations included having letters vanish, to reflect the \"missing\" theme of the series, and having letters cast shadows on others, alluding to the mysteries, before settling into the sliding letters. The studio began working on the title sequence before filming, and took about a month off during the filming process to let the producers get immersed in the series and come back with more input. Jamie Campbell Bower as Henry Creel / One / Vecna / Mr. Whatsit (season 5; also starring: season 4), a murderous psychic being from the Upside Down. Having attained supernatural abilities as a child, he murdered his family and was subsequently placed under Brenner's care. Flashbacks in season four reveal that an eight-year-old Eleven banished him to another dimension, where he was disfigured and joined the Mind Flayer's hive mind. Stranger Things takes place in the 1980s, with the main setting being the fictional rural town of Hawkins, Indiana, described as \"the town where nothing ever happens\". The nearby Hawkins National Laboratory ostensibly performs scientific research for the United States Department of Energy, but also secretly experiments with the paranormal and supernatural, sometimes with human test subjects. They inadvertently create a portal to an alternate</s>"
+  }
+}

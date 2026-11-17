@@ -1,0 +1,59 @@
+{
+  "training_rows": 14,
+  "classifier_evaluation_rows": 25,
+  "choices": [
+    {
+      "family": "claim_only",
+      "checkpoint": "checkpoints/tuning_weighted/H2_seed42/best",
+      "selected": true,
+      "reason": "H2 epoch 2 has highest validation macro-F1 (0.620249) among H1-H4 and highest accuracy (0.6775) on the same 2000 claims."
+    },
+    {
+      "family": "evidence_roberta",
+      "checkpoint": "checkpoints/roberta_evidence/epoch_1",
+      "selected": true,
+      "reason": "Epoch 1 exceeds epoch 2 in gold-evidence validation macro-F1 (0.933485 vs 0.931286). This selection does not validate retrieved-evidence transfer."
+    },
+    {
+      "family": "retrieval",
+      "checkpoint": "title_fast_top5",
+      "selected": true,
+      "reason": "Top-5 reproduces the existing paired condition; top-10 ties first100 accuracy but has lower macro-F1. Selection is provisional on development data."
+    },
+    {
+      "family": "symbolic_hybrid",
+      "checkpoint": "v2_experimental_abstaining",
+      "selected": false,
+      "reason": "V1 and V2 resolve zero first100 claims. Keep v2 as a reported variant; no accuracy/efficiency case for selecting it."
+    },
+    {
+      "family": "llm_judge",
+      "checkpoint": "llama3.2:latest (digest recorded in local pilot manifest)",
+      "selected": false,
+      "reason": "Pilot comparator chosen for already installed local availability, not tuned or selected by performance. No final LLM selection from this small pilot."
+    }
+  ],
+  "input_sha256": {
+    "reports/part2/tuning/H1_seed42.csv": "c65f78890c41657cb7ee509f7c7e12313abfda0b1a464e57275ed4c6766c4c6c",
+    "reports/part2/tuning/H2_seed42.csv": "0dbd2e3e39dee621e96dcdc6f00dba53052f6cd56d9954a2797a9052e8cc14ff",
+    "reports/part2/tuning/H3_seed42.csv": "b10723083248842bd67f1396a547df2e62beae55a449522507841444c9cc7e82",
+    "reports/part2/tuning/H4_seed42.csv": "0975a3b33c2c2fb2904da188be86dfc38dc847cecd3aeeefd3165e1f0662fe0a",
+    "results/weighted_training_log.csv": "7f565cf87978cd460f8d64981665f3daa0b13c7fab96cc647cfcff83076c5a83",
+    "results/main_training_log.csv": "7080654cdb865d8f5092f1dacdba5573d1dd47a53387c03da42eacb7a10b0b0f",
+    "results/training_log.csv": "de55813c5594e0201167f985c6e0d5cbc2c06a7eb700e18f5c50e8bbbe404ba1",
+    "reports/part2/paired/predictions.csv": "704cae7e68603bbbd810d1dadb83844aee93ceb13e4b6d0fdbcb29fda80314bf",
+    "reports/part2/symbolic_v2/run_20261023_retry/predictions.csv": "9b61f7aac5816cd8bebb7ca975ba5cc2ac0c6d1dbafd534d902f073690ec0be9",
+    "reports/part2/evidence_depth_20261023/predictions.csv": "c430db5b6f18d2a67bd04c2a0a85878c094181e54568c327ed326262c9dbb600",
+    "reports/part2/validation_extension_20261023_complete/predictions.csv": "fc26b06ba8466b6d3c1a36922f0c6105619f0fe64b181564679bd8657b542475",
+    "reports/part2/local_llm_20261023/pilot_baseline_predictions.csv": "a75d15fe05a798fba871916e7a52ece33057f4dcf4b45705d63ab60f46715eec",
+    "reports/part2/local_llm_20261023/judge_scores.json": "08708d7f8b513efdfed4cd2dc22763cf4e36ced617ab7db0dd337de9a140ed27"
+  },
+  "script_sha256": "750d6fadd2271e0a7abcf7a3fc48ada625688c6e4c05c5fbc06d8f1bd74330be",
+  "notes": [
+    "Training legacy logs do not retain precision/recall or full run manifests; unavailable values are not invented.",
+    "Different evaluation scopes are separate populations; do not rank their metrics together.",
+    "Two identical legacy epoch-1 log entries are observations of uncertain provenance, not demonstrated independent seeds.",
+    "Seeds 42/43/44 in judge requests are inference samples, not Transformer retraining repeats.",
+    "Development selections are candidates for later final testing; test partition remains untouched."
+  ]
+}

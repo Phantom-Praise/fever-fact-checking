@@ -1,0 +1,116 @@
+{
+  "id": 30825,
+  "claim": "Catherine Zeta-Jones starred as Marylin in The Terminal.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05656450000000035,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.6565161347389221,
+        0.07845619320869446,
+        0.26502764225006104
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08417625000000051,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Catherine_Zeta-Jones",
+          "sentence_id": 0,
+          "text": "Catherine Zeta-Jones , -LRB- -LSB- ˈziːtə -RSB- born 25 September 1969 -RRB- is a Welsh actress .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Catherine_Jones",
+          "sentence_id": 6,
+          "text": "Catherine Zeta-Jones -LRB- born 1969 -RRB- , Welsh actress",
+          "score": 3.05
+        },
+        {
+          "page_id": "List_of_roles_and_awards_of_Catherine_Zeta-Jones",
+          "sentence_id": 0,
+          "text": "Catherine Zeta-Jones is a Welsh actress who , as of 2017 , has appeared in 27 films , 8 television productions and 8 theatre productions , and is the recipient of 16 awards from 33 nominations .",
+          "score": 3.01
+        },
+        {
+          "page_id": "List_of_roles_and_awards_of_Catherine_Zeta-Jones",
+          "sentence_id": 22,
+          "text": "After another three-year sabbatical , Zeta-Jones starred in the British film Dad 's Army -LRB- 2016 -RRB- , based on the television sitcom of the same name .",
+          "score": 3.01
+        },
+        {
+          "page_id": "Catherine_Zeta-Jones",
+          "sentence_id": 1,
+          "text": "Born and raised in Swansea , Zeta-Jones aspired to be an actress from a young age .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.8090240955352783,
+        0.19060061872005463,
+        0.00037528935354202986
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07076720899999955,
+      "symbolic": {
+        "claim": "Catherine Zeta-Jones starred as Marylin in The Terminal.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.312500000061334e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Catherine_Zeta-Jones",
+          "sentence_id": 0,
+          "text": "Catherine Zeta-Jones , -LRB- -LSB- ˈziːtə -RSB- born 25 September 1969 -RRB- is a Welsh actress .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Catherine_Jones",
+          "sentence_id": 6,
+          "text": "Catherine Zeta-Jones -LRB- born 1969 -RRB- , Welsh actress",
+          "score": 3.05
+        },
+        {
+          "page_id": "List_of_roles_and_awards_of_Catherine_Zeta-Jones",
+          "sentence_id": 0,
+          "text": "Catherine Zeta-Jones is a Welsh actress who , as of 2017 , has appeared in 27 films , 8 television productions and 8 theatre productions , and is the recipient of 16 awards from 33 nominations .",
+          "score": 3.01
+        },
+        {
+          "page_id": "List_of_roles_and_awards_of_Catherine_Zeta-Jones",
+          "sentence_id": 22,
+          "text": "After another three-year sabbatical , Zeta-Jones starred in the British film Dad 's Army -LRB- 2016 -RRB- , based on the television sitcom of the same name .",
+          "score": 3.01
+        },
+        {
+          "page_id": "Catherine_Zeta-Jones",
+          "sentence_id": 1,
+          "text": "Born and raised in Swansea , Zeta-Jones aspired to be an actress from a young age .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.8090240955352783,
+        0.19060061872005463,
+        0.00037528935354202986
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

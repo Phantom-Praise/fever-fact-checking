@@ -1,0 +1,445 @@
+{
+  "id": 205947,
+  "claim": "Cosmopolitan as of 2011 contains content which includes articles.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.7280380725860596,
+    0.2653489410877228,
+    0.006613072939217091
+  ],
+  "logits": [
+    1.6716058254241943,
+    0.6622982621192932,
+    -3.0296990871429443
+  ],
+  "inference_seconds": 0.10799224999999879,
+  "evidence_text": "Cosmopolitan may refer to: Cosmopolitan (magazine), a magazine for women, sometimes referred to as \"Cosmo\" Cosmopolitan Television, a satellite/cable television channel Cosmo (disambiguation) Cosmopolitan (cocktail), also known as a \"Cosmo\" Cosmopolitan Productions, a defunct United States film production company Cosmopolite (disambiguation) Cosmopolitan Hotel in Hong Kong Cosmopolitan distribution, in biogeography, biological categories which can be found almost anywhere around the world Cosmopolitan (film), a 2003 film starring Roshan Seth Cosmopolitan automobile company, a defunct American car maker Cosmopolitan of Las Vegas, a resort casino and hotel in Las Vegas, Nevada Cosmopolitan (Vanessa cardui) or painted lady, a butterfly In December 2023, Press Gazette ranked Which? 18th in their list of the world’s most subscribed to paywalled news publications. Cosmopolitan localism, a way of linking local communities in global networks that bring production and consumption closer together Cosmopolitanism, the idea that all of humanity belongs to a single moral community Nash Cosmopolitan, a defunct car model from Nash Motors Most Which? publications are supplied only to subscribers, and are not on general sale. Which? magazine, started in 1957, is the organisation's principal publication. The magazine reports on consumer issues of the day, publishes product testing results and findings of original research and investigations. Until 2006, the association used prize draws similar to those of Reader's Digest to attract subscribers, but following criticism they were discontinued. The Association attracts subscribers to its publications with free mini-guides and trial offers. As of November 2024, Press Gazette ranked the Which? website 25th in the UK for page views, with 32.6m views per month. Cosmopolitan (Leucania loreyi) or false army worm, a moth Which? November 1966 issue Categories | Consumer Frequency | Monthly Publisher | The Consumers' Association First issue | October 1957 (1957-10) Country | United Kingdom Language | English Website | which.co.uk Which?, a UK charity and its magazine As a predominantly print media publication, Which? has also seen declining print sales and subscriber numbers in the 21st century. To offset this, Which? has expanded its online presence both in terms of paywalled website content and freely accessible newsletters as a tool to reach new audiences. Which? also partners with trusted providers such as Octopus Energy in order to offer exclusive deals to subscribers. CC-109 Cosmopolitan, an aircraft, the RCAF version of the Canadair CL-66 World citizen, one who eschews traditional geopolitical divisions derived from national citizenship The vast majority of the association's income comes from the profit it makes on its trading businesses, for instance subscriptions to Which? magazine, which are donated to the campaigning part of the organisation to fund advocacy activity and inform the public about consumer issues. Which? magazine maintains its independence by not accepting advertising, and the organisation receives no government funding. The Consumers' Association is the largest consumer organisation in the UK, with over 500,000 subscribers to its magazine. Consumer Reports (USA) Other publications include Which? Travel, Which? Car, Which? Money, Which? Tech (previously Which? Computing) and Which? Gardening. Rootless cosmopolitan, a Soviet derogatory epithet during Joseph Stalin's antisemitic campaign of 1949–1953",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 706,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 691,
+    "evidence_tokens_retained": 497,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 220157,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 220157,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 220157,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 220157,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 220157,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 220157,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 220157,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 220157,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 220157,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 220157,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 220157,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 220157,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 220157,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 311065,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 311065,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 220157,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 220157,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 220157,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 311065,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 311065,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 311065,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 311065,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 311065,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 311065,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 220157,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 311065,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 311065,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 311065,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 311065,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 311065,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 311065,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 311065,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 311065,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 311065,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 4656421,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 311065,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 311065,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 311065,
+        "tokens_total": 21,
+        "tokens_kept": 12,
+        "visibility": "partial"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 220157,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 220157,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 311065,
+        "tokens_total": 49,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 311065,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 311065,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 311065,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 311065,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 311065,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 311065,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 311065,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 311065,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 311065,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 311065,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 220157,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Cosmopolitan as of 2011 contains content which includes articles.</s></s>Cosmopolitan may refer to: Cosmopolitan (magazine), a magazine for women, sometimes referred to as \"Cosmo\" Cosmopolitan Television, a satellite/cable television channel Cosmo (disambiguation) Cosmopolitan (cocktail), also known as a \"Cosmo\" Cosmopolitan Productions, a defunct United States film production company Cosmopolite (disambiguation) Cosmopolitan Hotel in Hong Kong Cosmopolitan distribution, in biogeography, biological categories which can be found almost anywhere around the world Cosmopolitan (film), a 2003 film starring Roshan Seth Cosmopolitan automobile company, a defunct American car maker Cosmopolitan of Las Vegas, a resort casino and hotel in Las Vegas, Nevada Cosmopolitan (Vanessa cardui) or painted lady, a butterfly In December 2023, Press Gazette ranked Which? 18th in their list of the world’s most subscribed to paywalled news publications. Cosmopolitan localism, a way of linking local communities in global networks that bring production and consumption closer together Cosmopolitanism, the idea that all of humanity belongs to a single moral community Nash Cosmopolitan, a defunct car model from Nash Motors Most Which? publications are supplied only to subscribers, and are not on general sale. Which? magazine, started in 1957, is the organisation's principal publication. The magazine reports on consumer issues of the day, publishes product testing results and findings of original research and investigations. Until 2006, the association used prize draws similar to those of Reader's Digest to attract subscribers, but following criticism they were discontinued. The Association attracts subscribers to its publications with free mini-guides and trial offers. As of November 2024, Press Gazette ranked the Which? website 25th in the UK for page views, with 32.6m views per month. Cosmopolitan (Leucania loreyi) or false army worm, a moth Which? November 1966 issue Categories | Consumer Frequency | Monthly Publisher | The Consumers' Association First issue | October 1957 (1957-10) Country | United Kingdom Language | English Website | which.co.uk Which?, a UK charity and its magazine As a predominantly print media publication, Which? has also seen declining print sales and subscriber numbers in the 21st century. To offset this, Which? has expanded its online presence both in terms of paywalled website content and freely accessible newsletters as a tool to reach new audiences. Which? also partners with trusted providers such as Octopus Energy</s>"
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "id": 81184,
+  "claim": "Lady Gaga was not born March 28, 1986.",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.25526806712150574,
+    0.7444513440132141,
+    0.0002806152915582061
+  ],
+  "logits": [
+    1.4692096710205078,
+    2.5395429134368896,
+    -5.343875408172607
+  ],
+  "inference_seconds": 0.10695820799999822,
+  "evidence_text": "did not chart in that country. Lady Gaga Gaga at the inauguration of Joe Biden in 2021 Born | Stefani Joanne Angelina Germanotta (1986-03-28) March 28, 1986 New York City, US Occupations | Singer songwriter actress Years active | 2000–present Organizations | Born This Way Foundation Haus Labs Works | Discography songs videography performances Partner | Michael Polansky (eng. 2024) Children | 1 Mother | Cynthia Germanotta Awards | Full list Musical career Genres | Pop dance electronic jazz Instruments | Vocals piano keyboards Labels | Def Jam Cherrytree KonLive Streamline Interscope Website | ladygaga.com Signature items which did not chart in that country. . Stefani Joanne Angelina Germanotta (born March 28, 1986), known professionally as Lady Gaga, is an American singer, songwriter, and actress. An influential figure in popular music, she is known for her image reinventions, flamboyant fashion, and versatility across the entertainment industry. With estimated sales of 124 million records, she is one of the best-selling music artists of all time. In Taichung, Taiwan, July 3 is designated as \"Lady Gaga Day\" marking the first day Gaga visited the country in 2011. In May 2021, to celebrate the tenth anniversary of Born This Way and its cultural impact, West Hollywood mayor, Lindsey P. Horvath, presented Gaga with a key to the city and declared May 23 as \"Born This Way Day\". A street painting with the Daniel Quasar's version of the pride flag featuring the album's title was also unveiled on Robertson Boulevard as a tribute to the album, and how it has inspired the LGBTQ community over the years. Gaga has often been praised for using controversy to bring attention to various issues. According to Frankie Graddon of The Independent, Gaga—who wore a meat dress to highlight her distaste for the US military's \"don't ask, don't tell\" policy—influenced protest dressing on red carpet. Billboard named her the \"Greatest Pop Star\" of 2009, asserting that \"to say that her one-year rise from rookie to MVP was meteoric doesn't quite cut it, as she wasn't just successful, but game-changing—thanks to her voracious appetite for reinvention.\" Because of The Fame's success—it was listed as one of the 100 Greatest Debut Albums of All-Time by Rolling Stone in 2013—Gaga has been credited as one of the musicians that popularized synth-pop in the late 2000s and early 2010s. Solo studio albums The Fame (2008) (reissued in 2009 as The Fame Monster) Born This Way (2011) Artpop (2013) Joanne (2016) Chromatica (2020) Mayhem (2025) | Collaborative studio albums Cheek to Cheek (with Tony Bennett) (2014) Love for Sale (with Tony Bennett) (2021) | — | — | — | \"—\" denotes items which did not chart in that country. —\" denotes a recording that did not chart in that territory. In 2003, Gaga gained early admission to Collaborative Arts Project 21, a music school at New York University's Tisch School of the Arts. There, she improved her songwriting skills by writing essays on art, religion, social issues, and politics, including a thesis on the pop artists Spencer Tunick and Damien Hirst. In 2005, Gaga withdrew from school during the second semester of her second year to focus on her music career. That year, she also played a restaurant customer on MTV's Boiling Points, a prank reality television show. | — | — | — | — | — | — | — | — | | \"—\" denotes items which did not chart in that country. Stefani Joanne Angelina Germanotta was born on March 28, 1986, at Lenox Hill Hospital in the Lenox Hill neighborhood of Manhattan in New York City. Her parents are Cynthia Louise (née Bissett), a philanthropist and business executive, and Joseph Germanotta, an Internet entrepreneur; both have Italian ancestry. According to Gaga, her parents came from lower-class families and worked hard for everything. They raised Gaga and her younger sister, Natali, in an upper-middle-class Catholic family on the Upper West Side. From age 11, Gaga attended the Convent of the Sacred Heart, a private all-girls Catholic school on the Upper East Side. She has described her high-school self as \"very dedicated, very studious, very disciplined\" and somewhat insecure. She considered herself a misfit and was mocked for being provocative and eccentric. in Germany. List of best-selling albums of the 21st century In a 2014 interview, Gaga discussed being raped at age 19 by her producer, and undergoing emotional and physical therapy for the trauma. She later revealed that following the assault, her rapist dropped her off pregnant near her parents' house because she was sick and vomiting. Gaga has post-traumatic stress disorder which she attributes to the rape; she said the trauma has changed her as a person and will never leave her.",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1057,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1043,
+    "evidence_tokens_retained": 498,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 19477573,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 17782843,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 17782843,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 17782843,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 17782843,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 17782843,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 17782843,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 17782843,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 17782843,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 17782843,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 17782843,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 17782843,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 17782843,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 17782843,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 17782843,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 17782843,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 17782843,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 17782843,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 17782843,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 19477573,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 17782843,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 17782843,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 17782843,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 17782843,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 17782843,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 17782843,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 17782843,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 17782843,
+        "tokens_total": 44,
+        "tokens_kept": 44,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 17782843,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 17782843,
+        "tokens_total": 46,
+        "tokens_kept": 46,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 17782843,
+        "tokens_total": 116,
+        "tokens_kept": 91,
+        "visibility": "partial"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 17782843,
+        "tokens_total": 75,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 19477573,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 19477573,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 19477573,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 17782843,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 17782843,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 17782843,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 17782843,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 19477573,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 19477573,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 17782843,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 17782843,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 17782843,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 17782843,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 17782843,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 17782843,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 17782843,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 19477573,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 19477573,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 17782843,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 17782843,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 17782843,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Lady Gaga was not born March 28, 1986.</s></s>did not chart in that country. Lady Gaga Gaga at the inauguration of Joe Biden in 2021 Born | Stefani Joanne Angelina Germanotta (1986-03-28) March 28, 1986 New York City, US Occupations | Singer songwriter actress Years active | 2000–present Organizations | Born This Way Foundation Haus Labs Works | Discography songs videography performances Partner | Michael Polansky (eng. 2024) Children | 1 Mother | Cynthia Germanotta Awards | Full list Musical career Genres | Pop dance electronic jazz Instruments | Vocals piano keyboards Labels | Def Jam Cherrytree KonLive Streamline Interscope Website | ladygaga.com Signature items which did not chart in that country. . Stefani Joanne Angelina Germanotta (born March 28, 1986), known professionally as Lady Gaga, is an American singer, songwriter, and actress. An influential figure in popular music, she is known for her image reinventions, flamboyant fashion, and versatility across the entertainment industry. With estimated sales of 124 million records, she is one of the best-selling music artists of all time. In Taichung, Taiwan, July 3 is designated as \"Lady Gaga Day\" marking the first day Gaga visited the country in 2011. In May 2021, to celebrate the tenth anniversary of Born This Way and its cultural impact, West Hollywood mayor, Lindsey P. Horvath, presented Gaga with a key to the city and declared May 23 as \"Born This Way Day\". A street painting with the Daniel Quasar's version of the pride flag featuring the album's title was also unveiled on Robertson Boulevard as a tribute to the album, and how it has inspired the LGBTQ community over the years. Gaga has often been praised for using controversy to bring attention to various issues. According to Frankie Graddon of The Independent, Gaga—who wore a meat dress to highlight her distaste for the US military's \"don't ask, don't tell\" policy—influenced protest dressing on red carpet. Billboard named her the \"Greatest Pop Star\" of 2009, asserting that \"to say that her one-year rise from rookie to MVP was meteoric doesn't quite cut it, as she wasn't just successful, but game-changing—thanks to her voracious appetite for reinvention.\" Because of The Fame's success—it was listed as one of the 100 Greatest Debut Albums of All-Time by Rolling Stone in 2013—G</s>"
+  }
+}

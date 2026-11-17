@@ -1,0 +1,621 @@
+{
+  "params": {
+    "action": "wbgetentities",
+    "ids": "Q105388915",
+    "props": "claims|labels|aliases",
+    "languages": "en"
+  },
+  "response": {
+    "entities": {
+      "Q105388915": {
+        "type": "item",
+        "id": "Q105388915",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Grace Jones"
+          }
+        },
+        "aliases": {
+          "en": [
+            {
+              "language": "en",
+              "value": "Grace Perpetua Jones"
+            }
+          ]
+        },
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "ad7d38a03cdd40cdc373de0dc4e7b7fcbccb31d9",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5,
+                    "id": "Q5"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105388915$15ed9587-445c-b3ef-e1ca-169fcb0feb4e",
+              "rank": "normal"
+            }
+          ],
+          "P106": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P106",
+                "hash": "d960110a68428bc64079910bfb1386f05c05aa65",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3621491,
+                    "id": "Q3621491"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105388915$e40d4280-47e8-1902-78f3-c30c1d1be374",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "31eb864cb20b3ad88f40caf1690552952912d945",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "96382985f7beddb9bdab2e0d0aa3a2cf63009fe0",
+                        "datavalue": {
+                          "value": "https://www.wessexarch.co.uk/people/grace-jones",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e7209d6a34699decf0c1453ba5e19f158aa8e5ae",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-02-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P1065": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1065",
+                        "hash": "f1261dc758da9a97299a4005d0a3e9a52f41d06a",
+                        "datavalue": {
+                          "value": "https://web.archive.org/web/20210303015915/https://www.wessexarch.co.uk/people/grace-jones",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P2960": [
+                      {
+                        "snaktype": "value",
+                        "property": "P2960",
+                        "hash": "adb4bf581f65692955cd06fd2e9cbde262e26667",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813",
+                    "P1065",
+                    "P2960"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P735": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P735",
+                "hash": "99ef6830c26b63ddf37302fb92efcaf7b3eb1807",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1541047,
+                    "id": "Q1541047"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105388915$00b8b82b-4699-3657-a58d-a69df553aff0",
+              "rank": "normal"
+            }
+          ],
+          "P734": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P734",
+                "hash": "f19e62a950fae1fa295ed1c0929e6f92e0059b50",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 59853,
+                    "id": "Q59853"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105388915$c2d211ad-4d33-ad13-ad90-5df405b48b8e",
+              "rank": "normal"
+            }
+          ],
+          "P108": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P108",
+                "hash": "230bf8d6137250b1af99eb906c67723b489a7606",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 748114,
+                    "id": "Q748114"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105388915$fbc31444-45cd-4054-442d-96198af71b6e",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "31eb864cb20b3ad88f40caf1690552952912d945",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "96382985f7beddb9bdab2e0d0aa3a2cf63009fe0",
+                        "datavalue": {
+                          "value": "https://www.wessexarch.co.uk/people/grace-jones",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e7209d6a34699decf0c1453ba5e19f158aa8e5ae",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-02-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P1065": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1065",
+                        "hash": "f1261dc758da9a97299a4005d0a3e9a52f41d06a",
+                        "datavalue": {
+                          "value": "https://web.archive.org/web/20210303015915/https://www.wessexarch.co.uk/people/grace-jones",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P2960": [
+                      {
+                        "snaktype": "value",
+                        "property": "P2960",
+                        "hash": "adb4bf581f65692955cd06fd2e9cbde262e26667",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813",
+                    "P1065",
+                    "P2960"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P69": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P69",
+                "hash": "49f537f04f1f7d262063880fdf94c681b6639234",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 193196,
+                    "id": "Q193196"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q105388915$7aca0ddb-415d-9125-235f-ba013ffbb372",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "31eb864cb20b3ad88f40caf1690552952912d945",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "96382985f7beddb9bdab2e0d0aa3a2cf63009fe0",
+                        "datavalue": {
+                          "value": "https://www.wessexarch.co.uk/people/grace-jones",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e7209d6a34699decf0c1453ba5e19f158aa8e5ae",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-02-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P1065": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1065",
+                        "hash": "f1261dc758da9a97299a4005d0a3e9a52f41d06a",
+                        "datavalue": {
+                          "value": "https://web.archive.org/web/20210303015915/https://www.wessexarch.co.uk/people/grace-jones",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P2960": [
+                      {
+                        "snaktype": "value",
+                        "property": "P2960",
+                        "hash": "adb4bf581f65692955cd06fd2e9cbde262e26667",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-03-03T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813",
+                    "P1065",
+                    "P2960"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P69",
+                "hash": "7cf8c67a2ad7f5523229968149d7078f0792cd65",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 76473,
+                    "id": "Q76473"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P512": [
+                  {
+                    "snaktype": "value",
+                    "property": "P512",
+                    "hash": "4b121860adb05c121013505231baf69695f5d267",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 183816,
+                        "id": "Q183816"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P512"
+              ],
+              "id": "Q105388915$0764383b-40c4-01c5-eb48-145554c23886",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "559faa24694dd8e2672ef926f19f7a3a22247a1b",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "96382985f7beddb9bdab2e0d0aa3a2cf63009fe0",
+                        "datavalue": {
+                          "value": "https://www.wessexarch.co.uk/people/grace-jones",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e7209d6a34699decf0c1453ba5e19f158aa8e5ae",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-02-08T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P69",
+                "hash": "32ac0a3ee81a91b66f658a29b867e3daa736b412",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 3182943,
+                    "id": "Q3182943"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P512": [
+                  {
+                    "snaktype": "value",
+                    "property": "P512",
+                    "hash": "7794b96dbd443022c3e1a8cf8ce441903f279d3f",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 752297,
+                        "id": "Q752297"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P582": [
+                  {
+                    "snaktype": "value",
+                    "property": "P582",
+                    "hash": "35c0020265dd882b92ff53afc3f29993e62a042f",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2017-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ],
+                "P1026": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1026",
+                    "hash": "f076d427045e875b5f21abd7b5d07bb120ce1269",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 106602206,
+                        "id": "Q106602206"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P512",
+                "P582",
+                "P1026"
+              ],
+              "id": "Q105388915$ce3a7aea-4bc5-e9f6-b254-15a5f371791e",
+              "rank": "normal"
+            }
+          ],
+          "P6734": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6734",
+                "hash": "b58b8e65eb91cfd1ec7b41342ab5c1f2cf2ae38e",
+                "datavalue": {
+                  "value": "20139",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q105388915$6559AE69-C5A9-4A76-B8B1-1621FCDD5BEC",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6734",
+                "hash": "160596dde7358fd56ab4feff6d267340cc7957d7",
+                "datavalue": {
+                  "value": "1011065",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q105388915$A0D81D29-9FB1-4DD2-8D25-B42826EEFC5F",
+              "rank": "normal"
+            }
+          ],
+          "P512": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P512",
+                "hash": "7794b96dbd443022c3e1a8cf8ce441903f279d3f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 752297,
+                    "id": "Q752297"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P585": [
+                  {
+                    "snaktype": "value",
+                    "property": "P585",
+                    "hash": "c34a8cfb745b0cda47dffa6967839b8f92bcb653",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2017-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P585"
+              ],
+              "id": "Q105388915$5A65B36F-8BAB-43EE-8B9B-82BC164E947C",
+              "rank": "normal"
+            }
+          ]
+        }
+      }
+    },
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:28:04.994962+00:00"
+}

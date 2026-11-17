@@ -1,0 +1,501 @@
+{
+  "id": 60674,
+  "claim": "Marc Maron has a studio.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.8085452318191528,
+    0.1881505846977234,
+    0.003304248210042715
+  ],
+  "logits": [
+    2.064563274383545,
+    0.6065692901611328,
+    -3.435464382171631
+  ],
+  "inference_seconds": 0.10778687499999862,
+  "evidence_text": "Music recordings Host: Marc Maron Maron, Marc. From Bleak to Dark [New York City]: Craft Recordings, 2024. Contributor: Craig Anton Marc David Maron (born September 27, 1963) is an American stand-up comedian, writer, actor, musician, and former radio presenter and podcaster. Comedy specials Maron, Marc. Final Engagement. [Minneapolis, MN.]: Stand Up! Records, 2009. More Later (2015) Comedy albums Podcasts Producer: Bill Kollar Too Real (2017) WTF with Marc Maron (2009–2025) Maron first performed stand-up in 1987 when he was 24 years old. His professional comedy career began at The Comedy Store in Los Angeles, where he became an associate of Sam Kinison. He later moved to New York City and became part of the New York alternative comedy scene. During the summer of 1994, he appeared several times on Monday open-mic night, coordinated by Tracey Metzger, at the now-closed Greenwich Village location of the Boston Comedy Club. He auditioned unsuccessfully for the 1995 Saturday Night Live cast overhaul and attributes being passed over to being high during a meeting with show creator and producer Lorne Michaels. Contributor: Rep. Richard Martin Books Maron, Marc. Not Sold Out. [Minneapolis, MN]: Stand Up! Records, 2002. Writer: Ray James Contributor: James Adomian Engineer: Andy Welker Contributor: David Poland Maron, Marc. This Has to Be Funny. [New York City]: Comedy Central Records, 2011. Contributor: Seth Morris Marc Maron Maron in 2026 Born | Marc David Maron (1963-09-27) September 27, 1963 Jersey City, New Jersey, U.S. Education | Boston University (BA) Notable work | Morning Sedition WTF with Marc Maron The Marc Maron Show Maron GLOW Spouses | Kimberly Reiss ​ ​(m. 1997; div. 2001)​ Mishna Wolff ​ ​(m. 2004; div. 2007)​ Comedy career Years active | 1987–present Medium | Stand-up, podcast, television, film Genres | Alternative comedy, black comedy, self-deprecation, cringe comedy, satire, musical comedy, observational comedy Website | wtfpod.com Occasionally shows were recorded in Maron's various hotel rooms (while on the road performing stand-up), the offices of his guests, or other locations. Every show opened with an audio sample of one of Maron's lines from the film Almost Famous: \"Lock the gates!\" Writer: Mike Ferrucci The Sound of Young America. Writer: Barry Lank The Marc Maron Show was a late night radio show produced in affiliation with the Air America Radio network and hosted by comedian Marc Maron. The show originated from KTLK 1150 AM in Los Angeles, California. The show was less politically focused and more comedic than the other weekday programs on Air America. It featured interviews (both political and showbusiness), live comedy, and extensive banter between Maron and Jim Earl, Maron's co-host, who provides humorous introductions after each commercial break and plays several of the recurring characters in the show's skits. As of 2023, Maron is dating a woman named Kit.",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 689,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 678,
+    "evidence_tokens_retained": 501,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 1584216,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 4420173,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 1584216,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 1584216,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 4420173,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 1584216,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 1584216,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 1584216,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 1584216,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 1584216,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 1584216,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 1584216,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 1584216,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 4420173,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 1584216,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 1584216,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 1584216,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 1584216,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 1584216,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 1584216,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 1584216,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 4420173,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 4420173,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 1584216,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 1584216,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 1584216,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 1584216,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 4420173,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 4420173,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 4420173,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 4420173,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 1584216,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 1584216,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 4420173,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 1584216,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 1584216,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 1584216,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 1584216,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 1584216,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 1584216,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 1584216,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 1584216,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 1584216,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 1584216,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 1584216,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 1584216,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 1584216,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 1584216,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 1584216,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 26007346,
+        "tokens_total": 31,
+        "tokens_kept": 24,
+        "visibility": "partial"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 26007346,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 4420173,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 1584216,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 4420173,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 4420173,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 4420173,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 4420173,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 4420173,
+        "tokens_total": 53,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 1584216,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Marc Maron has a studio.</s></s>Music recordings Host: Marc Maron Maron, Marc. From Bleak to Dark [New York City]: Craft Recordings, 2024. Contributor: Craig Anton Marc David Maron (born September 27, 1963) is an American stand-up comedian, writer, actor, musician, and former radio presenter and podcaster. Comedy specials Maron, Marc. Final Engagement. [Minneapolis, MN.]: Stand Up! Records, 2009. More Later (2015) Comedy albums Podcasts Producer: Bill Kollar Too Real (2017) WTF with Marc Maron (2009–2025) Maron first performed stand-up in 1987 when he was 24 years old. His professional comedy career began at The Comedy Store in Los Angeles, where he became an associate of Sam Kinison. He later moved to New York City and became part of the New York alternative comedy scene. During the summer of 1994, he appeared several times on Monday open-mic night, coordinated by Tracey Metzger, at the now-closed Greenwich Village location of the Boston Comedy Club. He auditioned unsuccessfully for the 1995 Saturday Night Live cast overhaul and attributes being passed over to being high during a meeting with show creator and producer Lorne Michaels. Contributor: Rep. Richard Martin Books Maron, Marc. Not Sold Out. [Minneapolis, MN]: Stand Up! Records, 2002. Writer: Ray James Contributor: James Adomian Engineer: Andy Welker Contributor: David Poland Maron, Marc. This Has to Be Funny. [New York City]: Comedy Central Records, 2011. Contributor: Seth Morris Marc Maron Maron in 2026 Born | Marc David Maron (1963-09-27) September 27, 1963 Jersey City, New Jersey, U.S. Education | Boston University (BA) Notable work | Morning Sedition WTF with Marc Maron The Marc Maron Show Maron GLOW Spouses | Kimberly Reiss ​ ​(m. 1997; div. 2001)​ Mishna Wolff ​ ​(m. 2004; div. 2007)​ Comedy career Years active | 1987–present Medium | Stand-up, podcast, television, film Genres | Alternative comedy, black comedy, self-deprecation, cringe comedy, satire, musical comedy, observational comedy Website | wtfpod.com Occasionally shows were recorded in Maron's various hotel rooms (while on the road performing stand-up), the offices of</s>"
+  }
+}

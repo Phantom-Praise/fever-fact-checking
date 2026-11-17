@@ -1,0 +1,116 @@
+{
+  "id": 149003,
+  "claim": "The Conjuring had $20 million for a budget.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06878070799999847,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "The_Conjuring",
+          "sentence_id": 8,
+          "text": "The film received positive reviews from critics and grossed over $ 318 million worldwide from its $ 20 million budget , making it one of the highest-grossing horror films of all time .",
+          "score": 3.05
+        },
+        {
+          "page_id": "20_Million_Miles_to_Earth",
+          "sentence_id": 0,
+          "text": "20 Million Miles to Earth -LRB- a.k.a. .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Conjuring_Creek",
+          "sentence_id": 0,
+          "text": "Conjuring Creek is a stream in Alberta , Canada .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Conjuring_Creek",
+          "sentence_id": 3,
+          "text": "Conjuring Creek was named in complement to Wizard Lake in its headwaters .",
+          "score": 1.1
+        },
+        {
+          "page_id": "The_Conjuring",
+          "sentence_id": 0,
+          "text": "The Conjuring is a 2013 American supernatural horror film directed by James Wan and written by Chad Hayes and Carey Hayes .",
+          "score": 1.05
+        }
+      ],
+      "probabilities": [
+        0.979233980178833,
+        0.020683733746409416,
+        8.228034130297601e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05585829099999984,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.4824693202972412,
+        0.2624635100364685,
+        0.2550671696662903
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06087962499999833,
+      "symbolic": {
+        "claim": "The Conjuring had $20 million for a budget.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2833999996075818e-05
+      },
+      "evidence": [
+        {
+          "page_id": "The_Conjuring",
+          "sentence_id": 8,
+          "text": "The film received positive reviews from critics and grossed over $ 318 million worldwide from its $ 20 million budget , making it one of the highest-grossing horror films of all time .",
+          "score": 3.05
+        },
+        {
+          "page_id": "20_Million_Miles_to_Earth",
+          "sentence_id": 0,
+          "text": "20 Million Miles to Earth -LRB- a.k.a. .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Conjuring_Creek",
+          "sentence_id": 0,
+          "text": "Conjuring Creek is a stream in Alberta , Canada .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Conjuring_Creek",
+          "sentence_id": 3,
+          "text": "Conjuring Creek was named in complement to Wizard Lake in its headwaters .",
+          "score": 1.1
+        },
+        {
+          "page_id": "The_Conjuring",
+          "sentence_id": 0,
+          "text": "The Conjuring is a 2013 American supernatural horror film directed by James Wan and written by Chad Hayes and Carey Hayes .",
+          "score": 1.05
+        }
+      ],
+      "probabilities": [
+        0.979233980178833,
+        0.020683733746409416,
+        8.228034130297601e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

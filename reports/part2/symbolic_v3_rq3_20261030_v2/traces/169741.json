@@ -1,0 +1,116 @@
+{
+  "id": 169741,
+  "claim": "Asteroid Day is a popular event.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08385970900000217,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Asteroid_Day",
+          "sentence_id": 0,
+          "text": "Asteroid Day -LRB- also known as International Asteroid Day -RRB- is an annual global event that aims to raise awareness about asteroids and what can be done to protect the Earth , its families , communities , and future generations .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Asteroid_Day",
+          "sentence_id": 1,
+          "text": "Asteroid Day is held on the anniversary of the June 30 , 1908 Siberian Tunguska event , the most harmful known asteroid-related event on Earth in recent history .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Asteroid_Day",
+          "sentence_id": 2,
+          "text": "The United Nations has proclaimed that Asteroid Day will be observed globally on June 30 every year in its resolution .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Asteroid_Day",
+          "sentence_id": 6,
+          "text": "Over 200 astronauts , scientists , technologists and artists , including Richard Dawkins , Bill Nye , Peter Gabriel , Jim Lovell , Apollo 11 Astronaut Michael Collins , Alexei Leonov , Bill Anders , Kip Thorne , Lord Martin Rees , Chris Hadfield , Rusty Schweickart and Brian Cox co-signed the Asteroid Day Declaration .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Asteroid_Day",
+          "sentence_id": 7,
+          "text": "Asteroid Day was officially launched on December 3 , 2014 .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.7089245319366455,
+        0.2903367280960083,
+        0.0007387620280496776
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07340012499999915,
+      "symbolic": {
+        "claim": "Asteroid Day is a popular event.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.520800000065492e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Asteroid_Day",
+          "sentence_id": 0,
+          "text": "Asteroid Day -LRB- also known as International Asteroid Day -RRB- is an annual global event that aims to raise awareness about asteroids and what can be done to protect the Earth , its families , communities , and future generations .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Asteroid_Day",
+          "sentence_id": 1,
+          "text": "Asteroid Day is held on the anniversary of the June 30 , 1908 Siberian Tunguska event , the most harmful known asteroid-related event on Earth in recent history .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Asteroid_Day",
+          "sentence_id": 2,
+          "text": "The United Nations has proclaimed that Asteroid Day will be observed globally on June 30 every year in its resolution .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Asteroid_Day",
+          "sentence_id": 6,
+          "text": "Over 200 astronauts , scientists , technologists and artists , including Richard Dawkins , Bill Nye , Peter Gabriel , Jim Lovell , Apollo 11 Astronaut Michael Collins , Alexei Leonov , Bill Anders , Kip Thorne , Lord Martin Rees , Chris Hadfield , Rusty Schweickart and Brian Cox co-signed the Asteroid Day Declaration .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Asteroid_Day",
+          "sentence_id": 7,
+          "text": "Asteroid Day was officially launched on December 3 , 2014 .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.7089245319366455,
+        0.2903367280960083,
+        0.0007387620280496776
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05944604100000106,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5092396140098572,
+        0.07498235255479813,
+        0.41577810049057007
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": 19253,
+  "claim": "David Beckham is estranged from Victoria Beckham.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.09710666600000017,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Beckham",
+          "sentence_id": 2,
+          "text": "Beckham may refer to the English football player David Beckham or his wife Victoria Beckham .",
+          "score": 3.0166666666666666
+        },
+        {
+          "page_id": "Homme_by_David_Beckham",
+          "sentence_id": 1,
+          "text": "The scent , which was released by Coty , Inc. in September 2011 , joined his existing scents David Beckham Instinct -LRB- 2005 -RRB- and Intimately Beckham -LRB- 2006 -RRB- , a his-and-hers collection with his wife Victoria Beckham .",
+          "score": 3.0142857142857142
+        },
+        {
+          "page_id": "Victoria_Beckham-COLON-_Coming_to_America",
+          "sentence_id": 0,
+          "text": "Victoria Beckham : Coming to America was a 2007 one-hour American TV special that featured British former Spice Girl Victoria Beckham moving to the United States where her husband , David Beckham , began his career playing soccer for LA Galaxy of the MLS .",
+          "score": 3.01
+        },
+        {
+          "page_id": "Victoria_Beckham",
+          "sentence_id": 0,
+          "text": "Victoria Caroline Beckham , -LRB- Adams ; born 17 April 1974 -RRB- is an English businesswoman , fashion designer , model , and singer .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Victoria_Beckham",
+          "sentence_id": 6,
+          "text": "Beckham has participated in five official documentaries and reality shows about her , including Victoria 's Secrets , Being Victoria Beckham , The Real Beckhams , Victoria Beckham - A Mile In Their Shoes and Victoria Beckham : Coming to America .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.036344192922115326,
+        0.9635679721832275,
+        8.786430407781154e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05945325000000068,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.3729294538497925,
+        0.27200305461883545,
+        0.35506749153137207
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.09460587500000095,
+      "symbolic": {
+        "claim": "David Beckham is estranged from Victoria Beckham.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.387500000049613e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Beckham",
+          "sentence_id": 2,
+          "text": "Beckham may refer to the English football player David Beckham or his wife Victoria Beckham .",
+          "score": 3.0166666666666666
+        },
+        {
+          "page_id": "Homme_by_David_Beckham",
+          "sentence_id": 1,
+          "text": "The scent , which was released by Coty , Inc. in September 2011 , joined his existing scents David Beckham Instinct -LRB- 2005 -RRB- and Intimately Beckham -LRB- 2006 -RRB- , a his-and-hers collection with his wife Victoria Beckham .",
+          "score": 3.0142857142857142
+        },
+        {
+          "page_id": "Victoria_Beckham-COLON-_Coming_to_America",
+          "sentence_id": 0,
+          "text": "Victoria Beckham : Coming to America was a 2007 one-hour American TV special that featured British former Spice Girl Victoria Beckham moving to the United States where her husband , David Beckham , began his career playing soccer for LA Galaxy of the MLS .",
+          "score": 3.01
+        },
+        {
+          "page_id": "Victoria_Beckham",
+          "sentence_id": 0,
+          "text": "Victoria Caroline Beckham , -LRB- Adams ; born 17 April 1974 -RRB- is an English businesswoman , fashion designer , model , and singer .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Victoria_Beckham",
+          "sentence_id": 6,
+          "text": "Beckham has participated in five official documentaries and reality shows about her , including Victoria 's Secrets , Being Victoria Beckham , The Real Beckhams , Victoria Beckham - A Mile In Their Shoes and Victoria Beckham : Coming to America .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.036344192922115326,
+        0.9635679721832275,
+        8.786430407781154e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

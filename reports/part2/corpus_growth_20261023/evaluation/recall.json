@@ -1,0 +1,94 @@
+[
+  {
+    "db": "data/processed/controlled_corpora_20261023/pages_2000.db",
+    "pages": 2000,
+    "sentences": 10835,
+    "recall": [
+      {
+        "k": 1,
+        "eligible": 0,
+        "any_hits": 0,
+        "complete_hits": 0,
+        "any_recall": null,
+        "complete_recall": null
+      },
+      {
+        "k": 5,
+        "eligible": 0,
+        "any_hits": 0,
+        "complete_hits": 0,
+        "any_recall": null,
+        "complete_recall": null
+      }
+    ]
+  },
+  {
+    "db": "data/processed/controlled_corpora_20261023/pages_10000.db",
+    "pages": 10000,
+    "sentences": 50124,
+    "recall": [
+      {
+        "k": 1,
+        "eligible": 0,
+        "any_hits": 0,
+        "complete_hits": 0,
+        "any_recall": null,
+        "complete_recall": null
+      },
+      {
+        "k": 5,
+        "eligible": 0,
+        "any_hits": 0,
+        "complete_hits": 0,
+        "any_recall": null,
+        "complete_recall": null
+      }
+    ]
+  },
+  {
+    "db": "data/processed/controlled_corpora_20261023/pages_50000.db",
+    "pages": 50000,
+    "sentences": 239351,
+    "recall": [
+      {
+        "k": 1,
+        "eligible": 0,
+        "any_hits": 0,
+        "complete_hits": 0,
+        "any_recall": null,
+        "complete_recall": null
+      },
+      {
+        "k": 5,
+        "eligible": 0,
+        "any_hits": 0,
+        "complete_hits": 0,
+        "any_recall": null,
+        "complete_recall": null
+      }
+    ]
+  },
+  {
+    "db": "data/processed/wiki_fts.db",
+    "pages": 5396106,
+    "sentences": 25247888,
+    "recall": [
+      {
+        "k": 1,
+        "eligible": 0,
+        "any_hits": 0,
+        "complete_hits": 0,
+        "any_recall": null,
+        "complete_recall": null
+      },
+      {
+        "k": 5,
+        "eligible": 0,
+        "any_hits": 0,
+        "complete_hits": 0,
+        "any_recall": null,
+        "complete_recall": null
+      }
+    ]
+  }
+]

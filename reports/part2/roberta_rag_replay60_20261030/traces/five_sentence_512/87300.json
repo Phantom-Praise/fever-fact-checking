@@ -1,0 +1,69 @@
+{
+  "id": 87300,
+  "claim": "Don Henley has released a live DVD.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9901031255722046,
+    0.009804381057620049,
+    9.25115673453547e-05
+  ],
+  "logits": [
+    4.255897045135498,
+    -0.35908281803131104,
+    -5.022334098815918
+  ],
+  "inference_seconds": 0.1200290829999986,
+  "evidence_text": "He has released five studio albums , two compilation albums , and one live DVD . Live is a live and the first DVD released by the band Godsmack . Donald Hugh `` Don '' Henley -LRB- born July 22 , 1947 -RRB- is an American singer-songwriter , producer , and drummer , best known as a founding member of the Eagles before launching a successful solo career . After the Eagles broke up in 1980 , Henley pursued a solo career and released his debut album I Ca n't Stand Still , in 1982 . Combined with the Eagles and as a solo artist , Henley has released 25 Top 40 singles on the Billboard Hot 100 .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 147,
+    "tokens_retained": 147,
+    "truncated": false,
+    "evidence_tokens_total": 134,
+    "evidence_tokens_retained": 134,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Don_Henley",
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Live_-LRB-Godsmack_DVD-RRB-",
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Don_Henley",
+        "tokens_total": 49,
+        "tokens_kept": 49,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Don_Henley",
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Don_Henley",
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Don Henley has released a live DVD.</s></s>He has released five studio albums , two compilation albums , and one live DVD . Live is a live and the first DVD released by the band Godsmack . Donald Hugh `` Don '' Henley -LRB- born July 22 , 1947 -RRB- is an American singer-songwriter , producer , and drummer , best known as a founding member of the Eagles before launching a successful solo career . After the Eagles broke up in 1980 , Henley pursued a solo career and released his debut album I Ca n't Stand Still , in 1982 . Combined with the Eagles and as a solo artist , Henley has released 25 Top 40 singles on the Billboard Hot 100 .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

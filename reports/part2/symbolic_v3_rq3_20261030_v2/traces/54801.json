@@ -1,0 +1,116 @@
+{
+  "id": 54801,
+  "claim": "Genghis Khan did not practice meritocracy.",
+  "conditions": {
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05763008399999947,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.027628514915704727,
+        0.9472166299819946,
+        0.02515486627817154
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07140179199999963,
+      "symbolic": {
+        "claim": "Genghis Khan did not practice meritocracy.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3249999998521389e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Genghis_Khan",
+          "sentence_id": 0,
+          "text": "Genghis Khan -LRB- -LSB- ˈdʒɛŋɡɪs_ˈkɑːn -RSB- , usually pronounced -LSB- ˈɡɛŋɡɪs_ˈkɑːn -RSB- Чингис хаан , Çingis hán -LSB- t͡ʃʰiŋɡɪs xaːŋ -RSB- , c. 1162 August 18 , 1227 -RRB- , born Temüjin , was the Great Khan and founder of the Mongol Empire , which became the largest contiguous empire in history after his death .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Genghis_Khan",
+          "sentence_id": 4,
+          "text": "After founding the Empire and being proclaimed `` Genghis Khan '' , he started the Mongol invasions that conquered most of Eurasia .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Genghis_Khan",
+          "sentence_id": 10,
+          "text": "Before Genghis Khan died he assigned Ögedei Khan as his successor .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Genghis_Khan",
+          "sentence_id": 16,
+          "text": "As a result , Genghis Khan and his empire have a fearsome reputation in local histories .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Genghis_Khan",
+          "sentence_id": 19,
+          "text": "Beyond his military accomplishments , Genghis Khan also advanced the Mongol Empire in other ways .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.05534418672323227,
+        0.9445918798446655,
+        6.39497593510896e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08152579099999713,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Genghis_Khan",
+          "sentence_id": 0,
+          "text": "Genghis Khan -LRB- -LSB- ˈdʒɛŋɡɪs_ˈkɑːn -RSB- , usually pronounced -LSB- ˈɡɛŋɡɪs_ˈkɑːn -RSB- Чингис хаан , Çingis hán -LSB- t͡ʃʰiŋɡɪs xaːŋ -RSB- , c. 1162 August 18 , 1227 -RRB- , born Temüjin , was the Great Khan and founder of the Mongol Empire , which became the largest contiguous empire in history after his death .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Genghis_Khan",
+          "sentence_id": 4,
+          "text": "After founding the Empire and being proclaimed `` Genghis Khan '' , he started the Mongol invasions that conquered most of Eurasia .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Genghis_Khan",
+          "sentence_id": 10,
+          "text": "Before Genghis Khan died he assigned Ögedei Khan as his successor .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Genghis_Khan",
+          "sentence_id": 16,
+          "text": "As a result , Genghis Khan and his empire have a fearsome reputation in local histories .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Genghis_Khan",
+          "sentence_id": 19,
+          "text": "Beyond his military accomplishments , Genghis Khan also advanced the Mongol Empire in other ways .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.05534418672323227,
+        0.9445918798446655,
+        6.39497593510896e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": 205947,
+  "claim": "Cosmopolitan as of 2011 contains content which includes articles.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.6167417168617249,
+    0.3826132118701935,
+    0.0006450745277106762
+  ],
+  "logits": [
+    2.0671937465667725,
+    1.5897680521011353,
+    -4.7956461906433105
+  ],
+  "evidence": [
+    {
+      "page_id": "Cosmopolitan",
+      "sentence_id": 37,
+      "text": "Cosmopolitan distribution , in biogeography , biological categories which can be found almost anywhere around the world",
+      "score": 2.1
+    },
+    {
+      "page_id": "Cosmopolitan",
+      "sentence_id": 43,
+      "text": "Cosmopolitan of Las Vegas , a luxury resort casino and hotel in Las Vegas , Nevada , which opened in December 2010",
+      "score": 2.1
+    },
+    {
+      "page_id": "Edge_Side_Includes",
+      "sentence_id": 0,
+      "text": "Edge Side Includes or ESI is a small markup language for edge level dynamic web content assembly .",
+      "score": 2.025
+    },
+    {
+      "page_id": "Cosmopolitan_Airlines",
+      "sentence_id": 0,
+      "text": "Cosmopolitan Airlines was a FAR Part 121 Supplemental Air Carrier airline based at Republic Airport in Farmingdale , Long Island , New York , which served both commuter and charter flights .",
+      "score": 2.0142857142857142
+    },
+    {
+      "page_id": "Cosmopolitan",
+      "sentence_id": 0,
+      "text": "Cosmopolitan may refer to :",
+      "score": 1.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 117,
+    "tokens_retained": 117,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Cosmopolitan as of 2011 contains content which includes articles.</s></s>Cosmopolitan distribution , in biogeography , biological categories which can be found almost anywhere around the world Cosmopolitan of Las Vegas , a luxury resort casino and hotel in Las Vegas , Nevada , which opened in December 2010 Edge Side Includes or ESI is a small markup language for edge level dynamic web content assembly . Cosmopolitan Airlines was a FAR Part 121 Supplemental Air Carrier airline based at Republic Airport in Farmingdale , Long Island , New York , which served both commuter and charter flights . Cosmopolitan may refer to :</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.0852088749999993
+}

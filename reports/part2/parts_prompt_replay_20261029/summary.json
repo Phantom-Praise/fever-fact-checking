@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "n": 10,
+  "previous_rag_correct": 4,
+  "model_label_correct": 5,
+  "derived_label_correct": 7,
+  "invalid": 0,
+  "inconsistent": 2,
+  "limitations": [
+    "Retrospective development replay on ten already inspected claims; not a new held-out improvement estimate.",
+    "Prompt and structured output schema change together. Same 256-token output cap may truncate longer part arrays; those failures remain INVALID, with no silent retry.",
+    "A consistent label does not prove that decomposition, part verdicts or cited evidence are correct.",
+    "No example-specific vocabulary, claim-specific rules or gold labels are added to the prompt."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "id": 96860,
+  "claim": "Music is written by Solange Knowles.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09658224999999732,
+      "symbolic": {
+        "claim": "Music is written by Solange Knowles.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2708999996391412e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Solange_Knowles",
+          "sentence_id": 0,
+          "text": "Solange Piaget Knowles -LRB- -LSB- soʊˈlɑːnʒ -RSB- born June 24 , 1986 -RRB- is an American singer , songwriter , dancer , model and actress .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Solange_Knowles",
+          "sentence_id": 1,
+          "text": "Expressing an interest in music from an early age , Knowles had several temporary stints in Destiny 's Child , before signing with her father Mathew Knowles 's Music World Entertainment label .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Solange_Knowles",
+          "sentence_id": 3,
+          "text": "Between 2005 and 2007 , Knowles had several minor acting roles , including the direct-to-video Bring It On : All or Nothing -LRB- 2006 -RRB- and continued writing music for her older sister Beyoncé Knowles-Carter and for ex-Destiny 's Child group members Kelly Rowland and Michelle Williams .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Solange_Knowles",
+          "sentence_id": 6,
+          "text": "In 2007 , Knowles began to record music again .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Solange_Knowles",
+          "sentence_id": 18,
+          "text": "On November 16 , 2014 , Knowles married music video director Alan Ferguson in New Orleans , Louisiana .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9685344696044922,
+        0.03137297183275223,
+        9.252913150703534e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05694983399999387,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.8861078023910522,
+        0.04442479833960533,
+        0.06946734338998795
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07563587500000324,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Solange_Knowles",
+          "sentence_id": 0,
+          "text": "Solange Piaget Knowles -LRB- -LSB- soʊˈlɑːnʒ -RSB- born June 24 , 1986 -RRB- is an American singer , songwriter , dancer , model and actress .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Solange_Knowles",
+          "sentence_id": 1,
+          "text": "Expressing an interest in music from an early age , Knowles had several temporary stints in Destiny 's Child , before signing with her father Mathew Knowles 's Music World Entertainment label .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Solange_Knowles",
+          "sentence_id": 3,
+          "text": "Between 2005 and 2007 , Knowles had several minor acting roles , including the direct-to-video Bring It On : All or Nothing -LRB- 2006 -RRB- and continued writing music for her older sister Beyoncé Knowles-Carter and for ex-Destiny 's Child group members Kelly Rowland and Michelle Williams .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Solange_Knowles",
+          "sentence_id": 6,
+          "text": "In 2007 , Knowles began to record music again .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Solange_Knowles",
+          "sentence_id": 18,
+          "text": "On November 16 , 2014 , Knowles married music video director Alan Ferguson in New Orleans , Louisiana .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9685344696044922,
+        0.03137297183275223,
+        9.252913150703534e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

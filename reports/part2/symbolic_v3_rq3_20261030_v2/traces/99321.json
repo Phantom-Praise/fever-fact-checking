@@ -1,0 +1,116 @@
+{
+  "id": 99321,
+  "claim": "My Sweet Lord was written by Starr.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07961595799999799,
+      "symbolic": {
+        "claim": "My Sweet Lord was written by Starr.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3124999998836984e-05
+      },
+      "evidence": [
+        {
+          "page_id": "My_Sweet_Lord",
+          "sentence_id": 0,
+          "text": "`` My Sweet Lord '' is a song by English musician and former Beatle , George Harrison .",
+          "score": 3.1
+        },
+        {
+          "page_id": "My_Sweet_Lord",
+          "sentence_id": 2,
+          "text": "Also issued as a single , Harrison 's first as a solo artist , `` My Sweet Lord '' topped charts worldwide and was the biggest-selling single of 1971 in the UK .",
+          "score": 3.1
+        },
+        {
+          "page_id": "My_Sweet_Lord",
+          "sentence_id": 7,
+          "text": "Harrison wrote `` My Sweet Lord '' in praise of the Hindu god Krishna , while at the same time intending the lyrics to serve as a call to abandon religious sectarianism through his deliberate blending of the Hebrew word hallelujah with chants of `` Hare Krishna '' and Vedic prayer .",
+          "score": 3.1
+        },
+        {
+          "page_id": "My_Sweet_Lord",
+          "sentence_id": 12,
+          "text": "Later in the 1970s , `` My Sweet Lord '' was at the centre of a heavily publicised copyright infringement suit , due to its similarity to the Ronnie Mack song `` He 's So Fine '' , a 1963 hit for the New York girl group the Chiffons .",
+          "score": 3.1
+        },
+        {
+          "page_id": "My_Sweet_Lord",
+          "sentence_id": 17,
+          "text": "Harrison performed `` My Sweet Lord '' at the Concert for Bangladesh in August 1971 , and it remains the most popular composition from his post-Beatles career .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.2655230164527893,
+        0.7342365384101868,
+        0.00024041783763095737
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.0758517079999983,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "My_Sweet_Lord",
+          "sentence_id": 0,
+          "text": "`` My Sweet Lord '' is a song by English musician and former Beatle , George Harrison .",
+          "score": 3.1
+        },
+        {
+          "page_id": "My_Sweet_Lord",
+          "sentence_id": 2,
+          "text": "Also issued as a single , Harrison 's first as a solo artist , `` My Sweet Lord '' topped charts worldwide and was the biggest-selling single of 1971 in the UK .",
+          "score": 3.1
+        },
+        {
+          "page_id": "My_Sweet_Lord",
+          "sentence_id": 7,
+          "text": "Harrison wrote `` My Sweet Lord '' in praise of the Hindu god Krishna , while at the same time intending the lyrics to serve as a call to abandon religious sectarianism through his deliberate blending of the Hebrew word hallelujah with chants of `` Hare Krishna '' and Vedic prayer .",
+          "score": 3.1
+        },
+        {
+          "page_id": "My_Sweet_Lord",
+          "sentence_id": 12,
+          "text": "Later in the 1970s , `` My Sweet Lord '' was at the centre of a heavily publicised copyright infringement suit , due to its similarity to the Ronnie Mack song `` He 's So Fine '' , a 1963 hit for the New York girl group the Chiffons .",
+          "score": 3.1
+        },
+        {
+          "page_id": "My_Sweet_Lord",
+          "sentence_id": 17,
+          "text": "Harrison performed `` My Sweet Lord '' at the Concert for Bangladesh in August 1971 , and it remains the most popular composition from his post-Beatles career .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.2655230164527893,
+        0.7342365384101868,
+        0.00024041783763095737
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.059629375000000095,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.6372554302215576,
+        0.24824021756649017,
+        0.11450430750846863
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": 149713,
+  "claim": "Michael Winterbottom has done work with Shirley Henderson.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.057351791999998625,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5039238929748535,
+        0.011745085939764977,
+        0.48433104157447815
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09387420800000257,
+      "symbolic": {
+        "claim": "Michael Winterbottom has done work with Shirley Henderson.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.4000000000180535e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Michael_Winterbottom",
+          "sentence_id": 7,
+          "text": "Winterbottom often works with the same actors ; many faces can be seen in several of his films , including Shirley Henderson , Paul Popplewell , John Simm , Steve Coogan , Rob Brydon , Raymond Waring and Kieran O'Brien .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Michael_Winterbottom",
+          "sentence_id": 0,
+          "text": "Not to be confused with the classical scholar Michael Winterbottom -LRB- academic -RRB- .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Michael_Winterbottom",
+          "sentence_id": 3,
+          "text": "Michael Winterbottom -LRB- born 29 March 1961 -RRB- is an English filmmaker .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Shirley_Henderson",
+          "sentence_id": 0,
+          "text": "Shirley Henderson -LRB- born 24 November 1965 -RRB- is a Scottish actress .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Winterbottom",
+          "sentence_id": 13,
+          "text": "Michael Winterbottom -LRB- academic -RRB- -LRB- born 1934 -RRB- , English Classical scholar",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.9918096661567688,
+        0.00804263073951006,
+        0.0001477226905990392
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0702107500000011,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Michael_Winterbottom",
+          "sentence_id": 7,
+          "text": "Winterbottom often works with the same actors ; many faces can be seen in several of his films , including Shirley Henderson , Paul Popplewell , John Simm , Steve Coogan , Rob Brydon , Raymond Waring and Kieran O'Brien .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Michael_Winterbottom",
+          "sentence_id": 0,
+          "text": "Not to be confused with the classical scholar Michael Winterbottom -LRB- academic -RRB- .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Michael_Winterbottom",
+          "sentence_id": 3,
+          "text": "Michael Winterbottom -LRB- born 29 March 1961 -RRB- is an English filmmaker .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Shirley_Henderson",
+          "sentence_id": 0,
+          "text": "Shirley Henderson -LRB- born 24 November 1965 -RRB- is a Scottish actress .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Winterbottom",
+          "sentence_id": 13,
+          "text": "Michael Winterbottom -LRB- academic -RRB- -LRB- born 1934 -RRB- , English Classical scholar",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.9918096661567688,
+        0.00804263073951006,
+        0.0001477226905990392
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

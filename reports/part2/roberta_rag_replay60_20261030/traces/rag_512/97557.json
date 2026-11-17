@@ -1,0 +1,501 @@
+{
+  "id": 97557,
+  "claim": "Meghan McCain was named a co-host of an American nighttime news and talk show.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.6873084306716919,
+    0.3068152070045471,
+    0.005876393988728523
+  ],
+  "logits": [
+    1.6296892166137695,
+    0.823151707649231,
+    -3.132150650024414
+  ],
+  "inference_seconds": 0.10787633400000018,
+  "evidence_text": "Broadcast journalism She signed on as a Fox News contributor in July 2015 and was named a regular co-host of the afternoon talk program Outnumbered on November 14, 2016. McCain left FOX News in September 2017. Following her departure from both the program and the network in September 2017, McCain was named a permanent co-host of the ABC daytime talk show The View. She made her debut on the October 9, 2017, episode. She had previously guest co-hosted the show in 2008 and 2010. She announced her exit from the show after her fourth season in July 2021. In September 2009 and February 2010, McCain had repeat stints as guest co-host of The View. McCain received media attention in 2007 for her blog, McCain Blogette. On the blog, she documented life during the John McCain 2008 presidential campaign. In 2009, she became a contributing writer for The Daily Beast. From 2016 to 2017, she co-hosted the daytime talk show Outnumbered. She joined the daytime talk show The View shortly thereafter, co-hosting it until 2021. McCain became a columnist for the Daily Mail website following her departure from The View. Since 2023 she has also hosted her own podcast called Citizen McCain. McCain launched her podcast, Meghan McCain Has Entered the Chat, in late 2023. She later renamed her podcast \"Citizen McCain\". It is a semiweekly podcast on the 2WAY Network hosted by Meghan McCain with her co-host Miranda Wilkins. The program combines political commentary with discussions of popular culture, current events, and American cultural themes. McCain has expanded the show by merging its YouTube format with a podcast, broadening the show's scope and audience. The show has featured numerous public figures; specifcally, the show highlights conservative women, including Usha Vance, Tulsi Gabbard, Winsome Earle-Sears, Sarah Huckabee Sanders, Elise Stefanik, and Lara Trump. Meghan Marguerite McCain (born October 23, 1984) is an American television personality, columnist, and author. She has worked for ABC News, Fox News, and MSNBC. She is the daughter of politician John McCain and diplomat Cindy McCain. McCain has been a public figure for much of her life, first appearing at the 1996 Republican National Convention. New Yorkers in journalism \". In September 2013, her road-based talk show Raising McCain began on the start-up Pivot cable and satellite television channel. It was canceled in January 2014. She was later added as a co-host to the show TakePart Live on the same channel, appearing with Jacob Soboroff beginning in May 2014. The show was canceled in December 2014. e-mail. Politico stated that while John McCain did not emerge victorious from the 2008 election, \"his Bud Light–drinking, talk-show–appearing, insouciantly Twittering 24-year-old daughter\" did. Year | Award | Category | Nominated work | Result | Ref. 2014 | GLAAD Media Award | Outstanding Talk Show Episode | Raising McCain | Nominated | 2018 | Daytime Emmy Award | Outstanding Entertainment Talk Show Host (with Joy Behar, Jedediah Bila, Paula Faris, Whoopi Goldberg, Sara Haines and Sunny Hostin) | The View | Nominated | 2019 | Outstanding Entertainment Talk Show Host (with Joy Behar, Whoopi Goldberg, Sara Haines, Sunny Hostin and Abby Huntsman) | Nominated | 2020 | Outstanding Informative Talk Show Host (with Joy Behar, Whoopi Goldberg, Sunny Hostin, Abby Huntsman and Ana Navarro) | Nominated | 2022 | Outstanding Informative Talk Show Host (with Joy Behar, Whoopi Goldberg, Sara Haines, Sunny Hostin and Ana Navarro) | Nominated | In September 2021, McCain became an opinion columnist for the tabloid newspaper the Daily Mail. As of July 2026, she still writes columns for the Daily Mail. Meghan McCain McCain in 2018 Born | Meghan Marguerite McCain (1984-10-23) October 23, 1984 Phoenix, Arizona, U.S. Education | Columbia University (BA) Occupations | Television personalitycolumnistauthor Political party | RepublicanIndependent (before 2008) Spouse | Ben Domenech ​(m. 2017)​ Children | 3 Parents | John McCain (father)Cindy McCain (mother) Relatives | McCain family McCain (surname), a surname (includes a list of persons and characters) In November 2011, McCain became an analyst on MSNBC. McCain clashed with 2012 Republican presidential candidate and former Speaker of the U.S. House Newt Gingrich saying that he was an \"older candidate\" with \"old ideas\". McCain may refer to: In 2012, McCain posed for the April issue of Playboy wearing a red-sequined dress and blue stilettos and spoke to the magazine about a wide range of subjects, including her sex life. McAnn, a surname",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1041,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1019,
+    "evidence_tokens_retained": 490,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 16803137,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 16803137,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 16803137,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 16803137,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 16803137,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 16803137,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 16803137,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 16803137,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 16803137,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 16803137,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 16803137,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 16803137,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 16803137,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 16803137,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 16803137,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 16803137,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 16803137,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 16803137,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 16803137,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 16803137,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 16803137,
+        "tokens_total": 50,
+        "tokens_kept": 50,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 16803137,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 16803137,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 16803137,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 16803137,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 16803137,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 16803137,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 16803137,
+        "tokens_total": 27,
+        "tokens_kept": 23,
+        "visibility": "partial"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 16803137,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 16803137,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 16803137,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 16803137,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 16803137,
+        "tokens_total": 45,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 16803137,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 16803137,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 16803137,
+        "tokens_total": 50,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 16803137,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 16803137,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 16803137,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 16803137,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 16803137,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 16803137,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 16803137,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 16803137,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 16803137,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 16803137,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 16803137,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 16803137,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 16803137,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 16803137,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 16803137,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 16803137,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 1116678,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 16803137,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 16803137,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 16803137,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 1116678,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 16803137,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 1116678,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Meghan McCain was named a co-host of an American nighttime news and talk show.</s></s>Broadcast journalism She signed on as a Fox News contributor in July 2015 and was named a regular co-host of the afternoon talk program Outnumbered on November 14, 2016. McCain left FOX News in September 2017. Following her departure from both the program and the network in September 2017, McCain was named a permanent co-host of the ABC daytime talk show The View. She made her debut on the October 9, 2017, episode. She had previously guest co-hosted the show in 2008 and 2010. She announced her exit from the show after her fourth season in July 2021. In September 2009 and February 2010, McCain had repeat stints as guest co-host of The View. McCain received media attention in 2007 for her blog, McCain Blogette. On the blog, she documented life during the John McCain 2008 presidential campaign. In 2009, she became a contributing writer for The Daily Beast. From 2016 to 2017, she co-hosted the daytime talk show Outnumbered. She joined the daytime talk show The View shortly thereafter, co-hosting it until 2021. McCain became a columnist for the Daily Mail website following her departure from The View. Since 2023 she has also hosted her own podcast called Citizen McCain. McCain launched her podcast, Meghan McCain Has Entered the Chat, in late 2023. She later renamed her podcast \"Citizen McCain\". It is a semiweekly podcast on the 2WAY Network hosted by Meghan McCain with her co-host Miranda Wilkins. The program combines political commentary with discussions of popular culture, current events, and American cultural themes. McCain has expanded the show by merging its YouTube format with a podcast, broadening the show's scope and audience. The show has featured numerous public figures; specifcally, the show highlights conservative women, including Usha Vance, Tulsi Gabbard, Winsome Earle-Sears, Sarah Huckabee Sanders, Elise Stefanik, and Lara Trump. Meghan Marguerite McCain (born October 23, 1984) is an American television personality, columnist, and author. She has worked for ABC News, Fox News, and MSNBC. She is the daughter of politician John McCain and diplomat Cindy McCain. McCain has been a public figure for much of her life, first appearing at the 1996 Republican National Convention. New Yorkers in journalism \". In September 2013, her road-based talk show Raising McCain began on the start-up Pivot cable and</s>"
+  }
+}

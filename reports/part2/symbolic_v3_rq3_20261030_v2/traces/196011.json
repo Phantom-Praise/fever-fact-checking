@@ -1,0 +1,116 @@
+{
+  "id": 196011,
+  "claim": "The 2017 film The Mummy was based upon a much earlier silent film.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.14664074999999954,
+      "symbolic": {
+        "claim": "The 2017 film The Mummy was based upon a much earlier silent film.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.4541999998840538e-05
+      },
+      "evidence": [
+        {
+          "page_id": "The_Mummy_-LRB-2017_film-RRB-",
+          "sentence_id": 0,
+          "text": "The Mummy is a 2017 American action-adventure horror film directed by Alex Kurtzman and written by David Koepp , Christopher McQuarrie and Dylan Kussman , with a story by Kurtzman , Jon Spaihts and Jenny Lumet .",
+          "score": 3.1
+        },
+        {
+          "page_id": "The_Mummy_-LRB-2017_film-RRB-",
+          "sentence_id": 1,
+          "text": "It is a reboot of The Mummy franchise and the first installment in the Dark Universe film series .",
+          "score": 2.1
+        },
+        {
+          "page_id": "The_Mummy_-LRB-2017_film-RRB-",
+          "sentence_id": 5,
+          "text": "The Mummy premiered at the State Theatre in Sydney , Australia on May 22 , 2017 and is scheduled to be released in the United States on June 9 , 2017 in 2D , 3D and IMAX 3D .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Once_Upon_a_Time_-LRB-2017_film-RRB-",
+          "sentence_id": 0,
+          "text": "Once Upon a Time is an upcoming Chinese romantic drama fantasy film produced by Alibaba Pictures and directed by Zhao Xiaoding and Anthony LaMolinara .",
+          "score": 2.02
+        },
+        {
+          "page_id": "Once_Upon_a_Time_-LRB-2017_film-RRB-",
+          "sentence_id": 3,
+          "text": "The film will be released in China on July 21 , 2017 .",
+          "score": 2.02
+        }
+      ],
+      "probabilities": [
+        0.13262206315994263,
+        0.8672429919242859,
+        0.00013496271276380867
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.059420415999998255,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.44617003202438354,
+        0.3563110828399658,
+        0.19751887023448944
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.13623445900000064,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "The_Mummy_-LRB-2017_film-RRB-",
+          "sentence_id": 0,
+          "text": "The Mummy is a 2017 American action-adventure horror film directed by Alex Kurtzman and written by David Koepp , Christopher McQuarrie and Dylan Kussman , with a story by Kurtzman , Jon Spaihts and Jenny Lumet .",
+          "score": 3.1
+        },
+        {
+          "page_id": "The_Mummy_-LRB-2017_film-RRB-",
+          "sentence_id": 1,
+          "text": "It is a reboot of The Mummy franchise and the first installment in the Dark Universe film series .",
+          "score": 2.1
+        },
+        {
+          "page_id": "The_Mummy_-LRB-2017_film-RRB-",
+          "sentence_id": 5,
+          "text": "The Mummy premiered at the State Theatre in Sydney , Australia on May 22 , 2017 and is scheduled to be released in the United States on June 9 , 2017 in 2D , 3D and IMAX 3D .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Once_Upon_a_Time_-LRB-2017_film-RRB-",
+          "sentence_id": 0,
+          "text": "Once Upon a Time is an upcoming Chinese romantic drama fantasy film produced by Alibaba Pictures and directed by Zhao Xiaoding and Anthony LaMolinara .",
+          "score": 2.02
+        },
+        {
+          "page_id": "Once_Upon_a_Time_-LRB-2017_film-RRB-",
+          "sentence_id": 3,
+          "text": "The film will be released in China on July 21 , 2017 .",
+          "score": 2.02
+        }
+      ],
+      "probabilities": [
+        0.13262206315994263,
+        0.8672429919242859,
+        0.00013496271276380867
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

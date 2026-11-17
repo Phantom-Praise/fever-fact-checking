@@ -1,0 +1,116 @@
+{
+  "id": 161820,
+  "claim": "Jet Li was anything but an actor.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.09117995899999976,
+      "symbolic": {
+        "claim": "Jet Li was anything but an actor.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.1125000000333785e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Jet_Li",
+          "sentence_id": 0,
+          "text": "Li Lianjie -LRB- born 26 April 1963 -RRB- , better known by his stage name Jet Li , is a Chinese film actor , film producer , martial artist , and retired Wushu champion who was born in Beijing .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Anything_But_Conservative",
+          "sentence_id": 0,
+          "text": "Anything But Conservative -LRB- À bas les conservateurs or N'importe quoi d'autre que conservateur -RRB- , also known as the ABC campaign and Vote ABC , is a political campaign whose aim is to defeat the Conservatives in Canadian federal elections .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Anything_But_Joey",
+          "sentence_id": 0,
+          "text": "Anything But Joey was a pop-rock band from the Kansas City area .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Anything_But_Lonely",
+          "sentence_id": 0,
+          "text": "`` Anything But Lonely '' is a 1989 single by Sarah Brightman .",
+          "score": 2.025
+        },
+        {
+          "page_id": "Anything_But_Straight",
+          "sentence_id": 0,
+          "text": "Anything But Straight : Unmasking the Scandals and Lies Behind the Ex-Gay Myth is a 2003 book by Wayne Besen , a gay rights advocate .",
+          "score": 2.02
+        }
+      ],
+      "probabilities": [
+        0.04817458242177963,
+        0.9517537355422974,
+        7.165403803810477e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.059028416000000306,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.008429805748164654,
+        0.9795300364494324,
+        0.01204013079404831
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07514754099999976,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Jet_Li",
+          "sentence_id": 0,
+          "text": "Li Lianjie -LRB- born 26 April 1963 -RRB- , better known by his stage name Jet Li , is a Chinese film actor , film producer , martial artist , and retired Wushu champion who was born in Beijing .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Anything_But_Conservative",
+          "sentence_id": 0,
+          "text": "Anything But Conservative -LRB- À bas les conservateurs or N'importe quoi d'autre que conservateur -RRB- , also known as the ABC campaign and Vote ABC , is a political campaign whose aim is to defeat the Conservatives in Canadian federal elections .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Anything_But_Joey",
+          "sentence_id": 0,
+          "text": "Anything But Joey was a pop-rock band from the Kansas City area .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Anything_But_Lonely",
+          "sentence_id": 0,
+          "text": "`` Anything But Lonely '' is a 1989 single by Sarah Brightman .",
+          "score": 2.025
+        },
+        {
+          "page_id": "Anything_But_Straight",
+          "sentence_id": 0,
+          "text": "Anything But Straight : Unmasking the Scandals and Lies Behind the Ex-Gay Myth is a 2003 book by Wayne Besen , a gay rights advocate .",
+          "score": 2.02
+        }
+      ],
+      "probabilities": [
+        0.04817458242177963,
+        0.9517537355422974,
+        7.165403803810477e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "id": 111897,
+  "claim": "Telemundo is a English-language television network.",
+  "gold": {
+    "id": 111897,
+    "verifiable": "VERIFIABLE",
+    "label": "REFUTES",
+    "claim": "Telemundo is a English-language television network.",
+    "evidence": [
+      [
+        [
+          131371,
+          146144,
+          "Telemundo",
+          0
+        ]
+      ],
+      [
+        [
+          131371,
+          146148,
+          "Telemundo",
+          1
+        ]
+      ],
+      [
+        [
+          131371,
+          146150,
+          "Telemundo",
+          4
+        ],
+        [
+          131371,
+          146150,
+          "Hispanic_and_Latino_Americans",
+          0
+        ]
+      ],
+      [
+        [
+          131371,
+          146151,
+          "Telemundo",
+          5
+        ]
+      ]
+    ]
+  },
+  "sentences": [
+    {
+      "page_id": "Noticias_Telemundo",
+      "sentence_id": 8,
+      "text": "Noticias Telemundo maintains bureaus located at many of the network 's television stations across the United States -LRB- particularly those owned by parent subsidiary Telemundo Station Group , that are owned-and-operated stations of the network -RRB- and throughout Latin America , and uses video content from English language sister network NBC 's news division NBC News ."
+    },
+    {
+      "page_id": "Noticiero_Telemundo",
+      "sentence_id": 0,
+      "text": "Noticiero Telemundo -LRB- -LSB- noti\u02c8sje\u027eo tele\u02c8mundo -RSB- ; English translation : Telemundo News -RRB- is the flagship daily evening television news program of Noticias Telemundo , the news division of the American Spanish language broadcast television network Telemundo ."
+    },
+    {
+      "page_id": "Telemundo",
+      "sentence_id": 0,
+      "text": "Telemundo -LRB- -LSB- tele\u02c8mundo -RSB- -RRB- is an American Spanish-language terrestrial television network owned by Comcast through the NBCUniversal division NBCUniversal Telemundo Enterprises ."
+    },
+    {
+      "page_id": "Noticias_Telemundo",
+      "sentence_id": 0,
+      "text": "Noticias Telemundo -LRB- -LSB- no\u02c8tisjas tele\u02c8mundo -RSB- , Telemundo News -RRB- is the news division of Telemundo , an American Spanish language broadcast television network that is owned by NBCUniversal Hispanic Enterprises and Content , a subsidiary of the NBCUniversal Television Group division of NBCUniversal ."
+    },
+    {
+      "page_id": "Telemundo_Deportes",
+      "sentence_id": 0,
+      "text": "Telemundo Deportes is the programming division of the NBC Sports Group , owned by the NBCUniversal Television Group division of NBCUniversal , that is responsible for the production of sports events and magazine programs that air on NBCUniversal 's Spanish language television networks Telemundo and Universo ."
+    }
+  ],
+  "predicted_evidence": [
+    [
+      "Noticias_Telemundo",
+      8
+    ],
+    [
+      "Noticiero_Telemundo",
+      0
+    ],
+    [
+      "Telemundo",
+      0
+    ],
+    [
+      "Noticias_Telemundo",
+      0
+    ],
+    [
+      "Telemundo_Deportes",
+      0
+    ]
+  ],
+  "roberta_full_input_tokens": 347,
+  "baselines": {
+    "claim_only_256": 0,
+    "evidence_256": 0,
+    "combined_256": 0,
+    "evidence_512": 0,
+    "combined_512": 0
+  }
+}

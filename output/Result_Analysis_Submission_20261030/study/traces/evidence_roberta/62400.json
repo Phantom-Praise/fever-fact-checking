@@ -1,0 +1,62 @@
+{
+  "id": 62400,
+  "claim": "In Secret was based in 1911.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9715695381164551,
+    0.02834903448820114,
+    8.136763062793761e-05
+  ],
+  "logits": [
+    3.916712760925293,
+    0.382392942905426,
+    -5.470977783203125
+  ],
+  "evidence": [
+    {
+      "page_id": "Secret_Secret",
+      "sentence_id": 0,
+      "text": "`` Secret Secret '' -LRB- シークレットシークレット Shīkuretto Shīkuretto -RRB- is a song by Japanese electropop unit Perfume .",
+      "score": 1.1
+    },
+    {
+      "page_id": "1911_Schubart",
+      "sentence_id": 0,
+      "text": "1911 Schubart , provisional designation 1973 UD , is an outer main-belt asteroid discovered on October 25 , 1973 , by Paul Wild at Zimmerwald Observatory , near Bern , Switzerland .",
+      "score": 1.0333333333333334
+    },
+    {
+      "page_id": "1911_Walnut",
+      "sentence_id": 0,
+      "text": "1911 Walnut is an approved 530 feet -LRB- 162 meters -RRB- tall , multipurpose building in Philadelphia , PA. .",
+      "score": 1.025
+    },
+    {
+      "page_id": "1911_Walnut",
+      "sentence_id": 8,
+      "text": "Southern Land is developing 1911 Walnut in a joint venture with an undisclosed domestic institutional investor , which is the way it proceeds with all of its projects .",
+      "score": 1.025
+    },
+    {
+      "page_id": "April_1911",
+      "sentence_id": 0,
+      "text": "The following events occurred in April 1911 :",
+      "score": 1.02
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 160,
+    "tokens_retained": 160,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>In Secret was based in 1911.</s></s>`` Secret Secret '' -LRB- シークレットシークレット Shīkuretto Shīkuretto -RRB- is a song by Japanese electropop unit Perfume . 1911 Schubart , provisional designation 1973 UD , is an outer main-belt asteroid discovered on October 25 , 1973 , by Paul Wild at Zimmerwald Observatory , near Bern , Switzerland . 1911 Walnut is an approved 530 feet -LRB- 162 meters -RRB- tall , multipurpose building in Philadelphia , PA. . Southern Land is developing 1911 Walnut in a joint venture with an undisclosed domestic institutional investor , which is the way it proceeds with all of its projects . The following events occurred in April 1911 :</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.3185762080000001
+}

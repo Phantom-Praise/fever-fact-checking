@@ -1,0 +1,116 @@
+{
+  "id": 143227,
+  "claim": "Paul Walker starred in the horror film Eight Below.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.063903707999998,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.6401669383049011,
+        0.06960022449493408,
+        0.2902328073978424
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.161912375,
+      "symbolic": {
+        "claim": "Paul Walker starred in the horror film Eight Below.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.520800000065492e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Paul_Walker",
+          "sentence_id": 4,
+          "text": "He also starred in films such as Joy Ride -LRB- 2001 -RRB- , Timeline -LRB- 2003 -RRB- , Into the Blue -LRB- 2005 -RRB- , Eight Below , and Running Scared -LRB- 2006 -RRB- .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Horror_film",
+          "sentence_id": 0,
+          "text": "A horror film is a movie that seeks to elicit a physiological reaction , such as an elevated heartbeat , through the use of fear and shocking one 's audiences .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Paul_Walker",
+          "sentence_id": 0,
+          "text": "Paul William Walker IV -LRB- September 12 , 1973 -- November 30 , 2013 -RRB- was an American actor .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Paul_Walker",
+          "sentence_id": 3,
+          "text": "In 2001 , Walker gained international fame for his portrayal of Brian O'Conner in the street racing action film The Fast and the Furious -LRB- 2001 -RRB- , and would reprise the role in five of the next six installments but died in the middle of the filming of Furious 7 -LRB- 2015 -RRB- .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Paul_Walker",
+          "sentence_id": 7,
+          "text": "Besides acting , Walker was the face of The Coty Prestige fragrance brand Davidoff Cool Water for Men , and starred in the National Geographic Channel series , Expedition Great White .",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.9892224073410034,
+        0.010684380307793617,
+        9.310944733442739e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.14397474999999815,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Paul_Walker",
+          "sentence_id": 4,
+          "text": "He also starred in films such as Joy Ride -LRB- 2001 -RRB- , Timeline -LRB- 2003 -RRB- , Into the Blue -LRB- 2005 -RRB- , Eight Below , and Running Scared -LRB- 2006 -RRB- .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Horror_film",
+          "sentence_id": 0,
+          "text": "A horror film is a movie that seeks to elicit a physiological reaction , such as an elevated heartbeat , through the use of fear and shocking one 's audiences .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Paul_Walker",
+          "sentence_id": 0,
+          "text": "Paul William Walker IV -LRB- September 12 , 1973 -- November 30 , 2013 -RRB- was an American actor .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Paul_Walker",
+          "sentence_id": 3,
+          "text": "In 2001 , Walker gained international fame for his portrayal of Brian O'Conner in the street racing action film The Fast and the Furious -LRB- 2001 -RRB- , and would reprise the role in five of the next six installments but died in the middle of the filming of Furious 7 -LRB- 2015 -RRB- .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Paul_Walker",
+          "sentence_id": 7,
+          "text": "Besides acting , Walker was the face of The Coty Prestige fragrance brand Davidoff Cool Water for Men , and starred in the National Geographic Channel series , Expedition Great White .",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.9892224073410034,
+        0.010684380307793617,
+        9.310944733442739e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

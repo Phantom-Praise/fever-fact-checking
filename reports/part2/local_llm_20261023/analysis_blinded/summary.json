@@ -1,0 +1,362 @@
+{
+  "fever_profile": {
+    "n": 30,
+    "unique_claims": 30,
+    "mean_words": 8.7,
+    "median_words": 8.0,
+    "digit_fraction": 0.13333333333333333,
+    "explicit_year_fraction": 0.1,
+    "negation_token_fraction": 0.0
+  },
+  "generated_profile": {
+    "n": 30,
+    "unique_claims": 30,
+    "mean_words": 22.866666666666667,
+    "median_words": 24.5,
+    "digit_fraction": 0.6666666666666666,
+    "explicit_year_fraction": 0.6333333333333333,
+    "negation_token_fraction": 0.03333333333333333
+  },
+  "generated_exact_copies_of_fever": 0,
+  "human_review": {
+    "claims_per_annotator": 60,
+    "annotators": 2,
+    "completed": 0
+  },
+  "judge_condition_summaries": {
+    "retrieved:direct": {
+      "mean_accuracy": 0.37777777777777777,
+      "mean_macro_f1": 0.36552150826660634,
+      "sample_std_accuracy_across_repeats": 0.019245008972987556,
+      "sample_std_macro_f1_across_repeats": 0.02201030488924869,
+      "all_repeats_agree_fraction": 0.8333333333333334
+    },
+    "retrieved:evidence_first": {
+      "mean_accuracy": 0.4000000000000001,
+      "mean_macro_f1": 0.38503343921300576,
+      "sample_std_accuracy_across_repeats": 6.798699777552591e-17,
+      "sample_std_macro_f1_across_repeats": 0.009126889985782108,
+      "all_repeats_agree_fraction": 0.8333333333333334
+    },
+    "empty:direct": {
+      "mean_accuracy": 0.3333333333333333,
+      "mean_macro_f1": 0.16666666666666666,
+      "sample_std_accuracy_across_repeats": 0.0,
+      "sample_std_macro_f1_across_repeats": 0.0,
+      "all_repeats_agree_fraction": 1.0
+    },
+    "empty:evidence_first": {
+      "mean_accuracy": 0.3333333333333333,
+      "mean_macro_f1": 0.16666666666666666,
+      "sample_std_accuracy_across_repeats": 0.0,
+      "sample_std_macro_f1_across_repeats": 0.0,
+      "all_repeats_agree_fraction": 1.0
+    }
+  },
+  "judge_vs_baseline_paired": {
+    "retrieved:direct:repeat0:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.13333333333333333,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.3333333333333333,
+        0.06666666666666667
+      ],
+      "right_only_correct": 3,
+      "left_only_correct": 7,
+      "mcnemar_exact_p_unadjusted": 0.34375,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:direct:repeat0:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.16666666666666666,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.36666666666666664,
+        0.03333333333333333
+      ],
+      "right_only_correct": 3,
+      "left_only_correct": 8,
+      "mcnemar_exact_p_unadjusted": 0.2265625,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:direct:repeat1:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.1,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.3,
+        0.1
+      ],
+      "right_only_correct": 3,
+      "left_only_correct": 6,
+      "mcnemar_exact_p_unadjusted": 0.5078125,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:direct:repeat1:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.13333333333333333,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.3,
+        0.03333333333333333
+      ],
+      "right_only_correct": 2,
+      "left_only_correct": 6,
+      "mcnemar_exact_p_unadjusted": 0.2890625,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:direct:repeat2:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.13333333333333333,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.3333333333333333,
+        0.06666666666666667
+      ],
+      "right_only_correct": 3,
+      "left_only_correct": 7,
+      "mcnemar_exact_p_unadjusted": 0.34375,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:direct:repeat2:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.16666666666666666,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.36666666666666664,
+        0.03333333333333333
+      ],
+      "right_only_correct": 3,
+      "left_only_correct": 8,
+      "mcnemar_exact_p_unadjusted": 0.2265625,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:evidence_first:repeat0:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.1,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.26666666666666666,
+        0.06666666666666667
+      ],
+      "right_only_correct": 2,
+      "left_only_correct": 5,
+      "mcnemar_exact_p_unadjusted": 0.453125,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:evidence_first:repeat0:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.13333333333333333,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.3,
+        0.0
+      ],
+      "right_only_correct": 1,
+      "left_only_correct": 5,
+      "mcnemar_exact_p_unadjusted": 0.21875,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:evidence_first:repeat1:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.1,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.3,
+        0.1
+      ],
+      "right_only_correct": 3,
+      "left_only_correct": 6,
+      "mcnemar_exact_p_unadjusted": 0.5078125,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:evidence_first:repeat1:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.13333333333333333,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.3,
+        0.03333333333333333
+      ],
+      "right_only_correct": 2,
+      "left_only_correct": 6,
+      "mcnemar_exact_p_unadjusted": 0.2890625,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:evidence_first:repeat2:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.1,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.26666666666666666,
+        0.06666666666666667
+      ],
+      "right_only_correct": 2,
+      "left_only_correct": 5,
+      "mcnemar_exact_p_unadjusted": 0.453125,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "retrieved:evidence_first:repeat2:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.13333333333333333,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.3,
+        0.0
+      ],
+      "right_only_correct": 1,
+      "left_only_correct": 5,
+      "mcnemar_exact_p_unadjusted": 0.21875,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:direct:repeat0:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.16666666666666666,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.43333333333333335,
+        0.1
+      ],
+      "right_only_correct": 7,
+      "left_only_correct": 12,
+      "mcnemar_exact_p_unadjusted": 0.359283447265625,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:direct:repeat0:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.2,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.5333333333333333,
+        0.13333333333333333
+      ],
+      "right_only_correct": 10,
+      "left_only_correct": 16,
+      "mcnemar_exact_p_unadjusted": 0.32693958282470703,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:direct:repeat1:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.16666666666666666,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.43333333333333335,
+        0.1
+      ],
+      "right_only_correct": 7,
+      "left_only_correct": 12,
+      "mcnemar_exact_p_unadjusted": 0.359283447265625,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:direct:repeat1:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.2,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.5333333333333333,
+        0.13333333333333333
+      ],
+      "right_only_correct": 10,
+      "left_only_correct": 16,
+      "mcnemar_exact_p_unadjusted": 0.32693958282470703,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:direct:repeat2:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.16666666666666666,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.43333333333333335,
+        0.1
+      ],
+      "right_only_correct": 7,
+      "left_only_correct": 12,
+      "mcnemar_exact_p_unadjusted": 0.359283447265625,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:direct:repeat2:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.2,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.5333333333333333,
+        0.13333333333333333
+      ],
+      "right_only_correct": 10,
+      "left_only_correct": 16,
+      "mcnemar_exact_p_unadjusted": 0.32693958282470703,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:evidence_first:repeat0:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.16666666666666666,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.43333333333333335,
+        0.1
+      ],
+      "right_only_correct": 7,
+      "left_only_correct": 12,
+      "mcnemar_exact_p_unadjusted": 0.359283447265625,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:evidence_first:repeat0:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.2,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.5333333333333333,
+        0.13333333333333333
+      ],
+      "right_only_correct": 10,
+      "left_only_correct": 16,
+      "mcnemar_exact_p_unadjusted": 0.32693958282470703,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:evidence_first:repeat1:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.16666666666666666,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.43333333333333335,
+        0.1
+      ],
+      "right_only_correct": 7,
+      "left_only_correct": 12,
+      "mcnemar_exact_p_unadjusted": 0.359283447265625,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:evidence_first:repeat1:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.2,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.5333333333333333,
+        0.13333333333333333
+      ],
+      "right_only_correct": 10,
+      "left_only_correct": 16,
+      "mcnemar_exact_p_unadjusted": 0.32693958282470703,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:evidence_first:repeat2:vs:claim_only_H2": {
+      "right_minus_left_accuracy": -0.16666666666666666,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.43333333333333335,
+        0.1
+      ],
+      "right_only_correct": 7,
+      "left_only_correct": 12,
+      "mcnemar_exact_p_unadjusted": 0.359283447265625,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    },
+    "empty:evidence_first:repeat2:vs:retrieved_evidence": {
+      "right_minus_left_accuracy": -0.2,
+      "paired_bootstrap_accuracy_ci95": [
+        -0.5333333333333333,
+        0.13333333333333333
+      ],
+      "right_only_correct": 10,
+      "left_only_correct": 16,
+      "mcnemar_exact_p_unadjusted": 0.32693958282470703,
+      "bootstrap_seed": 42,
+      "bootstrap_samples": 10000
+    }
+  },
+  "input_sha256": {
+    "reports/part2/local_llm_20261023/generated_claims.jsonl": "5cfab5f5237c9ff10f4143b8f0c398e36fe52cee968d52d7d3fedfc6f98da4d3",
+    "reports/part2/local_llm_20261023/judge_responses.csv": "b4fbc9ed19f055e52ed381251b477bf2f36445e36d8690fffd7bd695908417ed",
+    "reports/part2/local_llm_20261023/judge_scores.json": "08708d7f8b513efdfed4cd2dc22763cf4e36ced617ab7db0dd337de9a140ed27",
+    "reports/part2/local_llm_20261023/pilot_retrieved.jsonl": "5bf681a494b97c6c60b6e2d63c1cf2e362fb2d885bb0ccca8a243bf7176e3a66"
+  },
+  "limitations": [
+    "Profiles are descriptive properties, not evidence that FEVER represents LLM factual errors.",
+    "Generated topics are retrieval-seeded, not a natural-use sample.",
+    "Human reviewers must verify truth and atomicity independently; reference labels are deliberately blank.",
+    "Candidate retrieval is an annotation aid, not ground truth or exhaustive evidence.",
+    "Annotator IDs distinguish source to the analysis code; reviewers should not inspect source files.",
+    "Only 30 independent FEVER claims; repeat judgments are not 90 independent claims.",
+    "Local quantized model availability drove judge selection; conclusions do not extend to all LLMs.",
+    "Paired p-values are exploratory, unadjusted, and repeated across dependent conditions."
+  ]
+}

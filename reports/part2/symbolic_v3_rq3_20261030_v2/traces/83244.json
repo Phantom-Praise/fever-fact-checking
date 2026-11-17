@@ -1,0 +1,116 @@
+{
+  "id": 83244,
+  "claim": "Iran comprises a land area of 1,648,195 square kilometers making it the 18th-largest country in the world.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05665037500000025,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.424524188041687,
+        0.3041919767856598,
+        0.27128392457962036
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08648387499999899,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "648",
+          "sentence_id": 2,
+          "text": "Year 648 -LRB- DCXLVIII -RRB- was a leap year starting on Tuesday -LRB- link will display the full calendar -RRB- of the Julian calendar .",
+          "score": 1.1
+        },
+        {
+          "page_id": "648",
+          "sentence_id": 3,
+          "text": "The denomination 648 for this year has been used since the early medieval period , when the Anno Domini calendar era became the prevalent method in Europe for naming years .",
+          "score": 1.1
+        },
+        {
+          "page_id": "195",
+          "sentence_id": 0,
+          "text": "Year 195 -LRB- CXCV -RRB- was a common year starting on Wednesday -LRB- link will display the full calendar -RRB- of the Julian calendar .",
+          "score": 1.05
+        },
+        {
+          "page_id": "195",
+          "sentence_id": 2,
+          "text": "The denomination 195 for this year has been used since the early medieval period , when the Anno Domini calendar era became the prevalent method in Europe for naming years .",
+          "score": 1.05
+        },
+        {
+          "page_id": "648_Pippa",
+          "sentence_id": 0,
+          "text": "648 Pippa is a minor planet orbiting the Sun .",
+          "score": 1.0333333333333334
+        }
+      ],
+      "probabilities": [
+        0.7295838594436646,
+        0.2699677646160126,
+        0.0004483081866055727
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07874874999999903,
+      "symbolic": {
+        "claim": "Iran comprises a land area of 1,648,195 square kilometers making it the 18th-largest country in the world.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.5582999999708136e-05
+      },
+      "evidence": [
+        {
+          "page_id": "648",
+          "sentence_id": 2,
+          "text": "Year 648 -LRB- DCXLVIII -RRB- was a leap year starting on Tuesday -LRB- link will display the full calendar -RRB- of the Julian calendar .",
+          "score": 1.1
+        },
+        {
+          "page_id": "648",
+          "sentence_id": 3,
+          "text": "The denomination 648 for this year has been used since the early medieval period , when the Anno Domini calendar era became the prevalent method in Europe for naming years .",
+          "score": 1.1
+        },
+        {
+          "page_id": "195",
+          "sentence_id": 0,
+          "text": "Year 195 -LRB- CXCV -RRB- was a common year starting on Wednesday -LRB- link will display the full calendar -RRB- of the Julian calendar .",
+          "score": 1.05
+        },
+        {
+          "page_id": "195",
+          "sentence_id": 2,
+          "text": "The denomination 195 for this year has been used since the early medieval period , when the Anno Domini calendar era became the prevalent method in Europe for naming years .",
+          "score": 1.05
+        },
+        {
+          "page_id": "648_Pippa",
+          "sentence_id": 0,
+          "text": "648 Pippa is a minor planet orbiting the Sun .",
+          "score": 1.0333333333333334
+        }
+      ],
+      "probabilities": [
+        0.7295838594436646,
+        0.2699677646160126,
+        0.0004483081866055727
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

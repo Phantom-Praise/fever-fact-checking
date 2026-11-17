@@ -1,0 +1,70 @@
+{
+  "id": 228942,
+  "claim": "Pulp Fiction is an American film.",
+  "condition": "five_sentence_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9918938279151917,
+    0.008004443719983101,
+    0.00010173078044317663
+  ],
+  "logits": [
+    4.291914939880371,
+    -0.5277040004730225,
+    -4.893126487731934
+  ],
+  "inference_seconds": 0.05647562500000003,
+  "evidence_text": "Pulp Fiction is a 1994 American black comedy neo-noir crime film written and directed by Quentin Tarantino , from a story by Tarantino and Roger Avary . Pulp Fiction won the Palme d'Or at the 1994 Cannes Film Festival , and was a major critical and commercial success upon its U.S. release . In 2013 , Pulp Fiction was selected for preservation in the United States National Film Registry by the Library of Congress as being `` culturally , historically , or aesthetically significant '' . Pulp Fiction , a 1994 film directed by Quentin Tarantino Pulp Fiction -LRB- soundtrack -RRB- , the soundtrack album from the film",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 145,
+    "tokens_retained": 145,
+    "truncated": false,
+    "evidence_tokens_total": 133,
+    "evidence_tokens_retained": 133,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Pulp_Fiction",
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Pulp_Fiction",
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Pulp_Fiction",
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Pulp_fiction",
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Pulp_fiction",
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Pulp Fiction is an American film.</s></s>Pulp Fiction is a 1994 American black comedy neo-noir crime film written and directed by Quentin Tarantino , from a story by Tarantino and Roger Avary . Pulp Fiction won the Palme d'Or at the 1994 Cannes Film Festival , and was a major critical and commercial success upon its U.S. release . In 2013 , Pulp Fiction was selected for preservation in the United States National Film Registry by the Library of Congress as being `` culturally , historically , or aesthetically significant '' . Pulp Fiction , a 1994 film directed by Quentin Tarantino Pulp Fiction -LRB- soundtrack -RRB- , the soundtrack album from the film</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

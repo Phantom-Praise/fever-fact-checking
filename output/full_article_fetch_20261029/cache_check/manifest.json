@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-29T13:57:51.094589+00:00",
+  "claim": null,
+  "selection_method": "Caller-provided ranked Wikipedia URLs; retain the first top_k from up to 10 candidates.",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "url": "https://en.wikipedia.org/wiki/Jack_Falahee"
+    }
+  ],
+  "selected_articles": [
+    {
+      "rank": 1,
+      "url": "https://en.wikipedia.org/wiki/Jack_Falahee"
+    }
+  ],
+  "articles": [
+    {
+      "rank": 1,
+      "requested_url": "https://en.wikipedia.org/wiki/Jack_Falahee",
+      "title": "Jack Falahee",
+      "revision_id": 1382173874,
+      "revision_timestamp": "2026-10-27T02:06:14Z",
+      "retrieved_utc": "2026-10-29T13:57:09.635274+00:00",
+      "url": "https://en.wikipedia.org/wiki/Jack_Falahee",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Jack_Falahee&oldid=1382173874",
+      "folder": "/Users/praiseben/fever-fact-checking/data/processed/wikipedia_full_articles/pages/enwiki_42724117_1382173874_1d4f58bbc13baf1b_article_blocks_v1",
+      "cache_hit": true,
+      "characters": 4967,
+      "words": 842,
+      "blocks": 20,
+      "body_headings": 8
+    }
+  ],
+  "errors": [],
+  "no_llm_calls": true,
+  "no_embedding_calls": true,
+  "source_sha256": {
+    "/Users/praiseben/fever-fact-checking/src/fetch_wikipedia_articles.py": "d003df09fc226563668bd44989dcb495294e52cf32cd1011dcbeb1d67a9aa169",
+    "/Users/praiseben/fever-fact-checking/src/retrieve_title_aware.py": "b76ccc025032b0ab9f939573018570602441dead07f9572b9240b40bbde0ce3b"
+  },
+  "corpus_note": "Fetched Wikipedia revisions form a separate corpus. They are not the historical FEVER sentence snapshot or FEVER evidence IDs.",
+  "finished_utc": "2026-10-29T13:57:51.096878+00:00",
+  "http_requests": 0
+}

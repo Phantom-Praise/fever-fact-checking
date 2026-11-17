@@ -1,0 +1,116 @@
+{
+  "id": 216293,
+  "claim": "Hot was by an elderly English actress.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.43862833300000004,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Elderly_care",
+          "sentence_id": 0,
+          "text": "Elderly care , or simply eldercare -LRB- also known in parts of the English speaking world as aged care -RRB- , is the fulfillment of the special needs and requirements that are unique to senior citizens .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Emily_Perry_-LRB-English_actress-RRB-",
+          "sentence_id": 0,
+          "text": "Patricia Emily Perry -LRB- 28 June 1907 -- 19 February 2008 -RRB- was an English actress and dancer .",
+          "score": 2.0142857142857142
+        },
+        {
+          "page_id": "Katie_Johnson_-LRB-English_actress-RRB-",
+          "sentence_id": 0,
+          "text": "Bessie Kate `` Katie '' Johnson -LRB- 18 November 1878 in Clayton , Sussex , -- 4 May 1957 in Elham , Kent -RRB- was an English actress who appeared on stage from 1894 and on screen from the 1930s to the 1950s .",
+          "score": 2.0125
+        },
+        {
+          "page_id": "Elderly_Instruments",
+          "sentence_id": 0,
+          "text": "Elderly Instruments is a musical instrument retailer in Lansing , Michigan , United States , with a reputation as a `` megastore '' , a repair shop and a locus for folk music including bluegrass and `` twang '' .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Elderly_Instruments",
+          "sentence_id": 2,
+          "text": "Elderly maintains a selection of odd or rare instruments .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.9798637628555298,
+        0.020058386027812958,
+        7.784777699271217e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06884816700000007,
+      "symbolic": {
+        "claim": "Hot was by an elderly English actress.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 0.0002093750000002892
+      },
+      "evidence": [
+        {
+          "page_id": "Elderly_care",
+          "sentence_id": 0,
+          "text": "Elderly care , or simply eldercare -LRB- also known in parts of the English speaking world as aged care -RRB- , is the fulfillment of the special needs and requirements that are unique to senior citizens .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Emily_Perry_-LRB-English_actress-RRB-",
+          "sentence_id": 0,
+          "text": "Patricia Emily Perry -LRB- 28 June 1907 -- 19 February 2008 -RRB- was an English actress and dancer .",
+          "score": 2.0142857142857142
+        },
+        {
+          "page_id": "Katie_Johnson_-LRB-English_actress-RRB-",
+          "sentence_id": 0,
+          "text": "Bessie Kate `` Katie '' Johnson -LRB- 18 November 1878 in Clayton , Sussex , -- 4 May 1957 in Elham , Kent -RRB- was an English actress who appeared on stage from 1894 and on screen from the 1930s to the 1950s .",
+          "score": 2.0125
+        },
+        {
+          "page_id": "Elderly_Instruments",
+          "sentence_id": 0,
+          "text": "Elderly Instruments is a musical instrument retailer in Lansing , Michigan , United States , with a reputation as a `` megastore '' , a repair shop and a locus for folk music including bluegrass and `` twang '' .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Elderly_Instruments",
+          "sentence_id": 2,
+          "text": "Elderly maintains a selection of odd or rare instruments .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.9798637628555298,
+        0.020058386027812958,
+        7.784777699271217e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "NOT ENOUGH INFO",
+      "wall_seconds": 0.07272912499999995,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.07245177775621414,
+        0.3781924843788147,
+        0.5493557453155518
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

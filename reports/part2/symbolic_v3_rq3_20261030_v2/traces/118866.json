@@ -1,0 +1,116 @@
+{
+  "id": 118866,
+  "claim": "J.Lo's lyrics are provocative and sexual.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.059802999999995166,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.648507833480835,
+        0.029758958145976067,
+        0.3217333257198334
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.0712551670000039,
+      "symbolic": {
+        "claim": "J.Lo's lyrics are provocative and sexual.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.54999999963934e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Lyrics",
+          "sentence_id": 0,
+          "text": "Lyrics are words that make up a song usually consisting of verses and choruses .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Lyrics",
+          "sentence_id": 1,
+          "text": "The writer of lyrics is a lyricist .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Lyrics",
+          "sentence_id": 3,
+          "text": "The meaning of lyrics can either be explicit or implicit .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Lyrics",
+          "sentence_id": 4,
+          "text": "Some lyrics are abstract , almost unintelligible , and , in such cases , their explication emphasizes form , articulation , meter , and symmetry of expression .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Lyrics",
+          "sentence_id": 5,
+          "text": "Rappers can also create lyrics -LRB- often with a variation of rhyming words -RRB- that are meant to be spoken rhythmically rather than sung .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.29584285616874695,
+        0.7037443518638611,
+        0.0004128076252527535
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.061463500000002114,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Lyrics",
+          "sentence_id": 0,
+          "text": "Lyrics are words that make up a song usually consisting of verses and choruses .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Lyrics",
+          "sentence_id": 1,
+          "text": "The writer of lyrics is a lyricist .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Lyrics",
+          "sentence_id": 3,
+          "text": "The meaning of lyrics can either be explicit or implicit .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Lyrics",
+          "sentence_id": 4,
+          "text": "Some lyrics are abstract , almost unintelligible , and , in such cases , their explication emphasizes form , articulation , meter , and symmetry of expression .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Lyrics",
+          "sentence_id": 5,
+          "text": "Rappers can also create lyrics -LRB- often with a variation of rhyming words -RRB- that are meant to be spoken rhythmically rather than sung .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.29584285616874695,
+        0.7037443518638611,
+        0.0004128076252527535
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

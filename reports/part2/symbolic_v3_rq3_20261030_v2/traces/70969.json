@@ -1,0 +1,116 @@
+{
+  "id": 70969,
+  "claim": "Big Brother 18 (UK) is hosted by men.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05560583299999422,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5116140246391296,
+        0.22062775492668152,
+        0.26775819063186646
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.12346616700000368,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Big_Brother_18_-LRB-UK-RRB-",
+          "sentence_id": 0,
+          "text": "Big Brother 2017 , also known as Big Brother 18 , is the upcoming eighteenth series of the British reality television series Big Brother , hosted by Emma Willis and narrated by Marcus Bentley .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Celebrity_Big_Brother_18",
+          "sentence_id": 0,
+          "text": "Celebrity Big Brother 18 was the eighteenth series of the British reality television series Celebrity Big Brother , hosted by Emma Willis and narrated by Marcus Bentley .",
+          "score": 4.05
+        },
+        {
+          "page_id": "Big_Brother",
+          "sentence_id": 8,
+          "text": "Big Brother Watch , a UK pressure group",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Big_Brother_10_-LRB-UK-RRB-",
+          "sentence_id": 9,
+          "text": "The series , which was sponsored by Lucozade , achieved significantly less media coverage and viewing figures , resulting in it becoming the least-watched series in Big Brother UK history until Big Brother 12 in 2011 .",
+          "score": 3.025
+        },
+        {
+          "page_id": "Big_Brother_12_-LRB-UK-RRB-",
+          "sentence_id": 3,
+          "text": "It was hosted by Brian Dowling , the winner of Big Brother 2 and Ultimate Big Brother .",
+          "score": 3.0166666666666666
+        }
+      ],
+      "probabilities": [
+        0.3390153646469116,
+        0.6606574654579163,
+        0.00032704509794712067
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.1044940419999989,
+      "symbolic": {
+        "claim": "Big Brother 18 (UK) is hosted by men.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2375000004283265e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Big_Brother_18_-LRB-UK-RRB-",
+          "sentence_id": 0,
+          "text": "Big Brother 2017 , also known as Big Brother 18 , is the upcoming eighteenth series of the British reality television series Big Brother , hosted by Emma Willis and narrated by Marcus Bentley .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Celebrity_Big_Brother_18",
+          "sentence_id": 0,
+          "text": "Celebrity Big Brother 18 was the eighteenth series of the British reality television series Celebrity Big Brother , hosted by Emma Willis and narrated by Marcus Bentley .",
+          "score": 4.05
+        },
+        {
+          "page_id": "Big_Brother",
+          "sentence_id": 8,
+          "text": "Big Brother Watch , a UK pressure group",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Big_Brother_10_-LRB-UK-RRB-",
+          "sentence_id": 9,
+          "text": "The series , which was sponsored by Lucozade , achieved significantly less media coverage and viewing figures , resulting in it becoming the least-watched series in Big Brother UK history until Big Brother 12 in 2011 .",
+          "score": 3.025
+        },
+        {
+          "page_id": "Big_Brother_12_-LRB-UK-RRB-",
+          "sentence_id": 3,
+          "text": "It was hosted by Brian Dowling , the winner of Big Brother 2 and Ultimate Big Brother .",
+          "score": 3.0166666666666666
+        }
+      ],
+      "probabilities": [
+        0.3390153646469116,
+        0.6606574654579163,
+        0.00032704509794712067
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

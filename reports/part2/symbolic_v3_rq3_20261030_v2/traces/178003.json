@@ -1,0 +1,116 @@
+{
+  "id": 178003,
+  "claim": "IO Theater is an improv theater in Chicago.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07298133300000131,
+      "symbolic": {
+        "claim": "IO Theater is an improv theater in Chicago.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.304199999907496e-05
+      },
+      "evidence": [
+        {
+          "page_id": "IO_Theater",
+          "sentence_id": 0,
+          "text": "iO , or iO Chicago , -LRB- formerly known as `` ImprovOlympic '' -RRB- is an improv theater and training center in central Chicago , with a branch in Los Angeles called iO West .",
+          "score": 4.1
+        },
+        {
+          "page_id": "HUGE_Improv_Theater",
+          "sentence_id": 0,
+          "text": "HUGE Improv Theater is a Minneapolis theater founded in 2005 dedicated to long form improvisational theater .",
+          "score": 2.05
+        },
+        {
+          "page_id": "HUGE_Improv_Theater",
+          "sentence_id": 1,
+          "text": "The non-profit theater acquired its own building in 2010 , where it runs scheduled nightly improv performances , acts as one of the Minnesota Fringe Festival 's venues , and hosts the annual Twin Cities Improv Festival .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Peoples_Improv_Theater",
+          "sentence_id": 0,
+          "text": "The Peoples Improv Theater is an award-winning training center and comedy theater in New York City , founded by Ali Farahnakian in 2002 .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Philly_Improv_Theater",
+          "sentence_id": 0,
+          "text": "Philly Improv Theater , or PHIT -LRB- pronounced `` fit '' -RRB- , is a Philadelphia , Pennsylvania comedy theater which produces and presents shows at The Adrienne Theatre in Center City Philadelphia .",
+          "score": 2.025
+        }
+      ],
+      "probabilities": [
+        0.989503026008606,
+        0.01041446067392826,
+        8.241313480539247e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.056152208999996844,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5676043033599854,
+        0.13917706906795502,
+        0.29321861267089844
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06641824999999812,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "IO_Theater",
+          "sentence_id": 0,
+          "text": "iO , or iO Chicago , -LRB- formerly known as `` ImprovOlympic '' -RRB- is an improv theater and training center in central Chicago , with a branch in Los Angeles called iO West .",
+          "score": 4.1
+        },
+        {
+          "page_id": "HUGE_Improv_Theater",
+          "sentence_id": 0,
+          "text": "HUGE Improv Theater is a Minneapolis theater founded in 2005 dedicated to long form improvisational theater .",
+          "score": 2.05
+        },
+        {
+          "page_id": "HUGE_Improv_Theater",
+          "sentence_id": 1,
+          "text": "The non-profit theater acquired its own building in 2010 , where it runs scheduled nightly improv performances , acts as one of the Minnesota Fringe Festival 's venues , and hosts the annual Twin Cities Improv Festival .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Peoples_Improv_Theater",
+          "sentence_id": 0,
+          "text": "The Peoples Improv Theater is an award-winning training center and comedy theater in New York City , founded by Ali Farahnakian in 2002 .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Philly_Improv_Theater",
+          "sentence_id": 0,
+          "text": "Philly Improv Theater , or PHIT -LRB- pronounced `` fit '' -RRB- , is a Philadelphia , Pennsylvania comedy theater which produces and presents shows at The Adrienne Theatre in Center City Philadelphia .",
+          "score": 2.025
+        }
+      ],
+      "probabilities": [
+        0.989503026008606,
+        0.01041446067392826,
+        8.241313480539247e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

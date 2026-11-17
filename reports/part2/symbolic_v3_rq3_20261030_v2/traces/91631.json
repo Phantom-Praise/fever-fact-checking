@@ -1,0 +1,116 @@
+{
+  "id": 91631,
+  "claim": "Slovakia provides universal health care to zero of its citizens.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07795129100000153,
+      "symbolic": {
+        "claim": "Slovakia provides universal health care to zero of its citizens.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2625000000099362e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Universal_health_care",
+          "sentence_id": 0,
+          "text": "Universal health care , sometimes referred to as universal health coverage , universal coverage , or universal care , usually refers to a health care system that provides health care and financial protection to all citizens of a particular country .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Universal_health_care",
+          "sentence_id": 2,
+          "text": "Universal health care is not one-size-fits-all and does not imply coverage for all people for everything .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Universal_health_care",
+          "sentence_id": 3,
+          "text": "Universal health care can be determined by three critical dimensions : who is covered , what services are covered , and how much of the cost is covered .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Universal_Health_Care_Foundation_of_Connecticut",
+          "sentence_id": 0,
+          "text": "Universal Health Care Foundation of Connecticut is an independent , nonprofit organization with offices in Meriden , Connecticut .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "List_of_countries_with_universal_health_care",
+          "sentence_id": 2,
+          "text": "Most implement universal health care through legislation , regulation and taxation .",
+          "score": 3.0166666666666666
+        }
+      ],
+      "probabilities": [
+        0.05613432824611664,
+        0.9437866806983948,
+        7.895120506873354e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.0564883750000007,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.012670299038290977,
+        0.9602209329605103,
+        0.02710881642997265
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.06851574999999954,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Universal_health_care",
+          "sentence_id": 0,
+          "text": "Universal health care , sometimes referred to as universal health coverage , universal coverage , or universal care , usually refers to a health care system that provides health care and financial protection to all citizens of a particular country .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Universal_health_care",
+          "sentence_id": 2,
+          "text": "Universal health care is not one-size-fits-all and does not imply coverage for all people for everything .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Universal_health_care",
+          "sentence_id": 3,
+          "text": "Universal health care can be determined by three critical dimensions : who is covered , what services are covered , and how much of the cost is covered .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Universal_Health_Care_Foundation_of_Connecticut",
+          "sentence_id": 0,
+          "text": "Universal Health Care Foundation of Connecticut is an independent , nonprofit organization with offices in Meriden , Connecticut .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "List_of_countries_with_universal_health_care",
+          "sentence_id": 2,
+          "text": "Most implement universal health care through legislation , regulation and taxation .",
+          "score": 3.0166666666666666
+        }
+      ],
+      "probabilities": [
+        0.05613432824611664,
+        0.9437866806983948,
+        7.895120506873354e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": 191602,
+  "claim": "Niki Koss stars in Famous in Love.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9891793727874756,
+    0.010737061500549316,
+    8.355359022971243e-05
+  ],
+  "logits": [
+    4.253194808959961,
+    -0.2699792981147766,
+    -5.125947952270508
+  ],
+  "evidence": [
+    {
+      "page_id": "Famous_in_Love",
+      "sentence_id": 1,
+      "text": "The series stars Bella Thorne , Charlie DePew , Georgie Flores , Carter Jenkins , Niki Koss , Keith Powers , Pepi Sonuga , and Perrey Reeves .",
+      "score": 3.025
+    },
+    {
+      "page_id": "Famous_Love_Affairs",
+      "sentence_id": 0,
+      "text": "Famous Love Affairs -LRB- Les Amours célèbres , Amori celebri -RRB- is a 1961 French-Italian anthology film starring Alain Delon , Brigitte Bardot and Jean Paul Belmondo .",
+      "score": 2.033333333333333
+    },
+    {
+      "page_id": "Famous_in_Love",
+      "sentence_id": 0,
+      "text": "Famous in Love is an American drama television series that premiered on Freeform on April 18 , 2017 , and is based on the novel of the same name by Rebecca Serle .",
+      "score": 2.025
+    },
+    {
+      "page_id": "Famous_Stars_and_Straps",
+      "sentence_id": 0,
+      "text": "Famous Stars and Straps -LRB- or simply Famous -RRB- is an American clothing and accessory line created by blink-182 drummer Travis Barker in December 1999 .",
+      "score": 2.02
+    },
+    {
+      "page_id": "Famous_Stars_and_Straps",
+      "sentence_id": 4,
+      "text": "Famous Stars And Straps clothing is influenced by music genres such as punk rock and hip hop .",
+      "score": 2.02
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 190,
+    "tokens_retained": 190,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Niki Koss stars in Famous in Love.</s></s>The series stars Bella Thorne , Charlie DePew , Georgie Flores , Carter Jenkins , Niki Koss , Keith Powers , Pepi Sonuga , and Perrey Reeves . Famous Love Affairs -LRB- Les Amours célèbres , Amori celebri -RRB- is a 1961 French-Italian anthology film starring Alain Delon , Brigitte Bardot and Jean Paul Belmondo . Famous in Love is an American drama television series that premiered on Freeform on April 18 , 2017 , and is based on the novel of the same name by Rebecca Serle . Famous Stars and Straps -LRB- or simply Famous -RRB- is an American clothing and accessory line created by blink-182 drummer Travis Barker in December 1999 . Famous Stars And Straps clothing is influenced by music genres such as punk rock and hip hop .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.09282158400000018
+}

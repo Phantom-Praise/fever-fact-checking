@@ -1,0 +1,70 @@
+{
+  "id": 118995,
+  "claim": "Hitman is based in America.",
+  "condition": "five_sentence_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.21347211301326752,
+    0.786320149898529,
+    0.0002077539829770103
+  ],
+  "logits": [
+    1.4129419326782227,
+    2.716799736022949,
+    -5.521965026855469
+  ],
+  "inference_seconds": 0.05654750000000064,
+  "evidence_text": "Hitman Go is a turn-based puzzle video game developed by Square Enix Montreal and published by Square Enix . The player guides Agent 47 , protagonist of the Hitman franchise , through a series of grid-based levels . The Japanese title of the film begins with the character 新 , shin -LRB- new -RRB- , to distinguish this movie from a 1989 film -LRB- Lonely or Sad Hitman -RRB- , also based on a novel by Yamanouchi but unrelated in plot . Hitman City is a 2003 action-adventure movie that was directed by Scott Shaw . Following its announcement , Hitman Go was met with some scepticism from critics .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 147,
+    "tokens_retained": 147,
+    "truncated": false,
+    "evidence_tokens_total": 136,
+    "evidence_tokens_retained": 136,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Hitman_Go",
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Hitman_Go",
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Another_Lonely_Hitman",
+        "tokens_total": 61,
+        "tokens_kept": 61,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Hitman_City",
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Hitman_Go",
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Hitman is based in America.</s></s>Hitman Go is a turn-based puzzle video game developed by Square Enix Montreal and published by Square Enix . The player guides Agent 47 , protagonist of the Hitman franchise , through a series of grid-based levels . The Japanese title of the film begins with the character 新 , shin -LRB- new -RRB- , to distinguish this movie from a 1989 film -LRB- Lonely or Sad Hitman -RRB- , also based on a novel by Yamanouchi but unrelated in plot . Hitman City is a 2003 action-adventure movie that was directed by Scott Shaw . Following its announcement , Hitman Go was met with some scepticism from critics .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

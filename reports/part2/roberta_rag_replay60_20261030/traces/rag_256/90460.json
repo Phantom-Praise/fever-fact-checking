@@ -1,0 +1,397 @@
+{
+  "id": 90460,
+  "claim": "Katrina Kaif is a Buddhist.",
+  "condition": "rag_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.022991977632045746,
+    0.9766627550125122,
+    0.0003453039680607617
+  ],
+  "logits": [
+    -0.3402842581272125,
+    3.4087116718292236,
+    -4.538760185241699
+  ],
+  "inference_seconds": 0.05755824999999959,
+  "evidence_text": ". Kaif has a close relationship with her family, and the lack of a father figure in her life has given her a sense of responsibility towards them. While Kaif's mother is Christian and her father is Muslim, Kaif says she was allowed to practise a faith of her choice and is a \"firm believer in God\". The Times of India reported in 2009 that she visits Siddhivinayak Temple, Mount Mary Church, and Sufi shrine Ajmer Sharif Dargah before her films are released. Kaif spoke of believing in herself and using it as a motivation to do what she likes. Kaif's paternal parentage has been questioned by some members of the film industry. In a 2011 interview with Mumbai Mirror, Boom producer Ayesha Shroff accused Kaif of fabricating her history: \"We created an identity for her. She was this pretty young English girl, and we gave her the Kashmiri father and thought of calling her Katrina Kazi. We thought we'd give her some kind of Indian ancestry, to connect with the audience ... But then we thought that Kazi sounded too... religious? ... Mohammad Kaif was at the top, and so we said, Katrina Kaif sounds really great.\" Kaif denied this, calling Shroff's comments \"hurtful\". Katrina Kaif (born 1983), British film actress and model her audition for the role. Kaif has voiced her support for LGBT rights, and causes associated with cancer and children's education. She visited the Cancer Patients Aid Association to gift cancer survivors and increase public awareness of breast and cervical cancer in 2012. The following year, she appeared alongside other celebrities in a commercial, produced by the National Film Development Corporation of India, to create awareness about children's education. Having been active with Being Human Foundation to help rehabilitate children living on the streets, Kaif walked the ramp for charity as part of \"Being Human\" fashion show in 2009 and 2010. In 2018, Kaif was named ambassador of Educate Girls, a non-profit organisation that promotes and supports girls' education in the remotest and educationally challenged parts of India. As part of her role as an ambassador, she visited a remote village in Madhya Pradesh. In the media, Kaif frequently appears in listings of India’s most popular and attractive celebrities. Kaif was featured consistently in Forbes India's Celebrity 100 list consistently in the 2010s. A regular brand endorser, she launched her cosmetic line Kay Beauty in 2019. She participates in stage shows and is involved with her mother’s charity, Relief Projects India, which helps underprivileged children. Kaif is married to actor Vicky Kaushal, with whom she has a son. Kaif was born Katrina Turcotte (also spelt Turquotte, her mother's surname) in British Hong Kong on 16 July 1983. Her mother, Suzanne (also spelt Susanna), is an English lawyer and charity worker. Her father, Mohammad Kaif, is of Kashmiri descent. She said her father is a businessman in the United States, who is not in touch with them. She said he had no influence on her or her siblings while they were growing up, and that they were raised by their mother. She has seven siblings; three older sisters and three younger sisters and one elder brother. Kaif's parents divorced when she was a child, and as her mother is a social activist, the family relocated to a number of countries for varying lengths of time. Therefore, Kaif and her siblings were home-schooled by a series of tutors. She said: Kaif was a \"revelation\" and her \"constantly crying eyes, poker-faced cynicism and wholehearted submission to demeaning impulses underscore the fragility under the furore\". For Zero, she received a Zee Cine Award for Best Supporting Actress and a Filmfare nomination in the same category. was \"a pretty prop in Welcome\" and \"more of the same in Partner and Apne\". eighth Bollywood actor to have been replicated as a wax statue there. Shikha Talwar of GQ India commented on Kaif's \"enviable physique\", which she attributed to her workout routines and healthy diet. Journalists from The Hindu and Hindustan Times respectively took note of her \"trademark elegance and simplistic style\" and the \"sense of originality and immense grace\" in her fashion. several hours a day practising traditional dance. Kaif played a role based on Estella Havisham along with Tabu and Aditya Roy Kapur. Namrata Joshi found Kaif good in scenes where she dances, smiles or flirts, but inadequate in dramatic parts. Suresh Mathew of The Quint observed that the poor critical and commercial reception of Fitoor was particularly significant for Kaif, as unlike her contemporaries at this time, she failed to carry a film on her own, and her performance was panned. She was paired with Sidharth Malhotra in Nitya Mehra's science-fiction romance Baar Baar Dekho. Shubhra Gupta of The Indian Express found Kaif expressionless but praised her and Malhotra's energetic dance number in \"Kala Chashma\", which amassed over one billion views on YouTube. Also in 2016, she joined other Indian celebrities for the \"Dream Team Tour\", where they performed in various American cities.",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1117,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1105,
+    "evidence_tokens_retained": 244,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 13951035,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 13951035,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 13951035,
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 13951035,
+        "tokens_total": 38,
+        "tokens_kept": 38,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 13951035,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 13951035,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 13951035,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 13951035,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 13951035,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 13951035,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 13951035,
+        "tokens_total": 36,
+        "tokens_kept": 14,
+        "visibility": "partial"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 52883839,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 13951035,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 13951035,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 13951035,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 13951035,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 13951035,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 13951035,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 13951035,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 13951035,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 13951035,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 13951035,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 13951035,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 13951035,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 13951035,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 13951035,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 13951035,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 13951035,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 13951035,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 13951035,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 13951035,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 13951035,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 13951035,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 13951035,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 13951035,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 13951035,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 13951035,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 13951035,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 13951035,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 13951035,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 13951035,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 13951035,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 13951035,
+        "tokens_total": 51,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 13951035,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 13951035,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 13951035,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Katrina Kaif is a Buddhist.</s></s>. Kaif has a close relationship with her family, and the lack of a father figure in her life has given her a sense of responsibility towards them. While Kaif's mother is Christian and her father is Muslim, Kaif says she was allowed to practise a faith of her choice and is a \"firm believer in God\". The Times of India reported in 2009 that she visits Siddhivinayak Temple, Mount Mary Church, and Sufi shrine Ajmer Sharif Dargah before her films are released. Kaif spoke of believing in herself and using it as a motivation to do what she likes. Kaif's paternal parentage has been questioned by some members of the film industry. In a 2011 interview with Mumbai Mirror, Boom producer Ayesha Shroff accused Kaif of fabricating her history: \"We created an identity for her. She was this pretty young English girl, and we gave her the Kashmiri father and thought of calling her Katrina Kazi. We thought we'd give her some kind of Indian ancestry, to connect with the audience ... But then we thought that Kazi sounded too... religious? ... Mohammad Kaif was at the top, and so we said, Katrina</s>"
+  }
+}

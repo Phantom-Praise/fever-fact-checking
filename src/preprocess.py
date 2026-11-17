@@ -1,3 +1,4 @@
+import argparse
 import json
 from pathlib import Path
 from collections import Counter
@@ -18,6 +19,11 @@ LABEL_MAP = {
     "REFUTES": 1,
     "NOT ENOUGH INFO": 2
 }
+
+
+def normalize_claim(text):
+    """Group case/whitespace variants without altering the original claim."""
+    return " ".join(text.casefold().split())
 
 
 # -----------------------------
@@ -108,12 +114,12 @@ def split_dataset(examples):
     10% validation
     10% testing
 
-    Examples with identical claim text are kept
-    in the same split to prevent claim leakage.
+    Case and whitespace variants of the same claim are kept
+    in the same split without changing the original claim strings.
     """
 
     groups = [
-        example["claim"]
+        normalize_claim(example["claim"])
         for example in examples
     ]
 
@@ -153,7 +159,7 @@ def split_dataset(examples):
     # --------------------------------
 
     temp_groups = [
-        example["claim"]
+        normalize_claim(example["claim"])
         for example in temp_examples
     ]
 
@@ -213,6 +219,9 @@ def verify_splits(
         "Test": test_examples
     }
 
+    if any(not split for split in splits.values()):
+        raise ValueError("Train, validation and test partitions must all be nonempty")
+
     for name, split in splits.items():
 
         percentage = (
@@ -247,17 +256,17 @@ def verify_splits(
     # --------------------------------
 
     train_claims = {
-        example["claim"]
+        normalize_claim(example["claim"])
         for example in train_examples
     }
 
     validation_claims = {
-        example["claim"]
+        normalize_claim(example["claim"])
         for example in validation_examples
     }
 
     test_claims = {
-        example["claim"]
+        normalize_claim(example["claim"])
         for example in test_examples
     }
 
@@ -273,7 +282,7 @@ def verify_splits(
         validation_claims & test_claims
     )
 
-    print("\nCLAIM LEAKAGE CHECK")
+    print("\nNORMALIZED CLAIM LEAKAGE CHECK")
     print("--------------------------------")
 
     print(
@@ -293,12 +302,15 @@ def verify_splits(
 
     print("--------------------------------")
 
+    if train_validation_overlap or train_test_overlap or validation_test_overlap:
+        raise ValueError("Normalized claim overlap between dataset partitions")
+
 def save_jsonl(examples, output_path):
     """
-    Save examples in JSON Lines format.
+    Create a new JSON Lines file; never overwrite an existing dataset.
     """
 
-    with open(output_path, "w", encoding="utf-8") as file:
+    with open(output_path, "x", encoding="utf-8") as file:
 
         for example in examples:
             json.dump(example, file)
@@ -310,11 +322,20 @@ def save_jsonl(examples, output_path):
 # Main
 # -----------------------------
 
-def main():
+def main(argv=None):
+
+    parser = argparse.ArgumentParser(description="Prepare claim-grouped FEVER splits without overwriting existing data")
+    parser.add_argument("--input", type=Path, default=INPUT_FILE)
+    parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR)
+    args = parser.parse_args(argv)
+    outputs = {name: args.output_dir / (name + ".jsonl") for name in ("train", "validation", "test")}
+    existing = [str(path) for path in outputs.values() if path.exists()]
+    if existing:
+        raise FileExistsError("Existing datasets preserved; choose a new --output-dir: " + ", ".join(existing))
 
     print("Loading FEVER dataset...")
 
-    examples = load_fever(INPUT_FILE)
+    examples = load_fever(args.input)
 
     print_summary(examples)
 
@@ -335,30 +356,29 @@ def main():
 
     print("\nSaving processed datasets...")
 
-    OUTPUT_DIR.mkdir(
+    args.output_dir.mkdir(
         parents=True,
         exist_ok=True
     )
 
     save_jsonl(
         train_examples,
-        OUTPUT_DIR / "train.jsonl"
+        outputs["train"]
     )
 
     save_jsonl(
         validation_examples,
-        OUTPUT_DIR / "validation.jsonl"
+        outputs["validation"]
     )
 
     save_jsonl(
         test_examples,
-        OUTPUT_DIR / "test.jsonl"
+        outputs["test"]
     )
 
     print("Saved:")
-    print("  data/processed/train.jsonl")
-    print("  data/processed/validation.jsonl")
-    print("  data/processed/test.jsonl")
+    for path in outputs.values():
+        print(" ", path)
 
     print("\nPreprocessing complete.")
 

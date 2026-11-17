@@ -1,0 +1,62 @@
+{
+  "id": 107045,
+  "claim": "Breaking Bad gave out two Peabody Awards.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.8848370313644409,
+    0.11494383215904236,
+    0.00021922805171925575
+  ],
+  "logits": [
+    3.0645968914031982,
+    1.023637056350708,
+    -5.238449573516846
+  ],
+  "evidence": [
+    {
+      "page_id": "Breaking_Bad",
+      "sentence_id": 18,
+      "text": "The show received numerous awards , including sixteen Primetime Emmy Awards , eight Satellite Awards , two Golden Globe Awards , two Peabody Awards , two Critics ' Choice Awards , and four Television Critics Association Awards .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Two_Out_of_Three_Ain't_Bad",
+      "sentence_id": 0,
+      "text": "`` Two Out of Three Ai n't Bad '' is a love song performed by the American musician Meat Loaf in his solo career , preceded by `` You Took the Words Right Out of My Mouth '' and followed by `` Paradise by the Dashboard Light '' .",
+      "score": 3.0142857142857142
+    },
+    {
+      "page_id": "Two_Out_of_Three_Ain't_Bad",
+      "sentence_id": 18,
+      "text": "I remember going home and I tried so hard but the best I could do was : I want you , I need you but there ai n't no way I 'm ever gon na love you , do n't be sad , 'cause two out of three ai n't bad .",
+      "score": 3.0142857142857142
+    },
+    {
+      "page_id": "Breaking_Bad",
+      "sentence_id": 0,
+      "text": "Breaking Bad is an American crime drama television series created and produced by Vince Gilligan .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Breaking_Bad",
+      "sentence_id": 5,
+      "text": "Breaking Bad is set and was filmed in Albuquerque , New Mexico .",
+      "score": 2.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 197,
+    "tokens_retained": 197,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Breaking Bad gave out two Peabody Awards.</s></s>The show received numerous awards , including sixteen Primetime Emmy Awards , eight Satellite Awards , two Golden Globe Awards , two Peabody Awards , two Critics ' Choice Awards , and four Television Critics Association Awards . `` Two Out of Three Ai n't Bad '' is a love song performed by the American musician Meat Loaf in his solo career , preceded by `` You Took the Words Right Out of My Mouth '' and followed by `` Paradise by the Dashboard Light '' . I remember going home and I tried so hard but the best I could do was : I want you , I need you but there ai n't no way I 'm ever gon na love you , do n't be sad , 'cause two out of three ai n't bad . Breaking Bad is an American crime drama television series created and produced by Vince Gilligan . Breaking Bad is set and was filmed in Albuquerque , New Mexico .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.09261925000000026
+}

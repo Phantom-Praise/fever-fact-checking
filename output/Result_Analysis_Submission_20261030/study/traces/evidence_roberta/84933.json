@@ -1,0 +1,62 @@
+{
+  "id": 84933,
+  "claim": "Steve Buscemi is a composer.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9850950241088867,
+    0.01482944842427969,
+    7.549808651674539e-05
+  ],
+  "logits": [
+    4.159073829650879,
+    -0.037049125880002975,
+    -5.317312240600586
+  ],
+  "evidence": [
+    {
+      "page_id": "Steve_Buscemi_filmography",
+      "sentence_id": 0,
+      "text": "Steve Buscemi is an American actor , director and writer known for his role in Boardwalk Empire , which earned him two Screen Actors Guild Awards , a Golden Globe , and two nominations for an Emmy Award .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Park_Bench_with_Steve_Buscemi",
+      "sentence_id": 0,
+      "text": "Park Bench with Steve Buscemi is an American web series talk show created , directed and hosted by actor Steve Buscemi , distributed by digital network AOL .",
+      "score": 2.025
+    },
+    {
+      "page_id": "Steve_Brown_-LRB-composer-RRB-",
+      "sentence_id": 0,
+      "text": "Steve Brown is a British composer .",
+      "score": 2.0166666666666666
+    },
+    {
+      "page_id": "Steve_Hopkins_-LRB-composer-RRB-",
+      "sentence_id": 0,
+      "text": "Steve Hopkins , also known as Steven E. Hopkins and HipHopkins , is an Emmy nominated music composer , producer and musician based in Los Angeles , California , United States .",
+      "score": 2.0125
+    },
+    {
+      "page_id": "Steve_Kirk_-LRB-composer-RRB-",
+      "sentence_id": 0,
+      "text": "Steve Kirk is a composer , arranger , guitarist , and singer .",
+      "score": 2.011111111111111
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 143,
+    "tokens_retained": 143,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Steve Buscemi is a composer.</s></s>Steve Buscemi is an American actor , director and writer known for his role in Boardwalk Empire , which earned him two Screen Actors Guild Awards , a Golden Globe , and two nominations for an Emmy Award . Park Bench with Steve Buscemi is an American web series talk show created , directed and hosted by actor Steve Buscemi , distributed by digital network AOL . Steve Brown is a British composer . Steve Hopkins , also known as Steven E. Hopkins and HipHopkins , is an Emmy nominated music composer , producer and musician based in Los Angeles , California , United States . Steve Kirk is a composer , arranger , guitarist , and singer .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.08157279100000014
+}

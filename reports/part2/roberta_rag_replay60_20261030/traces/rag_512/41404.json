@@ -1,0 +1,389 @@
+{
+  "id": 41404,
+  "claim": "Greece has the 11th longest coastline.",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.3117924630641937,
+    0.6865848898887634,
+    0.001622627256438136
+  ],
+  "logits": [
+    1.1823338270187378,
+    1.9717259407043457,
+    -4.075957298278809
+  ],
+  "inference_seconds": 0.10908162499999818,
+  "evidence_text": "List of longest beaches List of countries by length of coastline The basic concept of length originates from Euclidean distance. In Euclidean geometry, a straight line represents the shortest distance between two points. This line has only one length. On the surface of a sphere, this is replaced by the geodesic length (also called the great circle length), which is measured along the surface curve that exists in the plane containing both endpoints and the center of the sphere. The length of basic curves is more complicated but can also be calculated. Measuring with rulers, one can approximate the length of a curve by adding the sum of the straight lines which connect the points: List of countries and territories by number of land borders Scale (geography) The coastline paradox describes a problem with real-world applications, including trivial matters such as which river, beach, border, coastline is the longest, with the former two records a matter of fierce debate; furthermore, the problem extends to demarcating territorial boundaries, property rights, erosion monitoring, and the theoretical implications of our geometric modelling. To resolve this problem, several solutions have been proposed. These solutions resolve the practical problems around the problem by setting the definition of \"coastline\", establishing the practical physical limits of a coastline, and using mathematical integers within these practical limitations to calculate the length to a meaningful level of precision. These practical solutions to the problem can resolve the problem for all practical applications while it persists as a theoretical/mathematical concept within the models. e e The coastline paradox is often criticized because coastlines are inherently finite, real features in space, and, therefore, there is a quantifiable answer to their length. An example of the coastline paradox. If the coastline of Great Britain is measured using units 100 km (62 mi) long, then the length of the coastline is approximately 2,800 km (1,700 mi). With 50 km (31 mi) units, the total length is approximately 3,400 km (2,100 mi), approximately 600 km (370 mi) longer. t t Arc length List of river systems by length The measured length of the coastline depends on the method used to measure it and the degree of cartographic generalization. Since a landmass has features at all scales, from hundreds of kilometers in size to tiny fractions of a millimeter and below, there is no obvious size of the smallest feature that should be taken into consideration when measuring, and hence no single well-defined perimeter to the landmass. Various approximations, such as the Minkowski–Bouligand dimension, exist when specific assumptions are made about minimum feature size. Shortly before 1951, Lewis Fry Richardson, in researching the possible effect of border lengths on the probability of war, noticed that the Portuguese reported their measured border with Spain to be 987 km (613 mi), but the Spanish reported it as 1,214 km (754 mi). This was the beginning of the coastline problem, which is a mathematical uncertainty inherent in the measurement of boundaries that are irregular. The problem is fundamentally different from the measurement of other, simpler edges. It is possible, for example, to accurately measure the length of a straight, idealized metal bar by using a measurement device to determine that the length is less than a certain amount and greater than another amount—that is, to measure it within a certain degree of uncertainty. The more precise the measurement device, the closer the results will be to the true length of the edge. With a coastline, however, measuring in finer and finer detail does not improve the accuracy; it merely adds to the total. Unlike with the metal bar, it is impossible even in theory to obtain an exact value for the length of a coastline. where Fε−D must be the number of units ε required to obtain L. The broken line measuring a coast does not extend in one direction nor does it represent an area, but is intermediate between the two and can be thought of as a band of width 2ε. D is its fractal dimension, ranging between 1 and 2 (and typically less than 1.5). More broken coastlines have greater D, and therefore L is longer for the same ε. D is approximately 1.02 for the coastline of South Africa, and approximately 1.25 for the west coast of Great Britain. For lake shorelines, the typical value of D is 1.28. Zeno's paradoxes Concordant coastline v v Fractal dimension",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 915,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 901,
+    "evidence_tokens_retained": 498,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 5327808,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 5327808,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 5327808,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 5327808,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 5327808,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 5327808,
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 5327808,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 5327808,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 5327808,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 5327808,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 5327808,
+        "tokens_total": 67,
+        "tokens_kept": 67,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 5327808,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 5327808,
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 5327808,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 332714,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 332714,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 5327808,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 5327808,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 5327808,
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 5327808,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 332714,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 332714,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 5327808,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 5327808,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 5327808,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 5327808,
+        "tokens_total": 57,
+        "tokens_kept": 51,
+        "visibility": "partial"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 5327808,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 5327808,
+        "tokens_total": 55,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 5327808,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 5327808,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 5327808,
+        "tokens_total": 55,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 5327808,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 5327808,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 5327808,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 5327808,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 5327808,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 5327808,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 5327808,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 5327808,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 5327808,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 5327808,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 332714,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 332714,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 332714,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 5327808,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Greece has the 11th longest coastline.</s></s>List of longest beaches List of countries by length of coastline The basic concept of length originates from Euclidean distance. In Euclidean geometry, a straight line represents the shortest distance between two points. This line has only one length. On the surface of a sphere, this is replaced by the geodesic length (also called the great circle length), which is measured along the surface curve that exists in the plane containing both endpoints and the center of the sphere. The length of basic curves is more complicated but can also be calculated. Measuring with rulers, one can approximate the length of a curve by adding the sum of the straight lines which connect the points: List of countries and territories by number of land borders Scale (geography) The coastline paradox describes a problem with real-world applications, including trivial matters such as which river, beach, border, coastline is the longest, with the former two records a matter of fierce debate; furthermore, the problem extends to demarcating territorial boundaries, property rights, erosion monitoring, and the theoretical implications of our geometric modelling. To resolve this problem, several solutions have been proposed. These solutions resolve the practical problems around the problem by setting the definition of \"coastline\", establishing the practical physical limits of a coastline, and using mathematical integers within these practical limitations to calculate the length to a meaningful level of precision. These practical solutions to the problem can resolve the problem for all practical applications while it persists as a theoretical/mathematical concept within the models. e e The coastline paradox is often criticized because coastlines are inherently finite, real features in space, and, therefore, there is a quantifiable answer to their length. An example of the coastline paradox. If the coastline of Great Britain is measured using units 100 km (62 mi) long, then the length of the coastline is approximately 2,800 km (1,700 mi). With 50 km (31 mi) units, the total length is approximately 3,400 km (2,100 mi), approximately 600 km (370 mi) longer. t t Arc length List of river systems by length The measured length of the coastline depends on the method used to measure it and the degree of cartographic generalization. Since a landmass has features at all scales, from hundreds of kilometers in size to tiny fractions of a millimeter and below, there is no obvious size of the smallest feature that should be taken into consideration when measuring, and hence no single well-defined</s>"
+  }
+}

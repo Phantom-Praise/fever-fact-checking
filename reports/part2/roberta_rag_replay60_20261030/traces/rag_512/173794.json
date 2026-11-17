@@ -1,0 +1,477 @@
+{
+  "id": 173794,
+  "claim": "Nigeria is the most populous country in Europe.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.5525029301643372,
+    0.44598257541656494,
+    0.001514436211436987
+  ],
+  "logits": [
+    1.7329025268554688,
+    1.518723726272583,
+    -4.166512966156006
+  ],
+  "inference_seconds": 0.10804279199999911,
+  "evidence_text": "List of cities in Europe Bruges Brussels This is a list of most populous municipalities in Belgium. Out of the 565 Belgian municipalities (as of 1 January 2025) the list contains all those with a population over 30,000. Lists of cities Liège | Ath | 23,849 | 25,430 | 28,026 | 29,494 | 30,235 | Hainaut | Wallonia Populous may refer to: Leuven Municipalities of Belgium List of cities in Flanders Belgium is divided into municipalities, however a municipality may or may not have an additional royally-decreed city status. For example, Brussels is a federal region of 19 municipalities, the City of Brussels being only one of them. City status in Belgium . | Tournai | 67,767 | 67,379 | 69,043 | 69,083 | 69,066 | Hainaut | Wallonia 24. | Genk | 61,343 | 62,842 | 64,757 | 66,447 | 68,101 | Limburg | Flanders 25. | Roeselare | 52,512 | 54,199 | 57,432 | 63,478 | 67,697 | West Flanders | Flanders 26. | Seraing | 60,952 | 60,557 | 62,698 | 64,192 | 64,764 | Liège | Wallonia 27. | Woluwe-Saint-Lambert | 48,141 | 46,528 | 50,749 | 57,712 | 60,979 | — | Brussels-Capital Region 28. | Mouscron | 53,545 | 52,492 | 54,651 | Charleroi Namur Municipalities marked with * or ** have recently (* in 2019 and ** in 2025) been the subject of a merger of two or three former municipalities, population figures for years prior to these mergers take into account the population of all the municipalities involved. Ghent Popular (disambiguation) List of cities in Wallonia Metropolitan areas in Belgium # | Municipality | Population | Province | Region 1990 | 2000 | 2010 | 2020 | 2026 1. | Antwerp** | 479,974 | 456,898 | 493,630 | 540,196 | 565,615 | Antwerp | Flanders 2. | Ghent | 230,543 | 224,180 | 243,366 | 263,927 | 274,042 | East Flanders | Flanders 3. | Charleroi | 206,779 | 200,827 | 202,598 | 202,746 | 206,900 | Hainaut | Wallonia 4. | Brussels | 136,706 | 133,859 | 157,673 | 185,103 | 198,674 | — | Brussels-Capital Region 5. | Liège | 196,825 | 185,639 | 192,504 | 197,217 | 198,102 | Liège | Wallonia 6. | Anderlecht | | 31,479 | 32,552 | 35,293 | 36,962 | Flemish Brabant | Flanders 63. | Asse | 27,047 | 27,931 | 30,228 | 33,505 | 36,018 | Flemish Brabant | Flanders 64. | Châtelet | 36,656 | 35,452 | 36,050 | 35,668 | 35,975 | Hainaut | Wallonia 65. | Wavre | 28,126 | 31,033 | 32,910 | 34,748 | 35,735 | Walloon Brabant | Wallonia 66. | Auderghem | 29,143 | 28,804 | 30,811 | 34,404 | 35,659 | — | Brussels-Capital Region 67. | Ypres | 35,231 | 35,071 | 34,962 | 34,995 | 35,629 | West Flanders ,411 | — | Brussels-Capital Region 12. | Mons | 91,867 | 90,935 | 91,759 | 95,887 | 97,745 | Hainaut | Wallonia 13. | Aalst | 76,245 | 76,313 | 80,043 | 87,332 | 93,094 | East Flanders | Flanders 14. | Hasselt** | 73,828 | 76,068 | 81,385 | 87,151 | 90,914 | Limburg | Flanders 15. | Mechelen | 75,622 | 75,438 | 80,940 | 86,921 | 90,355 | Antwerp | Flanders 16. | Ixelles | 73,128 | 73,174 | 80,183 | 87,632 | 89,162 | — | Brussels-Capital Region 17. | Beveren-Kruibeke-Zwijndrecht** | 89,231 | 87,812 | 104,647 | 120,887 | 129,600 | — | Brussels-Capital Region 7. | Schaerbeek | 104,768 | 105,692 | 121,232 | 132,799 | 129,278 | — | Brussels-Capital Region 8. | Bruges | 117,460 | 116,246 | 116,741 | 118,656 | 120,458 | West Flanders | Flanders 9. | Namur | 103,466 | 105,419 | 108,950 | 111,432 | 115,457 | Namur | Wallonia 10. | Leuven | 85,193 | 88,014 | 95,463 | 102,275 | 105,357 | Flemish Brabant | Flanders 11. | Molenbeek-Saint-Jean | 68,904 | 71,219 | 88,181 | 97,979 | 98 Antwerp",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1235,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1220,
+    "evidence_tokens_retained": 497,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 214433,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 214433,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 214433,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 214433,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 214433,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 214433,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 214433,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 214433,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 201021,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 214433,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 214433,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 214433,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 214433,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 214433,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 214433,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 214433,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 214433,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 214433,
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 214433,
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 214433,
+        "tokens_total": 41,
+        "tokens_kept": 41,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 214433,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 214433,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 214433,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 214433,
+        "tokens_total": 50,
+        "tokens_kept": 50,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 214433,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 201021,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 214433,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 214433,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 214433,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 214433,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 214433,
+        "tokens_total": 40,
+        "tokens_kept": 40,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 214433,
+        "tokens_total": 35,
+        "tokens_kept": 18,
+        "visibility": "partial"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 214433,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 214433,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 214433,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 214433,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 214433,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 214433,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 214433,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 214433,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 214433,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 214433,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 214433,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 214433,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 214433,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 214433,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 214433,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 214433,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 214433,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 214433,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 214433,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 214433,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 214433,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 214433,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 214433,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 214433,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Nigeria is the most populous country in Europe.</s></s>List of cities in Europe Bruges Brussels This is a list of most populous municipalities in Belgium. Out of the 565 Belgian municipalities (as of 1 January 2025) the list contains all those with a population over 30,000. Lists of cities Liège | Ath | 23,849 | 25,430 | 28,026 | 29,494 | 30,235 | Hainaut | Wallonia Populous may refer to: Leuven Municipalities of Belgium List of cities in Flanders Belgium is divided into municipalities, however a municipality may or may not have an additional royally-decreed city status. For example, Brussels is a federal region of 19 municipalities, the City of Brussels being only one of them. City status in Belgium . | Tournai | 67,767 | 67,379 | 69,043 | 69,083 | 69,066 | Hainaut | Wallonia 24. | Genk | 61,343 | 62,842 | 64,757 | 66,447 | 68,101 | Limburg | Flanders 25. | Roeselare | 52,512 | 54,199 | 57,432 | 63,478 | 67,697 | West Flanders | Flanders 26. | Seraing | 60,952 | 60,557 | 62,698 | 64,192 | 64,764 | Liège | Wallonia 27. | Woluwe-Saint-Lambert | 48,141 | 46,528 | 50,749 | 57,712 | 60,979 | — | Brussels-Capital Region 28. | Mouscron | 53,545 | 52,492 | 54,651 | Charleroi Namur Municipalities marked with * or ** have recently (* in 2019 and ** in 2025) been the subject of a merger of two or three former municipalities, population figures for years prior to these mergers take into account the population of all the municipalities involved. Ghent Popular (disambiguation) List of cities in Wallonia Metropolitan areas in Belgium # | Municipality | Population | Province | Region 1990 | 2000 | 2010 | 2020 | 2026 1. | Antwerp** | 479,974 | 456,898 | 493,630 | 540,196 | 565,615 | Antwerp | Flanders 2. | Ghent | 230,543 | 224,180 | 243,366</s>"
+  }
+}

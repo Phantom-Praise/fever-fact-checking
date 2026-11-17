@@ -1,0 +1,381 @@
+{
+  "id": 107045,
+  "claim": "Breaking Bad gave out two Peabody Awards.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.8870909810066223,
+    0.11149203777313232,
+    0.0014170367503538728
+  ],
+  "logits": [
+    2.5711610317230225,
+    0.49716663360595703,
+    -3.8682188987731934
+  ],
+  "inference_seconds": 0.056308124999999265,
+  "evidence_text": "The series received numerous awards and nominations, including 16 Primetime Emmy Awards and 58 nominations, including winning for Outstanding Drama Series in 2013 and 2014. It also won two Peabody Awards, one in 2008 and one in 2013. In 2010 and 2012, Breaking Bad won the TCA Award for Outstanding Achievement in Drama, as well as the TCA Award for Program of the Year in 2013. In 2009 and 2010, the series won the Satellite Award for Best Television Series – Drama, along with the Saturn Award for Best Syndicated/Cable Television Series in 2010, 2011, and 2012. The series won the Writers Guild of America Award for Television: Dramatic Series in both 2012 and 2013. In 2013, it was named No. 13 in a list of the 101 Best-Written TV Series of All Time by the Writers Guild of America and won, for the first time, the Primetime Emmy Award for Outstanding Drama Series. Overall, the show has won 110 industry awards and has been nominated for 262. Since its conclusion, Breaking Bad has been widely regarded by critics as one of the greatest television series of all time. It received numerous accolades, including 16 Primetime Emmy Awards, 2 Golden Globe Awards, 2 Peabody Awards, and a British Academy Television Award. Cranston won the Primetime Emmy Award for Outstanding Lead Actor in a Drama Series four times, Paul won the Primetime Emmy Award for Outstanding Supporting Actor in a Drama Series three times, and Gunn won the Primetime Emmy Award for Outstanding Supporting Actress in a Drama Series twice. The series has continued to appear in retrospective rankings of the best television programs. . of TV [he's] ever seen\". Jonah Goldberg of National Review called it \"the best show currently on television, and perhaps even the best ever\". The veteran actor Sir Anthony Hopkins wrote a letter of praise to Bryan Cranston, telling him that his \"performance as Walter White was the best acting I have seen – ever\". He lauded the rest of the cast and crew as well. The letter first appeared on Steven Michael Quezada's (who portrayed DEA Agent Steven Gomez) Facebook page, and in spite of it being taken down, the letter soon went viral. In an interview, filmmaker David Lynch, who had described cable television as \"the new arthouse,\" named Breaking Bad as one of the shows he liked. When asked whether he was satisfied with the way the series ended, Lynch said, \"Oh, I thought it was good! That was a great show. Really great show.\" In 2013, Guinness World Records named Breaking Bad the highest Michael Slovis served as cinematographer for Breaking Bad beginning with the second season. Although series creator Vince Gilligan and Slovis wanted to shoot the series in CinemaScope, Sony and AMC did not grant permission. Gilligan cited Sergio Leone's Westerns as a reference for the visual style he wanted for the series. Slovis received four Primetime Emmy Award nominations for Outstanding Cinematography for a One Hour Series and Outstanding Cinematography for a Single-Camera Series. For his portrayal of Walter White, Bryan Cranston won the Primetime Emmy Award for Outstanding Lead Actor in a Drama Series four times, in 2008, 2009, 2010, and 2014. Cranston also won the TCA Award for Individual Achievement in Drama in 2009 and the Satellite Award for Best Actor – Television Series: Drama in 2008, 2009, and 2010, as well as the Critics' Choice Television Award for Best Actor in a Drama Series and the Saturn Award for Best Actor on Television in 2012. -rated TV series of all time, citing its season 5 Metacritic score of 99 out of 100. \"[t]he show that arguably killed off the antihero drama: nothing since has been able to top the depraved descent made by Walter White (a never-better Bryan Cranston), from milquetoast chemistry teacher to meth overlord, and few have dared to try\". In 2021, Empire ranked Breaking Bad at number two on their list of The 100 Greatest TV Shows of All Time. Allen St. John of Forbes called it \"The best TV show ever\". In 2021, it was voted the third-best TV series of the 21st century by the BBC, as picked by 206 TV experts from around the world. In 2023, Variety ranked Breaking Bad as the fifth-greatest TV show of all time. In 2023, Breaking Bad was ranked as the best TV series in the last 25 years by critics in a poll conveyed by Rotten Tomatoes. .3 million viewers. Each season would be released on DVD. The complete series was released on DVD and Blu-ray on November 26, 2013, in a collectable box shaped like one of the barrels used by Walt to bury his money. The set contains various features, including a two-hour documentary and a humorous alternative ending that features Cranston and his Malcolm in the Middle co-star Jane Kaczmarek playing their characters Hal and Lois, in a nod to the final scene from Newhart. its third season. They offer [Walter White] everything he needs. At the end of that hour he says, \"Thank you, no,\" and he goes back to Jesse Pinkman and says, \"Let's cook.\" And that was where the character truly got interesting for me. This guy's got some serious pride issues.",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1105,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1091,
+    "evidence_tokens_retained": 242,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 14426270,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 14426270,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 14426270,
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 14426270,
+        "tokens_total": 40,
+        "tokens_kept": 40,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 14426270,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 14426270,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 14426270,
+        "tokens_total": 40,
+        "tokens_kept": 40,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 14426270,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 14426270,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 14426270,
+        "tokens_total": 31,
+        "tokens_kept": 13,
+        "visibility": "partial"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 14426270,
+        "tokens_total": 58,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 14426270,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 14426270,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 14426270,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 14426270,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 14426270,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 14426270,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 14426270,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 14426270,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 14426270,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 14426270,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 14426270,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 14426270,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 14426270,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 14426270,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 14426270,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 14426270,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 14426270,
+        "tokens_total": 63,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 14426270,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 14426270,
+        "tokens_total": 57,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 14426270,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 14426270,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 14426270,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 14426270,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 14426270,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 14426270,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 14426270,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 14426270,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 14426270,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 14426270,
+        "tokens_total": 54,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 14426270,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 14426270,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 14426270,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 14426270,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Breaking Bad gave out two Peabody Awards.</s></s>The series received numerous awards and nominations, including 16 Primetime Emmy Awards and 58 nominations, including winning for Outstanding Drama Series in 2013 and 2014. It also won two Peabody Awards, one in 2008 and one in 2013. In 2010 and 2012, Breaking Bad won the TCA Award for Outstanding Achievement in Drama, as well as the TCA Award for Program of the Year in 2013. In 2009 and 2010, the series won the Satellite Award for Best Television Series – Drama, along with the Saturn Award for Best Syndicated/Cable Television Series in 2010, 2011, and 2012. The series won the Writers Guild of America Award for Television: Dramatic Series in both 2012 and 2013. In 2013, it was named No. 13 in a list of the 101 Best-Written TV Series of All Time by the Writers Guild of America and won, for the first time, the Primetime Emmy Award for Outstanding Drama Series. Overall, the show has won 110 industry awards and has been nominated for 262. Since its conclusion, Breaking Bad has been widely regarded by critics as one of the greatest television series of all time. It received numerous accolades, including 16 Primetime Emmy Awards,</s>"
+  }
+}

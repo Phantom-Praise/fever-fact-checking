@@ -1,0 +1,116 @@
+{
+  "id": 126006,
+  "claim": "Huntington's disease kills brain cells in small mammals.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08444387500000161,
+      "symbolic": {
+        "claim": "Huntington's disease kills brain cells in small mammals.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.366600000096696e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Huntington's_disease",
+          "sentence_id": 0,
+          "text": "Huntington 's disease -LRB- HD -RRB- , also known as Huntington 's chorea , is an inherited disorder that results in death of brain cells .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "Huntington's_Disease_Association",
+          "sentence_id": 0,
+          "text": "The Huntington 's Disease Association -LRB- HDA -RRB- is a charity that supports people in England and Wales affected by the genetic neurodegenerative brain condition Huntington 's disease -LRB- HD -RRB- .",
+          "score": 3.0166666666666666
+        },
+        {
+          "page_id": "European_Huntington's_Disease_Network",
+          "sentence_id": 3,
+          "text": "Huntington 's disease -LRB- HD -RRB- is an incurable , genetically inherited degenerative brain condition that causes progressive impairment of motor function and cognitive decline and psychiatric symptoms .",
+          "score": 3.0142857142857142
+        },
+        {
+          "page_id": "Dead_Brain_Cells",
+          "sentence_id": 0,
+          "text": "Dead Brain Cells are a Canadian thrash metal band from the late 1980s .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Dead_Brain_Cells",
+          "sentence_id": 3,
+          "text": "The project grew into a serious band which took the name Dead Brain Cells among three suggestions by Leone , the others being `` The Mental Pukes '' and `` The Retarded Assholes '' .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.43785715103149414,
+        0.5614989399909973,
+        0.0006439815042540431
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "NOT ENOUGH INFO",
+      "wall_seconds": 0.06744787500000093,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.32707634568214417,
+        0.13333383202552795,
+        0.5395898818969727
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07985662499999968,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Huntington's_disease",
+          "sentence_id": 0,
+          "text": "Huntington 's disease -LRB- HD -RRB- , also known as Huntington 's chorea , is an inherited disorder that results in death of brain cells .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "Huntington's_Disease_Association",
+          "sentence_id": 0,
+          "text": "The Huntington 's Disease Association -LRB- HDA -RRB- is a charity that supports people in England and Wales affected by the genetic neurodegenerative brain condition Huntington 's disease -LRB- HD -RRB- .",
+          "score": 3.0166666666666666
+        },
+        {
+          "page_id": "European_Huntington's_Disease_Network",
+          "sentence_id": 3,
+          "text": "Huntington 's disease -LRB- HD -RRB- is an incurable , genetically inherited degenerative brain condition that causes progressive impairment of motor function and cognitive decline and psychiatric symptoms .",
+          "score": 3.0142857142857142
+        },
+        {
+          "page_id": "Dead_Brain_Cells",
+          "sentence_id": 0,
+          "text": "Dead Brain Cells are a Canadian thrash metal band from the late 1980s .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Dead_Brain_Cells",
+          "sentence_id": 3,
+          "text": "The project grew into a serious band which took the name Dead Brain Cells among three suggestions by Leone , the others being `` The Mental Pukes '' and `` The Retarded Assholes '' .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.43785715103149414,
+        0.5614989399909973,
+        0.0006439815042540431
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

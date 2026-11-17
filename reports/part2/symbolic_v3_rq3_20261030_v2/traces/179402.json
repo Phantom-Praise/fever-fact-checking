@@ -1,0 +1,116 @@
+{
+  "id": 179402,
+  "claim": "Yelp expanded throughout at least one continent.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05793304200000193,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.834405243396759,
+        0.014393235556781292,
+        0.1512015014886856
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07700045800000055,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Yelp",
+          "sentence_id": 8,
+          "text": "From 2009 to 2012 , Yelp expanded throughout Europe and Asia .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Continent",
+          "sentence_id": 0,
+          "text": "A continent is one of several very large landmasses on Earth .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Yelp",
+          "sentence_id": 0,
+          "text": "Yelp is an American multinational corporation headquartered in San Francisco , California .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Yelp",
+          "sentence_id": 1,
+          "text": "It develops , hosts and markets Yelp.com and the Yelp mobile app , which publish crowd-sourced reviews about local businesses , as well as the online reservation service Yelp Reservations and online food-delivery service Eat24 .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Yelp",
+          "sentence_id": 5,
+          "text": "Yelp was founded in 2004 by former PayPal employees Russel Simmons and Jeremy Stoppelman .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.8277302980422974,
+        0.17197196185588837,
+        0.0002977394324261695
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06840104100000133,
+      "symbolic": {
+        "claim": "Yelp expanded throughout at least one continent.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3750000000811724e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Yelp",
+          "sentence_id": 8,
+          "text": "From 2009 to 2012 , Yelp expanded throughout Europe and Asia .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Continent",
+          "sentence_id": 0,
+          "text": "A continent is one of several very large landmasses on Earth .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Yelp",
+          "sentence_id": 0,
+          "text": "Yelp is an American multinational corporation headquartered in San Francisco , California .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Yelp",
+          "sentence_id": 1,
+          "text": "It develops , hosts and markets Yelp.com and the Yelp mobile app , which publish crowd-sourced reviews about local businesses , as well as the online reservation service Yelp Reservations and online food-delivery service Eat24 .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Yelp",
+          "sentence_id": 5,
+          "text": "Yelp was founded in 2004 by former PayPal employees Russel Simmons and Jeremy Stoppelman .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.8277302980422974,
+        0.17197196185588837,
+        0.0002977394324261695
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

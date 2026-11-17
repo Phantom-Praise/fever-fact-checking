@@ -1,0 +1,116 @@
+{
+  "id": 91769,
+  "claim": "Girls' Generation was formed by a North Korean entertainment company.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.10177316699999928,
+      "symbolic": {
+        "claim": "Girls' Generation was formed by a North Korean entertainment company.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3749999999035367e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Girls'_Generation",
+          "sentence_id": 0,
+          "text": "Girls ' Generation , also known as SNSD , is a South Korean girl group formed by S.M. Entertainment .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Girls'_Generation-TTS",
+          "sentence_id": 0,
+          "text": "Girls ' Generation-TTS -LRB- , also known as TTS , TaeTiSeo , or Girls ' Generation-TaeTiSeo -RRB- is a subgroup of South Korean girl group Girls ' Generation , formed by S.M. Entertainment in 2012 .",
+          "score": 5.033333333333333
+        },
+        {
+          "page_id": "Girls'_Generation",
+          "sentence_id": 2,
+          "text": "Originally a nine-piece group -LRB- with Jessica , who later departed from the group in September 2014 -RRB- , Girls ' Generation debuted in 2007 with their Korean eponymous debut album .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Girls'_Generation",
+          "sentence_id": 4,
+          "text": "Girls ' Generation further consolidated their popularity on the South Korean music scene with follow-up singles `` Tell Me Your Wish -LRB- Genie -RRB- '' , `` Oh ! ''",
+          "score": 3.1
+        },
+        {
+          "page_id": "Girls'_Generation",
+          "sentence_id": 19,
+          "text": "Girls ' Generation is also deemed one of the prominent figures of the Korean Wave and one of the most popular K-pop acts internationally .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.13446760177612305,
+        0.8653916120529175,
+        0.00014072984049562365
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05639583299999984,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.3906852900981903,
+        0.35982614755630493,
+        0.24948853254318237
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.09355495899999866,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Girls'_Generation",
+          "sentence_id": 0,
+          "text": "Girls ' Generation , also known as SNSD , is a South Korean girl group formed by S.M. Entertainment .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Girls'_Generation-TTS",
+          "sentence_id": 0,
+          "text": "Girls ' Generation-TTS -LRB- , also known as TTS , TaeTiSeo , or Girls ' Generation-TaeTiSeo -RRB- is a subgroup of South Korean girl group Girls ' Generation , formed by S.M. Entertainment in 2012 .",
+          "score": 5.033333333333333
+        },
+        {
+          "page_id": "Girls'_Generation",
+          "sentence_id": 2,
+          "text": "Originally a nine-piece group -LRB- with Jessica , who later departed from the group in September 2014 -RRB- , Girls ' Generation debuted in 2007 with their Korean eponymous debut album .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Girls'_Generation",
+          "sentence_id": 4,
+          "text": "Girls ' Generation further consolidated their popularity on the South Korean music scene with follow-up singles `` Tell Me Your Wish -LRB- Genie -RRB- '' , `` Oh ! ''",
+          "score": 3.1
+        },
+        {
+          "page_id": "Girls'_Generation",
+          "sentence_id": 19,
+          "text": "Girls ' Generation is also deemed one of the prominent figures of the Korean Wave and one of the most popular K-pop acts internationally .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.13446760177612305,
+        0.8653916120529175,
+        0.00014072984049562365
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "id": 97777,
+  "claim": "Adam Driver was in the singing group Lincoln.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.5939720869064331,
+    0.40106841921806335,
+    0.004959434270858765
+  ],
+  "logits": [
+    1.4692414999008179,
+    1.0765411853790283,
+    -3.3162989616394043
+  ],
+  "inference_seconds": 0.10894241700000151,
+  "evidence_text": "Driver is a veteran of the U.S. Marine Corps. He helped start Arts in the Armed Forces, a nonprofit arts group for military communities. The nonprofit provided arts programming to military communities until dissolving in 2023. After his parents divorced, Driver and his mother moved to Mishawaka, Indiana, where he was primarily raised by his stepfather, Rodney G. Wright, a Baptist minister. Driver graduated from Mishawaka High School in 2001, while spending time with his older sister and mother in their hometown. Driver was raised Baptist, and sang in the choir at church. | J-Will | Lead role; also executive producer | Driver was born on November 19, 1983, in Fontana, California, east of Los Angeles. He is the son of Nancy Wright (née Needham), a paralegal, and Joe Douglas Driver. His father's family is from Arkansas, and his mother's family is from Indiana. His family moved to San Diego, where Driver spent time with them until he was seven years old. When Driver was eighteen, he attempted to start his acting career in Los Angeles, leaving Indiana by car until breaking down in Amarillo, Texas. He spent money repairing his car only to make it to Santa Monica, California, where he lived in a hostel for two days and was scammed by a real estate agent he paid to find him an apartment. He realized he did not have enough money to live, and returned to Indiana after only a week away from home. Adam Driver Driver at the 2026 New York Film Festival Born | Adam Douglas Driver (1983-11-19) November 19, 1983 Fontana, California, U.S. Education | University of Indianapolis Juilliard School (BFA) Occupation | Actor Years active | 2009–present Spouse | Joanne Tucker ​(m. 2013)​ Children | 2 Awards | Full list Military career Allegiance | United States Branch | United States Marine Corps Service years | 2001–2004 Rank | Lance corporal Unit | 1st Battalion, 1st Marines Subsequently, Driver attended the University of Indianapolis for a year before auditioning again for Juilliard, this time succeeding. He got the news he was accepted while at work at the Target Distribution Center in Indianapolis. Driver has said that his Juilliard classmates saw him as an intimidating and volatile figure as he struggled to fit into a lifestyle so different from the Marines. He was a member of the Drama Division's Group 38 from 2005 to 2009, where he met his future wife, Joanne Tucker. He graduated with a Bachelor of Fine Arts in 2009. Driver is next to appear in the Ron Howard war drama Alone at Dawn alongside Anne Hathaway. He's currently in talks of a role in Heat 2 alongside Leonardo DiCaprio and Christian Bale which is scheduled to start production in November 2026. In 2012, Driver starred in the HBO comedy-drama series Girls, as the emotionally unstable boyfriend of a writer (Lena Dunham). He received three nominations for the Primetime Emmy Award for Outstanding Supporting Actor in a Comedy Series for his role. Driver played telegraph and cipher officer Samuel Beckwith in Steven Spielberg's historical drama Lincoln, and Lev Shapiro in Noah Baumbach's comedy-drama Frances Ha. He starred in the drama Not Waving But Drowning and the romantic-comedy Gayby. He garnered major off-Broadway recognition for playing Cliff, a working-class Welsh houseguest in Look Back in Anger, and won the Lucille Lortel Award for Outstanding Featured Actor in a Play. After graduating from Juilliard, Driver appeared in both Broadway and off-Broadway productions. Like many aspiring actors, he occasionally worked as a busboy and waiter. Driver appeared in several television series and short films. He played a repentant witness and reluctant accomplice to an unsolved assault in the final episode of the television series The Unusuals. He made his film debut in Clint Eastwood's biographical film J. Edgar. Key † | Denotes television productions that have not yet been released Driver has described his teenage self as a \"misfit\"; he told M Magazine that he climbed radio towers, set objects on fire, and co-founded a fight club with friends, inspired by the 1999 film Fight Club. Throughout high school, he was active in choir and theater, participating in school productions of How to Succeed in Business Without Really Trying, Into the Woods, and Guys and Dolls. , BAFTA Award for Best Actor in a Leading Role, and the Golden Globe Award for Best Actor – Motion Picture Drama. Driver Brothers Year | Title | Role | Venue 2019–2020 | Star Wars: Rise of the Resistance | Kylo Ren | Disneyland / Disney's Hollywood Studios Pioneer Tours",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 985,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 972,
+    "evidence_tokens_retained": 499,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 36044408,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 36044408,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 36044408,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 36044408,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 36044408,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 36044408,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 36044408,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 36044408,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 36044408,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 36044408,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 36044408,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 36044408,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 36044408,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 36044408,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 36044408,
+        "tokens_total": 43,
+        "tokens_kept": 43,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 36044408,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 36044408,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 36044408,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 36044408,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 36044408,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 36044408,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 36044408,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 36044408,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 36044408,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 36044408,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 36044408,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 36044408,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 36044408,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 36044408,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 36044408,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 36044408,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 36044408,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 36044408,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 36044408,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 36044408,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 36044408,
+        "tokens_total": 27,
+        "tokens_kept": 8,
+        "visibility": "partial"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 36044408,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 36044408,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 36044408,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 36044408,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 36044408,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 36044408,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 36044408,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 36044408,
+        "tokens_total": 44,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 36044408,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 36044408,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 36044408,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 36044408,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 36044408,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 36044408,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 36044408,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 36044408,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 36044408,
+        "tokens_total": 46,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 36044408,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 36044408,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 2975214,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 36044408,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 36044408,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 2975214,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Adam Driver was in the singing group Lincoln.</s></s>Driver is a veteran of the U.S. Marine Corps. He helped start Arts in the Armed Forces, a nonprofit arts group for military communities. The nonprofit provided arts programming to military communities until dissolving in 2023. After his parents divorced, Driver and his mother moved to Mishawaka, Indiana, where he was primarily raised by his stepfather, Rodney G. Wright, a Baptist minister. Driver graduated from Mishawaka High School in 2001, while spending time with his older sister and mother in their hometown. Driver was raised Baptist, and sang in the choir at church. | J-Will | Lead role; also executive producer | Driver was born on November 19, 1983, in Fontana, California, east of Los Angeles. He is the son of Nancy Wright (née Needham), a paralegal, and Joe Douglas Driver. His father's family is from Arkansas, and his mother's family is from Indiana. His family moved to San Diego, where Driver spent time with them until he was seven years old. When Driver was eighteen, he attempted to start his acting career in Los Angeles, leaving Indiana by car until breaking down in Amarillo, Texas. He spent money repairing his car only to make it to Santa Monica, California, where he lived in a hostel for two days and was scammed by a real estate agent he paid to find him an apartment. He realized he did not have enough money to live, and returned to Indiana after only a week away from home. Adam Driver Driver at the 2026 New York Film Festival Born | Adam Douglas Driver (1983-11-19) November 19, 1983 Fontana, California, U.S. Education | University of Indianapolis Juilliard School (BFA) Occupation | Actor Years active | 2009–present Spouse | Joanne Tucker ​(m. 2013)​ Children | 2 Awards | Full list Military career Allegiance | United States Branch | United States Marine Corps Service years | 2001–2004 Rank | Lance corporal Unit | 1st Battalion, 1st Marines Subsequently, Driver attended the University of Indianapolis for a year before auditioning again for Juilliard, this time succeeding. He got the news he was accepted while at work at the Target Distribution Center in Indianapolis. Driver has said that his Juilliard classmates saw him as an intimidating and volatile figure as he struggled to fit into a lifestyle so different from the Marines. He was a member of the Drama Division</s>"
+  }
+}

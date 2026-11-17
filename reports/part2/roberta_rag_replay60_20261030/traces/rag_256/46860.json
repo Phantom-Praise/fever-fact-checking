@@ -1,0 +1,461 @@
+{
+  "id": 46860,
+  "claim": "Three Days of the Condor is a 1975 spy novel.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.6175068020820618,
+    0.37724122405052185,
+    0.005252056755125523
+  ],
+  "logits": [
+    1.5333623886108398,
+    1.0405571460723877,
+    -3.233707904815674
+  ],
+  "inference_seconds": 0.05602400000000074,
+  "evidence_text": "Three Days of the Condor is a 1975 American spy thriller film directed by Sydney Pollack and starring Robert Redford, Faye Dunaway, Cliff Robertson, and Max von Sydow. The screenplay by Lorenzo Semple Jr. and David Rayfiel was based on the 1974 novel Six Days of the Condor by James Grady. Conspiracy thriller Set mainly in New York City and Washington, D.C., the film is about a bookish CIA researcher who comes back from lunch one day to discover his co-workers murdered, then tries to avoid his own murder and outwit those responsible and understand their motives. The film was nominated for the Academy Award for Best Film Editing. Semple and Rayfiel received an Edgar Award from the Mystery Writers of America for Best Motion Picture Screenplay. When first released, the film was reviewed positively by Vincent Canby, critic for The New York Times, who wrote that the film \"is no match for stories in your local newspaper\", but it benefits from good acting and directing. Variety called it a B movie that was given a big budget despite its lack of substance. Roger Ebert wrote, \"Three Days of the Condor is a well-made thriller, tense and involving, and the scary thing, in these months after Watergate, is that it's all too believable.\" Joe Turner is a bookish CIA analyst, codenamed \"Condor\", who works at the American Literary Historical Society in New York City, in reality a clandestine CIA office. The staff analyzes print media from around the world. Turner files a report to CIA headquarters on a thriller novel with strange plot elements that has been translated into several languages despite poor sales. \"Flight of the Condor\" 2:25 Some critics described the film as a piece of political propaganda, as it was released soon after the \"Family Jewels\" scandal came to light in December 1974, which exposed a variety of CIA \"dirty tricks\". In an interview with Jump Cut, Pollack explained that the film was written solely to be a spy thriller and that production on the film was nearly over by the time the Family Jewels revelations were made, so even if they had wanted to take advantage of them, it was far too late in the filmmaking process to do so. Despite both he and Redford being well-known political liberals, Pollack said they were only interested in making the film because an espionage thriller was a genre neither of them had previously explored. Three Days of the Condor Theatrical release poster Directed by | Sydney Pollack Screenplay by | Lorenzo Semple Jr. David Rayfiel Based on | Six Days of the Condor by James Grady Produced by | Stanley Schneider Starring | Robert Redford Faye Dunaway Cliff Robertson Max von Sydow Cinematography | Owen Roizman Edited by | Don Guidice Fredric Steinkamp (supervising) Music by | Dave Grusin Production company | Dino De Laurentiis Corporation Distributed by | Paramount Pictures Release date | September 25, 1975 (1975-09-25) (US) Running time | 118 minutes Country | United States Language | English Budget | $7.8 million Box office | $41.5 million (US/Canada) (worldwide rentals: $32.7 million) Turner encounters Kathy Hale and forces her to take him to her apartment and holds her hostage as he works out what is happening. She comes to trust Turner, and they become lovers. Turner visits Barber's apartment where he encounters Joubert, a European who led the massacre of Turner's co-workers and had disconnected Wicks from life support at the hospital. Turner escapes when Joubert tries to shoot him, but Joubert tracks the license plate on Kathy's car. A hit man disguised as a mailman arrives at Hale's apartment, and Turner kills him. \"Spies of a Feather, Flocking Together (Love Theme from 3 Days of the Condor)\" 1:55 Three Days of the Condor Soundtrack album by Dave Grusin Released | August 1975 Labels | Capitol (1975) DRG (2004 reissue) Producer | Neely Plumb The film was released in September 1975, earning $8,925,000 in theatrical rentals in the United States and Canada by the end of the year. It earned rentals of $20 million in the United States and Canada from a gross of $41.5 million. It earned rentals of $32.7 million worldwide. \"Condor! (Theme from 3 Days of the Condor)\" 3:35 That the action has been relocated from sleepy Washington to furious New York City, almost all names have been changed, that the plot has been vastly over-complicated, is of lesser interest than a straight genre film, has been overloaded into an elegy of private, political, and finally, cosmic pessimism, a kind of national, if not metaphysical, guilt film to enchant the disenchanted. Wins With Hale's help, Turner abducts Higgins, the deputy director of the CIA's New York division, who identifies Joubert as a freelance assassin working for the CIA. Higgins later discovers that the hitman who attacked Turner worked with Joubert on a previous operation and both reported to Wicks.",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1078,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1062,
+    "evidence_tokens_retained": 240,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 470185,
+        "tokens_total": 38,
+        "tokens_kept": 38,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 470185,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 470185,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 470185,
+        "tokens_total": 54,
+        "tokens_kept": 54,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 470185,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 470185,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 470185,
+        "tokens_total": 46,
+        "tokens_kept": 46,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 470185,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 470185,
+        "tokens_total": 42,
+        "tokens_kept": 16,
+        "visibility": "partial"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 470185,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 470185,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 470185,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 470185,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 470185,
+        "tokens_total": 42,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 470185,
+        "tokens_total": 66,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 470185,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 470185,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 470185,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 470185,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 470185,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 470185,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 470185,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 470185,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 470185,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 470185,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 470185,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 470185,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 470185,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 470185,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 470185,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 470185,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 470185,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 470185,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 470185,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 470185,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 470185,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 470185,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 470185,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 470185,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 470185,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 470185,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 470185,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 470185,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 470185,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 470185,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 470185,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 470185,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 470185,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 470185,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 470185,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 470185,
+        "tokens_total": 80,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 470185,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 470185,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 470185,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Three Days of the Condor is a 1975 spy novel.</s></s>Three Days of the Condor is a 1975 American spy thriller film directed by Sydney Pollack and starring Robert Redford, Faye Dunaway, Cliff Robertson, and Max von Sydow. The screenplay by Lorenzo Semple Jr. and David Rayfiel was based on the 1974 novel Six Days of the Condor by James Grady. Conspiracy thriller Set mainly in New York City and Washington, D.C., the film is about a bookish CIA researcher who comes back from lunch one day to discover his co-workers murdered, then tries to avoid his own murder and outwit those responsible and understand their motives. The film was nominated for the Academy Award for Best Film Editing. Semple and Rayfiel received an Edgar Award from the Mystery Writers of America for Best Motion Picture Screenplay. When first released, the film was reviewed positively by Vincent Canby, critic for The New York Times, who wrote that the film \"is no match for stories in your local newspaper\", but it benefits from good acting and directing. Variety called it a B movie that was given a big budget despite its lack of substance. Roger Ebert wrote, \"Three Days of the Condor is a well-</s>"
+  }
+}

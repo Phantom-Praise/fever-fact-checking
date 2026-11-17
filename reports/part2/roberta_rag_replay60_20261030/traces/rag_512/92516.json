@@ -1,0 +1,445 @@
+{
+  "id": 92516,
+  "claim": "Tom Cruise was in the film Vanilla Sky.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9857128858566284,
+    0.013688093051314354,
+    0.0005990152712911367
+  ],
+  "logits": [
+    3.6082537174224854,
+    -0.6685850024223328,
+    -3.797579765319824
+  ],
+  "inference_seconds": 0.10847095800000162,
+  "evidence_text": "Tom Cruise as David Aames, Jr. Vanilla Sky is a 2001 American science fiction psychological thriller film starring Tom Cruise as a magazine publisher who begins to question reality after being disfigured in a car crash. Written and directed by Cameron Crowe, who also produced with Cruise and Paula Wagner, it is an English-language remake of the 1997 Spanish film Open Your Eyes, which was written by Alejandro Amenábar and Mateo Gil. The supporting cast includes Penélope Cruz (who reprises her role from the original), Kurt Russell, Jason Lee, Noah Taylor, and Cameron Diaz. Peter Bradshaw of The Guardian and Gareth Von Kallenbach of the publication Film Threat compared Vanilla Sky unfavorably to Open Your Eyes. Bradshaw said that Open Your Eyes is \"certainly more distinctive\" than Vanilla Sky, which he described as an \"extraordinarily narcissistic high-concept vanity project for producer-star Tom Cruise.\" Other reviewers extrapolated from the knowledge that Cruise had bought the rights to do a version of Amenábar's film. A Village Voice reviewer characterized Vanilla Sky as \"hauntingly frank about being a manifestation of its star's cosmic narcissism\". Despite the film's distorted aspects of reality, the style of cinematography remains grounded for much of the film. \"I didn't do anything that was overtly obvious, because the story revolves around the main character not knowing whether he's in a state of reality, a dream or a nightmare, so we want it to feel a little ambiguous,\" said cinematographer John Toll. \"We want the audience to make discoveries as [Cruise]'s character does, rather than ahead of him.\" American Cinematographer magazine wrote a feature story on the lighting designer Lee Rose's work on the film. The film later developed a cult following. After the American debut of Alejandro Amenábar's 1997 Spanish film Abre los ojos (Open Your Eyes) at the 1998 Sundance Film Festival, Tom Cruise and his producing partner Paula Wagner optioned the remake rights. Hoping to entice director Cameron Crowe, who collaborated with Cruise on Jerry Maguire, Cruise invited Crowe over to his house to view the film. Cruise has stated: Vanilla Sky Theatrical release poster Directed by | Cameron Crowe Screenplay by | Cameron Crowe Based on | Abre los ojos by Alejandro AmenábarMateo Gil Produced by | Tom Cruise Paula Wagner Cameron Crowe Starring | Tom Cruise Penélope Cruz Kurt Russell Jason Lee Noah Taylor Cameron Diaz Cinematography | John Toll Edited by | Joe Hutshing Mark Livolsi Music by | Nancy Wilson Production companies | Paramount Pictures Cruise/Wagner Productions Vinyl Films Summit Entertainment Sogecine Artisan Entertainment Distributed by | Paramount Pictures Release date | December 14, 2001 (2001-12-14) Running time | 136 minutes Country | United States Language | English Budget | $68 million Box office | $203 million at the box office. He played the title role in the Cameron Crowe-directed comedy-drama Jerry Maguire (1996), which garnered Cruise the Golden Globe Award for Best Actor – Motion Picture Musical or Comedy. In 1999, Cruise starred in the Stanley Kubrick-directed erotic thriller Eyes Wide Shut opposite his then wife Nicole Kidman, and also appeared in the Paul Thomas Anderson-directed drama Magnolia. For the latter he received the Golden Globe Award for Best Supporting Actor – Motion Picture, and was also nominated for the Academy Award for Best Supporting Actor. Cruise reteamed with Crowe on the science fiction thriller Vanilla Sky (2001), which earned him a Saturn Award for Best Actor. The following year he starred in the Steven Spielberg-directed Minority Report (2002). In 2005, he collaborated again with Spielberg on War of the Worlds, and received the Stanley Kubrick Britannia Award for Excellence in Film from BAFTA Los Angeles. Three years later, he appeared in the satirical action comedy Tropic Thunder and played German army officer Tom Cruise: All the World's a Stage (2006) sapped by Cruise's vein-popping, running-the-marathon performance.\" Cruise subsequently established himself as a star of science fiction and action films, often performing his own risky stunts. He played fictional agent Ethan Hunt in the Mission: Impossible film series (1996–2025). His other films in the genre include Vanilla Sky (2001), Minority Report (2002), The Last Samurai (2003), Collateral (2004), War of the Worlds (2005), Knight and Day (2010), Jack Reacher (2012), Oblivion (2013), Edge of Tomorrow (2014), and Top Gun: Maverick (2022). Vanilla Sky's score was by Crowe's then wife, Nancy Wilson, who also scored Jerry Maguire and Almost Famous. Wilson spent nine months on the film's music, which was done through experimentation of sound collages. \"We were trying to balance out the heaviness of the story with sugary pop-culture music,\" she said. \"We made sound collages of all kinds. We were channeling Brian Wilson to a large extent. I was recording things through hoses, around corners, playing guitars with cello bows, and with [music editor] Carl Kaller, we tried all kinds of wacky stuff. In the murder–sex scene sound collage, Cameron even used Brian Wilson's speaking voice from a Pet Sounds mix session.\"",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1115,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1102,
+    "evidence_tokens_retained": 499,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 54030,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 54030,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 54030,
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 54030,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 54030,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 54030,
+        "tokens_total": 64,
+        "tokens_kept": 64,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 54030,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 54030,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 54030,
+        "tokens_total": 53,
+        "tokens_kept": 53,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 54030,
+        "tokens_total": 44,
+        "tokens_kept": 44,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 54030,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 54030,
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 54030,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 54030,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 54030,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 54030,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 54030,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 54030,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 54030,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 54030,
+        "tokens_total": 11,
+        "tokens_kept": 10,
+        "visibility": "partial"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 54030,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 54030,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 54030,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 54030,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 54030,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 54030,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 54030,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 54030,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 54030,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 54030,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 54030,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 54030,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 31460,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 10180504,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 10180504,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 10180504,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 10180504,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 10180504,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 10180504,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 10180504,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 31460,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 54030,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 31460,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 31460,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 31460,
+        "tokens_total": 67,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 54030,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 54030,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 54030,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 54030,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 54030,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 54030,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 54030,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Tom Cruise was in the film Vanilla Sky.</s></s>Tom Cruise as David Aames, Jr. Vanilla Sky is a 2001 American science fiction psychological thriller film starring Tom Cruise as a magazine publisher who begins to question reality after being disfigured in a car crash. Written and directed by Cameron Crowe, who also produced with Cruise and Paula Wagner, it is an English-language remake of the 1997 Spanish film Open Your Eyes, which was written by Alejandro Amenábar and Mateo Gil. The supporting cast includes Penélope Cruz (who reprises her role from the original), Kurt Russell, Jason Lee, Noah Taylor, and Cameron Diaz. Peter Bradshaw of The Guardian and Gareth Von Kallenbach of the publication Film Threat compared Vanilla Sky unfavorably to Open Your Eyes. Bradshaw said that Open Your Eyes is \"certainly more distinctive\" than Vanilla Sky, which he described as an \"extraordinarily narcissistic high-concept vanity project for producer-star Tom Cruise.\" Other reviewers extrapolated from the knowledge that Cruise had bought the rights to do a version of Amenábar's film. A Village Voice reviewer characterized Vanilla Sky as \"hauntingly frank about being a manifestation of its star's cosmic narcissism\". Despite the film's distorted aspects of reality, the style of cinematography remains grounded for much of the film. \"I didn't do anything that was overtly obvious, because the story revolves around the main character not knowing whether he's in a state of reality, a dream or a nightmare, so we want it to feel a little ambiguous,\" said cinematographer John Toll. \"We want the audience to make discoveries as [Cruise]'s character does, rather than ahead of him.\" American Cinematographer magazine wrote a feature story on the lighting designer Lee Rose's work on the film. The film later developed a cult following. After the American debut of Alejandro Amenábar's 1997 Spanish film Abre los ojos (Open Your Eyes) at the 1998 Sundance Film Festival, Tom Cruise and his producing partner Paula Wagner optioned the remake rights. Hoping to entice director Cameron Crowe, who collaborated with Cruise on Jerry Maguire, Cruise invited Crowe over to his house to view the film. Cruise has stated: Vanilla Sky Theatrical release poster Directed by | Cameron Crowe Screenplay by | Cameron Crowe Based on | Abre los ojos by Alejandro AmenábarMateo Gil Produced by | Tom Cruise Paula Wagner Cameron Cro</s>"
+  }
+}

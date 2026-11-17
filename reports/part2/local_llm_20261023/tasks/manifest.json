@@ -1,0 +1,21 @@
+{
+  "claims": 30,
+  "tasks": 360,
+  "repeats": 3,
+  "input_sha256": {
+    "reports/part2/local_llm_20261023/pilot_retrieved.jsonl": "5bf681a494b97c6c60b6e2d63c1cf2e362fb2d885bb0ccca8a243bf7176e3a66",
+    "reports/part2/local_llm_20261023/pilot_baseline_predictions.csv": "a75d15fe05a798fba871916e7a52ece33057f4dcf4b45705d63ab60f46715eec"
+  },
+  "protocol": [
+    "No gold labels or gold evidence exposed in judge tasks.",
+    "Choose and record an exact model version, temperature, seed policy, token limit and date before execution.",
+    "Randomize task order using a recorded seed; isolate each request from previous messages.",
+    "Model is held fixed across prompt/evidence/repeat conditions.",
+    "Evidence-constrained empty condition is an abstention control, not a closed-book factual baseline.",
+    "Record usage, latency, raw response, errors and retries; do not silently drop failed tasks.",
+    "For RQ1 add a separately sampled LLM-generated claim corpus with prompt/model provenance.",
+    "Use two blinded annotators and adjudicate disagreements. No human labels are filled automatically.",
+    "Do not assume a synthetic perturbation is false; verify it independently.",
+    "This preparation alone does not answer RQ1 or RQ2."
+  ]
+}

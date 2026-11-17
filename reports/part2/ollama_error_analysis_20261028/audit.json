@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": [
+    "All analysis source/input hashes unchanged",
+    "All original labels/evidence retained",
+    "Class and annotation-coverage differences reconcile with the original 26-correct-label loss",
+    "20 unique preselected oracle IDs, with no original complete group",
+    "Every replacement is a complete annotated gold group",
+    "Exact original prompt builder with no gold-label field in the request",
+    "All oracle raw responses reproduce parsed labels",
+    "Oracle gains/losses independently recomputed; benchmark predictions unchanged"
+  ]
+}

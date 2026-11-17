@@ -1,0 +1,42 @@
+{
+  "params": {
+    "action": "wbsearchentities",
+    "search": "David Koepp",
+    "language": "en",
+    "limit": 50
+  },
+  "response": {
+    "searchinfo": {
+      "search": "David Koepp"
+    },
+    "search": [
+      {
+        "id": "Q270178",
+        "title": "Q270178",
+        "pageid": 261575,
+        "concepturi": "http://www.wikidata.org/entity/Q270178",
+        "repository": "wikidata",
+        "url": "//www.wikidata.org/wiki/Q270178",
+        "display": {
+          "label": {
+            "value": "David Koepp",
+            "language": "en"
+          },
+          "description": {
+            "value": "American screenwriter and director (1963-)",
+            "language": "en"
+          }
+        },
+        "label": "David Koepp",
+        "description": "American screenwriter and director (1963-)",
+        "match": {
+          "type": "label",
+          "language": "en",
+          "text": "David Koepp"
+        }
+      }
+    ],
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:31:02.507055+00:00"
+}

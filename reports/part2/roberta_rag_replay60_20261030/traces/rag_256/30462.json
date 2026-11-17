@@ -1,0 +1,373 @@
+{
+  "id": 30462,
+  "claim": "Psychology explores gastric processes.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9644492864608765,
+    0.034322500228881836,
+    0.0012282110983505845
+  ],
+  "logits": [
+    3.0571446418762207,
+    -0.278611421585083,
+    -3.608854055404663
+  ],
+  "inference_seconds": 0.05646145800000024,
+  "evidence_text": "Gastric atresia is a congenital defect with complete occlusion of the pyloric outlet of the stomach. There is a small continuous basal secretion of gastric acid between meals of usually less than 10 mEq/hour. The role of gastric acid in digestion was established in the 1820s and 1830s by William Beaumont on Alexis St. Martin, who, as a result of an accident, had a fistula (hole) in his stomach, which allowed Beaumont to observe the process of digestion and to extract gastric acid, verifying that acid played a crucial role in digestion. The production of gastric acid in the stomach is tightly regulated by positive regulators and negative feedback mechanisms. Four types of cells are involved in this process: parietal cells, G cells, D cells and enterochromaffin-like cells. Beside this, the endings of the vagus nerve (CN X) and the intramural nervous plexus in the digestive tract influence the secretion significantly. There are three phases in the secretion of gastric acid which increase the secretion rate in order to digest a meal: The gastric phase: About sixty percent of the total acid for a meal is secreted in this phase. Acid secretion is stimulated by distension of the stomach and by amino acids present in the food. Intragastric balloons help induce weight loss by increasing satiety, delaying gastric emptying, and reducing the amount of food eaten at each meal. Gastric balloons take up space in the stomach, which limits the amount of food that can be held. This creates an early feeling of fullness and satiety. A reduced intake of food then results in weight loss. The cephalic phase: Thirty percent of the total gastric acid secretions to be produced is stimulated by anticipation of eating and the smell or taste of food. This signalling occurs from higher centres in the brain through the vagus nerve (Cranial Nerve X). It activates parietal cells to release acid and ECL cells to release histamine. The vagus nerve (CN X) also releases gastrin releasing peptide onto G cells. Finally, it also inhibits somatostatin release from D cells. Gastroesophageal reflux disease (GERD) is a common disorder that occurs when stomach acid repeatedly flows back into the esophagus, this backwash of acid (reflux) also known as heartburn can irritate the lining of the esophagus. Most people are able to manage the discomfort of GERD with lifestyle changes and medications, notably proton pump inhibitors, and H2 blockers. Antacids may also be used to neutralise gastric acid. Sometimes, surgery may be needed to ease symptoms. Gastric acid production is regulated by both the autonomic nervous system and several hormones. The parasympathetic nervous system, via the vagus nerve, and the hormone gastrin stimulate the parietal cell to produce gastric acid, both directly acting on parietal cells and indirectly, through the stimulation of the secretion of the hormone histamine from enterochromaffin-like cells (ECLs). Vasoactive intestinal peptide, cholecystokinin, and secretin all inhibit production. The release of histamine is the most important positive regulation mechanism of the secretion of gastric acid in the stomach. Its release is stimulated by gastrin and acetylcholine and inhibited by somatostatin. Results are influenced by the adherence to nutritional and dietary programs. Long-term studies show promise for patients who combine balloon treatment with exercise and a healthy diet. In a study on the 'Long-Term Efficacy of the Elipse Gastric Balloon System: An International Multicenter Study, Dr. Roberta Ienca and colleagues' report on 509 patients who received the non-endoscopic Elipse balloon and were followed for one year. After 4 months of treatment, patients achieved weight loss of 14.4 kg or 13.9% of total body weight. At one-year follow-up, 95% of this weight loss was maintained by patients included in the study. The carbonic acid rapidly equilibrates with carbon dioxide and water through catalysis by carbonic anhydrase enzymes bound to the gut epithelial lining, leading to a net release of carbon dioxide gas within the lumen associated with neutralisation. In the absorptive upper intestine, such as the duodenum, both the dissolved carbon dioxide and carbonic acid will tend to equilibrate with the blood, leading to most of the gas produced on neutralisation being exhaled through the lungs. Treatment is surgical and involves removing or bypassing the obstruction. Gastric arteries may refer to: Nerve endings in the stomach secrete two stimulatory neurotransmitters: acetylcholine and gastrin-releasing peptide. Their action is both direct on parietal cells and mediated through the secretion of gastrin from G cells and histamine from enterochromaffin-like cells. Gastrin acts on parietal cells directly and indirectly too, by stimulating the release of histamine. In diseases featuring excess vomiting, hypochloremic metabolic alkalosis (decreased blood acidity by H+ and chlorine depletion) may develop. Chronic inflammation of the gastric mucosa can lead to atrophic gastritis resulting in a decreased secretion of gastric acid, and consequent digestive problems.",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1123,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1112,
+    "evidence_tokens_retained": 245,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 39549443,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 638449,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 638449,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 638449,
+        "tokens_total": 50,
+        "tokens_kept": 50,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 638449,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 638449,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 638449,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 638449,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 638449,
+        "tokens_total": 22,
+        "tokens_kept": 13,
+        "visibility": "partial"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 638449,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 36791572,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 36791572,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 36791572,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 36791572,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 638449,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 638449,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 638449,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 638449,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 638449,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 638449,
+        "tokens_total": 56,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 638449,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 638449,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 638449,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 638449,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 638449,
+        "tokens_total": 65,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 638449,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 638449,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 638449,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 36791572,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 36791572,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 36791572,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 36791572,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 36791572,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 36791572,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 638449,
+        "tokens_total": 50,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 638449,
+        "tokens_total": 51,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 39549443,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 8341936,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 638449,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 638449,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 638449,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 638449,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 638449,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Psychology explores gastric processes.</s></s>Gastric atresia is a congenital defect with complete occlusion of the pyloric outlet of the stomach. There is a small continuous basal secretion of gastric acid between meals of usually less than 10 mEq/hour. The role of gastric acid in digestion was established in the 1820s and 1830s by William Beaumont on Alexis St. Martin, who, as a result of an accident, had a fistula (hole) in his stomach, which allowed Beaumont to observe the process of digestion and to extract gastric acid, verifying that acid played a crucial role in digestion. The production of gastric acid in the stomach is tightly regulated by positive regulators and negative feedback mechanisms. Four types of cells are involved in this process: parietal cells, G cells, D cells and enterochromaffin-like cells. Beside this, the endings of the vagus nerve (CN X) and the intramural nervous plexus in the digestive tract influence the secretion significantly. There are three phases in the secretion of gastric acid which increase the secretion rate in order to digest a meal: The gastric phase: About sixty percent of the total acid for</s>"
+  }
+}

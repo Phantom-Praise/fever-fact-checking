@@ -1,0 +1,116 @@
+{
+  "id": 57539,
+  "claim": "Leonardo DiCaprio has received critical acclaim.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07393379099999997,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Leonardo_DiCaprio",
+          "sentence_id": 7,
+          "text": "Since 2000 , DiCaprio has received critical acclaim for his work in a wide range of film genres .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Leonardo_DiCaprio",
+          "sentence_id": 0,
+          "text": "Leonardo Wilhelm DiCaprio -LRB- -LSB- dᵻˈkæpri.oʊ -RSB- born November 11 , 1974 -RRB- is an American actor , film producer , and environmental activist .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Leonardo_DiCaprio_filmography",
+          "sentence_id": 0,
+          "text": "Leonardo DiCaprio is an American actor and producer who started his career performing as a child on television .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Martin_Scorsese_and_Leonardo_DiCaprio",
+          "sentence_id": 0,
+          "text": "Film director Martin Scorsese and actor Leonardo DiCaprio have frequently collaborated , making a total of five feature films and one short film since 2002 .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "List_of_awards_and_nominations_received_by_Leonardo_DiCaprio",
+          "sentence_id": 0,
+          "text": "American actor , Leonardo DiCaprio , has won 50 awards from 167 nominations , and was named runner-up for 4 of those nominations .",
+          "score": 2.02
+        }
+      ],
+      "probabilities": [
+        0.9911260008811951,
+        0.008766690269112587,
+        0.00010731097427196801
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0606450409999999,
+      "symbolic": {
+        "claim": "Leonardo DiCaprio has received critical acclaim.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2874999999468173e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Leonardo_DiCaprio",
+          "sentence_id": 7,
+          "text": "Since 2000 , DiCaprio has received critical acclaim for his work in a wide range of film genres .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Leonardo_DiCaprio",
+          "sentence_id": 0,
+          "text": "Leonardo Wilhelm DiCaprio -LRB- -LSB- dᵻˈkæpri.oʊ -RSB- born November 11 , 1974 -RRB- is an American actor , film producer , and environmental activist .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Leonardo_DiCaprio_filmography",
+          "sentence_id": 0,
+          "text": "Leonardo DiCaprio is an American actor and producer who started his career performing as a child on television .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Martin_Scorsese_and_Leonardo_DiCaprio",
+          "sentence_id": 0,
+          "text": "Film director Martin Scorsese and actor Leonardo DiCaprio have frequently collaborated , making a total of five feature films and one short film since 2002 .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "List_of_awards_and_nominations_received_by_Leonardo_DiCaprio",
+          "sentence_id": 0,
+          "text": "American actor , Leonardo DiCaprio , has won 50 awards from 167 nominations , and was named runner-up for 4 of those nominations .",
+          "score": 2.02
+        }
+      ],
+      "probabilities": [
+        0.9911260008811951,
+        0.008766690269112587,
+        0.00010731097427196801
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05639645800000004,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5979152321815491,
+        0.049338944256305695,
+        0.35274583101272583
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

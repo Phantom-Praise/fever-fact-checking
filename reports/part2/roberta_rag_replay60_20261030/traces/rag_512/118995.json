@@ -1,0 +1,605 @@
+{
+  "id": 118995,
+  "claim": "Hitman is based in America.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9890295267105103,
+    0.010704519227147102,
+    0.000266012066276744
+  ],
+  "logits": [
+    3.9286234378814697,
+    -0.5974346399307251,
+    -4.292314052581787
+  ],
+  "inference_seconds": 0.10946816699999928,
+  "evidence_text": "The Hitman is a 1991 Canadian-American action film starring Chuck Norris. It was directed by Aaron Norris and written by Don Carmody, Robert Geoffrion and Galen Thompson. despite mixed reviews from critics, the film was a box office success. Characters of the Hitman video game franchise Characters of the DC Comics Hitman franchise The Hitman Theatrical release poster Directed by | Aaron Norris Written by | Don Carmody Robert Geoffrion Galen Thompson Produced by | Don Carmody Starring | Chuck Norris Michael Parks Alberta Watson Al Waxman Cinematography | João Fernandes Edited by | Jacqueline Carmody Music by | Joel Derouin Distributed by | Cannon Pictures Release date | October 25, 1991 (1991-10-25) Running time | 95 minutes Country | United States Language | English Box office | $4.6 million Hitman characters may refer to: The film was a box-office success. List of American films of 1991 Hitman Go was developed by Canadian video game studio Square Enix Montréal. It is the first game from the developer, which was founded in late 2011 by employees of existing Square Enix Europe studios. Upon establishment, the studio announced that their first project would be a new video game in the Hitman franchise. The studio's original aspiration was creating triple-A console games within the series and expanding to a team size of 150 people. After a year, while the team was still expanding, the console game was cancelled and the studio shifted its focus to mobile games. This transition led to around one third of the staff leaving the development team. Uzi Hitman (Hebrew: עוזי חיטמן‎; 9 June 1952 – 17 October 2004) was an Israeli singer-songwriter, composer, actor, director and television personality. The plan is for Grogan to bring together Luganni and his rival, French Canadian mafioso boss André LaCombe, so they can both be taken down together. After two years of working the plan, a gang of Iranian drug dealers looking to muscle in on everyone's territories suddenly enter the picture when they make a hit on one of Luganni's teams just as they finished making a hit on a team of LaCombe's money carriers. Hitman died following a heart attack in Ramat Gan on 17 October 2004 at the age of 52. Following a funeral in Ramat Gan, he was buried at the Yarkon Cemetery near Tel Aviv. The City of Ramat Gan renamed Kikar Hashoshanim ('Roses Square') in his neighborhood of residence to Kikar Hitman (Hitman Square). Hitman Go Developer | Square Enix Montreal Publisher | Square Enix Director | Daniel Lutz Series | Hitman Engine | Unity Platforms | Android, iOS, Apple TV, Windows, Windows Phone, Linux, PlayStation 4, PlayStation Vita Release | iOSApril 17, 2014AndroidJune 4, 2014Windows, Windows PhoneApril 27, 2015Linux, PlayStation 4, PlayStation VitaFebruary 23, 2016 Genre | Puzzle Mode | Single-player On April 22 2009, the Israeli Stamp Service issued a series of 12 postal stamps on the subject of Israeli music. One of the stamps in this collection was dedicated in memory of Hitman. The stamp, with a portrait of Hitman, was designed by the artist Miri Nestor Sofer. The stamp's tab included a line from Hitman's song \"Adon Olam\" - \"Lord of the world who reigned\". Uzi Hitman was born in Giv'at Shmuel and lived all his life in Ramat Gan. His parents, Holocaust survivors, followed a traditionalist Jewish lifestyle; his father served as a cantor. He and his sibling Chaim, who lives in Ra'anana, attended secular schools. At home they listened to the Beatles, the Rolling Stones, Enrico Macias and opera along with liturgical and religious songs. When Hitman was 11, his parents gave him his first guitar, which he taught himself to play. When he turned 17, he received a piano from his grandmother. From 1971 to 1973, he served in the Central Command Band, along with Shem Tov Levy, Shlomo Bar-Aba, Dorit Reuveni and others. This marked the beginning of his musical career. Uzi Hitmanעוזי חיטמן Hitman in 1972 Background information Born | (1952-06-09)9 June 1952 Giv'at Shmuel, Israel Died | 17 October 2004(2004-10-17) (aged 52) Ramat Gan, Israel Genres | Israeli world musicrockpopmizrahichildren's musichasidic Occupations | Singer-songwritercomposeractordirectortelevision personality Instruments | Vocalsguitarpiano Years active | 1971–2004 Alan C. Peterson as Mr. Lemke Frank Ferrucci as Shahad Suleka Mathew as Attendant Michael Rogers as Sully Music of Israel",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1026,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1015,
+    "evidence_tokens_retained": 501,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 5638447,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 5638447,
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 37594937,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 37594937,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 5638447,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 5638447,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 5638447,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 5638447,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 5638447,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 5638447,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 5638447,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 5638447,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 5638447,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 5638447,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 5638447,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 5638447,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 5638447,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 5638447,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 5638447,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 37594937,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 5638447,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 5638447,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 44695684,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 44695684,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 44695684,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 44695684,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 44695684,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 44695684,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 1077153,
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 5638447,
+        "tokens_total": 37,
+        "tokens_kept": 37,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 5638447,
+        "tokens_total": 56,
+        "tokens_kept": 56,
+        "visibility": "full"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 1077153,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 1077153,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 1077153,
+        "tokens_total": 31,
+        "tokens_kept": 3,
+        "visibility": "partial"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 44695684,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 44695684,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 44695684,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 44695684,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 44695684,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 44695684,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 44695684,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 44695684,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 44695684,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 44695684,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 1077153,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 1077153,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 1077153,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 1077153,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 1077153,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 1077153,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 1077153,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 1077153,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 1077153,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 1077153,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 1077153,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 1077153,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 1077153,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 1077153,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 1077153,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 60,
+        "id": "E60",
+        "page_id": 1077153,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 61,
+        "id": "E61",
+        "page_id": 1077153,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 62,
+        "id": "E62",
+        "page_id": 1077153,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 63,
+        "id": "E63",
+        "page_id": 1077153,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 64,
+        "id": "E64",
+        "page_id": 1077153,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 65,
+        "id": "E65",
+        "page_id": 1077153,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 66,
+        "id": "E66",
+        "page_id": 5638447,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 67,
+        "id": "E67",
+        "page_id": 5638447,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 68,
+        "id": "E68",
+        "page_id": 5638447,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 69,
+        "id": "E69",
+        "page_id": 5638447,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 70,
+        "id": "E70",
+        "page_id": 5638447,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 71,
+        "id": "E71",
+        "page_id": 5638447,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 72,
+        "id": "E72",
+        "page_id": 1077153,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Hitman is based in America.</s></s>The Hitman is a 1991 Canadian-American action film starring Chuck Norris. It was directed by Aaron Norris and written by Don Carmody, Robert Geoffrion and Galen Thompson. despite mixed reviews from critics, the film was a box office success. Characters of the Hitman video game franchise Characters of the DC Comics Hitman franchise The Hitman Theatrical release poster Directed by | Aaron Norris Written by | Don Carmody Robert Geoffrion Galen Thompson Produced by | Don Carmody Starring | Chuck Norris Michael Parks Alberta Watson Al Waxman Cinematography | João Fernandes Edited by | Jacqueline Carmody Music by | Joel Derouin Distributed by | Cannon Pictures Release date | October 25, 1991 (1991-10-25) Running time | 95 minutes Country | United States Language | English Box office | $4.6 million Hitman characters may refer to: The film was a box-office success. List of American films of 1991 Hitman Go was developed by Canadian video game studio Square Enix Montréal. It is the first game from the developer, which was founded in late 2011 by employees of existing Square Enix Europe studios. Upon establishment, the studio announced that their first project would be a new video game in the Hitman franchise. The studio's original aspiration was creating triple-A console games within the series and expanding to a team size of 150 people. After a year, while the team was still expanding, the console game was cancelled and the studio shifted its focus to mobile games. This transition led to around one third of the staff leaving the development team. Uzi Hitman (Hebrew: עוזי חיטמן‎; 9 June 1952 – 17 October 2004) was an Israeli singer-songwriter, composer, actor, director and television personality. The plan is for Grogan to bring together Luganni and his rival, French Canadian mafioso boss André LaCombe, so they can both be taken down together. After two years of working the plan, a gang of Iranian drug dealers looking to muscle in on everyone's territories suddenly enter the picture when they make a hit on one of Luganni's teams just as they finished making a hit on a team of LaCombe's money carriers. Hitman died following a heart attack in Ramat Gan on 17 October 2004 at the age of 52. Following a funeral in Ramat Gan, he was buried at the Yarkon Cemetery near Tel Aviv. The City of</s>"
+  }
+}

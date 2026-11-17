@@ -1,0 +1,69 @@
+{
+  "id": 35734,
+  "claim": "Aishwarya Rai married actor Abhishek Bachchan.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.985343873500824,
+    0.014591791667044163,
+    6.432099326048046e-05
+  ],
+  "logits": [
+    4.193589210510254,
+    -0.01894235610961914,
+    -5.443270683288574
+  ],
+  "inference_seconds": 0.10996891699999978,
+  "evidence_text": "Rai married actor Abhishek Bachchan in 2007 with whom she has one daughter . Aishwarya Rai Bachchan , Indian actress and 1994 Miss World , married to Abhishek Bachchan The notable members of the family includes Amitabh 's parents , poet Harivansh Rai Bachchan and social activist Teji Bachchan , his wife , actress Jaya Bhaduri , their daughter Shweta Bachchan Nanda , son , actor Abhishek Bachchan , daughter-in-law , actress Aishwarya Rai Bachchan . Since 2007 , Bachchan has been married to actress Aishwarya Rai and the couple have a daughter . Aishwarya Rai -LRB- born 1 November 1973 -RRB- , also known by her married name Aishwarya Rai Bachchan , is an Indian actress , model and the winner of the Miss World 1994 pageant .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 205,
+    "tokens_retained": 205,
+    "truncated": false,
+    "evidence_tokens_total": 187,
+    "evidence_tokens_retained": 187,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Aishwarya_Rai",
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Bachchan",
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Bachchan_family",
+        "tokens_total": 75,
+        "tokens_kept": 75,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Abhishek_Bachchan",
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Aishwarya_Rai",
+        "tokens_total": 48,
+        "tokens_kept": 48,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Aishwarya Rai married actor Abhishek Bachchan.</s></s>Rai married actor Abhishek Bachchan in 2007 with whom she has one daughter . Aishwarya Rai Bachchan , Indian actress and 1994 Miss World , married to Abhishek Bachchan The notable members of the family includes Amitabh 's parents , poet Harivansh Rai Bachchan and social activist Teji Bachchan , his wife , actress Jaya Bhaduri , their daughter Shweta Bachchan Nanda , son , actor Abhishek Bachchan , daughter-in-law , actress Aishwarya Rai Bachchan . Since 2007 , Bachchan has been married to actress Aishwarya Rai and the couple have a daughter . Aishwarya Rai -LRB- born 1 November 1973 -RRB- , also known by her married name Aishwarya Rai Bachchan , is an Indian actress , model and the winner of the Miss World 1994 pageant .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

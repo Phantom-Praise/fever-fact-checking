@@ -1,0 +1,1399 @@
+[
+  {
+    "id": "review_000",
+    "claim": "Nice & Slow is a 1994 R&B album by American singer R. Kelly, which won the Grammy Award for Best Male R&B Vocal Performance in 1996.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "UNRATEABLE",
+        "atomic": "YES",
+        "claim_type": "OTHER",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No evidence supports or contradicts the claim about R. Kelly's album"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states that 'Nice & Slow' was a 1994 R&B album and won a Grammy for Best Male R&B Vocal Performance."
+      }
+    }
+  },
+  {
+    "id": "review_001",
+    "claim": "Zeus is an angel.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The evidence does not support or refute the claim that Zeus is an angel."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states Zeus is the king of the gods of Mount Olympus, implying a divine ruler."
+      }
+    }
+  },
+  {
+    "id": "review_003",
+    "claim": "Red Headed Stranger is a movie.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "The evidence states that Willie Nelson starred as the Red Headed Stranger in a movie of the same name."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "OTHER",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text references the album's origins, concept, and popularity, indicating a connection to the movie."
+      }
+    }
+  },
+  {
+    "id": "review_004",
+    "claim": "Jing Tian date of birth is in July.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "Birthdate is explicitly stated as July 21, 1988."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "UNRATEABLE",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The evidence does not provide a verifiable fact about Jing Tian's birthdate."
+      }
+    }
+  },
+  {
+    "id": "review_005",
+    "claim": "William Shatner lost two Emmy Awards.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "NUMBER",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "Shatner earned two Emmy Awards for his role in Boston Legal."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states William Shatner won two Emmy Awards as attorney Denny Crane."
+      }
+    }
+  },
+  {
+    "id": "review_006",
+    "claim": "Stuart Sutcliffe was the bassist for the English rock band The Beatles before leaving the band in 1961 to pursue a career in art.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          2
+        ],
+        "reason": "Sutcliffe's career as a painter and his role as the original bass guitarist for the Beatles are confirmed."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text states that Stuart Sutcliffe was a bassist for The Beatles before leaving the band, which directly supports the claim that he was a bassist for The Beatles."
+      }
+    }
+  },
+  {
+    "id": "review_007",
+    "claim": "The Hermetic Order of the Golden Dawn was founded in London in 1888 by William Wynn Westcott, Samuel Liddell Mathers, and William Robert Woodman.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "Founders mentioned in evidence 0"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "ORGANIZATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states the founding date and the founders' affiliation with Freemasonry and a historical society, establishing the Hermetic Order of the Golden Dawn as a recognized organization."
+      }
+    }
+  },
+  {
+    "id": "review_009",
+    "claim": "Bangladesh has been affected by poverty.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "OTHER",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "Population living below poverty line"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text provides statistics demonstrating Bangladesh's poverty rate decline and future projections of reduction, directly supporting the claim that it has been affected by poverty."
+      }
+    }
+  },
+  {
+    "id": "review_014",
+    "claim": "The ancient Egyptians developed a system of architecture that incorporated columns, arches, and vaults, which would later influence the development of Western architecture during the Roman Empire.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "OTHER",
+        "error_type": "NONE",
+        "evidence_ids": [
+          1
+        ],
+        "reason": "The text states that the ancient Egyptians moved from trabeated construction to one based on massive walls, punctuated by arches, which is consistent with the claim."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text describes the influence of ancient Egyptian architecture on Western architecture, which is a direct consequence of the ancient Egyptians' architectural innovations."
+      }
+    }
+  },
+  {
+    "id": "review_015",
+    "claim": "In 2019, approximately 33.8% of Bangladesh's population lived below the international poverty line of $1.90 per day, with around 43 million people struggling with extreme poverty.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "NO",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No relevant evidence found to support or refute the claim about Bangladesh's poverty rate"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text states that approximately 33.8% of Bangladesh's population lived below the international poverty line of $1.90 per day, which is a specific statistic about poverty levels."
+      }
+    }
+  },
+  {
+    "id": "review_016",
+    "claim": "Stranger than Fiction is a film.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          2
+        ],
+        "reason": "The evidence confirms the film title and release year."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "NUMBER",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states that Stranger Than Fiction is a 1915 drama film featuring Harry Carey."
+      }
+    }
+  },
+  {
+    "id": "review_017",
+    "claim": "Dolly Parton isn't an actress.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "NO",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "Dolly Parton is described as an actress in the evidence text."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "UNRATEABLE",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text does not directly address Dolly Parton's acting career."
+      }
+    }
+  },
+  {
+    "id": "review_019",
+    "claim": "Robert J. O'Neill was born April 10, 1976.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No evidence supports the birthdate of Robert J. O'Neill"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text states Robert J. O'Neill was born in 1936, which contradicts the claim that he was born in 1976."
+      }
+    }
+  },
+  {
+    "id": "review_020",
+    "claim": "The Dayton Agreement was signed in April.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "NO",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No mention of April in the evidence"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The Dayton Agreement was signed in November 1995."
+      }
+    }
+  },
+  {
+    "id": "review_021",
+    "claim": "C. S. Forester's first name was Carl.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "NO",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No information about C. S. Forester's first name"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text states C. S. Forester's first name was Carl."
+      }
+    }
+  },
+  {
+    "id": "review_022",
+    "claim": "The Dayton Agreement, signed on December 14, 1995, established the framework for the modern-day state of Bosnia and Herzegovina, bringing an end to the Bosnian War and creating the country's system of government and international borders.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "The Dayton Agreement was signed on December 14, 1995, as stated in the evidence."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The Dayton Agreement established the framework for Bosnia and Herzegovina, ending the Bosnian War and creating its government and borders."
+      }
+    }
+  },
+  {
+    "id": "review_023",
+    "claim": "The Connaught Tunnel was lined only with mud and sand.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No information about the lining of the Connaught Tunnel"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "UNRATEABLE",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text describes the tunnel's construction, not a contradictory assertion."
+      }
+    }
+  },
+  {
+    "id": "review_024",
+    "claim": "The Red Headed Stranger, a 1969 album by Willie Nelson, was the first country music album to be certified gold by the RIAA, marking a significant milestone in the artist's career.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "NO",
+        "claim_type": "OTHER",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No information about the 1969 album or its certification"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The album was certified gold by the RIAA, indicating a significant milestone in the artist's career."
+      }
+    }
+  },
+  {
+    "id": "review_026",
+    "claim": "History of art includes architecture, dance, sculpture, music, painting, poetry literature, theatre, narrative, film, photography and graphic arts.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "LOCATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2
+        ],
+        "reason": "The claim is supported by evidence that lists various art forms, including architecture."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "NUMBER",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly lists various art forms as part of art history."
+      }
+    }
+  },
+  {
+    "id": "review_028",
+    "claim": "The Beatles had Stuart Sutcliffe initially serve as their agent.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          3
+        ],
+        "reason": "Sutcliffe and Lennon are credited with inventing the name, 'Beetles', which is close to the name 'the Beatles'."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text states Stuart Sutcliffe initially served as the Beatles' agent, indicating a significant role in their early career."
+      }
+    }
+  },
+  {
+    "id": "review_029",
+    "claim": "The Connaught Tunnel, also known as the Connaught Place Tunnel, is a road tunnel located in the heart of Bombay (now Mumbai), India, and was completed in 1910.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "NO",
+        "claim_type": "LOCATION",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No information about the Connaught Tunnel in Bombay (now Mumbai), India"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "LOCATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states the tunnel's location in Bombay (now Mumbai), India."
+      }
+    }
+  },
+  {
+    "id": "review_030",
+    "claim": "San Francisco is in California.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "LOCATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "Multiple sentences confirm San Francisco's location in California."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text states that San Francisco is located in California."
+      }
+    }
+  },
+  {
+    "id": "review_031",
+    "claim": "The Hermetic Order of the Golden Dawn was uninterested in the study of the occult.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          3
+        ],
+        "reason": "The Hermetic Order of the Golden Dawn was devoted to the study and practice of the occult, and its practices focused on theurgy and spiritual development."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "UNRATEABLE",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text does not directly state the Hermetic Order\u2019s lack of interest in the occult."
+      }
+    }
+  },
+  {
+    "id": "review_032",
+    "claim": "Sophie Turner was born on February 21, 1996.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "Birthdate mentioned in evidence"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states Sophie Turner's birthdate."
+      }
+    }
+  },
+  {
+    "id": "review_033",
+    "claim": "Edgar Award honors the best in television dramas.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "The Edgar Award honors the best in television."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "NUMBER",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text states that Edgar Awards honor 'best in television dramas.'"
+      }
+    }
+  },
+  {
+    "id": "review_036",
+    "claim": "Marilyn Monroe was born Norma Jeane Mortenson on June 1, 1926, in Los Angeles, California.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "Birthdate and birth name mentioned in evidence"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states Marilyn Monroe's birthdate and early life, providing factual information about her origins."
+      }
+    }
+  },
+  {
+    "id": "review_038",
+    "claim": "Ryan Gosling played the lead role in the 2010 film",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          3
+        ],
+        "reason": "The evidence states that Gosling starred in Blue Valentine in 2010."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states that Ryan Gosling played the lead role in a film."
+      }
+    }
+  },
+  {
+    "id": "review_040",
+    "claim": "Sense and Sensibility was published in the summer of 1811.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "reason": "Publication year of Sense and Sensibility is consistently stated as 1811."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "UNRATEABLE",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The evidence provides multiple adaptations of the novel, suggesting it was not a single publication date."
+      }
+    }
+  },
+  {
+    "id": "review_041",
+    "claim": "Jing Tian is a Chinese professional Dota 2 player who was born on May 30, 1995.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "NO",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No information about Jing Tian's birthdate or profession in Dota 2"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states 'Jing Tian is a Chinese professional Dota 2 player.'"
+      }
+    }
+  },
+  {
+    "id": "review_042",
+    "claim": "The Star Wars franchise was created by George Lucas.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "The text explicitly states that the Star Wars franchise was created by George Lucas."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states that George Lucas created the Star Wars franchise."
+      }
+    }
+  },
+  {
+    "id": "review_043",
+    "claim": "Ryan Gosling has been to a country in Africa.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "YES",
+        "claim_type": "LOCATION",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No evidence mentions a country in Africa"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "Ryan Gosling is a well-known actor with a significant career spanning multiple films and roles."
+      }
+    }
+  },
+  {
+    "id": "review_044",
+    "claim": "Star Wars is a franchise based on a film series by a German filmmaker.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "LOCATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "George Lucas is mentioned as the creator of the film series."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "UNRATEABLE",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The claim is about the franchise's origin and success, not a specific assertion about the franchise itself."
+      }
+    }
+  },
+  {
+    "id": "review_047",
+    "claim": "Robert Neill, a British inventor, patented the first secure electronic lock in 1967.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "NO",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No evidence supports the claim that Robert Neill patented the first secure electronic lock in 1967."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "Robert Neill is known as a British inventor who patented the first secure electronic lock in 1967."
+      }
+    }
+  },
+  {
+    "id": "review_050",
+    "claim": "Keith Urban is a person who sings.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          2,
+          3
+        ],
+        "reason": "Keith Urban is described as a country musician and artist who sings."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "NO",
+        "claim_type": "OTHER",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states that Keith Urban sings."
+      }
+    }
+  },
+  {
+    "id": "review_052",
+    "claim": "Nice & Slow is a jazz single.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "The evidence states that 'Nice & Slow' is a 1998 single from Usher's second album My Way."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "NUMBER",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text explicitly states 'Nice & Slow' is a 1998 single."
+      }
+    }
+  },
+  {
+    "id": "review_053",
+    "claim": "Dangerous Liaisons is based on Christopher Hampton's novel.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "LOCATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "reason": "The evidence confirms that the film is based on Christopher Hampton's play, which in turn was based on the novel."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The evidence explicitly states that Dangerous Liaisons is based on Christopher Hampton's novel, which is the core of the claim."
+      }
+    }
+  },
+  {
+    "id": "review_054",
+    "claim": "Krysten Ritter played a role on Veronica Mars on the Disney channel.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "PERSON",
+        "error_type": "NONE",
+        "evidence_ids": [
+          1,
+          2
+        ],
+        "reason": "Krysten Ritter appeared in Veronica Mars"
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "UNRATEABLE",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The claim is about a specific actress's roles in a television series, not a factual assertion about the show itself."
+      }
+    }
+  },
+  {
+    "id": "review_055",
+    "claim": "Indonesia's wilderness supports a variety of life including whales.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "NOT ENOUGH INFO",
+        "atomic": "YES",
+        "claim_type": "LOCATION",
+        "error_type": "NONE",
+        "evidence_ids": [],
+        "reason": "No evidence supports or contradicts the claim about Indonesia's wilderness supporting whales."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text states that Indonesia's wilderness supports a variety of life, including whales."
+      }
+    }
+  },
+  {
+    "id": "review_057",
+    "claim": "Cyndi Lauper won the Best New Artist award at the 27th Grammy Awards in 1985.",
+    "source": "FEVER",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "The evidence states that Lauper won the Best New Artist award at the 27th Grammy Awards in 1985."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "NO",
+        "claim_type": "RELATION",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "Cyndi Lauper won the Best New Artist award at the 27th Grammy Awards in 1985."
+      }
+    }
+  },
+  {
+    "id": "review_059",
+    "claim": "The HMS Forester was a Royal Navy gunboat that was built in 1910 and served during World War I.",
+    "source": "generated",
+    "left": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "DATE",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0
+        ],
+        "reason": "The Forester-class gunboat was built between 1874 and 1877, which does not directly support the claim that the HMS Forester was built in 1910, but it does indicate that the Forester-class was built before 1910."
+      }
+    },
+    "right": {
+      "valid": true,
+      "annotation": {
+        "label": "SUPPORTS",
+        "atomic": "YES",
+        "claim_type": "NUMBER",
+        "error_type": "NONE",
+        "evidence_ids": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "reason": "The text states the HMS Forester was a Royal Navy gunboat built in 1910, aligning with the provided evidence."
+      }
+    }
+  }
+]

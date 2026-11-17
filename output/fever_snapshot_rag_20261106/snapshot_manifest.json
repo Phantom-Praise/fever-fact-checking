@@ -1,0 +1,562 @@
+{
+  "source": "FEVER distributed Wikipedia snapshot; historical text, not current live Wikipedia",
+  "schema_version": 1,
+  "input_sha256": "af9d0f797e9f1aa3d5b65f3194a93b9e3fdae391bf71e60252cdb0f8f5f289d7",
+  "claims": 19998,
+  "selected_page_ids": 24319,
+  "packaged_pages": 24319,
+  "nonempty_pages": 24319,
+  "missing_pages": [],
+  "selection": "Union of the first five pages from existing top-ten claim-only rankings. No labels/gold evidence used.",
+  "retention": "Static source dataset remains; per-claim vector databases and working article copies are temporary.",
+  "revision_note": "FEVER records have no per-page revision IDs. Do not invent oldid URLs.",
+  "sources": [
+    {
+      "file": "wiki-001.jsonl",
+      "sha256": "1f8812e6cdffef2af3fe97d5257442b6f844a273765d752cac63faa9c43984b0",
+      "bytes": 53079084
+    },
+    {
+      "file": "wiki-002.jsonl",
+      "sha256": "c5a1f0e0b68c9eb194d48736d614769f31978c1d62f732f6e324e4335831ae18",
+      "bytes": 53300679
+    },
+    {
+      "file": "wiki-003.jsonl",
+      "sha256": "140f69436d720bb7cd76f0f97bf9706053a8709188792c16bc2c0739ffcf08d1",
+      "bytes": 61010939
+    },
+    {
+      "file": "wiki-004.jsonl",
+      "sha256": "68b9d8483741f8e2791c1643c6ddb2bbf7de1be278f4c5c95383c94c34d8965a",
+      "bytes": 62641817
+    },
+    {
+      "file": "wiki-005.jsonl",
+      "sha256": "c19f31935490e0121ae15d6ec2c691aadfb00e438cafb47e03c3120f33066f85",
+      "bytes": 66122251
+    },
+    {
+      "file": "wiki-006.jsonl",
+      "sha256": "d519895c53f79a734785e48d8476b7476001bcda99fba7e5ecc5c1e1cb4e41de",
+      "bytes": 66936812
+    },
+    {
+      "file": "wiki-007.jsonl",
+      "sha256": "5ca3041301a0c047c7d4f54b4539bfd1eb12408933768e801de3869e6930b2b7",
+      "bytes": 68433843
+    },
+    {
+      "file": "wiki-008.jsonl",
+      "sha256": "363e54366214ba93c23552203caaf5241972b511996fb1b8b2e7e75e8a05555a",
+      "bytes": 69487075
+    },
+    {
+      "file": "wiki-009.jsonl",
+      "sha256": "dedc8dcff41fdc166083750c1611105faf6a2b4363c93b8167c89966fc60f696",
+      "bytes": 69510626
+    },
+    {
+      "file": "wiki-010.jsonl",
+      "sha256": "e9a85539eca86d3ecec962e761339ea4bded63bdfab64392ff0dec4680a99cdb",
+      "bytes": 69662143
+    },
+    {
+      "file": "wiki-011.jsonl",
+      "sha256": "b3e93077b5d7d8ba1d0bc061e3742994b447f4d82ccbd05352c977edd3e43f3f",
+      "bytes": 68936528
+    },
+    {
+      "file": "wiki-012.jsonl",
+      "sha256": "b425429ec7bf87f2b495d4547fd643210610f9b7dcd630cdcedf4ffe9ebe121c",
+      "bytes": 67789681
+    },
+    {
+      "file": "wiki-013.jsonl",
+      "sha256": "0405c1ce7bb35e1b32f3c79788dfd8df743e0cd133958d3253b5f91f885f3849",
+      "bytes": 67537594
+    },
+    {
+      "file": "wiki-014.jsonl",
+      "sha256": "398e59884b4e6918854d2e6092a7ccf591c2e116f59e29887e5cb2be0ab064f4",
+      "bytes": 72504153
+    },
+    {
+      "file": "wiki-015.jsonl",
+      "sha256": "85fbed775eae7e80aa2cc0f0149cb7f543effb1e369fc8855c1549d25f2f9d82",
+      "bytes": 73159190
+    },
+    {
+      "file": "wiki-016.jsonl",
+      "sha256": "bdfe355102ec26432a9d40d70e25cb9b6b62012ad5cfe41138702dec51ba8409",
+      "bytes": 70995777
+    },
+    {
+      "file": "wiki-017.jsonl",
+      "sha256": "90b2827cfbb8068972f7b8f630ecfa7e4c6595e71ba9a23bd302d9eae1281104",
+      "bytes": 70686096
+    },
+    {
+      "file": "wiki-018.jsonl",
+      "sha256": "cd6a43fb7b7a23528c18aafb014f79d887e8acb223f7de6d73876ca439495a77",
+      "bytes": 69144491
+    },
+    {
+      "file": "wiki-019.jsonl",
+      "sha256": "720c973869fef16ebb6d3ddd748a0f070580a119016222723d5a6b9fd6228056",
+      "bytes": 67798281
+    },
+    {
+      "file": "wiki-020.jsonl",
+      "sha256": "4e74cbf0d5c544c21812c291463f80a7c0b8262d7e5bc5ecc3f001b9e3e69a43",
+      "bytes": 69854969
+    },
+    {
+      "file": "wiki-021.jsonl",
+      "sha256": "586a8a26950c51509af330e0ecc6f6dee6b41dc10d50d7567539e505b0de7ec8",
+      "bytes": 70878072
+    },
+    {
+      "file": "wiki-022.jsonl",
+      "sha256": "e74f54fb0440adf3dac8d2b5569ded87faa36dba796908ad2ee89d47b876d30b",
+      "bytes": 72212854
+    },
+    {
+      "file": "wiki-023.jsonl",
+      "sha256": "5f8841061268d86a2fd596b0580aa58d6514d166978facde91034a0abfd80fe8",
+      "bytes": 74245547
+    },
+    {
+      "file": "wiki-024.jsonl",
+      "sha256": "288f35e520b47f6463696ad3c66e577a71dbc0e6263fcdca61c11e1a1aa40ef7",
+      "bytes": 73671005
+    },
+    {
+      "file": "wiki-025.jsonl",
+      "sha256": "211b5b3be35fd815c653d968bb4e234baafc0c162bbd5a9a1a96701597e4476c",
+      "bytes": 69826094
+    },
+    {
+      "file": "wiki-026.jsonl",
+      "sha256": "73c8cce4386a26f69eaa69895cf91c1012b3cd2ade18e3097c07241abdeb40b0",
+      "bytes": 69463213
+    },
+    {
+      "file": "wiki-027.jsonl",
+      "sha256": "20efbdc24fb0bac83edef53226ccdad068f1625ef46f9dfcc3efa1724aa08191",
+      "bytes": 72297602
+    },
+    {
+      "file": "wiki-028.jsonl",
+      "sha256": "98e5aacd2a35a5de75bfe9de075b128515c34b02e8b5b9bda804c0e48df3dd23",
+      "bytes": 72045058
+    },
+    {
+      "file": "wiki-029.jsonl",
+      "sha256": "d9200a8d4e56a713bf78efc74e261c1a32fac09719740ef5855742e115d82a8a",
+      "bytes": 72490645
+    },
+    {
+      "file": "wiki-030.jsonl",
+      "sha256": "136c72f4c60a23c7491e091d9fac54c6cab1e1d99b9e2e7dcb99ca0205b08913",
+      "bytes": 72875851
+    },
+    {
+      "file": "wiki-031.jsonl",
+      "sha256": "965248abf727053bf6610d1f403fa9aad217831bfc3aeeb3469bce8aeca989cd",
+      "bytes": 71691082
+    },
+    {
+      "file": "wiki-032.jsonl",
+      "sha256": "2f693bee5d3103efd16f27c910cdee0afc0f5ba2c83a112d9dfe58ff87c8d841",
+      "bytes": 71388225
+    },
+    {
+      "file": "wiki-033.jsonl",
+      "sha256": "7e5e706192ee3c9172e9c8abf5b17eb5c0b8fe0465a091fef14a8d240acf1766",
+      "bytes": 69931589
+    },
+    {
+      "file": "wiki-034.jsonl",
+      "sha256": "c07aee4ec8b6abcaf39283e8408752772cb2434f14edfbc656d96d7433721b36",
+      "bytes": 69699053
+    },
+    {
+      "file": "wiki-035.jsonl",
+      "sha256": "4b69a98be33002872dc7d2a7b8e379bf5fd486be7105199ff404a64a3e5770b7",
+      "bytes": 71178061
+    },
+    {
+      "file": "wiki-036.jsonl",
+      "sha256": "f43bfff5121d5d5d726a411ccf18586ec9ec3f270614dc75902a9110ce05c669",
+      "bytes": 73750848
+    },
+    {
+      "file": "wiki-037.jsonl",
+      "sha256": "1632ed7cd5c26a51011d85af9d73827949992387748f3eb91aef18b3f14b4c0b",
+      "bytes": 73143654
+    },
+    {
+      "file": "wiki-038.jsonl",
+      "sha256": "fc1e5fc0370f9e938ebf09fb2af548425f161a3cd92a78e889867c3845bb6d72",
+      "bytes": 72003832
+    },
+    {
+      "file": "wiki-039.jsonl",
+      "sha256": "db24fdb4ac5597571aa66f00e30a98b4fbffaca33c9f8d764cf92b6bf3c8acc9",
+      "bytes": 72251763
+    },
+    {
+      "file": "wiki-040.jsonl",
+      "sha256": "27f355b92c5bb2cb1e3a9db965d2851fda5889aba790d562914bcbc9370505b3",
+      "bytes": 68930361
+    },
+    {
+      "file": "wiki-041.jsonl",
+      "sha256": "23e2da5fe041bc9b09ef988226b226c4b489e4b45dfb72259830cecb0227d894",
+      "bytes": 69123467
+    },
+    {
+      "file": "wiki-042.jsonl",
+      "sha256": "e475b816dcdbff045e33356da8ce3a9adb006741c60b96a66d2773aee350d760",
+      "bytes": 69667360
+    },
+    {
+      "file": "wiki-043.jsonl",
+      "sha256": "9b3e2f102f81b6bac4c22129525b871bd5bcad29cfc4cdbec123d8b0c44e6409",
+      "bytes": 70383646
+    },
+    {
+      "file": "wiki-044.jsonl",
+      "sha256": "4fa16d7e819db4a4faa9c2fa2ab59b8caa2d01ca74866836f590107bb53f59ff",
+      "bytes": 72627492
+    },
+    {
+      "file": "wiki-045.jsonl",
+      "sha256": "b76ae8ffd5508d1cd317ff5ea9f62561759b8ddb99ef9e302f0050f227f34a0f",
+      "bytes": 75003034
+    },
+    {
+      "file": "wiki-046.jsonl",
+      "sha256": "722623211769a3c78e6bb6ab007eaea3706b67e52ccd56391a170d6975b7c959",
+      "bytes": 75501352
+    },
+    {
+      "file": "wiki-047.jsonl",
+      "sha256": "6855d12577c73fb5e03a4f101fd3b8a5148981038f5438e928d70dee0da076bf",
+      "bytes": 76978190
+    },
+    {
+      "file": "wiki-048.jsonl",
+      "sha256": "91a6cad6bb994c0b6f115275b5b9ee8d7d1ead733d63de4584d5b423c1a53302",
+      "bytes": 75605134
+    },
+    {
+      "file": "wiki-049.jsonl",
+      "sha256": "bd45ba7b086121b5c194c8c7a41f92410726f74144b1880711c690ed83b5030b",
+      "bytes": 73646223
+    },
+    {
+      "file": "wiki-050.jsonl",
+      "sha256": "604798b11d5d700e6063cfd1ba103d8ca2439f00cef52bfcf8ba12775926e076",
+      "bytes": 73528359
+    },
+    {
+      "file": "wiki-051.jsonl",
+      "sha256": "e4879e75f8659ba59f95e62ceaaa939c517f511655d44dd29206224f2f616d77",
+      "bytes": 71532597
+    },
+    {
+      "file": "wiki-052.jsonl",
+      "sha256": "699f642de088a55cfab08377d9596c7f4bc49dab100adc33f388e79dfbc20067",
+      "bytes": 72392283
+    },
+    {
+      "file": "wiki-053.jsonl",
+      "sha256": "a2e952b87c9e8edaaace1a72532575e5443ab04da53e1d049334681caff7961c",
+      "bytes": 65698903
+    },
+    {
+      "file": "wiki-054.jsonl",
+      "sha256": "445c744dc82872beecadcfe2ce5010acdcb5b7709aab7e7efae8bc941c77bf85",
+      "bytes": 64892253
+    },
+    {
+      "file": "wiki-055.jsonl",
+      "sha256": "734973e3dd0b7d13b9040245363518fd64efb41c304ed8e9a7c336b0e7e9e580",
+      "bytes": 65492267
+    },
+    {
+      "file": "wiki-056.jsonl",
+      "sha256": "ffabc5e1367294e4c17f0d69888a46c4fc10ae6617f2c090652468f8c5d5d5e6",
+      "bytes": 65455318
+    },
+    {
+      "file": "wiki-057.jsonl",
+      "sha256": "b80d48b67a3635b5ffa8e96335a26136ade8d2bae4290b0f5f66c61806747224",
+      "bytes": 72892291
+    },
+    {
+      "file": "wiki-058.jsonl",
+      "sha256": "a65513c0b3d4c217949c9d975d63792fdedd875bef179a98b03f083c051f32e0",
+      "bytes": 75181804
+    },
+    {
+      "file": "wiki-059.jsonl",
+      "sha256": "3b8863f1e22de1f13e92d305e6fefc8366de089115fdca818da1c3b25f93bb53",
+      "bytes": 76439570
+    },
+    {
+      "file": "wiki-060.jsonl",
+      "sha256": "2f115f09e28334ccb3bc7fd2a094f91e629fc20fb41fc5d2071c76ef565467bb",
+      "bytes": 76164556
+    },
+    {
+      "file": "wiki-061.jsonl",
+      "sha256": "701580203d43f9eaa4b5424cab4a5bb6a862237ca4db5ee31c64e54758ed2a8f",
+      "bytes": 73291357
+    },
+    {
+      "file": "wiki-062.jsonl",
+      "sha256": "4f71dd7de193f4eb2092551776e55c6c6b1c6bbdc1ca0237f75aab835a170ba2",
+      "bytes": 67289682
+    },
+    {
+      "file": "wiki-063.jsonl",
+      "sha256": "89d02f4b255ed2fbf8b5506a8e2879a34852d7d81b76cfd3cced7984e164d2b2",
+      "bytes": 68325053
+    },
+    {
+      "file": "wiki-064.jsonl",
+      "sha256": "45d28c598009db43abc72a4ed5c334f83afaca7d9539f0755976a85b951628d0",
+      "bytes": 69354839
+    },
+    {
+      "file": "wiki-065.jsonl",
+      "sha256": "c9b65fab2657c4147eac68918479b9ecfb149ccc3c2e238dd940ae30af6487c8",
+      "bytes": 69424800
+    },
+    {
+      "file": "wiki-066.jsonl",
+      "sha256": "e5fcbbde48969faec9137600e0a389d541d9f17142a0f0af522f228a5a2f9c71",
+      "bytes": 71034267
+    },
+    {
+      "file": "wiki-067.jsonl",
+      "sha256": "b265c0a0286f37f355567196fa82139e27a60015b3419f4d782f122d16ae700b",
+      "bytes": 71101743
+    },
+    {
+      "file": "wiki-068.jsonl",
+      "sha256": "bfd2ebcdc15e84a2e00455d39daa7f612310e18ea6accda013235e7fbc6e6f73",
+      "bytes": 68430359
+    },
+    {
+      "file": "wiki-069.jsonl",
+      "sha256": "072235727a1d4e38554ad269213a3ebc00eba19f37a896aef2c5d5e2185bf22f",
+      "bytes": 67946581
+    },
+    {
+      "file": "wiki-070.jsonl",
+      "sha256": "4a3c352343f3e96d9e3b34467b656e3b41bcd40fade0f6201445c8de742655fa",
+      "bytes": 70479698
+    },
+    {
+      "file": "wiki-071.jsonl",
+      "sha256": "e5e3e42d4fcc6b0bf11a71db5ce47852271af66e8cb24906a9ec3ba9ab57331d",
+      "bytes": 72219161
+    },
+    {
+      "file": "wiki-072.jsonl",
+      "sha256": "efb1f3602e67a09f159e06477ecbb8dbda76215c3451f4510e381023d37b817f",
+      "bytes": 71374668
+    },
+    {
+      "file": "wiki-073.jsonl",
+      "sha256": "462a2154b5131b9c87ad315d8677cd92737b75af69a24971fde0ce69d795aeb4",
+      "bytes": 71234036
+    },
+    {
+      "file": "wiki-074.jsonl",
+      "sha256": "9e9fde4d5f90304290aec5443a1b0ed89d9becacd885d57f3658650b498250ec",
+      "bytes": 70376447
+    },
+    {
+      "file": "wiki-075.jsonl",
+      "sha256": "a14d1c348dad27e30fe3e2f09d992ba0824db7b1e8f53be603d1dfc0a452a9b0",
+      "bytes": 68773825
+    },
+    {
+      "file": "wiki-076.jsonl",
+      "sha256": "ccd77a910b64650cc2c81d44e9ea0b7860fd3ae28f7b9bf83270dbcebb7a187b",
+      "bytes": 69866021
+    },
+    {
+      "file": "wiki-077.jsonl",
+      "sha256": "384eee6a5157d999f82aaa661fec6477dfd2a72d0b0ccc325bf2fa4db32abd78",
+      "bytes": 71090242
+    },
+    {
+      "file": "wiki-078.jsonl",
+      "sha256": "13d2b5fca0b5a4fe38d7e9e68f9d173c240f666f2228e193299e676c21afd0ce",
+      "bytes": 71176763
+    },
+    {
+      "file": "wiki-079.jsonl",
+      "sha256": "e01efa4feeabfbe4f64f403acc0b5bb553d742717ffbaf10e1bd440b1813593d",
+      "bytes": 70188359
+    },
+    {
+      "file": "wiki-080.jsonl",
+      "sha256": "250e7cc4dff09d4c04a6d2da3cbea56acd6c893e7ef7d13a270874ba4a3ce90b",
+      "bytes": 69179149
+    },
+    {
+      "file": "wiki-081.jsonl",
+      "sha256": "99e53fb51870ff7435eb02f1fa7dce210f736cc20d32c5508d20babed7d82fe8",
+      "bytes": 72385762
+    },
+    {
+      "file": "wiki-082.jsonl",
+      "sha256": "a77c2faed951ec2b0fd5db62f88e03bd52d18c8d9a1e1aaaf7c143f2a30944f8",
+      "bytes": 72949485
+    },
+    {
+      "file": "wiki-083.jsonl",
+      "sha256": "5a9abb5b270754c12a624ee84195e81987002e397d7c407351ab6eb791262535",
+      "bytes": 72692373
+    },
+    {
+      "file": "wiki-084.jsonl",
+      "sha256": "c3eea6d0167900c4b4da2529b640d28ba5b283cc16bdda57fde587406739e849",
+      "bytes": 72286039
+    },
+    {
+      "file": "wiki-085.jsonl",
+      "sha256": "c08766d99a9690bbf894c979d6002680348154d7e57d33f48d90234d04182d67",
+      "bytes": 68013540
+    },
+    {
+      "file": "wiki-086.jsonl",
+      "sha256": "62d8c55b9b33a019a91ebbad34d8ba0cef15333c421844600c0d6ca688a8530e",
+      "bytes": 65013284
+    },
+    {
+      "file": "wiki-087.jsonl",
+      "sha256": "a3f6bda6eb4cb33aa9793506f80fdf68ecc5e4319a6920aafb7f67752d770085",
+      "bytes": 66550084
+    },
+    {
+      "file": "wiki-088.jsonl",
+      "sha256": "a04b4eda2f74d6a87057bc8c6a00a704f3ae9b9c6d4aef664f5f03b85e9ece05",
+      "bytes": 69664299
+    },
+    {
+      "file": "wiki-089.jsonl",
+      "sha256": "f9116f1c1ad2be19f924d631cee506a32059f8cece584ad340a837750d7f4989",
+      "bytes": 71050510
+    },
+    {
+      "file": "wiki-090.jsonl",
+      "sha256": "d5ef9f85f0ad7397a5fe09fb635826fc09844868a8ff61fa03ba19374c5d3032",
+      "bytes": 73103036
+    },
+    {
+      "file": "wiki-091.jsonl",
+      "sha256": "aff634fd57c8b405fbd77b9aa3528f0fd63a60e65802227053111e416b9e8097",
+      "bytes": 72932408
+    },
+    {
+      "file": "wiki-092.jsonl",
+      "sha256": "ff66899545b643eb81f6729b9b484ecc52e866603f1d7bb17b43e223c1d5af35",
+      "bytes": 72042824
+    },
+    {
+      "file": "wiki-093.jsonl",
+      "sha256": "2486e6f1f7105004d041b87a7becb683d846a3923dc4d15741059185b9dac9d3",
+      "bytes": 71752688
+    },
+    {
+      "file": "wiki-094.jsonl",
+      "sha256": "8351f404abcd5f6cf074ddbea133a7595a50cbe92fd7f511ce26873822157068",
+      "bytes": 68891894
+    },
+    {
+      "file": "wiki-095.jsonl",
+      "sha256": "b4c9db6749741d14cfc52f6067bff20bf97c0ce0d4528cf399eed0d3695d1b70",
+      "bytes": 67537494
+    },
+    {
+      "file": "wiki-096.jsonl",
+      "sha256": "bc3b464935c0df1ce0f15dac5ce7aee32558473f1cd26a7a6c1f90734cd76f78",
+      "bytes": 72289407
+    },
+    {
+      "file": "wiki-097.jsonl",
+      "sha256": "d45d034d10b19c4900b00d4ef8e7801f9db14cf6aa450443054877d865409710",
+      "bytes": 73156703
+    },
+    {
+      "file": "wiki-098.jsonl",
+      "sha256": "86df63702cd3ccefa983ea7fdd0c82249bdce5daed12d42eadcb305760a5acc4",
+      "bytes": 71397999
+    },
+    {
+      "file": "wiki-099.jsonl",
+      "sha256": "238ddd9d18e1f68a70b4244d87c6555ea36896eba4b2cc8db2a367e59eb882f7",
+      "bytes": 70910154
+    },
+    {
+      "file": "wiki-100.jsonl",
+      "sha256": "72b17ca65e824070b7532c556c0ab90bbc37e80df5ea43633476f96ca799d6b1",
+      "bytes": 72575437
+    },
+    {
+      "file": "wiki-101.jsonl",
+      "sha256": "5d446bcb09274fbe7baa6f3e567b9af0b080fac2aee43462494212672a2b6052",
+      "bytes": 74084877
+    },
+    {
+      "file": "wiki-102.jsonl",
+      "sha256": "53e263ff4a4a15b5ba58751dd0a5bdef897ba4ba9cfe1f6a1c0e2f299ed69d90",
+      "bytes": 73188651
+    },
+    {
+      "file": "wiki-103.jsonl",
+      "sha256": "71760c60d208e8ea01970c229be5feb164dd20733fbbd1ab53c317f5f3e43b1c",
+      "bytes": 69410249
+    },
+    {
+      "file": "wiki-104.jsonl",
+      "sha256": "04961702c3fa6e5d0d08fc0feeb9c3bd8eb1b5bc71ae2e8f15d7f31ea1113813",
+      "bytes": 70047533
+    },
+    {
+      "file": "wiki-105.jsonl",
+      "sha256": "ae3432e646e69b3dcdbd3be49c6e7500225f742a4b8e7de3478ec547fd3ff1c3",
+      "bytes": 75850984
+    },
+    {
+      "file": "wiki-106.jsonl",
+      "sha256": "a1b9fc5d5ca0fe0d94e5e6e3754e850400b710edef6838ff33ec0b6b338780a2",
+      "bytes": 75443652
+    },
+    {
+      "file": "wiki-107.jsonl",
+      "sha256": "05343be060f1d44712f5dee67510e6d65e645ea7e84e710bcb0956f25f5ba277",
+      "bytes": 64235308
+    },
+    {
+      "file": "wiki-108.jsonl",
+      "sha256": "9c87a0d7eb4fb0f9fadae2e5f0042bd1b86e9c46b55aa2078bbcf6b30ec4665b",
+      "bytes": 62031035
+    },
+    {
+      "file": "wiki-109.jsonl",
+      "sha256": "c7b5f2dd60479c4f96011075f318cafde696c646367e4a35acf59dc393518ca1",
+      "bytes": 20814991
+    }
+  ],
+  "exporter_sha256": "c37f22028f64977d384470570d684b33e2bf836b0c686a0dfb853c2ec8329991",
+  "snapshot_sha256": "31dfd7ba93c578c417e44d28328ff45075839ecdb141fd285e069f7688849d2d"
+}

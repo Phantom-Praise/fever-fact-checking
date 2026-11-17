@@ -1,0 +1,428 @@
+{
+  "old_five_sentence": {
+    "correct": 4,
+    "n": 10,
+    "confusion_matrix": [
+      [
+        2,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        0,
+        2,
+        0
+      ]
+    ],
+    "columns": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO",
+      "INVALID"
+    ],
+    "rows": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO"
+    ],
+    "per_class": {
+      "SUPPORTS": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      "REFUTES": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "NOT ENOUGH INFO": {
+        "precision": 0.4,
+        "recall": 0.6666666666666666,
+        "f1": 0.5
+      }
+    },
+    "macro_f1": 0.3333333333333333
+  },
+  "top_k_rag": {
+    "correct": 4,
+    "n": 10,
+    "confusion_matrix": [
+      [
+        3,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        0,
+        0
+      ]
+    ],
+    "columns": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO",
+      "INVALID"
+    ],
+    "rows": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO"
+    ],
+    "per_class": {
+      "SUPPORTS": {
+        "precision": 0.42857142857142855,
+        "recall": 0.75,
+        "f1": 0.5454545454545454
+      },
+      "REFUTES": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4
+      },
+      "NOT ENOUGH INFO": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0
+      }
+    },
+    "macro_f1": 0.3151515151515151
+  },
+  "parts_model": {
+    "correct": 5,
+    "n": 10,
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ]
+    ],
+    "columns": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO",
+      "INVALID"
+    ],
+    "rows": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO"
+    ],
+    "per_class": {
+      "SUPPORTS": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      },
+      "REFUTES": {
+        "precision": 0.6666666666666666,
+        "recall": 0.6666666666666666,
+        "f1": 0.6666666666666666
+      },
+      "NOT ENOUGH INFO": {
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1": 0.3333333333333333
+      }
+    },
+    "macro_f1": 0.49999999999999994
+  },
+  "parts_derived": {
+    "correct": 7,
+    "n": 10,
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3,
+        0
+      ]
+    ],
+    "columns": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO",
+      "INVALID"
+    ],
+    "rows": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO"
+    ],
+    "per_class": {
+      "SUPPORTS": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5,
+        "f1": 0.5714285714285715
+      },
+      "REFUTES": {
+        "precision": 1.0,
+        "recall": 0.6666666666666666,
+        "f1": 0.8
+      },
+      "NOT ENOUGH INFO": {
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1": 0.7499999999999999
+      }
+    },
+    "macro_f1": 0.7071428571428572
+  },
+  "exhaustive_model": {
+    "correct": 2,
+    "n": 10,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "columns": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO",
+      "INVALID"
+    ],
+    "rows": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO"
+    ],
+    "per_class": {
+      "SUPPORTS": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4
+      },
+      "REFUTES": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "NOT ENOUGH INFO": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4
+      }
+    },
+    "macro_f1": 0.26666666666666666
+  },
+  "exhaustive_derived": {
+    "correct": 2,
+    "n": 10,
+    "confusion_matrix": [
+      [
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        0,
+        1,
+        2
+      ]
+    ],
+    "columns": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO",
+      "INVALID"
+    ],
+    "rows": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO"
+    ],
+    "per_class": {
+      "SUPPORTS": {
+        "precision": 1.0,
+        "recall": 0.25,
+        "f1": 0.4
+      },
+      "REFUTES": {
+        "precision": 0,
+        "recall": 0.0,
+        "f1": 0
+      },
+      "NOT ENOUGH INFO": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4
+      }
+    },
+    "macro_f1": 0.26666666666666666
+  },
+  "full_reader_model": {
+    "correct": 6,
+    "n": 10,
+    "accuracy": 0.6,
+    "macro_f1": 0.6412698412698412,
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "columns": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO",
+      "INVALID"
+    ],
+    "rows": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO"
+    ],
+    "per_class": {
+      "SUPPORTS": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "REFUTES": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571
+      },
+      "NOT ENOUGH INFO": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4
+      }
+    }
+  },
+  "full_reader_derived": {
+    "correct": 6,
+    "n": 10,
+    "accuracy": 0.6,
+    "macro_f1": 0.6412698412698412,
+    "confusion_matrix": [
+      [
+        2,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1
+      ]
+    ],
+    "columns": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO",
+      "INVALID"
+    ],
+    "rows": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO"
+    ],
+    "per_class": {
+      "SUPPORTS": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6666666666666666
+      },
+      "REFUTES": {
+        "precision": 0.75,
+        "recall": 1.0,
+        "f1": 0.8571428571428571
+      },
+      "NOT ENOUGH INFO": {
+        "precision": 0.5,
+        "recall": 0.3333333333333333,
+        "f1": 0.4
+      }
+    }
+  }
+}

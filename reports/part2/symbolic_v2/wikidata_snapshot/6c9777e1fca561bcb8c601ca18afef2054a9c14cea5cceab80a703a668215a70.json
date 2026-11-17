@@ -1,0 +1,2341 @@
+{
+  "params": {
+    "action": "wbgetentities",
+    "ids": "Q3282637",
+    "props": "claims|labels|aliases",
+    "languages": "en"
+  },
+  "response": {
+    "entities": {
+      "Q3282637": {
+        "type": "item",
+        "id": "Q3282637",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "film producer"
+          }
+        },
+        "aliases": {
+          "en": [
+            {
+              "language": "en",
+              "value": "movie producer"
+            },
+            {
+              "language": "en",
+              "value": "producer"
+            },
+            {
+              "language": "en",
+              "value": "motion picture producer"
+            }
+          ]
+        },
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "f30f69757b255b16e25b24c93de40865de96f495",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4220920,
+                    "id": "Q4220920"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3282637$f1b0892e-4dc5-3033-0b15-6c3b0ba003d6",
+              "rank": "normal"
+            }
+          ],
+          "P425": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P425",
+                "hash": "60c6152febfb0680f737fc74e0397b89a8efc084",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 932586,
+                    "id": "Q932586"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "q3282637$af8607ec-4b08-5f08-04f7-c49929b5a7a5",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P425",
+                "hash": "df961eec1bd9ab5aafdf6e516d894cece6afb886",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 136356042,
+                    "id": "Q136356042"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3282637$b1ace60d-4d2e-155d-121e-46946724dd37",
+              "rank": "normal"
+            }
+          ],
+          "P279": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P279",
+                "hash": "3bcbfd450d46c158ced6e7654512b97c18dac6a3",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 47541952,
+                    "id": "Q47541952"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3282637$ac41963f-43ce-73bb-135f-4642c31f7454",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P279",
+                "hash": "12c1d1be1ec105afc71d98c61c3acd4efa8a5ee7",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 34388953,
+                    "id": "Q34388953"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3282637$59810731-46d9-370f-445c-49135a1a1748",
+              "rank": "normal"
+            }
+          ],
+          "P646": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P646",
+                "hash": "d68548e46df9c32a1f586cc1a9d7c673d4db2aa1",
+                "datavalue": {
+                  "value": "/m/01d_h8",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$1EC7939A-20E7-4179-9B64-D9E1A0A031BD",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "a94b740202b097dd33355e0e6c00e54b9395e5e0",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 15241312,
+                            "id": "Q15241312"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P577": [
+                      {
+                        "snaktype": "value",
+                        "property": "P577",
+                        "hash": "fde79ecb015112d2f29229ccc1ec514ed3e71fa2",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2013-10-28T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P577"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P910": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P910",
+                "hash": "e36f9f8fe808582d26ad61bf0ee27addab530a84",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5624556,
+                    "id": "Q5624556"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3282637$08a65357-483a-c9b0-fdbb-e5de8e8f56dc",
+              "rank": "normal"
+            }
+          ],
+          "P1709": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1709",
+                "hash": "7d09a75c0a010a37b2dbb646639b88be508646c1",
+                "datavalue": {
+                  "value": "http://dbpedia.org/ontology/Producer",
+                  "type": "string"
+                },
+                "datatype": "url"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P973": [
+                  {
+                    "snaktype": "value",
+                    "property": "P973",
+                    "hash": "1e299e336bfa03c0f4a3ad2377b1ea8328e1c8c2",
+                    "datavalue": {
+                      "value": "http://mappings.dbpedia.org/index.php/OntologyClass:Producer",
+                      "type": "string"
+                    },
+                    "datatype": "url"
+                  }
+                ],
+                "P813": [
+                  {
+                    "snaktype": "value",
+                    "property": "P813",
+                    "hash": "b85a45c0dcbef1bbaa976c2eb03b605a09a33509",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2015-06-11T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P973",
+                "P813"
+              ],
+              "id": "Q3282637$63CE6A0F-87F0-4787-AC76-409BE628AD32",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8f08ac3e0839bdbc4c6eb8d671e772deb12ba423",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "250b03083f7971a02473af3e43115ef521b1440d",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 465,
+                            "id": "Q465"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "bbbb4cfcd44605d2c6dabcb0a6cad776b52a49e4",
+                "datavalue": {
+                  "value": "Film producers",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q3282637$0CDE1E11-C267-4ED7-A654-BADD4CCB3676",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 328,
+                            "id": "Q328"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P227": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P227",
+                "hash": "901621775071e826992a21ef3e310194ca515fce",
+                "datavalue": {
+                  "value": "4324247-9",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "981b01b1ffc6c4eb2d7caf6ed48b69a59f3a31a0",
+                    "datavalue": {
+                      "value": "Filmproduzent",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q3282637$1AF03F3A-7AB4-493E-8990-7E3C36297F81",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 48183,
+                            "id": "Q48183"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P227",
+                "hash": "6eba866c89f9a6479b602b2ecda7fa68ca3616f3",
+                "datavalue": {
+                  "value": "4472639-9",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "7316da327ffd25dbc4c6c0e5470331a901778d58",
+                    "datavalue": {
+                      "value": "Filmproduzentin",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q3282637$C1E4F6E9-1C62-45A7-8335-EC568BE7E563",
+              "rank": "normal"
+            }
+          ],
+          "P3827": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3827",
+                "hash": "49de21ac88a7a7ceb85d4a6447b48948f3f47725",
+                "datavalue": {
+                  "value": "film-producers",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$ACBE7C55-9291-4E6D-9579-56025A84C42F",
+              "rank": "normal"
+            }
+          ],
+          "P1014": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1014",
+                "hash": "d139daa6699292d61633501b17b3bd8743287af7",
+                "datavalue": {
+                  "value": "300312211",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$B3213B95-8CA1-4696-94CA-0AD1AD998F1D",
+              "rank": "normal"
+            }
+          ],
+          "P3417": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3417",
+                "hash": "afb9a1e40058d3ca65a9677913a58d2f76847757",
+                "datavalue": {
+                  "value": "Movie-Producers",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$1C66A708-259A-4E74-A3D7-91F4AB5FBAA5",
+              "rank": "normal"
+            }
+          ],
+          "P6186": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6186",
+                "hash": "038ffa747dd8d5ab0437c22dda91a201c58ec7ba",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 59522350,
+                    "id": "Q59522350"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3282637$AFA119DA-64B3-4B73-B8B2-C08A02E396A5",
+              "rank": "normal"
+            }
+          ],
+          "P4801": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P4801",
+                "hash": "fcedcfae35067977c0e749cccce8c5aa99a112dd",
+                "datavalue": {
+                  "value": "relators/fmp",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$D5A6BB94-A385-4ABE-9BB5-7A1977487BB1",
+              "rank": "normal"
+            }
+          ],
+          "P3569": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3569",
+                "hash": "d27c0d3d2cb2c288924f39f8d676704e1b6a1e3e",
+                "datavalue": {
+                  "value": "film/producent-producer",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$95140D63-F852-4E27-80D6-4CFEB6270A9B",
+              "rank": "normal"
+            }
+          ],
+          "P7033": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7033",
+                "hash": "8d6194668b5a0b830f21b1a411e28549d04756d9",
+                "datavalue": {
+                  "value": "scot/6170",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$3323CC71-7D6D-44EA-826D-CCC87A24818D",
+              "rank": "normal"
+            }
+          ],
+          "P2347": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2347",
+                "hash": "720d47f4dbf36ad458b8e060cc429dd535d814c0",
+                "datavalue": {
+                  "value": "10612",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$7D01FCDD-EFB3-42CB-8910-F1144E7FBE23",
+              "rank": "normal"
+            }
+          ],
+          "P460": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P460",
+                "hash": "b6b5dec36b4d607ca2fd412bd057209b5182ad6a",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 96677905,
+                    "id": "Q96677905"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3282637$a9f82577-44ea-0488-2ec4-ff69777b7ac4",
+              "rank": "normal"
+            }
+          ],
+          "P8408": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8408",
+                "hash": "0ed4c0e5241ec9b179e1750b82cccded0dae67c8",
+                "datavalue": {
+                  "value": "Producer-Movie",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$0E3EE338-BF49-4B23-A95C-893237826FA2",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "9d5780dddffa8746637a9929a936ab6b0f601e24",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 64139102,
+                            "id": "Q64139102"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "622a5a27fa5b25e7e7984974e9db494cf8460990",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2020-07-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1889": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1889",
+                "hash": "669f52c8a15c9fd0955ed170c2255a82679f9db9",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 21292974,
+                    "id": "Q21292974"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3282637$912e7746-4f83-eff1-4254-d89a7413c00d",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1889",
+                "hash": "a60aac5f9555aff63a4cebfe7391eddcfabe9ed6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 129260372,
+                    "id": "Q129260372"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3282637$07f2d8ad-4c85-b249-9bf4-3f03fbe16812",
+              "rank": "normal"
+            }
+          ],
+          "P6293": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6293",
+                "hash": "523dba23cccaa687c47eed764ab5f7e300a0eb8b",
+                "datavalue": {
+                  "value": "Y101191",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$61636207-44f2-e90b-f57e-280d771a5992",
+              "rank": "normal"
+            }
+          ],
+          "P8309": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8309",
+                "hash": "393874bd77c1bb1afa40da9f90c2cf6940804f2c",
+                "datavalue": {
+                  "value": "18-208400",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$63b5e59c-47a7-2b99-54f0-fec3a97a7d98",
+              "rank": "normal"
+            }
+          ],
+          "P691": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P691",
+                "hash": "48d95c3f8a21434fffaf003c4659503d381a08cc",
+                "datavalue": {
+                  "value": "ph120209",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "fb18faacb14d0b1ccf73206d8fbef8e6bd86be23",
+                    "datavalue": {
+                      "value": "filmoví producenti",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q3282637$5816441A-8FDB-49C8-8075-4B9B19E5F06E",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P691",
+                "hash": "3ea208d133dec1aa4d535c56e6c4f924425bdc33",
+                "datavalue": {
+                  "value": "ph877282",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "0f4135c6bf45dda156ba4bc461d03aa6d1da6a12",
+                    "datavalue": {
+                      "value": "filmové producentky",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q3282637$5C450025-A5E0-4AA3-BE4A-0DB8367AD052",
+              "rank": "normal"
+            }
+          ],
+          "P2521": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "d98f81f12039f7d51072791038a06c18cbe563dd",
+                "datavalue": {
+                  "value": {
+                    "text": "منتجة أفلام",
+                    "language": "ar"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$7db43063-4259-ed7d-941a-d59ed58b4b73",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "72e7da9ff9531d52c8f145611fdecf1377cf1a9f",
+                "datavalue": {
+                  "value": {
+                    "text": "منتجة افلام",
+                    "language": "arz"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$99c9da53-4cdb-886b-aae1-f331de711b06",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "f7c47d318372af102077f9aff3401028d69ae01f",
+                "datavalue": {
+                  "value": {
+                    "text": "productora de cine",
+                    "language": "ast"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$14da0227-4d3a-31e4-d39d-da8d440fce1b",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "5dc85178ba1acf5a01ede6efda87d11952e6bdd8",
+                "datavalue": {
+                  "value": {
+                    "text": "кінапрадусарка",
+                    "language": "be-tarask"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$cd609f46-4802-c448-5efb-fab412977c6a",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "dedf89d6b668a80152b1ba1e29a5a9f1f3c09cff",
+                "datavalue": {
+                  "value": {
+                    "text": "productora de cinema",
+                    "language": "ca"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$0341eef3-4a74-9ccd-75bd-e3181311afa3",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9f60c1746cdc9416330baecb4ad294269ecbdb2c",
+                "datavalue": {
+                  "value": {
+                    "text": "filmová producentka",
+                    "language": "cs"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$1730CE52-A724-4848-B47F-FF0369935834",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "cd790b78717815877c0cfa51e70f3b43b4ad0217",
+                "datavalue": {
+                  "value": {
+                    "text": "Filmproduzentin",
+                    "language": "de"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$74330a50-49f0-635c-0ff3-e1fd30675f18",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "655cba65b76ea0aa066235a7d6d125fd3b2f0dce",
+                "datavalue": {
+                  "value": {
+                    "text": "produktorino",
+                    "language": "eo"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$B70AE03F-ADBE-4660-B4E9-E6EAA594CAAB",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "933e09ddc833c1a99402b488e13d1a58394a171a",
+                "datavalue": {
+                  "value": {
+                    "text": "productora de cine",
+                    "language": "es"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$18b9be1f-422a-8983-5aa5-46eb1b556ccc",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "5eb1d7625cca56f267c120108c4cfc638f98add4",
+                "datavalue": {
+                  "value": {
+                    "text": "productrice de cinéma",
+                    "language": "fr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$c1758cbf-4286-d638-85ae-f64155966c82",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "6cb86c4c834e4f137b30bba1af13070bba134a29",
+                "datavalue": {
+                  "value": {
+                    "text": "produtora",
+                    "language": "gl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$10431fb7-4143-6010-44e7-a9a56bfdf612",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "4dc93043754db463f922c037fd0d765f499dd005",
+                "datavalue": {
+                  "value": {
+                    "text": "מפיקת קולנוע",
+                    "language": "he"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$70b5320d-4b94-f09f-c26f-3f8d99229633",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "2a6f5d1b4c8aeef521da8fd4a80783988fa0f593",
+                "datavalue": {
+                  "value": {
+                    "text": "filmowa producentka",
+                    "language": "hsb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$a31d7fcb-4df0-cb1b-a8e5-73d36c874109",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "aaf3bd79fa504a8b71abc1164a7bf1bb617cea53",
+                "datavalue": {
+                  "value": {
+                    "text": "produttrice cinematografica",
+                    "language": "it"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$b090a94d-42c0-f2f7-ff77-605e0843f07f",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "85661377d3f5e258f45faba0b622aca27fa2669d",
+                "datavalue": {
+                  "value": {
+                    "text": "Filmproduzentin",
+                    "language": "lb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$64253599-423d-3b7f-1006-1290a7765afe",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "a9d0e30a1868141fa6f402793cfe437165f9bec8",
+                "datavalue": {
+                  "value": {
+                    "text": "kinoproducents",
+                    "language": "lv"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$78DBB228-51A1-447A-8239-CDFD6DF2BCB0",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "7cdab87f3e953645d9627ae901141c67b0e63882",
+                "datavalue": {
+                  "value": {
+                    "text": "filmproducente",
+                    "language": "nl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$ED464384-F51C-4299-A945-130F7D2788CA",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "f5d0a82b9cc70715d5497b027d1173a48c6b85ed",
+                "datavalue": {
+                  "value": {
+                    "text": "producentka filmowa",
+                    "language": "pl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$da8a835a-4c22-23d2-bda2-addd21c1fd74",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "90f128b3317d882f472e0e3830161c8cd013c35e",
+                "datavalue": {
+                  "value": {
+                    "text": "produtora cinematográfica",
+                    "language": "pt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$a002c5b4-40fd-c0fc-3fc9-40c47a0c04a8",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "3fc3cb315c3353b9e3ed6bec275ac514f655e9a7",
+                "datavalue": {
+                  "value": {
+                    "text": "produtora cinematográfica",
+                    "language": "pt-br"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$61b73d81-4279-0a37-9261-cef7dd70189a",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "8f856ef481965379de7ac509aeeb5b434acb2b25",
+                "datavalue": {
+                  "value": {
+                    "text": "producătoare de film",
+                    "language": "ro"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$7509d351-4927-648a-bd1a-cc520c87ec2e",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "d6cdfb834bf45d8bc381a6bad781c935f94b3e9f",
+                "datavalue": {
+                  "value": {
+                    "text": "filmová producentka",
+                    "language": "sk"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$698c8100-41f6-795f-19d0-b168e998b222",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "120c774ad22c158b88f5e0c6dbc40d0367fa67d7",
+                "datavalue": {
+                  "value": {
+                    "text": "filmska producentka",
+                    "language": "sl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$d0a87579-47d6-4b96-1824-86ac215e89da",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "1c3a19b41f827fa3d1a4fa93f34de2b932c9a1a9",
+                "datavalue": {
+                  "value": {
+                    "text": "филмска продуценткиња",
+                    "language": "sr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$f1a28723-4010-25a1-d48e-06bfdc189695",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "523ddbf836238c74c7121921254f42c0a7928204",
+                "datavalue": {
+                  "value": {
+                    "text": "filmproducent",
+                    "language": "sv"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$3f400ed8-4337-11bb-33cd-10d9e532bd7c",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "a6243771e100a27205f17a270b25b42027b4034b",
+                "datavalue": {
+                  "value": {
+                    "text": "produtora de cini",
+                    "language": "ext"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$8b714315-4234-089d-6127-e220214aa521",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "e0323c62b886f1d6cc01459581bbc822b92a4819",
+                "datavalue": {
+                  "value": {
+                    "text": "kino prodiuserė",
+                    "language": "lt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$97ea405a-4cd1-b707-8128-a3ccbda4f516",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "bcc8e867bbc28a3d979b5d5a1e105ad30d09474c",
+                "datavalue": {
+                  "value": {
+                    "text": "кінопродюсерка",
+                    "language": "uk"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$c532d13e-40fd-49c2-8ed4-d6418f33a58e",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "bee1203eb8c94b52c5b6aa49acfc04c47bcb889f",
+                "datavalue": {
+                  "value": {
+                    "text": "продюсерка відео- та кінофільмів",
+                    "language": "uk"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$C1B3EC96-E8CE-4DCF-BCD2-EF3EA4C4524F",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "086a02fef5f0d679f53ac57004e97d55572c03bc",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "b1254c05f4b2c8759569e7f2f160581103404f17",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 42417229,
+                            "id": "Q42417229"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "eb85b0a3be941b1481b059c78c9371af4f5e1e86",
+                        "datavalue": {
+                          "value": "https://esco.ec.europa.eu/uk/classification/occupation?uri=http://data.europa.eu/esco/occupation/3b6bea7d-36f4-44fb-ac73-d1cc8a198dcb",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "25353f537f477d2ad7ac02b01e7044bc205f98f5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2024-08-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "d14530e2ac6c1fae5ffe58b89660f1da7e2058b4",
+                "datavalue": {
+                  "value": {
+                    "text": "مونتيجة د أفلام",
+                    "language": "ary"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$FCF2A25F-07D2-48CC-8BC7-24CC2F7EBBDD",
+              "rank": "normal"
+            }
+          ],
+          "P3321": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "0c0a9aaec9dbee298b414d31245f9eb086c217ff",
+                "datavalue": {
+                  "value": {
+                    "text": "منتج افلام",
+                    "language": "arz"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$69147a2e-45a5-323f-5a39-e6801fdbc4bb",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "1be89e279d7de45a805248ebabea314cc00a37a4",
+                "datavalue": {
+                  "value": {
+                    "text": "Filmproduzent",
+                    "language": "de"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$dab24151-4eb1-8252-2c05-d473d671a24c",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "f172cba29403867efc4ca0138c09d8a5e2b63022",
+                "datavalue": {
+                  "value": {
+                    "text": "Filmproduzent",
+                    "language": "lb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$58c64a71-4600-1ed4-61fb-22afc272cec8",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "cd836da3adc1f40783663a327ea9d3db62916670",
+                "datavalue": {
+                  "value": {
+                    "text": "producteur de cinéma",
+                    "language": "fr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$7ffd64aa-4457-c05f-a3a1-a66a56aeb591",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "035da22ef0c9598607fdba6e754b32cc463df4da",
+                "datavalue": {
+                  "value": {
+                    "text": "produttore cinematografico",
+                    "language": "it"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$D59823ED-6DC2-4B46-BF70-81E29FFB77A2",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "8758bfa099d03dec04642d97ab197f220c15e7f1",
+                "datavalue": {
+                  "value": {
+                    "text": "produtol de cini",
+                    "language": "ext"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$797028bd-45b6-7146-3b98-064f0fde4d26",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "7d6391e3163a0122da77506e9321628de3bf3ad2",
+                "datavalue": {
+                  "value": {
+                    "text": "kino prodiuseris",
+                    "language": "lt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$051abfcf-410e-7890-f94d-8e4ddfc288c2",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "70a85d88cd0bf894c5f7c8aba04d49f30979e350",
+                "datavalue": {
+                  "value": {
+                    "text": "продюсер відео- та кінофільмів",
+                    "language": "uk"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$87488440-3849-4F63-B6DE-B57685C2209D",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "086a02fef5f0d679f53ac57004e97d55572c03bc",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "b1254c05f4b2c8759569e7f2f160581103404f17",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 42417229,
+                            "id": "Q42417229"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "eb85b0a3be941b1481b059c78c9371af4f5e1e86",
+                        "datavalue": {
+                          "value": "https://esco.ec.europa.eu/uk/classification/occupation?uri=http://data.europa.eu/esco/occupation/3b6bea7d-36f4-44fb-ac73-d1cc8a198dcb",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "25353f537f477d2ad7ac02b01e7044bc205f98f5",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2024-08-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "ccfee73427ad58e2db3cb28257ef40c15a658968",
+                "datavalue": {
+                  "value": {
+                    "text": "مونتيج د أفلام",
+                    "language": "ary"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$37C1B9F9-E6AB-4BD6-81DD-118C748B7E1D",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "583ad9778f98398b69c152617ee49744b23569ae",
+                "datavalue": {
+                  "value": {
+                    "text": "producent filmowy",
+                    "language": "pl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q3282637$1bed3468-4af0-df89-4acf-06476e1fdc37",
+              "rank": "normal"
+            }
+          ],
+          "P4652": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P4652",
+                "hash": "229154b6e6f5abffff01204a10bfdeb8adde9cba",
+                "datavalue": {
+                  "value": "3b6bea7d-36f4-44fb-ac73-d1cc8a198dcb",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "af5d8c6c1f70e570f35538574f82642877cb5399",
+                    "datavalue": {
+                      "value": "video and motion picture producer",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ],
+                "P528": [
+                  {
+                    "snaktype": "value",
+                    "property": "P528",
+                    "hash": "e2b427b202e6a3b967caf39bb0ceb4a597696ff9",
+                    "datavalue": {
+                      "value": "2654.3.2",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ],
+                "P4070": [
+                  {
+                    "snaktype": "value",
+                    "property": "P4070",
+                    "hash": "eab0c27052c475d4056cc8a959b3e5b5261f43da",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 578109,
+                        "id": "Q578109"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810",
+                "P528",
+                "P4070"
+              ],
+              "id": "Q3282637$2f359c97-42d9-929e-ae0d-b2eeb7b0513a",
+              "rank": "normal"
+            }
+          ],
+          "P7502": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7502",
+                "hash": "77f488d9e69c5342ed83a42eaa1776867d1b4281",
+                "datavalue": {
+                  "value": "Film_producer-4XM3W",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$B619E0FC-82AF-48DA-B02C-5D73EC2561A6",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "8b0ebc5fdf66b89d59901d33c0b1bfeb994ec3a6",
+                  "snaks": {
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "849bf31a75ee81eef52deceed6ee34b2f429e12c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2022-09-10T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "a3746c5d8fabbce01249f3c5232dee63e09beeea",
+                        "datavalue": {
+                          "value": "https://golden.com/wiki/Film_producer-4XM3W",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P813",
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1687": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1687",
+                "hash": "2020a4d2ddb9ec28191d5cd0d18e402f6364415f",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "property",
+                    "numeric-id": 162,
+                    "id": "P162"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-property"
+              },
+              "type": "statement",
+              "id": "Q3282637$5567338C-6354-4FA9-970B-6BB24DF8B17A",
+              "rank": "normal"
+            }
+          ],
+          "P9495": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P9495",
+                "hash": "e65b2aeca7e71baed4f7fd2ea04671106e33950d",
+                "datavalue": {
+                  "value": "term/D6B68345-B159-450C-B351-B3A976B7A994",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$A9174CA3-63C2-4FDB-9A11-249B67383E8D",
+              "rank": "normal"
+            }
+          ],
+          "P9223": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P9223",
+                "hash": "7d81bd7be555934e168d48cd89f2a67b3a177766",
+                "datavalue": {
+                  "value": "ea454392-a5ff-4adc-bbee-01a7beb74970",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$9F368072-C7C0-4DEC-A15B-40D68A2AF6F8",
+              "rank": "normal"
+            }
+          ],
+          "P2354": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2354",
+                "hash": "5d9b86b4c474f4bd01c6dc1450acfdb6bd529da4",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 6619860,
+                    "id": "Q6619860"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q3282637$B3EF449B-67AD-47C7-AD25-2E4FB36AE0DE",
+              "rank": "normal"
+            }
+          ],
+          "P12596": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P12596",
+                "hash": "4bfa0719966efd4f636e6deb59518c936113701f",
+                "datavalue": {
+                  "value": "113182",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$D1C443C9-F805-4B00-9C03-CFC51F8AF49E",
+              "rank": "normal"
+            }
+          ],
+          "P12861": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P12861",
+                "hash": "d43e53c89e4c38df149705fa470ada878dfaaa7e",
+                "datavalue": {
+                  "value": {
+                    "id": "E23",
+                    "entity-type": "entity-schema"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "entity-schema"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1687": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1687",
+                    "hash": "fcd8993d00fc0aa70d725e2a6484fdddafb938f2",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "property",
+                        "numeric-id": 106,
+                        "id": "P106"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-property"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1687"
+              ],
+              "id": "Q3282637$3394c23e-42dd-69f7-31a2-b6bb2740da14",
+              "rank": "normal"
+            }
+          ],
+          "P13591": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P13591",
+                "hash": "c73e1dd5bd27a1121943c0a3c949ce7a1b55c6ff",
+                "datavalue": {
+                  "value": "concept/73ee70d6-855b-4305-8653-718957473c16",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$018FEEFD-EE6A-4693-8383-9313C35A3CE8",
+              "rank": "normal"
+            }
+          ],
+          "P508": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P508",
+                "hash": "5b46da29acd91bd3502c220abdb079de5aecdfab",
+                "datavalue": {
+                  "value": "2763",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "a83d64d5a6d7691337df0135b06aeae5c45ae8d2",
+                    "datavalue": {
+                      "value": "Produttori cinematografici",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q3282637$9bb315b1-4d40-c7c4-526a-b629f0b5abf2",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "d3f090c99842082239fa5a6a40e908482691fab3",
+                "datavalue": {
+                  "value": "Karen Loveland directs filming of a movie for the Smithsonian's \"The History of Jazz\" exhibition.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q3282637$a6f0f128-4131-b0f6-a6b5-67edfb950265",
+              "rank": "normal"
+            }
+          ],
+          "P1036": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1036",
+                "hash": "046e2c68c73db7d9e673156d21d93ac2d35d486b",
+                "datavalue": {
+                  "value": "791.430232092",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$F2EE2660-4824-4593-A432-80CB4636C182",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "99995de79ff2d44386f3e550d69ede714830997b",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 36578,
+                            "id": "Q36578"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P227": [
+                      {
+                        "snaktype": "value",
+                        "property": "P227",
+                        "hash": "901621775071e826992a21ef3e310194ca515fce",
+                        "datavalue": {
+                          "value": "4324247-9",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "9c5e4cd814e272ef5594154b203b6deeeaa93f8f",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-11-23T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P227",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "012351b0512d48010d2526072ccd367d73a11e97",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 36578,
+                            "id": "Q36578"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P227": [
+                      {
+                        "snaktype": "value",
+                        "property": "P227",
+                        "hash": "6eba866c89f9a6479b602b2ecda7fa68ca3616f3",
+                        "datavalue": {
+                          "value": "4472639-9",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "9c5e4cd814e272ef5594154b203b6deeeaa93f8f",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-11-23T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P227",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P11924": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P11924",
+                "hash": "8f1614c4302a66903170b1fa9bb671ccd240243e",
+                "datavalue": {
+                  "value": "film-producer",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$A3A87A0E-08F6-4C9A-AB54-FB8F6A967BF6",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P11924",
+                "hash": "10d5ea78ee7d423a314a336b11da0867aaa07cc8",
+                "datavalue": {
+                  "value": "movie-producer",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$53A1361B-2370-4048-BFF4-B57BB1BE6DC7",
+              "rank": "normal"
+            }
+          ],
+          "P8283": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8283",
+                "hash": "ff416226b483fb28f3cbdd53e182715a7eb1e7fb",
+                "datavalue": {
+                  "value": "2654",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P4390": [
+                  {
+                    "snaktype": "value",
+                    "property": "P4390",
+                    "hash": "cf2e72f259de6985120c9cce1364b7bc8c87f8d9",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 39894595,
+                        "id": "Q39894595"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P4900": [
+                  {
+                    "snaktype": "value",
+                    "property": "P4900",
+                    "hash": "cc65e4a2eda9c298ffea305c6c7d3a110d0b6e9c",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 108290380,
+                        "id": "Q108290380"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P4390",
+                "P4900"
+              ],
+              "id": "Q3282637$C0DA2AE0-7AEA-4735-96D1-3FE2A1D8B8B7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1865c632b9d1590dfe05e33301d2b42399c32335",
+                  "snaks": {
+                    "P4652": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4652",
+                        "hash": "229154b6e6f5abffff01204a10bfdeb8adde9cba",
+                        "datavalue": {
+                          "value": "3b6bea7d-36f4-44fb-ac73-d1cc8a198dcb",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "af5d8c6c1f70e570f35538574f82642877cb5399",
+                        "datavalue": {
+                          "value": "video and motion picture producer",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P528": [
+                      {
+                        "snaktype": "value",
+                        "property": "P528",
+                        "hash": "e2b427b202e6a3b967caf39bb0ceb4a597696ff9",
+                        "datavalue": {
+                          "value": "2654.3.2",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P4652",
+                    "P1810",
+                    "P528"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P9322": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P9322",
+                "hash": "8d3d3756f09c6c25030e38c9fd67180d5d9e4c34",
+                "datavalue": {
+                  "value": "0243340-filmovi-producenti",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "fb18faacb14d0b1ccf73206d8fbef8e6bd86be23",
+                    "datavalue": {
+                      "value": "filmoví producenti",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q3282637$C0CAE0A3-DD29-4CFC-8EFC-31B476CAE502",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P9322",
+                "hash": "cecbde1555ee7bbf1bb3842ad1b604f486e0592c",
+                "datavalue": {
+                  "value": "0385629-filmove-producentky",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "0f4135c6bf45dda156ba4bc461d03aa6d1da6a12",
+                    "datavalue": {
+                      "value": "filmové producentky",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q3282637$04F49DDD-EE3C-4F1A-8222-3C2953C3277A",
+              "rank": "normal"
+            }
+          ],
+          "P5063": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P5063",
+                "hash": "a7397bd4b8cad333bc16dede3b8765eb7718f0ac",
+                "datavalue": {
+                  "value": "i89946",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$02F11E9C-4D86-4C9E-8FE7-B296F1269D57",
+              "rank": "normal"
+            }
+          ],
+          "P8814": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8814",
+                "hash": "8eb99f59d94e9d723b630f18462d6187c4641396",
+                "datavalue": {
+                  "value": "10108159-n",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q3282637$AC751952-0B67-436D-9178-CB8717D7B34A",
+              "rank": "normal"
+            }
+          ]
+        }
+      }
+    },
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:31:05.810660+00:00"
+}

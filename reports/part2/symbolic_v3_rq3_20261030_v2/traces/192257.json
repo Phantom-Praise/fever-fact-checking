@@ -1,0 +1,116 @@
+{
+  "id": 192257,
+  "claim": "Steve Harvey is the author of Act Like a Lady, Think Like a Man.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09421195799999893,
+      "symbolic": {
+        "claim": "Steve Harvey is the author of Act Like a Lady, Think Like a Man.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.437499999923375e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Act_Like_a_Lady,_Think_Like_a_Man",
+          "sentence_id": 0,
+          "text": "Act Like a Lady , Think Like a Man is a book by Steve Harvey which describes for women Harvey 's concept of what men really think about love , relationships , intimacy , and commitment .",
+          "score": 7.05
+        },
+        {
+          "page_id": "Steve_Harvey",
+          "sentence_id": 2,
+          "text": "He is the author of Act Like a Lady , Think Like a Man , which was published in March 2009 , and the book Straight Talk , No Chaser : How to Find and Keep a Man .",
+          "score": 6.1
+        },
+        {
+          "page_id": "Steve_Harvey",
+          "sentence_id": 0,
+          "text": "Broderick Stephen `` Steve '' Harvey -LRB- born January 17 , 1957 -RRB- is an American comedian , television host , producer , radio personality , actor , and author .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Steve_Harvey",
+          "sentence_id": 1,
+          "text": "He hosts The Steve Harvey Morning Show , the Steve Harvey talk show , Family Feud and Little Big Shots .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Steve_Harvey",
+          "sentence_id": 5,
+          "text": "Harvey previously hosted Showtime at the Apollo , starred in The Steve Harvey Show , and was featured in The Original Kings of Comedy .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9813934564590454,
+        0.01854585111141205,
+        6.0717407905030996e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08873841700000185,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Act_Like_a_Lady,_Think_Like_a_Man",
+          "sentence_id": 0,
+          "text": "Act Like a Lady , Think Like a Man is a book by Steve Harvey which describes for women Harvey 's concept of what men really think about love , relationships , intimacy , and commitment .",
+          "score": 7.05
+        },
+        {
+          "page_id": "Steve_Harvey",
+          "sentence_id": 2,
+          "text": "He is the author of Act Like a Lady , Think Like a Man , which was published in March 2009 , and the book Straight Talk , No Chaser : How to Find and Keep a Man .",
+          "score": 6.1
+        },
+        {
+          "page_id": "Steve_Harvey",
+          "sentence_id": 0,
+          "text": "Broderick Stephen `` Steve '' Harvey -LRB- born January 17 , 1957 -RRB- is an American comedian , television host , producer , radio personality , actor , and author .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Steve_Harvey",
+          "sentence_id": 1,
+          "text": "He hosts The Steve Harvey Morning Show , the Steve Harvey talk show , Family Feud and Little Big Shots .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Steve_Harvey",
+          "sentence_id": 5,
+          "text": "Harvey previously hosted Showtime at the Apollo , starred in The Steve Harvey Show , and was featured in The Original Kings of Comedy .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9813934564590454,
+        0.01854585111141205,
+        6.0717407905030996e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05624249999999975,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.7038750052452087,
+        0.07489415258169174,
+        0.22123080492019653
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

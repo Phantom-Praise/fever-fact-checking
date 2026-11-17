@@ -1,0 +1,62 @@
+{
+  "id": 117838,
+  "claim": "Taylor Schilling made her film debut in 1807.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.20008456707000732,
+    0.7996925711631775,
+    0.00022292816720437258
+  ],
+  "logits": [
+    1.368572473526001,
+    2.7540597915649414,
+    -5.431073188781738
+  ],
+  "evidence": [
+    {
+      "page_id": "Taylor_Schilling",
+      "sentence_id": 2,
+      "text": "She made her film debut in the 2007 drama Dark Matter .",
+      "score": 4.1
+    },
+    {
+      "page_id": "As_God_Made_Her",
+      "sentence_id": 0,
+      "text": "As God Made Her -LRB- Zoo als ik ben -RRB- is a 1920 Dutch silent film directed by Maurits Binger .",
+      "score": 3.025
+    },
+    {
+      "page_id": "She_Made_Her_Bed",
+      "sentence_id": 0,
+      "text": "She Made Her Bed is a 1934 American pre-Code comedy film directed by Ralph Murphy and written by James M. Cain , Casey Robinson and Frank R. Adams .",
+      "score": 3.02
+    },
+    {
+      "page_id": "They_Made_Her_a_Spy",
+      "sentence_id": 0,
+      "text": "They Made Her a Spy is a 1939 American spy drama film produced and distributed by RKO Radio Pictures .",
+      "score": 3.0125
+    },
+    {
+      "page_id": "Taylor_Schilling",
+      "sentence_id": 0,
+      "text": "Taylor Schilling -LRB- born July 27 , 1984 -RRB- is an American actress .",
+      "score": 2.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 133,
+    "tokens_retained": 133,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Taylor Schilling made her film debut in 1807.</s></s>She made her film debut in the 2007 drama Dark Matter . As God Made Her -LRB- Zoo als ik ben -RRB- is a 1920 Dutch silent film directed by Maurits Binger . She Made Her Bed is a 1934 American pre-Code comedy film directed by Ralph Murphy and written by James M. Cain , Casey Robinson and Frank R. Adams . They Made Her a Spy is a 1939 American spy drama film produced and distributed by RKO Radio Pictures . Taylor Schilling -LRB- born July 27 , 1984 -RRB- is an American actress .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.17401229200000046
+}

@@ -1,0 +1,413 @@
+{
+  "id": 151544,
+  "claim": "Eddie Redmayne acted in Italy.",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.20549166202545166,
+    0.7932428121566772,
+    0.0012655032332986593
+  ],
+  "logits": [
+    0.8986016511917114,
+    2.2493255138397217,
+    -4.191334247589111
+  ],
+  "inference_seconds": 0.12372091699999999,
+  "evidence_text": "List of British actors Eddie Redmayne (born 1982), English actor Edward John David Redmayne (/ˈrɛdmeɪn/ ⓘ; born 6 January 1982) is an English actor. His accolades include an Academy Award, a Tony Award, a British Academy Film Award, a Golden Globe Award, and two Olivier Awards. List of actors with Academy Award nominations List of actors with more than one Academy Award nomination in the acting categories List of Academy Award winners and nominees from Great Britain Redmayne starred in Now or Later by Christopher Shinn at the Royal Court Theatre. The show ran from 3 September to 1 November 2008. His performance received glowing reviews, with critic and playwright Nicholas de Jongh describing the performance as \"riveting, suffused with the lineaments of neurosis and sadness\". In 2009, Redmayne appeared in John Logan's new play Red at the Donmar Warehouse in London, for which he won the 2010 Olivier Award for Best Actor in a Supporting Role. Reviewing the show during this London run, longstanding New York Times critic Ben Brantley described Redmayne as \"a star in the making\". He reprised his role in Red at the John Golden Theatre on Broadway, in a 15-week run from 11 March to 27 June 2010, and won the 2010 Tony Award for Best Performance by a Featured Actor in a Play. Eddie RedmayneOBE Redmayne in 2024 Born | Edward John David Redmayne (1982-01-06) 6 January 1982 Westminster, London, England Education | Trinity College, Cambridge Occupation | Actor Years active | 1998–present Spouse | Hannah Bagshawe ​(m. 2014)​ Children | 2 Relatives | James Redmayne (brother)Richard Redmayne (great-grandfather) Awards | Full list Redmayne was appointed Officer of the Order of the British Empire (OBE) in the 2015 Birthday Honours for services to drama. Year | Title | Author | Role | Ref(s). 2012 | Les Misérables: Highlights from the Motion Picture Soundtrack | Claude-Michel Schönberg & Herbert Kretzmer | Marius Pontmercy | 2023 | Cabaret (2021 London Cast Recording) | John Kander & Fred Ebb | The Emcee | voice of a chainsmoker.\" List of oldest and youngest Academy Award winners and nominees — Youngest winners for Best Lead Actor List of Old Etonians born in the 20th century Redmayne modelled for Burberry in 2008 with Alex Pettyfer, and in 2012 with Cara Delevingne. In 2016, he starred in the Prada Fall/Winter '16 Menswear Advertising Campaign. Redmayne was selected in the Australian squad for the 2022 FIFA World Cup as a backup to Mat Ryan. From the age of 10, Redmayne attended Jackie Palmer Stage School, where he found his love for acting and singing. After a spell at Eaton House, he won a music scholarship to Colet Court (now St Paul's Prep School), where he sang with the St Paul's Choir. He then won a music scholarship to Eton College, where he was in the same year as Prince William. Redmann In 2022, Redmayne starred in the biographical crime thriller film, The Good Nurse, playing notorious serial killer Charles Cullen, and was nominated for a Golden Globe Award, a British Academy Film Award, and a Screen Actors Guild Award. Leah Greenblatt at Entertainment Weekly wrote, \"an eerie, pitch-perfect Redmayne, wearing Charlie's nice-guy drag like a battering ram, lets his mask slip so incrementally that the final scenes feel like a true terrifying rupture.\" Aurora Amidon at Paste remarked, \"Redmayne plays Charles with such a sense of naturalism and magnetic intensity that it's easy to forget he's not in the room right there with you.\" Redmayne made his second appearance for the Socceroos in a win over Nepal in June 2021. Andrew Redmayne (born 1989), Australian football (soccer) player Redmayne began his professional acting career on television and in theatre. He starred as Viola in Twelfth Night at Shakespeare's Globe, before transitioning to the West End with starring roles in productions such as The Goat, or Who Is Sylvia? (2004), Red (2009–2010), and Richard II (2011–2012); He received the Laurence Olivier Award for Best Actor in a Supporting Role and later the Tony Award for Best Featured Actor in a Play for his performances in the West End and Broadway productions of Red. For his performances as The Emcee in the West End and Broadway revivals of Cabaret (2021–2022; 2024), he won the Laurence Olivier Award for Best Actor in a Musical and earned a nomination for the Tony Award for Best Actor in a Musical. List of University of Cambridge members Individual Nicholas Redmayne (1938–2008), British stockbroker",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1030,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1016,
+    "evidence_tokens_retained": 498,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 7028414,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 35008561,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 7028414,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 7028414,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 7028414,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 7028414,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 7028414,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 7028414,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 7028414,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 7028414,
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 7028414,
+        "tokens_total": 38,
+        "tokens_kept": 38,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 7028414,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 7028414,
+        "tokens_total": 46,
+        "tokens_kept": 46,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 7028414,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 7028414,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 7028414,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 7028414,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 7028414,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 7028414,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 7028414,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 7028414,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 7028414,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 7028414,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 7028414,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 7028414,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 7028414,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 7028414,
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 7028414,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 7028414,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 7028414,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 7028414,
+        "tokens_total": 12,
+        "tokens_kept": 1,
+        "visibility": "partial"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 7028414,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 7028414,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 19563836,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 7028414,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 7028414,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 7028414,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 35008561,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 7028414,
+        "tokens_total": 49,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 7028414,
+        "tokens_total": 91,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 19563836,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 35008561,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 7028414,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 7028414,
+        "tokens_total": 91,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 7028414,
+        "tokens_total": 56,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 7028414,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 19563836,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 35008561,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Eddie Redmayne acted in Italy.</s></s>List of British actors Eddie Redmayne (born 1982), English actor Edward John David Redmayne (/ˈrɛdmeɪn/ ⓘ; born 6 January 1982) is an English actor. His accolades include an Academy Award, a Tony Award, a British Academy Film Award, a Golden Globe Award, and two Olivier Awards. List of actors with Academy Award nominations List of actors with more than one Academy Award nomination in the acting categories List of Academy Award winners and nominees from Great Britain Redmayne starred in Now or Later by Christopher Shinn at the Royal Court Theatre. The show ran from 3 September to 1 November 2008. His performance received glowing reviews, with critic and playwright Nicholas de Jongh describing the performance as \"riveting, suffused with the lineaments of neurosis and sadness\". In 2009, Redmayne appeared in John Logan's new play Red at the Donmar Warehouse in London, for which he won the 2010 Olivier Award for Best Actor in a Supporting Role. Reviewing the show during this London run, longstanding New York Times critic Ben Brantley described Redmayne as \"a star in the making\". He reprised his role in Red at the John Golden Theatre on Broadway, in a 15-week run from 11 March to 27 June 2010, and won the 2010 Tony Award for Best Performance by a Featured Actor in a Play. Eddie RedmayneOBE Redmayne in 2024 Born | Edward John David Redmayne (1982-01-06) 6 January 1982 Westminster, London, England Education | Trinity College, Cambridge Occupation | Actor Years active | 1998–present Spouse | Hannah Bagshawe ​(m. 2014)​ Children | 2 Relatives | James Redmayne (brother)Richard Redmayne (great-grandfather) Awards | Full list Redmayne was appointed Officer of the Order of the British Empire (OBE) in the 2015 Birthday Honours for services to drama. Year | Title | Author | Role | Ref(s). 2012 | Les Misérables: Highlights from the Motion Picture Soundtrack | Claude-Michel Schönberg & Herbert Kretzmer | Marius Pontmercy | 2023 | Cabaret (2021 London Cast Recording) | John Kander & Fred Ebb | The Emcee | voice of a chainsmoker.\" List of oldest and youngest Academy Award winners and nominees — Youngest winners for Best Lead Actor List</s>"
+  }
+}

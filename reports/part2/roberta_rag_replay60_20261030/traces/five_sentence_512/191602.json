@@ -1,0 +1,69 @@
+{
+  "id": 191602,
+  "claim": "Niki Koss stars in Famous in Love.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9891793727874756,
+    0.010737061500549316,
+    8.355359022971243e-05
+  ],
+  "logits": [
+    4.253194808959961,
+    -0.2699792981147766,
+    -5.125947952270508
+  ],
+  "inference_seconds": 0.11585929199999967,
+  "evidence_text": "The series stars Bella Thorne , Charlie DePew , Georgie Flores , Carter Jenkins , Niki Koss , Keith Powers , Pepi Sonuga , and Perrey Reeves . Famous Love Affairs -LRB- Les Amours célèbres , Amori celebri -RRB- is a 1961 French-Italian anthology film starring Alain Delon , Brigitte Bardot and Jean Paul Belmondo . Famous in Love is an American drama television series that premiered on Freeform on April 18 , 2017 , and is based on the novel of the same name by Rebecca Serle . Famous Stars and Straps -LRB- or simply Famous -RRB- is an American clothing and accessory line created by blink-182 drummer Travis Barker in December 1999 . Famous Stars And Straps clothing is influenced by music genres such as punk rock and hip hop .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 190,
+    "tokens_retained": 190,
+    "truncated": false,
+    "evidence_tokens_total": 176,
+    "evidence_tokens_retained": 176,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Famous_in_Love",
+        "tokens_total": 37,
+        "tokens_kept": 37,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Famous_Love_Affairs",
+        "tokens_total": 50,
+        "tokens_kept": 50,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Famous_in_Love",
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Famous_Stars_and_Straps",
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Famous_Stars_and_Straps",
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Niki Koss stars in Famous in Love.</s></s>The series stars Bella Thorne , Charlie DePew , Georgie Flores , Carter Jenkins , Niki Koss , Keith Powers , Pepi Sonuga , and Perrey Reeves . Famous Love Affairs -LRB- Les Amours célèbres , Amori celebri -RRB- is a 1961 French-Italian anthology film starring Alain Delon , Brigitte Bardot and Jean Paul Belmondo . Famous in Love is an American drama television series that premiered on Freeform on April 18 , 2017 , and is based on the novel of the same name by Rebecca Serle . Famous Stars and Straps -LRB- or simply Famous -RRB- is an American clothing and accessory line created by blink-182 drummer Travis Barker in December 1999 . Famous Stars And Straps clothing is influenced by music genres such as punk rock and hip hop .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

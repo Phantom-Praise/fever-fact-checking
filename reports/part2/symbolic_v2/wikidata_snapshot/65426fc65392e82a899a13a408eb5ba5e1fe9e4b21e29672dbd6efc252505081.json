@@ -1,0 +1,185 @@
+{
+  "params": {
+    "action": "wbgetentities",
+    "ids": "Q133851733",
+    "props": "claims|labels|aliases",
+    "languages": "en"
+  },
+  "response": {
+    "entities": {
+      "Q133851733": {
+        "type": "item",
+        "id": "Q133851733",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Grace Jones"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "ad7d38a03cdd40cdc373de0dc4e7b7fcbccb31d9",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5,
+                    "id": "Q5"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q133851733$1A503560-7693-4F74-9121-5B94E4CA2C9B",
+              "rank": "normal"
+            }
+          ],
+          "P21": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P21",
+                "hash": "5760796ff6ebc63aae12cdcbf509b07ebf0bd201",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 6581072,
+                    "id": "Q6581072"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q133851733$680B1ED1-62E2-434C-9EC2-27270EEF0A59",
+              "rank": "normal"
+            }
+          ],
+          "P27": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P27",
+                "hash": "52d0408c7915122e0519a22577f0cbdcb28f749b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 30,
+                    "id": "Q30"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q133851733$F9F14DC3-05AE-4D2B-BC62-082675D441AC",
+              "rank": "normal"
+            }
+          ],
+          "P106": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P106",
+                "hash": "758295c4843ebfb766fc8236d4849374401bd73e",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 33999,
+                    "id": "Q33999"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q133851733$7A07F1C9-0717-4605-ABE4-556A847E8130",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P106",
+                "hash": "fb0ac50e6c69a66a4c0820c2e362eb5236c9c7bb",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1561918,
+                    "id": "Q1561918"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q133851733$54CAB5E8-DD04-41E1-B261-FB047AB3E9A5",
+              "rank": "normal"
+            }
+          ],
+          "P463": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P463",
+                "hash": "92aee9402a67f65ed8ec3914e289209a2d76cb93",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 152521,
+                    "id": "Q152521"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q133851733$D2D69C30-34AC-49B4-9472-CB09372BB83D",
+              "rank": "normal"
+            }
+          ],
+          "P1220": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1220",
+                "hash": "7e6edc62621f6b5332f6e88f29a0c66e5ac9c82d",
+                "datavalue": {
+                  "value": "92281",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q133851733$F886DD0C-6501-4DCE-95E1-429C704DC603",
+              "rank": "normal"
+            }
+          ],
+          "P18": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P18",
+                "hash": "ecfc73af6a7b482e38697a2e1205552064b17368",
+                "datavalue": {
+                  "value": "Grace Jones - The Red Book Magazine - December 1915.jpg",
+                  "type": "string"
+                },
+                "datatype": "commonsMedia"
+              },
+              "type": "statement",
+              "id": "Q133851733$3230df48-41f5-557b-8ea9-d8376f69ee04",
+              "rank": "normal"
+            }
+          ]
+        }
+      }
+    },
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:29:02.524299+00:00"
+}

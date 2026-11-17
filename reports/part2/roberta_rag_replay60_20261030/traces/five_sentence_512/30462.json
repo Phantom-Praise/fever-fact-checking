@@ -1,0 +1,69 @@
+{
+  "id": 30462,
+  "claim": "Psychology explores gastric processes.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9246950745582581,
+    0.07517383992671967,
+    0.00013107541599310935
+  ],
+  "logits": [
+    3.353710174560547,
+    0.844049334526062,
+    -5.507735729217529
+  ],
+  "inference_seconds": 0.10882337500000006,
+  "evidence_text": "Charlie Bird Explores is the title of a series of documentary films shot by RTÉ News and Current Affairs chief news correspondent Charlie Bird , in which the reporter sets off to explore some of the most beautiful and remote places in the far corners of the planet Earth and moans about having to do so . Gastric acid , gastric juice or stomach acid , is a digestive fluid , formed in the stomach and is composed of hydrochloric acid -LRB- HCl -RRB- .05 -- 0.1 M -LRB- roughly 5,000 -- 10,000 parts per million or 0.5 -- 1 % -RRB- , potassium chloride -LRB- KCl -RRB- and sodium chloride -LRB- NaCl -RRB- . Gastric acid is produced by cells in the lining of the stomach , which are coupled in feedback systems to increase acid production when needed . These cells also produce mucus , which forms a viscous physical barrier to prevent gastric acid from damaging the stomach . The pancreas further produces large amounts of bicarbonate and secretes bicarbonate through the pancreatic duct to the duodenum to completely neutralize any gastric acid that passes further down into the digestive tract .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 267,
+    "tokens_retained": 267,
+    "truncated": false,
+    "evidence_tokens_total": 256,
+    "evidence_tokens_retained": 256,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Charlie_Bird_Explores",
+        "tokens_total": 60,
+        "tokens_kept": 60,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Gastric_acid",
+        "tokens_total": 98,
+        "tokens_kept": 98,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Gastric_acid",
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Gastric_acid",
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Gastric_acid",
+        "tokens_total": 47,
+        "tokens_kept": 47,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Psychology explores gastric processes.</s></s>Charlie Bird Explores is the title of a series of documentary films shot by RTÉ News and Current Affairs chief news correspondent Charlie Bird , in which the reporter sets off to explore some of the most beautiful and remote places in the far corners of the planet Earth and moans about having to do so . Gastric acid , gastric juice or stomach acid , is a digestive fluid , formed in the stomach and is composed of hydrochloric acid -LRB- HCl -RRB- .05 -- 0.1 M -LRB- roughly 5,000 -- 10,000 parts per million or 0.5 -- 1 % -RRB- , potassium chloride -LRB- KCl -RRB- and sodium chloride -LRB- NaCl -RRB- . Gastric acid is produced by cells in the lining of the stomach , which are coupled in feedback systems to increase acid production when needed . These cells also produce mucus , which forms a viscous physical barrier to prevent gastric acid from damaging the stomach . The pancreas further produces large amounts of bicarbonate and secretes bicarbonate through the pancreatic duct to the duodenum to completely neutralize any gastric acid that passes further down into the digestive tract .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": 97777,
+  "claim": "Adam Driver was in the singing group Lincoln.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9643661975860596,
+    0.035533830523490906,
+    9.992174454964697e-05
+  ],
+  "logits": [
+    3.76212477684021,
+    0.46113884449005127,
+    -5.412714004516602
+  ],
+  "inference_seconds": 0.11066004199999924,
+  "evidence_text": "Adam Douglas Driver -LRB- born November 19 , 1983 -RRB- is an American actor . Driver has appeared in supporting roles in a wide range of films , including Lincoln -LRB- 2012 -RRB- , Frances Ha -LRB- 2012 -RRB- and Inside Llewyn Davis -LRB- 2013 -RRB- . Driver Group is a bus and coach operator in Melbourne , Australia . The Lincoln Group -LRB- formerly known as Iraqex -RRB- is a defunct Washington , D.C.-based defense contractor . Singing To the Bus Driver or Hail To the Bus Driver , an anonymous United States folk song dating to the mid-20th century .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 156,
+    "tokens_retained": 156,
+    "truncated": false,
+    "evidence_tokens_total": 143,
+    "evidence_tokens_retained": 143,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Adam_Driver",
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Adam_Driver",
+        "tokens_total": 52,
+        "tokens_kept": 52,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Driver_Group",
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Lincoln_Group",
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Singing_to_the_Bus_Driver",
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Adam Driver was in the singing group Lincoln.</s></s>Adam Douglas Driver -LRB- born November 19 , 1983 -RRB- is an American actor . Driver has appeared in supporting roles in a wide range of films , including Lincoln -LRB- 2012 -RRB- , Frances Ha -LRB- 2012 -RRB- and Inside Llewyn Davis -LRB- 2013 -RRB- . Driver Group is a bus and coach operator in Melbourne , Australia . The Lincoln Group -LRB- formerly known as Iraqex -RRB- is a defunct Washington , D.C.-based defense contractor . Singing To the Bus Driver or Hail To the Bus Driver , an anonymous United States folk song dating to the mid-20th century .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

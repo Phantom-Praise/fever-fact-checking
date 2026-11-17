@@ -1,0 +1,413 @@
+{
+  "id": 220082,
+  "claim": "Lust for Life was motivated by Irving Stone.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.6731387376785278,
+    0.3214055597782135,
+    0.0054556536488235
+  ],
+  "logits": [
+    1.638085961341858,
+    0.898838222026825,
+    -3.177213191986084
+  ],
+  "inference_seconds": 0.10703541599999866,
+  "evidence_text": "Irving Stone (born Tennenbaum; July 14, 1903 – August 26, 1989) was an American writer, chiefly known for his biographical novels of noted artists, politicians, and intellectuals. Among the best known are Lust for Life (1934), about the life of Vincent van Gogh, and The Agony and the Ecstasy (1961), about Michelangelo. Lust for Life (novel), a 1934 biographical novel about Vincent Van Gogh by Irving Stone Lust for Life (1934) – Historical novel based on the life of Vincent van Gogh Irving and Lona Stone returned to the United States in the 1930s from Europe, where he had been researching Van Gogh for six months. In 1930 he received a letter from Dr. Felix Rey, who had treated Van Gogh after the artist cut off his own ear in December 1888. Rey, who was the subject of a portrait painting by Van Gogh, became Stone's friend; he confirmed that Van Gogh's whole ear was removed and not only the earlobe. As reported in the NY Times obituary of Stone on August 28, 1989, the Stones resided in New York's Greenwich Village where Irving finished Lust for Life, the biographical novel about Van Gogh that set his career in motion. According to the Times, Lust for Life (the title suggested by his first wife) was rejected by seventeen publishers over three years before being published in 1934. Lust for Life may refer to: In 1956, a film version was made of Lust for Life, based on his 1934 novel, starring Kirk Douglas as Van Gogh. The Passions of the Mind (1971) – Historical novel based on the life of Sigmund Freud Lust for Life and Immortal Wife were published as Armed Services Editions during WWII. The Passionate Journey (1949) – Historical novel based on the life of American artist John Noble The Agony and the Ecstasy – (1961) – Historical novel based on the life of Michelangelo According to his afterword in Lust for Life, Stone relied on Van Gogh's letters to his brother, art dealer Theo. Stone additionally did much of his research \"in the field.\" For example, he spent many years living in Italy while working on The Agony and the Ecstasy, a novel about Michelangelo Buonarroti. In his introduction to The Origin, Stone documents that he and his wife lived for a while at Down House (Darwin's home for the final forty years of his life) during the research and writing of that book. The Italian government lauded Stone with several honorary awards during this period for his cultural achievements highlighting Italian history. LFL (disambiguation) Those Who Love (1965) – Historical novel based on the life of John Adams and Abigail Adams \"Lust for Life\" (Girls song), 2009 Lust for Life (Iggy Pop album), 1977 The Origin (1980) – Historical novel based on the life of Charles Darwin \"Lust for Life\" (Iggy Pop song), 1977 Born Irving Tennenbaum in San Francisco, he was seven when his parents divorced. By the time he was a senior in high school, his mother had remarried. He legally changed his last name to \"Stone\", his stepfather's surname. Stone said his mother instilled a passion for reading in him. From then on, he believed that education was the only way to succeed in life. Depths of Glory (1985) – Historical novel based on the life of Camille Pissarro Lust for Life (Lana Del Rey album), 2017 Earl Warren (1948) – biography of Earl Warren During their years together, Jean Stone edited many of his books. The Stones lived primarily in Los Angeles. They funded a foundation to support a number of charitable causes. 1961 Commonwealth Club of California Book Awards (Fiction, Silver) for The Agony and the Ecstasy He authored the company's \"From Someone Who Likes to Remember Someone Too Nice to Forget\" card, using skills he developed and improved by taking courses at night. Irving Stone Born | Irving Tennenbaum (1903-07-14)July 14, 1903 San Francisco, California, U.S. Died | August 26, 1989(1989-08-26) (aged 86) Los Angeles, California, U.S. Education | University of California, Berkeley (MA) Occupation | Writer Spouse(s) | Lona Mosk (divorced) Jean Factor \"Lust for Life\", a 1990 song by Gamma Ray from Heading for Tomorrow \"Lust for Life\" (Lana Del Rey song), 2017 \"Lust for Life\", a 2009 song by Drake from So Far Gone",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 972,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 958,
+    "evidence_tokens_retained": 498,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 647738,
+        "tokens_total": 40,
+        "tokens_kept": 40,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 647738,
+        "tokens_total": 37,
+        "tokens_kept": 37,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 1114153,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 647738,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 647738,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 647738,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 647738,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 647738,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 647738,
+        "tokens_total": 48,
+        "tokens_kept": 48,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 647738,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 1114153,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 647738,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 647738,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 647738,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 647738,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 647738,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 647738,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 647738,
+        "tokens_total": 44,
+        "tokens_kept": 44,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 647738,
+        "tokens_total": 44,
+        "tokens_kept": 22,
+        "visibility": "partial"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 647738,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 1114153,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 647738,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 1114153,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 1114153,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 647738,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 1114153,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 647738,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 647738,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 647738,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 647738,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 647738,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 647738,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 1114153,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 647738,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 647738,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 647738,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 647738,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 647738,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 31650879,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 647738,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 647738,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 647738,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 647738,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 647738,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 647738,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 1114153,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 1114153,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 1114153,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Lust for Life was motivated by Irving Stone.</s></s>Irving Stone (born Tennenbaum; July 14, 1903 – August 26, 1989) was an American writer, chiefly known for his biographical novels of noted artists, politicians, and intellectuals. Among the best known are Lust for Life (1934), about the life of Vincent van Gogh, and The Agony and the Ecstasy (1961), about Michelangelo. Lust for Life (novel), a 1934 biographical novel about Vincent Van Gogh by Irving Stone Lust for Life (1934) – Historical novel based on the life of Vincent van Gogh Irving and Lona Stone returned to the United States in the 1930s from Europe, where he had been researching Van Gogh for six months. In 1930 he received a letter from Dr. Felix Rey, who had treated Van Gogh after the artist cut off his own ear in December 1888. Rey, who was the subject of a portrait painting by Van Gogh, became Stone's friend; he confirmed that Van Gogh's whole ear was removed and not only the earlobe. As reported in the NY Times obituary of Stone on August 28, 1989, the Stones resided in New York's Greenwich Village where Irving finished Lust for Life, the biographical novel about Van Gogh that set his career in motion. According to the Times, Lust for Life (the title suggested by his first wife) was rejected by seventeen publishers over three years before being published in 1934. Lust for Life may refer to: In 1956, a film version was made of Lust for Life, based on his 1934 novel, starring Kirk Douglas as Van Gogh. The Passions of the Mind (1971) – Historical novel based on the life of Sigmund Freud Lust for Life and Immortal Wife were published as Armed Services Editions during WWII. The Passionate Journey (1949) – Historical novel based on the life of American artist John Noble The Agony and the Ecstasy – (1961) – Historical novel based on the life of Michelangelo According to his afterword in Lust for Life, Stone relied on Van Gogh's letters to his brother, art dealer Theo. Stone additionally did much of his research \"in the field.\" For example, he spent many years living in Italy while working on The Agony and the Ecstasy, a novel about Michelangelo Buonarroti. In his introduction to The Origin, Stone documents that he and his wife lived for a while at Down House (</s>"
+  }
+}

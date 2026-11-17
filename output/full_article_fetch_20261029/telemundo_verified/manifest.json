@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-29T14:00:00.495692+00:00",
+  "claim": null,
+  "selection_method": "Caller-provided ranked Wikipedia URLs; retain the first top_k from up to 10 candidates.",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "url": "https://en.wikipedia.org/wiki/Telemundo"
+    }
+  ],
+  "selected_articles": [
+    {
+      "rank": 1,
+      "url": "https://en.wikipedia.org/wiki/Telemundo"
+    }
+  ],
+  "articles": [
+    {
+      "rank": 1,
+      "requested_url": "https://en.wikipedia.org/wiki/Telemundo",
+      "title": "Telemundo",
+      "revision_id": 1377292334,
+      "revision_timestamp": "2026-09-28T19:06:09Z",
+      "retrieved_utc": "2026-10-29T13:58:01.005914+00:00",
+      "url": "https://en.wikipedia.org/wiki/Telemundo",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Telemundo&oldid=1377292334",
+      "folder": "/Users/praiseben/fever-fact-checking/data/processed/wikipedia_full_articles/pages/enwiki_10839777_1377292334_282ef95c2074b709_article_blocks_v1",
+      "cache_hit": true,
+      "characters": 61415,
+      "words": 9185,
+      "blocks": 135,
+      "body_headings": 30,
+      "is_disambiguation": false
+    }
+  ],
+  "errors": [],
+  "no_llm_calls": true,
+  "no_embedding_calls": true,
+  "source_sha256": {
+    "/Users/praiseben/fever-fact-checking/src/fetch_wikipedia_articles.py": "a15af5ddb8708d14ce657402b039d69cf97ca17303eed89867a6cf90d6ae48cd",
+    "/Users/praiseben/fever-fact-checking/src/retrieve_title_aware.py": "b76ccc025032b0ab9f939573018570602441dead07f9572b9240b40bbde0ce3b"
+  },
+  "corpus_note": "Fetched Wikipedia revisions form a separate corpus. They are not the historical FEVER sentence snapshot or FEVER evidence IDs.",
+  "finished_utc": "2026-10-29T14:00:00.501296+00:00",
+  "http_requests": 0
+}

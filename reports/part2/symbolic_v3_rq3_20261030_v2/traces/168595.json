@@ -1,0 +1,116 @@
+{
+  "id": 168595,
+  "claim": "Ronald Reagan left office in the late 1980s.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.11055329199999875,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Ronald_Reagan",
+          "sentence_id": 25,
+          "text": "Reagan 's presidency came during the decline of the Soviet Union and just ten months after the end of his term , the Berlin Wall fell , and on December 26 , 1991 , nearly three years after he left office , the Soviet Union collapsed .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Birthplace_of_Ronald_Reagan",
+          "sentence_id": 0,
+          "text": "The Birthplace of Ronald Reagan , also known as the Graham Building , is located in an apartment on the second floor of a late 19th-century commercial building in Tampico , Illinois , United States .",
+          "score": 3.011111111111111
+        },
+        {
+          "page_id": "Ronald_Reagan",
+          "sentence_id": 0,
+          "text": "Ronald Wilson Reagan -LRB- -LSB- ˈrɒnəld_ˈwɪlsən_ˈreɪɡən -RSB- -RRB- -LRB- February 6 , 1911 -- June 5 , 2004 -RRB- was an American politician and actor who served as the 40th President of the United States from 1981 to 1989 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Ronald_Reagan",
+          "sentence_id": 28,
+          "text": "Leaving office in 1989 , Reagan held an approval rating of sixty-eight percent , matching those of Franklin D. Roosevelt , and later Bill Clinton , as the highest ratings for departing presidents in the modern era .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Ronald_Reagan_Day",
+          "sentence_id": 0,
+          "text": "Ronald Reagan Day is a day of recognition that occurs every February 6 , starting in 2011 , in the state of California for Ronald Reagan , who was that state 's governor from 1967 to 1975 and President of the United States from 1981 to 1989 .",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.9712250828742981,
+        0.02868673764169216,
+        8.827238343656063e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.056007332999996606,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.6040791273117065,
+        0.2721576988697052,
+        0.12376321852207184
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06617108300000041,
+      "symbolic": {
+        "claim": "Ronald Reagan left office in the late 1980s.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3916999996865798e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Ronald_Reagan",
+          "sentence_id": 25,
+          "text": "Reagan 's presidency came during the decline of the Soviet Union and just ten months after the end of his term , the Berlin Wall fell , and on December 26 , 1991 , nearly three years after he left office , the Soviet Union collapsed .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Birthplace_of_Ronald_Reagan",
+          "sentence_id": 0,
+          "text": "The Birthplace of Ronald Reagan , also known as the Graham Building , is located in an apartment on the second floor of a late 19th-century commercial building in Tampico , Illinois , United States .",
+          "score": 3.011111111111111
+        },
+        {
+          "page_id": "Ronald_Reagan",
+          "sentence_id": 0,
+          "text": "Ronald Wilson Reagan -LRB- -LSB- ˈrɒnəld_ˈwɪlsən_ˈreɪɡən -RSB- -RRB- -LRB- February 6 , 1911 -- June 5 , 2004 -RRB- was an American politician and actor who served as the 40th President of the United States from 1981 to 1989 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Ronald_Reagan",
+          "sentence_id": 28,
+          "text": "Leaving office in 1989 , Reagan held an approval rating of sixty-eight percent , matching those of Franklin D. Roosevelt , and later Bill Clinton , as the highest ratings for departing presidents in the modern era .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Ronald_Reagan_Day",
+          "sentence_id": 0,
+          "text": "Ronald Reagan Day is a day of recognition that occurs every February 6 , starting in 2011 , in the state of California for Ronald Reagan , who was that state 's governor from 1967 to 1975 and President of the United States from 1981 to 1989 .",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.9712250828742981,
+        0.02868673764169216,
+        8.827238343656063e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": 141235,
+  "claim": "Gia is a turkey.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07781854099999919,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "GIA",
+          "sentence_id": 0,
+          "text": "GIA or Gia may refer to :",
+          "score": 1.1
+        },
+        {
+          "page_id": "Gia",
+          "sentence_id": 0,
+          "text": "Gia is a 1998 biographical HBO film about the life and times of one of America 's first supermodels , Gia Marie Carangi .",
+          "score": 1.05
+        },
+        {
+          "page_id": "Gia",
+          "sentence_id": 1,
+          "text": "The film stars Angelina Jolie as Gia and Faye Dunaway as Wilhelmina Cooper , with Mercedes Ruehl and Elizabeth Mitchell .",
+          "score": 1.05
+        },
+        {
+          "page_id": "Gia_Sena_Kai_Gia_Mena",
+          "sentence_id": 0,
+          "text": "Gia sena kai gia mena -LRB- For you and for me -RRB- is a compilation album of songs written by Phoebus -LRB- music & lyrics -RRB- and Eleni Giannatsoulia -LRB- some lyrics -RRB- was released by Sony Music .",
+          "score": 1.0333333333333334
+        },
+        {
+          "page_id": "Ante_Gia",
+          "sentence_id": 0,
+          "text": "`` Ante Gia '' -LRB- Greek : Άντε Γειά ; English : Goodbye -RRB- is an EP maxi single by Greek singer Despina Vandi released on December 19 , 2002 by Heaven Music .",
+          "score": 1.025
+        }
+      ],
+      "probabilities": [
+        0.031484466046094894,
+        0.9684033393859863,
+        0.00011216160783078521
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05978616699999861,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.009778056293725967,
+        0.8438312411308289,
+        0.14639070630073547
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.062497749999998575,
+      "symbolic": {
+        "claim": "Gia is a turkey.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.6207999998130163e-05
+      },
+      "evidence": [
+        {
+          "page_id": "GIA",
+          "sentence_id": 0,
+          "text": "GIA or Gia may refer to :",
+          "score": 1.1
+        },
+        {
+          "page_id": "Gia",
+          "sentence_id": 0,
+          "text": "Gia is a 1998 biographical HBO film about the life and times of one of America 's first supermodels , Gia Marie Carangi .",
+          "score": 1.05
+        },
+        {
+          "page_id": "Gia",
+          "sentence_id": 1,
+          "text": "The film stars Angelina Jolie as Gia and Faye Dunaway as Wilhelmina Cooper , with Mercedes Ruehl and Elizabeth Mitchell .",
+          "score": 1.05
+        },
+        {
+          "page_id": "Gia_Sena_Kai_Gia_Mena",
+          "sentence_id": 0,
+          "text": "Gia sena kai gia mena -LRB- For you and for me -RRB- is a compilation album of songs written by Phoebus -LRB- music & lyrics -RRB- and Eleni Giannatsoulia -LRB- some lyrics -RRB- was released by Sony Music .",
+          "score": 1.0333333333333334
+        },
+        {
+          "page_id": "Ante_Gia",
+          "sentence_id": 0,
+          "text": "`` Ante Gia '' -LRB- Greek : Άντε Γειά ; English : Goodbye -RRB- is an EP maxi single by Greek singer Despina Vandi released on December 19 , 2002 by Heaven Music .",
+          "score": 1.025
+        }
+      ],
+      "probabilities": [
+        0.031484466046094894,
+        0.9684033393859863,
+        0.00011216160783078521
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

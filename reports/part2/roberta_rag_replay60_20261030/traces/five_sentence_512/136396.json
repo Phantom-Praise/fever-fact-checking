@@ -1,0 +1,69 @@
+{
+  "id": 136396,
+  "claim": "The Eagles are a band who sang Hotel California.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9462072849273682,
+    0.05366888642311096,
+    0.00012383995635900646
+  ],
+  "logits": [
+    3.5658321380615234,
+    0.6962039470672607,
+    -5.375394821166992
+  ],
+  "inference_seconds": 0.1121552500000007,
+  "evidence_text": "Hotel California is the fifth studio album by American rock band the Eagles , and is one of the best-selling albums of all time . The album topped the charts and won the band two Grammy Awards for `` Hotel California '' and `` New Kid in Town '' . `` Hotel California '' is the title track from the Eagles ' album of the same name and was released as a single in February 1977 . Hotel California is ranked 37th in Rolling Stones list of `` The 500 Greatest Albums of All Time '' and the band was ranked number 75 on the magazine 's 2004 list of the 100 Greatest Artists of All Time . The Eagles are one of the world 's best-selling bands of all time , having sold more than 150 million records -- 100 million in the U.S. alone -- including 42 million copies of Their Greatest Hits -LRB- 1971 -- 1975 -RRB- and 32 million copies of Hotel California .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 200,
+    "tokens_retained": 200,
+    "truncated": false,
+    "evidence_tokens_total": 186,
+    "evidence_tokens_retained": 186,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Hotel_California_-LRB-Eagles_album-RRB-",
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Hotel_California_-LRB-Eagles_album-RRB-",
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Hotel_California",
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Eagles_-LRB-band-RRB-",
+        "tokens_total": 44,
+        "tokens_kept": 44,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Eagles_-LRB-band-RRB-",
+        "tokens_total": 62,
+        "tokens_kept": 62,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>The Eagles are a band who sang Hotel California.</s></s>Hotel California is the fifth studio album by American rock band the Eagles , and is one of the best-selling albums of all time . The album topped the charts and won the band two Grammy Awards for `` Hotel California '' and `` New Kid in Town '' . `` Hotel California '' is the title track from the Eagles ' album of the same name and was released as a single in February 1977 . Hotel California is ranked 37th in Rolling Stones list of `` The 500 Greatest Albums of All Time '' and the band was ranked number 75 on the magazine 's 2004 list of the 100 Greatest Artists of All Time . The Eagles are one of the world 's best-selling bands of all time , having sold more than 150 million records -- 100 million in the U.S. alone -- including 42 million copies of Their Greatest Hits -LRB- 1971 -- 1975 -RRB- and 32 million copies of Hotel California .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

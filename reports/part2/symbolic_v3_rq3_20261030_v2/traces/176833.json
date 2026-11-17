@@ -1,0 +1,116 @@
+{
+  "id": 176833,
+  "claim": "Enemy (2013 film) stars an American actor born in 1980.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.19191991699999988,
+      "symbolic": {
+        "claim": "Enemy (2013 film) stars an American actor born in 1980.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2832999999545791e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Enemy_-LRB-2013_film-RRB-",
+          "sentence_id": 0,
+          "text": "Enemy is a 2013 psychological thriller film directed by Denis Villeneuve , produced by M.S. Faura and Niv Fichman and written by Javier Gullón , loosely adapted from José Saramago 's 2002 novel The Double .",
+          "score": 3.05
+        },
+        {
+          "page_id": "All_Stars_-LRB-2013_film-RRB-",
+          "sentence_id": 0,
+          "text": "All Stars -LRB- also known as StreetDance : All Stars -RRB- is a 2013 British film that was directed by Ben Gregor .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "The_Enemy_Within_-LRB-2013_film-RRB-",
+          "sentence_id": 1,
+          "text": "The film released in 2013 and it stars Manolis Mavromatakis and Maria Zorba .",
+          "score": 3.025
+        },
+        {
+          "page_id": "2013_Deauville_American_Film_Festival",
+          "sentence_id": 0,
+          "text": "The 39th Deauville American Film Festival took place at Deauville , France from August 30 to September 8 , 2013 .",
+          "score": 3.02
+        },
+        {
+          "page_id": "American_Film_Institute_Awards_2013",
+          "sentence_id": 0,
+          "text": "The American Film Institute -LRB- AFI -RRB- Awards 2013 honored the Top 10 Films and Top 10 Television Programs of the year .",
+          "score": 3.0166666666666666
+        }
+      ],
+      "probabilities": [
+        0.5102275609970093,
+        0.48908427357673645,
+        0.0006881846929900348
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.1922862500000022,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Enemy_-LRB-2013_film-RRB-",
+          "sentence_id": 0,
+          "text": "Enemy is a 2013 psychological thriller film directed by Denis Villeneuve , produced by M.S. Faura and Niv Fichman and written by Javier Gullón , loosely adapted from José Saramago 's 2002 novel The Double .",
+          "score": 3.05
+        },
+        {
+          "page_id": "All_Stars_-LRB-2013_film-RRB-",
+          "sentence_id": 0,
+          "text": "All Stars -LRB- also known as StreetDance : All Stars -RRB- is a 2013 British film that was directed by Ben Gregor .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "The_Enemy_Within_-LRB-2013_film-RRB-",
+          "sentence_id": 1,
+          "text": "The film released in 2013 and it stars Manolis Mavromatakis and Maria Zorba .",
+          "score": 3.025
+        },
+        {
+          "page_id": "2013_Deauville_American_Film_Festival",
+          "sentence_id": 0,
+          "text": "The 39th Deauville American Film Festival took place at Deauville , France from August 30 to September 8 , 2013 .",
+          "score": 3.02
+        },
+        {
+          "page_id": "American_Film_Institute_Awards_2013",
+          "sentence_id": 0,
+          "text": "The American Film Institute -LRB- AFI -RRB- Awards 2013 honored the Top 10 Films and Top 10 Television Programs of the year .",
+          "score": 3.0166666666666666
+        }
+      ],
+      "probabilities": [
+        0.5102275609970093,
+        0.48908427357673645,
+        0.0006881846929900348
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09836687499999996,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.7398213744163513,
+        0.04508211836218834,
+        0.2150966078042984
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

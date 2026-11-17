@@ -1,0 +1,269 @@
+{
+  "id": 179223,
+  "claim": "Up All Night is a Warner Bros. film.",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.0746019184589386,
+    0.924668550491333,
+    0.0007295174873434007
+  ],
+  "logits": [
+    0.23106718063354492,
+    2.7483363151550293,
+    -4.39647102355957
+  ],
+  "inference_seconds": 0.11140487500000162,
+  "evidence_text": "Up All Night (film), or Friday Download: The Movie, a 2015 British film USA Up All Night, a 1989–1998 movie/variety show on the USA Network \"Up All Night\" (Modern Family), 2010 \"Up All Night\" (The Secret Life of the American Teenager), 2010 \"Up All Night\" (30 Rock), 2007 \"Up All Night\" (The Bill), 1992 Up All Night, by the Procussions, 2004 \"Up All Night\" (Man Up!), 2011 \"Up All Night\" (Matt Willis song), 2006 \"Up All Night\" (Squirrel Boy), 2006 \"Up All Night\" (Doctor Who), 2011 \"Up All Night\" (Dream On), 1992 \"Up All Night\" (Khalid song), 2019 \"Up All Night\", by Best Coast from The Only Place, 2012 \"Up All Night\" (Take That song), 2009 \"Up All Night\", by Rosemary's Sons, 2002 Up All Night or Up All Nite may refer to: \"Up All Night\" (Little Bear), 1995 Film and television studios: \"Up All Night\" (Whitney), 2011 \"Up All Night\" (The Adventures of Chuck and Friends), 2010 Up All Night (East 17 album), 1995 \"Up All Night\" (Mad About You), 1994 Up All Night (TV series), a 2011 American sitcom on NBC \"Up All Night\", by Hinder from Take It to the Limit, 2008 Up All Night (The Chic Organization album), 2013 Up All Night: The Live Tour, a 2012 video documenting the tour \"Up All Night\" (Drake song), 2010 Up All Night (The Waifs album) or the title song, 2003 \"Up All Night\", by Rachel Crow, 2019",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 366,
+    "tokens_retained": 366,
+    "truncated": false,
+    "evidence_tokens_total": 352,
+    "evidence_tokens_retained": 352,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 1046299,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 1046299,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 1046299,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 1046299,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 1046299,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 1046299,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 1046299,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 1046299,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 1046299,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 1046299,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 81891182,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 1046299,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 1046299,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 1046299,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 1046299,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 1046299,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 1046299,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 1046299,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 1046299,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 1046299,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Up All Night is a Warner Bros. film.</s></s>Up All Night (film), or Friday Download: The Movie, a 2015 British film USA Up All Night, a 1989–1998 movie/variety show on the USA Network \"Up All Night\" (Modern Family), 2010 \"Up All Night\" (The Secret Life of the American Teenager), 2010 \"Up All Night\" (30 Rock), 2007 \"Up All Night\" (The Bill), 1992 Up All Night, by the Procussions, 2004 \"Up All Night\" (Man Up!), 2011 \"Up All Night\" (Matt Willis song), 2006 \"Up All Night\" (Squirrel Boy), 2006 \"Up All Night\" (Doctor Who), 2011 \"Up All Night\" (Dream On), 1992 \"Up All Night\" (Khalid song), 2019 \"Up All Night\", by Best Coast from The Only Place, 2012 \"Up All Night\" (Take That song), 2009 \"Up All Night\", by Rosemary's Sons, 2002 Up All Night or Up All Nite may refer to: \"Up All Night\" (Little Bear), 1995 Film and television studios: \"Up All Night\" (Whitney), 2011 \"Up All Night\" (The Adventures of Chuck and Friends), 2010 Up All Night (East 17 album), 1995 \"Up All Night\" (Mad About You), 1994 Up All Night (TV series), a 2011 American sitcom on NBC \"Up All Night\", by Hinder from Take It to the Limit, 2008 Up All Night (The Chic Organization album), 2013 Up All Night: The Live Tour, a 2012 video documenting the tour \"Up All Night\" (Drake song), 2010 Up All Night (The Waifs album) or the title song, 2003 \"Up All Night\", by Rachel Crow, 2019</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

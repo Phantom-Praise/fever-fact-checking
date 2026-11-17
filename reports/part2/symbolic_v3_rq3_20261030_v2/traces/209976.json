@@ -1,0 +1,116 @@
+{
+  "id": 209976,
+  "claim": "Iron Man (2008 film) was nominated for zero Academy Awards.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.177637083999997,
+      "symbolic": {
+        "claim": "Iron Man (2008 film) was nominated for zero Academy Awards.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.279199999970615e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Iron_Man_-LRB-2008_film-RRB-",
+          "sentence_id": 0,
+          "text": "Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name , produced by Marvel Studios and distributed by Paramount Pictures .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Iron_Man",
+          "sentence_id": 15,
+          "text": "The character is portrayed by Robert Downey Jr. in the live action film Iron Man -LRB- 2008 -RRB- , which was a critical and box office success .",
+          "score": 4.05
+        },
+        {
+          "page_id": "Iron_Man_2",
+          "sentence_id": 1,
+          "text": "It is the sequel to 2008 's Iron Man , and is the third film in the Marvel Cinematic Universe .",
+          "score": 4.0125
+        },
+        {
+          "page_id": "Iron_Man_3",
+          "sentence_id": 1,
+          "text": "It is the sequel to 2008 's Iron Man and 2010 's Iron Man 2 , and the seventh film in the Marvel Cinematic Universe .",
+          "score": 4.01
+        },
+        {
+          "page_id": "Iron_Man_-LRB-2008_film-RRB-",
+          "sentence_id": 15,
+          "text": "Iron Man premiered in Sydney on April 14 , 2008 , and was released in theaters on May 2 , 2008 .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.042177390307188034,
+        0.9577353000640869,
+        8.729439286980778e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05916120799999902,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.01961180567741394,
+        0.9638469815254211,
+        0.0165411289781332
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.1504312499999969,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Iron_Man_-LRB-2008_film-RRB-",
+          "sentence_id": 0,
+          "text": "Iron Man is a 2008 American superhero film based on the Marvel Comics character of the same name , produced by Marvel Studios and distributed by Paramount Pictures .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Iron_Man",
+          "sentence_id": 15,
+          "text": "The character is portrayed by Robert Downey Jr. in the live action film Iron Man -LRB- 2008 -RRB- , which was a critical and box office success .",
+          "score": 4.05
+        },
+        {
+          "page_id": "Iron_Man_2",
+          "sentence_id": 1,
+          "text": "It is the sequel to 2008 's Iron Man , and is the third film in the Marvel Cinematic Universe .",
+          "score": 4.0125
+        },
+        {
+          "page_id": "Iron_Man_3",
+          "sentence_id": 1,
+          "text": "It is the sequel to 2008 's Iron Man and 2010 's Iron Man 2 , and the seventh film in the Marvel Cinematic Universe .",
+          "score": 4.01
+        },
+        {
+          "page_id": "Iron_Man_-LRB-2008_film-RRB-",
+          "sentence_id": 15,
+          "text": "Iron Man premiered in Sydney on April 14 , 2008 , and was released in theaters on May 2 , 2008 .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.042177390307188034,
+        0.9577353000640869,
+        8.729439286980778e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

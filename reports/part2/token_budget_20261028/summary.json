@@ -1,0 +1,448 @@
+{
+  "status": "complete",
+  "n": 19998,
+  "protocol": {
+    "experiment": "evidence_input_256_vs_512",
+    "n": 19998,
+    "smoke": false,
+    "population": "All 19998 official FEVER development claims in original order",
+    "labels": [
+      "SUPPORTS",
+      "REFUTES",
+      "NOT ENOUGH INFO"
+    ],
+    "evidence_lengths": [
+      256,
+      512
+    ],
+    "batch_size": 8,
+    "device": "mps",
+    "seed": 42,
+    "original_device": "mps",
+    "claim_branch": "Frozen saved 256-token probabilities, unchanged in both conditions",
+    "evidence_branch": "Same checkpoint; exact original top-five references and text order; max_length only changes to 512",
+    "fusion": {
+      "variant": "original",
+      "claim_weight": 0.75,
+      "nei_bias": 2,
+      "accuracy": 0.7033333333333334,
+      "macro_f1": 0.6492812408800414,
+      "variant_index": 0,
+      "status": "frozen_before_assessment_scoring",
+      "calibration_n": 300
+    },
+    "input_sha256": {
+      "data/official_fever/shared_task_dev.jsonl": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+      "reports/part2/official_fever_dev_20261023/outputs.jsonl": "757cc6b4caabb344ae572df276bc9e6232e99d4797b0fdc5ea92a517ac151a8b",
+      "src/experiment_token_budget.py": "906f33bf5332cb31cfccae4385e7f2d471b2741756a0f73f7ad36453e4c9e93c",
+      "reports/part2/official_fever_dev_20261023/protocol.json": "2b6fc5fcd87839eeb25b4d57a8257004cad592140f674d8fce44ae5e32e1676e",
+      "src/evidence_pipeline_v2.py": "9db9767ff29aa345c0c75cc26866726e74ed60dc73f71147b9859206aba18321",
+      "src/vendor/fever_scorer.py": "fa12eaab2c88208f990948fc5d533ad4f91a6b8f48640f29317d1f00ab410ac9",
+      "checkpoints/roberta_evidence/epoch_1/config.json": "6e879816747faab2f1f1577d7c3e687d7481691a9c4277ee93fbf56ca29f5686",
+      "checkpoints/roberta_evidence/epoch_1/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "checkpoints/roberta_evidence/epoch_1/model.safetensors": "7a4a377205db4adf4af1671345e0ddbed2b164b78f1f4c1aaa13666b3b07e7f2",
+      "checkpoints/roberta_evidence/epoch_1/special_tokens_map.json": "06e405a36dfe4b9604f484f6a1e619af1a7f7d09e34a8555eb0b77b66318067f",
+      "checkpoints/roberta_evidence/epoch_1/tokenizer.json": "2c4c25f79756307e6e7e5bd219a0d602f784db9cdb63a9d76d8da7d05a032335",
+      "checkpoints/roberta_evidence/epoch_1/tokenizer_config.json": "4ea8648e4067230942ac6b32dd61328675bc99ae0a9f4cc665c30a95f0f68712",
+      "checkpoints/roberta_evidence/epoch_1/vocab.json": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e"
+    },
+    "db": {
+      "path": "data/processed/wiki_fts.db",
+      "bytes": 11903868928,
+      "mtime_ns": 1792674496346371586
+    },
+    "runtime": {
+      "python": "3.9.18 (main, Mar 30 2026, 07:13:21) \n[Clang 17.0.0 (clang-1700.3.19.1)]",
+      "torch": "2.8.0",
+      "transformers": "4.57.6"
+    },
+    "limitations": [
+      "Exploratory dev-set analysis after inspection of Telemundo; not a new untouched test.",
+      "No tuning, training, or claim-only input-length change.",
+      "Baseline probabilities reused; smoke check independently reproduces 256-token inference.",
+      "512 can still truncate long inputs; training used 256.",
+      "Comparisons include multiple model branches; p-values are unadjusted."
+    ]
+  },
+  "truncation": {
+    "over_256": 1738,
+    "over_512": 4,
+    "fully_fit_at_512": 19994
+  },
+  "conditions": {
+    "retrieved_roberta_256": {
+      "n": 19998,
+      "fever_score": 0.35068506850685066,
+      "label_accuracy": 0.5237023702370237,
+      "evidence_macro_precision": 0.15484548454847508,
+      "evidence_macro_recall": 0.6337383738373837,
+      "evidence_f1": 0.24888038102802754,
+      "classification_macro_f1": 0.41749771239735556,
+      "confusion_matrix": [
+        [
+          5997,
+          669,
+          0
+        ],
+        [
+          2190,
+          4476,
+          0
+        ],
+        [
+          3734,
+          2932,
+          0
+        ]
+      ],
+      "accuracy": 0.5237023702370237,
+      "macro_f1": 0.41749771239735556,
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 5997,
+          "FP": 5924,
+          "FN": 669,
+          "TN": 7408,
+          "precision": 0.5030618236725107,
+          "recall": 0.8996399639963997,
+          "f1": 0.6452897186205412
+        },
+        "REFUTES": {
+          "TP": 4476,
+          "FP": 3601,
+          "FN": 2190,
+          "TN": 9731,
+          "precision": 0.5541661507985638,
+          "recall": 0.6714671467146714,
+          "f1": 0.6072034185715255
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 6666,
+          "TN": 13332,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "retrieved_roberta_512": {
+      "n": 19998,
+      "fever_score": 0.3507350735073507,
+      "label_accuracy": 0.5237523752375237,
+      "evidence_macro_precision": 0.15484548454847508,
+      "evidence_macro_recall": 0.6337383738373837,
+      "evidence_f1": 0.24888038102802754,
+      "classification_macro_f1": 0.4175400565756478,
+      "confusion_matrix": [
+        [
+          5998,
+          668,
+          0
+        ],
+        [
+          2190,
+          4476,
+          0
+        ],
+        [
+          3736,
+          2930,
+          0
+        ]
+      ],
+      "accuracy": 0.5237523752375237,
+      "macro_f1": 0.4175400565756478,
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 5998,
+          "FP": 5926,
+          "FN": 668,
+          "TN": 7406,
+          "precision": 0.5030191211003019,
+          "recall": 0.8997899789978998,
+          "f1": 0.6452931683700914
+        },
+        "REFUTES": {
+          "TP": 4476,
+          "FP": 3598,
+          "FN": 2190,
+          "TN": 9734,
+          "precision": 0.554372058459252,
+          "recall": 0.6714671467146714,
+          "f1": 0.6073270013568521
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 6666,
+          "TN": 13332,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      }
+    },
+    "calibrated_ensemble_256": {
+      "n": 19998,
+      "fever_score": 0.4532953295329533,
+      "label_accuracy": 0.6169616961696169,
+      "evidence_macro_precision": 0.15484548454847508,
+      "evidence_macro_recall": 0.6337383738373837,
+      "evidence_f1": 0.24888038102802754,
+      "classification_macro_f1": 0.6077983147796523,
+      "confusion_matrix": [
+        [
+          5761,
+          284,
+          621
+        ],
+        [
+          1773,
+          3787,
+          1106
+        ],
+        [
+          3129,
+          747,
+          2790
+        ]
+      ],
+      "accuracy": 0.6169616961696169,
+      "macro_f1": 0.6077983147796523,
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 5761,
+          "FP": 4902,
+          "FN": 905,
+          "TN": 8430,
+          "precision": 0.5402794710681796,
+          "recall": 0.8642364236423642,
+          "f1": 0.664896993479139
+        },
+        "REFUTES": {
+          "TP": 3787,
+          "FP": 1031,
+          "FN": 2879,
+          "TN": 12301,
+          "precision": 0.7860107928601079,
+          "recall": 0.568106810681068,
+          "f1": 0.6595262974573319
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 2790,
+          "FP": 1727,
+          "FN": 3876,
+          "TN": 11605,
+          "precision": 0.6176665928713748,
+          "recall": 0.41854185418541856,
+          "f1": 0.4989716534024859
+        }
+      }
+    },
+    "calibrated_ensemble_512": {
+      "n": 19998,
+      "fever_score": 0.4532953295329533,
+      "label_accuracy": 0.6170617061706171,
+      "evidence_macro_precision": 0.15484548454847508,
+      "evidence_macro_recall": 0.6337383738373837,
+      "evidence_f1": 0.24888038102802754,
+      "classification_macro_f1": 0.6078228692960885,
+      "confusion_matrix": [
+        [
+          5767,
+          281,
+          618
+        ],
+        [
+          1776,
+          3789,
+          1101
+        ],
+        [
+          3135,
+          747,
+          2784
+        ]
+      ],
+      "accuracy": 0.6170617061706171,
+      "macro_f1": 0.6078228692960885,
+      "per_class": {
+        "SUPPORTS": {
+          "TP": 5767,
+          "FP": 4911,
+          "FN": 899,
+          "TN": 8421,
+          "precision": 0.5400824124367859,
+          "recall": 0.8651365136513651,
+          "f1": 0.6650138376383764
+        },
+        "REFUTES": {
+          "TP": 3789,
+          "FP": 1028,
+          "FN": 2877,
+          "TN": 12304,
+          "precision": 0.7865891633796969,
+          "recall": 0.5684068406840684,
+          "f1": 0.6599320734999564
+        },
+        "NOT ENOUGH INFO": {
+          "TP": 2784,
+          "FP": 1719,
+          "FN": 3882,
+          "TN": 11613,
+          "precision": 0.6182544970019986,
+          "recall": 0.41764176417641763,
+          "f1": 0.4985226967499328
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "retrieved_roberta": {
+      "n": 19998,
+      "fixed_errors": 7,
+      "newly_wrong": 6,
+      "both_correct": 10467,
+      "both_wrong": 9518,
+      "accuracy_delta": 5.000500050005001e-05,
+      "paired_accuracy_ci95": [
+        -0.00030003000300030005,
+        0.00040004000400040005
+      ],
+      "mcnemar_exact_p_unadjusted": 1.0,
+      "bootstrap_samples": 10000,
+      "bootstrap_seed": 42,
+      "truncated_at_256": {
+        "n": 1738,
+        "fixed_errors": 7,
+        "newly_wrong": 6,
+        "both_correct": 930,
+        "both_wrong": 795,
+        "accuracy_delta": 0.0005753739930955121,
+        "paired_accuracy_ci95": [
+          -0.0034522439585730723,
+          0.004602991944764097
+        ],
+        "mcnemar_exact_p_unadjusted": 1.0,
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 42
+      },
+      "already_fit_256": {
+        "n": 18260,
+        "fixed_errors": 0,
+        "newly_wrong": 0,
+        "both_correct": 9537,
+        "both_wrong": 8723,
+        "accuracy_delta": 0.0,
+        "paired_accuracy_ci95": [
+          0.0,
+          0.0
+        ],
+        "mcnemar_exact_p_unadjusted": 1.0,
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 42
+      }
+    },
+    "calibrated_ensemble": {
+      "n": 19998,
+      "fixed_errors": 14,
+      "newly_wrong": 12,
+      "both_correct": 12326,
+      "both_wrong": 7646,
+      "accuracy_delta": 0.00010001000100010001,
+      "paired_accuracy_ci95": [
+        -0.00040004000400040005,
+        0.0006000600060006001
+      ],
+      "mcnemar_exact_p_unadjusted": 0.8450189828872681,
+      "bootstrap_samples": 10000,
+      "bootstrap_seed": 42,
+      "truncated_at_256": {
+        "n": 1738,
+        "fixed_errors": 14,
+        "newly_wrong": 12,
+        "both_correct": 1084,
+        "both_wrong": 628,
+        "accuracy_delta": 0.0011507479861910242,
+        "paired_accuracy_ci95": [
+          -0.004602991944764097,
+          0.006904487917146145
+        ],
+        "mcnemar_exact_p_unadjusted": 0.8450189828872681,
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 42
+      },
+      "already_fit_256": {
+        "n": 18260,
+        "fixed_errors": 0,
+        "newly_wrong": 0,
+        "both_correct": 11242,
+        "both_wrong": 7018,
+        "accuracy_delta": 0.0,
+        "paired_accuracy_ci95": [
+          0.0,
+          0.0
+        ],
+        "mcnemar_exact_p_unadjusted": 1.0,
+        "bootstrap_samples": 10000,
+        "bootstrap_seed": 42
+      }
+    }
+  },
+  "inference_512_seconds": 648.2567589509995,
+  "telemundo": {
+    "id": 111897,
+    "claim": "Telemundo is a English-language television network.",
+    "gold_label": "REFUTES",
+    "predicted_evidence": [
+      [
+        "Noticias_Telemundo",
+        8
+      ],
+      [
+        "Noticiero_Telemundo",
+        0
+      ],
+      [
+        "Telemundo",
+        0
+      ],
+      [
+        "Noticias_Telemundo",
+        0
+      ],
+      [
+        "Telemundo_Deportes",
+        0
+      ]
+    ],
+    "evidence_text_sha256": "19c6cef5ad1b9038c6d44324a193aad0a12d99fe7f41a17f434e65c6dfbae127",
+    "model_probabilities": {
+      "claim": [
+        0.676668107509613,
+        0.21641048789024353,
+        0.10692138224840164
+      ],
+      "evidence": [
+        0.8973885774612427,
+        0.10240834206342697,
+        0.00020309063256718218
+      ]
+    },
+    "predictions": {
+      "retrieved_roberta": 0,
+      "calibrated_ensemble": 0
+    },
+    "baseline_predictions": {
+      "claim_only_H2": 0,
+      "retrieved_roberta": 0,
+      "calibrated_ensemble": 0
+    },
+    "full_input_tokens": 347,
+    "retained_tokens_512": 347,
+    "batch_inference_seconds": 0.29307008300000037,
+    "batch_n": 8
+  }
+}

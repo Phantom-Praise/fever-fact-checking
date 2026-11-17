@@ -1,0 +1,69 @@
+{
+  "id": 197575,
+  "claim": "Netflix released Master of None.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9884467124938965,
+    0.011468915268778801,
+    8.44195019453764e-05
+  ],
+  "logits": [
+    4.228459358215332,
+    -0.22803500294685364,
+    -5.139632225036621
+  ],
+  "inference_seconds": 0.10968866600000027,
+  "evidence_text": "Master of None is an American comedy-drama web television series , which was released for streaming on November 6 , 2015 on Netflix . Netflix released an estimated 126 original series or films in 2016 , more than any other network or cable channel . Hee Man : Master of None is a 1985 Filipino fantasy film directed by Tony Y. Reyes The second season consists of ten episodes and was released on May 12 , 2017 . Netflix is an American entertainment company founded by Reed Hastings and Marc Randolph on August 29 , 1997 , in Scotts Valley , California .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 119,
+    "tokens_retained": 119,
+    "truncated": false,
+    "evidence_tokens_total": 109,
+    "evidence_tokens_retained": 109,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Master_of_None",
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Netflix",
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Hee_Man-COLON-_Master_of_None",
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Master_of_None",
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Netflix",
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Netflix released Master of None.</s></s>Master of None is an American comedy-drama web television series , which was released for streaming on November 6 , 2015 on Netflix . Netflix released an estimated 126 original series or films in 2016 , more than any other network or cable channel . Hee Man : Master of None is a 1985 Filipino fantasy film directed by Tony Y. Reyes The second season consists of ten episodes and was released on May 12 , 2017 . Netflix is an American entertainment company founded by Reed Hastings and Marc Randolph on August 29 , 1997 , in Scotts Valley , California .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

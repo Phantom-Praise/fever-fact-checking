@@ -1,0 +1,13 @@
+{
+  "status": "complete",
+  "n": 100,
+  "symbolic_decisions": 1,
+  "symbolic_correct": 1,
+  "symbolic_model_calls_avoided": 1,
+  "accuracy_gain": 0,
+  "service_failure_fallbacks": 2,
+  "frozen_sources_unchanged": true,
+  "no_model_training": true,
+  "new_statement_store": "knowledge_base/knowledge.sqlite",
+  "known_parser_limitation": "word decades are not correctly separated from place expressions"
+}

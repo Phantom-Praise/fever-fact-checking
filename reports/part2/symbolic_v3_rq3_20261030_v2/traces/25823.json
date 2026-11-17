@@ -1,0 +1,116 @@
+{
+  "id": 25823,
+  "claim": "Theodore Roosevelt was a couch potato.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.06998795899999877,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Theodore_Roosevelt",
+          "sentence_id": 0,
+          "text": "Theodore Roosevelt Jr. -LRB- -LSB- ˈroʊzəvɛlt -RSB- ; October 27 , 1858 -- January 6 , 1919 -RRB- was an American statesman , author , explorer , soldier , naturalist , and reformer who served as the 26th President of the United States from 1901 to 1909 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Theodore_Roosevelt_Association",
+          "sentence_id": 0,
+          "text": "The Theodore Roosevelt Association -LRB- TRA -RRB- is a historical and cultural organization dedicated to honoring the life and work of Theodore Roosevelt -LRB- 1858 -- 1919 -RRB- , the 26th President of the United States .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Theodore_Roosevelt_Award",
+          "sentence_id": 0,
+          "text": "The Theodore Roosevelt Award is the highest honor the National Collegiate Athletic Association -LRB- NCAA -RRB- may confer on an individual .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Theodore_Roosevelt_Award",
+          "sentence_id": 5,
+          "text": "The award , nicknamed `` The Teddy , '' is named after U.S. President Theodore Roosevelt , whose concern for the conduct of intercollegiate athletes and athletic programs led to the formation of the NCAA in 1906 .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Theodore_Roosevelt_Bridge",
+          "sentence_id": 0,
+          "text": "The Theodore Roosevelt Bridge -LRB- also known as the Teddy Roosevelt Bridge or the Roosevelt Bridge -RRB- is a bridge crossing the Potomac River which connects Washington , D.C. , with the Commonwealth of Virginia .",
+          "score": 2.025
+        }
+      ],
+      "probabilities": [
+        0.028361160308122635,
+        0.9715015888214111,
+        0.0001372835540678352
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.06053474999999864,
+      "symbolic": {
+        "claim": "Theodore Roosevelt was a couch potato.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.4917000001446468e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Theodore_Roosevelt",
+          "sentence_id": 0,
+          "text": "Theodore Roosevelt Jr. -LRB- -LSB- ˈroʊzəvɛlt -RSB- ; October 27 , 1858 -- January 6 , 1919 -RRB- was an American statesman , author , explorer , soldier , naturalist , and reformer who served as the 26th President of the United States from 1901 to 1909 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Theodore_Roosevelt_Association",
+          "sentence_id": 0,
+          "text": "The Theodore Roosevelt Association -LRB- TRA -RRB- is a historical and cultural organization dedicated to honoring the life and work of Theodore Roosevelt -LRB- 1858 -- 1919 -RRB- , the 26th President of the United States .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Theodore_Roosevelt_Award",
+          "sentence_id": 0,
+          "text": "The Theodore Roosevelt Award is the highest honor the National Collegiate Athletic Association -LRB- NCAA -RRB- may confer on an individual .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Theodore_Roosevelt_Award",
+          "sentence_id": 5,
+          "text": "The award , nicknamed `` The Teddy , '' is named after U.S. President Theodore Roosevelt , whose concern for the conduct of intercollegiate athletes and athletic programs led to the formation of the NCAA in 1906 .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Theodore_Roosevelt_Bridge",
+          "sentence_id": 0,
+          "text": "The Theodore Roosevelt Bridge -LRB- also known as the Teddy Roosevelt Bridge or the Roosevelt Bridge -RRB- is a bridge crossing the Potomac River which connects Washington , D.C. , with the Commonwealth of Virginia .",
+          "score": 2.025
+        }
+      ],
+      "probabilities": [
+        0.028361160308122635,
+        0.9715015888214111,
+        0.0001372835540678352
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "NOT ENOUGH INFO",
+      "wall_seconds": 0.057487625000000264,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.057197872549295425,
+        0.03229862079024315,
+        0.9105035066604614
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

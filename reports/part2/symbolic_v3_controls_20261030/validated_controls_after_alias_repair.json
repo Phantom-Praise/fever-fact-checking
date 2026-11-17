@@ -1,0 +1,1913 @@
+[
+  {
+    "expected": "SUPPORTS",
+    "trace": {
+      "claim": "Jean-Martin Charcot was born in November 1825.",
+      "label": "SUPPORTS",
+      "reason": "complete_symbolic_comparison",
+      "parts": [
+        {
+          "property": "P569",
+          "kind": "date",
+          "expected": {
+            "month": 11,
+            "year": 1825
+          },
+          "verdict": "SUPPORTS",
+          "reason": "direct_date_comparison",
+          "statements": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P569",
+                "hash": "4e2ca4a2b63ab8b68ac6a7c63982920007560558",
+                "datavalue": {
+                  "value": {
+                    "time": "+1825-11-29T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 11,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "q20710$6908FF2F-924A-4F88-A4AC-2BDCA057E4B5",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "dedcca21dd0c8c5fd93d66cf45bcedf7b21f0560",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "def9f19d84b65167a2a17ce38364d264c16127fc",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 19938912,
+                            "id": "Q19938912"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P268": [
+                      {
+                        "snaktype": "value",
+                        "property": "P268",
+                        "hash": "f39867bf8067497bf99383dc87cb1cad8ac03db3",
+                        "datavalue": {
+                          "value": "12424494s",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "d6162a1716489623c6e595e448b17f8dca4fb2e8",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2015-10-10T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P268",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "46f290d57b63161f0f2e4a71a5c6b0bd654d0cbe",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "cfd0c3e372fd1fdd803e22394eb7b42210211e3d",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 2886420,
+                            "id": "Q2886420"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P640": [
+                      {
+                        "snaktype": "value",
+                        "property": "P640",
+                        "hash": "523c7699be0eb08d3a84fb06ba29b1e9844b0cb3",
+                        "datavalue": {
+                          "value": "LH//488/10",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "19f36869ded44c93c4eca88b8c87f26a14dc42ce",
+                        "datavalue": {
+                          "value": "Jean Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-10-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P640",
+                    "P1810",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "1856964745dfa7b72e8caed3f5dcc9bb01355114",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "dee3022ec24970657a992a2a969fffdc1236fbfb",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 17299517,
+                            "id": "Q17299517"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P650": [
+                      {
+                        "snaktype": "value",
+                        "property": "P650",
+                        "hash": "f0c91fd951840b42350e0478e26ef2205ad72b15",
+                        "datavalue": {
+                          "value": "380997",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "987c7f7a46298751490c5d57edf95ff1a5ec8be0",
+                        "datavalue": {
+                          "value": "Jean-Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-10-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P650",
+                    "P1810",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "2b1fcb87225a00a2da4fae49b02af9a287c7a0eb",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "f98ec89708e8eab9511c049702ef59df0721d652",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 29861311,
+                            "id": "Q29861311"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P3430": [
+                      {
+                        "snaktype": "value",
+                        "property": "P3430",
+                        "hash": "4f71bf2018c415d0f24041ab0e1fd402cfc81d5a",
+                        "datavalue": {
+                          "value": "w6669b43",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "987c7f7a46298751490c5d57edf95ff1a5ec8be0",
+                        "datavalue": {
+                          "value": "Jean-Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-10-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P3430",
+                    "P1810",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "b154f7c7296891d431f3384725a4710ede5c7ca3",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "f5734611c1e9bfb52b6d5cae6ff7a7c544ecc00c",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 66683,
+                            "id": "Q66683"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P5415": [
+                      {
+                        "snaktype": "value",
+                        "property": "P5415",
+                        "hash": "7ef8c308bc90c9ddfd830b5d9bd8ee7614321f62",
+                        "datavalue": {
+                          "value": "19",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "987c7f7a46298751490c5d57edf95ff1a5ec8be0",
+                        "datavalue": {
+                          "value": "Jean-Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-10-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P5415",
+                    "P1810",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "d4e8d10da4322ff14eea0d47b079a3329a311c2e",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "e2a81dbf2f7dd02b332d6358ef65f622f82e8cc3",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 237227,
+                            "id": "Q237227"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P5019": [
+                      {
+                        "snaktype": "value",
+                        "property": "P5019",
+                        "hash": "91adf2cac27a27eb9bb2c0f7c609e7b97041ad9f",
+                        "datavalue": {
+                          "value": "charcot-jean-martin",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "19f36869ded44c93c4eca88b8c87f26a14dc42ce",
+                        "datavalue": {
+                          "value": "Jean Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-10-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P5019",
+                    "P1810",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "f982cbcdce7e9c121df9213671a7d70931176809",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "52c431c41b8a73130ff729f9b7027b9d19fffcd5",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 2664168,
+                            "id": "Q2664168"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P1296": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1296",
+                        "hash": "c378a981ffa55cdbe3535c50d9e79e2dc8fc9093",
+                        "datavalue": {
+                          "value": "0017380",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "19f36869ded44c93c4eca88b8c87f26a14dc42ce",
+                        "datavalue": {
+                          "value": "Jean Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P1296",
+                    "P1810"
+                  ]
+                },
+                {
+                  "hash": "b6d899540af5c6f6d02864624c26ad19577fb0e7",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "46c57705d3d830a83aa228de72dc7c148cd30551",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 3407324,
+                            "id": "Q3407324"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P8349": [
+                      {
+                        "snaktype": "value",
+                        "property": "P8349",
+                        "hash": "3e86d76d166d53321651707674e0847fb45cb6a3",
+                        "datavalue": {
+                          "value": "15045",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "987c7f7a46298751490c5d57edf95ff1a5ec8be0",
+                        "datavalue": {
+                          "value": "Jean-Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P8349",
+                    "P1810"
+                  ]
+                },
+                {
+                  "hash": "c6d511e246073dc4cab6692dc14b55702e4d678f",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "3955d0a7521fe2bf1f954efaaa995dc5c1aab2a1",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 1789619,
+                            "id": "Q1789619"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P7982": [
+                      {
+                        "snaktype": "value",
+                        "property": "P7982",
+                        "hash": "3ee8beaa80a4b01d53a5a7d083e66c9c9bdb13a0",
+                        "datavalue": {
+                          "value": "11466",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "19f36869ded44c93c4eca88b8c87f26a14dc42ce",
+                        "datavalue": {
+                          "value": "Jean Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P7982",
+                    "P1810"
+                  ]
+                },
+                {
+                  "hash": "da25eaad55c161b3669f3d1f882597d02be30bcf",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "155e1a7322c5a7febad55feba5ba4c3a2656b1c4",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 2877812,
+                            "id": "Q2877812"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P3630": [
+                      {
+                        "snaktype": "value",
+                        "property": "P3630",
+                        "hash": "1db1c23e637132ebd1fddbed4a280d20d5fa4430",
+                        "datavalue": {
+                          "value": "177719",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "987c7f7a46298751490c5d57edf95ff1a5ec8be0",
+                        "datavalue": {
+                          "value": "Jean-Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P3630",
+                    "P1810"
+                  ]
+                },
+                {
+                  "hash": "ab28111c57cf97459064793c1cc4b02d06efe6f3",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "d090d15da7d9e694e4007fa21232edb621e67ba3",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 107456632,
+                            "id": "Q107456632"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P6844": [
+                      {
+                        "snaktype": "value",
+                        "property": "P6844",
+                        "hash": "af66c10d2c4a8d3730ae2adec010010e6a221de3",
+                        "datavalue": {
+                          "value": "139109",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "6f8f333cebfac92bb111b2fdd9fcbf7697285918",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-04-01T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P6844",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "3f553042728938c9d225d3e352e2878fd522d8bd",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "57c74f612fbe79aad13006051ae49e78c550a159",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 107213173,
+                            "id": "Q107213173"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P3956": [
+                      {
+                        "snaktype": "value",
+                        "property": "P3956",
+                        "hash": "d3dafff10209e26638443ef4a7e9ddcda4484504",
+                        "datavalue": {
+                          "value": "683",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "5c76121ace29d92cf776abd71a22defa7ea2abb5",
+                        "datavalue": {
+                          "value": "Jean CHARCOT",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P3956",
+                    "P1810"
+                  ]
+                },
+                {
+                  "hash": "c5dacb00903eddbae8562299c74cb07f7447c95d",
+                  "snaks": {
+                    "P5375": [
+                      {
+                        "snaktype": "value",
+                        "property": "P5375",
+                        "hash": "3d128458fd0d8f86ee704b307d476422504b7ad1",
+                        "datavalue": {
+                          "value": "4116",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "19f36869ded44c93c4eca88b8c87f26a14dc42ce",
+                        "datavalue": {
+                          "value": "Jean Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "0bde68953160e94daaa581d877970796760d2ec8",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 105958830,
+                            "id": "Q105958830"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P5375",
+                    "P1810",
+                    "P248"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parsed": {
+        "subject": "Jean-Martin Charcot",
+        "human": true,
+        "parts": [
+          {
+            "property": "P569",
+            "kind": "date",
+            "expected": {
+              "month": 11,
+              "year": 1825
+            }
+          }
+        ]
+      },
+      "entity_resolution": "unique_label_or_alias",
+      "subject_id": "Q20710",
+      "source_url": "https://www.wikidata.org/wiki/Q20710",
+      "source_revision": 2559068294,
+      "queries": [
+        {
+          "params": {
+            "action": "wbsearchentities",
+            "search": "Jean-Martin Charcot",
+            "language": "en",
+            "limit": 50
+          },
+          "snapshot_file": "a3e531586d7ee6eb119c548d6cbc0f5c812859bae900e26d4a4fcb0b2d8f9fe8.json",
+          "fetched_utc": "2026-10-31T00:01:38.852067+00:00"
+        },
+        {
+          "entity_cache_hit": "Q20710"
+        },
+        {
+          "entity_cache_hit": "Q52343245"
+        },
+        {
+          "entity_cache_hit": "Q50456964"
+        },
+        {
+          "entity_cache_hit": "Q94233110"
+        }
+      ],
+      "http_calls": 0,
+      "wall_seconds": 0.002043375
+    }
+  },
+  {
+    "expected": "REFUTES",
+    "trace": {
+      "claim": "Jean-Martin Charcot was born in 1826.",
+      "label": "REFUTES",
+      "reason": "complete_symbolic_comparison",
+      "parts": [
+        {
+          "property": "P569",
+          "kind": "date",
+          "expected": {
+            "year": 1826
+          },
+          "verdict": "REFUTES",
+          "reason": "direct_date_comparison",
+          "statements": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P569",
+                "hash": "4e2ca4a2b63ab8b68ac6a7c63982920007560558",
+                "datavalue": {
+                  "value": {
+                    "time": "+1825-11-29T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 11,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "q20710$6908FF2F-924A-4F88-A4AC-2BDCA057E4B5",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "dedcca21dd0c8c5fd93d66cf45bcedf7b21f0560",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "def9f19d84b65167a2a17ce38364d264c16127fc",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 19938912,
+                            "id": "Q19938912"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P268": [
+                      {
+                        "snaktype": "value",
+                        "property": "P268",
+                        "hash": "f39867bf8067497bf99383dc87cb1cad8ac03db3",
+                        "datavalue": {
+                          "value": "12424494s",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "d6162a1716489623c6e595e448b17f8dca4fb2e8",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2015-10-10T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P268",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "46f290d57b63161f0f2e4a71a5c6b0bd654d0cbe",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "cfd0c3e372fd1fdd803e22394eb7b42210211e3d",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 2886420,
+                            "id": "Q2886420"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P640": [
+                      {
+                        "snaktype": "value",
+                        "property": "P640",
+                        "hash": "523c7699be0eb08d3a84fb06ba29b1e9844b0cb3",
+                        "datavalue": {
+                          "value": "LH//488/10",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "19f36869ded44c93c4eca88b8c87f26a14dc42ce",
+                        "datavalue": {
+                          "value": "Jean Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-10-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P640",
+                    "P1810",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "1856964745dfa7b72e8caed3f5dcc9bb01355114",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "dee3022ec24970657a992a2a969fffdc1236fbfb",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 17299517,
+                            "id": "Q17299517"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P650": [
+                      {
+                        "snaktype": "value",
+                        "property": "P650",
+                        "hash": "f0c91fd951840b42350e0478e26ef2205ad72b15",
+                        "datavalue": {
+                          "value": "380997",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "987c7f7a46298751490c5d57edf95ff1a5ec8be0",
+                        "datavalue": {
+                          "value": "Jean-Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-10-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P650",
+                    "P1810",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "2b1fcb87225a00a2da4fae49b02af9a287c7a0eb",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "f98ec89708e8eab9511c049702ef59df0721d652",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 29861311,
+                            "id": "Q29861311"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P3430": [
+                      {
+                        "snaktype": "value",
+                        "property": "P3430",
+                        "hash": "4f71bf2018c415d0f24041ab0e1fd402cfc81d5a",
+                        "datavalue": {
+                          "value": "w6669b43",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "987c7f7a46298751490c5d57edf95ff1a5ec8be0",
+                        "datavalue": {
+                          "value": "Jean-Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-10-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P3430",
+                    "P1810",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "b154f7c7296891d431f3384725a4710ede5c7ca3",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "f5734611c1e9bfb52b6d5cae6ff7a7c544ecc00c",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 66683,
+                            "id": "Q66683"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P5415": [
+                      {
+                        "snaktype": "value",
+                        "property": "P5415",
+                        "hash": "7ef8c308bc90c9ddfd830b5d9bd8ee7614321f62",
+                        "datavalue": {
+                          "value": "19",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "987c7f7a46298751490c5d57edf95ff1a5ec8be0",
+                        "datavalue": {
+                          "value": "Jean-Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-10-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P5415",
+                    "P1810",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "d4e8d10da4322ff14eea0d47b079a3329a311c2e",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "e2a81dbf2f7dd02b332d6358ef65f622f82e8cc3",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 237227,
+                            "id": "Q237227"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P5019": [
+                      {
+                        "snaktype": "value",
+                        "property": "P5019",
+                        "hash": "91adf2cac27a27eb9bb2c0f7c609e7b97041ad9f",
+                        "datavalue": {
+                          "value": "charcot-jean-martin",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "19f36869ded44c93c4eca88b8c87f26a14dc42ce",
+                        "datavalue": {
+                          "value": "Jean Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "e5f60ab0b03700bb883efce38f8022d023bc49fb",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2017-10-09T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P5019",
+                    "P1810",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "f982cbcdce7e9c121df9213671a7d70931176809",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "52c431c41b8a73130ff729f9b7027b9d19fffcd5",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 2664168,
+                            "id": "Q2664168"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P1296": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1296",
+                        "hash": "c378a981ffa55cdbe3535c50d9e79e2dc8fc9093",
+                        "datavalue": {
+                          "value": "0017380",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "19f36869ded44c93c4eca88b8c87f26a14dc42ce",
+                        "datavalue": {
+                          "value": "Jean Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P1296",
+                    "P1810"
+                  ]
+                },
+                {
+                  "hash": "b6d899540af5c6f6d02864624c26ad19577fb0e7",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "46c57705d3d830a83aa228de72dc7c148cd30551",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 3407324,
+                            "id": "Q3407324"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P8349": [
+                      {
+                        "snaktype": "value",
+                        "property": "P8349",
+                        "hash": "3e86d76d166d53321651707674e0847fb45cb6a3",
+                        "datavalue": {
+                          "value": "15045",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "987c7f7a46298751490c5d57edf95ff1a5ec8be0",
+                        "datavalue": {
+                          "value": "Jean-Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P8349",
+                    "P1810"
+                  ]
+                },
+                {
+                  "hash": "c6d511e246073dc4cab6692dc14b55702e4d678f",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "3955d0a7521fe2bf1f954efaaa995dc5c1aab2a1",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 1789619,
+                            "id": "Q1789619"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P7982": [
+                      {
+                        "snaktype": "value",
+                        "property": "P7982",
+                        "hash": "3ee8beaa80a4b01d53a5a7d083e66c9c9bdb13a0",
+                        "datavalue": {
+                          "value": "11466",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "19f36869ded44c93c4eca88b8c87f26a14dc42ce",
+                        "datavalue": {
+                          "value": "Jean Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P7982",
+                    "P1810"
+                  ]
+                },
+                {
+                  "hash": "da25eaad55c161b3669f3d1f882597d02be30bcf",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "155e1a7322c5a7febad55feba5ba4c3a2656b1c4",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 2877812,
+                            "id": "Q2877812"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P3630": [
+                      {
+                        "snaktype": "value",
+                        "property": "P3630",
+                        "hash": "1db1c23e637132ebd1fddbed4a280d20d5fa4430",
+                        "datavalue": {
+                          "value": "177719",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "987c7f7a46298751490c5d57edf95ff1a5ec8be0",
+                        "datavalue": {
+                          "value": "Jean-Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P3630",
+                    "P1810"
+                  ]
+                },
+                {
+                  "hash": "ab28111c57cf97459064793c1cc4b02d06efe6f3",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "d090d15da7d9e694e4007fa21232edb621e67ba3",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 107456632,
+                            "id": "Q107456632"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P6844": [
+                      {
+                        "snaktype": "value",
+                        "property": "P6844",
+                        "hash": "af66c10d2c4a8d3730ae2adec010010e6a221de3",
+                        "datavalue": {
+                          "value": "139109",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "6f8f333cebfac92bb111b2fdd9fcbf7697285918",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-04-01T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P6844",
+                    "P813"
+                  ]
+                },
+                {
+                  "hash": "3f553042728938c9d225d3e352e2878fd522d8bd",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "57c74f612fbe79aad13006051ae49e78c550a159",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 107213173,
+                            "id": "Q107213173"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P3956": [
+                      {
+                        "snaktype": "value",
+                        "property": "P3956",
+                        "hash": "d3dafff10209e26638443ef4a7e9ddcda4484504",
+                        "datavalue": {
+                          "value": "683",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "5c76121ace29d92cf776abd71a22defa7ea2abb5",
+                        "datavalue": {
+                          "value": "Jean CHARCOT",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P3956",
+                    "P1810"
+                  ]
+                },
+                {
+                  "hash": "c5dacb00903eddbae8562299c74cb07f7447c95d",
+                  "snaks": {
+                    "P5375": [
+                      {
+                        "snaktype": "value",
+                        "property": "P5375",
+                        "hash": "3d128458fd0d8f86ee704b307d476422504b7ad1",
+                        "datavalue": {
+                          "value": "4116",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P1810": [
+                      {
+                        "snaktype": "value",
+                        "property": "P1810",
+                        "hash": "19f36869ded44c93c4eca88b8c87f26a14dc42ce",
+                        "datavalue": {
+                          "value": "Jean Martin Charcot",
+                          "type": "string"
+                        },
+                        "datatype": "string"
+                      }
+                    ],
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "0bde68953160e94daaa581d877970796760d2ec8",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 105958830,
+                            "id": "Q105958830"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P5375",
+                    "P1810",
+                    "P248"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parsed": {
+        "subject": "Jean-Martin Charcot",
+        "human": true,
+        "parts": [
+          {
+            "property": "P569",
+            "kind": "date",
+            "expected": {
+              "year": 1826
+            }
+          }
+        ]
+      },
+      "entity_resolution": "unique_label_or_alias",
+      "subject_id": "Q20710",
+      "source_url": "https://www.wikidata.org/wiki/Q20710",
+      "source_revision": 2559068294,
+      "queries": [
+        {
+          "params": {
+            "action": "wbsearchentities",
+            "search": "Jean-Martin Charcot",
+            "language": "en",
+            "limit": 50
+          },
+          "snapshot_file": "a3e531586d7ee6eb119c548d6cbc0f5c812859bae900e26d4a4fcb0b2d8f9fe8.json",
+          "fetched_utc": "2026-10-31T00:01:38.852067+00:00"
+        },
+        {
+          "entity_cache_hit": "Q20710"
+        },
+        {
+          "entity_cache_hit": "Q52343245"
+        },
+        {
+          "entity_cache_hit": "Q50456964"
+        },
+        {
+          "entity_cache_hit": "Q94233110"
+        }
+      ],
+      "http_calls": 0,
+      "wall_seconds": 0.0017699999999999938
+    }
+  },
+  {
+    "expected": "SUPPORTS",
+    "trace": {
+      "claim": "Samuel Witwer was born in October.",
+      "label": null,
+      "reason": "incomplete_symbolic_evidence",
+      "parts": [
+        {
+          "property": "P569",
+          "kind": "date",
+          "expected": {
+            "month": 10
+          },
+          "verdict": null,
+          "reason": "qualified_date_requires_richer_reasoning",
+          "statements": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P569",
+                "hash": "cc6c8dc22cfcfbe584c216176f3985022007264d",
+                "datavalue": {
+                  "value": {
+                    "time": "+1977-10-20T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 11,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P7452": [
+                  {
+                    "snaktype": "value",
+                    "property": "P7452",
+                    "hash": "f9f842b41f249e5504d48025c7ad6d7b5bfc7496",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 71536040,
+                        "id": "Q71536040"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P7452"
+              ],
+              "id": "q18918$5ADC3CE7-4D09-4AAF-8889-1DAC8E958C81",
+              "rank": "preferred",
+              "references": [
+                {
+                  "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 328,
+                            "id": "Q328"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P569",
+                "hash": "e657e4390fe7ea5a6059a169efd969bc72a39445",
+                "datavalue": {
+                  "value": {
+                    "time": "+1977-01-01T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q18918$A1B4629E-3E28-40A3-850E-008F69FE1424",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "3e00816c0a2eb89778f8a1d1f5f6b532587c7ea3",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "80047f9d5b0d2daf06989e71bd5f4ba15b215fd6",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 13550863,
+                            "id": "Q13550863"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P691": [
+                      {
+                        "snaktype": "value",
+                        "property": "P691",
+                        "hash": "4e926e0d1a888efd6e114f391058c5d8aa9ef7ec",
+                        "datavalue": {
+                          "value": "xx0319438",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "0050193770d467ffd8ea647dd4a2289b2daa7cb4",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2024-07-06T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P691",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parsed": {
+        "subject": "Samuel Witwer",
+        "human": true,
+        "parts": [
+          {
+            "property": "P569",
+            "kind": "date",
+            "expected": {
+              "month": 10
+            }
+          }
+        ]
+      },
+      "entity_resolution": "unique_label_or_alias",
+      "subject_id": "Q18918",
+      "source_url": "https://www.wikidata.org/wiki/Q18918",
+      "source_revision": 2546522254,
+      "queries": [
+        {
+          "params": {
+            "action": "wbsearchentities",
+            "search": "Samuel Witwer",
+            "language": "en",
+            "limit": 50
+          },
+          "snapshot_file": "3ee47639c099a3f081fc2a250ce4319b93bb9734e78c19c0df6c795818a88df5.json",
+          "fetched_utc": "2026-10-31T00:05:06.039342+00:00"
+        },
+        {
+          "entity_cache_hit": "Q18918"
+        }
+      ],
+      "http_calls": 0,
+      "wall_seconds": 0.0004683340000000008
+    }
+  }
+]

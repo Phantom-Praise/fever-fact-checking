@@ -1,0 +1,24 @@
+{
+  "paired_macro_f1_ci95": [
+    -0.010717897838060517,
+    0.1808655574923416
+  ],
+  "paired_strict_score": {
+    "n": 120,
+    "fixed_errors": 20,
+    "newly_wrong": 15,
+    "both_correct": 37,
+    "both_wrong": 48,
+    "accuracy_delta": 0.041666666666666664,
+    "paired_accuracy_ci95": [
+      -0.058333333333333334,
+      0.14166666666666666
+    ],
+    "mcnemar_exact_p_unadjusted": 0.4995598332025112,
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 42
+  },
+  "bootstrap_seed": 42,
+  "bootstrap_samples": 10000,
+  "interpretation": "Paired claim bootstrap with frozen predictions; not training-seed or generation-repeat variance. Exploratory secondary intervals, no multiplicity adjustment."
+}

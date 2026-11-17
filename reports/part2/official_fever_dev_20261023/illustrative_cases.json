@@ -1,0 +1,208 @@
+[
+  {
+    "category": "wrong_label",
+    "id": 91198,
+    "claim": "Colin Kaepernick became a starting quarterback during the 49ers 63rd season in the National Football League.",
+    "gold_label": "NOT ENOUGH INFO",
+    "predicted_label": "SUPPORTS",
+    "predicted_evidence": [
+      [
+        "Colin_Kaepernick",
+        0
+      ],
+      [
+        "Colin_Kaepernick",
+        5
+      ],
+      [
+        "Colin_Kaepernick",
+        6
+      ],
+      [
+        "Colin_Kaepernick",
+        7
+      ],
+      [
+        "Colin_Kaepernick",
+        8
+      ]
+    ],
+    "annotated_groups": [
+      []
+    ],
+    "retrieved_text": [
+      {
+        "page_id": "Colin_Kaepernick",
+        "sentence_id": 0,
+        "text": "Colin Rand Kaepernick -LRB- -LSB- ` k\u00e6p\u0259rn\u026ak -RSB- ; born November 3 , 1987 -RRB- is an American football quarterback who is currently a free agent ."
+      },
+      {
+        "page_id": "Colin_Kaepernick",
+        "sentence_id": 5,
+        "text": "Kaepernick began his professional career as a backup to Alex Smith , but became the 49ers ' starter in the middle of the 2012 season after Smith suffered a concussion ."
+      },
+      {
+        "page_id": "Colin_Kaepernick",
+        "sentence_id": 6,
+        "text": "He remained the team 's starting quarterback for the rest of the season and went on to lead the 49ers to their first Super Bowl appearance since 1994 , losing to the Baltimore Ravens ."
+      },
+      {
+        "page_id": "Colin_Kaepernick",
+        "sentence_id": 7,
+        "text": "During the 2013 season , his first full season as a starter , Kaepernick helped the 49ers reach the NFC Championship , losing to the Seattle Seahawks ."
+      },
+      {
+        "page_id": "Colin_Kaepernick",
+        "sentence_id": 8,
+        "text": "In the following seasons , Kaepernick lost and won back his starting job , with the 49ers missing the playoffs for three years consecutively ."
+      }
+    ]
+  },
+  {
+    "category": "strict_correct",
+    "id": 194462,
+    "claim": "Tilda Swinton is a vegan.",
+    "gold_label": "NOT ENOUGH INFO",
+    "predicted_label": "NOT ENOUGH INFO",
+    "predicted_evidence": [
+      [
+        "Tilda_Swinton",
+        0
+      ],
+      [
+        "Tilda",
+        12
+      ],
+      [
+        "Tilda_Swinton",
+        5
+      ],
+      [
+        "Tilda_Swinton",
+        9
+      ],
+      [
+        "Tilda_Swinton",
+        14
+      ]
+    ],
+    "annotated_groups": [
+      []
+    ],
+    "retrieved_text": [
+      {
+        "page_id": "Tilda_Swinton",
+        "sentence_id": 0,
+        "text": "Katherine Matilda `` Tilda '' Swinton -LRB- born 5 November 1960 -RRB- is a British actress , performance artist , model , and fashion muse , known for her roles in independent and Hollywood films ."
+      },
+      {
+        "page_id": "Tilda",
+        "sentence_id": 12,
+        "text": "Tilda Swinton -LRB- born 1960 -RRB- , British actress"
+      },
+      {
+        "page_id": "Tilda_Swinton",
+        "sentence_id": 5,
+        "text": "Swinton won the Volpi Cup for Best Actress at the Venice Film Festival for her performance as Isabella of France in Edward II -LRB- 1991 -RRB- ."
+      },
+      {
+        "page_id": "Tilda_Swinton",
+        "sentence_id": 9,
+        "text": "Swinton was nominated for a Golden Globe Award for her performance in The Deep End -LRB- 2001 -RRB- ."
+      },
+      {
+        "page_id": "Tilda_Swinton",
+        "sentence_id": 14,
+        "text": "Swinton later starred in the dark romantic fantasy drama , Only Lovers Left Alive -LRB- 2014 -RRB- ."
+      }
+    ]
+  },
+  {
+    "category": "correct_label_missing_evidence",
+    "id": 137334,
+    "claim": "Fox 2000 Pictures released the film Soul Food.",
+    "gold_label": "SUPPORTS",
+    "predicted_label": "SUPPORTS",
+    "predicted_evidence": [
+      [
+        "Fox_Searchlight_Pictures",
+        0
+      ],
+      [
+        "Fox_Film",
+        0
+      ],
+      [
+        "Fox_Searchlight_Pictures",
+        2
+      ],
+      [
+        "Fox_Film",
+        4
+      ],
+      [
+        "Fox_Film",
+        9
+      ]
+    ],
+    "annotated_groups": [
+      [
+        [
+          "Soul_Food_-LRB-film-RRB-",
+          0
+        ]
+      ],
+      [
+        [
+          "Soul_Food_-LRB-film-RRB-",
+          0
+        ]
+      ],
+      [
+        [
+          "Soul_Food_-LRB-film-RRB-",
+          0
+        ]
+      ],
+      [
+        [
+          "Soul_Food_-LRB-film-RRB-",
+          0
+        ]
+      ],
+      [
+        [
+          "Soul_Food_-LRB-film-RRB-",
+          0
+        ]
+      ]
+    ],
+    "retrieved_text": [
+      {
+        "page_id": "Fox_Searchlight_Pictures",
+        "sentence_id": 0,
+        "text": "Fox Searchlight Pictures is an American film distribution company within the Fox Entertainment Group , a sister company of the larger Fox studio 20th Century Fox , all owned by Rupert Murdoch 's 21st Century Fox ."
+      },
+      {
+        "page_id": "Fox_Film",
+        "sentence_id": 0,
+        "text": "The Fox Film Corporation was an American company that produced motion pictures , formed by William Fox on 1 February 1915 ."
+      },
+      {
+        "page_id": "Fox_Searchlight_Pictures",
+        "sentence_id": 2,
+        "text": "As is the case with Fox 's television unit , all copyright notices of programming produced by a Fox-related company -LRB- with some exceptions -RRB- bear the copyright of the overall film studio , i.e. '' \u00a9 -LRB- respective year -RRB- Twentieth Century Fox Film Corporation '' ."
+      },
+      {
+        "page_id": "Fox_Film",
+        "sentence_id": 4,
+        "text": "The company 's first film studios were set up in Fort Lee , New Jersey but in 1917 , William Fox sent Sol M. Wurtzel to Hollywood , California to oversee the studio 's new West Coast production facilities where a more hospitable and cost effective climate existed for filmmaking ."
+      },
+      {
+        "page_id": "Fox_Film",
+        "sentence_id": 9,
+        "text": "Under new president Sidney Kent , the new owners merged the company with Twentieth Century Pictures to form 20th Century Fox in 1935 ."
+      }
+    ]
+  }
+]

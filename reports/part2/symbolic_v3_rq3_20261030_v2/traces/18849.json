@@ -1,0 +1,116 @@
+{
+  "id": 18849,
+  "claim": "Subhas Chandra Bose died.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.145745625,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Death_of_Subhas_Chandra_Bose",
+          "sentence_id": 0,
+          "text": "Indian nationalist leader Subhas Chandra Bose died from third-degree burns on 18 August 1945 after his overloaded Japanese plane crashed in Japanese-occupied Formosa -LRB- now Taiwan -RRB- .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "Subhas_Chandra_Bose",
+          "sentence_id": 0,
+          "text": "Subhas Chandra Bose -LRB- 23 January 1897 -- 18 August 1945 -RRB- was an Indian nationalist whose defiant patriotism made him a hero in India , but whose attempt during World War II to rid India of British rule with the help of Nazi Germany and Imperial Japan left a troubled legacy .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Bibliography_of_Subhas_Chandra_Bose",
+          "sentence_id": 0,
+          "text": "Subhas Chandra Bose -LRB- 1897 -- ??? -RRB-",
+          "score": 3.05
+        },
+        {
+          "page_id": "Netaji_Subhas_Chandra_Bose_Stadium",
+          "sentence_id": 0,
+          "text": "Netaji Subhas Chandra Bose Stadium is a multi-purpose stadium in Hailakandi , Assam .",
+          "score": 3.025
+        },
+        {
+          "page_id": "Netaji_Subhas_Chandra_Bose_Stadium",
+          "sentence_id": 2,
+          "text": "The ground is named after India freedom fighter Netaji Subhas Chandra Bose .",
+          "score": 3.025
+        }
+      ],
+      "probabilities": [
+        0.9416471123695374,
+        0.058249834924936295,
+        0.00010302641749149188
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05844458400000008,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.9109774231910706,
+        0.007362187374383211,
+        0.08166040480136871
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06469741599999956,
+      "symbolic": {
+        "claim": "Subhas Chandra Bose died.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3416999999904533e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Death_of_Subhas_Chandra_Bose",
+          "sentence_id": 0,
+          "text": "Indian nationalist leader Subhas Chandra Bose died from third-degree burns on 18 August 1945 after his overloaded Japanese plane crashed in Japanese-occupied Formosa -LRB- now Taiwan -RRB- .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "Subhas_Chandra_Bose",
+          "sentence_id": 0,
+          "text": "Subhas Chandra Bose -LRB- 23 January 1897 -- 18 August 1945 -RRB- was an Indian nationalist whose defiant patriotism made him a hero in India , but whose attempt during World War II to rid India of British rule with the help of Nazi Germany and Imperial Japan left a troubled legacy .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Bibliography_of_Subhas_Chandra_Bose",
+          "sentence_id": 0,
+          "text": "Subhas Chandra Bose -LRB- 1897 -- ??? -RRB-",
+          "score": 3.05
+        },
+        {
+          "page_id": "Netaji_Subhas_Chandra_Bose_Stadium",
+          "sentence_id": 0,
+          "text": "Netaji Subhas Chandra Bose Stadium is a multi-purpose stadium in Hailakandi , Assam .",
+          "score": 3.025
+        },
+        {
+          "page_id": "Netaji_Subhas_Chandra_Bose_Stadium",
+          "sentence_id": 2,
+          "text": "The ground is named after India freedom fighter Netaji Subhas Chandra Bose .",
+          "score": 3.025
+        }
+      ],
+      "probabilities": [
+        0.9416471123695374,
+        0.058249834924936295,
+        0.00010302641749149188
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

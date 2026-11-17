@@ -1,0 +1,109 @@
+{
+  "metrics": {
+    "old_five_sentence": 4,
+    "top_k_rag": 4,
+    "parts_model": 5,
+    "parts_derived": 7,
+    "exhaustive_model": 2,
+    "exhaustive_derived": 2
+  },
+  "audit": {
+    "claims": [
+      {
+        "id": 130325,
+        "chunks": 206,
+        "valid_processed": 206,
+        "all_chunks_processed": true,
+        "article_text_matches_prior": true,
+        "status": "failed",
+        "error": "ValueError: All findings exceed final context; none discarded"
+      },
+      {
+        "id": 40442,
+        "chunks": 102,
+        "valid_processed": 102,
+        "all_chunks_processed": true,
+        "article_text_matches_prior": true,
+        "status": "complete",
+        "error": null
+      },
+      {
+        "id": 4807,
+        "chunks": 269,
+        "valid_processed": 269,
+        "all_chunks_processed": true,
+        "article_text_matches_prior": true,
+        "status": "failed",
+        "error": "ValueError: All findings exceed final context; none discarded"
+      },
+      {
+        "id": 219203,
+        "chunks": 63,
+        "valid_processed": 63,
+        "all_chunks_processed": true,
+        "article_text_matches_prior": true,
+        "status": "complete",
+        "error": null
+      },
+      {
+        "id": 178210,
+        "chunks": 238,
+        "valid_processed": 238,
+        "all_chunks_processed": true,
+        "article_text_matches_prior": true,
+        "status": "failed",
+        "error": "ValueError: All findings exceed final context; none discarded"
+      },
+      {
+        "id": 2147,
+        "chunks": 57,
+        "valid_processed": 57,
+        "all_chunks_processed": true,
+        "article_text_matches_prior": true,
+        "status": "complete",
+        "error": null
+      },
+      {
+        "id": 47172,
+        "chunks": 414,
+        "valid_processed": 414,
+        "all_chunks_processed": true,
+        "article_text_matches_prior": true,
+        "status": "failed",
+        "error": "ValueError: All findings exceed final context; none discarded"
+      },
+      {
+        "id": 226843,
+        "chunks": 302,
+        "valid_processed": 302,
+        "all_chunks_processed": true,
+        "article_text_matches_prior": true,
+        "status": "failed",
+        "error": "ValueError: All findings exceed final context; none discarded"
+      },
+      {
+        "id": 118664,
+        "chunks": 187,
+        "valid_processed": 187,
+        "all_chunks_processed": true,
+        "article_text_matches_prior": true,
+        "status": "failed",
+        "error": "ValueError: All findings exceed final context; none discarded"
+      },
+      {
+        "id": 61564,
+        "chunks": 291,
+        "valid_processed": 291,
+        "all_chunks_processed": true,
+        "article_text_matches_prior": true,
+        "status": "failed",
+        "error": "ValueError: All findings exceed final context; none discarded"
+      }
+    ],
+    "source_hashes_unchanged": true,
+    "temporary_folder_empty": true,
+    "full_coverage_claims": 10,
+    "article_text_matches_prior": true,
+    "retention": "Delete temporary downloads and SQLite after each claim, including failures. Full batch prompts retain all supplied chunk text in audit traces; this is not full-text erasure."
+  }
+}

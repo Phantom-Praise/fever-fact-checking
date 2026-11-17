@@ -1,0 +1,70 @@
+{
+  "id": 90460,
+  "claim": "Katrina Kaif is a Buddhist.",
+  "condition": "five_sentence_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.031237568706274033,
+    0.9686522483825684,
+    0.000110195207525976
+  ],
+  "logits": [
+    0.23786599934101105,
+    3.672150135040283,
+    -5.409256935119629
+  ],
+  "inference_seconds": 0.05647683400000014,
+  "evidence_text": "Katrina Kaif -LRB- -LSB- kəˈʈriːnaː ˈkɛːf -RSB- , born Katrina Turquotte , 16 July 1983 -RRB- is a British film actress and model known for her work in Indian films . Katrina Kaif is a British actress who predominantly appears in Bollywood films . Rhyme Skool is a two-part audio CD album of common nursery rhymes narrated by Bollywood actor Katrina Kaif . Katrina Kaif -LRB- born 1983 -RRB- , British film actress and model Katrina Kaif is a British Indian film actress who predominantly works in the Bollywood film industry .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 157,
+    "tokens_retained": 157,
+    "truncated": false,
+    "evidence_tokens_total": 144,
+    "evidence_tokens_retained": 144,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Katrina_Kaif",
+        "tokens_total": 64,
+        "tokens_kept": 64,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Katrina_Kaif_filmography",
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Rhyme_Skool_with_Katrina_Kaif",
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Kaif",
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "List_of_awards_and_nominations_received_by_Katrina_Kaif",
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Katrina Kaif is a Buddhist.</s></s>Katrina Kaif -LRB- -LSB- kəˈʈriːnaː ˈkɛːf -RSB- , born Katrina Turquotte , 16 July 1983 -RRB- is a British film actress and model known for her work in Indian films . Katrina Kaif is a British actress who predominantly appears in Bollywood films . Rhyme Skool is a two-part audio CD album of common nursery rhymes narrated by Bollywood actor Katrina Kaif . Katrina Kaif -LRB- born 1983 -RRB- , British film actress and model Katrina Kaif is a British Indian film actress who predominantly works in the Bollywood film industry .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

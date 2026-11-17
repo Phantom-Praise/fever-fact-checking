@@ -1,0 +1,236 @@
+{
+  "summary": {
+    "status": "complete",
+    "n": 10,
+    "model_correct": 6,
+    "derived_correct": 6,
+    "invalid": 2,
+    "coverage_chunks": 2129,
+    "total_chunks": 2129
+  },
+  "scores": {
+    "old_five_sentence": 4,
+    "top_k_rag": 4,
+    "parts_model": 5,
+    "parts_derived": 7,
+    "exhaustive_model": 2,
+    "exhaustive_derived": 2,
+    "full_reader_model": 6,
+    "full_reader_derived": 6
+  },
+  "audit": {
+    "n": 10,
+    "all_original_chunks_processed": true,
+    "chunks": 2129,
+    "all_selected_evidence_preserved": true,
+    "all_token_counts_match": true,
+    "all_articles_match_prior_text": true,
+    "all_temporary_downloads_and_databases_deleted": true,
+    "checks": [
+      {
+        "id": 130325,
+        "status": "complete",
+        "all_selected_evidence_preserved": true,
+        "raw_prompt_tokens": 12765,
+        "expected_prompt_tokens": 12775,
+        "reported_prompt_tokens": 12775,
+        "context": 16384,
+        "model_derived_consistent": true,
+        "attempts": [
+          {
+            "file": "final_attempt_1.json",
+            "reported_prompt_tokens": 12775,
+            "matches_expected": true,
+            "valid": true,
+            "error": null
+          }
+        ]
+      },
+      {
+        "id": 40442,
+        "status": "complete",
+        "all_selected_evidence_preserved": true,
+        "raw_prompt_tokens": 5863,
+        "expected_prompt_tokens": 5873,
+        "reported_prompt_tokens": 5873,
+        "context": 12288,
+        "model_derived_consistent": true,
+        "attempts": [
+          {
+            "file": "final_attempt_1.json",
+            "reported_prompt_tokens": 5873,
+            "matches_expected": true,
+            "valid": true,
+            "error": null
+          }
+        ]
+      },
+      {
+        "id": 4807,
+        "status": "failed",
+        "all_selected_evidence_preserved": true,
+        "raw_prompt_tokens": 17931,
+        "expected_prompt_tokens": 17941,
+        "reported_prompt_tokens": 17941,
+        "context": 24576,
+        "model_derived_consistent": null,
+        "attempts": [
+          {
+            "file": "final_attempt_1.json",
+            "reported_prompt_tokens": 17941,
+            "matches_expected": true,
+            "valid": false,
+            "error": "ValueError: Unknown citation"
+          },
+          {
+            "file": "final_attempt_2.json",
+            "reported_prompt_tokens": 17941,
+            "matches_expected": true,
+            "valid": false,
+            "error": "ValueError: Unknown citation"
+          }
+        ]
+      },
+      {
+        "id": 219203,
+        "status": "complete",
+        "all_selected_evidence_preserved": true,
+        "raw_prompt_tokens": 3018,
+        "expected_prompt_tokens": 3028,
+        "reported_prompt_tokens": 3028,
+        "context": 8192,
+        "model_derived_consistent": true,
+        "attempts": [
+          {
+            "file": "final_attempt_1.json",
+            "reported_prompt_tokens": 3028,
+            "matches_expected": true,
+            "valid": true,
+            "error": null
+          }
+        ]
+      },
+      {
+        "id": 178210,
+        "status": "complete",
+        "all_selected_evidence_preserved": true,
+        "raw_prompt_tokens": 15278,
+        "expected_prompt_tokens": 15288,
+        "reported_prompt_tokens": 15288,
+        "context": 20480,
+        "model_derived_consistent": true,
+        "attempts": [
+          {
+            "file": "final_attempt_1.json",
+            "reported_prompt_tokens": 15288,
+            "matches_expected": true,
+            "valid": true,
+            "error": null
+          }
+        ]
+      },
+      {
+        "id": 2147,
+        "status": "complete",
+        "all_selected_evidence_preserved": true,
+        "raw_prompt_tokens": 4397,
+        "expected_prompt_tokens": 4407,
+        "reported_prompt_tokens": 4407,
+        "context": 8192,
+        "model_derived_consistent": true,
+        "attempts": [
+          {
+            "file": "final_attempt_1.json",
+            "reported_prompt_tokens": 4407,
+            "matches_expected": true,
+            "valid": true,
+            "error": null
+          }
+        ]
+      },
+      {
+        "id": 47172,
+        "status": "complete",
+        "all_selected_evidence_preserved": true,
+        "raw_prompt_tokens": 13855,
+        "expected_prompt_tokens": 13865,
+        "reported_prompt_tokens": 13865,
+        "context": 20480,
+        "model_derived_consistent": true,
+        "attempts": [
+          {
+            "file": "final_attempt_1.json",
+            "reported_prompt_tokens": 13865,
+            "matches_expected": true,
+            "valid": true,
+            "error": null
+          }
+        ]
+      },
+      {
+        "id": 226843,
+        "status": "complete",
+        "all_selected_evidence_preserved": true,
+        "raw_prompt_tokens": 18404,
+        "expected_prompt_tokens": 18414,
+        "reported_prompt_tokens": 18414,
+        "context": 24576,
+        "model_derived_consistent": true,
+        "attempts": [
+          {
+            "file": "final_attempt_1.json",
+            "reported_prompt_tokens": 18414,
+            "matches_expected": true,
+            "valid": true,
+            "error": null
+          }
+        ]
+      },
+      {
+        "id": 118664,
+        "status": "complete",
+        "all_selected_evidence_preserved": true,
+        "raw_prompt_tokens": 15344,
+        "expected_prompt_tokens": 15354,
+        "reported_prompt_tokens": 15354,
+        "context": 20480,
+        "model_derived_consistent": true,
+        "attempts": [
+          {
+            "file": "final_attempt_1.json",
+            "reported_prompt_tokens": 15354,
+            "matches_expected": true,
+            "valid": true,
+            "error": null
+          }
+        ]
+      },
+      {
+        "id": 61564,
+        "status": "failed",
+        "all_selected_evidence_preserved": true,
+        "raw_prompt_tokens": 23083,
+        "expected_prompt_tokens": 23093,
+        "reported_prompt_tokens": 23093,
+        "context": 28672,
+        "model_derived_consistent": null,
+        "attempts": [
+          {
+            "file": "final_attempt_1.json",
+            "reported_prompt_tokens": 23093,
+            "matches_expected": true,
+            "valid": false,
+            "error": "ValueError: Incomplete final generation"
+          },
+          {
+            "file": "final_attempt_2.json",
+            "reported_prompt_tokens": 23093,
+            "matches_expected": true,
+            "valid": false,
+            "error": "ValueError: Unknown citation"
+          }
+        ]
+      }
+    ]
+  }
+}

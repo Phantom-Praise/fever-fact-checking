@@ -1,0 +1,62 @@
+{
+  "id": 228942,
+  "claim": "Pulp Fiction is an American film.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9918938279151917,
+    0.008004443719983101,
+    0.00010173078044317663
+  ],
+  "logits": [
+    4.291914939880371,
+    -0.5277040004730225,
+    -4.893126487731934
+  ],
+  "evidence": [
+    {
+      "page_id": "Pulp_Fiction",
+      "sentence_id": 0,
+      "text": "Pulp Fiction is a 1994 American black comedy neo-noir crime film written and directed by Quentin Tarantino , from a story by Tarantino and Roger Avary .",
+      "score": 4.1
+    },
+    {
+      "page_id": "Pulp_Fiction",
+      "sentence_id": 13,
+      "text": "Pulp Fiction won the Palme d'Or at the 1994 Cannes Film Festival , and was a major critical and commercial success upon its U.S. release .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Pulp_Fiction",
+      "sentence_id": 23,
+      "text": "In 2013 , Pulp Fiction was selected for preservation in the United States National Film Registry by the Library of Congress as being `` culturally , historically , or aesthetically significant '' .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Pulp_fiction",
+      "sentence_id": 5,
+      "text": "Pulp Fiction , a 1994 film directed by Quentin Tarantino",
+      "score": 3.05
+    },
+    {
+      "page_id": "Pulp_fiction",
+      "sentence_id": 7,
+      "text": "Pulp Fiction -LRB- soundtrack -RRB- , the soundtrack album from the film",
+      "score": 3.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 145,
+    "tokens_retained": 145,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Pulp Fiction is an American film.</s></s>Pulp Fiction is a 1994 American black comedy neo-noir crime film written and directed by Quentin Tarantino , from a story by Tarantino and Roger Avary . Pulp Fiction won the Palme d'Or at the 1994 Cannes Film Festival , and was a major critical and commercial success upon its U.S. release . In 2013 , Pulp Fiction was selected for preservation in the United States National Film Registry by the Library of Congress as being `` culturally , historically , or aesthetically significant '' . Pulp Fiction , a 1994 film directed by Quentin Tarantino Pulp Fiction -LRB- soundtrack -RRB- , the soundtrack album from the film</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.29381916699999877
+}

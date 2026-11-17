@@ -1,0 +1,116 @@
+{
+  "id": 144406,
+  "claim": "CP affects children and is the most common movement disorder to do so.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0827169579999989,
+      "symbolic": {
+        "claim": "CP affects children and is the most common movement disorder to do so.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.437499999923375e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Common_Children",
+          "sentence_id": 0,
+          "text": "Common Children was an alternative rock band composed of Marc Byrd , Drew Powell , and Hampton Taliaferro .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Most_recent_common_ancestor",
+          "sentence_id": 0,
+          "text": "In biology and genealogy , the most recent common ancestor -LRB- MRCA , also last common ancestor LCA , or concestor -RRB- of any set of organisms is the most recent individual from which all organisms in a group are directly descended .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Most_recent_common_ancestor",
+          "sentence_id": 19,
+          "text": "The Last Universal Common Ancestor -LRB- LUCA -RRB- is the most recent common ancestor of all current life on Earth , estimated to have lived some 3.5 to 3.8 billion years ago -LRB- in the Paleoarchean -RRB- .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Common_Movement_for_Development",
+          "sentence_id": 0,
+          "text": "The Common Movement for Development -LRB- , MCD -RRB- was a political party in Gabon , led by Paul Biyoghé Mba .",
+          "score": 2.02
+        },
+        {
+          "page_id": "Children's_rights_movement",
+          "sentence_id": 0,
+          "text": "The Children 's Rights Movement is a historical and modern movement committed to the acknowledgment , expansion , and/or regression of the rights of children around the world .",
+          "score": 2.0166666666666666
+        }
+      ],
+      "probabilities": [
+        0.6147499680519104,
+        0.3844151198863983,
+        0.000834958627820015
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05978433399999972,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.645396888256073,
+        0.04125075787305832,
+        0.3133523166179657
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0735523330000003,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Common_Children",
+          "sentence_id": 0,
+          "text": "Common Children was an alternative rock band composed of Marc Byrd , Drew Powell , and Hampton Taliaferro .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Most_recent_common_ancestor",
+          "sentence_id": 0,
+          "text": "In biology and genealogy , the most recent common ancestor -LRB- MRCA , also last common ancestor LCA , or concestor -RRB- of any set of organisms is the most recent individual from which all organisms in a group are directly descended .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Most_recent_common_ancestor",
+          "sentence_id": 19,
+          "text": "The Last Universal Common Ancestor -LRB- LUCA -RRB- is the most recent common ancestor of all current life on Earth , estimated to have lived some 3.5 to 3.8 billion years ago -LRB- in the Paleoarchean -RRB- .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Common_Movement_for_Development",
+          "sentence_id": 0,
+          "text": "The Common Movement for Development -LRB- , MCD -RRB- was a political party in Gabon , led by Paul Biyoghé Mba .",
+          "score": 2.02
+        },
+        {
+          "page_id": "Children's_rights_movement",
+          "sentence_id": 0,
+          "text": "The Children 's Rights Movement is a historical and modern movement committed to the acknowledgment , expansion , and/or regression of the rights of children around the world .",
+          "score": 2.0166666666666666
+        }
+      ],
+      "probabilities": [
+        0.6147499680519104,
+        0.3844151198863983,
+        0.000834958627820015
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

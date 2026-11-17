@@ -1,0 +1,116 @@
+{
+  "id": 165796,
+  "claim": "The Boeing 707 is a jet airliner that is middle sized comparative to its respective class.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07249050000000068,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Boeing_707",
+          "sentence_id": 0,
+          "text": "The Boeing 707 is a mid-sized , long-range , narrow-body , four-engine jet airliner built by Boeing Commercial Airplanes from 1958 to 1979 .",
+          "score": 5.033333333333333
+        },
+        {
+          "page_id": "Boeing_707",
+          "sentence_id": 5,
+          "text": "Developed as Boeing 's first jet airliner , the 707 is a swept-wing design with podded engines .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "Boeing_707",
+          "sentence_id": 12,
+          "text": "The 707 was developed from the Boeing 367-80 , a prototype jet first flown in 1954 .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Jet_Airliner",
+          "sentence_id": 0,
+          "text": "Jet Airliner may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "Jet_Airliner",
+          "sentence_id": 3,
+          "text": "Jet airliner , an airliner powered by jet engines",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.6763160228729248,
+        0.32286107540130615,
+        0.0008229108061641455
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.056325042000004544,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.49352219700813293,
+        0.22345566749572754,
+        0.2830221354961395
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0608759579999969,
+      "symbolic": {
+        "claim": "The Boeing 707 is a jet airliner that is middle sized comparative to its respective class.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.7792000001293218e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Boeing_707",
+          "sentence_id": 0,
+          "text": "The Boeing 707 is a mid-sized , long-range , narrow-body , four-engine jet airliner built by Boeing Commercial Airplanes from 1958 to 1979 .",
+          "score": 5.033333333333333
+        },
+        {
+          "page_id": "Boeing_707",
+          "sentence_id": 5,
+          "text": "Developed as Boeing 's first jet airliner , the 707 is a swept-wing design with podded engines .",
+          "score": 4.033333333333333
+        },
+        {
+          "page_id": "Boeing_707",
+          "sentence_id": 12,
+          "text": "The 707 was developed from the Boeing 367-80 , a prototype jet first flown in 1954 .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Jet_Airliner",
+          "sentence_id": 0,
+          "text": "Jet Airliner may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "Jet_Airliner",
+          "sentence_id": 3,
+          "text": "Jet airliner , an airliner powered by jet engines",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.6763160228729248,
+        0.32286107540130615,
+        0.0008229108061641455
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

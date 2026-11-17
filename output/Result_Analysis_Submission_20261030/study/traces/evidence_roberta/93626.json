@@ -1,0 +1,62 @@
+{
+  "id": 93626,
+  "claim": "Saint Peter was ordained as a clergyman.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.6924083232879639,
+    0.3071118891239166,
+    0.00047981046373024583
+  ],
+  "logits": [
+    2.3203227519989014,
+    1.5073590278625488,
+    -4.954216957092285
+  ],
+  "evidence": [
+    {
+      "page_id": "Saint_Peter",
+      "sentence_id": 0,
+      "text": "Saint Peter -LRB- Syriac/Aramaic : ܫܸܡܥܘܿܢ ܟܹ݁ܐܦ݂ܵܐ , Shemayon Keppa , שמעון בר יונה , Πέτρος , according to the New Testament , was one of the Twelve Apostles of Jesus Christ , leaders of the early Christian Great Church .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Saint_Peter",
+      "sentence_id": 2,
+      "text": "According to Catholic teaching , Peter was ordained by Jesus in the `` Rock of My Church '' dialogue in Matthew .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Saint_Peter",
+      "sentence_id": 4,
+      "text": "The ancient Christian churches all venerate Peter as a major saint and as the founder of the Church of Antioch and the Roman Church , but differ in their attitudes regarding the authority of his present-day successors .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Saint_Peter",
+      "sentence_id": 18,
+      "text": "Every 29 June since 1736 , a statue of Saint Peter in St. Peter 's Basilica is adorned with papal tiara , ring of the fisherman , and papal vestments , as part of the celebration of the Feast of Saints Peter and Paul .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Saint_Peter",
+      "sentence_id": 19,
+      "text": "According to Catholic doctrine , the direct papal successor to Saint Peter is the incumbent pope , currently Pope .",
+      "score": 2.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 253,
+    "tokens_retained": 253,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Saint Peter was ordained as a clergyman.</s></s>Saint Peter -LRB- Syriac/Aramaic : ܫܸܡܥܘܿܢ ܟܹ݁ܐܦ݂ܵܐ , Shemayon Keppa , שמעון בר יונה , Πέτρος , according to the New Testament , was one of the Twelve Apostles of Jesus Christ , leaders of the early Christian Great Church . According to Catholic teaching , Peter was ordained by Jesus in the `` Rock of My Church '' dialogue in Matthew . The ancient Christian churches all venerate Peter as a major saint and as the founder of the Church of Antioch and the Roman Church , but differ in their attitudes regarding the authority of his present-day successors . Every 29 June since 1736 , a statue of Saint Peter in St. Peter 's Basilica is adorned with papal tiara , ring of the fisherman , and papal vestments , as part of the celebration of the Feast of Saints Peter and Paul . According to Catholic doctrine , the direct papal successor to Saint Peter is the incumbent pope , currently Pope .</s><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.13913587500000002
+}

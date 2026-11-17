@@ -1,0 +1,2702 @@
+{
+  "cases": [
+    {
+      "id": 130325,
+      "claim": "Dark matter is different from neutrinos.",
+      "reference_label": "REFUTES",
+      "model_label": "SUPPORTS",
+      "derived_label": "SUPPORTS",
+      "reference_groups": [
+        [
+          {
+            "page_id": "Dark_matter",
+            "sentence_id": 0,
+            "text": "Dark matter is a hypothetical type of matter distinct from baryonic matter -LRB- ordinary matter such as protons and neutrons -RRB- , neutrinos and dark energy .",
+            "text_sha256": "954ccb01a721a14b02e5536dcdef608f243e2759d8db97c24a96e51fca206f01",
+            "current_url": "https://en.wikipedia.org/wiki/Dark_matter"
+          }
+        ]
+      ],
+      "reference_raw": [
+        [
+          [
+            152572,
+            167365,
+            "Dark_matter",
+            0
+          ]
+        ]
+      ],
+      "model_parts": [
+        {
+          "part": "Dark matter is different from neutrinos.",
+          "verdict": "SUPPORTS",
+          "evidence_ids": [
+            "E3",
+            "E25",
+            "E37",
+            "E38",
+            "E39",
+            "E40"
+          ],
+          "justification": "The passages mention that dark matter does not interact with ordinary baryonic matter and radiation except through gravity, lacks a diversity of interactions needed to form structures, and behaves differently from ordinary matter in the early universe."
+        }
+      ],
+      "model_excerpts": [
+        {
+          "id": "E9",
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00018",
+          "block_kind": "paragraph",
+          "section_path": [
+            "History",
+            "1970s"
+          ],
+          "char_start": 390,
+          "char_end": 684,
+          "text": "By decoupling the analysis from specific neutrino properties and treating the candidate generically, the authors set out a framework that later became the standard template for weakly interacting massive particles (WIMPs) and for comparing particle-physics models with cosmological constraints.",
+          "similarity": 0.6497125625610352
+        },
+        {
+          "id": "E16",
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 95,
+          "char_end": 121,
+          "text": "Neutrinos | Standard Model",
+          "similarity": 0.6476086974143982
+        },
+        {
+          "id": "E17",
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 122,
+          "char_end": 139,
+          "text": "Sterile neutrinos",
+          "similarity": 0.6476086974143982
+        },
+        {
+          "id": "E46",
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00106",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Particle searches",
+            "Direct particle detection",
+            "WIMPs"
+          ],
+          "char_start": 212,
+          "char_end": 431,
+          "text": "In late 2025, the LZ experiment reported the exclusion of WIMP cross-sections above 9 GeV/c2 and the first detection of boron-8 solar neutrinos via coherent elastic neutrino-nucleus scattering in a dark matter detector.",
+          "similarity": 0.6056301593780518
+        },
+        {
+          "id": "E47",
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00106",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Particle searches",
+            "Direct particle detection",
+            "WIMPs"
+          ],
+          "char_start": 432,
+          "char_end": 615,
+          "text": "This was the first experimental entry into the \"neutrino fog\", an irreducible background of neutrino interactions that mimics dark matter signals and complicates future WIMP searches.",
+          "similarity": 0.6056301593780518
+        }
+      ],
+      "all_supplied_evidence": {
+        "E1": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00178",
+          "block_kind": "definition",
+          "section_path": [
+            "See also"
+          ],
+          "char_start": 0,
+          "char_end": 5,
+          "text": "Other",
+          "similarity": 0.7373430728912354
+        },
+        "E2": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00169",
+          "block_kind": "definition",
+          "section_path": [
+            "See also"
+          ],
+          "char_start": 0,
+          "char_end": 16,
+          "text": "Related theories",
+          "similarity": 0.6969022750854492
+        },
+        "E3": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00069",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Composition",
+            "Baryonic matter"
+          ],
+          "char_start": 0,
+          "char_end": 88,
+          "text": "However, multiple lines of evidence suggest the majority of dark matter is not baryonic:",
+          "similarity": 0.6664660573005676
+        },
+        "E4": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00003",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 153,
+          "text": "Dark matter is not known to interact with ordinary baryonic matter and radiation except through gravity, making it difficult to detect in the laboratory.",
+          "similarity": 0.6550326347351074
+        },
+        "E5": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00003",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 154,
+          "char_end": 323,
+          "text": "The most prevalent explanation is that dark matter is some as-yet-undiscovered subatomic particle, such as either weakly interacting massive particles (WIMPs) or axions.",
+          "similarity": 0.6550326347351074
+        },
+        "E6": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00003",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 324,
+          "char_end": 409,
+          "text": "The other main possibility is that dark matter is composed of primordial black holes.",
+          "similarity": 0.6550326347351074
+        },
+        "E7": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00172",
+          "block_kind": "definition",
+          "section_path": [
+            "See also"
+          ],
+          "char_start": 0,
+          "char_end": 11,
+          "text": "Experiments",
+          "similarity": 0.6504067182540894
+        },
+        "E8": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00018",
+          "block_kind": "paragraph",
+          "section_path": [
+            "History",
+            "1970s"
+          ],
+          "char_start": 0,
+          "char_end": 389,
+          "text": "In 1978, Steigman et al. presented a study that extended earlier cosmological relic particle density calculations to any hypothetical stable, electrically neutral, weak-scale lepton, showing how such a particle's abundance would \"freeze out\" in the early Universe and providing analytic expressions that linked its mass and weak interaction cross-section to the present-day matter density.",
+          "similarity": 0.6497125625610352
+        },
+        "E9": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00018",
+          "block_kind": "paragraph",
+          "section_path": [
+            "History",
+            "1970s"
+          ],
+          "char_start": 390,
+          "char_end": 684,
+          "text": "By decoupling the analysis from specific neutrino properties and treating the candidate generically, the authors set out a framework that later became the standard template for weakly interacting massive particles (WIMPs) and for comparing particle-physics models with cosmological constraints.",
+          "similarity": 0.6497125625610352
+        },
+        "E10": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00018",
+          "block_kind": "paragraph",
+          "section_path": [
+            "History",
+            "1970s"
+          ],
+          "char_start": 685,
+          "char_end": 904,
+          "text": "Though subsequent work has refined the methodology and explored many alternative candidates, this paper marked the first explicit, systematic treatment of dark matter as a new particle species beyond the Standard Model.",
+          "similarity": 0.6497125625610352
+        },
+        "E11": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00018",
+          "block_kind": "paragraph",
+          "section_path": [
+            "History",
+            "1970s"
+          ],
+          "char_start": 905,
+          "char_end": 1054,
+          "text": "By the late 1970s the existence of dark matter halos around galaxies was widely recognized as real, and became a major unsolved problem in astronomy.",
+          "similarity": 0.6497125625610352
+        },
+        "E12": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 0,
+          "char_end": 28,
+          "text": "Major dark matter hypotheses",
+          "similarity": 0.6476086974143982
+        },
+        "E13": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 29,
+          "char_end": 50,
+          "text": "Light bosons | Axions",
+          "similarity": 0.6476086974143982
+        },
+        "E14": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 51,
+          "char_end": 71,
+          "text": "Axion-like particles",
+          "similarity": 0.6476086974143982
+        },
+        "E15": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 72,
+          "char_end": 94,
+          "text": "Fuzzy cold dark matter",
+          "similarity": 0.6476086974143982
+        },
+        "E16": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 95,
+          "char_end": 121,
+          "text": "Neutrinos | Standard Model",
+          "similarity": 0.6476086974143982
+        },
+        "E17": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 122,
+          "char_end": 139,
+          "text": "Sterile neutrinos",
+          "similarity": 0.6476086974143982
+        },
+        "E18": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 140,
+          "char_end": 190,
+          "text": "Other particles | Lightest supersymmetric particle",
+          "similarity": 0.6476086974143982
+        },
+        "E19": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 191,
+          "char_end": 235,
+          "text": "Weakly interacting massive particles (WIMPs)",
+          "similarity": 0.6476086974143982
+        },
+        "E20": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 236,
+          "char_end": 264,
+          "text": "Self-interacting dark matter",
+          "similarity": 0.6476086974143982
+        },
+        "E21": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 265,
+          "char_end": 283,
+          "text": "Atomic dark matter",
+          "similarity": 0.6476086974143982
+        },
+        "E22": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 284,
+          "char_end": 294,
+          "text": "Strangelet",
+          "similarity": 0.6476086974143982
+        },
+        "E23": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 295,
+          "char_end": 338,
+          "text": "Macroscopic | Primordial black holes (PBHs)",
+          "similarity": 0.6476086974143982
+        },
+        "E24": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00065",
+          "block_kind": "table",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 339,
+          "char_end": 382,
+          "text": "Other massive compact halo objects (MACHOs)",
+          "similarity": 0.6476086974143982
+        },
+        "E25": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00088",
+          "block_kind": "list_item",
+          "section_path": [
+            "Composition",
+            "Non-baryonic matter",
+            "Particle candidates",
+            "Particle aggregation and dense dark matter objects"
+          ],
+          "char_start": 0,
+          "char_end": 62,
+          "text": "It lacks a diversity of interactions needed to form structures",
+          "similarity": 0.6315099000930786
+        },
+        "E26": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00171",
+          "block_kind": "list_item",
+          "section_path": [
+            "See also"
+          ],
+          "char_start": 0,
+          "char_end": 62,
+          "text": "Unparticle physics – Speculative theory of non-particle matter",
+          "similarity": 0.6281543970108032
+        },
+        "E27": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00146",
+          "block_kind": "list_item",
+          "section_path": [
+            "Alternative hypotheses",
+            "Non-mainstream and less established particle, field, and structure theories"
+          ],
+          "char_start": 0,
+          "char_end": 21,
+          "text": "Dynamical dark matter",
+          "similarity": 0.6257678270339966
+        },
+        "E28": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00138",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternative hypotheses",
+            "Modified gravity"
+          ],
+          "char_start": 0,
+          "char_end": 157,
+          "text": "If dark matter is not an undiscovered particle, then the next possibility is that general relativity, the theory underpinning modern cosmology, is incorrect.",
+          "similarity": 0.6212894916534424
+        },
+        "E29": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00138",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternative hypotheses",
+            "Modified gravity"
+          ],
+          "char_start": 158,
+          "char_end": 293,
+          "text": "General relativity is well-tested on Solar System scales, but its validity on galactic or cosmological scales has not been well proven.",
+          "similarity": 0.6212894916534424
+        },
+        "E30": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00138",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternative hypotheses",
+            "Modified gravity"
+          ],
+          "char_start": 294,
+          "char_end": 391,
+          "text": "A suitable modification to general relativity can conceivably eliminate the need for dark matter.",
+          "similarity": 0.6212894916534424
+        },
+        "E31": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00138",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternative hypotheses",
+            "Modified gravity"
+          ],
+          "char_start": 392,
+          "char_end": 641,
+          "text": "The best-known theories of this class are modified Newtonian dynamics (MOND) and its relativistic generalization tensor–vector–scalar gravity (TeVeS), f(R) gravity, negative mass, dark fluid, entropic gravity, conformal gravity, and massive gravity.",
+          "similarity": 0.6212894916534424
+        },
+        "E32": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00138",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternative hypotheses",
+            "Modified gravity"
+          ],
+          "char_start": 642,
+          "char_end": 670,
+          "text": "Alternative theories abound.",
+          "similarity": 0.6212894916534424
+        },
+        "E33": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00064",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 0,
+          "char_end": 141,
+          "text": "The identity of dark matter is unknown, but there are many hypotheses about what dark matter could consist of, as set out in the table below.",
+          "similarity": 0.6187947988510132
+        },
+        "E34": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00157",
+          "block_kind": "paragraph",
+          "section_path": [
+            "In popular culture"
+          ],
+          "char_start": 0,
+          "char_end": 51,
+          "text": "Mention of dark matter is made in works of fiction.",
+          "similarity": 0.6151058077812195
+        },
+        "E35": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00157",
+          "block_kind": "paragraph",
+          "section_path": [
+            "In popular culture"
+          ],
+          "char_start": 52,
+          "char_end": 238,
+          "text": "In such cases, it is usually attributed extraordinary physical or magical properties, thus becoming inconsistent with the hypothesized properties of dark matter in physics and cosmology.",
+          "similarity": 0.6151058077812195
+        },
+        "E36": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00157",
+          "block_kind": "paragraph",
+          "section_path": [
+            "In popular culture"
+          ],
+          "char_start": 239,
+          "char_end": 251,
+          "text": "For example:",
+          "similarity": 0.6151058077812195
+        },
+        "E37": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00050",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Observational evidence",
+            "Cosmic microwave background"
+          ],
+          "char_start": 0,
+          "char_end": 93,
+          "text": "Although both dark matter and ordinary matter are matter, they do not behave in the same way.",
+          "similarity": 0.611044704914093
+        },
+        "E38": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00050",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Observational evidence",
+            "Cosmic microwave background"
+          ],
+          "char_start": 94,
+          "char_end": 222,
+          "text": "In particular, in the early universe, ordinary matter was ionized and interacted strongly with radiation via Thomson scattering.",
+          "similarity": 0.611044704914093
+        },
+        "E39": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00050",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Observational evidence",
+            "Cosmic microwave background"
+          ],
+          "char_start": 223,
+          "char_end": 457,
+          "text": "Dark matter does not interact directly with radiation, but it does affect the cosmic microwave background (CMB) by its gravitational potential (mainly on large scales) and by its effects on the density and velocity of ordinary matter.",
+          "similarity": 0.611044704914093
+        },
+        "E40": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00050",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Observational evidence",
+            "Cosmic microwave background"
+          ],
+          "char_start": 458,
+          "char_end": 578,
+          "text": "Ordinary and dark matter perturbations, therefore, evolve differently with time and leave different imprints on the CMB.",
+          "similarity": 0.611044704914093
+        },
+        "E41": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00144",
+          "block_kind": "list_item",
+          "section_path": [
+            "Alternative hypotheses",
+            "Non-mainstream and less established particle, field, and structure theories"
+          ],
+          "char_start": 0,
+          "char_end": 87,
+          "text": "Dark radiation – Postulated type of radiation that mediates interactions of dark matter",
+          "similarity": 0.6094043254852295
+        },
+        "E42": {
+          "page_id": 264752,
+          "title": "Baryonic dark matter",
+          "url": "https://en.wikipedia.org/wiki/Baryonic_dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Baryonic_dark_matter&oldid=1334448316",
+          "revision_id": 1334448316,
+          "block_id": "B00007",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Estimates of quantity"
+          ],
+          "char_start": 0,
+          "char_end": 150,
+          "text": "The total amount of baryonic dark matter can be inferred from models of Big Bang nucleosynthesis, and observations of the cosmic microwave background.",
+          "similarity": 0.6070979833602905
+        },
+        "E43": {
+          "page_id": 264752,
+          "title": "Baryonic dark matter",
+          "url": "https://en.wikipedia.org/wiki/Baryonic_dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Baryonic_dark_matter&oldid=1334448316",
+          "revision_id": 1334448316,
+          "block_id": "B00007",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Estimates of quantity"
+          ],
+          "char_start": 151,
+          "char_end": 258,
+          "text": "Both indicate that the amount of baryonic dark matter is much smaller than the total amount of dark matter.",
+          "similarity": 0.6070979833602905
+        },
+        "E44": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00106",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Particle searches",
+            "Direct particle detection",
+            "WIMPs"
+          ],
+          "char_start": 0,
+          "char_end": 99,
+          "text": "As of 2026, there has been no confirmed detection of dark matter from these standard WIMP searches.",
+          "similarity": 0.6056301593780518
+        },
+        "E45": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00106",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Particle searches",
+            "Direct particle detection",
+            "WIMPs"
+          ],
+          "char_start": 100,
+          "char_end": 211,
+          "text": "Instead, experiments have placed strong upper limits on the particle's interaction cross-section with nucleons.",
+          "similarity": 0.6056301593780518
+        },
+        "E46": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00106",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Particle searches",
+            "Direct particle detection",
+            "WIMPs"
+          ],
+          "char_start": 212,
+          "char_end": 431,
+          "text": "In late 2025, the LZ experiment reported the exclusion of WIMP cross-sections above 9 GeV/c2 and the first detection of boron-8 solar neutrinos via coherent elastic neutrino-nucleus scattering in a dark matter detector.",
+          "similarity": 0.6056301593780518
+        },
+        "E47": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00106",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Particle searches",
+            "Direct particle detection",
+            "WIMPs"
+          ],
+          "char_start": 432,
+          "char_end": 615,
+          "text": "This was the first experimental entry into the \"neutrino fog\", an irreducible background of neutrino interactions that mimics dark matter signals and complicates future WIMP searches.",
+          "similarity": 0.6056301593780518
+        }
+      },
+      "note_title": "Possible annotation inconsistency",
+      "note": "FEVER marks this REFUTES, but its own reference says dark matter is distinct from neutrinos. The cited sentence appears to support the claim. Flag this for review; keep the original label and score unchanged."
+    },
+    {
+      "id": 40442,
+      "claim": "The House of the Spirits won awards.",
+      "reference_label": "SUPPORTS",
+      "model_label": "NOT ENOUGH INFO",
+      "derived_label": "NOT ENOUGH INFO",
+      "reference_groups": [
+        [
+          {
+            "page_id": "The_House_of_the_Spirits_-LRB-film-RRB-",
+            "sentence_id": 5,
+            "text": "The film won some awards , -LRB- Bavarian Film Awards , German Film Awards , the Golden Screen -LRB- Germany -RRB- , Havana Film Festival , and Robert Festival -LRB- Denmark -RRB- , the German Phono Academy and the Guild of German Art House Cinemas -RRB- .",
+            "text_sha256": "387d78090506ac786a8c526d95f8e513d20a02d4c29d6059fd39588f4754810a",
+            "current_url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits_(film)"
+          }
+        ]
+      ],
+      "reference_raw": [
+        [
+          [
+            56771,
+            66998,
+            "The_House_of_the_Spirits_-LRB-film-RRB-",
+            5
+          ]
+        ]
+      ],
+      "model_parts": [
+        {
+          "part": "The House of the Spirits won awards.",
+          "verdict": "NOT ENOUGH INFO",
+          "evidence_ids": [],
+          "justification": "There is no direct evidence that The House of the Spirits won awards."
+        }
+      ],
+      "model_excerpts": [
+        {
+          "id": "E3",
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00053",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 150,
+          "char_end": 302,
+          "text": "That adaptation premiered in 2009 and received the HOLA Award for Outstanding Achievement in Playwriting from the Hispanic Organization of Latin Actors.",
+          "similarity": 0.626376748085022
+        },
+        {
+          "id": "E5",
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00053",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 476,
+          "char_end": 662,
+          "text": "Svich also wrote an English language version of the play which won the 2011 American Theatre Critics Association Primus Prize for its production at Denver Center Theatre Company in 2010.",
+          "similarity": 0.626376748085022
+        },
+        {
+          "id": "E8",
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00051",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 271,
+          "char_end": 366,
+          "text": "While the film won some minor international awards, it was widely viewed as a critical failure.",
+          "similarity": 0.6008409261703491
+        },
+        {
+          "id": "E44",
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00001",
+          "block_kind": "infobox",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 35,
+          "text": "Australian Distilled Spirits Awards",
+          "similarity": 0.5136036276817322
+        }
+      ],
+      "all_supplied_evidence": {
+        "E1": {
+          "page_id": 38983836,
+          "title": "House of Spirits",
+          "url": "https://en.wikipedia.org/wiki/House_of_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=House_of_Spirits&oldid=808995572",
+          "revision_id": 808995572,
+          "block_id": "B00001",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 30,
+          "text": "House of Spirits may refer to:",
+          "similarity": 0.6623809337615967
+        },
+        "E2": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00053",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 0,
+          "char_end": 149,
+          "text": "The novel has also been adapted for the theater in a version written by Caridad Svich, which was commissioned by Repertorio Espanol in New York City.",
+          "similarity": 0.626376748085022
+        },
+        "E3": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00053",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 150,
+          "char_end": 302,
+          "text": "That adaptation premiered in 2009 and received the HOLA Award for Outstanding Achievement in Playwriting from the Hispanic Organization of Latin Actors.",
+          "similarity": 0.626376748085022
+        },
+        "E4": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00053",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 303,
+          "char_end": 475,
+          "text": "Unlike the film and the previous adaptation, this version was written and performed in Spanish and has been staged in Latin American countries such as Chile and Costa Rica.",
+          "similarity": 0.626376748085022
+        },
+        "E5": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00053",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 476,
+          "char_end": 662,
+          "text": "Svich also wrote an English language version of the play which won the 2011 American Theatre Critics Association Primus Prize for its production at Denver Center Theatre Company in 2010.",
+          "similarity": 0.626376748085022
+        },
+        "E6": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00051",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 0,
+          "char_end": 74,
+          "text": "In 1993, the book was adapted into a film by Danish director Bille August.",
+          "similarity": 0.6008409261703491
+        },
+        "E7": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00051",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 75,
+          "char_end": 270,
+          "text": "The movie starred Jeremy Irons as Esteban Trueba, Meryl Streep as Clara del Valle Trueba, Winona Ryder as Blanca Trueba, Glenn Close as Férula Trueba and Antonio Banderas as Pedro Tercero García.",
+          "similarity": 0.6008409261703491
+        },
+        "E8": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00051",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 271,
+          "char_end": 366,
+          "text": "While the film won some minor international awards, it was widely viewed as a critical failure.",
+          "similarity": 0.6008409261703491
+        },
+        "E9": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00051",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 367,
+          "char_end": 496,
+          "text": "Two oft-cited reasons were its diffusely episodic structure and its cast of mostly Anglo-American actors in Latin American roles.",
+          "similarity": 0.6008409261703491
+        },
+        "E10": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00051",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 497,
+          "char_end": 625,
+          "text": "The film grossed $4.8 million in its first two weeks of release in Germany and went on to gross more than $55 million in Europe.",
+          "similarity": 0.6008409261703491
+        },
+        "E11": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00051",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 626,
+          "char_end": 681,
+          "text": "In the United States and Canada, it grossed $6 million.",
+          "similarity": 0.6008409261703491
+        },
+        "E12": {
+          "page_id": 38983836,
+          "title": "House of Spirits",
+          "url": "https://en.wikipedia.org/wiki/House_of_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=House_of_Spirits&oldid=808995572",
+          "revision_id": 808995572,
+          "block_id": "B00003",
+          "block_kind": "list_item",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 73,
+          "text": "The House of the Spirits (film), a 1993 film based on the book by Allende",
+          "similarity": 0.5769945979118347
+        },
+        "E13": {
+          "page_id": 38983836,
+          "title": "House of Spirits",
+          "url": "https://en.wikipedia.org/wiki/House_of_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=House_of_Spirits&oldid=808995572",
+          "revision_id": 808995572,
+          "block_id": "B00004",
+          "block_kind": "list_item",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 83,
+          "text": "House of Spirits (TV series), a 2016 TVB drama starring Bobby Au-yeung and Nancy Wu",
+          "similarity": 0.5769944190979004
+        },
+        "E14": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00052",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 0,
+          "char_end": 98,
+          "text": "A theatrical adaptation of the novel was presented at Seattle's Book-It Repertory Theatre in 2007.",
+          "similarity": 0.5751209855079651
+        },
+        "E15": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00041",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 0,
+          "char_end": 77,
+          "text": "The House of The Spirits (New York: Bantam, 1986) First US paperback edition.",
+          "similarity": 0.568465530872345
+        },
+        "E16": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00041",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 78,
+          "char_end": 104,
+          "text": "Translated by Magda Bogin.",
+          "similarity": 0.568465530872345
+        },
+        "E17": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00041",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 105,
+          "char_end": 123,
+          "text": "ISBN 0-553-27391-4",
+          "similarity": 0.568465530872345
+        },
+        "E18": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00042",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 0,
+          "char_end": 79,
+          "text": "The House of The Spirits (London: Black Swan, 1986) First UK paperback edition.",
+          "similarity": 0.5644270777702332
+        },
+        "E19": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00042",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 80,
+          "char_end": 106,
+          "text": "Translated by Magda Bogin.",
+          "similarity": 0.5644270777702332
+        },
+        "E20": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00042",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 107,
+          "char_end": 125,
+          "text": "ISBN 0-552-99198-8",
+          "similarity": 0.5644270777702332
+        },
+        "E21": {
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00025",
+          "block_kind": "list_item",
+          "section_path": [
+            "See also"
+          ],
+          "char_start": 0,
+          "char_end": 17,
+          "text": "Australian whisky",
+          "similarity": 0.5631033182144165
+        },
+        "E22": {
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00024",
+          "block_kind": "list_item",
+          "section_path": [
+            "See also"
+          ],
+          "char_start": 0,
+          "char_end": 20,
+          "text": "Alcohol in Australia",
+          "similarity": 0.5539180040359497
+        },
+        "E23": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00040",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 0,
+          "char_end": 79,
+          "text": "The House of The Spirits (London: Jonathan Cape, 4 July 1985) First UK edition.",
+          "similarity": 0.5474590063095093
+        },
+        "E24": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00040",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 80,
+          "char_end": 106,
+          "text": "Translated by Magda Bogin.",
+          "similarity": 0.5474590063095093
+        },
+        "E25": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00040",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 107,
+          "char_end": 125,
+          "text": "ISBN 0-224-02231-8",
+          "similarity": 0.5474590063095093
+        },
+        "E26": {
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00019",
+          "block_kind": "list_item",
+          "section_path": [
+            "Trophy winners",
+            "2016"
+          ],
+          "char_start": 0,
+          "char_end": 70,
+          "text": "Champion Gin - kis Old Tom - Kangaroo Island Spirits (South Australia)",
+          "similarity": 0.5412325859069824
+        },
+        "E27": {
+          "page_id": 38983836,
+          "title": "House of Spirits",
+          "url": "https://en.wikipedia.org/wiki/House_of_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=House_of_Spirits&oldid=808995572",
+          "revision_id": 808995572,
+          "block_id": "B00002",
+          "block_kind": "list_item",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 56,
+          "text": "The House of the Spirits, a 1982 novel by Isabel Allende",
+          "similarity": 0.540248453617096
+        },
+        "E28": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00046",
+          "block_kind": "paragraph",
+          "section_path": [
+            "School curricula",
+            "Censorship in the United States"
+          ],
+          "char_start": 1027,
+          "char_end": 1110,
+          "text": "its anti-Christian views, pornographic depictions, and “violence and sexual abuse”.",
+          "similarity": 0.5298269391059875
+        },
+        "E29": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00054",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 0,
+          "char_end": 152,
+          "text": "On May 23, 2018, it was announced that Hulu was developing a television series adaptation of the novel with production company FilmNation Entertainment.",
+          "similarity": 0.5288744568824768
+        },
+        "E30": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00054",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 153,
+          "char_end": 222,
+          "text": "Allende is expected to serve as an executive producer on the project.",
+          "similarity": 0.5288744568824768
+        },
+        "E31": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00054",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 223,
+          "char_end": 305,
+          "text": "On October 19, 2021, it was announced that Eva Longoria would star in the project.",
+          "similarity": 0.5288744568824768
+        },
+        "E32": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00054",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 306,
+          "char_end": 370,
+          "text": "In 2024, Amazon MGM Studios gave the green-light to the project.",
+          "similarity": 0.5288744568824768
+        },
+        "E33": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00054",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 371,
+          "char_end": 566,
+          "text": "In 2026, the novel was adapted into an 8-part television miniseries starring Alfonso Herrera as Esteban Trueba, Dolores Fonzi as Clara del Valle Cortés and Rochi Hernández as Alba Satigny Trueba.",
+          "similarity": 0.5288744568824768
+        },
+        "E34": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00054",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 567,
+          "char_end": 642,
+          "text": "The television series was released on April 29, 2026 on Amazon Prime Video.",
+          "similarity": 0.5288744568824768
+        },
+        "E35": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00054",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Film, theatrical and television adaptations"
+          ],
+          "char_start": 643,
+          "char_end": 698,
+          "text": "Longoria remained in the project as executive producer.",
+          "similarity": 0.5288744568824768
+        },
+        "E36": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00039",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 0,
+          "char_end": 102,
+          "text": "The House of The Spirits (Westminster, Maryland: Knopf, 12 April 1985) First English language edition.",
+          "similarity": 0.528600811958313
+        },
+        "E37": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00039",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 103,
+          "char_end": 129,
+          "text": "Translated by Magda Bogin.",
+          "similarity": 0.528600811958313
+        },
+        "E38": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00039",
+          "block_kind": "list_item",
+          "section_path": [
+            "Publication history"
+          ],
+          "char_start": 130,
+          "char_end": 148,
+          "text": "ISBN 0-394-53907-9",
+          "similarity": 0.528600811958313
+        },
+        "E39": {
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00011",
+          "block_kind": "list_item",
+          "section_path": [
+            "Trophy winners",
+            "2015"
+          ],
+          "char_start": 0,
+          "char_end": 68,
+          "text": "Champion Alternative Spirits - Zeus Oyzo - Edgemill Group (Victoria)",
+          "similarity": 0.5282216668128967
+        },
+        "E40": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00049",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Traditions"
+          ],
+          "char_start": 0,
+          "char_end": 112,
+          "text": "In January 8, 1981, I was living in Venezuela and I received a phone call that my beloved grandfather was dying.",
+          "similarity": 0.5241138339042664
+        },
+        "E41": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00049",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Traditions"
+          ],
+          "char_start": 113,
+          "char_end": 197,
+          "text": "I began a letter for him that later became my first novel, The House of The Spirits.",
+          "similarity": 0.5241138339042664
+        },
+        "E42": {
+          "page_id": 1195051,
+          "title": "The House of the Spirits",
+          "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+          "revision_id": 1382550768,
+          "block_id": "B00049",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Traditions"
+          ],
+          "char_start": 198,
+          "char_end": 285,
+          "text": "It was such a lucky book from the very beginning, that I kept that lucky date to start.",
+          "similarity": 0.5241138339042664
+        },
+        "E43": {
+          "page_id": 49156696,
+          "title": "China Wine and Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/China_Wine_and_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=China_Wine_and_Spirits_Awards&oldid=1300059756",
+          "revision_id": 1300059756,
+          "block_id": "B00029",
+          "block_kind": "list_item",
+          "section_path": [
+            "CWSA Medals",
+            "Notable Winners"
+          ],
+          "char_start": 0,
+          "char_end": 11,
+          "text": "Beam Creek.",
+          "similarity": 0.5206122398376465
+        },
+        "E44": {
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00001",
+          "block_kind": "infobox",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 35,
+          "text": "Australian Distilled Spirits Awards",
+          "similarity": 0.5136036276817322
+        },
+        "E45": {
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00001",
+          "block_kind": "infobox",
+          "section_path": [],
+          "char_start": 36,
+          "char_end": 65,
+          "text": "Industry | Alcoholic beverage",
+          "similarity": 0.5136036276817322
+        },
+        "E46": {
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00001",
+          "block_kind": "infobox",
+          "section_path": [],
+          "char_start": 66,
+          "char_end": 101,
+          "text": "Headquarters | Melbourne, Australia",
+          "similarity": 0.5136036276817322
+        },
+        "E47": {
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00001",
+          "block_kind": "infobox",
+          "section_path": [],
+          "char_start": 102,
+          "char_end": 148,
+          "text": "Owner | Royal Agricultural Society of Victoria",
+          "similarity": 0.5136036276817322
+        },
+        "E48": {
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00001",
+          "block_kind": "infobox",
+          "section_path": [],
+          "char_start": 149,
+          "char_end": 192,
+          "text": "Website | www.rasv.com.au/Events/ADSA_Home/",
+          "similarity": 0.5136036276817322
+        },
+        "E49": {
+          "page_id": 49628760,
+          "title": "Australian Distilled Spirits Awards",
+          "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+          "revision_id": 1361016219,
+          "block_id": "B00004",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 138,
+          "text": "In 2017, the ADSA introduced two new trophies to reflect evolving production techniques, Champion Aromatic Bitters and Champion Micro Lot.",
+          "similarity": 0.5121080875396729
+        },
+        "E50": {
+          "page_id": 42469315,
+          "title": "House Spirits Distillery",
+          "url": "https://en.wikipedia.org/wiki/House_Spirits_Distillery",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=House_Spirits_Distillery&oldid=1370751790",
+          "revision_id": 1370751790,
+          "block_id": "B00003",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 123,
+          "text": "In 2013, the company made plans to expand its distribution to 35 states in a deal with distributor Southern Wine & Spirits.",
+          "similarity": 0.5039818286895752
+        },
+        "E51": {
+          "page_id": 42469315,
+          "title": "House Spirits Distillery",
+          "url": "https://en.wikipedia.org/wiki/House_Spirits_Distillery",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=House_Spirits_Distillery&oldid=1370751790",
+          "revision_id": 1370751790,
+          "block_id": "B00003",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 124,
+          "char_end": 216,
+          "text": "The same year, House Spirits opened a second tasting room at Portland International Airport.",
+          "similarity": 0.5039818286895752
+        },
+        "E52": {
+          "page_id": 42469315,
+          "title": "House Spirits Distillery",
+          "url": "https://en.wikipedia.org/wiki/House_Spirits_Distillery",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=House_Spirits_Distillery&oldid=1370751790",
+          "revision_id": 1370751790,
+          "block_id": "B00003",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 217,
+          "char_end": 282,
+          "text": "Former NFL quarterback Joe Montana is an investor in the company.",
+          "similarity": 0.5039818286895752
+        }
+      },
+      "note_title": "Evidence was present; the model missed it",
+      "note": "The saved model input already contained E8: “While the film won some minor international awards, it was widely viewed as a critical failure.” The NEI answer overlooked explicit evidence of awards."
+    },
+    {
+      "id": 4807,
+      "claim": "Dark matter is distinguishable from dark energy.",
+      "reference_label": "SUPPORTS",
+      "model_label": "NOT ENOUGH INFO",
+      "derived_label": "NOT ENOUGH INFO",
+      "reference_groups": [
+        [
+          {
+            "page_id": "Dark_matter",
+            "sentence_id": 0,
+            "text": "Dark matter is a hypothetical type of matter distinct from baryonic matter -LRB- ordinary matter such as protons and neutrons -RRB- , neutrinos and dark energy .",
+            "text_sha256": "954ccb01a721a14b02e5536dcdef608f243e2759d8db97c24a96e51fca206f01",
+            "current_url": "https://en.wikipedia.org/wiki/Dark_matter"
+          }
+        ]
+      ],
+      "reference_raw": [
+        [
+          [
+            21163,
+            25995,
+            "Dark_matter",
+            0
+          ]
+        ]
+      ],
+      "model_parts": [
+        {
+          "part": "Dark matter is distinguishable from dark energy.",
+          "verdict": "NOT ENOUGH INFO",
+          "evidence_ids": [],
+          "justification": "The claim requires evidence that dark matter and dark energy have distinct properties or behaviors, but the provided passages do not establish this relationship."
+        }
+      ],
+      "model_excerpts": [
+        {
+          "id": "E8",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00070",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternatives to dark energy",
+            "Observational skepticism"
+          ],
+          "char_start": 1052,
+          "char_end": 1100,
+          "text": "to detect any force associated with dark energy.",
+          "similarity": 0.6880801916122437
+        },
+        {
+          "id": "E13",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 0,
+          "char_end": 186,
+          "text": "This class of theories attempts to come up with an all-encompassing theory of both dark matter and dark energy as a single phenomenon that modifies the laws of gravity at various scales.",
+          "similarity": 0.6713347434997559
+        },
+        {
+          "id": "E14",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 187,
+          "char_end": 356,
+          "text": "This could, for example, treat dark energy and dark matter as different facets of the same unknown substance, or postulate that cold dark matter decays into dark energy.",
+          "similarity": 0.6713347434997559
+        },
+        {
+          "id": "E15",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 357,
+          "char_end": 485,
+          "text": "Another class of theories that unifies dark matter and dark energy are suggested to be covariant theories of modified gravities.",
+          "similarity": 0.6713347434997559
+        },
+        {
+          "id": "E16",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 486,
+          "char_end": 645,
+          "text": "These theories alter the dynamics of spacetime such that the modified dynamics stems to what have been assigned to the presence of dark energy and dark matter.",
+          "similarity": 0.6713347434997559
+        },
+        {
+          "id": "E17",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 646,
+          "char_end": 759,
+          "text": "Dark energy could in principle interact not only with the rest of the dark sector, but also with ordinary matter.",
+          "similarity": 0.6713347434997559
+        },
+        {
+          "id": "E18",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 760,
+          "char_end": 966,
+          "text": "However, cosmology alone is not sufficient to effectively constrain the strength of the coupling between dark energy and baryons, so that other indirect techniques or laboratory searches have to be adopted.",
+          "similarity": 0.6713347434997559
+        },
+        {
+          "id": "E20",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00039",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Evidence of existence",
+            "Cosmic microwave background"
+          ],
+          "char_start": 970,
+          "char_end": 1027,
+          "text": "dark energy, 26.8% dark matter, and 4.9% ordinary matter.",
+          "similarity": 0.664071798324585
+        },
+        {
+          "id": "E22",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00015",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Nature"
+          ],
+          "char_start": 0,
+          "char_end": 133,
+          "text": "The nature of dark energy is more hypothetical than that of dark matter, and many things about it remain in the realm of speculation.",
+          "similarity": 0.663540244102478
+        },
+        {
+          "id": "E23",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00015",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Nature"
+          ],
+          "char_start": 134,
+          "char_end": 281,
+          "text": "Dark energy is thought to be very homogeneous and not dense, and is not known to interact through any of the fundamental forces other than gravity.",
+          "similarity": 0.663540244102478
+        },
+        {
+          "id": "E25",
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00015",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Nature"
+          ],
+          "char_start": 397,
+          "char_end": 596,
+          "text": "The reason dark energy can have such a profound effect on the universe, making up 68% of universal density in spite of being so dilute, is that it is believed to uniformly fill otherwise empty space.",
+          "similarity": 0.663540244102478
+        }
+      ],
+      "all_supplied_evidence": {
+        "E1": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00088",
+          "block_kind": "list_item",
+          "section_path": [
+            "See also"
+          ],
+          "char_start": 0,
+          "char_end": 11,
+          "text": "Dark matter",
+          "similarity": 0.8178070783615112
+        },
+        "E2": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00178",
+          "block_kind": "definition",
+          "section_path": [
+            "See also"
+          ],
+          "char_start": 0,
+          "char_end": 5,
+          "text": "Other",
+          "similarity": 0.7427127957344055
+        },
+        "E3": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00169",
+          "block_kind": "definition",
+          "section_path": [
+            "See also"
+          ],
+          "char_start": 0,
+          "char_end": 16,
+          "text": "Related theories",
+          "similarity": 0.7411890625953674
+        },
+        "E4": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00157",
+          "block_kind": "paragraph",
+          "section_path": [
+            "In popular culture"
+          ],
+          "char_start": 0,
+          "char_end": 51,
+          "text": "Mention of dark matter is made in works of fiction.",
+          "similarity": 0.710436999797821
+        },
+        "E5": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00157",
+          "block_kind": "paragraph",
+          "section_path": [
+            "In popular culture"
+          ],
+          "char_start": 52,
+          "char_end": 238,
+          "text": "In such cases, it is usually attributed extraordinary physical or magical properties, thus becoming inconsistent with the hypothesized properties of dark matter in physics and cosmology.",
+          "similarity": 0.710436999797821
+        },
+        "E6": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00157",
+          "block_kind": "paragraph",
+          "section_path": [
+            "In popular culture"
+          ],
+          "char_start": 239,
+          "char_end": 251,
+          "text": "For example:",
+          "similarity": 0.710436999797821
+        },
+        "E7": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00146",
+          "block_kind": "list_item",
+          "section_path": [
+            "Alternative hypotheses",
+            "Non-mainstream and less established particle, field, and structure theories"
+          ],
+          "char_start": 0,
+          "char_end": 21,
+          "text": "Dynamical dark matter",
+          "similarity": 0.694929838180542
+        },
+        "E8": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00070",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternatives to dark energy",
+            "Observational skepticism"
+          ],
+          "char_start": 1052,
+          "char_end": 1100,
+          "text": "to detect any force associated with dark energy.",
+          "similarity": 0.6880801916122437
+        },
+        "E9": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00064",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Composition"
+          ],
+          "char_start": 0,
+          "char_end": 141,
+          "text": "The identity of dark matter is unknown, but there are many hypotheses about what dark matter could consist of, as set out in the table below.",
+          "similarity": 0.6876805424690247
+        },
+        "E10": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00069",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Composition",
+            "Baryonic matter"
+          ],
+          "char_start": 0,
+          "char_end": 88,
+          "text": "However, multiple lines of evidence suggest the majority of dark matter is not baryonic:",
+          "similarity": 0.686915397644043
+        },
+        "E11": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00172",
+          "block_kind": "definition",
+          "section_path": [
+            "See also"
+          ],
+          "char_start": 0,
+          "char_end": 11,
+          "text": "Experiments",
+          "similarity": 0.6850883960723877
+        },
+        "E12": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00144",
+          "block_kind": "list_item",
+          "section_path": [
+            "Alternative hypotheses",
+            "Non-mainstream and less established particle, field, and structure theories"
+          ],
+          "char_start": 0,
+          "char_end": 87,
+          "text": "Dark radiation – Postulated type of radiation that mediates interactions of dark matter",
+          "similarity": 0.6799252033233643
+        },
+        "E13": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 0,
+          "char_end": 186,
+          "text": "This class of theories attempts to come up with an all-encompassing theory of both dark matter and dark energy as a single phenomenon that modifies the laws of gravity at various scales.",
+          "similarity": 0.6713347434997559
+        },
+        "E14": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 187,
+          "char_end": 356,
+          "text": "This could, for example, treat dark energy and dark matter as different facets of the same unknown substance, or postulate that cold dark matter decays into dark energy.",
+          "similarity": 0.6713347434997559
+        },
+        "E15": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 357,
+          "char_end": 485,
+          "text": "Another class of theories that unifies dark matter and dark energy are suggested to be covariant theories of modified gravities.",
+          "similarity": 0.6713347434997559
+        },
+        "E16": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 486,
+          "char_end": 645,
+          "text": "These theories alter the dynamics of spacetime such that the modified dynamics stems to what have been assigned to the presence of dark energy and dark matter.",
+          "similarity": 0.6713347434997559
+        },
+        "E17": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 646,
+          "char_end": 759,
+          "text": "Dark energy could in principle interact not only with the rest of the dark sector, but also with ordinary matter.",
+          "similarity": 0.6713347434997559
+        },
+        "E18": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 760,
+          "char_end": 966,
+          "text": "However, cosmology alone is not sufficient to effectively constrain the strength of the coupling between dark energy and baryons, so that other indirect techniques or laboratory searches have to be adopted.",
+          "similarity": 0.6713347434997559
+        },
+        "E19": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00061",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Theories of dark energy",
+            "Interacting dark energy"
+          ],
+          "char_start": 967,
+          "char_end": 1015,
+          "text": "It was briefly theorized in the early 2020s that",
+          "similarity": 0.6713347434997559
+        },
+        "E20": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00039",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Evidence of existence",
+            "Cosmic microwave background"
+          ],
+          "char_start": 970,
+          "char_end": 1027,
+          "text": "dark energy, 26.8% dark matter, and 4.9% ordinary matter.",
+          "similarity": 0.664071798324585
+        },
+        "E21": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00086",
+          "block_kind": "list_item",
+          "section_path": [
+            "Composition",
+            "Non-baryonic matter",
+            "Particle candidates",
+            "Particle aggregation and dense dark matter objects"
+          ],
+          "char_start": 0,
+          "char_end": 42,
+          "text": "It lacks an efficient means to lose energy",
+          "similarity": 0.6637394428253174
+        },
+        "E22": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00015",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Nature"
+          ],
+          "char_start": 0,
+          "char_end": 133,
+          "text": "The nature of dark energy is more hypothetical than that of dark matter, and many things about it remain in the realm of speculation.",
+          "similarity": 0.663540244102478
+        },
+        "E23": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00015",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Nature"
+          ],
+          "char_start": 134,
+          "char_end": 281,
+          "text": "Dark energy is thought to be very homogeneous and not dense, and is not known to interact through any of the fundamental forces other than gravity.",
+          "similarity": 0.663540244102478
+        },
+        "E24": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00015",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Nature"
+          ],
+          "char_start": 282,
+          "char_end": 396,
+          "text": "Since it is rarefied and un-massive—roughly 10−27 kg/m3—it is unlikely to be detectable in laboratory experiments.",
+          "similarity": 0.663540244102478
+        },
+        "E25": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00015",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Nature"
+          ],
+          "char_start": 397,
+          "char_end": 596,
+          "text": "The reason dark energy can have such a profound effect on the universe, making up 68% of universal density in spite of being so dilute, is that it is believed to uniformly fill otherwise empty space.",
+          "similarity": 0.663540244102478
+        },
+        "E26": {
+          "page_id": 19604228,
+          "title": "Dark energy",
+          "url": "https://en.wikipedia.org/wiki/Dark_energy",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_energy&oldid=1381984981",
+          "revision_id": 1381984981,
+          "block_id": "B00028",
+          "block_kind": "list_item",
+          "section_path": [
+            "Evidence of existence"
+          ],
+          "char_start": 0,
+          "char_end": 174,
+          "text": "The theoretical need for a type of additional energy that is not matter or dark matter to form the observationally flat universe (absence of any detectable global curvature).",
+          "similarity": 0.6609557271003723
+        },
+        "E27": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00003",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 153,
+          "text": "Dark matter is not known to interact with ordinary baryonic matter and radiation except through gravity, making it difficult to detect in the laboratory.",
+          "similarity": 0.6584652662277222
+        },
+        "E28": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00003",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 154,
+          "char_end": 323,
+          "text": "The most prevalent explanation is that dark matter is some as-yet-undiscovered subatomic particle, such as either weakly interacting massive particles (WIMPs) or axions.",
+          "similarity": 0.6584652662277222
+        },
+        "E29": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00003",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 324,
+          "char_end": 409,
+          "text": "The other main possibility is that dark matter is composed of primordial black holes.",
+          "similarity": 0.6584652662277222
+        },
+        "E30": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00001",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 0,
+          "char_end": 159,
+          "text": "In astronomy and cosmology, dark matter is an invisible and hypothetical form of matter that does not interact with electromagnetic radiation, including light.",
+          "similarity": 0.6582425832748413
+        },
+        "E31": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00001",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 160,
+          "char_end": 306,
+          "text": "Dark matter is implied by gravitational effects that cannot be explained by general relativity unless more matter is present than can be observed.",
+          "similarity": 0.6582425832748413
+        },
+        "E32": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00001",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 307,
+          "char_end": 579,
+          "text": "Such effects occur in the context of formation and evolution of galaxies, gravitational lensing, the observable universe's current structure, mass position in galactic collisions, the motion of galaxies within galaxy clusters, and cosmic microwave background anisotropies.",
+          "similarity": 0.6582425832748413
+        },
+        "E33": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00001",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 580,
+          "char_end": 663,
+          "text": "Dark matter is thought to serve as gravitational scaffolding for cosmic structures.",
+          "similarity": 0.6582425832748413
+        },
+        "E34": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00001",
+          "block_kind": "paragraph",
+          "section_path": [],
+          "char_start": 664,
+          "char_end": 852,
+          "text": "After the Big Bang, dark matter clumped into blobs along narrow filaments with superclusters of galaxies forming a cosmic web at scales on which entire galaxies appear like tiny particles.",
+          "similarity": 0.6582425832748413
+        },
+        "E35": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00139",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternative hypotheses",
+            "Modified gravity"
+          ],
+          "char_start": 0,
+          "char_end": 192,
+          "text": "A problem with modifying gravity is that observational evidence for dark matter – let alone general relativity – comes from so many independent approaches (see § Observational evidence above).",
+          "similarity": 0.6556694507598877
+        },
+        "E36": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00139",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternative hypotheses",
+            "Modified gravity"
+          ],
+          "char_start": 193,
+          "char_end": 318,
+          "text": "Explaining any individual observation is possible but explaining all of them in the absence of dark matter is very difficult.",
+          "similarity": 0.6556694507598877
+        },
+        "E37": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00139",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternative hypotheses",
+            "Modified gravity"
+          ],
+          "char_start": 319,
+          "char_end": 513,
+          "text": "Nonetheless, there have been some scattered successes for alternative hypotheses, such as a 2016 test of gravitational lensing in entropic gravity and a 2020 measurement of a unique MOND effect.",
+          "similarity": 0.6556694507598877
+        },
+        "E38": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00139",
+          "block_kind": "paragraph",
+          "section_path": [
+            "Alternative hypotheses",
+            "Modified gravity"
+          ],
+          "char_start": 514,
+          "char_end": 779,
+          "text": "The prevailing opinion among most astrophysicists is that while modifications to general relativity can conceivably explain part of the observational evidence, there is probably enough data to conclude there must be some form of dark matter present in the universe.",
+          "similarity": 0.6556694507598877
+        },
+        "E39": {
+          "page_id": 8651,
+          "title": "Dark matter",
+          "url": "https://en.wikipedia.org/wiki/Dark_matter",
+          "revision_url": "https://en.wikipedia.org/w/index.php?title=Dark_matter&oldid=1380661687",
+          "revision_id": 1380661687,
+          "block_id": "B00161",
+          "block_kind": "paragraph",
+          "section_path": [
+            "In popular culture"
+          ],
+          "char_start": 0,
+          "char_end": 106,
+          "text": "More broadly, the phrase \"dark matter\" is used metaphorically in fiction to evoke the unseen or invisible.",
+          "similarity": 0.6544111371040344
+        }
+      },
+      "note_title": "Inspect evidence selection and interpretation",
+      "note": "FEVER cites an explicit distinction between dark matter and dark energy. Our model received different excerpts from newer Wikipedia renders and answered NEI. The reference sentence and actual supplied text are shown separately; this page does not automatically attribute the failure to retrieval alone."
+    }
+  ],
+  "dataset": "data/official_fever/shared_task_dev.jsonl",
+  "dataset_sha256": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+  "scoring_unchanged": true,
+  "reference_text_source": "Local FEVER Wikipedia sentence snapshot; current Wikipedia may differ."
+}

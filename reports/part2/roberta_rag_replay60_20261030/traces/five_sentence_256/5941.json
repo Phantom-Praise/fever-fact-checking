@@ -1,0 +1,70 @@
+{
+  "id": 5941,
+  "claim": "Saif Ali Khan worked in literature.",
+  "condition": "five_sentence_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.7193070650100708,
+    0.28011611104011536,
+    0.0005768494447693229
+  ],
+  "logits": [
+    2.330413818359375,
+    1.3873296976089478,
+    -4.798048496246338
+  ],
+  "inference_seconds": 0.0600609590000003,
+  "evidence_text": "Saif Ali Khan -LRB- -LSB- ˈsɛːf əˈli ˈxaːn -RSB- ; born Sajid Ali Khan on 16 August 1970 -RRB- is an Indian film actor and producer . Muhammad Ali Khan Saif -LRB- -LSB- -RRB- is a Pakistani politician and a member of Senate of Pakistan , affiliated with Awami National Party . Naik Saif Ali Khan was born to Janjua Rajput family on 25 April 1922 in Khandbaz -LRB- Khandhar -RRB- Tehsil Fateh pur thakyala -LRB- Azad Jammu and Kashmir -RRB- . Saif Ali Khan The son of actress Sharmila Tagore and the late cricketer Mansoor Ali Khan Pataudi , Khan made his acting debut in Yash Chopra 's unsuccessful drama Parampara -LRB- 1993 -RRB- , but achieved success with his roles in the romantic drama Yeh Dillagi and the action film Main Khiladi Tu Anari -LRB- both 1994 -RRB- .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 255,
+    "tokens_retained": 255,
+    "truncated": false,
+    "evidence_tokens_total": 240,
+    "evidence_tokens_retained": 240,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Saif_Ali_Khan",
+        "tokens_total": 55,
+        "tokens_kept": 55,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Muhammad_Ali_Khan_Saif",
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Saif_Ali_Janjua",
+        "tokens_total": 59,
+        "tokens_kept": 59,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Ali_Khan",
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Saif_Ali_Khan",
+        "tokens_total": 86,
+        "tokens_kept": 86,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Saif Ali Khan worked in literature.</s></s>Saif Ali Khan -LRB- -LSB- ˈsɛːf əˈli ˈxaːn -RSB- ; born Sajid Ali Khan on 16 August 1970 -RRB- is an Indian film actor and producer . Muhammad Ali Khan Saif -LRB- -LSB- -RRB- is a Pakistani politician and a member of Senate of Pakistan , affiliated with Awami National Party . Naik Saif Ali Khan was born to Janjua Rajput family on 25 April 1922 in Khandbaz -LRB- Khandhar -RRB- Tehsil Fateh pur thakyala -LRB- Azad Jammu and Kashmir -RRB- . Saif Ali Khan The son of actress Sharmila Tagore and the late cricketer Mansoor Ali Khan Pataudi , Khan made his acting debut in Yash Chopra 's unsuccessful drama Parampara -LRB- 1993 -RRB- , but achieved success with his roles in the romantic drama Yeh Dillagi and the action film Main Khiladi Tu Anari -LRB- both 1994 -RRB- .</s><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

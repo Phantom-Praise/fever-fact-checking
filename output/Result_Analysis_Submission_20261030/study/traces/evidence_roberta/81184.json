@@ -1,0 +1,62 @@
+{
+  "id": 81184,
+  "claim": "Lady Gaga was not born March 28, 1986.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.09106972068548203,
+    0.9088582396507263,
+    7.201002881629393e-05
+  ],
+  "logits": [
+    1.0870789289474487,
+    3.3876426219940186,
+    -6.0554962158203125
+  ],
+  "evidence": [
+    {
+      "page_id": "Lady_Gaga",
+      "sentence_id": 0,
+      "text": "Stefani Joanne Angelina Germanotta -LRB- -LSB- ˈstɛfəniː_dʒɜrməˈnɒtə -RSB- ; born March 28 , 1986 -RRB- , known professionally as Lady Gaga , is an American singer , songwriter , and actress .",
+      "score": 6.1
+    },
+    {
+      "page_id": "Lady_Gaga",
+      "sentence_id": 12,
+      "text": "Gaga 's second full-length album Born This Way -LRB- 2011 -RRB- topped the charts in more than 20 countries , including the US , where it sold over one million copies in its first week .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Lady_Gaga_Fame",
+      "sentence_id": 0,
+      "text": "Lady Gaga Fame is the first fragrance created by American singer Lady Gaga .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Lady_Gaga_discography",
+      "sentence_id": 0,
+      "text": "American singer Lady Gaga has released five studio albums , three compilation albums , three video albums , four EPs , twenty-six singles -LRB- including two as a featured artist -RRB- , and seven promotional singles .",
+      "score": 2.033333333333333
+    },
+    {
+      "page_id": "Lady_Gaga_discography",
+      "sentence_id": 20,
+      "text": "In September 2014 , Gaga and Tony Bennett released the collaborative album Cheek to Cheek , which debuted at number one in the US , becoming Lady Gaga 's third consecutive number one album .",
+      "score": 2.033333333333333
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 233,
+    "tokens_retained": 233,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Lady Gaga was not born March 28, 1986.</s></s>Stefani Joanne Angelina Germanotta -LRB- -LSB- ˈstɛfəniː_dʒɜrməˈnɒtə -RSB- ; born March 28 , 1986 -RRB- , known professionally as Lady Gaga , is an American singer , songwriter , and actress . Gaga 's second full-length album Born This Way -LRB- 2011 -RRB- topped the charts in more than 20 countries , including the US , where it sold over one million copies in its first week . Lady Gaga Fame is the first fragrance created by American singer Lady Gaga . American singer Lady Gaga has released five studio albums , three compilation albums , three video albums , four EPs , twenty-six singles -LRB- including two as a featured artist -RRB- , and seven promotional singles . In September 2014 , Gaga and Tony Bennett released the collaborative album Cheek to Cheek , which debuted at number one in the US , becoming Lady Gaga 's third consecutive number one album .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.14753683400000028
+}

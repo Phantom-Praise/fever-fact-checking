@@ -1,0 +1,116 @@
+{
+  "id": 221482,
+  "claim": "For Those About to Rock We Salute You was released by AC/DC.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09715991699999904,
+      "symbolic": {
+        "claim": "For Those About to Rock We Salute You was released by AC/DC.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.1917000000138955e-05
+      },
+      "evidence": [
+        {
+          "page_id": "For_Those_About_to_Rock_-LRB-We_Salute_You-RRB-",
+          "sentence_id": 1,
+          "text": "The song was first released on AC/DC 's eighth studio album For Those About to Rock We Salute You in 1981 , and later as a single in 1982 .",
+          "score": 9.05
+        },
+        {
+          "page_id": "For_Those_About_to_Rock_We_Salute_You",
+          "sentence_id": 0,
+          "text": "For Those About to Rock We Salute You is the eighth studio album by Australian hard rock band AC/DC .",
+          "score": 8.1
+        },
+        {
+          "page_id": "For_Those_About_to_Rock_-LRB-We_Salute_You-RRB-",
+          "sentence_id": 0,
+          "text": "`` For Those About to Rock -LRB- We Salute You -RRB- '' is a song by the Australian hard rock band AC/DC .",
+          "score": 8.05
+        },
+        {
+          "page_id": "For_Those_About_to_Rock_Tour",
+          "sentence_id": 0,
+          "text": "The For Those About to Rock Tour -LRB- also known as the Cannon and Bell Tour -RRB- was the supporting tour for the album For Those About to Rock We Salute You by the Australian hard rock band AC/DC through 1981 to 1982 .",
+          "score": 8.02
+        },
+        {
+          "page_id": "For_Those_About_to_Rock_-LRB-We_Salute_You-RRB-",
+          "sentence_id": 3,
+          "text": "The video to `` For Those About to Rock -LRB- We Salute You -RRB- '' was filmed at that same concert .",
+          "score": 6.05
+        }
+      ],
+      "probabilities": [
+        0.9906193017959595,
+        0.00927602220326662,
+        0.00010460040357429534
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05634891700000111,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5983609557151794,
+        0.27943870425224304,
+        0.12220033258199692
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08506570800000013,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "For_Those_About_to_Rock_-LRB-We_Salute_You-RRB-",
+          "sentence_id": 1,
+          "text": "The song was first released on AC/DC 's eighth studio album For Those About to Rock We Salute You in 1981 , and later as a single in 1982 .",
+          "score": 9.05
+        },
+        {
+          "page_id": "For_Those_About_to_Rock_We_Salute_You",
+          "sentence_id": 0,
+          "text": "For Those About to Rock We Salute You is the eighth studio album by Australian hard rock band AC/DC .",
+          "score": 8.1
+        },
+        {
+          "page_id": "For_Those_About_to_Rock_-LRB-We_Salute_You-RRB-",
+          "sentence_id": 0,
+          "text": "`` For Those About to Rock -LRB- We Salute You -RRB- '' is a song by the Australian hard rock band AC/DC .",
+          "score": 8.05
+        },
+        {
+          "page_id": "For_Those_About_to_Rock_Tour",
+          "sentence_id": 0,
+          "text": "The For Those About to Rock Tour -LRB- also known as the Cannon and Bell Tour -RRB- was the supporting tour for the album For Those About to Rock We Salute You by the Australian hard rock band AC/DC through 1981 to 1982 .",
+          "score": 8.02
+        },
+        {
+          "page_id": "For_Those_About_to_Rock_-LRB-We_Salute_You-RRB-",
+          "sentence_id": 3,
+          "text": "The video to `` For Those About to Rock -LRB- We Salute You -RRB- '' was filmed at that same concert .",
+          "score": 6.05
+        }
+      ],
+      "probabilities": [
+        0.9906193017959595,
+        0.00927602220326662,
+        0.00010460040357429534
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

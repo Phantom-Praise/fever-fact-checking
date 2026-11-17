@@ -1,0 +1,22 @@
+{
+  "upstream_commit": "4801615100fbf6327f8e99b5dbaefe5dd890e869",
+  "unmodified_source": true,
+  "dependency": "six==1.17.0",
+  "files": {
+    "data/official_fever/shared_task_dev.jsonl": {
+      "url": "https://fever.ai/download/fever/shared_task_dev.jsonl",
+      "sha256": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+      "bytes": 4349935
+    },
+    "src/vendor/fever_scorer.py": {
+      "url": "https://raw.githubusercontent.com/sheffieldnlp/fever-scorer/4801615100fbf6327f8e99b5dbaefe5dd890e869/src/fever/scorer.py",
+      "sha256": "fa12eaab2c88208f990948fc5d533ad4f91a6b8f48640f29317d1f00ab410ac9",
+      "bytes": 6298
+    },
+    "src/vendor/FEVER_SCORER_LICENSE": {
+      "url": "https://raw.githubusercontent.com/sheffieldnlp/fever-scorer/4801615100fbf6327f8e99b5dbaefe5dd890e869/LICENSE",
+      "sha256": "a8ad31b1c3f40dca5a84119351b8fa8ddc868edd77fad8a8ebf6d8f2d16fa4ae",
+      "bytes": 11324
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": 86113,
+  "claim": "Venus and Earth are 10,000 miles away from the Sun.",
+  "condition": "five_sentence_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.34803998470306396,
+    0.6514018177986145,
+    0.0005581342265941203
+  ],
+  "logits": [
+    1.5638890266418457,
+    2.1906983852386475,
+    -4.871583938598633
+  ],
+  "inference_seconds": 0.05666991599999971,
+  "evidence_text": "Miles Away may refer to : Miles Away -LRB- band -RRB- , an Australian hardcore punk band `` Miles Away '' -LRB- John Foxx song -RRB- `` Miles Away '' -LRB- Madonna song -RRB- `` Miles Away '' -LRB- Winger song -RRB-",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 87,
+    "tokens_retained": 87,
+    "truncated": false,
+    "evidence_tokens_total": 69,
+    "evidence_tokens_retained": 69,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Miles_Away",
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Miles_Away",
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Miles_Away",
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Miles_Away",
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Miles_Away",
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Venus and Earth are 10,000 miles away from the Sun.</s></s>Miles Away may refer to : Miles Away -LRB- band -RRB- , an Australian hardcore punk band `` Miles Away '' -LRB- John Foxx song -RRB- `` Miles Away '' -LRB- Madonna song -RRB- `` Miles Away '' -LRB- Winger song -RRB-</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

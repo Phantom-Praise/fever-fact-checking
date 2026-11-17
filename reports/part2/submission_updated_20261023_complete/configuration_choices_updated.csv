@@ -1,0 +1,8 @@
+component,choice,reason
+Unweighted baseline,Original epoch 1; reference,Retained for comparison; majority-class behavior.
+Claim-only RoBERTa,SELECTED: H2 epoch 2,"LR 1e-5, WD .01, batch 8; best tuning macro-F1 .6202."
+Evidence RoBERTa,SELECTED: epoch 1,"LR 2e-5, WD .01, batch 8; best oracle-validation macro-F1 .9335."
+Retrieval,SELECTED: title-aware top-5,Frozen paired reference; new rankers did not improve recall.
+Symbolic hybrid,V1/v2 reported; no winner,Zero resolved claims; no measured avoided calls.
+Neural ensemble,PROVISIONAL: w=.75; bias=2,Best calibration macro-F1; original retrieval; no new test evaluation.
+LLM judge,Llama 3.2 local pilot,Availability-based comparator; not a performance-selected final judge.

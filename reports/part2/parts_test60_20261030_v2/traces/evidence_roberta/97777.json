@@ -1,0 +1,62 @@
+{
+  "id": 97777,
+  "claim": "Adam Driver was in the singing group Lincoln.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9643661975860596,
+    0.035533830523490906,
+    9.992174454964697e-05
+  ],
+  "logits": [
+    3.76212477684021,
+    0.46113884449005127,
+    -5.412714004516602
+  ],
+  "evidence": [
+    {
+      "page_id": "Adam_Driver",
+      "sentence_id": 0,
+      "text": "Adam Douglas Driver -LRB- born November 19 , 1983 -RRB- is an American actor .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Adam_Driver",
+      "sentence_id": 6,
+      "text": "Driver has appeared in supporting roles in a wide range of films , including Lincoln -LRB- 2012 -RRB- , Frances Ha -LRB- 2012 -RRB- and Inside Llewyn Davis -LRB- 2013 -RRB- .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Driver_Group",
+      "sentence_id": 0,
+      "text": "Driver Group is a bus and coach operator in Melbourne , Australia .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Lincoln_Group",
+      "sentence_id": 0,
+      "text": "The Lincoln Group -LRB- formerly known as Iraqex -RRB- is a defunct Washington , D.C.-based defense contractor .",
+      "score": 2.033333333333333
+    },
+    {
+      "page_id": "Singing_to_the_Bus_Driver",
+      "sentence_id": 0,
+      "text": "Singing To the Bus Driver or Hail To the Bus Driver , an anonymous United States folk song dating to the mid-20th century .",
+      "score": 2.025
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 156,
+    "tokens_retained": 156,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Adam Driver was in the singing group Lincoln.</s></s>Adam Douglas Driver -LRB- born November 19 , 1983 -RRB- is an American actor . Driver has appeared in supporting roles in a wide range of films , including Lincoln -LRB- 2012 -RRB- , Frances Ha -LRB- 2012 -RRB- and Inside Llewyn Davis -LRB- 2013 -RRB- . Driver Group is a bus and coach operator in Melbourne , Australia . The Lincoln Group -LRB- formerly known as Iraqex -RRB- is a defunct Washington , D.C.-based defense contractor . Singing To the Bus Driver or Hail To the Bus Driver , an anonymous United States folk song dating to the mid-20th century .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.1352836669999995
+}

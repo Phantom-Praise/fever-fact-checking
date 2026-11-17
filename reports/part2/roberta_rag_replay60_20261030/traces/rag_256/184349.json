@@ -1,0 +1,501 @@
+{
+  "id": 184349,
+  "claim": "Cowboy was only performed in 2001.",
+  "condition": "rag_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.019658643752336502,
+    0.9792248606681824,
+    0.001116590341553092
+  ],
+  "logits": [
+    -0.7445268630981445,
+    3.163717269897461,
+    -3.612764358520508
+  ],
+  "inference_seconds": 0.05618375000000064,
+  "evidence_text": "Singing cowboys Cowboy church \"Cowboy Band\" is a song recorded by American country music artist Billy Dean. It was released in June 1994 as the first single from the album Men'll Be Boys. The song reached #24 on the Billboard Hot Country Singles & Tracks chart. The song was written by Jule Medders and Monty Powell. Audition (performing arts) also known as a \"cattle call\". Black cowboys In reality, working ranch hands past and present had very little time for anything other than the constant hard work involved in maintaining a ranch. Chart (1994) | Peak position US Hot Country Songs (Billboard) | 24 Canadian RPM Country Tracks | 22 List of cowboys and cowgirls Music: List of famous Cowboy songs, Western Music (North America), Western swing, Western Music Association, Academy of Western Artists In the Tombstone, Arizona area during the 1880s, the term \"cowboy\" or \"cow-boy\" was used pejoratively to describe men who had been implicated in various crimes. One loosely organized band was dubbed \"The Cowboys\", and profited from smuggling cattle, alcohol, and tobacco across the U.S.–Mexico border. The San Francisco Examiner wrote in an editorial, \"Cowboys [are] the most reckless class of outlaws in that wild country ... infinitely worse than the ordinary robber.\" It became an insult in the area to call someone a \"cowboy\", as it suggested he was a horse thief, robber, or outlaw. Cattlemen were generally called herders or ranchers. Other synonyms for cowboy were ranch hand, range hand or trail hand, although duties and pay were not entirely identical. The Cowboys' activities were ultimately curtailed by the Gunfight at the O.K. Corral and the resulting Earp Vendetta Ride. \"Only\" (Nine Inch Nails song), 2005 American Old West The word rodeo is from the Spanish rodear (to turn), which means roundup. In the beginning there was no difference between the working cowboy and the rodeo cowboy, and in fact, the term working cowboy did not come into use until the 1950s. Prior to that it was assumed that all cowboys were working cowboys. Early cowboys both worked on ranches and displayed their skills at the roundups. In art and culture William DeLong (24 Mar 2018). \"The Forgotten Black Cowboys Of The Wild West\". All That's Interesting. List of Ranches and Stations Only (album), by Tommy Emmanuel, 2000 Today, \"cowboy\" is a term common throughout the west and particularly in the Great Plains and Rocky Mountains, \"buckaroo\" is used primarily in the Great Basin and California, and \"cowpuncher\" mostly in Texas and surrounding states. American West By the 1880s, the expansion of the cattle industry resulted in a need for additional open range. Thus many ranchers expanded into the northwest, where there were still large tracts of unsettled grassland. Texas cattle were herded north, into the Rocky Mountain west and the Dakotas. The cowboy adapted much of his gear to the colder conditions, and westward movement of the industry also led to intermingling of regional traditions from California to Texas, often with the cowboy taking the most useful elements of each. \"Cowboy Band\" Single by Billy Dean from the album Men'll Be Boys B-side | \"Billy the Kid\" Released | June 4, 1994 Genre | Country Length | 3:38 Label | Liberty Songwriters | Jule Medders, Monty Powell Producers | Jimmy Bowen, Billy Dean Billy Dean singles chronology \"Once in a While\" (1994) \"Cowboy Band\" (1994) \"Men Will Be Boys\" (1994) \"Only\", by Ass Ponys from Lohio, 2001 The advent of professional rodeos allowed cowboys, like many athletes, to earn a living by performing their skills before an audience. Rodeos also provided employment for many working cowboys who were needed to handle livestock. Many rodeo cowboys are also working cowboys and most have working cowboy experience. In the United States, the Canadian West and Australia, guest ranches offer people the opportunity to ride horses and get a taste of the western life—albeit in far greater comfort. Some ranches also offer vacationers the opportunity to actually perform cowboy tasks by participating in cattle drives or accompanying wagon trains. This type of vacation was popularized by the 1991 movie City Slickers, starring Billy Crystal. Herding",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 931,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 919,
+    "evidence_tokens_retained": 244,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 167744,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 167744,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 46768180,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 46768180,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 46768180,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 46768180,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 167744,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 167744,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 167744,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 46768180,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 46768180,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 46768180,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 167744,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 167744,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 167744,
+        "tokens_total": 41,
+        "tokens_kept": 41,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 167744,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 167744,
+        "tokens_total": 63,
+        "tokens_kept": 1,
+        "visibility": "partial"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 167744,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 167744,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 167744,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 167744,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 1629775,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 167744,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 167744,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 167744,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 167744,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 167744,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 167744,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 167744,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 167744,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 167744,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 167744,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 1629775,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 167744,
+        "tokens_total": 50,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 167744,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 167744,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 167744,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 167744,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 167744,
+        "tokens_total": 45,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 46768180,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 46768180,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 46768180,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 46768180,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 46768180,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 46768180,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 46768180,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 46768180,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 46768180,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 46768180,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 46768180,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 46768180,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 1629775,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 167744,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 167744,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 167744,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 167744,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 167744,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 167744,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 167744,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Cowboy was only performed in 2001.</s></s>Singing cowboys Cowboy church \"Cowboy Band\" is a song recorded by American country music artist Billy Dean. It was released in June 1994 as the first single from the album Men'll Be Boys. The song reached #24 on the Billboard Hot Country Singles & Tracks chart. The song was written by Jule Medders and Monty Powell. Audition (performing arts) also known as a \"cattle call\". Black cowboys In reality, working ranch hands past and present had very little time for anything other than the constant hard work involved in maintaining a ranch. Chart (1994) | Peak position US Hot Country Songs (Billboard) | 24 Canadian RPM Country Tracks | 22 List of cowboys and cowgirls Music: List of famous Cowboy songs, Western Music (North America), Western swing, Western Music Association, Academy of Western Artists In the Tombstone, Arizona area during the 1880s, the term \"cowboy\" or \"cow-boy\" was used pejoratively to describe men who had been implicated in various crimes. One loosely organized band was dubbed \"The Cowboys\", and profited from smuggling cattle, alcohol, and tobacco across the U.S.–Mexico border. The</s>"
+  }
+}

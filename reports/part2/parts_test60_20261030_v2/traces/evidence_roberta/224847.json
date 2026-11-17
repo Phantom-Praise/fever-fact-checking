@@ -1,0 +1,62 @@
+{
+  "id": 224847,
+  "claim": "Snoop Dogg is an actor.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9917717576026917,
+    0.008122171275317669,
+    0.00010602708061924204
+  ],
+  "logits": [
+    4.2755446434021,
+    -0.529350757598877,
+    -4.868009090423584
+  ],
+  "evidence": [
+    {
+      "page_id": "Snoop_Dogg",
+      "sentence_id": 0,
+      "text": "Cordozar Calvin Broadus , Jr. -LRB- born October 20 , 1971 -RRB- , known professionally as Snoop Dogg -LRB- sometimes shortened to Snoop and formerly called Snoop Doggy Dogg and Snoop Lion -RRB- , is an American rapper and actor from Long Beach , California .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Snoop_Dogg",
+      "sentence_id": 18,
+      "text": "Snoop Dogg has starred in motion pictures and hosted several television shows , including Doggy Fizzle Televizzle , Snoop Dogg 's Father Hood , and Dogg After Dark .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Snoop_Dogg",
+      "sentence_id": 28,
+      "text": "Snoop Dogg holds the dubious distinction of having seventeen Grammy nominations without a win .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Snoop_Dogg_discography",
+      "sentence_id": 0,
+      "text": "The discography of American rapper Snoop Dogg of fifteen studio albums , four collaborative albums , seventeen compilation albums , one extended play , twenty mixtapes , 127 singles -LRB- including seventy-four as a featured artist -RRB- , and fourteen promotional singles .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Snoop_Dogg_discography",
+      "sentence_id": 5,
+      "text": "Snoop Dogg came to attention of the music industry in 1992 , through his vocal contributions on Dr. Dre 's The Chronic .",
+      "score": 2.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 222,
+    "tokens_retained": 222,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Snoop Dogg is an actor.</s></s>Cordozar Calvin Broadus , Jr. -LRB- born October 20 , 1971 -RRB- , known professionally as Snoop Dogg -LRB- sometimes shortened to Snoop and formerly called Snoop Doggy Dogg and Snoop Lion -RRB- , is an American rapper and actor from Long Beach , California . Snoop Dogg has starred in motion pictures and hosted several television shows , including Doggy Fizzle Televizzle , Snoop Dogg 's Father Hood , and Dogg After Dark . Snoop Dogg holds the dubious distinction of having seventeen Grammy nominations without a win . The discography of American rapper Snoop Dogg of fifteen studio albums , four collaborative albums , seventeen compilation albums , one extended play , twenty mixtapes , 127 singles -LRB- including seventy-four as a featured artist -RRB- , and fourteen promotional singles . Snoop Dogg came to attention of the music industry in 1992 , through his vocal contributions on Dr. Dre 's The Chronic .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.08365054099999902
+}

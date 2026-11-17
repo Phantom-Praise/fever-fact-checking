@@ -1,0 +1,69 @@
+{
+  "id": 92516,
+  "claim": "Tom Cruise was in the film Vanilla Sky.",
+  "condition": "five_sentence_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9922802448272705,
+    0.007580670528113842,
+    0.00013911002315580845
+  ],
+  "logits": [
+    4.2203521728515625,
+    -0.6540518999099731,
+    -4.652143478393555
+  ],
+  "inference_seconds": 0.10908312499999973,
+  "evidence_text": "Vanilla Sky is a 2001 film starring Tom Cruise and directed by Cameron Crowe . Vanilla Sky stars Tom Cruise , Penelope Cruz , and Cameron Diaz with Jason Lee and Kurt Russell appearing in supporting roles . In the 2000s , Cruise starred in a number of successful films , including the science fiction thrillers Vanilla Sky -LRB- 2001 -RRB- and Minority Report -LRB- 2002 -RRB- , the epic war film The Last Samurai -LRB- 2003 -RRB- , the crime film Collateral -LRB- 2004 -RRB- , the science fiction disaster thriller War of the Worlds -LRB- 2005 -RRB- , and the historical thriller Valkyrie -LRB- 2008 -RRB- . Vanilla Sky is a 2001 American science fiction psychological thriller film directed , written , and co-produced by Cameron Crowe . In 2002 , Cruise won the Saturn Award for Best Actor for Vanilla Sky .",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 203,
+    "tokens_retained": 203,
+    "truncated": false,
+    "evidence_tokens_total": 190,
+    "evidence_tokens_retained": 190,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Vanilla_Sky_-LRB-disambiguation-RRB-",
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Vanilla_Sky",
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Tom_Cruise",
+        "tokens_total": 110,
+        "tokens_kept": 110,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Vanilla_Sky",
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Tom_Cruise",
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Tom Cruise was in the film Vanilla Sky.</s></s>Vanilla Sky is a 2001 film starring Tom Cruise and directed by Cameron Crowe . Vanilla Sky stars Tom Cruise , Penelope Cruz , and Cameron Diaz with Jason Lee and Kurt Russell appearing in supporting roles . In the 2000s , Cruise starred in a number of successful films , including the science fiction thrillers Vanilla Sky -LRB- 2001 -RRB- and Minority Report -LRB- 2002 -RRB- , the epic war film The Last Samurai -LRB- 2003 -RRB- , the crime film Collateral -LRB- 2004 -RRB- , the science fiction disaster thriller War of the Worlds -LRB- 2005 -RRB- , and the historical thriller Valkyrie -LRB- 2008 -RRB- . Vanilla Sky is a 2001 American science fiction psychological thriller film directed , written , and co-produced by Cameron Crowe . In 2002 , Cruise won the Saturn Award for Best Actor for Vanilla Sky .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": 23493,
+  "claim": "A cosmopolitan entrepreneurial scene has emerged in Berlin.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06975879099999993,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Berlin_Cosmopolitan_School",
+          "sentence_id": 0,
+          "text": "Berlin Cosmopolitan School -LRB- BCS -RRB- is a non-profit international school located in Berlin , Germany .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Berlin_Street_Scene",
+          "sentence_id": 0,
+          "text": "Berlin Street Scene is a painting from the cycle Street Scenes by the Expressionism artist Ernst Ludwig Kirchner .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Orpheus_Emerged",
+          "sentence_id": 0,
+          "text": "Orpheus Emerged is a novella written by Jack Kerouac in 1945 when he was at Columbia University .",
+          "score": 1.0333333333333334
+        },
+        {
+          "page_id": "Orpheus_Emerged",
+          "sentence_id": 4,
+          "text": "Orpheus Emerged chronicles the passions , conflicts , and dreams of a group of bohemians searching for truth while studying at a university .",
+          "score": 1.0333333333333334
+        },
+        {
+          "page_id": "Cosmopolitan",
+          "sentence_id": 0,
+          "text": "Cosmopolitan may refer to :",
+          "score": 1.025
+        }
+      ],
+      "probabilities": [
+        0.822532594203949,
+        0.17712078988552094,
+        0.00034660621895454824
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05620454199999969,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.7261461019515991,
+        0.017061753198504448,
+        0.25679218769073486
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06028516699999997,
+      "symbolic": {
+        "claim": "A cosmopolitan entrepreneurial scene has emerged in Berlin.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3624999999350962e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Berlin_Cosmopolitan_School",
+          "sentence_id": 0,
+          "text": "Berlin Cosmopolitan School -LRB- BCS -RRB- is a non-profit international school located in Berlin , Germany .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Berlin_Street_Scene",
+          "sentence_id": 0,
+          "text": "Berlin Street Scene is a painting from the cycle Street Scenes by the Expressionism artist Ernst Ludwig Kirchner .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Orpheus_Emerged",
+          "sentence_id": 0,
+          "text": "Orpheus Emerged is a novella written by Jack Kerouac in 1945 when he was at Columbia University .",
+          "score": 1.0333333333333334
+        },
+        {
+          "page_id": "Orpheus_Emerged",
+          "sentence_id": 4,
+          "text": "Orpheus Emerged chronicles the passions , conflicts , and dreams of a group of bohemians searching for truth while studying at a university .",
+          "score": 1.0333333333333334
+        },
+        {
+          "page_id": "Cosmopolitan",
+          "sentence_id": 0,
+          "text": "Cosmopolitan may refer to :",
+          "score": 1.025
+        }
+      ],
+      "probabilities": [
+        0.822532594203949,
+        0.17712078988552094,
+        0.00034660621895454824
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

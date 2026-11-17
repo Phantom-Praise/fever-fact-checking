@@ -1,0 +1,453 @@
+{
+  "id": 3285,
+  "claim": "Ghostbusters was only released theatrically in China.",
+  "condition": "rag_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.014113364741206169,
+    0.975328803062439,
+    0.010557803325355053
+  ],
+  "logits": [
+    -1.62384033203125,
+    2.611812114715576,
+    -1.9140973091125488
+  ],
+  "inference_seconds": 0.05795500000000153,
+  "evidence_text": "On June 2, 2009, Sony Pictures Home Entertainment released a two-disc DVD set containing the first thirteen episodes of the series. The release features English, French, German, and Spanish audio. The same DVD was released throughout Europe (United Kingdom, France, Spain, Germany, Italy and the Netherlands) during the rest of the month. The UK release was released by UCA, a joint-venture between Universal Pictures Video and Sony Pictures Home Entertainment. As the title \"Ghostbusters\" was legally restricted by the 1970s children's show The Ghost Busters, owned by Universal Studios, several alternative titles were considered, including \"Ghoststoppers\", \"Ghostbreakers\", and \"Ghostsmashers\". Price parted ways with Columbia early in Ghostbusters' production and became head of Universal Pictures, at which point he sold Columbia the title for $500,000 plus 1% of the film's profits. Given Hollywood's accounting practices—used by studios to artificially inflate a film's production costs to limit royalty or tax payouts—the film technically never made a profit for Universal to be owed a payment. On March 19, 2024, Sony Pictures Home Entertainment released the complete series as a 9-disc DVD set. issue. Ghostbusters Theatrical release poster Directed by | Ivan Reitman Written by | Dan Aykroyd Harold Ramis Produced by | Ivan Reitman Starring | Bill Murray Dan Aykroyd Sigourney Weaver Harold Ramis Rick Moranis Cinematography | László Kovács Edited by | David E. Blewitt Sheldon Kahn Music by | Elmer Bernstein Production companies | Columbia-Delphi Productions Black Rhino Distributed by | Columbia Pictures Release date | June 8, 1984 (1984-06-08) Running time | 105 minutes Country | United States Language | English Budget | $25–30 million Box office | $370 million Ghostbusters was re-released in the U.S. and Canada in August 1985, grossing a further $9.4 million over five weeks, raising its theatrical gross to $238.6 million and surpassing Beverly Hills Cop as the most successful comedy of the 1980s. By the end of 1999, Ghostbusters had grossed $126 million internationally for a worldwide total of $364.6 million. A restored and remastered version was released in August 2014, at 700 theaters across the U.S. and Canada to celebrate its 30th anniversary. It grossed an additional $3.5 million, bringing the theatrical total to $242.2 million. The film has also received limited rereleases for special events and anniversaries. Including all reissues since 2000, the film has grossed an estimated $370 million worldwide. Adjusted for inflation, the North American box office is equivalent to $667.9 million in 2020, making it the thirty-seventh highest-grossing film ever Ghostbusters was released in 1989 on LaserDisc, a format then experiencing a resurgence in popularity. The release offered a one-disc version, and a two-disc special edition version featuring deleted scenes, a split-screen demonstration of the film's effects, the screenplay, and other special features. In a 1999 interview for the DVD release, Reitman admitted he was not involved in the LaserDisc versions and had been embarrassed by the visual changes that \"pumped up the light level so much you saw all the matte lines\", highlighting flaws in the special effects. Ghostbusters was also the first full-length film to be released on a USB flash drive when PNY Technologies did so in 2008. Harmetz, Aljean (February 2, 1986). \"Next video-cassette boom may be mass market sales\". The Gainesville Sun. Gainesville, Florida. Archived from the original on June 29, 2019. Retrieved December 23, 2017. Ghostbusters was turned into a special-effects laden stage show at Universal Studios Florida, which ran from 1990 to 1996, based mainly on the final battle with Gozer. The 2019 Halloween Horror Nights event at Universal Studios Hollywood and Universal Studios Florida hosted a haunted maze attraction featuring locations, characters, and ghosts from the film. The film has also been homaged or explicitly referred to across a variety of media including film, television, and video games. Aykroyd reprised his Ghostbuster character for a cameo in Casper (1995), and the celebratory parade at the film's denouement inspired the ending of the 2012 superhero film The Avengers, showing the world celebrating the eponymous team's victory. Based on his fascination with spirituality, Aykroyd conceived Ghostbusters as a project starring himself and John Belushi, in which they would venture through time and space battling supernatural threats. Following Belushi's death in 1982, and with Aykroyd's concept deemed financially impractical, Ramis was hired to help rewrite the script to set it in New York City and make it more realistic. It was the first comedy film to employ expensive special effects, and Columbia Pictures, concerned about its relatively high $25–30 million budget, had little faith in its box office potential. Filming took place from October 1983 to January 1984, in New York City and Los Angeles. Due to competition for special effects studios among various films in development at the time, Richard Edlund used part of the budget to found Boss Film Studios, which employed a combination of practical effects, miniatures, and puppets to deliver the ghoulish visuals.",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1115,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1100,
+    "evidence_tokens_retained": 241,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 718645,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 718645,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 718645,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 718645,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 205013,
+        "tokens_total": 50,
+        "tokens_kept": 50,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 205013,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 205013,
+        "tokens_total": 41,
+        "tokens_kept": 41,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 718645,
+        "tokens_total": 22,
+        "tokens_kept": 20,
+        "visibility": "partial"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 205013,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 205013,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 205013,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 205013,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 205013,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 205013,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 205013,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 205013,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 205013,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 205013,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 205013,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 205013,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 205013,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 205013,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 205013,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 205013,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 205013,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 205013,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 205013,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 205013,
+        "tokens_total": 56,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 205013,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 205013,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 205013,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 205013,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 205013,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 205013,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 205013,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 205013,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 205013,
+        "tokens_total": 54,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 205013,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 205013,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 205013,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 205013,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 205013,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 205013,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 205013,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 205013,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 205013,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 205013,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 205013,
+        "tokens_total": 53,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 205013,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 205013,
+        "tokens_total": 42,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 205013,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 205013,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 205013,
+        "tokens_total": 52,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Ghostbusters was only released theatrically in China.</s></s>On June 2, 2009, Sony Pictures Home Entertainment released a two-disc DVD set containing the first thirteen episodes of the series. The release features English, French, German, and Spanish audio. The same DVD was released throughout Europe (United Kingdom, France, Spain, Germany, Italy and the Netherlands) during the rest of the month. The UK release was released by UCA, a joint-venture between Universal Pictures Video and Sony Pictures Home Entertainment. As the title \"Ghostbusters\" was legally restricted by the 1970s children's show The Ghost Busters, owned by Universal Studios, several alternative titles were considered, including \"Ghoststoppers\", \"Ghostbreakers\", and \"Ghostsmashers\". Price parted ways with Columbia early in Ghostbusters' production and became head of Universal Pictures, at which point he sold Columbia the title for $500,000 plus 1% of the film's profits. Given Hollywood's accounting practices—used by studios to artificially inflate a film's production costs to limit royalty or tax payouts—the film technically never made a profit for Universal to be owed a payment. On March 19, 2024, Sony Pictures Home Entertainment released the complete series as a 9-disc DVD</s>"
+  }
+}

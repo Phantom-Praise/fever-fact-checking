@@ -1,0 +1,501 @@
+{
+  "id": 112558,
+  "claim": "The Martian is based on Andy Weir's novel written in 1988.",
+  "condition": "rag_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.1001209020614624,
+    0.8993183970451355,
+    0.0005606755730696023
+  ],
+  "logits": [
+    0.6010185480117798,
+    2.7962772846221924,
+    -4.583972930908203
+  ],
+  "inference_seconds": 0.0560617919999995,
+  "evidence_text": "Andy Weir – American novelist (born 1972) Andy Weir, the son of a particle physicist and electrical engineer, has a background in computer science. He began writing the book in 2009, researching related material so that it would be as realistic as possible and based on existing technology. Weir had previously used the concept of humans stranded on Mars in his webcomic Casey and Andy. Weir studied orbital mechanics, astronomy, and the history of human spaceflight. He said he knows the exact date of each day in the book. He specifically avoided physically describing the characters when not necessary for the plot. The Martian (web version 2011; Random House 2014) ISBN 978-0804139021 Mars in fiction The Martian is a 2011 science fiction debut novel written by Andy Weir. The book was originally self-published on Weir's blog as a serial. In 2014, the book was re-released after Crown Publishing Group purchased the exclusive publishing rights. The story follows an American astronaut, Mark Watney, as he becomes stranded alone on Mars in 2035 and must improvise in order to survive. The Martian: A Novel Original ebook cover Author | Andy Weir Audio read by | R. C. Bray, Wil Wheaton Cover artist | Eric White Language | English Genre | Science fiction Published | September 2011 (self-published); February 2014 (Crown) Publication place | United States Media type | Print, e-book, audio Pages | 369 ISBN | 978-0-8041-3902-1 OCLC | 890014492 Dewey Decimal | 813/.6 LC Class | PS3623.E446 M37 2014 A German publication of an interview with Andy Weir and survival tips for living on Mars was published in 2017, titled \"Der Mars Survival Guide\", tying into the novel and movie. The major characters in the novel are: Project Hail Mary – 2021 science-fiction novel by Andy Weir Andrew Weir (/wɪər/ ⓘ; born June 16, 1972) is an American novelist. His 2011 novel The Martian was adapted into the 2015 film of the same name. He received the John W. Campbell Award for Best New Writer in 2016. His 2021 novel Project Hail Mary was a finalist for the 2022 Hugo Award for Best Novel, and was adapted into the 2026 film of the same name. Weir wrote his first published novel, The Martian, to be as scientifically accurate as possible, doing extensive research into orbital mechanics, conditions on the planet Mars, the history of human spaceflight, and botany. Originally published as a free serial on his website, some readers requested he make it available on Amazon Kindle. First sold for 99 cents, the novel made it to the Kindle bestsellers list. Weir was then approached by a literary agent and sold the rights to Crown Publishing Group. The print version (slightly edited from the original) debuted at No. 12 on The New York Times bestseller list in 2014. The Wall Street Journal called it \"the best pure sci-fi novel in years\". It was adapted into a film in 2015 starring Matt Damon and Jessica Chastain. In 2015, Andy Weir wrote a prequel short story to The Martian, titled \"Diary of an AssCan\". Robinsonade – Literary genre In a starred review, Publishers Weekly said that \"Weir laces the technical details with enough keen wit to satisfy hard science fiction fan and general reader alike.\" Kirkus Reviews called The Martian \"Sharp, funny and thrilling, with just the right amount of geekery\". The Wall Street Journal called the book \"the best pure sci-fi novel in years\". Entertainment Weekly gave the novel a grade of \"B\", describing it as \"an impressively geeky debut novel\" but saying Weir \"stumbles with his secondary characters\". Rick Martinez – Ares 3 pilot. A film adaptation, The Martian, directed by Ridley Scott and starring Matt Damon, was released in October 2015. USA Today rated The Martian three out of four stars, calling it \"terrific stuff, a crackling good read\" but noting that \"Mark's unflappability, perhaps the book's biggest asset, is also its greatest weakness. He's a wiseacre with a tendency to steer well clear of existential matters.\" Amazing Stories commented, \"Andy Weir's The Martian will leave you as breathless as if you'd been dropped on the Martian surface without a suit\". Alex Vogel – Ares 3 astrochemist. Mars Direct – Proposal for a crewed Mars mission \"Diary of an AssCan\" (2015), free short story prequel to The Martian Teddy Sanders – NASA administrator (head of NASA).",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 955,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 938,
+    "evidence_tokens_retained": 239,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 41961028,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 41961028,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 41961028,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 41961028,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 41961028,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 41961028,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 41961028,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 44587183,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 41961028,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 41961028,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 41961028,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 41961028,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 41961028,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 41961028,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 41961028,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 41961028,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 41961028,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 41961028,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 41961028,
+        "tokens_total": 5,
+        "tokens_kept": 2,
+        "visibility": "partial"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 41961028,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 41961028,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 41961028,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 41961028,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 41961028,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 41961028,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 41961028,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 41961028,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 41961028,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 41961028,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 41961028,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 41961028,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 41961028,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 41961028,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 44587183,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 44587183,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 44587183,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 44587183,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 44587183,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 44587183,
+        "tokens_total": 42,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 44587183,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 44587183,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 44587183,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 44587183,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 44587183,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 44587183,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 44587183,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 41961028,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 41961028,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 41961028,
+        "tokens_total": 54,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 41961028,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 41961028,
+        "tokens_total": 34,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 41961028,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 41961028,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 41961028,
+        "tokens_total": 48,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 41961028,
+        "tokens_total": 46,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 41961028,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 41961028,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 44587183,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 41961028,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>The Martian is based on Andy Weir's novel written in 1988.</s></s>Andy Weir – American novelist (born 1972) Andy Weir, the son of a particle physicist and electrical engineer, has a background in computer science. He began writing the book in 2009, researching related material so that it would be as realistic as possible and based on existing technology. Weir had previously used the concept of humans stranded on Mars in his webcomic Casey and Andy. Weir studied orbital mechanics, astronomy, and the history of human spaceflight. He said he knows the exact date of each day in the book. He specifically avoided physically describing the characters when not necessary for the plot. The Martian (web version 2011; Random House 2014) ISBN 978-0804139021 Mars in fiction The Martian is a 2011 science fiction debut novel written by Andy Weir. The book was originally self-published on Weir's blog as a serial. In 2014, the book was re-released after Crown Publishing Group purchased the exclusive publishing rights. The story follows an American astronaut, Mark Watney, as he becomes stranded alone on Mars in 2035 and must improvise in order to survive. The Martian: A Novel Original ebook cover Author | Andy Weir Audio read by | R. C. Bray,</s>"
+  }
+}

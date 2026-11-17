@@ -1,0 +1,1316 @@
+{
+  "id": 40442,
+  "claim": "The House of the Spirits won awards.",
+  "status": "complete",
+  "token_verified": true,
+  "model_label": "NOT ENOUGH INFO",
+  "derived_label": "NOT ENOUGH INFO",
+  "coverage": {
+    "total": 102,
+    "processed": 102
+  },
+  "cleanup": {
+    "temporary_files_deleted": true
+  },
+  "source_trace_sha256": "debf8711778fb281c46edf38699f1527aa38f150bea9bdecba0505011f1d7e43",
+  "articles": [
+    {
+      "title": "House Spirits Distillery",
+      "url": "https://en.wikipedia.org/wiki/House_Spirits_Distillery",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=House_Spirits_Distillery&oldid=1370751790",
+      "revision_id": 1370751790,
+      "text_sha256": "61b431cf1750e5bc0a7407e27adc99355783db1fee6a54098a1a14e8db170978",
+      "matches_previous_text": true
+    },
+    {
+      "title": "House of Spirits",
+      "url": "https://en.wikipedia.org/wiki/House_of_Spirits",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=House_of_Spirits&oldid=808995572",
+      "revision_id": 808995572,
+      "text_sha256": "f18919b17e2dc73de8b32158118fd1e8407f2b448b05841c43451ca5de2c02f6",
+      "matches_previous_text": true
+    },
+    {
+      "title": "Australian Distilled Spirits Awards",
+      "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+      "revision_id": 1361016219,
+      "text_sha256": "fe632408148c65429979a647ca27f64d5b590db8bf4086ec319cf41a47481079",
+      "matches_previous_text": true
+    },
+    {
+      "title": "China Wine and Spirits Awards",
+      "url": "https://en.wikipedia.org/wiki/China_Wine_and_Spirits_Awards",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=China_Wine_and_Spirits_Awards&oldid=1300059756",
+      "revision_id": 1300059756,
+      "text_sha256": "4318e2fff475a87277f2b2fe635c79be75d447cbd027838aaaa5a6c87feaad6a",
+      "matches_previous_text": true
+    },
+    {
+      "title": "The House of the Spirits",
+      "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+      "revision_id": 1382550768,
+      "text_sha256": "65629b0b61ccf41a4cc374a6a34cfb8e9a2ea30d0c8f92d02d78fb15eba8b859",
+      "matches_previous_text": true
+    }
+  ],
+  "final_attempts": [
+    {
+      "file": "final_attempt_1.json",
+      "valid": true,
+      "reported_prompt_tokens": 5873
+    }
+  ],
+  "parts": [
+    {
+      "part": "The House of the Spirits",
+      "verdict": "NOT ENOUGH INFO",
+      "evidence_ids": [],
+      "justification": "No information about the book's awards is provided."
+    },
+    {
+      "part": "won awards",
+      "verdict": "NOT ENOUGH INFO",
+      "evidence_ids": [],
+      "justification": "No information about the book's awards is provided."
+    }
+  ],
+  "input": {
+    "claim": "The House of the Spirits won awards.",
+    "evidence": [
+      {
+        "id": "C12",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [],
+        "text": "Australian Distilled Spirits Awards\nIndustry | Alcoholic beverage\nHeadquarters | Melbourne, Australia\nOwner | Royal Agricultural Society of Victoria\nWebsite | www.rasv.com.au/Events/ADSA_Home/",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C13",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [],
+        "text": "Australian Distilled Spirits Awards (ADSA) is an annual competition that commenced in 2015.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C14",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [],
+        "text": "The ADSA is managed by the Royal Agricultural Society of Victoria (RASV) in conjunction with the Australian Distillers Association. Judging of the awards is conducted at Melbourne Showgrounds, with the Awards presentation dinner held in March in Melbourne, Australia.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C15",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [],
+        "text": "In 2017, the ADSA introduced two new trophies to reflect evolving production techniques, Champion Aromatic Bitters and Champion Micro Lot.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C16",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2015"
+        ],
+        "text": "Best Australian Distiller - Lark Distillery (Tasmania)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C17",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2015"
+        ],
+        "text": "Champion Whisky - Limeburners Peated Single Malt Barrel M227 - Limeburners Distillery (Great Southern Distilling Company) (Western Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C18",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2015"
+        ],
+        "text": "Champion Rum - Spike's Reserve - Hoochery Distillery (Western Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C19",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2015"
+        ],
+        "text": "Champion Gin - The West Winds Gin - The Sabre - Tailor Made Spirits Company (Western Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C20",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2015"
+        ],
+        "text": "Champion Alternative Spirits - Zeus Oyzo - Edgemill Group (Victoria)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C21",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2015"
+        ],
+        "text": "Champion Brandy - Black Bottle XO Brandy - VOK Beverages Pty Ltd (South Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C22",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2015"
+        ],
+        "text": "Champion Liqueur - Pecan & Hazelnut Liqueur - Castle Glen Australia Pty Ltd (Queensland)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C23",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2016"
+        ],
+        "text": "Champion Australian Distiller - Limeburners Distillery (Great Southern Distilling Company) (Western Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C24",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2016"
+        ],
+        "text": "Champion Small Batch Distiller - Limeburners Distillery (Great Southern Distilling Company) (Western Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C25",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2016"
+        ],
+        "text": "Champion Whisky - Limeburners Peated Single Malt Barrel M227 - Limeburners Distillery (Great Southern Distilling Company) (Western Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C26",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2016"
+        ],
+        "text": "Champion Rum - Ord River Rum - Premium - Hoochery Distillery (Western Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C27",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2016"
+        ],
+        "text": "Champion Gin - kis Old Tom - Kangaroo Island Spirits (South Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C28",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2016"
+        ],
+        "text": "Champion Vodka - Pure No. 1 - Old Young's (Western Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C29",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2016"
+        ],
+        "text": "Champion Brandy - St Agnes XO - St Agnes Distillery (South Australia)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C30",
+        "title": "Australian Distilled Spirits Awards",
+        "section": [
+          "Trophy winners",
+          "2016"
+        ],
+        "text": "Champion Liqueur - Golden Knight Schnapps Liqueur - Castle Glen Australia Pty Ltd (Queensland)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C33",
+        "title": "China Wine and Spirits Awards",
+        "section": [],
+        "text": "The China Wine and Spirits Awards (CWSA, Chinese:中国环球葡萄酒及烈酒大奖赛) wine and spirits competition is the biggest wine competition in Hong Kong and China.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C34",
+        "title": "China Wine and Spirits Awards",
+        "section": [],
+        "text": "CWSA Judges together sell 75 million bottles of wine and spirits per year, making CWSA the most influential wine and spirits awards in the world. The competition is focused on finding wines and spirits for the Chinese market. The wines and spirits are judged by 100 Chinese wine and spirits buyers; Importers, Distributors, Retailers. Producers looking to expand into the Chinese market, and those already in the market enter their products for judging.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C35",
+        "title": "China Wine and Spirits Awards",
+        "section": [],
+        "text": "Wines are blind tasted. The competition holds two competitions per year. Every Spring, China Wine and Spirits Best Value is held, the blind tasting is held by price range and wines and spirits that offer good value are awarded. The China Wine and Spirits Awards (CWSA) is held in Autumn and entrants are judged to find the best wines and spirits for the Chinese market. The awards receive entries from producers from more than 55 wine-producing countries.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C36",
+        "title": "China Wine and Spirits Awards",
+        "section": [
+          "Judging"
+        ],
+        "text": "100 CWSA Judges, China based Importers, Distributors, Retailers and Sommeliers', all buyers of wines and spirits. Together they are responsible for sales of 75 million bottles of wine and spirits per year.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C37",
+        "title": "China Wine and Spirits Awards",
+        "section": [
+          "Wine"
+        ],
+        "text": "Wines enter from 55+ countries for blind tasting.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C38",
+        "title": "China Wine and Spirits Awards",
+        "section": [
+          "Spirits"
+        ],
+        "text": "CWSA Judges sell 75 million bottles of wine and spirits per year, allegedly making CWSA the most influential whisky awards in the world.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C39",
+        "title": "China Wine and Spirits Awards",
+        "section": [
+          "Structure"
+        ],
+        "text": "Two major competitions per year CWSA and CWSA Best Value.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C57",
+        "title": "The House of the Spirits",
+        "section": [],
+        "text": "The House of the Spirits (Spanish: La casa de los espíritus, 1982) is the debut novel of Isabel Allende. The novel was rejected by several Spanish-language publishers before being published in Barcelona in 1982. It became an instant best-seller, was critically acclaimed, and catapulted Allende to literary stardom. The novel was named Best Novel of the Year in Chile in 1982, and Allende received the country's Panorama Literario award. The House of the Spirits has been translated into over 20 languages.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C58",
+        "title": "The House of the Spirits",
+        "section": [],
+        "text": "The book was first conceived by Allende when she received news that her 100-year-old grandfather was dying. She began to write him a letter that ultimately became the manuscript of The House of the Spirits. Her novel is influenced by Gabriel García Márquez’s novel One Hundred Years of Solitude.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C59",
+        "title": "The House of the Spirits",
+        "section": [],
+        "text": "The story details the life of the Trueba family, spanning four generations, and tracing the post-colonial social and political upheavals of Chile – though the country's name and the names of figures closely paralleling historical ones, such as \"the Candidate/President\" (Salvador Allende) or \"the Poet\" (Pablo Neruda), are never explicitly given. The story is told mainly from the perspective of two protagonists (Esteban and Alba) and incorporates elements of magical realism.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C60",
+        "title": "The House of the Spirits",
+        "section": [
+          "Plot summary"
+        ],
+        "text": "The story starts with the del Valle family, focusing upon the youngest and the eldest daughters of the family, Clara and Rosa. The youngest daughter, Clara del Valle, has paranormal powers and keeps a detailed diary of her life. Using her powers, Clara predicts that an accidental death will occur in the family. Shortly after this, Clara's sister, Rosa the Beautiful, is killed by poison intended for her father who is running for the Senate. Clara is shocked into muteness after witnessing the autopsy performed on her sister's body. Rosa's fiancé, a poor miner named Esteban Trueba, is devastated and attempts to mend his broken heart by devoting his life to restoring his family hacienda, Las Tres Marías, which has fallen into poverty and disrepair. He sends money to his spinster sister who takes care of their arthritic mother in town. Through a combination of intimidation and reward, he enforces respect and labor from the fearful peasants and turns Tres",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C61",
+        "title": "The House of the Spirits",
+        "section": [
+          "Plot summary"
+        ],
+        "text": "Marías into a \"model hacienda\". He turns the first peasant who spoke to him upon arrival, Pedro Segundo, into his foreman, who quickly becomes the closest thing that Trueba ever has to an actual friend during his life. He rapes many of the peasant women and children, and his first victim, then-15-year-old Pancha García, becomes the mother of his bastard son, Esteban García. Throughout the novel, he visits Transito Soto, a prostitute. With Esteban's help, she becomes a wildly successful brothel madam in the city and always is willing to repay the favor to him.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C62",
+        "title": "The House of the Spirits",
+        "section": [
+          "Plot summary"
+        ],
+        "text": "Esteban returns to the city to see his dying mother. After her death, Esteban decides to fulfill her dying wish for him to marry and have legitimate children. He goes to the Del Valle family to ask for Clara's hand in marriage. Clara accepts Esteban's proposal; she herself has predicted her engagement two months prior, speaking for the first time in nine years. During the period of their engagement, Esteban builds what everyone calls \"the big house on the corner\", a large mansion in the city where the Trueba family will live for generations. After their wedding, Esteban's sister Férula comes to live with the newlyweds in the big house on the corner. Férula develops a strong dedication to Clara, which fulfills her need to serve others. However, Esteban's wild desire to possess Clara and to monopolize her love causes him to throw Férula out of the house. She curses him, telling him that he",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C63",
+        "title": "The House of the Spirits",
+        "section": [
+          "Plot summary"
+        ],
+        "text": "will shrink in body and soul, and die like a dog. Although she misses her sister-in-law, Clara is unable to find her by any means - the gap between her and her husband widens as she devotes more time to her daughter and the mystic arts.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C64",
+        "title": "The House of the Spirits",
+        "section": [
+          "Plot summary"
+        ],
+        "text": "Clara gives birth to a daughter named Blanca and later, to twin boys Jaime and Nicolás. The family, which resides in the capital, stays at the hacienda during the summertime. Upon arriving at Tres Marías for the first time, Blanca immediately befriends a young boy named Pedro Tercero, who is the son of her father's foreman. Blanca and Pedro grow up together as best friends despite them being of two different social and economic classes. During their teenage years, Blanca and Pedro Tercero eventually become lovers. After an earthquake that destroys part of the hacienda and leaves Esteban injured, the Truebas move permanently to Las Tres Marías. Clara spends her time teaching, caring for her husband's battered body, and writing in her journals while Blanca is sent to a convent school and the twin boys back to an English boarding school, both of which are located in the city. Blanca fakes an illness so as to be sent back to Las Tres",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C65",
+        "title": "The House of the Spirits",
+        "section": [
+          "Plot summary"
+        ],
+        "text": "Marías, where she can be with Pedro Tercero, but when she arrives home she finds that Pedro Tercero has been banished from the hacienda by Esteban on account of his revolutionary socialist ideas. Pedro Tercero meets with Blanca in secret adopting disguises while also spreading his ideas in the form of song to neighboring haciendas.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C75",
+        "title": "The House of the Spirits",
+        "section": [
+          "Main characters"
+        ],
+        "text": "Some of the characters' names are significant, particularly the women's names, which often indicate the personalities of the characters. The names Nívea, Clara, Blanca, and Alba are more or less synonyms, and this is mentioned as a family tradition. (Nívea means snow-white, and can be translated as \"white\" as can all the others, though they have specific meanings.) Férula's name means \"rod\" in Latin; when used in Spanish it refers to an object used to immobilize a limb, such as a splint or cast.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C76",
+        "title": "The House of the Spirits",
+        "section": [
+          "Main characters",
+          "Clara del Valle Trueba"
+        ],
+        "text": "Clara (one of its translations is the equivalent of English 'clear', although it is also a common female name) is the key female figure in the novel. She is a clairvoyant and telekinetic who is rarely attentive to domestic tasks, but she holds her family together with her love for them and her uncanny predictions. She is the youngest daughter of Severo and Nívea del Valle, wife of Esteban Trueba, and mother of Blanca, Jaime, and Nicolás. Even as a child her strangeness is noticed and seen as a threat to many in her community. Otherwise, her family and devoted Nanny protect her from her strangeness. She and her uncle Marcos use her powers to run a fortune-telling centre as she develops other paranormal activities like dream reading. Her uncle eventually leaves in a primitive airplane he built himself, disappearing for many months, assumed dead but later is found to die instead as the result of a 'mysterious African plague' contracted",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C77",
+        "title": "The House of the Spirits",
+        "section": [
+          "Main characters",
+          "Clara del Valle Trueba"
+        ],
+        "text": "during his travels. Clara practices divining and moving inanimate objects, most notably a three-legged table, and she is surrounded by friends such as the psychic Mora sisters and The Poet. Severo and Nívea del Valle are main characters in another Allende novel. As Clara grows up, she develops her abilities and is even able to communicate with ghosts and spirits. Clara represents love and cherishment. Clara's marriage to Esteban Trubea is something she accepts but she never truly loves him and knows from the beginning that she will never do so. She is uninterested in material things and takes for granted her own high economic standing. It is not until later, after great tragedy, that she takes the role of helper/servant instead of dreamy bystander.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C78",
+        "title": "The House of the Spirits",
+        "section": [
+          "Main characters",
+          "Esteban Trueba"
+        ],
+        "text": "Esteban Trueba is the central male character of the novel and is one of the story's main narrators along with his granddaughter Alba. In his youth, he seeks the mermaid-like and green-haired Rosa the Beautiful, daughter of Severo and Nívea del Valle, toiling in the mines to earn a suitable fortune so that he can support her. However, she dies by accidental poisoning while he is working in the mines, a cruel stroke of fate that hardens his heart. He works hard to develop his estate at Tres Marias ('Three Marys', a nickname for Orion's Belt), and seduces and rapes many local peasant women, fathering many illegitimate children, including Esteban García (by Pancha García, sister of Pedro Segundo). Although he eventually marries Clara (Rosa's sister and youngest daughter of the Del Valles) and raises a large family, Esteban's stubborn and violent ways alienate all",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C94",
+        "title": "The House of the Spirits",
+        "section": [
+          "School curricula"
+        ],
+        "text": "The novel has been taught in a significant number of school curricula around the world, notably for its use of magical realism, and as a translated Latin American novel. Educational organizations such as the International Baccalaureate recognize it as a world literature study book.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C95",
+        "title": "The House of the Spirits",
+        "section": [
+          "School curricula",
+          "Censorship in the United States"
+        ],
+        "text": "The House of the Spirits has been challenged for its usage in United States school curriculum on multiple occasions, most often for the stated reasons of explicit sexual content and depictions of violence. In 1997 a Virginia parent initially brought attention to the novel’s explicit content by passing out “packets of excerpts from The House of Spirits with the heading “Would you allow your 16-year-old daughter to read this material? And if not, why should the public school be allowed to require my 16-year-old daughter to read this material?” Despite this demonstration, the Virginia county’s school board voted not to ban the novel from school curriculum. Similarly, in Maryland, the novel was brought to the attention of the school board in Montgomery County for its explicit content, specifically the depiction of necrophilia—“in which a young medical student kisses a female corpse,” referring to the molestation of the body of Rosa the Beautiful. In California counties in 1999 and 2000, the novel was challenged for",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C96",
+        "title": "The House of the Spirits",
+        "section": [
+          "School curricula",
+          "Censorship in the United States"
+        ],
+        "text": "its anti-Christian views, pornographic depictions, and “violence and sexual abuse”.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C99",
+        "title": "The House of the Spirits",
+        "section": [
+          "Film, theatrical and television adaptations"
+        ],
+        "text": "In 1993, the book was adapted into a film by Danish director Bille August. The movie starred Jeremy Irons as Esteban Trueba, Meryl Streep as Clara del Valle Trueba, Winona Ryder as Blanca Trueba, Glenn Close as Férula Trueba and Antonio Banderas as Pedro Tercero García. While the film won some minor international awards, it was widely viewed as a critical failure. Two oft-cited reasons were its diffusely episodic structure and its cast of mostly Anglo-American actors in Latin American roles. The film grossed $4.8 million in its first two weeks of release in Germany and went on to gross more than $55 million in Europe. In the United States and Canada, it grossed $6 million.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C101",
+        "title": "The House of the Spirits",
+        "section": [
+          "Film, theatrical and television adaptations"
+        ],
+        "text": "The novel has also been adapted for the theater in a version written by Caridad Svich, which was commissioned by Repertorio Espanol in New York City. That adaptation premiered in 2009 and received the HOLA Award for Outstanding Achievement in Playwriting from the Hispanic Organization of Latin Actors. Unlike the film and the previous adaptation, this version was written and performed in Spanish and has been staged in Latin American countries such as Chile and Costa Rica. Svich also wrote an English language version of the play which won the 2011 American Theatre Critics Association Primus Prize for its production at Denver Center Theatre Company in 2010.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C102",
+        "title": "The House of the Spirits",
+        "section": [
+          "Film, theatrical and television adaptations"
+        ],
+        "text": "On May 23, 2018, it was announced that Hulu was developing a television series adaptation of the novel with production company FilmNation Entertainment. Allende is expected to serve as an executive producer on the project. On October 19, 2021, it was announced that Eva Longoria would star in the project. In 2024, Amazon MGM Studios gave the green-light to the project. In 2026, the novel was adapted into an 8-part television miniseries starring Alfonso Herrera as Esteban Trueba, Dolores Fonzi as Clara del Valle Cortés and Rochi Hernández as Alba Satigny Trueba. The television series was released on April 29, 2026 on Amazon Prime Video. Longoria remained in the project as executive producer.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      }
+    ]
+  },
+  "supplied_evidence": {
+    "C12": {
+      "text": "Australian Distilled Spirits Awards\nIndustry | Alcoholic beverage\nHeadquarters | Melbourne, Australia\nOwner | Royal Agricultural Society of Victoria\nWebsite | www.rasv.com.au/Events/ADSA_Home/",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00001",
+        "block_kind": "infobox",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 192,
+        "id": "C12"
+      }
+    },
+    "C13": {
+      "text": "Australian Distilled Spirits Awards (ADSA) is an annual competition that commenced in 2015.",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00002",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 91,
+        "id": "C13"
+      }
+    },
+    "C14": {
+      "text": "The ADSA is managed by the Royal Agricultural Society of Victoria (RASV) in conjunction with the Australian Distillers Association. Judging of the awards is conducted at Melbourne Showgrounds, with the Awards presentation dinner held in March in Melbourne, Australia.",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00003",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 267,
+        "id": "C14"
+      }
+    },
+    "C15": {
+      "text": "In 2017, the ADSA introduced two new trophies to reflect evolving production techniques, Champion Aromatic Bitters and Champion Micro Lot.",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00004",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 138,
+        "id": "C15"
+      }
+    },
+    "C16": {
+      "text": "Best Australian Distiller - Lark Distillery (Tasmania)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00007",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2015"
+        ],
+        "char_start": 0,
+        "char_end": 54,
+        "id": "C16"
+      }
+    },
+    "C17": {
+      "text": "Champion Whisky - Limeburners Peated Single Malt Barrel M227 - Limeburners Distillery (Great Southern Distilling Company) (Western Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00008",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2015"
+        ],
+        "char_start": 0,
+        "char_end": 141,
+        "id": "C17"
+      }
+    },
+    "C18": {
+      "text": "Champion Rum - Spike's Reserve - Hoochery Distillery (Western Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00009",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2015"
+        ],
+        "char_start": 0,
+        "char_end": 72,
+        "id": "C18"
+      }
+    },
+    "C19": {
+      "text": "Champion Gin - The West Winds Gin - The Sabre - Tailor Made Spirits Company (Western Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00010",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2015"
+        ],
+        "char_start": 0,
+        "char_end": 95,
+        "id": "C19"
+      }
+    },
+    "C20": {
+      "text": "Champion Alternative Spirits - Zeus Oyzo - Edgemill Group (Victoria)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00011",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2015"
+        ],
+        "char_start": 0,
+        "char_end": 68,
+        "id": "C20"
+      }
+    },
+    "C21": {
+      "text": "Champion Brandy - Black Bottle XO Brandy - VOK Beverages Pty Ltd (South Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00012",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2015"
+        ],
+        "char_start": 0,
+        "char_end": 82,
+        "id": "C21"
+      }
+    },
+    "C22": {
+      "text": "Champion Liqueur - Pecan & Hazelnut Liqueur - Castle Glen Australia Pty Ltd (Queensland)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00013",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2015"
+        ],
+        "char_start": 0,
+        "char_end": 88,
+        "id": "C22"
+      }
+    },
+    "C23": {
+      "text": "Champion Australian Distiller - Limeburners Distillery (Great Southern Distilling Company) (Western Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00015",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2016"
+        ],
+        "char_start": 0,
+        "char_end": 110,
+        "id": "C23"
+      }
+    },
+    "C24": {
+      "text": "Champion Small Batch Distiller - Limeburners Distillery (Great Southern Distilling Company) (Western Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00016",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2016"
+        ],
+        "char_start": 0,
+        "char_end": 111,
+        "id": "C24"
+      }
+    },
+    "C25": {
+      "text": "Champion Whisky - Limeburners Peated Single Malt Barrel M227 - Limeburners Distillery (Great Southern Distilling Company) (Western Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00017",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2016"
+        ],
+        "char_start": 0,
+        "char_end": 141,
+        "id": "C25"
+      }
+    },
+    "C26": {
+      "text": "Champion Rum - Ord River Rum - Premium - Hoochery Distillery (Western Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00018",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2016"
+        ],
+        "char_start": 0,
+        "char_end": 80,
+        "id": "C26"
+      }
+    },
+    "C27": {
+      "text": "Champion Gin - kis Old Tom - Kangaroo Island Spirits (South Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00019",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2016"
+        ],
+        "char_start": 0,
+        "char_end": 70,
+        "id": "C27"
+      }
+    },
+    "C28": {
+      "text": "Champion Vodka - Pure No. 1 - Old Young's (Western Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00020",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2016"
+        ],
+        "char_start": 0,
+        "char_end": 61,
+        "id": "C28"
+      }
+    },
+    "C29": {
+      "text": "Champion Brandy - St Agnes XO - St Agnes Distillery (South Australia)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00021",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2016"
+        ],
+        "char_start": 0,
+        "char_end": 69,
+        "id": "C29"
+      }
+    },
+    "C30": {
+      "text": "Champion Liqueur - Golden Knight Schnapps Liqueur - Castle Glen Australia Pty Ltd (Queensland)",
+      "source": {
+        "page_id": 49628760,
+        "title": "Australian Distilled Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/Australian_Distilled_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Australian_Distilled_Spirits_Awards&oldid=1361016219",
+        "revision_id": 1361016219,
+        "block_id": "B00022",
+        "block_kind": "list_item",
+        "section_path": [
+          "Trophy winners",
+          "2016"
+        ],
+        "char_start": 0,
+        "char_end": 94,
+        "id": "C30"
+      }
+    },
+    "C33": {
+      "text": "The China Wine and Spirits Awards (CWSA, Chinese:中国环球葡萄酒及烈酒大奖赛) wine and spirits competition is the biggest wine competition in Hong Kong and China.",
+      "source": {
+        "page_id": 49156696,
+        "title": "China Wine and Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/China_Wine_and_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=China_Wine_and_Spirits_Awards&oldid=1300059756",
+        "revision_id": 1300059756,
+        "block_id": "B00001",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 148,
+        "id": "C33"
+      }
+    },
+    "C34": {
+      "text": "CWSA Judges together sell 75 million bottles of wine and spirits per year, making CWSA the most influential wine and spirits awards in the world. The competition is focused on finding wines and spirits for the Chinese market. The wines and spirits are judged by 100 Chinese wine and spirits buyers; Importers, Distributors, Retailers. Producers looking to expand into the Chinese market, and those already in the market enter their products for judging.",
+      "source": {
+        "page_id": 49156696,
+        "title": "China Wine and Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/China_Wine_and_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=China_Wine_and_Spirits_Awards&oldid=1300059756",
+        "revision_id": 1300059756,
+        "block_id": "B00002",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 453,
+        "id": "C34"
+      }
+    },
+    "C35": {
+      "text": "Wines are blind tasted. The competition holds two competitions per year. Every Spring, China Wine and Spirits Best Value is held, the blind tasting is held by price range and wines and spirits that offer good value are awarded. The China Wine and Spirits Awards (CWSA) is held in Autumn and entrants are judged to find the best wines and spirits for the Chinese market. The awards receive entries from producers from more than 55 wine-producing countries.",
+      "source": {
+        "page_id": 49156696,
+        "title": "China Wine and Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/China_Wine_and_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=China_Wine_and_Spirits_Awards&oldid=1300059756",
+        "revision_id": 1300059756,
+        "block_id": "B00003",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 455,
+        "id": "C35"
+      }
+    },
+    "C36": {
+      "text": "100 CWSA Judges, China based Importers, Distributors, Retailers and Sommeliers', all buyers of wines and spirits. Together they are responsible for sales of 75 million bottles of wine and spirits per year.",
+      "source": {
+        "page_id": 49156696,
+        "title": "China Wine and Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/China_Wine_and_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=China_Wine_and_Spirits_Awards&oldid=1300059756",
+        "revision_id": 1300059756,
+        "block_id": "B00005",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Judging"
+        ],
+        "char_start": 0,
+        "char_end": 205,
+        "id": "C36"
+      }
+    },
+    "C37": {
+      "text": "Wines enter from 55+ countries for blind tasting.",
+      "source": {
+        "page_id": 49156696,
+        "title": "China Wine and Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/China_Wine_and_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=China_Wine_and_Spirits_Awards&oldid=1300059756",
+        "revision_id": 1300059756,
+        "block_id": "B00007",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Wine"
+        ],
+        "char_start": 0,
+        "char_end": 49,
+        "id": "C37"
+      }
+    },
+    "C38": {
+      "text": "CWSA Judges sell 75 million bottles of wine and spirits per year, allegedly making CWSA the most influential whisky awards in the world.",
+      "source": {
+        "page_id": 49156696,
+        "title": "China Wine and Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/China_Wine_and_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=China_Wine_and_Spirits_Awards&oldid=1300059756",
+        "revision_id": 1300059756,
+        "block_id": "B00009",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Spirits"
+        ],
+        "char_start": 0,
+        "char_end": 136,
+        "id": "C38"
+      }
+    },
+    "C39": {
+      "text": "Two major competitions per year CWSA and CWSA Best Value.",
+      "source": {
+        "page_id": 49156696,
+        "title": "China Wine and Spirits Awards",
+        "url": "https://en.wikipedia.org/wiki/China_Wine_and_Spirits_Awards",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=China_Wine_and_Spirits_Awards&oldid=1300059756",
+        "revision_id": 1300059756,
+        "block_id": "B00011",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Structure"
+        ],
+        "char_start": 0,
+        "char_end": 57,
+        "id": "C39"
+      }
+    },
+    "C57": {
+      "text": "The House of the Spirits (Spanish: La casa de los espíritus, 1982) is the debut novel of Isabel Allende. The novel was rejected by several Spanish-language publishers before being published in Barcelona in 1982. It became an instant best-seller, was critically acclaimed, and catapulted Allende to literary stardom. The novel was named Best Novel of the Year in Chile in 1982, and Allende received the country's Panorama Literario award. The House of the Spirits has been translated into over 20 languages.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00002",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 506,
+        "id": "C57"
+      }
+    },
+    "C58": {
+      "text": "The book was first conceived by Allende when she received news that her 100-year-old grandfather was dying. She began to write him a letter that ultimately became the manuscript of The House of the Spirits. Her novel is influenced by Gabriel García Márquez’s novel One Hundred Years of Solitude.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00003",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 295,
+        "id": "C58"
+      }
+    },
+    "C59": {
+      "text": "The story details the life of the Trueba family, spanning four generations, and tracing the post-colonial social and political upheavals of Chile – though the country's name and the names of figures closely paralleling historical ones, such as \"the Candidate/President\" (Salvador Allende) or \"the Poet\" (Pablo Neruda), are never explicitly given. The story is told mainly from the perspective of two protagonists (Esteban and Alba) and incorporates elements of magical realism.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00004",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 477,
+        "id": "C59"
+      }
+    },
+    "C60": {
+      "text": "The story starts with the del Valle family, focusing upon the youngest and the eldest daughters of the family, Clara and Rosa. The youngest daughter, Clara del Valle, has paranormal powers and keeps a detailed diary of her life. Using her powers, Clara predicts that an accidental death will occur in the family. Shortly after this, Clara's sister, Rosa the Beautiful, is killed by poison intended for her father who is running for the Senate. Clara is shocked into muteness after witnessing the autopsy performed on her sister's body. Rosa's fiancé, a poor miner named Esteban Trueba, is devastated and attempts to mend his broken heart by devoting his life to restoring his family hacienda, Las Tres Marías, which has fallen into poverty and disrepair. He sends money to his spinster sister who takes care of their arthritic mother in town. Through a combination of intimidation and reward, he enforces respect and labor from the fearful peasants and turns Tres",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00006",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Plot summary"
+        ],
+        "char_start": 0,
+        "char_end": 963,
+        "id": "C60"
+      }
+    },
+    "C61": {
+      "text": "Marías into a \"model hacienda\". He turns the first peasant who spoke to him upon arrival, Pedro Segundo, into his foreman, who quickly becomes the closest thing that Trueba ever has to an actual friend during his life. He rapes many of the peasant women and children, and his first victim, then-15-year-old Pancha García, becomes the mother of his bastard son, Esteban García. Throughout the novel, he visits Transito Soto, a prostitute. With Esteban's help, she becomes a wildly successful brothel madam in the city and always is willing to repay the favor to him.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00006",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Plot summary"
+        ],
+        "char_start": 964,
+        "char_end": 1529,
+        "id": "C61"
+      }
+    },
+    "C62": {
+      "text": "Esteban returns to the city to see his dying mother. After her death, Esteban decides to fulfill her dying wish for him to marry and have legitimate children. He goes to the Del Valle family to ask for Clara's hand in marriage. Clara accepts Esteban's proposal; she herself has predicted her engagement two months prior, speaking for the first time in nine years. During the period of their engagement, Esteban builds what everyone calls \"the big house on the corner\", a large mansion in the city where the Trueba family will live for generations. After their wedding, Esteban's sister Férula comes to live with the newlyweds in the big house on the corner. Férula develops a strong dedication to Clara, which fulfills her need to serve others. However, Esteban's wild desire to possess Clara and to monopolize her love causes him to throw Férula out of the house. She curses him, telling him that he",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00007",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Plot summary"
+        ],
+        "char_start": 0,
+        "char_end": 900,
+        "id": "C62"
+      }
+    },
+    "C63": {
+      "text": "will shrink in body and soul, and die like a dog. Although she misses her sister-in-law, Clara is unable to find her by any means - the gap between her and her husband widens as she devotes more time to her daughter and the mystic arts.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00007",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Plot summary"
+        ],
+        "char_start": 901,
+        "char_end": 1137,
+        "id": "C63"
+      }
+    },
+    "C64": {
+      "text": "Clara gives birth to a daughter named Blanca and later, to twin boys Jaime and Nicolás. The family, which resides in the capital, stays at the hacienda during the summertime. Upon arriving at Tres Marías for the first time, Blanca immediately befriends a young boy named Pedro Tercero, who is the son of her father's foreman. Blanca and Pedro grow up together as best friends despite them being of two different social and economic classes. During their teenage years, Blanca and Pedro Tercero eventually become lovers. After an earthquake that destroys part of the hacienda and leaves Esteban injured, the Truebas move permanently to Las Tres Marías. Clara spends her time teaching, caring for her husband's battered body, and writing in her journals while Blanca is sent to a convent school and the twin boys back to an English boarding school, both of which are located in the city. Blanca fakes an illness so as to be sent back to Las Tres",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00008",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Plot summary"
+        ],
+        "char_start": 0,
+        "char_end": 943,
+        "id": "C64"
+      }
+    },
+    "C65": {
+      "text": "Marías, where she can be with Pedro Tercero, but when she arrives home she finds that Pedro Tercero has been banished from the hacienda by Esteban on account of his revolutionary socialist ideas. Pedro Tercero meets with Blanca in secret adopting disguises while also spreading his ideas in the form of song to neighboring haciendas.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00008",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Plot summary"
+        ],
+        "char_start": 944,
+        "char_end": 1277,
+        "id": "C65"
+      }
+    },
+    "C75": {
+      "text": "Some of the characters' names are significant, particularly the women's names, which often indicate the personalities of the characters. The names Nívea, Clara, Blanca, and Alba are more or less synonyms, and this is mentioned as a family tradition. (Nívea means snow-white, and can be translated as \"white\" as can all the others, though they have specific meanings.) Férula's name means \"rod\" in Latin; when used in Spanish it refers to an object used to immobilize a limb, such as a splint or cast.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00018",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Main characters"
+        ],
+        "char_start": 0,
+        "char_end": 500,
+        "id": "C75"
+      }
+    },
+    "C76": {
+      "text": "Clara (one of its translations is the equivalent of English 'clear', although it is also a common female name) is the key female figure in the novel. She is a clairvoyant and telekinetic who is rarely attentive to domestic tasks, but she holds her family together with her love for them and her uncanny predictions. She is the youngest daughter of Severo and Nívea del Valle, wife of Esteban Trueba, and mother of Blanca, Jaime, and Nicolás. Even as a child her strangeness is noticed and seen as a threat to many in her community. Otherwise, her family and devoted Nanny protect her from her strangeness. She and her uncle Marcos use her powers to run a fortune-telling centre as she develops other paranormal activities like dream reading. Her uncle eventually leaves in a primitive airplane he built himself, disappearing for many months, assumed dead but later is found to die instead as the result of a 'mysterious African plague' contracted",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00020",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Main characters",
+          "Clara del Valle Trueba"
+        ],
+        "char_start": 0,
+        "char_end": 946,
+        "id": "C76"
+      }
+    },
+    "C77": {
+      "text": "during his travels. Clara practices divining and moving inanimate objects, most notably a three-legged table, and she is surrounded by friends such as the psychic Mora sisters and The Poet. Severo and Nívea del Valle are main characters in another Allende novel. As Clara grows up, she develops her abilities and is even able to communicate with ghosts and spirits. Clara represents love and cherishment. Clara's marriage to Esteban Trubea is something she accepts but she never truly loves him and knows from the beginning that she will never do so. She is uninterested in material things and takes for granted her own high economic standing. It is not until later, after great tragedy, that she takes the role of helper/servant instead of dreamy bystander.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00020",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Main characters",
+          "Clara del Valle Trueba"
+        ],
+        "char_start": 947,
+        "char_end": 1705,
+        "id": "C77"
+      }
+    },
+    "C78": {
+      "text": "Esteban Trueba is the central male character of the novel and is one of the story's main narrators along with his granddaughter Alba. In his youth, he seeks the mermaid-like and green-haired Rosa the Beautiful, daughter of Severo and Nívea del Valle, toiling in the mines to earn a suitable fortune so that he can support her. However, she dies by accidental poisoning while he is working in the mines, a cruel stroke of fate that hardens his heart. He works hard to develop his estate at Tres Marias ('Three Marys', a nickname for Orion's Belt), and seduces and rapes many local peasant women, fathering many illegitimate children, including Esteban García (by Pancha García, sister of Pedro Segundo). Although he eventually marries Clara (Rosa's sister and youngest daughter of the Del Valles) and raises a large family, Esteban's stubborn and violent ways alienate all",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00022",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Main characters",
+          "Esteban Trueba"
+        ],
+        "char_start": 0,
+        "char_end": 871,
+        "id": "C78"
+      }
+    },
+    "C94": {
+      "text": "The novel has been taught in a significant number of school curricula around the world, notably for its use of magical realism, and as a translated Latin American novel. Educational organizations such as the International Baccalaureate recognize it as a world literature study book.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00044",
+        "block_kind": "paragraph",
+        "section_path": [
+          "School curricula"
+        ],
+        "char_start": 0,
+        "char_end": 282,
+        "id": "C94"
+      }
+    },
+    "C95": {
+      "text": "The House of the Spirits has been challenged for its usage in United States school curriculum on multiple occasions, most often for the stated reasons of explicit sexual content and depictions of violence. In 1997 a Virginia parent initially brought attention to the novel’s explicit content by passing out “packets of excerpts from The House of Spirits with the heading “Would you allow your 16-year-old daughter to read this material? And if not, why should the public school be allowed to require my 16-year-old daughter to read this material?” Despite this demonstration, the Virginia county’s school board voted not to ban the novel from school curriculum. Similarly, in Maryland, the novel was brought to the attention of the school board in Montgomery County for its explicit content, specifically the depiction of necrophilia—“in which a young medical student kisses a female corpse,” referring to the molestation of the body of Rosa the Beautiful. In California counties in 1999 and 2000, the novel was challenged for",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00046",
+        "block_kind": "paragraph",
+        "section_path": [
+          "School curricula",
+          "Censorship in the United States"
+        ],
+        "char_start": 0,
+        "char_end": 1026,
+        "id": "C95"
+      }
+    },
+    "C96": {
+      "text": "its anti-Christian views, pornographic depictions, and “violence and sexual abuse”.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00046",
+        "block_kind": "paragraph",
+        "section_path": [
+          "School curricula",
+          "Censorship in the United States"
+        ],
+        "char_start": 1027,
+        "char_end": 1110,
+        "id": "C96"
+      }
+    },
+    "C99": {
+      "text": "In 1993, the book was adapted into a film by Danish director Bille August. The movie starred Jeremy Irons as Esteban Trueba, Meryl Streep as Clara del Valle Trueba, Winona Ryder as Blanca Trueba, Glenn Close as Férula Trueba and Antonio Banderas as Pedro Tercero García. While the film won some minor international awards, it was widely viewed as a critical failure. Two oft-cited reasons were its diffusely episodic structure and its cast of mostly Anglo-American actors in Latin American roles. The film grossed $4.8 million in its first two weeks of release in Germany and went on to gross more than $55 million in Europe. In the United States and Canada, it grossed $6 million.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00051",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Film, theatrical and television adaptations"
+        ],
+        "char_start": 0,
+        "char_end": 681,
+        "id": "C99"
+      }
+    },
+    "C101": {
+      "text": "The novel has also been adapted for the theater in a version written by Caridad Svich, which was commissioned by Repertorio Espanol in New York City. That adaptation premiered in 2009 and received the HOLA Award for Outstanding Achievement in Playwriting from the Hispanic Organization of Latin Actors. Unlike the film and the previous adaptation, this version was written and performed in Spanish and has been staged in Latin American countries such as Chile and Costa Rica. Svich also wrote an English language version of the play which won the 2011 American Theatre Critics Association Primus Prize for its production at Denver Center Theatre Company in 2010.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00053",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Film, theatrical and television adaptations"
+        ],
+        "char_start": 0,
+        "char_end": 662,
+        "id": "C101"
+      }
+    },
+    "C102": {
+      "text": "On May 23, 2018, it was announced that Hulu was developing a television series adaptation of the novel with production company FilmNation Entertainment. Allende is expected to serve as an executive producer on the project. On October 19, 2021, it was announced that Eva Longoria would star in the project. In 2024, Amazon MGM Studios gave the green-light to the project. In 2026, the novel was adapted into an 8-part television miniseries starring Alfonso Herrera as Esteban Trueba, Dolores Fonzi as Clara del Valle Cortés and Rochi Hernández as Alba Satigny Trueba. The television series was released on April 29, 2026 on Amazon Prime Video. Longoria remained in the project as executive producer.",
+      "source": {
+        "page_id": 1195051,
+        "title": "The House of the Spirits",
+        "url": "https://en.wikipedia.org/wiki/The_House_of_the_Spirits",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=The_House_of_the_Spirits&oldid=1382550768",
+        "revision_id": 1382550768,
+        "block_id": "B00054",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Film, theatrical and television adaptations"
+        ],
+        "char_start": 0,
+        "char_end": 698,
+        "id": "C102"
+      }
+    }
+  },
+  "tokenization": {
+    "raw_prompt_tokens": 5863,
+    "token_ids_sha256": "e29d350affe5139ad3f36fca29ef1e73a202763c58b9034f73ccb4f6e0b6ed38",
+    "prompt_sha256": "b19248b5d388cb63e22b06975718281d91946af83266fb49ed282fef72c7a157",
+    "tokenizer_process": 77125,
+    "tokenizer_url": "http://127.0.0.1:51530/tokenize",
+    "tokenizer_options": {
+      "add_special": false,
+      "parse_special": true
+    }
+  },
+  "expected_prompt_tokens": 5873,
+  "context": 12288,
+  "consistent": true,
+  "wall_seconds": 32.222239125
+}

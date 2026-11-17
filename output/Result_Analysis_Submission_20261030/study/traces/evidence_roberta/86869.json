@@ -1,0 +1,62 @@
+{
+  "id": 86869,
+  "claim": "The Netherlands hosts the Oscars.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.8975998163223267,
+    0.10219290852546692,
+    0.00020727798982989043
+  ],
+  "logits": [
+    3.1444239616394043,
+    0.9715619087219238,
+    -5.228994369506836
+  ],
+  "evidence": [
+    {
+      "page_id": "Prins_Oscars_Land",
+      "sentence_id": 0,
+      "text": "Prins Oscars Land is a land area constituting mainly Platenhalvøya , a peninsula between Rijpfjorden in the west and Duvefjorden with Fortherbyfjorden and Innvika on Nordaustlandet , Svalbard in Arctic Norway .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Kong_Oscars_gate,_Bergen",
+      "sentence_id": 0,
+      "text": "Kong Oscars gate is a street in the city centre of Bergen , Norway .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Kong_Oscars_gate,_Bergen",
+      "sentence_id": 2,
+      "text": "The westernmost part of Kong Oscars gate is among the oldest streets in Bergen .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Kong_Oscars_gate,_Bergen",
+      "sentence_id": 5,
+      "text": "Norwegian national road is assigned to Kong Oscars gate between its southeastern end at Stadsporten and Nygaten , which it then follows .",
+      "score": 1.05
+    },
+    {
+      "page_id": "Kong_Oscars_gate,_Bergen",
+      "sentence_id": 6,
+      "text": "Kong Oscars gate is approximately 0.8 km long .",
+      "score": 1.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 146,
+    "tokens_retained": 146,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>The Netherlands hosts the Oscars.</s></s>Prins Oscars Land is a land area constituting mainly Platenhalvøya , a peninsula between Rijpfjorden in the west and Duvefjorden with Fortherbyfjorden and Innvika on Nordaustlandet , Svalbard in Arctic Norway . Kong Oscars gate is a street in the city centre of Bergen , Norway . The westernmost part of Kong Oscars gate is among the oldest streets in Bergen . Norwegian national road is assigned to Kong Oscars gate between its southeastern end at Stadsporten and Nygaten , which it then follows . Kong Oscars gate is approximately 0.8 km long .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.1625666250000002
+}

@@ -1,0 +1,48 @@
+{
+  "params": {
+    "action": "wbgetentities",
+    "ids": "Q18238720",
+    "props": "claims|labels|aliases",
+    "languages": "en"
+  },
+  "response": {
+    "entities": {
+      "Q18238720": {
+        "type": "item",
+        "id": "Q18238720",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Grace Jones"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "063d0bad3759d2e038a7b4a7f9c9c71e9d774265",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 22808320,
+                    "id": "Q22808320"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q18238720$DEED53FE-84CE-43FD-989D-74FC8D56A07D",
+              "rank": "normal"
+            }
+          ]
+        }
+      }
+    },
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:29:01.450560+00:00"
+}

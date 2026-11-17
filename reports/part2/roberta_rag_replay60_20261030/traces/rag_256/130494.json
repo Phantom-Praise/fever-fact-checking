@@ -1,0 +1,493 @@
+{
+  "id": 130494,
+  "claim": "The Weeknd does not have a debut album.",
+  "condition": "rag_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.17126381397247314,
+    0.8281510472297668,
+    0.0005851187161169946
+  ],
+  "logits": [
+    0.9762151837348938,
+    2.5522055625915527,
+    -4.702930450439453
+  ],
+  "inference_seconds": 0.05609854100000078,
+  "evidence_text": "that did not chart or was not released in that territory. Studio albums | none Title Unknown | 2021 | artist, writer, producer | none | none by the Weeknd and two albums by Nav. Title | Album details | Peak chart positions US After Hours (Remixes) | Released: April 3, 2020 Label: XO, Republic Formats: LP, digital download, streaming | — The Weeknd discography The Weeknd at the 2023 Cannes Film Festival Studio albums | 6 EPs | 1 Mixtapes | 3 Soundtrack albums | 2 Live albums | 1 Compilation albums | 3 Remix albums | 1 Singles | 81 Promotional singles | 7 Promotional live albums | 1 On January 31, 2025, the Weeknd released his sixth studio album, Hurry Up Tomorrow. It was supported by three singles: \"Timeless\", \"São Paulo\", and \"Cry for Me\". The Weeknd has hinted that this may be his final album under the name, as he plans to \"kill\" the alter ego. Moving forward, he intends to continue his musical career—perhaps under his real name, Abel Tesfaye, or possibly still as the Weeknd. Now\", which debuted and peaked at number six on the Billboard Hot 100. Title | Album details | Peak chart positions US The Dawn FM Experience | Released: February 26, 2022 Label: XO, Republic Formats: digital download, streaming | — Headlining Title | Year | Peak chart positions | Certifications | Album CAN | AUS | UK | US \"Rolling Stone\" | 2011 | — | — | — | — | | Thursday \"The Birds, Pt. 1\" | — | — | — | — | \"Initiation\" | — | — | — | — | | Echoes of Silence \"One of Those Nights\" (Juicy J featuring the Weeknd) | 2013 | — | — | — | — | | Stay Trippy \"King of the Fall\" | 2014 | — | — | — | — | | Non-album promotional single \"Curve\" (Gucci Mane featuring the Weeknd) | 2017 | 40 | 93 | 78 | 67 | RIAA: Platinum | Mr. Davis \"Blinding Lights\" (Remix) (with Rosalía) | 2020 | — | — | — | — | | Non-album promotional single \"—\" denotes a recording that did not chart or was not released in that territory. The discography of Canadian singer and songwriter The Weeknd consists of six studio albums, two soundtrack album, one live album, three compilation albums (including two greatest hits albums), three mixtapes, one extended play, one remix album, 81 single releases (including 21 as a featured artist) and seven promotional singles (including two as a featured artist). Luminate data shows that over the course of his career, The Weeknd has generated a whopping 36.2 million album consumption units in the U.S. alone through August 21, 2025. According to the Recording Industry Association of America (RIAA), he has accumulated 132 million certified digital single units in the US, based on sales and on-demand streaming, as of December 2024. , making it Tesfaye's highest charting compilation album and the biggest first week debut for a greatest hits album since Fully Loaded: God's Country (2019). The Weeknd released three mixtapes in 2011: House of Balloons, Thursday and Echoes of Silence, the first of which was certified silver in the UK. He signed with Republic Records in 2012, and released Trilogy, a compilation album of the three mixtapes he had released the previous year plus three new bonus tracks. Trilogy peaked within the top five on albums charts and was certified multi-platinum in Canada and the US. The album spawned three singles, all of which were certified platinum or more in the US: \"Wicked Games\", \"Twenty Eight\", and \"The Zone\" (featuring Drake). His debut studio album, Kiss Land, reached number two on the albums charts of Canada and the US. In 2014, the Weeknd released a collaboration with Ariana Grande titled \"Love Me Harder\" and the single \"Earned It\", in which the latter was recorded for the Fifty Shades of Grey soundtrack, with both singles becoming top-ten entries on both the singles charts of Canada and List of singles as featured artist, with selected chart positions and certifications, showing year released and album name Title | Year | Peak chart positions | Certifications | Album CAN | AUS | BEL | DEN | NLD | NZ | UK | UK R&B | US | US R&B /HH \"Crew Love\" (Drake featuring the Weeknd) | 2012 | 80 | — | — | — | — | — | 37 | 7 | 80 | 9 | ARIA: Platinum BPI: Platinum RIAA: Platinum RMNZ: Gold | Take Care \"Remember You\" (Wiz Khalifa featuring The Weeknd) | — | — | — | — | — | — | — | 31 | 63 | 15 | RIAA: Platinum | O.N.I.F.C. \"Odd Look\" (Kavinsky featuring the Weeknd) | 2013 | — | — | 10 | — | — | — | — | — | — | — | | Odd Look EP tour was renamed as the After Hours til Dawn Tour, and would incorporate elements from his fourth and fifth studio albums.",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 1133,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 1119,
+    "evidence_tokens_retained": 242,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 33300560,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 31329803,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 33300560,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 33300560,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 31329803,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 33300560,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 33300560,
+        "tokens_total": 1,
+        "tokens_kept": 1,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 33300560,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 33300560,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 33300560,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 33300560,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 33300560,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 33300560,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 33300560,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 33300560,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 33300560,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 33300560,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 33300560,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 33300560,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 33300560,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 33300560,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 33300560,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 33300560,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 33300560,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 33300560,
+        "tokens_total": 15,
+        "tokens_kept": 2,
+        "visibility": "partial"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 33300560,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 33300560,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 33300560,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 31329803,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 33300560,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 33300560,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 33300560,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 33300560,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 33300560,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 33300560,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 33300560,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 33300560,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 33300560,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 33300560,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 33300560,
+        "tokens_total": 32,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 33300560,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 33300560,
+        "tokens_total": 72,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 33300560,
+        "tokens_total": 39,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 33300560,
+        "tokens_total": 40,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 31329803,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 33300560,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 33300560,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 33300560,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 33300560,
+        "tokens_total": 37,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 33300560,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 33300560,
+        "tokens_total": 58,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 33300560,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 33300560,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 33300560,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 33300560,
+        "tokens_total": 55,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 33300560,
+        "tokens_total": 51,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 33300560,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 31329803,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>The Weeknd does not have a debut album.</s></s>that did not chart or was not released in that territory. Studio albums | none Title Unknown | 2021 | artist, writer, producer | none | none by the Weeknd and two albums by Nav. Title | Album details | Peak chart positions US After Hours (Remixes) | Released: April 3, 2020 Label: XO, Republic Formats: LP, digital download, streaming | — The Weeknd discography The Weeknd at the 2023 Cannes Film Festival Studio albums | 6 EPs | 1 Mixtapes | 3 Soundtrack albums | 2 Live albums | 1 Compilation albums | 3 Remix albums | 1 Singles | 81 Promotional singles | 7 Promotional live albums | 1 On January 31, 2025, the Weeknd released his sixth studio album, Hurry Up Tomorrow. It was supported by three singles: \"Timeless\", \"São Paulo\", and \"Cry for Me\". The Weeknd has hinted that this may be his final album under the name, as he plans to \"kill\" the alter ego. Moving forward, he intends to continue his musical career—perhaps under his real name, Abel Tesfaye, or possibly still as the Weeknd. Now\",</s>"
+  }
+}

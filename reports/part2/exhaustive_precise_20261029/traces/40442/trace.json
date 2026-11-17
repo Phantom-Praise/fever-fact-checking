@@ -1,0 +1,33 @@
+{
+  "id": 40442,
+  "claim": "The House of the Spirits won awards.",
+  "status": "complete",
+  "model_label": "NOT ENOUGH INFO",
+  "derived_label": "NOT ENOUGH INFO",
+  "refined": false,
+  "original_trace_sha256": "debf8711778fb281c46edf38699f1527aa38f150bea9bdecba0505011f1d7e43",
+  "coverage": {
+    "total": 102,
+    "processed": 102
+  },
+  "cleanup": {
+    "temporary_files_deleted": true
+  },
+  "reused_original": true,
+  "parts": [
+    {
+      "part": "The House of the Spirits",
+      "verdict": "NOT ENOUGH INFO",
+      "evidence_ids": [],
+      "justification": "No information about the book's awards is provided."
+    },
+    {
+      "part": "won awards",
+      "verdict": "NOT ENOUGH INFO",
+      "evidence_ids": [],
+      "justification": "No information about the book's awards is provided."
+    }
+  ],
+  "consistent": true,
+  "wall_seconds": 0.002589292000010346
+}

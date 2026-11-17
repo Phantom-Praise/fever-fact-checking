@@ -1,0 +1,116 @@
+{
+  "id": 22168,
+  "claim": "Pamela Anderson was featured in Playboy magazine.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08447558299999969,
+      "symbolic": {
+        "claim": "Pamela Anderson was featured in Playboy magazine.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.1582999999149024e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Pamela_Anderson",
+          "sentence_id": 0,
+          "text": "Pamela Denise Anderson -LRB- born July 1 , 1967 -RRB- is a Canadian American actress and model known for her roles on the television series Home Improvement , Baywatch and V.I.P. .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Pamela_Anderson",
+          "sentence_id": 1,
+          "text": "She was Playmate of the Month for Playboy magazine in February 1990 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Pamela_Anderson",
+          "sentence_id": 6,
+          "text": "For a time , she was known as Pamela Anderson Lee -LRB- or Pamela Lee -RRB- after marrying Mötley Crüe drummer Tommy Lee .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Pamela_K._Anderson",
+          "sentence_id": 0,
+          "text": "Pamela K. Anderson was the Director General of the International Potato Center , or CIP -LRB- Centro Internacional de la Papa -RRB- 2004-2013 .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Pamela_Sue_Anderson",
+          "sentence_id": 0,
+          "text": "Pamela Sue Anderson -LRB- 1955 -- March 12 , 2017 -RRB- was an American philosopher who specialized in philosophy of religion , feminist philosophy and continental philosophy .",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.9872019290924072,
+        0.012692089192569256,
+        0.00010597939399303868
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05625645800000001,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.579133152961731,
+        0.05945795774459839,
+        0.36140888929367065
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07197487500000044,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Pamela_Anderson",
+          "sentence_id": 0,
+          "text": "Pamela Denise Anderson -LRB- born July 1 , 1967 -RRB- is a Canadian American actress and model known for her roles on the television series Home Improvement , Baywatch and V.I.P. .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Pamela_Anderson",
+          "sentence_id": 1,
+          "text": "She was Playmate of the Month for Playboy magazine in February 1990 .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Pamela_Anderson",
+          "sentence_id": 6,
+          "text": "For a time , she was known as Pamela Anderson Lee -LRB- or Pamela Lee -RRB- after marrying Mötley Crüe drummer Tommy Lee .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Pamela_K._Anderson",
+          "sentence_id": 0,
+          "text": "Pamela K. Anderson was the Director General of the International Potato Center , or CIP -LRB- Centro Internacional de la Papa -RRB- 2004-2013 .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Pamela_Sue_Anderson",
+          "sentence_id": 0,
+          "text": "Pamela Sue Anderson -LRB- 1955 -- March 12 , 2017 -RRB- was an American philosopher who specialized in philosophy of religion , feminist philosophy and continental philosophy .",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.9872019290924072,
+        0.012692089192569256,
+        0.00010597939399303868
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": 72400,
+  "claim": "Monica Seles won her last Grand Slam singles title while she was a citizen of Bolivia.",
+  "condition": "five_sentence_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.34738263487815857,
+    0.6522676944732666,
+    0.0003496366844046861
+  ],
+  "logits": [
+    1.6603835821151733,
+    2.2904117107391357,
+    -5.240903854370117
+  ],
+  "inference_seconds": 0.0563924999999994,
+  "evidence_text": "She won nine Grand Slam singles titles , eight of them while a citizen of Yugoslavia and the final as a citizen of the United States of America . She went on to win eight Grand Slam singles titles before her 20th birthday and was the year-end world no. 1 in 1991 and 1992 . However , on April 30 , 1993 , she was the victim of an on-court attack , when a man stabbed her in the back with a 9 in long knife ; Seles did not return to tennis for over two years . Though she enjoyed some success after rejoining the tour in 1995 , including a fourth Australian Open title in 1996 , she was unable to consistently reproduce her best form . She played her last professional match at the 2003 French Open , but did not officially retire until February 2008 .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 181,
+    "tokens_retained": 181,
+    "truncated": false,
+    "evidence_tokens_total": 158,
+    "evidence_tokens_retained": 158,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Monica_Seles",
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Monica_Seles",
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Monica_Seles",
+        "tokens_total": 46,
+        "tokens_kept": 46,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Monica_Seles",
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Monica_Seles",
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Monica Seles won her last Grand Slam singles title while she was a citizen of Bolivia.</s></s>She won nine Grand Slam singles titles , eight of them while a citizen of Yugoslavia and the final as a citizen of the United States of America . She went on to win eight Grand Slam singles titles before her 20th birthday and was the year-end world no. 1 in 1991 and 1992 . However , on April 30 , 1993 , she was the victim of an on-court attack , when a man stabbed her in the back with a 9 in long knife ; Seles did not return to tennis for over two years . Though she enjoyed some success after rejoining the tour in 1995 , including a fourth Australian Open title in 1996 , she was unable to consistently reproduce her best form . She played her last professional match at the 2003 French Open , but did not officially retire until February 2008 .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

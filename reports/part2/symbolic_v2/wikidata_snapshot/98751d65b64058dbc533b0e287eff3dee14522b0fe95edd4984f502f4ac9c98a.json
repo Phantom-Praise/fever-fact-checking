@@ -1,0 +1,48 @@
+{
+  "params": {
+    "action": "wbgetentities",
+    "ids": "Q2595562",
+    "props": "claims|labels|aliases",
+    "languages": "en"
+  },
+  "response": {
+    "entities": {
+      "Q2595562": {
+        "type": "item",
+        "id": "Q2595562",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Wyatt Earp"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "5963e3cad5eee4ae1cffbefbac15327800b9a7e6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 7725634,
+                    "id": "Q7725634"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q2595562$E6380164-DBF5-49E4-B156-3306F7ACC1CD",
+              "rank": "normal"
+            }
+          ]
+        }
+      }
+    },
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:30:09.120052+00:00"
+}

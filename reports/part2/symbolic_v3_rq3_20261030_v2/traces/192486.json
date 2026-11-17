@@ -1,0 +1,116 @@
+{
+  "id": 192486,
+  "claim": "Francois de Belleforest translated the works of Achilles Tatius and he was French.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.2989460829999997,
+      "symbolic": {
+        "claim": "Francois de Belleforest translated the works of Achilles Tatius and he was French.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3791999999845928e-05
+      },
+      "evidence": [
+        {
+          "page_id": "François_de_Belleforest",
+          "sentence_id": 9,
+          "text": "Belleforest wrote on cosmography , morals , literature and history , and he translated the works of Matteo Bandello , Boccaccio , Antonio de Guevara , Lodovico Guicciardini , Polydore Vergil , Saint Cyprian , Sebastian Münster , Achilles Tatius , Cicero and Demosthenes into French .",
+          "score": 8.1
+        },
+        {
+          "page_id": "François_de_Belleforest",
+          "sentence_id": 0,
+          "text": "François de Belleforest -LRB- 1530 -- 1 January 1583 -RRB- was a prolific French author , poet and translator of the Renaissance .",
+          "score": 3.1
+        },
+        {
+          "page_id": "François_de_Belleforest",
+          "sentence_id": 10,
+          "text": "He is also the author of the first French pastoral novel , La Pyrénée -LRB- or La Pastorale amoureuse -RRB- -LRB- 1571 -RRB- modeled on the Diana of Jorge de Montemayor .",
+          "score": 3.1
+        },
+        {
+          "page_id": "François_de_Belleforest",
+          "sentence_id": 4,
+          "text": "He spent some time in the court of Marguerite of Navarre , traveled to Toulouse and Bordeaux -LRB- where he met George Buchanan -RRB- , and then to Paris where he came into contact with members of the young literary generation , including Pierre de Ronsard , Jean Antoine de Baïf , Jean Dorat , Remy Belleau , Antoine Du Verdier and Odet de Turnèbe .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Achilles",
+          "sentence_id": 5,
+          "text": "Although the death of Achilles is not presented in the Iliad , other sources concur that he was killed near the end of the Trojan War by Paris , who shot him in the heel with an arrow .",
+          "score": 2.025
+        }
+      ],
+      "probabilities": [
+        0.9851897358894348,
+        0.014737221412360668,
+        7.308444037334993e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.13232991599999977,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "François_de_Belleforest",
+          "sentence_id": 9,
+          "text": "Belleforest wrote on cosmography , morals , literature and history , and he translated the works of Matteo Bandello , Boccaccio , Antonio de Guevara , Lodovico Guicciardini , Polydore Vergil , Saint Cyprian , Sebastian Münster , Achilles Tatius , Cicero and Demosthenes into French .",
+          "score": 8.1
+        },
+        {
+          "page_id": "François_de_Belleforest",
+          "sentence_id": 0,
+          "text": "François de Belleforest -LRB- 1530 -- 1 January 1583 -RRB- was a prolific French author , poet and translator of the Renaissance .",
+          "score": 3.1
+        },
+        {
+          "page_id": "François_de_Belleforest",
+          "sentence_id": 10,
+          "text": "He is also the author of the first French pastoral novel , La Pyrénée -LRB- or La Pastorale amoureuse -RRB- -LRB- 1571 -RRB- modeled on the Diana of Jorge de Montemayor .",
+          "score": 3.1
+        },
+        {
+          "page_id": "François_de_Belleforest",
+          "sentence_id": 4,
+          "text": "He spent some time in the court of Marguerite of Navarre , traveled to Toulouse and Bordeaux -LRB- where he met George Buchanan -RRB- , and then to Paris where he came into contact with members of the young literary generation , including Pierre de Ronsard , Jean Antoine de Baïf , Jean Dorat , Remy Belleau , Antoine Du Verdier and Odet de Turnèbe .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Achilles",
+          "sentence_id": 5,
+          "text": "Although the death of Achilles is not presented in the Iliad , other sources concur that he was killed near the end of the Trojan War by Paris , who shot him in the heel with an arrow .",
+          "score": 2.025
+        }
+      ],
+      "probabilities": [
+        0.9851897358894348,
+        0.014737221412360668,
+        7.308444037334993e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05699020800000021,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.6666786670684814,
+        0.021092751994729042,
+        0.3122286796569824
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

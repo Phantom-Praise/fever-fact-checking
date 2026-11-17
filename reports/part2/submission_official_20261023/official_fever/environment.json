@@ -1,0 +1,18 @@
+{
+  "python": "3.9.18 (main, Mar 30 2026, 07:13:21) \n[Clang 17.0.0 (clang-1700.3.19.1)]",
+  "platform": "macOS-26.0.1-arm64-arm-64bit",
+  "torch": "2.8.0",
+  "transformers": "4.57.6",
+  "numpy": "2.0.2",
+  "sklearn": "1.6.1",
+  "six": "1.17.0",
+  "sqlite": "3.51.0",
+  "mps_available": true,
+  "wiki_db": {
+    "path": "data/processed/wiki_fts.db",
+    "size": 11903868928,
+    "mtime_ns": 1792674496346371586,
+    "full_database_sha256_recorded": false
+  },
+  "note": "Software snapshot during inference. Database corpus evidence-availability audit is saved separately; file metadata is not a cryptographic corpus digest."
+}

@@ -1,0 +1,116 @@
+{
+  "id": 183517,
+  "claim": "Conan the Barbarian was Arnold Schwarzenegger's breakthrough film as an actor.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.13274475000000052,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Conan_the_Barbarian_-LRB-disambiguation-RRB-",
+          "sentence_id": 11,
+          "text": "Conan the Barbarian -LRB- 1982 film -RRB- , a film starring Arnold Schwarzenegger",
+          "score": 5.011111111111111
+        },
+        {
+          "page_id": "Arnold_Schwarzenegger",
+          "sentence_id": 9,
+          "text": "His breakthrough film was the sword-and-sorcery epic Conan the Barbarian in 1982 , a box office hit that resulted in a sequel .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Conan_the_Barbarian_-LRB-1982_film-RRB-",
+          "sentence_id": 2,
+          "text": "The film stars Arnold Schwarzenegger and James Earl Jones , and tells the story of a young barbarian -LRB- Schwarzenegger -RRB- who seeks vengeance for the death of his parents at the hands of Thulsa Doom -LRB- Jones -RRB- , the leader of a snake cult .",
+          "score": 4.025
+        },
+        {
+          "page_id": "Conan_the_Barbarian_-LRB-2011_film-RRB-",
+          "sentence_id": 1,
+          "text": "The film is a new interpretation of the Conan mythology , and is not related to the films featuring Arnold Schwarzenegger .",
+          "score": 4.02
+        },
+        {
+          "page_id": "Arnold_Schwarzenegger",
+          "sentence_id": 0,
+          "text": "Arnold Alois Schwarzenegger -LRB- -LSB- ˈʃwɔːrtsənˌɛɡər -RSB- -LSB- ˈaɐ̯nɔlt ˈalɔʏs ˈʃvaɐ̯tsn̩ˌɛɡɐ -RSB- ; born July 30 , 1947 -RRB- is an Austrian-American actor , producer , businessman , investor , author , philanthropist , activist , politician and former professional bodybuilder .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.9682517647743225,
+        0.03165324777364731,
+        9.498491272097453e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.12793399999999977,
+      "symbolic": {
+        "claim": "Conan the Barbarian was Arnold Schwarzenegger's breakthrough film as an actor.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.6167000000066878e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Conan_the_Barbarian_-LRB-disambiguation-RRB-",
+          "sentence_id": 11,
+          "text": "Conan the Barbarian -LRB- 1982 film -RRB- , a film starring Arnold Schwarzenegger",
+          "score": 5.011111111111111
+        },
+        {
+          "page_id": "Arnold_Schwarzenegger",
+          "sentence_id": 9,
+          "text": "His breakthrough film was the sword-and-sorcery epic Conan the Barbarian in 1982 , a box office hit that resulted in a sequel .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Conan_the_Barbarian_-LRB-1982_film-RRB-",
+          "sentence_id": 2,
+          "text": "The film stars Arnold Schwarzenegger and James Earl Jones , and tells the story of a young barbarian -LRB- Schwarzenegger -RRB- who seeks vengeance for the death of his parents at the hands of Thulsa Doom -LRB- Jones -RRB- , the leader of a snake cult .",
+          "score": 4.025
+        },
+        {
+          "page_id": "Conan_the_Barbarian_-LRB-2011_film-RRB-",
+          "sentence_id": 1,
+          "text": "The film is a new interpretation of the Conan mythology , and is not related to the films featuring Arnold Schwarzenegger .",
+          "score": 4.02
+        },
+        {
+          "page_id": "Arnold_Schwarzenegger",
+          "sentence_id": 0,
+          "text": "Arnold Alois Schwarzenegger -LRB- -LSB- ˈʃwɔːrtsənˌɛɡər -RSB- -LSB- ˈaɐ̯nɔlt ˈalɔʏs ˈʃvaɐ̯tsn̩ˌɛɡɐ -RSB- ; born July 30 , 1947 -RRB- is an Austrian-American actor , producer , businessman , investor , author , philanthropist , activist , politician and former professional bodybuilder .",
+          "score": 3.1
+        }
+      ],
+      "probabilities": [
+        0.9682517647743225,
+        0.03165324777364731,
+        9.498491272097453e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0568075419999996,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.48900675773620605,
+        0.35557907819747925,
+        0.15541408956050873
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

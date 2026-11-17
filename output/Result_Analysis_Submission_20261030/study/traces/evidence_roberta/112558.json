@@ -1,0 +1,62 @@
+{
+  "id": 112558,
+  "claim": "The Martian is based on Andy Weir's novel written in 1988.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.12366724759340286,
+    0.8762151002883911,
+    0.00011766869283746928
+  ],
+  "logits": [
+    1.1846072673797607,
+    3.1426243782043457,
+    -5.77286958694458
+  ],
+  "evidence": [
+    {
+      "page_id": "The_Martian_-LRB-Weir_novel-RRB-",
+      "sentence_id": 0,
+      "text": "The Martian is a 2011 science fiction novel written by Andy Weir .",
+      "score": 5.05
+    },
+    {
+      "page_id": "Andy_Weir",
+      "sentence_id": 0,
+      "text": "Andrew Taylor Weir -LRB- born June 16 , 1972 -RRB- , commonly known by his pen name , Andy Weir , is an American novelist whose debut novel , The Martian , was later adapted into a film of the same name directed by Ridley Scott in 2015 .",
+      "score": 4.1
+    },
+    {
+      "page_id": "The_Martian_-LRB-Weir_novel-RRB-",
+      "sentence_id": 1,
+      "text": "It was his debut novel under his own name.Weir wrote a novel before this called Theft of Pride under the pen-name `` Jack Sharp '' which was released on the web for free .",
+      "score": 2.05
+    },
+    {
+      "page_id": "Andy_Weir_-LRB-footballer-RRB-",
+      "sentence_id": 0,
+      "text": "Andrew `` Andy '' Alan Weir -LRB- born 15 November 1937 -RRB- was a Scottish footballer , who played for Motherwell and the Scotland national team .",
+      "score": 2.033333333333333
+    },
+    {
+      "page_id": "Written_in_Blood_-LRB-novel-RRB-",
+      "sentence_id": 0,
+      "text": "Written in Blood is a crime novel by English author Caroline Graham , the fourth book in her popular Chief Inspector Barnaby series , which has been adapted into the equally successful ITV drama Midsomer Murders .",
+      "score": 2.0142857142857142
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 199,
+    "tokens_retained": 199,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>The Martian is based on Andy Weir's novel written in 1988.</s></s>The Martian is a 2011 science fiction novel written by Andy Weir . Andrew Taylor Weir -LRB- born June 16 , 1972 -RRB- , commonly known by his pen name , Andy Weir , is an American novelist whose debut novel , The Martian , was later adapted into a film of the same name directed by Ridley Scott in 2015 . It was his debut novel under his own name.Weir wrote a novel before this called Theft of Pride under the pen-name `` Jack Sharp '' which was released on the web for free . Andrew `` Andy '' Alan Weir -LRB- born 15 November 1937 -RRB- was a Scottish footballer , who played for Motherwell and the Scotland national team . Written in Blood is a crime novel by English author Caroline Graham , the fourth book in her popular Chief Inspector Barnaby series , which has been adapted into the equally successful ITV drama Midsomer Murders .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.09758500000000048
+}

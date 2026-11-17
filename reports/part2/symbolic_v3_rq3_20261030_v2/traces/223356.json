@@ -1,0 +1,116 @@
+{
+  "id": 223356,
+  "claim": "Tim Allen did not appear on Last Man Standing.",
+  "conditions": {
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05580904199999992,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.02647566981613636,
+        0.9613850116729736,
+        0.012139318510890007
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08861204099999753,
+      "symbolic": {
+        "claim": "Tim Allen did not appear on Last Man Standing.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.4583000002232893e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Tim_Allen",
+          "sentence_id": 4,
+          "text": "From 2011 to 2017 , he starred as Mike Baxter in the TV series Last Man Standing .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Last_Man_Standing",
+          "sentence_id": 0,
+          "text": "Last Man Standing may refer to :",
+          "score": 3.011111111111111
+        },
+        {
+          "page_id": "Tim_Allen",
+          "sentence_id": 0,
+          "text": "Timothy Allen Dick -LRB- born June 13 , 1953 -RRB- , known professionally as Tim Allen , is an American actor , comedian and author .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Last_man",
+          "sentence_id": 0,
+          "text": "The Last man ; or the Last race -LRB- German : der letzte Mensch -RRB- is a term used by the philosopher Friedrich Nietzsche in Thus Spoke Zarathustra to describe the antithesis of the imagined superior being , the Übermensch , whose imminent appearance is heralded by Zarathustra .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Last_man",
+          "sentence_id": 4,
+          "text": "The last man 's primary appearance is in `` Zarathustra 's Prologue . ''",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.033172253519296646,
+        0.9667311906814575,
+        9.662278171163052e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.08009291700000176,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Tim_Allen",
+          "sentence_id": 4,
+          "text": "From 2011 to 2017 , he starred as Mike Baxter in the TV series Last Man Standing .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Last_Man_Standing",
+          "sentence_id": 0,
+          "text": "Last Man Standing may refer to :",
+          "score": 3.011111111111111
+        },
+        {
+          "page_id": "Tim_Allen",
+          "sentence_id": 0,
+          "text": "Timothy Allen Dick -LRB- born June 13 , 1953 -RRB- , known professionally as Tim Allen , is an American actor , comedian and author .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Last_man",
+          "sentence_id": 0,
+          "text": "The Last man ; or the Last race -LRB- German : der letzte Mensch -RRB- is a term used by the philosopher Friedrich Nietzsche in Thus Spoke Zarathustra to describe the antithesis of the imagined superior being , the Übermensch , whose imminent appearance is heralded by Zarathustra .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Last_man",
+          "sentence_id": 4,
+          "text": "The last man 's primary appearance is in `` Zarathustra 's Prologue . ''",
+          "score": 2.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.033172253519296646,
+        0.9667311906814575,
+        9.662278171163052e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

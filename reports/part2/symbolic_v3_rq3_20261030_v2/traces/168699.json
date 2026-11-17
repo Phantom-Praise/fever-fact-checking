@@ -1,0 +1,116 @@
+{
+  "id": 168699,
+  "claim": "Jane Lynch was denied American citizenship.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.09628904200000044,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Jane_Lynch",
+          "sentence_id": 0,
+          "text": "Jane Marie Lynch -LRB- born July 14 , 1960 -RRB- is an American actress , singer , and comedian .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Refuge_Denied",
+          "sentence_id": 0,
+          "text": "Refuge Denied is the debut album by American Heavy metal band Sanctuary , released in 1988 .",
+          "score": 2.0166666666666666
+        },
+        {
+          "page_id": "Lesbian_Request_Denied",
+          "sentence_id": 0,
+          "text": "`` Lesbian Request Denied '' is the third episode of the first season of American comedy-drama series Orange Is the New Black -LRB- OITNB -RRB- , based on Piper Kerman 's memoir , Orange Is the New Black : My Year in a Women 's Prison -LRB- 2010 -RRB- , regarding her time at FCI Danbury , a minimum-security federal prison .",
+          "score": 2.011111111111111
+        },
+        {
+          "page_id": "Jane_Lynch",
+          "sentence_id": 5,
+          "text": "Lynch 's television cameos include an appearance in the Nickelodeon situation comedy iCarly and the Showtime dark comedy series Weeds .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Jane_Lynch",
+          "sentence_id": 6,
+          "text": "Lynch had a recurring role in the Warner Bros. situation comedy Two and a Half Men from 2004 to 2014 and was nominated for a Primetime Emmy Award for her performance in 2010 .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.17856301367282867,
+        0.8212867379188538,
+        0.0001502584491390735
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.056096916999999635,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.13185372948646545,
+        0.5277286767959595,
+        0.3404175937175751
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.0894892089999999,
+      "symbolic": {
+        "claim": "Jane Lynch was denied American citizenship.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2834000001404888e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Jane_Lynch",
+          "sentence_id": 0,
+          "text": "Jane Marie Lynch -LRB- born July 14 , 1960 -RRB- is an American actress , singer , and comedian .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Refuge_Denied",
+          "sentence_id": 0,
+          "text": "Refuge Denied is the debut album by American Heavy metal band Sanctuary , released in 1988 .",
+          "score": 2.0166666666666666
+        },
+        {
+          "page_id": "Lesbian_Request_Denied",
+          "sentence_id": 0,
+          "text": "`` Lesbian Request Denied '' is the third episode of the first season of American comedy-drama series Orange Is the New Black -LRB- OITNB -RRB- , based on Piper Kerman 's memoir , Orange Is the New Black : My Year in a Women 's Prison -LRB- 2010 -RRB- , regarding her time at FCI Danbury , a minimum-security federal prison .",
+          "score": 2.011111111111111
+        },
+        {
+          "page_id": "Jane_Lynch",
+          "sentence_id": 5,
+          "text": "Lynch 's television cameos include an appearance in the Nickelodeon situation comedy iCarly and the Showtime dark comedy series Weeds .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Jane_Lynch",
+          "sentence_id": 6,
+          "text": "Lynch had a recurring role in the Warner Bros. situation comedy Two and a Half Men from 2004 to 2014 and was nominated for a Primetime Emmy Award for her performance in 2010 .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.17856301367282867,
+        0.8212867379188538,
+        0.0001502584491390735
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": 184349,
+  "claim": "Cowboy was only performed in 2001.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.035007279366254807,
+    0.9648963212966919,
+    9.642256191000342e-05
+  ],
+  "logits": [
+    0.35645556449890137,
+    3.6729202270507812,
+    -5.538115501403809
+  ],
+  "evidence": [
+    {
+      "page_id": "Cowboy_Bebop",
+      "sentence_id": 14,
+      "text": "In 2001 , Cowboy Bebop became the first anime title to be broadcast on Adult Swim in the United States .",
+      "score": 2.0142857142857142
+    },
+    {
+      "page_id": "Cowboy",
+      "sentence_id": 0,
+      "text": "A cowboy is an animal herder who tends cattle on ranches in North America , traditionally on horseback , and often performs a multitude of other ranch-related tasks .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Cowboy",
+      "sentence_id": 1,
+      "text": "The historic American cowboy of the late 19th century arose from the vaquero traditions of northern Mexico and became a figure of special significance and legend .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Cowboy",
+      "sentence_id": 5,
+      "text": "There are also cattle handlers in many other parts of the world , particularly South America and Australia , who perform work similar to the cowboy in their respective nations .",
+      "score": 1.1
+    },
+    {
+      "page_id": "Cowboy",
+      "sentence_id": 8,
+      "text": "The cowboy has deep historic roots tracing back to Spain and the earliest European settlers of the Americas .",
+      "score": 1.1
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 149,
+    "tokens_retained": 149,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Cowboy was only performed in 2001.</s></s>In 2001 , Cowboy Bebop became the first anime title to be broadcast on Adult Swim in the United States . A cowboy is an animal herder who tends cattle on ranches in North America , traditionally on horseback , and often performs a multitude of other ranch-related tasks . The historic American cowboy of the late 19th century arose from the vaquero traditions of northern Mexico and became a figure of special significance and legend . There are also cattle handlers in many other parts of the world , particularly South America and Australia , who perform work similar to the cowboy in their respective nations . The cowboy has deep historic roots tracing back to Spain and the earliest European settlers of the Americas .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.08045200000000108
+}

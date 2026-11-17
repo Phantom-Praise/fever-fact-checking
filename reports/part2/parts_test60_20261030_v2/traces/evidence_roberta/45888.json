@@ -1,0 +1,62 @@
+{
+  "id": 45888,
+  "claim": "Lil Wayne's sixth album came out in 2008.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9835076332092285,
+    0.016407940536737442,
+    8.445632556686178e-05
+  ],
+  "logits": [
+    4.094501495361328,
+    0.0011417418718338013,
+    -5.268144607543945
+  ],
+  "evidence": [
+    {
+      "page_id": "Lil_Wayne",
+      "sentence_id": 13,
+      "text": "Wayne gained more prominence with his sixth album Tha Carter III -LRB- 2008 -RRB- , which became his most successful album to date , with first-week sales of over one million copies in the United States .",
+      "score": 4.1
+    },
+    {
+      "page_id": "Lights_Out_-LRB-Lil_Wayne_album-RRB-",
+      "sentence_id": 0,
+      "text": "Lights Out is the second studio album by American rapper Lil Wayne .",
+      "score": 4.05
+    },
+    {
+      "page_id": "Lil_Wayne",
+      "sentence_id": 9,
+      "text": "Lil Wayne 's solo debut album Tha Block Is Hot -LRB- 1999 -RRB- , was certified platinum by the Recording Industry Association of America -LRB- RIAA -RRB- .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Lil_Wayne",
+      "sentence_id": 25,
+      "text": "Lil Wayne 's thirteenth studio album , Tha Carter V , has been delayed multiple times and has no scheduled release date .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Rebirth_-LRB-Lil_Wayne_album-RRB-",
+      "sentence_id": 0,
+      "text": "Rebirth is the seventh studio album by American rapper Lil Wayne , released February 2 , 2010 , on Cash Money Records , Young Money Entertainment and Universal Motown .",
+      "score": 3.025
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 177,
+    "tokens_retained": 177,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Lil Wayne's sixth album came out in 2008.</s></s>Wayne gained more prominence with his sixth album Tha Carter III -LRB- 2008 -RRB- , which became his most successful album to date , with first-week sales of over one million copies in the United States . Lights Out is the second studio album by American rapper Lil Wayne . Lil Wayne 's solo debut album Tha Block Is Hot -LRB- 1999 -RRB- , was certified platinum by the Recording Industry Association of America -LRB- RIAA -RRB- . Lil Wayne 's thirteenth studio album , Tha Carter V , has been delayed multiple times and has no scheduled release date . Rebirth is the seventh studio album by American rapper Lil Wayne , released February 2 , 2010 , on Cash Money Records , Young Money Entertainment and Universal Motown .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.3425159999999998
+}

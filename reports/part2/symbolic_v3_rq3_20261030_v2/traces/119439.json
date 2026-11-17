@@ -1,0 +1,116 @@
+{
+  "id": 119439,
+  "claim": "Anne Bancroft won two Golden Globes in 2005.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05623212500000019,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.44233438372612,
+        0.2108183205127716,
+        0.3468473255634308
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.12846058399999993,
+      "symbolic": {
+        "claim": "Anne Bancroft won two Golden Globes in 2005.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.229200000008035e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Anne_Bancroft",
+          "sentence_id": 2,
+          "text": "She won one Academy Award , three BAFTA Awards , two Golden Globes , two Tony Awards and two Emmy Awards , and several other awards and nominations .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Anne_Bancroft",
+          "sentence_id": 0,
+          "text": "Anna Maria Louisa Italiano -LRB- September 17 , 1931 -- June 6 , 2005 -RRB- , known professionally as Anne Bancroft , was an American actress associated with the method acting school , having studied under Lee Strasberg .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Anne_Golden",
+          "sentence_id": 0,
+          "text": "Anne Golden , -LRB- born 1941 -RRB- is a Canadian administrator .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Anne_Golden",
+          "sentence_id": 22,
+          "text": "The Conference Board named Anne Golden its 2012 Honorary Associate .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Golden_Globes_-LRB-Portugal-RRB-",
+          "sentence_id": 0,
+          "text": "The Golden Globes -LRB- Globos de Ouro -RRB- are awards given each year in Portugal since 1996 by SIC TV and Caras magazine which award several areas of art and entertainment in the country , with theatre , sports , cinema , fashion and music .",
+          "score": 2.025
+        }
+      ],
+      "probabilities": [
+        0.9586824774742126,
+        0.04119626060128212,
+        0.00012122983753215522
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07023637500000035,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Anne_Bancroft",
+          "sentence_id": 2,
+          "text": "She won one Academy Award , three BAFTA Awards , two Golden Globes , two Tony Awards and two Emmy Awards , and several other awards and nominations .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Anne_Bancroft",
+          "sentence_id": 0,
+          "text": "Anna Maria Louisa Italiano -LRB- September 17 , 1931 -- June 6 , 2005 -RRB- , known professionally as Anne Bancroft , was an American actress associated with the method acting school , having studied under Lee Strasberg .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Anne_Golden",
+          "sentence_id": 0,
+          "text": "Anne Golden , -LRB- born 1941 -RRB- is a Canadian administrator .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Anne_Golden",
+          "sentence_id": 22,
+          "text": "The Conference Board named Anne Golden its 2012 Honorary Associate .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Golden_Globes_-LRB-Portugal-RRB-",
+          "sentence_id": 0,
+          "text": "The Golden Globes -LRB- Globos de Ouro -RRB- are awards given each year in Portugal since 1996 by SIC TV and Caras magazine which award several areas of art and entertainment in the country , with theatre , sports , cinema , fashion and music .",
+          "score": 2.025
+        }
+      ],
+      "probabilities": [
+        0.9586824774742126,
+        0.04119626060128212,
+        0.00012122983753215522
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

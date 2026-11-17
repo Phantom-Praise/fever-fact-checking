@@ -1,0 +1,116 @@
+{
+  "id": 79399,
+  "claim": "Chokher Bali is a Tamil film.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05862520899999879,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.6481930017471313,
+        0.22543980181217194,
+        0.12636715173721313
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.13178766599999925,
+      "symbolic": {
+        "claim": "Chokher Bali is a Tamil film.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.4750000000063324e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Chokher_Bali",
+          "sentence_id": 5,
+          "text": "Chokher Bali -LRB- film -RRB- a 2003 film adaptation of the novel directed by Rituparno Ghosh",
+          "score": 3.1
+        },
+        {
+          "page_id": "Chokher_Bali_-LRB-film-RRB-",
+          "sentence_id": 0,
+          "text": "Chokher Bali -LRB- চোখের বালি literally translated to `` sand in the eye '' , figuratively to `` constant irritant '' -RRB- is a Bengali drama film based on the novel Chokher Bali by Rabindranath Tagore .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Chokher_Bali_-LRB-film-RRB-",
+          "sentence_id": 10,
+          "text": "Chokher Bali won the National Film Award for Best Feature Film in Bengali and was nominated for the Golden Leopard -LRB- Best Film -RRB- award at the Locarno International Film Festival in 2003 .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Chokher_Bali",
+          "sentence_id": 0,
+          "text": "Chokher Bali may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "Chokher_Bali",
+          "sentence_id": 3,
+          "text": "Chokher Bali , a Bengali novel by Rabindranath Tagore",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.08358155936002731,
+        0.9163190722465515,
+        9.945192141458392e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.12655766600000007,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Chokher_Bali",
+          "sentence_id": 5,
+          "text": "Chokher Bali -LRB- film -RRB- a 2003 film adaptation of the novel directed by Rituparno Ghosh",
+          "score": 3.1
+        },
+        {
+          "page_id": "Chokher_Bali_-LRB-film-RRB-",
+          "sentence_id": 0,
+          "text": "Chokher Bali -LRB- চোখের বালি literally translated to `` sand in the eye '' , figuratively to `` constant irritant '' -RRB- is a Bengali drama film based on the novel Chokher Bali by Rabindranath Tagore .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Chokher_Bali_-LRB-film-RRB-",
+          "sentence_id": 10,
+          "text": "Chokher Bali won the National Film Award for Best Feature Film in Bengali and was nominated for the Golden Leopard -LRB- Best Film -RRB- award at the Locarno International Film Festival in 2003 .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Chokher_Bali",
+          "sentence_id": 0,
+          "text": "Chokher Bali may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "Chokher_Bali",
+          "sentence_id": 3,
+          "text": "Chokher Bali , a Bengali novel by Rabindranath Tagore",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.08358155936002731,
+        0.9163190722465515,
+        9.945192141458392e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

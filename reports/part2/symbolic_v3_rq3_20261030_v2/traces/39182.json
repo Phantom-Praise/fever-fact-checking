@@ -1,0 +1,116 @@
+{
+  "id": 39182,
+  "claim": "The fictional lives of surgical interns, residents, and attending physicians are focused on in Grey's Anatomy.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0566131669999983,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.7325943112373352,
+        0.02913684956729412,
+        0.23826879262924194
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0697609159999999,
+      "symbolic": {
+        "claim": "The fictional lives of surgical interns, residents, and attending physicians are focused on in Grey's Anatomy.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.8041999997109315e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Attending_physician",
+          "sentence_id": 4,
+          "text": "Attending physicians have final responsibility , legally and otherwise , for patient care , even when many of the minute-to-minute decisions are being made by house officers -LRB- residents -RRB- , medical students , or mid-level practitioners -LRB- i.e. physician assistants and nurse practitioners -RRB- .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Attending_physician",
+          "sentence_id": 1,
+          "text": "An attending physician typically supervises fellows , residents , medical students , and other practitioners .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Attending_physician",
+          "sentence_id": 2,
+          "text": "Attending physicians may also maintain professorships at an affiliated medical school .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Attending_physician",
+          "sentence_id": 5,
+          "text": "Attending physicians are sometimes the ` rendering physician ' listed on the patient 's official medical record , but if they are overseeing a resident or another staff member , they are ` supervising . '",
+          "score": 2.1
+        },
+        {
+          "page_id": "Attending_physician",
+          "sentence_id": 8,
+          "text": "Attending physicians may also still be in training , such as a fellow in a subspecialty .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.8511634469032288,
+        0.14860205352306366,
+        0.00023452787718269974
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.059034332999999606,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Attending_physician",
+          "sentence_id": 4,
+          "text": "Attending physicians have final responsibility , legally and otherwise , for patient care , even when many of the minute-to-minute decisions are being made by house officers -LRB- residents -RRB- , medical students , or mid-level practitioners -LRB- i.e. physician assistants and nurse practitioners -RRB- .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Attending_physician",
+          "sentence_id": 1,
+          "text": "An attending physician typically supervises fellows , residents , medical students , and other practitioners .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Attending_physician",
+          "sentence_id": 2,
+          "text": "Attending physicians may also maintain professorships at an affiliated medical school .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Attending_physician",
+          "sentence_id": 5,
+          "text": "Attending physicians are sometimes the ` rendering physician ' listed on the patient 's official medical record , but if they are overseeing a resident or another staff member , they are ` supervising . '",
+          "score": 2.1
+        },
+        {
+          "page_id": "Attending_physician",
+          "sentence_id": 8,
+          "text": "Attending physicians may also still be in training , such as a fellow in a subspecialty .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.8511634469032288,
+        0.14860205352306366,
+        0.00023452787718269974
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

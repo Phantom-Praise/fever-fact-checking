@@ -1,0 +1,116 @@
+{
+  "id": 202553,
+  "claim": "Little Boy was dropped by a plane piloted by a commander of the United Arab Army Air Forces.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.12346654200000273,
+      "symbolic": {
+        "claim": "Little Boy was dropped by a plane piloted by a commander of the United Arab Army Air Forces.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.579099999560185e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Little_Boy",
+          "sentence_id": 0,
+          "text": "`` Little Boy '' was the codename for the atomic bomb dropped on the Japanese city of Hiroshima on 6 August 1945 during World War II by the Boeing B-29 Superfortress Enola Gay , piloted by Colonel Paul W. Tibbets , Jr. , commander of the 509th Composite Group of the United States Army Air Forces .",
+          "score": 9.05
+        },
+        {
+          "page_id": "Little_Boy",
+          "sentence_id": 7,
+          "text": "Little Boy was developed by Lieutenant Commander Francis Birch 's group of Captain William S. Parsons 's Ordnance -LRB- O -RRB- Division at the Manhattan Project 's Los Alamos Laboratory during World War II .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Little_Boy",
+          "sentence_id": 9,
+          "text": "The Little Boy was a development of the unsuccessful Thin Man nuclear bomb .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Little_Boy",
+          "sentence_id": 16,
+          "text": "After the war ended , it was not expected that the inefficient Little Boy design would ever again be required , and many plans and diagrams were destroyed , but by mid-1946 the Hanford Site reactors were suffering badly from the Wigner effect , so six Little Boy assemblies were produced at Sandia Base .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Little_Boy",
+          "sentence_id": 17,
+          "text": "The Navy Bureau of Ordnance built another 25 Little Boy assemblies in 1947 for use by the Lockheed P2V Neptune nuclear strike aircraft -LRB- which could be launched from but not land on the Midway-class aircraft carriers -RRB- .",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.4627610146999359,
+        0.5366184115409851,
+        0.0006206473335623741
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07336425000000446,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Little_Boy",
+          "sentence_id": 0,
+          "text": "`` Little Boy '' was the codename for the atomic bomb dropped on the Japanese city of Hiroshima on 6 August 1945 during World War II by the Boeing B-29 Superfortress Enola Gay , piloted by Colonel Paul W. Tibbets , Jr. , commander of the 509th Composite Group of the United States Army Air Forces .",
+          "score": 9.05
+        },
+        {
+          "page_id": "Little_Boy",
+          "sentence_id": 7,
+          "text": "Little Boy was developed by Lieutenant Commander Francis Birch 's group of Captain William S. Parsons 's Ordnance -LRB- O -RRB- Division at the Manhattan Project 's Los Alamos Laboratory during World War II .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Little_Boy",
+          "sentence_id": 9,
+          "text": "The Little Boy was a development of the unsuccessful Thin Man nuclear bomb .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Little_Boy",
+          "sentence_id": 16,
+          "text": "After the war ended , it was not expected that the inefficient Little Boy design would ever again be required , and many plans and diagrams were destroyed , but by mid-1946 the Hanford Site reactors were suffering badly from the Wigner effect , so six Little Boy assemblies were produced at Sandia Base .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Little_Boy",
+          "sentence_id": 17,
+          "text": "The Navy Bureau of Ordnance built another 25 Little Boy assemblies in 1947 for use by the Lockheed P2V Neptune nuclear strike aircraft -LRB- which could be launched from but not land on the Midway-class aircraft carriers -RRB- .",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.4627610146999359,
+        0.5366184115409851,
+        0.0006206473335623741
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05612012499999963,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5296252369880676,
+        0.06484145671129227,
+        0.4055333435535431
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

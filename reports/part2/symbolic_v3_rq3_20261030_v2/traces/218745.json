@@ -1,0 +1,178 @@
+{
+  "id": 218745,
+  "claim": "Oh Yeon-seo was born in 1987.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08554395800000059,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Oh_Yeon-seo",
+          "sentence_id": 0,
+          "text": "Oh Yeon-seo -LRB- born Oh Haet-nim , on June 22 , 1987 -RRB- , is a South Korean actress and former member of South Korean girl group , LUV .",
+          "score": 5.1
+        },
+        {
+          "page_id": "Seo-yeon",
+          "sentence_id": 9,
+          "text": "Shim Seo-yeon -LRB- born 1989 -RRB- , South Korean football defender",
+          "score": 3.05
+        },
+        {
+          "page_id": "Seo-yeon",
+          "sentence_id": 11,
+          "text": "Kim Seo-yeon -LRB- born 1992 -RRB- , South Korean beauty pageant contestant , Miss Korea 2014",
+          "score": 3.05
+        },
+        {
+          "page_id": "Kim_Seo-yeon",
+          "sentence_id": 0,
+          "text": "Kim Seo-yeon -LRB- born May 19 , 1992 -RRB- is a South Korean model , beauty pageant titleholder and musician who was crowned Miss Korea 2014 , and represented her country at the Miss Universe 2015 pageant .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Seo_Ji-yeon",
+          "sentence_id": 0,
+          "text": "Seo Ji-yeon -LRB- -LSB- sʌ.dʑi.jʌn -RSB- or -LSB- sʌ -RSB- -LSB- tɕi.jʌn -RSB- born March 3 , 1993 -RRB- is a South Korean fencer .",
+          "score": 3.02
+        }
+      ],
+      "probabilities": [
+        0.9799973964691162,
+        0.019930124282836914,
+        7.256238313857466e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05623441700000065,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.39496544003486633,
+        0.5599727034568787,
+        0.04506182298064232
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.654117166999999,
+      "symbolic": {
+        "claim": "Oh Yeon-seo was born in 1987.",
+        "label": "SUPPORTS",
+        "reason": "complete_symbolic_comparison",
+        "parts": [
+          {
+            "property": "P569",
+            "kind": "date",
+            "expected": {
+              "year": 1987
+            },
+            "verdict": "SUPPORTS",
+            "reason": "direct_date_comparison",
+            "statements": [
+              {
+                "mainsnak": {
+                  "snaktype": "value",
+                  "property": "P569",
+                  "hash": "be883d89c69c485d6fe0bbb7aaed44b361f64bdc",
+                  "datavalue": {
+                    "value": {
+                      "time": "+1987-06-22T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                },
+                "type": "statement",
+                "id": "Q486536$7B8946A6-BDC6-4826-A24B-E673131EB37C",
+                "rank": "normal",
+                "references": [
+                  {
+                    "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                    "snaks": {
+                      "P143": [
+                        {
+                          "snaktype": "value",
+                          "property": "P143",
+                          "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                          "datavalue": {
+                            "value": {
+                              "entity-type": "item",
+                              "numeric-id": 328,
+                              "id": "Q328"
+                            },
+                            "type": "wikibase-entityid"
+                          },
+                          "datatype": "wikibase-item"
+                        }
+                      ]
+                    },
+                    "snaks-order": [
+                      "P143"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "parsed": {
+          "subject": "Oh Yeon-seo",
+          "human": true,
+          "parts": [
+            {
+              "property": "P569",
+              "kind": "date",
+              "expected": {
+                "year": 1987
+              }
+            }
+          ]
+        },
+        "entity_resolution": "unique_label_or_alias",
+        "subject_id": "Q486536",
+        "source_url": "https://www.wikidata.org/wiki/Q486536",
+        "source_revision": 2547976438,
+        "queries": [
+          {
+            "params": {
+              "action": "wbsearchentities",
+              "search": "Oh Yeon-seo",
+              "language": "en",
+              "limit": 50
+            },
+            "snapshot_file": "7757015a47bb6dd42012ebc97137c01ae057e12792aa981bcd02deab05b22c85.json",
+            "fetched_utc": "2026-10-31T00:07:14.141005+00:00"
+          },
+          {
+            "params": {
+              "action": "wbgetentities",
+              "ids": "Q486536",
+              "props": "info|claims|labels|aliases",
+              "languages": "en"
+            },
+            "snapshot_file": "94fa4d0a4f375b9e7ae4c7aad90759d3b3e651ba912898a42714a5efc83cc275.json",
+            "fetched_utc": "2026-10-31T00:07:14.502768+00:00"
+          }
+        ],
+        "http_calls": 2,
+        "wall_seconds": 0.6540715410000004
+      },
+      "evidence": [],
+      "probabilities": null,
+      "model_called": false,
+      "retrieval_called": false
+    }
+  }
+}

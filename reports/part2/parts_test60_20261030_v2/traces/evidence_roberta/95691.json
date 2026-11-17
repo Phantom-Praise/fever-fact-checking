@@ -1,0 +1,62 @@
+{
+  "id": 95691,
+  "claim": "Alex Sharp was in a West End show.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9898560047149658,
+    0.010041143745183945,
+    0.00010293176455888897
+  ],
+  "logits": [
+    4.224479675292969,
+    -0.3663886487483978,
+    -4.946768760681152
+  ],
+  "evidence": [
+    {
+      "page_id": "Alex_Sharp",
+      "sentence_id": 0,
+      "text": "Alexander Ian `` Alex '' Sharp -LRB- born 2 February 1989 -RRB- is a Tony Award-winning English actor best known for originating the role of Christopher Boone in the Broadway Production of The Curious Incident of the Dog in the Night-Time .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Sharp_End_International",
+      "sentence_id": 0,
+      "text": "Sharp End International was an Australian-owned private military company -LRB- PMC -RRB- that trained government and corporate entities .",
+      "score": 2.05
+    },
+    {
+      "page_id": "The_Sharp_End",
+      "sentence_id": 0,
+      "text": "The Sharp End was a 1991 British television comedy drama starring Gwen Taylor , James Cosmo and Philip Martin Brown .",
+      "score": 2.033333333333333
+    },
+    {
+      "page_id": "West_End",
+      "sentence_id": 0,
+      "text": "West End most commonly refers to :",
+      "score": 2.025
+    },
+    {
+      "page_id": "West_End",
+      "sentence_id": 2,
+      "text": "West End of London , an area of central London , England",
+      "score": 2.025
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 135,
+    "tokens_retained": 135,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Alex Sharp was in a West End show.</s></s>Alexander Ian `` Alex '' Sharp -LRB- born 2 February 1989 -RRB- is a Tony Award-winning English actor best known for originating the role of Christopher Boone in the Broadway Production of The Curious Incident of the Dog in the Night-Time . Sharp End International was an Australian-owned private military company -LRB- PMC -RRB- that trained government and corporate entities . The Sharp End was a 1991 British television comedy drama starring Gwen Taylor , James Cosmo and Philip Martin Brown . West End most commonly refers to : West End of London , an area of central London , England</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.18308166699999973
+}

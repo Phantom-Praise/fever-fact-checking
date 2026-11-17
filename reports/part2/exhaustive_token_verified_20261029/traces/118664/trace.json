@@ -1,0 +1,3044 @@
+{
+  "id": 118664,
+  "claim": "Laura Robson is a volleyball player.",
+  "status": "complete",
+  "token_verified": true,
+  "model_label": "REFUTES",
+  "derived_label": "REFUTES",
+  "coverage": {
+    "total": 187,
+    "processed": 187
+  },
+  "cleanup": {
+    "temporary_files_deleted": true
+  },
+  "source_trace_sha256": "ce3301872593fac221ace1b1eacdfc020da99bcb824b6fe13a9b11c6312e0106",
+  "articles": [
+    {
+      "title": "Laura Robson",
+      "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+      "revision_id": 1371472970,
+      "text_sha256": "c2e71f425056b174a8ba3ad23b1aa9bed08e8168ddf09a89db9ec0b8977f4c1a",
+      "matches_previous_text": true
+    },
+    {
+      "title": "Laura Robson career statistics",
+      "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+      "revision_id": 1363104820,
+      "text_sha256": "d3b5200f4b9f12c5f99c6ec36ab4cef7ecdbe2324ade7c94b45e4a639bdf3682",
+      "matches_previous_text": true
+    },
+    {
+      "title": "Robson",
+      "url": "https://en.wikipedia.org/wiki/Robson",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+      "revision_id": 1211069583,
+      "text_sha256": "d879f839faeebf559760ee85842036929475a127adb28c905782c8b804b57858",
+      "matches_previous_text": true
+    },
+    {
+      "title": "Robson",
+      "url": "https://en.wikipedia.org/wiki/Robson",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+      "revision_id": 1211069583,
+      "text_sha256": "d879f839faeebf559760ee85842036929475a127adb28c905782c8b804b57858",
+      "matches_previous_text": true
+    },
+    {
+      "title": "Gary Robson (darts player)",
+      "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+      "revision_id": 1381551113,
+      "text_sha256": "7639979e6b56b74b5da22e33ec7a18533dd8f4d65797cc85b186c4d84e051a0f",
+      "matches_previous_text": true
+    }
+  ],
+  "final_attempts": [
+    {
+      "file": "final_attempt_1.json",
+      "valid": true,
+      "reported_prompt_tokens": 15354
+    }
+  ],
+  "parts": [
+    {
+      "part": "Laura Robson is a volleyball player.",
+      "verdict": "REFUTES",
+      "evidence_ids": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C11",
+        "C13",
+        "C15",
+        "C16",
+        "C17",
+        "C19",
+        "C24",
+        "C25",
+        "C26",
+        "C27",
+        "C30",
+        "C31",
+        "C32",
+        "C33",
+        "C34",
+        "C35",
+        "C38",
+        "C39",
+        "C41",
+        "C42",
+        "C43",
+        "C44",
+        "C45",
+        "C46",
+        "C47",
+        "C48",
+        "C49",
+        "C50",
+        "C51",
+        "C53",
+        "C56",
+        "C57",
+        "C58",
+        "C59",
+        "C60",
+        "C61",
+        "C62",
+        "C63",
+        "C64",
+        "C65",
+        "C66",
+        "C67",
+        "C68",
+        "C72",
+        "C73",
+        "C74",
+        "C76",
+        "C77",
+        "C78",
+        "C81",
+        "C82",
+        "C83",
+        "C86",
+        "C87",
+        "C88",
+        "C89",
+        "C101",
+        "C102",
+        "C103",
+        "C105",
+        "C106"
+      ],
+      "justification": "None of the provided excerpts mention Laura Robson as a volleyball player."
+    }
+  ],
+  "input": {
+    "claim": "Laura Robson is a volleyball player.",
+    "evidence": [
+      {
+        "id": "C3",
+        "title": "Laura Robson",
+        "section": [],
+        "text": "Laura Robson (born 21 January 1994) is a British former professional tennis player. She debuted on the ITF Junior Circuit in 2007, and a year later won the Junior Wimbledon championships at the age of 14. As a junior, she also twice reached the final of the girls' singles tournament at the Australian Open, in 2009 and 2010. She won her first tournament on the ITF Women's Circuit in November 2008.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C4",
+        "title": "Laura Robson",
+        "section": [],
+        "text": "In singles tennis, Robson was the first British woman since Samantha Smith at Wimbledon in 1998 to reach the fourth round of a Grand Slam tournament, doing so at the 2012 US Open and the 2013 Wimbledon Championships. At the 2012 Guangzhou International Open, Robson became the first British woman since Jo Durie in 1990 to reach a WTA Tour final, where she lost to Hsieh Su-wei. She was named WTA Newcomer of the Year for 2012 and reached a career-high singles ranking of world No. 27 the following year. In mixed doubles, she won a silver medal at the 2012 London Olympics playing with Andy Murray, with whom she also reached the 2010 Hopman Cup final. She has a career-high doubles ranking of No. 82 (July 2013).",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C5",
+        "title": "Laura Robson",
+        "section": [],
+        "text": "Robson suffered from various injuries throughout the 2014 and 2015 seasons, notably to her left (and dominant) wrist for which she underwent surgery in April 2014, resulting in multiple prolonged absences from the WTA Tour. After returning to full-time tennis in 2016, Robson struggled with form and did not return to the top 150 in singles tennis. In July 2018, she underwent hip surgery, and she did not return to the WTA Tour afterwards. On 16 May 2022, Robson announced her retirement from tennis, aged 28. Since her retirement, Robson was tournament director at the Nottingham Open in 2023 and 2024, before being appointed to the same role at the new women's event at Queen's Club in 2025. She continued in the role for the women's event at Queen's Club in 2026 which was notable for the return of Serena Williams.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C6",
+        "title": "Laura Robson",
+        "section": [],
+        "text": "She now works as a presenter and pundit.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C11",
+        "title": "Laura Robson",
+        "section": [
+          "Early life and junior career"
+        ],
+        "text": "Robson competed in her first junior Grand Slam at the Wimbledon girls' event, as an unseeded player. As the youngest player in the tournament, she beat top seed Melanie Oudin on her way to the finals where she defeated third seed Noppawan Lertcheewakarn. Her victory made her the first British player to win the girls' event since Annabel Croft in 1984, and the British media described her as the \"new darling\" of British tennis, and the \"Queen of Wimbledon\".",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C13",
+        "title": "Laura Robson",
+        "section": [
+          "Early life and junior career"
+        ],
+        "text": "After recovering from her injury, Robson entered the junior tournament of the 2009 Australian Open, where she was seeded fifth. In the semifinals she faced a replay of her Wimbledon final, against top seed Tara Flanagan, whom she beat in straight sets to reach her second Grand Slam junior final. Facing third seed Ksenia Pervak from Russia, Robson was defeated in straight sets. She later attributed her loss to Pervak's greater consistency, and her coach Bok said that \"everybody has to be patient\". After the tournament, Robson started to train with Gil Reyes, the former trainer of Andre Agassi. She was also named the MCC Young Sportswoman of the Year. She claimed the top ranking of ITF Junior Tour in April, despite not playing for two months because of shin splints.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C15",
+        "title": "Laura Robson",
+        "section": [
+          "Early life and junior career"
+        ],
+        "text": "Due to her focusing on her senior career, Robson entered the US Open unseeded. In the first round, she beat Ons Jabeur of Tunisia. She then faced the seventh seed Lauren Embree of the United States and beat her in three sets. She went on to face the 12th seed, Tamaryn Hendler, who she defeated in straight sets. Robson then beat Lauren Davis in the quarterfinals. In her semifinal, she faced Yana Buchina of Russia. Due to rain delay, both quarter- and semifinals were played on the same day. Therefore, the semifinal followed the quarterfinal match. Despite starting strongly, Robson tired, losing the match in three sets.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C16",
+        "title": "Laura Robson",
+        "section": [
+          "Early life and junior career"
+        ],
+        "text": "At the junior singles at the 2010 Australian Open, Robson was unseeded and defeated Belinda Woolcock, Yulia Putintseva, and Cristina Dinu to reach the quarterfinals. In the last eight, she easily overcame American Ester Goldfeld to move through to her fourth junior Grand Slam semifinal where she defeated Kristýna Plíšková of the Czech Republic. She was defeated by Kristýna's twin sister Karolína in the final. In the Wimbledon junior singles she reached the semifinals, losing to Sachie Ishizu of Japan.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C17",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2008"
+        ],
+        "text": "Following her victory at Wimbledon, Robson made her debut on the ITF Women's Circuit at a $10k tournament in Limoges, France. She won two matches to qualify for the main draw of the tournament, as well as her first-round match, before having to retire with a shoulder injury in the second round against the second seed Marina Melnikova.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C19",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2008"
+        ],
+        "text": "Her first match on the WTA Tour was courtesy of a wildcard into the Luxembourg Open where she lost in the first round against world No. 42, Iveta Benešová. Returning to the ITF Circuit, Robson entered as the fifth seed in a 10k event held in Sunderland, Tyne and Wear. After beating third seed Laura Ioana Andrei in the quarterfinals, she also beat fellow Brits Tara Moore and Samantha Vickers in straight sets to win her first ITF title at the age of 14 years and 9 months.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C24",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2010"
+        ],
+        "text": "Robson was granted a wildcard in the qualifying draw for the women's singles of the Australian Open. In her first match, she defeated Sophie Ferguson of Australia. In her second match, she lost to Michaëlla Krajicek. Robson, however, received a wildcard into the main draw of the doubles, partnering Sally Peers. They defeated Jill Craybas and Abigail Spears to set up a second-round clash with the 12th seeds Chuang Chia-jung and Květa Peschke, who they beat in straight sets. Peers and Robson won their third-round clash with Vera Dushevina and Anastasia Rodionova to advance to the quarterfinals, before falling to the No. 15 seeds, Maria Kirilenko and Agnieszka Radwańska.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C25",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2010"
+        ],
+        "text": "After the Australian Open, Robson did not play again until the start of April. In her third tournament back, she made the semifinal losing to Edina Gallovits of the ITF event in Dothan, after having to qualify for the main draw. She also played in the doubles, and after reaching the quarterfinals, she reached a career high of No. 102 for doubles. She followed this up with a quarterfinal appearance in Charlottesville losing to Anastasiya Yakimova.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C26",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2010"
+        ],
+        "text": "She then qualified for the main draw of the Aegon Classic in Edgbaston, after receiving a wildcard for the qualifying. She beat Nina Bratchikova and Vitalia Diatchenko. Robson then went on to win her first-ever match on the WTA Tour, after her opponent Stefanie Vögele retired during the second set of their first-round match. She lost to the third seed Yanina Wickmayer in the second round. She also received a wildcard for the Rosmalen Open but was beaten by Dominika Cibulková in the first round.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C27",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2010"
+        ],
+        "text": "She received a wildcard for Wimbledon, and faced fourth seed Jelena Janković to whom she lost in two sets. Robson's next senior level competition was a GB Pro-Series event at Woking. Seeded seventh, her first senior seeding, she reached the quarterfinals. Her next competitive match did not come till the end of August 2010, when she entered the qualifying tournament for the US Open. In the first round she shocked second seed Jelena Dokić. She beat Vesna Manasieva, but lost in the third round to Nuria Llagostera Vives.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C30",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2011"
+        ],
+        "text": "For 2011, Robson hired a new coach, Frenchman Patrick Mouratoglou, and moved her working base to Paris. Her season was disrupted by injury at the Hopman Cup and she did not compete in a tournament until March 2011; her comeback was then delayed for a further month by an injury in her second competition. Returning again at the end of April 2011, Robson's best performance to date came at the 50k tournament at Indian Harbor Beach, Florida, where she reached the semifinals. Robson split from Mouratoglou just before Wimbledon. She then won her first match at a Grand Slam tournament as she defeated Angelique Kerber, but lost to Maria Sharapova in the second round.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C31",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2011"
+        ],
+        "text": "At the US Open, Robson won her three qualifying matches to advance into the main draw. In the first round of the main draw, she was leading when her opponent, Ayumi Morita, retired from the match. She was then beaten by Anabel Medina Garrigues.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C32",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "text": "Robson came through three rounds of qualifying at the Australian Open, beating Melanie Oudin, Anna Floris and Olga Savchuk to advance to the main draw for the first time. She lost to 13th seed Jelena Janković in the first round.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C33",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "text": "Robson was selected for the first time in her career to be a member of British Fed Cup team to play in the Europe/Africa Group-1 match at Eilat, Israel, on 1–4 February 2012. In the group stages she played doubles with Heather Watson, defeating pairs from Portugal, Netherlands and Israel in the group stages. Robson and Watson did not need to play the play-off match against Austria as Anne Keothavong and Elena Baltacha won their singles rubbers, and the 2–0 lead qualified the team for a place in the World Group-II promotion play-off in April 2012.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C34",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "text": "Robson lost in the third round of qualifying for the 2012 French Open at Roland Garros. However, she got a place in the first round of the main draw as a lucky loser when Sílvia Soler Espinosa withdrew, but then lost her first-round match to Anabel Medina Garrigues.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C35",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "text": "After a second round showing at the Birmingham Classic (lost to Marina Erakovic), Robson came through qualifying at the Eastbourne International. She reached the second round before losing to Ekaterina Makarova. However, the result helped Robson break into the top 100 for the first time in her career. In the first round of Wimbledon, Robson lost to Francesca Schiavone in three sets.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C38",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "text": "and Max Mirnyi.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C39",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "text": "Robson had direct entry to the main draw of the US Open from her WTA ranking, where she defeated Samantha Crawford in the first round. In the second, she defeated former US Open champion Kim Clijsters in Clijsters' final singles match before her retirement. Robson consequently reached the third round of a major tournament for the first time in her career and joined Serena Williams, Lindsay Davenport, Venus Williams, Amélie Mauresmo and Justine Henin as one of the only six people to beat Clijsters at the US Open championships, and the first player to beat her there since 2003. She followed up her performance with her first victory over a top-ten player, beating ninth seed Li Na in the third round, in three sets. Robson became the first female British tennis player to reach this stage of a Grand Slam tournament since Samantha Smith reached the fourth round of Wimbledon 14 years previously, but she was defeated by defending champion Stosur, ending her best run at a Grand Slam tournament to date",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C41",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "text": "Her next appearance was at the Guangzhou Open where she beat the then world No. 22, Zheng Jie, and the No. 3 seed Sorana Cîrstea on the way to her first WTA Tour final against Hsieh Su-wei. This was the first WTA singles final for any British woman since Jo Durie in 1990. Robson was eventually defeated, having saved five championship points in the second set and despite taking a 3–0 lead in the third set. The result pushed her ranking inside the top 70 for the first time.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C42",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "text": "Robson qualified for the main draw of the China Open after defeating Garbiñe Muguruza and Johanna Larsson and reached the second round but she lost to Lourdes Domínguez Lino in straight sets. At the Japan Women's Open in Osaka, she was seeded eighth, the first time in her career she had been seeded at a WTA tournament. She reached the quarterfinals before losing to Chang Kai-chen in three sets, but the result ensured that she finished the year with a ranking of 53.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C43",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "text": "In October, Robson was nominated for the Sports Journalists' Association Sportswoman of the Year. In November, along with Heather Watson, won \"Young Sportswoman of the Year\" at the 2012 Sunday Times Sportswomen of the Year Awards. Robson was also nominated for \"WTA Newcomer of the Year\" and William Hill \"Sportswoman of the Year\" in November, winning the former award.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C44",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "text": "At the start of the year, Robson had reached the top 50 for the first time in her career. She followed this up with her first victory at the Australian Open with a convincing straight sets victory over Melanie Oudin. In the second round she played former Wimbledon champion, and fellow left-hander, Petra Kvitová. Robson came back after losing the first set to beat Kvitová in a three-hour match, to set up a third-round meeting with Sloane Stephens. After stopping for several shoulder treatments, Robson was eventually beaten in two sets. After the Australian Open, Robson played six matches in Fed Cup competition that saw Great Britain earn a World Group II play-off spot against Argentina. Following this success, she went on to lose two successive matches, losing to Daniela Hantuchová in Doha and to wildcard Yulia Putintseva in Dubai.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C45",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "text": "At Indian Wells, Robson lost her first-round match against Sofia Arvidsson in three sets. Her next tournament was at Miami. In the singles, Robson reached the second round before losing to Alizé Cornet. In the doubles Laura Robson was given a wildcard to play with Lisa Raymond. The pair reached the final, beating the world No. 1 pairing of Sara Errani and Roberta Vinci, in straight sets in the semifinals, before losing to Nadia Petrova and Katarina Srebotnik.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C46",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "text": "Robson was seeded 16th at Charleston and reached the second round before losing to Eugenie Bouchard in three sets. At the Katowice Open, Robson was seeded eighth, but lost in the first round to Lourdes Domínguez Lino.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C47",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "text": "Robson represented Great Britain in the Fed Cup World Group II play-off against Argentina. After Johanna Konta lost her opening rubber to Paula Ormaechea, Robson easily won her first match over Florencia Molinero. Robson lost her second match against Paula Ormaechea in three sets.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C48",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "text": "After several first-round defeats at the start to the European clay-court season, Robson defeated world No. 4, Agnieszka Radwańska, in the second round of the Madrid Open. She subsequently lost to former world No. 1, Ana Ivanovic, in the next round, having led 5–2 in the final set. Robson then made her debut at the Italian Open where she defeated Venus Williams in the first round but subsequently lost to her sister, world No. 1 and eventual champion, Serena Williams, in the second round. At the French Open Robson was beaten in the first round by former world No. 1, Caroline Wozniacki, in straight sets.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C49",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "text": "To begin the grass-court season, Robson entered the Birmingham Classic where she was seeded seventh. Despite the seeding, she lost in straight sets to the eventual champion Daniela Hantuchová. She then participated in the Eastbourne International. In the first round, she faced Yuliya Beygelzimer in which she won in straight sets. In the second round, she lost to Caroline Wozniacki in straight sets for the second time in a row.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C50",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "text": "In the first round of Wimbledon, she was drawn against tenth seed Maria Kirilenko, whom she beat in straight sets. She beat world No. 117, Mariana Duque, in the second round on Centre Court. In the third round, she came from a set down to beat Marina Erakovic to progress to the last 16 where she was beaten by Kaia Kanepi. Her performance pushed her up to 27 in the world, the first Briton in the top 30 since Jo Durie in 1987.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C51",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "text": "Robson started her US Open Series campaign on 30 July 2013 at the Southern California Open in Carlsbad being drawn against Ayumi Morita, whom she beat having come back from a set down in two hours and 40 minutes. Laura moved into the second round faced with the world No. 7 Petra Kvitová from Czech Republic but lost in straight sets putting an end to her Southern California Open.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C53",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "text": "At the US Open, Robson returned after intensive rehab on her wrist injury and began her campaign against Spain's Lourdes Domínguez Lino, whom she had lost to twice previously. After winning a scrappy first set, Robson powered through the second at love. In the second round, she faced world No. 75 Caroline Garcia, and won in two tight sets. She then fell in straight sets in the next round to Li Na in the same place they had played last year, where Robson had won. The fifth seed Li powered 11 aces to beat her 12-year younger opponent, Robson in straight sets. After a break of around three weeks, Robson returned to action at the Guangzhou Open, a tournament in which she was a finalist the previous year. She started strongly, with straight sets wins over qualifier Jovana Jakšić in the first round, and Zheng Saisai in the second round. She subsequently lost to another Chinese player in Zheng Jie, despite taking the first set 6",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C56",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2014–15: Wrist injury, extended absence"
+        ],
+        "text": "Robson started her 2014 season at the Hobart International, where she had to retire in her first-round match against Yanina Wickmayer due to a left wrist injury. Her wrist continued to affect her at the Australian Open, where Kirsten Flipkens defeated her in straight sets. After taking three-months rest from the tour, Robson underwent surgery on her left wrist in April. The surgery forced her to miss the French Open, Wimbledon and the US Open, and although Robson initially hoped to be playing by the end of the season, she only started training in October, and did not play again in 2014.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C57",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2014–15: Wrist injury, extended absence"
+        ],
+        "text": "Robson did not enter the Australian Open in 2015 and subsequently left the WTA rankings, having not competed for 12 months. Robson planned to return at the 25k tournament at Surprise, Arizona, but delayed her return and did not enter another ITF event in February. She declined a wildcard into the qualifying event of the Miami Open in March. Her agent Eisenbund stated that she had not suffered a setback, and was \"closer and closer\" to a return.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C58",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2014–15: Wrist injury, extended absence"
+        ],
+        "text": "After an absence of a year and a half, Robson's first competitive match was at the qualifying draw of the Eastbourne International when she lost to top-seed Daria Gavrilova, in straight sets. Robson was granted a wildcard to compete at Wimbledon, but she was defeated in the first round by Evgeniya Rodina.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C59",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2014–15: Wrist injury, extended absence"
+        ],
+        "text": "In July 2015, she played at the 50k event in Granby and won a tough three-set match over second seed Naomi Osaka. However, she lost her next match to American qualifier Ellie Halbauer. Robson also reached the final in doubles partnering Erin Routliffe. In Gatineau, she retired from her first-round match, generating fear that her wrist injury had returned, but Robson said that she had been hampered by a stomach strain she had suffered during practice.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C60",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2016: Return to tennis, struggle with form"
+        ],
+        "text": "After receiving some further surgery on her wrist at the end of 2015, Robson took some more time off from tennis and subsequently missed the Australian Open. She started off the year playing some American Challenger events, with limited success. She made her return to WTA Tour events by using her protected ranking to enter Indian Wells. Here she made a reasonable effort in her first round but lost to Magdaléna Rybáriková who subsequently went on to reach the quarterfinals of the event. She also received a wildcard entry into the main draw of Miami and used her protected ranking to enter into the qualifying of Charleston but lost in the first round at both events.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C61",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2016: Return to tennis, struggle with form"
+        ],
+        "text": "Robson later won her first WTA match since her injury in 2013 by beating Klára Koukalová, 6–2, 6–3 in the qualifying of Stuttgart. However, she lost her next match in qualifying to Océane Dodin in straight sets. She also claimed her first WTA Tour main-draw victory since 2013 in Rabat by defeating local wildcard Ghita Benhadi in straight sets. However, she later lost her next match to Tímea Babos.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C62",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2016: Return to tennis, struggle with form"
+        ],
+        "text": "Robson also used her protected ranking to enter Premier clay events in Madrid and Rome, where she lost her first round matches to Victoria Azarenka and Christina McHale, respectively. She had put on a promising display against Azarenka, but was unable to convert eight out of nine breakpoints, allowing Azarenka to clinch victory in straight sets. Robson was awarded a wildcard into Wimbledon for a second year, but was defeated in 69 minutes by Angelique Kerber in the first round in an error-strewn performance. In August Robson won a second tier ITF tournament in USA. She was then given a wildcard entry to the 2016 US Open qualifying tournament. Straight-set victories over Jang Su-jeong, Isabella Shinikova and Tatjana Maria gained her entry to the main draw of the tournament, losing in the first round to fellow Brit Naomi Broady, 7–6, 3–6, 4–6.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C63",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2016: Return to tennis, struggle with form"
+        ],
+        "text": "After the US Open, Robson lost in the first round in four out of six ITF tournaments, including a loss to a player ranked 1048.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C64",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2017: Continued struggle with form"
+        ],
+        "text": "Robson began her 2017 season at the Auckland, but lost in the first round of qualifying to Tereza Martincová. At the Australian Open, she also lost in the first round of qualifying to Amandine Hesse, in straight sets. She then played in the 60k tournament at Andrézieux-Bouthéon and reached the quarterfinals, before losing in straight sets to Amra Sadiković. Between the end of January and the beginning of May, Robson reached three quarterfinals on the ITF Circuit. Robson won the biggest title of her career at a 60k Kurume Cup, defeating fellow Briton Katie Boulter, in straight sets. The tournament win moved her up 80 places in the ranking, causing her to reach the top 200 for the first time since 2014.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C65",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2017: Continued struggle with form"
+        ],
+        "text": "At the beginning of her grass-court season, Robson played the 100k event in Surbiton, but lost in the first round to Marina Erakovic. She then played at Nottingham, but fell to Julia Boserup in the first round. She reached the second round of the Ilkley 100k event before falling to Maryna Zanevska in three sets. She received a wildcard for Wimbledon, but lost in the first round to Brazil's Beatriz Haddad Maia.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C66",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2017: Continued struggle with form"
+        ],
+        "text": "She continued to struggle with form throughout the latter half of the season post-Wimbledon, losing eleven matches and winning just seven on the ITF Circuit, including a loss in the first round of the qualifying draw at the US Open to world No. 311, Alla Kudryavtseva.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C67",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2018: Hip surgery"
+        ],
+        "text": "Robson was unable to play in the Australian Open qualifying draw as her ranking – at 230 – remained too low to gain direct entry. She did, however, play in the first round of the women's doubles draw with CoCo Vandeweghe, which they lost in straight sets. The following week, she lost in the first round of the Burnie International to world No. 415, Jennifer Elie, but won the doubles title partnering Vania King.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C68",
+        "title": "Laura Robson",
+        "section": [
+          "Professional career",
+          "2018: Hip surgery"
+        ],
+        "text": "In March, Robson teamed up with Fanny Stollár to win the doubles at the ITF event in Yokohama. In July 2018, she underwent hip surgery.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C72",
+        "title": "Laura Robson",
+        "section": [
+          "Playing style"
+        ],
+        "text": "Robson played left-handed, with a two-handed backhand. One of her strengths was her \"dominant\" serve. She had a strong game from the back of the court and was also noted for having an aggressive forehand return. However, she has been criticised for having \"poor lateral movement\", as well as an inconsistent second serve, resulting in a considerable number of double faults. She has been praised for showing \"extraordinary poise\", and having \"the attitude and technique required of a leading player\". Commentator Simon Reed said that she \"has every tool she needs\", and former Grand Slam champion Pat Cash called her \"a special talent\" who \"seems to have all the attributes to progress\". Former WTA player Ana Ivanovic said that Robson \"hits the ball really, really hard\", former top British player Samantha Smith said that \"she doesn't have any weaknesses at all\", and Serena Williams stated that Robson is an \"all-around good player\".",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C73",
+        "title": "Laura Robson",
+        "section": [
+          "Playing style"
+        ],
+        "text": "Robson's favourite surface to play on was grass and her favourite shot was her forehand down the line.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C74",
+        "title": "Laura Robson",
+        "section": [
+          "Career statistics",
+          "Olympic Games final",
+          "Mixed doubles: 1 (silver medal)"
+        ],
+        "text": "Result | Year | Location | Surface | Partner | Opponents | Score\nSilver | 2012 | London | Grass | Andy Murray | Victoria Azarenka Max Mirnyi | 6–2, 3–6, [8–10]",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C76",
+        "title": "Laura Robson",
+        "section": [
+          "Career statistics",
+          "Grand Slam tournament performance timelines",
+          "Singles"
+        ],
+        "text": "Tournament | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | W–L | Win %\nAustralian Open | A | Q2 | A | 1R | 3R | 1R | A | A | Q1 | A | A | 2–3 | 40%\nFrench Open | A | A | A | 1R | 1R | A | A | 1R | A | A | A | 0–3 | 0%\nWimbledon | 1R | 1R | 2R | 1R | 4R | A | 1R | 1R | 1R | A | A | 4–8 | 33%\nUS Open | Q3 | Q3 | 2R | 4R | 3R | A | 1R | 1R | Q1 | A | A | 6–5 | 55%\nWin–loss | 0–1 | 0–1 | 2–2 | 3–4 | 7–4",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C77",
+        "title": "Laura Robson",
+        "section": [
+          "Career statistics",
+          "Grand Slam tournament performance timelines",
+          "Singles"
+        ],
+        "text": "| 0–1 | 0–2 | 0–3 | 0–1 | 0–0 | 0–0 | 12–19 | 38%",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C78",
+        "title": "Laura Robson",
+        "section": [
+          "Career statistics",
+          "Junior Grand Slam finals",
+          "Singles (1–2)"
+        ],
+        "text": "Result | No. | Date | Tournament | Surface | Opponent | Score\nWin | 1 | 3 July 2008 | Wimbledon | Grass | Noppawan Lertcheewakarn | 6–3, 3–6, 6–1\nLoss | 1 | 31 January 2009 | Australian Open | Hard | Ksenia Pervak | 3–6, 1–6\nLoss | 2 | 30 January 2010 | Australian Open | Hard | Karolína Plíšková | 1–6, 6–7(5–7)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C81",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Career achievements"
+        ],
+        "text": "Laura Robson won her first Olympic medal at the 2012 Summer Olympics in mixed doubles alongside Andy Murray. At the 2012 US Open, she recorded the two biggest wins of her career over former Grand Slam champions Li Na and Kim Clijsters, before falling in the fourth round to Samantha Stosur. Robson reached her first WTA Tour singles final that same year in Guangzhou, losing to Hsieh Su-wei.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C82",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Career achievements"
+        ],
+        "text": "In 2013, Robson gained much praise by defeating Petra Kvitová in the second round Australian Open 11–9 in the deciding set, in a marathon match. At Madrid, Robson gained the first top four victory of her career, upsetting world No. 4, Agnieszka Radwańska, in the second round in straight sets, losing just four games. She subsequently lost to former world No. 1, Ana Ivanovic, in the following round, after having led 5–2 in the final set. At Wimbledon, she reached the fourth round as the home favorite, coming back from 1–6, 2–5 down to win her third-round match. At the US Open, Robson was seeded at a major event for the first time, at 30.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C83",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Career achievements"
+        ],
+        "text": "Over her career, Robson has claimed one ITF title. On the ITF Junior Circuit, she won the Wimbledon Championships in 2008 and finished runner-up at the Australian Open 2009 and 2010.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C86",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Singles performance timeline"
+        ],
+        "text": "Tournament | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | SR | W–L | Win %\nGrand Slam tournaments\nAustralian Open | A | Q2 | A | 1R | 3R | 1R | A | A | Q1 | A | A | 0 / 3 | 2–3 | 40%\nFrench Open | A | A | A | 1R | 1R | A | A | 1R | A | A | A | 0 / 3 | 0–3 | 0%\nWimbledon | 1R | 1R | 2R | 1R | 4R | A | 1R | 1R | 1R | A | A | 0 / 8 | 4–8 | 33%\nUS Open | Q3 | Q3 | 2R | 4R | 3R | A | 1R | 1R | Q1 | A | A | 0 / 5 | 6–5 | 55%\nWin",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C87",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Singles performance timeline"
+        ],
+        "text": "–loss | 0–1 | 0–1 | 2–2 | 3–4 | 7–4 | 0–1 | 0–2 | 0–3 | 0–1 | 0–0 | 0–0 | 0 / 19 | 12–19 | 38%\nNational representation\nSummer Olympics | NH | 2R | NH | A | NH | 0 / 1 | 1–1 | 50%\nPremier M & Premier 5\nDubai / Qatar Open | A | A | A | Q1 | 1R | A | A | A | A | A | A | 0 / 1 | 0–1 | 0%\nIndian Wells Open | A | A | A | Q1 | 1R | A | A | 1R | A | A | A | 0 / 2 | 0–2 | 0%\nMiami Open | A | A | A | Q2 | 2R | A | A | 1R | A | A | A | 0 / 2 | 1",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C88",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Singles performance timeline"
+        ],
+        "text": "–2 | 33%\nMadrid Open | A | A | A | A | 3R | A | A | 1R | A | A | A | 0 / 2 | 2–2 | 50%\nItalian Open | A | A | A | A | 2R | A | A | Q1 | A | A | A | 0 / 1 | 1–1 | 50%\nCincinnati Open | A | A | Q1 | Q2 | A | A | A | A | A | A | A | | 0–0 | 0%\nChina Open | A | A | 1R | 2R | 2R | A | A | A | A | A | A | | 2–3 | 40%\nCareer statistics\nTitles | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Career total: 0\nFinals | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C89",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Singles performance timeline"
+        ],
+        "text": "0 | Career total: 1\nYear-end ranking | 419 | 206 | 131 | 53 | 46 | 951 | 558 | 219 | 251 | 435 | — |",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C101",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "ITF Junior finals",
+          "Grand Slam tournaments",
+          "Singles: 3 (1 title, 2 runner-ups)"
+        ],
+        "text": "Result | Year | Tournament | Surface | Opponent | Score\nWin | 2008 | Wimbledon | Grass | Noppawan Lertcheewakarn | 6–3, 3–6, 6–1\nLoss | 2009 | Australian Open | Hard | Ksenia Pervak | 3–6, 1–6\nLoss | 2010 | Australian Open | Hard | Karolína Plíšková | 1–6, 6–7(5–7)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C107",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Top-10 wins per season"
+        ],
+        "text": "# | Player | Rank | Event | Surface | Rd | Score\n2012\n1. | Li Na | No. 8 | US Open | Hard | 3R | 6–4, 6–7(5–7), 6–2\n2013\n2. | Petra Kvitová | No. 8 | Australian Open | Hard | 2R | 2–6, 6–3, 11–9\n3. | Agnieszka Radwańska | No. 4 | Madrid Open | Clay | 2R | 6–3, 6–1\n4. | Maria Kirilenko | No. 10 | Wimbledon | Grass | 1R | 6–3, 6–4",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C102",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Fed Cup participation"
+        ],
+        "text": "Great Britain Fed Cup team",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C103",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Fed Cup participation",
+          "Singles (4–2)"
+        ],
+        "text": "Edition | Round | Date | Location | Against | Surface | Opponent | W/L | Score\n2012 Fed Cup | WG II PO | Apr 2012 | Borås (SWE) | Sweden | Hard (i) | Sofia Arvidsson | L | 4–6, 6–1, 3–6\n2013 Fed Cup | ZG I RR | Feb 2013 | Eilat (ISR) | Portugal | Hard | Margarida Moura | W | 6–2, 6–1\nHungary | Gréta Arn | W | 0–6, 6–2, 6–1\nZG I PO | Eilat (ISR) | Bulgaria | Hard | Dia Evtimova | W | 6–0, 6–4\nWG II PO | Apr 2013 | Buenos Aires (ARG) | Argentina | Clay | Florencia Molinero | W | 6–1, 6–1\nPaula Ormaechea | L | 4–6,",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C105",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Fed Cup participation",
+          "Doubles (9–1)"
+        ],
+        "text": "Edition | Round | Date | Location | Against | Surface | Partner | Opponents | W/L | Score\n2012 Fed Cup | ZG I RR | Feb 2012 | Eilat (ISR) | Portugal | Hard | Heather Watson | Maria João Koehler Michelle Larcher de Brito | W | 7–5, 6–0\nNetherlands | Kiki Bertens Bibiane Schoofs | W | 7–5, 7–6(7–5)\nIsrael | Julia Glushko Keren Shlomo | W | 6–2, 6–1\n2013 Fed Cup | ZG I RR | Feb 2013 | Eilat (ISR) | Bosnia and Herzegovina | Hard | Johanna Konta | Jasmina Kajtazovič Jelena Simić | W | 6–0, 6–0\nPortugal | Heather Watson | Michelle Larcher de Brito Joana Valle Costa | W | 6–2, 6–1\nHungary |",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C106",
+        "title": "Laura Robson career statistics",
+        "section": [
+          "Fed Cup participation",
+          "Doubles (9–1)"
+        ],
+        "text": "Johanna Konta | Tímea Babos Katalin Marosi | L | 4–6, 6–2, 2–6\n2017 Fed Cup | ZG I RR | Feb 2017 | Tallinn (EST) | Portugal | Hard (i) | Jocelyn Rae | Michelle Larcher de Brito Inês Murta | W | 6–2, 6–3\nLatvia | Jocelyn Rae | Diāna Marcinkēviča Daniela Vismane | W | 6–0, 6–7(2–7), 6–2\nTurkey | Jocelyn Rae | Ayla Aksu Pemra Özgen | W | 6–2, 6–2\nWG II PO | Apr 2017 | Constanța (ROU) | Romania | Clay | Jocelyn Rae | Simona HalepMonica Niculescu | W | 6–3, 1–6, [10–8]",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C143",
+        "title": "Robson",
+        "section": [
+          "People",
+          "Given name"
+        ],
+        "text": "S. Robson Walton (born 1944), eldest son of Sam Walton",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C139",
+        "title": "Robson",
+        "section": [
+          "People",
+          "Given name"
+        ],
+        "text": "Robson de Souza, (born 1984), Brazilian football player, better known as Robinho",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C140",
+        "title": "Robson",
+        "section": [
+          "People",
+          "Given name"
+        ],
+        "text": "Robson Alves da Silva (born 1986), Brazilian football player for Gold Coast United",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C141",
+        "title": "Robson",
+        "section": [
+          "People",
+          "Given name"
+        ],
+        "text": "Robson Severino da Silva (born 1983), Brazilian football player for Waasland-Beveren",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C142",
+        "title": "Robson",
+        "section": [
+          "People",
+          "Given name"
+        ],
+        "text": "Robson Vaz Shimabuku (born 1988), Brazilian football player",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C144",
+        "title": "Robson",
+        "section": [
+          "Places"
+        ],
+        "text": "Robson, British Columbia, a small community",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C145",
+        "title": "Robson",
+        "section": [
+          "Places"
+        ],
+        "text": "Robson, West Virginia, an unincorporated village in Fayette County, West Virginia, United States",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C146",
+        "title": "Robson",
+        "section": [
+          "Places"
+        ],
+        "text": "Mount Robson, a mountain in the Canadian Rockies",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C147",
+        "title": "Robson",
+        "section": [
+          "Places"
+        ],
+        "text": "Robson Square, landmark civic centre and public plaza in Vancouver, British Columbia",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C148",
+        "title": "Robson",
+        "section": [
+          "Places"
+        ],
+        "text": "Robson Street, Vancouver, British Columbia",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C149",
+        "title": "Robson",
+        "section": [
+          "See also"
+        ],
+        "text": "Robson Arms, a Canadian television series",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C150",
+        "title": "Robson",
+        "section": [
+          "See also"
+        ],
+        "text": "Robson flash memory, a technology from Intel to boost computer startup",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C151",
+        "title": "Robson",
+        "section": [
+          "See also"
+        ],
+        "text": "Prince George-Mount Robson, a provincial electoral district",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C152",
+        "title": "Robson",
+        "section": [
+          "See also"
+        ],
+        "text": "Robson & Jerome, an English pop duo",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C153",
+        "title": "Robson",
+        "section": [
+          "See also"
+        ],
+        "text": "Robson Rotation, a method of printing ballots",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C154",
+        "title": "Gary Robson (darts player)",
+        "section": [],
+        "text": "Gary Robson\nRobson in 2015\nPersonal information\nNickname | \"Big Robbo\"\nBorn | (1967-06-19) 19 June 1967 Cramlington, England\nHome town | Rothbury, England\nSport\nSport | Darts\nPlaying since | 1984\nDarts | 22g Gary Robson g force darts\nLaterality | Right-handed\nWalk-on music | \"Follow the Leader\" by The Soca Boys\nOrganisation (see split in darts)\nBDO | 1995–2020\nWDF | 1995–\nCurrent world ranking | (WDF) NR (17 August 2026)\nWDF major events – best performances\nWorld Championship | Quarter Final: 2007, 2009, 2011\nWorld Masters | Quarter Final: 2005, 2011, 2014, 2018\nWorld Trophy | Winner (1): 2005\nInt. Darts League | Quarter Final: 2007\nFinder Masters | Runner Up: 2014\nPDC premier events – best performances\nGrand Slam | Group Stage: 2018\nOther tournament wins\nTournament | Years\nEngland Masters England National Ch'ships England Open Granite City Open Isle of",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C155",
+        "title": "Gary Robson (darts player)",
+        "section": [],
+        "text": "Man Open Police Masters Scottish Open | 2014 2011, 2016 2011 2013 2007 2012 2024\nOther achievements\n2011 Garioch Masters 2010, 2011 Tyne and Wear Open 2009 West Brabant Open",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C156",
+        "title": "Gary Robson (darts player)",
+        "section": [],
+        "text": "Gary \"Big Robbo\" Robson (born 19 June 1967) is an English professional darts player who plays in World Darts Federation events.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C157",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Career"
+        ],
+        "text": "Robson qualified twice for the World Championships, but was beaten in the first round on each occasion. He made it for a third time in 2004, but found himself 2–0 down in sets against Steve Coote. However, Robson recovered and took the match to a sudden death deciding leg, which he won. Robson then lost to Tony O'Shea in the second round.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C158",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Career"
+        ],
+        "text": "Robson's biggest tournament win so far was at the World Darts Trophy in Utrecht, Netherlands. He beat Mervyn King 6–4 in the 2005 final.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C159",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Career"
+        ],
+        "text": "Robson had to wait until 2007 to win another match at the World Championship, but his opponent for that match was pre-tournament favourite Michael van Gerwen. Robson won 3–2. Robson did not have to wait long for his next win, as he made the quarter-finals for the first time in his career with a 4–3 win over former champion John Walton, having been 3–1 down. Robson could have had a nine-dart leg, but missed his seventh treble. However, his run was ended by Dutchman Niels de Ruiter. Robson led 2–0 and 4–2 but ended up losing 5–4.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C160",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Career"
+        ],
+        "text": "Robson returned to the World Championship in 2008 where he was drawn against 2002 World Champion, Tony David. This was Robson's only win at the 2008 World Championship, as in the second round he came up against Darryl Fitton. Fitton averaged over 100 in a 4–0 victory.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C161",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Career"
+        ],
+        "text": "In the 2009 World Championship, Robson reached the quarter-final for the second time, beating Stephen Bunting and Martin Atkins before losing to Martin Adams. 2009 was not a good year for Robson as a whole and as a result, he was forced to qualify for the 2010 Lakeside World Championship.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C162",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Career"
+        ],
+        "text": "Robson lost 3–0 in a first round clash with 2009 champion and 5th seed Ted Hankey at the 2010 BDO World Championship. The next year, Robson was seeded once more and advanced through to the quarter-finals for a third time by defeating Steve Douglas and Dave Chisnall for the loss of just one set. He then led Martin Phillips 3–1 but was defeated 5–4.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C163",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Career"
+        ],
+        "text": "Robson was knocked out of the 2012 World Championships in the first round losing 3–0 to Steve Douglas. In 2013, he lost in the first round to Garry Thompson.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C164",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Career",
+          "PDC"
+        ],
+        "text": "He competed for a tour card at the 2020 Q school in an attempt to join the Professional Darts Corporation, however he finished 164th and failed to win a tour card.",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C165",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "World Championship results",
+          "BDO"
+        ],
+        "text": "2001: 1st round (lost to Raymond van Barneveld 1–3)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C166",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "World Championship results",
+          "BDO"
+        ],
+        "text": "2003: 1st round (lost to Robert Wagner 1–3)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C167",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "World Championship results",
+          "BDO"
+        ],
+        "text": "2004: 2nd round (lost to Tony O'Shea 2–3)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C168",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "World Championship results",
+          "BDO"
+        ],
+        "text": "2005: 1st round (lost to Darryl Fitton 1–3)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C169",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "World Championship results",
+          "BDO"
+        ],
+        "text": "2006: 1st round (lost to Gary Anderson 1–3)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C170",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "World Championship results",
+          "BDO"
+        ],
+        "text": "2007: Quarter-finals (lost to Niels de Ruiter 4–5)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C183",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Career finals",
+          "BDO major finals: 2 (1 title, 1 runner-up)"
+        ],
+        "text": "Outcome | No. | Year | Championship | Opponent in the final | Score\nWinner | 1. | 2005 | World Darts Trophy | Mervyn King | 6–4 (s)\nRunner-up | 1. | 2014 | Zuiderduin Masters | Jamie Hughes | 0–5 (s)",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C184",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Performance timeline"
+        ],
+        "text": "Tournament | 1995 | 1996 | 1997 | 1998 | 1999 | 2000 | 2001 | 2002 | 2003 | 2004 | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020\nBDO World Championship | DNQ | 1R | DNQ | 1R | 2R | 1R | 1R | QF | 2R | QF | 1R | QF | 1R | 1R | 2R | 2R | 1R | DNQ | 1R | 1R | 1R\nBDO World Trophy | Not held | SF | 2R | DNQ | 1R | 1R | NH\nInternational Darts League | Not held | RR | RR | RR | RR | QF | Not held\nWorld Darts Trophy | Not held | DNQ | QF | 2R | W | 1R | RR | Not held\nWinmau World Masters |",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C185",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Performance timeline"
+        ],
+        "text": "1R | DNQ | 2R | DNQ | 1R | 1R | QF | 3R | 6R | 6R | 5R | 5R | QF | 6R | 6R | QF | 5R | 4R | 4R | QF | DNQ | NH\nFinder Darts Masters | Not held | DNP | RR | RR | NH | SF | QF | SF | QF | RR | DNP | QF | F | RR | DNP | NH\nGrand Slam of Darts | Not held | DNQ | RR | DNQ",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C186",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Performance timeline"
+        ],
+        "text": "Key",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      },
+      {
+        "id": "C187",
+        "title": "Gary Robson (darts player)",
+        "section": [
+          "Performance timeline"
+        ],
+        "text": "Performance Table Legend\nW | Won the tournament | F | Finalist | SF | Semifinalist | QF | Quarterfinalist | #R RR L# | Lost in # round Round-robin Last # stage | DQ | Disqualified\nDNQ | Did not qualify | DNP | Did not participate | WD | Withdrew | NH | Tournament not held | NYF | Not yet founded",
+        "reader_note": "Reader-selected chunk; original text copied verbatim by code."
+      }
+    ]
+  },
+  "supplied_evidence": {
+    "C3": {
+      "text": "Laura Robson (born 21 January 1994) is a British former professional tennis player. She debuted on the ITF Junior Circuit in 2007, and a year later won the Junior Wimbledon championships at the age of 14. As a junior, she also twice reached the final of the girls' singles tournament at the Australian Open, in 2009 and 2010. She won her first tournament on the ITF Women's Circuit in November 2008.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00002",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 399,
+        "id": "C3"
+      }
+    },
+    "C4": {
+      "text": "In singles tennis, Robson was the first British woman since Samantha Smith at Wimbledon in 1998 to reach the fourth round of a Grand Slam tournament, doing so at the 2012 US Open and the 2013 Wimbledon Championships. At the 2012 Guangzhou International Open, Robson became the first British woman since Jo Durie in 1990 to reach a WTA Tour final, where she lost to Hsieh Su-wei. She was named WTA Newcomer of the Year for 2012 and reached a career-high singles ranking of world No. 27 the following year. In mixed doubles, she won a silver medal at the 2012 London Olympics playing with Andy Murray, with whom she also reached the 2010 Hopman Cup final. She has a career-high doubles ranking of No. 82 (July 2013).",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00003",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 714,
+        "id": "C4"
+      }
+    },
+    "C5": {
+      "text": "Robson suffered from various injuries throughout the 2014 and 2015 seasons, notably to her left (and dominant) wrist for which she underwent surgery in April 2014, resulting in multiple prolonged absences from the WTA Tour. After returning to full-time tennis in 2016, Robson struggled with form and did not return to the top 150 in singles tennis. In July 2018, she underwent hip surgery, and she did not return to the WTA Tour afterwards. On 16 May 2022, Robson announced her retirement from tennis, aged 28. Since her retirement, Robson was tournament director at the Nottingham Open in 2023 and 2024, before being appointed to the same role at the new women's event at Queen's Club in 2025. She continued in the role for the women's event at Queen's Club in 2026 which was notable for the return of Serena Williams.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00004",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 819,
+        "id": "C5"
+      }
+    },
+    "C6": {
+      "text": "She now works as a presenter and pundit.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00005",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 40,
+        "id": "C6"
+      }
+    },
+    "C11": {
+      "text": "Robson competed in her first junior Grand Slam at the Wimbledon girls' event, as an unseeded player. As the youngest player in the tournament, she beat top seed Melanie Oudin on her way to the finals where she defeated third seed Noppawan Lertcheewakarn. Her victory made her the first British player to win the girls' event since Annabel Croft in 1984, and the British media described her as the \"new darling\" of British tennis, and the \"Queen of Wimbledon\".",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00011",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Early life and junior career"
+        ],
+        "char_start": 0,
+        "char_end": 459,
+        "id": "C11"
+      }
+    },
+    "C13": {
+      "text": "After recovering from her injury, Robson entered the junior tournament of the 2009 Australian Open, where she was seeded fifth. In the semifinals she faced a replay of her Wimbledon final, against top seed Tara Flanagan, whom she beat in straight sets to reach her second Grand Slam junior final. Facing third seed Ksenia Pervak from Russia, Robson was defeated in straight sets. She later attributed her loss to Pervak's greater consistency, and her coach Bok said that \"everybody has to be patient\". After the tournament, Robson started to train with Gil Reyes, the former trainer of Andre Agassi. She was also named the MCC Young Sportswoman of the Year. She claimed the top ranking of ITF Junior Tour in April, despite not playing for two months because of shin splints.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00013",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Early life and junior career"
+        ],
+        "char_start": 0,
+        "char_end": 774,
+        "id": "C13"
+      }
+    },
+    "C15": {
+      "text": "Due to her focusing on her senior career, Robson entered the US Open unseeded. In the first round, she beat Ons Jabeur of Tunisia. She then faced the seventh seed Lauren Embree of the United States and beat her in three sets. She went on to face the 12th seed, Tamaryn Hendler, who she defeated in straight sets. Robson then beat Lauren Davis in the quarterfinals. In her semifinal, she faced Yana Buchina of Russia. Due to rain delay, both quarter- and semifinals were played on the same day. Therefore, the semifinal followed the quarterfinal match. Despite starting strongly, Robson tired, losing the match in three sets.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00015",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Early life and junior career"
+        ],
+        "char_start": 0,
+        "char_end": 624,
+        "id": "C15"
+      }
+    },
+    "C16": {
+      "text": "At the junior singles at the 2010 Australian Open, Robson was unseeded and defeated Belinda Woolcock, Yulia Putintseva, and Cristina Dinu to reach the quarterfinals. In the last eight, she easily overcame American Ester Goldfeld to move through to her fourth junior Grand Slam semifinal where she defeated Kristýna Plíšková of the Czech Republic. She was defeated by Kristýna's twin sister Karolína in the final. In the Wimbledon junior singles she reached the semifinals, losing to Sachie Ishizu of Japan.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00016",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Early life and junior career"
+        ],
+        "char_start": 0,
+        "char_end": 506,
+        "id": "C16"
+      }
+    },
+    "C17": {
+      "text": "Following her victory at Wimbledon, Robson made her debut on the ITF Women's Circuit at a $10k tournament in Limoges, France. She won two matches to qualify for the main draw of the tournament, as well as her first-round match, before having to retire with a shoulder injury in the second round against the second seed Marina Melnikova.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00019",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2008"
+        ],
+        "char_start": 0,
+        "char_end": 336,
+        "id": "C17"
+      }
+    },
+    "C19": {
+      "text": "Her first match on the WTA Tour was courtesy of a wildcard into the Luxembourg Open where she lost in the first round against world No. 42, Iveta Benešová. Returning to the ITF Circuit, Robson entered as the fifth seed in a 10k event held in Sunderland, Tyne and Wear. After beating third seed Laura Ioana Andrei in the quarterfinals, she also beat fellow Brits Tara Moore and Samantha Vickers in straight sets to win her first ITF title at the age of 14 years and 9 months.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00021",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2008"
+        ],
+        "char_start": 0,
+        "char_end": 474,
+        "id": "C19"
+      }
+    },
+    "C24": {
+      "text": "Robson was granted a wildcard in the qualifying draw for the women's singles of the Australian Open. In her first match, she defeated Sophie Ferguson of Australia. In her second match, she lost to Michaëlla Krajicek. Robson, however, received a wildcard into the main draw of the doubles, partnering Sally Peers. They defeated Jill Craybas and Abigail Spears to set up a second-round clash with the 12th seeds Chuang Chia-jung and Květa Peschke, who they beat in straight sets. Peers and Robson won their third-round clash with Vera Dushevina and Anastasia Rodionova to advance to the quarterfinals, before falling to the No. 15 seeds, Maria Kirilenko and Agnieszka Radwańska.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00028",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2010"
+        ],
+        "char_start": 0,
+        "char_end": 676,
+        "id": "C24"
+      }
+    },
+    "C25": {
+      "text": "After the Australian Open, Robson did not play again until the start of April. In her third tournament back, she made the semifinal losing to Edina Gallovits of the ITF event in Dothan, after having to qualify for the main draw. She also played in the doubles, and after reaching the quarterfinals, she reached a career high of No. 102 for doubles. She followed this up with a quarterfinal appearance in Charlottesville losing to Anastasiya Yakimova.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00029",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2010"
+        ],
+        "char_start": 0,
+        "char_end": 450,
+        "id": "C25"
+      }
+    },
+    "C26": {
+      "text": "She then qualified for the main draw of the Aegon Classic in Edgbaston, after receiving a wildcard for the qualifying. She beat Nina Bratchikova and Vitalia Diatchenko. Robson then went on to win her first-ever match on the WTA Tour, after her opponent Stefanie Vögele retired during the second set of their first-round match. She lost to the third seed Yanina Wickmayer in the second round. She also received a wildcard for the Rosmalen Open but was beaten by Dominika Cibulková in the first round.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00030",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2010"
+        ],
+        "char_start": 0,
+        "char_end": 499,
+        "id": "C26"
+      }
+    },
+    "C27": {
+      "text": "She received a wildcard for Wimbledon, and faced fourth seed Jelena Janković to whom she lost in two sets. Robson's next senior level competition was a GB Pro-Series event at Woking. Seeded seventh, her first senior seeding, she reached the quarterfinals. Her next competitive match did not come till the end of August 2010, when she entered the qualifying tournament for the US Open. In the first round she shocked second seed Jelena Dokić. She beat Vesna Manasieva, but lost in the third round to Nuria Llagostera Vives.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00031",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2010"
+        ],
+        "char_start": 0,
+        "char_end": 522,
+        "id": "C27"
+      }
+    },
+    "C30": {
+      "text": "For 2011, Robson hired a new coach, Frenchman Patrick Mouratoglou, and moved her working base to Paris. Her season was disrupted by injury at the Hopman Cup and she did not compete in a tournament until March 2011; her comeback was then delayed for a further month by an injury in her second competition. Returning again at the end of April 2011, Robson's best performance to date came at the 50k tournament at Indian Harbor Beach, Florida, where she reached the semifinals. Robson split from Mouratoglou just before Wimbledon. She then won her first match at a Grand Slam tournament as she defeated Angelique Kerber, but lost to Maria Sharapova in the second round.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00035",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2011"
+        ],
+        "char_start": 0,
+        "char_end": 666,
+        "id": "C30"
+      }
+    },
+    "C31": {
+      "text": "At the US Open, Robson won her three qualifying matches to advance into the main draw. In the first round of the main draw, she was leading when her opponent, Ayumi Morita, retired from the match. She was then beaten by Anabel Medina Garrigues.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00036",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2011"
+        ],
+        "char_start": 0,
+        "char_end": 244,
+        "id": "C31"
+      }
+    },
+    "C32": {
+      "text": "Robson came through three rounds of qualifying at the Australian Open, beating Melanie Oudin, Anna Floris and Olga Savchuk to advance to the main draw for the first time. She lost to 13th seed Jelena Janković in the first round.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00038",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "char_start": 0,
+        "char_end": 228,
+        "id": "C32"
+      }
+    },
+    "C33": {
+      "text": "Robson was selected for the first time in her career to be a member of British Fed Cup team to play in the Europe/Africa Group-1 match at Eilat, Israel, on 1–4 February 2012. In the group stages she played doubles with Heather Watson, defeating pairs from Portugal, Netherlands and Israel in the group stages. Robson and Watson did not need to play the play-off match against Austria as Anne Keothavong and Elena Baltacha won their singles rubbers, and the 2–0 lead qualified the team for a place in the World Group-II promotion play-off in April 2012.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00039",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "char_start": 0,
+        "char_end": 552,
+        "id": "C33"
+      }
+    },
+    "C34": {
+      "text": "Robson lost in the third round of qualifying for the 2012 French Open at Roland Garros. However, she got a place in the first round of the main draw as a lucky loser when Sílvia Soler Espinosa withdrew, but then lost her first-round match to Anabel Medina Garrigues.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00040",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "char_start": 0,
+        "char_end": 266,
+        "id": "C34"
+      }
+    },
+    "C35": {
+      "text": "After a second round showing at the Birmingham Classic (lost to Marina Erakovic), Robson came through qualifying at the Eastbourne International. She reached the second round before losing to Ekaterina Makarova. However, the result helped Robson break into the top 100 for the first time in her career. In the first round of Wimbledon, Robson lost to Francesca Schiavone in three sets.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00041",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "char_start": 0,
+        "char_end": 385,
+        "id": "C35"
+      }
+    },
+    "C38": {
+      "text": "and Max Mirnyi.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00043",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "char_start": 902,
+        "char_end": 917,
+        "id": "C38"
+      }
+    },
+    "C39": {
+      "text": "Robson had direct entry to the main draw of the US Open from her WTA ranking, where she defeated Samantha Crawford in the first round. In the second, she defeated former US Open champion Kim Clijsters in Clijsters' final singles match before her retirement. Robson consequently reached the third round of a major tournament for the first time in her career and joined Serena Williams, Lindsay Davenport, Venus Williams, Amélie Mauresmo and Justine Henin as one of the only six people to beat Clijsters at the US Open championships, and the first player to beat her there since 2003. She followed up her performance with her first victory over a top-ten player, beating ninth seed Li Na in the third round, in three sets. Robson became the first female British tennis player to reach this stage of a Grand Slam tournament since Samantha Smith reached the fourth round of Wimbledon 14 years previously, but she was defeated by defending champion Stosur, ending her best run at a Grand Slam tournament to date",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00044",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "char_start": 0,
+        "char_end": 1006,
+        "id": "C39"
+      }
+    },
+    "C41": {
+      "text": "Her next appearance was at the Guangzhou Open where she beat the then world No. 22, Zheng Jie, and the No. 3 seed Sorana Cîrstea on the way to her first WTA Tour final against Hsieh Su-wei. This was the first WTA singles final for any British woman since Jo Durie in 1990. Robson was eventually defeated, having saved five championship points in the second set and despite taking a 3–0 lead in the third set. The result pushed her ranking inside the top 70 for the first time.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00045",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "char_start": 0,
+        "char_end": 476,
+        "id": "C41"
+      }
+    },
+    "C42": {
+      "text": "Robson qualified for the main draw of the China Open after defeating Garbiñe Muguruza and Johanna Larsson and reached the second round but she lost to Lourdes Domínguez Lino in straight sets. At the Japan Women's Open in Osaka, she was seeded eighth, the first time in her career she had been seeded at a WTA tournament. She reached the quarterfinals before losing to Chang Kai-chen in three sets, but the result ensured that she finished the year with a ranking of 53.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00046",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "char_start": 0,
+        "char_end": 469,
+        "id": "C42"
+      }
+    },
+    "C43": {
+      "text": "In October, Robson was nominated for the Sports Journalists' Association Sportswoman of the Year. In November, along with Heather Watson, won \"Young Sportswoman of the Year\" at the 2012 Sunday Times Sportswomen of the Year Awards. Robson was also nominated for \"WTA Newcomer of the Year\" and William Hill \"Sportswoman of the Year\" in November, winning the former award.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00047",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2012: First WTA Tour final, Olympic mixed doubles silver medalist"
+        ],
+        "char_start": 0,
+        "char_end": 369,
+        "id": "C43"
+      }
+    },
+    "C44": {
+      "text": "At the start of the year, Robson had reached the top 50 for the first time in her career. She followed this up with her first victory at the Australian Open with a convincing straight sets victory over Melanie Oudin. In the second round she played former Wimbledon champion, and fellow left-hander, Petra Kvitová. Robson came back after losing the first set to beat Kvitová in a three-hour match, to set up a third-round meeting with Sloane Stephens. After stopping for several shoulder treatments, Robson was eventually beaten in two sets. After the Australian Open, Robson played six matches in Fed Cup competition that saw Great Britain earn a World Group II play-off spot against Argentina. Following this success, she went on to lose two successive matches, losing to Daniela Hantuchová in Doha and to wildcard Yulia Putintseva in Dubai.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00049",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "char_start": 0,
+        "char_end": 842,
+        "id": "C44"
+      }
+    },
+    "C45": {
+      "text": "At Indian Wells, Robson lost her first-round match against Sofia Arvidsson in three sets. Her next tournament was at Miami. In the singles, Robson reached the second round before losing to Alizé Cornet. In the doubles Laura Robson was given a wildcard to play with Lisa Raymond. The pair reached the final, beating the world No. 1 pairing of Sara Errani and Roberta Vinci, in straight sets in the semifinals, before losing to Nadia Petrova and Katarina Srebotnik.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00050",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "char_start": 0,
+        "char_end": 463,
+        "id": "C45"
+      }
+    },
+    "C46": {
+      "text": "Robson was seeded 16th at Charleston and reached the second round before losing to Eugenie Bouchard in three sets. At the Katowice Open, Robson was seeded eighth, but lost in the first round to Lourdes Domínguez Lino.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00051",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "char_start": 0,
+        "char_end": 217,
+        "id": "C46"
+      }
+    },
+    "C47": {
+      "text": "Robson represented Great Britain in the Fed Cup World Group II play-off against Argentina. After Johanna Konta lost her opening rubber to Paula Ormaechea, Robson easily won her first match over Florencia Molinero. Robson lost her second match against Paula Ormaechea in three sets.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00052",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "char_start": 0,
+        "char_end": 281,
+        "id": "C47"
+      }
+    },
+    "C48": {
+      "text": "After several first-round defeats at the start to the European clay-court season, Robson defeated world No. 4, Agnieszka Radwańska, in the second round of the Madrid Open. She subsequently lost to former world No. 1, Ana Ivanovic, in the next round, having led 5–2 in the final set. Robson then made her debut at the Italian Open where she defeated Venus Williams in the first round but subsequently lost to her sister, world No. 1 and eventual champion, Serena Williams, in the second round. At the French Open Robson was beaten in the first round by former world No. 1, Caroline Wozniacki, in straight sets.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00053",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "char_start": 0,
+        "char_end": 609,
+        "id": "C48"
+      }
+    },
+    "C49": {
+      "text": "To begin the grass-court season, Robson entered the Birmingham Classic where she was seeded seventh. Despite the seeding, she lost in straight sets to the eventual champion Daniela Hantuchová. She then participated in the Eastbourne International. In the first round, she faced Yuliya Beygelzimer in which she won in straight sets. In the second round, she lost to Caroline Wozniacki in straight sets for the second time in a row.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00054",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "char_start": 0,
+        "char_end": 430,
+        "id": "C49"
+      }
+    },
+    "C50": {
+      "text": "In the first round of Wimbledon, she was drawn against tenth seed Maria Kirilenko, whom she beat in straight sets. She beat world No. 117, Mariana Duque, in the second round on Centre Court. In the third round, she came from a set down to beat Marina Erakovic to progress to the last 16 where she was beaten by Kaia Kanepi. Her performance pushed her up to 27 in the world, the first Briton in the top 30 since Jo Durie in 1987.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00055",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "char_start": 0,
+        "char_end": 428,
+        "id": "C50"
+      }
+    },
+    "C51": {
+      "text": "Robson started her US Open Series campaign on 30 July 2013 at the Southern California Open in Carlsbad being drawn against Ayumi Morita, whom she beat having come back from a set down in two hours and 40 minutes. Laura moved into the second round faced with the world No. 7 Petra Kvitová from Czech Republic but lost in straight sets putting an end to her Southern California Open.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00056",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "char_start": 0,
+        "char_end": 381,
+        "id": "C51"
+      }
+    },
+    "C53": {
+      "text": "At the US Open, Robson returned after intensive rehab on her wrist injury and began her campaign against Spain's Lourdes Domínguez Lino, whom she had lost to twice previously. After winning a scrappy first set, Robson powered through the second at love. In the second round, she faced world No. 75 Caroline Garcia, and won in two tight sets. She then fell in straight sets in the next round to Li Na in the same place they had played last year, where Robson had won. The fifth seed Li powered 11 aces to beat her 12-year younger opponent, Robson in straight sets. After a break of around three weeks, Robson returned to action at the Guangzhou Open, a tournament in which she was a finalist the previous year. She started strongly, with straight sets wins over qualifier Jovana Jakšić in the first round, and Zheng Saisai in the second round. She subsequently lost to another Chinese player in Zheng Jie, despite taking the first set 6",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00058",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2013: Career-high ranking"
+        ],
+        "char_start": 0,
+        "char_end": 935,
+        "id": "C53"
+      }
+    },
+    "C56": {
+      "text": "Robson started her 2014 season at the Hobart International, where she had to retire in her first-round match against Yanina Wickmayer due to a left wrist injury. Her wrist continued to affect her at the Australian Open, where Kirsten Flipkens defeated her in straight sets. After taking three-months rest from the tour, Robson underwent surgery on her left wrist in April. The surgery forced her to miss the French Open, Wimbledon and the US Open, and although Robson initially hoped to be playing by the end of the season, she only started training in October, and did not play again in 2014.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00061",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2014–15: Wrist injury, extended absence"
+        ],
+        "char_start": 0,
+        "char_end": 593,
+        "id": "C56"
+      }
+    },
+    "C57": {
+      "text": "Robson did not enter the Australian Open in 2015 and subsequently left the WTA rankings, having not competed for 12 months. Robson planned to return at the 25k tournament at Surprise, Arizona, but delayed her return and did not enter another ITF event in February. She declined a wildcard into the qualifying event of the Miami Open in March. Her agent Eisenbund stated that she had not suffered a setback, and was \"closer and closer\" to a return.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00062",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2014–15: Wrist injury, extended absence"
+        ],
+        "char_start": 0,
+        "char_end": 447,
+        "id": "C57"
+      }
+    },
+    "C58": {
+      "text": "After an absence of a year and a half, Robson's first competitive match was at the qualifying draw of the Eastbourne International when she lost to top-seed Daria Gavrilova, in straight sets. Robson was granted a wildcard to compete at Wimbledon, but she was defeated in the first round by Evgeniya Rodina.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00063",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2014–15: Wrist injury, extended absence"
+        ],
+        "char_start": 0,
+        "char_end": 306,
+        "id": "C58"
+      }
+    },
+    "C59": {
+      "text": "In July 2015, she played at the 50k event in Granby and won a tough three-set match over second seed Naomi Osaka. However, she lost her next match to American qualifier Ellie Halbauer. Robson also reached the final in doubles partnering Erin Routliffe. In Gatineau, she retired from her first-round match, generating fear that her wrist injury had returned, but Robson said that she had been hampered by a stomach strain she had suffered during practice.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00064",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2014–15: Wrist injury, extended absence"
+        ],
+        "char_start": 0,
+        "char_end": 454,
+        "id": "C59"
+      }
+    },
+    "C60": {
+      "text": "After receiving some further surgery on her wrist at the end of 2015, Robson took some more time off from tennis and subsequently missed the Australian Open. She started off the year playing some American Challenger events, with limited success. She made her return to WTA Tour events by using her protected ranking to enter Indian Wells. Here she made a reasonable effort in her first round but lost to Magdaléna Rybáriková who subsequently went on to reach the quarterfinals of the event. She also received a wildcard entry into the main draw of Miami and used her protected ranking to enter into the qualifying of Charleston but lost in the first round at both events.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00066",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2016: Return to tennis, struggle with form"
+        ],
+        "char_start": 0,
+        "char_end": 671,
+        "id": "C60"
+      }
+    },
+    "C61": {
+      "text": "Robson later won her first WTA match since her injury in 2013 by beating Klára Koukalová, 6–2, 6–3 in the qualifying of Stuttgart. However, she lost her next match in qualifying to Océane Dodin in straight sets. She also claimed her first WTA Tour main-draw victory since 2013 in Rabat by defeating local wildcard Ghita Benhadi in straight sets. However, she later lost her next match to Tímea Babos.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00067",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2016: Return to tennis, struggle with form"
+        ],
+        "char_start": 0,
+        "char_end": 400,
+        "id": "C61"
+      }
+    },
+    "C62": {
+      "text": "Robson also used her protected ranking to enter Premier clay events in Madrid and Rome, where she lost her first round matches to Victoria Azarenka and Christina McHale, respectively. She had put on a promising display against Azarenka, but was unable to convert eight out of nine breakpoints, allowing Azarenka to clinch victory in straight sets. Robson was awarded a wildcard into Wimbledon for a second year, but was defeated in 69 minutes by Angelique Kerber in the first round in an error-strewn performance. In August Robson won a second tier ITF tournament in USA. She was then given a wildcard entry to the 2016 US Open qualifying tournament. Straight-set victories over Jang Su-jeong, Isabella Shinikova and Tatjana Maria gained her entry to the main draw of the tournament, losing in the first round to fellow Brit Naomi Broady, 7–6, 3–6, 4–6.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00068",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2016: Return to tennis, struggle with form"
+        ],
+        "char_start": 0,
+        "char_end": 853,
+        "id": "C62"
+      }
+    },
+    "C63": {
+      "text": "After the US Open, Robson lost in the first round in four out of six ITF tournaments, including a loss to a player ranked 1048.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00069",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2016: Return to tennis, struggle with form"
+        ],
+        "char_start": 0,
+        "char_end": 127,
+        "id": "C63"
+      }
+    },
+    "C64": {
+      "text": "Robson began her 2017 season at the Auckland, but lost in the first round of qualifying to Tereza Martincová. At the Australian Open, she also lost in the first round of qualifying to Amandine Hesse, in straight sets. She then played in the 60k tournament at Andrézieux-Bouthéon and reached the quarterfinals, before losing in straight sets to Amra Sadiković. Between the end of January and the beginning of May, Robson reached three quarterfinals on the ITF Circuit. Robson won the biggest title of her career at a 60k Kurume Cup, defeating fellow Briton Katie Boulter, in straight sets. The tournament win moved her up 80 places in the ranking, causing her to reach the top 200 for the first time since 2014.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00071",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2017: Continued struggle with form"
+        ],
+        "char_start": 0,
+        "char_end": 710,
+        "id": "C64"
+      }
+    },
+    "C65": {
+      "text": "At the beginning of her grass-court season, Robson played the 100k event in Surbiton, but lost in the first round to Marina Erakovic. She then played at Nottingham, but fell to Julia Boserup in the first round. She reached the second round of the Ilkley 100k event before falling to Maryna Zanevska in three sets. She received a wildcard for Wimbledon, but lost in the first round to Brazil's Beatriz Haddad Maia.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00072",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2017: Continued struggle with form"
+        ],
+        "char_start": 0,
+        "char_end": 413,
+        "id": "C65"
+      }
+    },
+    "C66": {
+      "text": "She continued to struggle with form throughout the latter half of the season post-Wimbledon, losing eleven matches and winning just seven on the ITF Circuit, including a loss in the first round of the qualifying draw at the US Open to world No. 311, Alla Kudryavtseva.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00073",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2017: Continued struggle with form"
+        ],
+        "char_start": 0,
+        "char_end": 268,
+        "id": "C66"
+      }
+    },
+    "C67": {
+      "text": "Robson was unable to play in the Australian Open qualifying draw as her ranking – at 230 – remained too low to gain direct entry. She did, however, play in the first round of the women's doubles draw with CoCo Vandeweghe, which they lost in straight sets. The following week, she lost in the first round of the Burnie International to world No. 415, Jennifer Elie, but won the doubles title partnering Vania King.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00075",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2018: Hip surgery"
+        ],
+        "char_start": 0,
+        "char_end": 413,
+        "id": "C67"
+      }
+    },
+    "C68": {
+      "text": "In March, Robson teamed up with Fanny Stollár to win the doubles at the ITF event in Yokohama. In July 2018, she underwent hip surgery.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00076",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Professional career",
+          "2018: Hip surgery"
+        ],
+        "char_start": 0,
+        "char_end": 135,
+        "id": "C68"
+      }
+    },
+    "C72": {
+      "text": "Robson played left-handed, with a two-handed backhand. One of her strengths was her \"dominant\" serve. She had a strong game from the back of the court and was also noted for having an aggressive forehand return. However, she has been criticised for having \"poor lateral movement\", as well as an inconsistent second serve, resulting in a considerable number of double faults. She has been praised for showing \"extraordinary poise\", and having \"the attitude and technique required of a leading player\". Commentator Simon Reed said that she \"has every tool she needs\", and former Grand Slam champion Pat Cash called her \"a special talent\" who \"seems to have all the attributes to progress\". Former WTA player Ana Ivanovic said that Robson \"hits the ball really, really hard\", former top British player Samantha Smith said that \"she doesn't have any weaknesses at all\", and Serena Williams stated that Robson is an \"all-around good player\".",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00082",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Playing style"
+        ],
+        "char_start": 0,
+        "char_end": 936,
+        "id": "C72"
+      }
+    },
+    "C73": {
+      "text": "Robson's favourite surface to play on was grass and her favourite shot was her forehand down the line.",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00082",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Playing style"
+        ],
+        "char_start": 937,
+        "char_end": 1039,
+        "id": "C73"
+      }
+    },
+    "C74": {
+      "text": "Result | Year | Location | Surface | Partner | Opponents | Score\nSilver | 2012 | London | Grass | Andy Murray | Victoria Azarenka Max Mirnyi | 6–2, 3–6, [8–10]",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00086",
+        "block_kind": "table",
+        "section_path": [
+          "Career statistics",
+          "Olympic Games final",
+          "Mixed doubles: 1 (silver medal)"
+        ],
+        "char_start": 0,
+        "char_end": 159,
+        "id": "C74"
+      }
+    },
+    "C76": {
+      "text": "Tournament | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | W–L | Win %\nAustralian Open | A | Q2 | A | 1R | 3R | 1R | A | A | Q1 | A | A | 2–3 | 40%\nFrench Open | A | A | A | 1R | 1R | A | A | 1R | A | A | A | 0–3 | 0%\nWimbledon | 1R | 1R | 2R | 1R | 4R | A | 1R | 1R | 1R | A | A | 4–8 | 33%\nUS Open | Q3 | Q3 | 2R | 4R | 3R | A | 1R | 1R | Q1 | A | A | 6–5 | 55%\nWin–loss | 0–1 | 0–1 | 2–2 | 3–4 | 7–4",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00090",
+        "block_kind": "table",
+        "section_path": [
+          "Career statistics",
+          "Grand Slam tournament performance timelines",
+          "Singles"
+        ],
+        "char_start": 0,
+        "char_end": 433,
+        "id": "C76"
+      }
+    },
+    "C77": {
+      "text": "| 0–1 | 0–2 | 0–3 | 0–1 | 0–0 | 0–0 | 12–19 | 38%",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00090",
+        "block_kind": "table",
+        "section_path": [
+          "Career statistics",
+          "Grand Slam tournament performance timelines",
+          "Singles"
+        ],
+        "char_start": 434,
+        "char_end": 483,
+        "id": "C77"
+      }
+    },
+    "C78": {
+      "text": "Result | No. | Date | Tournament | Surface | Opponent | Score\nWin | 1 | 3 July 2008 | Wimbledon | Grass | Noppawan Lertcheewakarn | 6–3, 3–6, 6–1\nLoss | 1 | 31 January 2009 | Australian Open | Hard | Ksenia Pervak | 3–6, 1–6\nLoss | 2 | 30 January 2010 | Australian Open | Hard | Karolína Plíšková | 1–6, 6–7(5–7)",
+      "source": {
+        "page_id": 18288707,
+        "title": "Laura Robson",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson&oldid=1371472970",
+        "revision_id": 1371472970,
+        "block_id": "B00093",
+        "block_kind": "table",
+        "section_path": [
+          "Career statistics",
+          "Junior Grand Slam finals",
+          "Singles (1–2)"
+        ],
+        "char_start": 0,
+        "char_end": 312,
+        "id": "C78"
+      }
+    },
+    "C81": {
+      "text": "Laura Robson won her first Olympic medal at the 2012 Summer Olympics in mixed doubles alongside Andy Murray. At the 2012 US Open, she recorded the two biggest wins of her career over former Grand Slam champions Li Na and Kim Clijsters, before falling in the fourth round to Samantha Stosur. Robson reached her first WTA Tour singles final that same year in Guangzhou, losing to Hsieh Su-wei.",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00004",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career achievements"
+        ],
+        "char_start": 0,
+        "char_end": 391,
+        "id": "C81"
+      }
+    },
+    "C82": {
+      "text": "In 2013, Robson gained much praise by defeating Petra Kvitová in the second round Australian Open 11–9 in the deciding set, in a marathon match. At Madrid, Robson gained the first top four victory of her career, upsetting world No. 4, Agnieszka Radwańska, in the second round in straight sets, losing just four games. She subsequently lost to former world No. 1, Ana Ivanovic, in the following round, after having led 5–2 in the final set. At Wimbledon, she reached the fourth round as the home favorite, coming back from 1–6, 2–5 down to win her third-round match. At the US Open, Robson was seeded at a major event for the first time, at 30.",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00005",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career achievements"
+        ],
+        "char_start": 0,
+        "char_end": 643,
+        "id": "C82"
+      }
+    },
+    "C83": {
+      "text": "Over her career, Robson has claimed one ITF title. On the ITF Junior Circuit, she won the Wimbledon Championships in 2008 and finished runner-up at the Australian Open 2009 and 2010.",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00006",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career achievements"
+        ],
+        "char_start": 0,
+        "char_end": 182,
+        "id": "C83"
+      }
+    },
+    "C86": {
+      "text": "Tournament | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | SR | W–L | Win %\nGrand Slam tournaments\nAustralian Open | A | Q2 | A | 1R | 3R | 1R | A | A | Q1 | A | A | 0 / 3 | 2–3 | 40%\nFrench Open | A | A | A | 1R | 1R | A | A | 1R | A | A | A | 0 / 3 | 0–3 | 0%\nWimbledon | 1R | 1R | 2R | 1R | 4R | A | 1R | 1R | 1R | A | A | 0 / 8 | 4–8 | 33%\nUS Open | Q3 | Q3 | 2R | 4R | 3R | A | 1R | 1R | Q1 | A | A | 0 / 5 | 6–5 | 55%\nWin",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00010",
+        "block_kind": "table",
+        "section_path": [
+          "Singles performance timeline"
+        ],
+        "char_start": 0,
+        "char_end": 458,
+        "id": "C86"
+      }
+    },
+    "C87": {
+      "text": "–loss | 0–1 | 0–1 | 2–2 | 3–4 | 7–4 | 0–1 | 0–2 | 0–3 | 0–1 | 0–0 | 0–0 | 0 / 19 | 12–19 | 38%\nNational representation\nSummer Olympics | NH | 2R | NH | A | NH | 0 / 1 | 1–1 | 50%\nPremier M & Premier 5\nDubai / Qatar Open | A | A | A | Q1 | 1R | A | A | A | A | A | A | 0 / 1 | 0–1 | 0%\nIndian Wells Open | A | A | A | Q1 | 1R | A | A | 1R | A | A | A | 0 / 2 | 0–2 | 0%\nMiami Open | A | A | A | Q2 | 2R | A | A | 1R | A | A | A | 0 / 2 | 1",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00010",
+        "block_kind": "table",
+        "section_path": [
+          "Singles performance timeline"
+        ],
+        "char_start": 458,
+        "char_end": 896,
+        "id": "C87"
+      }
+    },
+    "C88": {
+      "text": "–2 | 33%\nMadrid Open | A | A | A | A | 3R | A | A | 1R | A | A | A | 0 / 2 | 2–2 | 50%\nItalian Open | A | A | A | A | 2R | A | A | Q1 | A | A | A | 0 / 1 | 1–1 | 50%\nCincinnati Open | A | A | Q1 | Q2 | A | A | A | A | A | A | A | | 0–0 | 0%\nChina Open | A | A | 1R | 2R | 2R | A | A | A | A | A | A | | 2–3 | 40%\nCareer statistics\nTitles | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | Career total: 0\nFinals | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 |",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00010",
+        "block_kind": "table",
+        "section_path": [
+          "Singles performance timeline"
+        ],
+        "char_start": 896,
+        "char_end": 1344,
+        "id": "C88"
+      }
+    },
+    "C89": {
+      "text": "0 | Career total: 1\nYear-end ranking | 419 | 206 | 131 | 53 | 46 | 951 | 558 | 219 | 251 | 435 | — |",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00010",
+        "block_kind": "table",
+        "section_path": [
+          "Singles performance timeline"
+        ],
+        "char_start": 1345,
+        "char_end": 1445,
+        "id": "C89"
+      }
+    },
+    "C101": {
+      "text": "Result | Year | Tournament | Surface | Opponent | Score\nWin | 2008 | Wimbledon | Grass | Noppawan Lertcheewakarn | 6–3, 3–6, 6–1\nLoss | 2009 | Australian Open | Hard | Ksenia Pervak | 3–6, 1–6\nLoss | 2010 | Australian Open | Hard | Karolína Plíšková | 1–6, 6–7(5–7)",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00031",
+        "block_kind": "table",
+        "section_path": [
+          "ITF Junior finals",
+          "Grand Slam tournaments",
+          "Singles: 3 (1 title, 2 runner-ups)"
+        ],
+        "char_start": 0,
+        "char_end": 265,
+        "id": "C101"
+      }
+    },
+    "C107": {
+      "text": "# | Player | Rank | Event | Surface | Rd | Score\n2012\n1. | Li Na | No. 8 | US Open | Hard | 3R | 6–4, 6–7(5–7), 6–2\n2013\n2. | Petra Kvitová | No. 8 | Australian Open | Hard | 2R | 2–6, 6–3, 11–9\n3. | Agnieszka Radwańska | No. 4 | Madrid Open | Clay | 2R | 6–3, 6–1\n4. | Maria Kirilenko | No. 10 | Wimbledon | Grass | 1R | 6–3, 6–4",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00039",
+        "block_kind": "table",
+        "section_path": [
+          "Top-10 wins per season"
+        ],
+        "char_start": 0,
+        "char_end": 330,
+        "id": "C107"
+      }
+    },
+    "C102": {
+      "text": "Great Britain Fed Cup team",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00033",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Fed Cup participation"
+        ],
+        "char_start": 0,
+        "char_end": 26,
+        "id": "C102"
+      }
+    },
+    "C103": {
+      "text": "Edition | Round | Date | Location | Against | Surface | Opponent | W/L | Score\n2012 Fed Cup | WG II PO | Apr 2012 | Borås (SWE) | Sweden | Hard (i) | Sofia Arvidsson | L | 4–6, 6–1, 3–6\n2013 Fed Cup | ZG I RR | Feb 2013 | Eilat (ISR) | Portugal | Hard | Margarida Moura | W | 6–2, 6–1\nHungary | Gréta Arn | W | 0–6, 6–2, 6–1\nZG I PO | Eilat (ISR) | Bulgaria | Hard | Dia Evtimova | W | 6–0, 6–4\nWG II PO | Apr 2013 | Buenos Aires (ARG) | Argentina | Clay | Florencia Molinero | W | 6–1, 6–1\nPaula Ormaechea | L | 4–6,",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00035",
+        "block_kind": "table",
+        "section_path": [
+          "Fed Cup participation",
+          "Singles (4–2)"
+        ],
+        "char_start": 0,
+        "char_end": 517,
+        "id": "C103"
+      }
+    },
+    "C105": {
+      "text": "Edition | Round | Date | Location | Against | Surface | Partner | Opponents | W/L | Score\n2012 Fed Cup | ZG I RR | Feb 2012 | Eilat (ISR) | Portugal | Hard | Heather Watson | Maria João Koehler Michelle Larcher de Brito | W | 7–5, 6–0\nNetherlands | Kiki Bertens Bibiane Schoofs | W | 7–5, 7–6(7–5)\nIsrael | Julia Glushko Keren Shlomo | W | 6–2, 6–1\n2013 Fed Cup | ZG I RR | Feb 2013 | Eilat (ISR) | Bosnia and Herzegovina | Hard | Johanna Konta | Jasmina Kajtazovič Jelena Simić | W | 6–0, 6–0\nPortugal | Heather Watson | Michelle Larcher de Brito Joana Valle Costa | W | 6–2, 6–1\nHungary |",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00037",
+        "block_kind": "table",
+        "section_path": [
+          "Fed Cup participation",
+          "Doubles (9–1)"
+        ],
+        "char_start": 0,
+        "char_end": 590,
+        "id": "C105"
+      }
+    },
+    "C106": {
+      "text": "Johanna Konta | Tímea Babos Katalin Marosi | L | 4–6, 6–2, 2–6\n2017 Fed Cup | ZG I RR | Feb 2017 | Tallinn (EST) | Portugal | Hard (i) | Jocelyn Rae | Michelle Larcher de Brito Inês Murta | W | 6–2, 6–3\nLatvia | Jocelyn Rae | Diāna Marcinkēviča Daniela Vismane | W | 6–0, 6–7(2–7), 6–2\nTurkey | Jocelyn Rae | Ayla Aksu Pemra Özgen | W | 6–2, 6–2\nWG II PO | Apr 2017 | Constanța (ROU) | Romania | Clay | Jocelyn Rae | Simona HalepMonica Niculescu | W | 6–3, 1–6, [10–8]",
+      "source": {
+        "page_id": 38471643,
+        "title": "Laura Robson career statistics",
+        "url": "https://en.wikipedia.org/wiki/Laura_Robson_career_statistics",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Laura_Robson_career_statistics&oldid=1363104820",
+        "revision_id": 1363104820,
+        "block_id": "B00037",
+        "block_kind": "table",
+        "section_path": [
+          "Fed Cup participation",
+          "Doubles (9–1)"
+        ],
+        "char_start": 591,
+        "char_end": 1059,
+        "id": "C106"
+      }
+    },
+    "C143": {
+      "text": "S. Robson Walton (born 1944), eldest son of Sam Walton",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00015",
+        "block_kind": "list_item",
+        "section_path": [
+          "People",
+          "Given name"
+        ],
+        "char_start": 0,
+        "char_end": 54,
+        "id": "C143"
+      }
+    },
+    "C139": {
+      "text": "Robson de Souza, (born 1984), Brazilian football player, better known as Robinho",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00011",
+        "block_kind": "list_item",
+        "section_path": [
+          "People",
+          "Given name"
+        ],
+        "char_start": 0,
+        "char_end": 80,
+        "id": "C139"
+      }
+    },
+    "C140": {
+      "text": "Robson Alves da Silva (born 1986), Brazilian football player for Gold Coast United",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00012",
+        "block_kind": "list_item",
+        "section_path": [
+          "People",
+          "Given name"
+        ],
+        "char_start": 0,
+        "char_end": 82,
+        "id": "C140"
+      }
+    },
+    "C141": {
+      "text": "Robson Severino da Silva (born 1983), Brazilian football player for Waasland-Beveren",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00013",
+        "block_kind": "list_item",
+        "section_path": [
+          "People",
+          "Given name"
+        ],
+        "char_start": 0,
+        "char_end": 84,
+        "id": "C141"
+      }
+    },
+    "C142": {
+      "text": "Robson Vaz Shimabuku (born 1988), Brazilian football player",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00014",
+        "block_kind": "list_item",
+        "section_path": [
+          "People",
+          "Given name"
+        ],
+        "char_start": 0,
+        "char_end": 59,
+        "id": "C142"
+      }
+    },
+    "C144": {
+      "text": "Robson, British Columbia, a small community",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00017",
+        "block_kind": "list_item",
+        "section_path": [
+          "Places"
+        ],
+        "char_start": 0,
+        "char_end": 43,
+        "id": "C144"
+      }
+    },
+    "C145": {
+      "text": "Robson, West Virginia, an unincorporated village in Fayette County, West Virginia, United States",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00018",
+        "block_kind": "list_item",
+        "section_path": [
+          "Places"
+        ],
+        "char_start": 0,
+        "char_end": 96,
+        "id": "C145"
+      }
+    },
+    "C146": {
+      "text": "Mount Robson, a mountain in the Canadian Rockies",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00019",
+        "block_kind": "list_item",
+        "section_path": [
+          "Places"
+        ],
+        "char_start": 0,
+        "char_end": 48,
+        "id": "C146"
+      }
+    },
+    "C147": {
+      "text": "Robson Square, landmark civic centre and public plaza in Vancouver, British Columbia",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00020",
+        "block_kind": "list_item",
+        "section_path": [
+          "Places"
+        ],
+        "char_start": 0,
+        "char_end": 84,
+        "id": "C147"
+      }
+    },
+    "C148": {
+      "text": "Robson Street, Vancouver, British Columbia",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00021",
+        "block_kind": "list_item",
+        "section_path": [
+          "Places"
+        ],
+        "char_start": 0,
+        "char_end": 42,
+        "id": "C148"
+      }
+    },
+    "C149": {
+      "text": "Robson Arms, a Canadian television series",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00023",
+        "block_kind": "list_item",
+        "section_path": [
+          "See also"
+        ],
+        "char_start": 0,
+        "char_end": 41,
+        "id": "C149"
+      }
+    },
+    "C150": {
+      "text": "Robson flash memory, a technology from Intel to boost computer startup",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00024",
+        "block_kind": "list_item",
+        "section_path": [
+          "See also"
+        ],
+        "char_start": 0,
+        "char_end": 70,
+        "id": "C150"
+      }
+    },
+    "C151": {
+      "text": "Prince George-Mount Robson, a provincial electoral district",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00025",
+        "block_kind": "list_item",
+        "section_path": [
+          "See also"
+        ],
+        "char_start": 0,
+        "char_end": 59,
+        "id": "C151"
+      }
+    },
+    "C152": {
+      "text": "Robson & Jerome, an English pop duo",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00026",
+        "block_kind": "list_item",
+        "section_path": [
+          "See also"
+        ],
+        "char_start": 0,
+        "char_end": 35,
+        "id": "C152"
+      }
+    },
+    "C153": {
+      "text": "Robson Rotation, a method of printing ballots",
+      "source": {
+        "page_id": 2651745,
+        "title": "Robson",
+        "url": "https://en.wikipedia.org/wiki/Robson",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Robson&oldid=1211069583",
+        "revision_id": 1211069583,
+        "block_id": "B00027",
+        "block_kind": "list_item",
+        "section_path": [
+          "See also"
+        ],
+        "char_start": 0,
+        "char_end": 45,
+        "id": "C153"
+      }
+    },
+    "C154": {
+      "text": "Gary Robson\nRobson in 2015\nPersonal information\nNickname | \"Big Robbo\"\nBorn | (1967-06-19) 19 June 1967 Cramlington, England\nHome town | Rothbury, England\nSport\nSport | Darts\nPlaying since | 1984\nDarts | 22g Gary Robson g force darts\nLaterality | Right-handed\nWalk-on music | \"Follow the Leader\" by The Soca Boys\nOrganisation (see split in darts)\nBDO | 1995–2020\nWDF | 1995–\nCurrent world ranking | (WDF) NR (17 August 2026)\nWDF major events – best performances\nWorld Championship | Quarter Final: 2007, 2009, 2011\nWorld Masters | Quarter Final: 2005, 2011, 2014, 2018\nWorld Trophy | Winner (1): 2005\nInt. Darts League | Quarter Final: 2007\nFinder Masters | Runner Up: 2014\nPDC premier events – best performances\nGrand Slam | Group Stage: 2018\nOther tournament wins\nTournament | Years\nEngland Masters England National Ch'ships England Open Granite City Open Isle of",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00001",
+        "block_kind": "infobox",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 865,
+        "id": "C154"
+      }
+    },
+    "C155": {
+      "text": "Man Open Police Masters Scottish Open | 2014 2011, 2016 2011 2013 2007 2012 2024\nOther achievements\n2011 Garioch Masters 2010, 2011 Tyne and Wear Open 2009 West Brabant Open",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00001",
+        "block_kind": "infobox",
+        "section_path": [],
+        "char_start": 866,
+        "char_end": 1039,
+        "id": "C155"
+      }
+    },
+    "C156": {
+      "text": "Gary \"Big Robbo\" Robson (born 19 June 1967) is an English professional darts player who plays in World Darts Federation events.",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00002",
+        "block_kind": "paragraph",
+        "section_path": [],
+        "char_start": 0,
+        "char_end": 127,
+        "id": "C156"
+      }
+    },
+    "C157": {
+      "text": "Robson qualified twice for the World Championships, but was beaten in the first round on each occasion. He made it for a third time in 2004, but found himself 2–0 down in sets against Steve Coote. However, Robson recovered and took the match to a sudden death deciding leg, which he won. Robson then lost to Tony O'Shea in the second round.",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00004",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career"
+        ],
+        "char_start": 0,
+        "char_end": 340,
+        "id": "C157"
+      }
+    },
+    "C158": {
+      "text": "Robson's biggest tournament win so far was at the World Darts Trophy in Utrecht, Netherlands. He beat Mervyn King 6–4 in the 2005 final.",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00005",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career"
+        ],
+        "char_start": 0,
+        "char_end": 136,
+        "id": "C158"
+      }
+    },
+    "C159": {
+      "text": "Robson had to wait until 2007 to win another match at the World Championship, but his opponent for that match was pre-tournament favourite Michael van Gerwen. Robson won 3–2. Robson did not have to wait long for his next win, as he made the quarter-finals for the first time in his career with a 4–3 win over former champion John Walton, having been 3–1 down. Robson could have had a nine-dart leg, but missed his seventh treble. However, his run was ended by Dutchman Niels de Ruiter. Robson led 2–0 and 4–2 but ended up losing 5–4.",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00006",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career"
+        ],
+        "char_start": 0,
+        "char_end": 533,
+        "id": "C159"
+      }
+    },
+    "C160": {
+      "text": "Robson returned to the World Championship in 2008 where he was drawn against 2002 World Champion, Tony David. This was Robson's only win at the 2008 World Championship, as in the second round he came up against Darryl Fitton. Fitton averaged over 100 in a 4–0 victory.",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00007",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career"
+        ],
+        "char_start": 0,
+        "char_end": 268,
+        "id": "C160"
+      }
+    },
+    "C161": {
+      "text": "In the 2009 World Championship, Robson reached the quarter-final for the second time, beating Stephen Bunting and Martin Atkins before losing to Martin Adams. 2009 was not a good year for Robson as a whole and as a result, he was forced to qualify for the 2010 Lakeside World Championship.",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00008",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career"
+        ],
+        "char_start": 0,
+        "char_end": 289,
+        "id": "C161"
+      }
+    },
+    "C162": {
+      "text": "Robson lost 3–0 in a first round clash with 2009 champion and 5th seed Ted Hankey at the 2010 BDO World Championship. The next year, Robson was seeded once more and advanced through to the quarter-finals for a third time by defeating Steve Douglas and Dave Chisnall for the loss of just one set. He then led Martin Phillips 3–1 but was defeated 5–4.",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00009",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career"
+        ],
+        "char_start": 0,
+        "char_end": 349,
+        "id": "C162"
+      }
+    },
+    "C163": {
+      "text": "Robson was knocked out of the 2012 World Championships in the first round losing 3–0 to Steve Douglas. In 2013, he lost in the first round to Garry Thompson.",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00010",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career"
+        ],
+        "char_start": 0,
+        "char_end": 157,
+        "id": "C163"
+      }
+    },
+    "C164": {
+      "text": "He competed for a tour card at the 2020 Q school in an attempt to join the Professional Darts Corporation, however he finished 164th and failed to win a tour card.",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00012",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Career",
+          "PDC"
+        ],
+        "char_start": 0,
+        "char_end": 163,
+        "id": "C164"
+      }
+    },
+    "C165": {
+      "text": "2001: 1st round (lost to Raymond van Barneveld 1–3)",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00015",
+        "block_kind": "list_item",
+        "section_path": [
+          "World Championship results",
+          "BDO"
+        ],
+        "char_start": 0,
+        "char_end": 51,
+        "id": "C165"
+      }
+    },
+    "C166": {
+      "text": "2003: 1st round (lost to Robert Wagner 1–3)",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00016",
+        "block_kind": "list_item",
+        "section_path": [
+          "World Championship results",
+          "BDO"
+        ],
+        "char_start": 0,
+        "char_end": 43,
+        "id": "C166"
+      }
+    },
+    "C167": {
+      "text": "2004: 2nd round (lost to Tony O'Shea 2–3)",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00017",
+        "block_kind": "list_item",
+        "section_path": [
+          "World Championship results",
+          "BDO"
+        ],
+        "char_start": 0,
+        "char_end": 41,
+        "id": "C167"
+      }
+    },
+    "C168": {
+      "text": "2005: 1st round (lost to Darryl Fitton 1–3)",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00018",
+        "block_kind": "list_item",
+        "section_path": [
+          "World Championship results",
+          "BDO"
+        ],
+        "char_start": 0,
+        "char_end": 43,
+        "id": "C168"
+      }
+    },
+    "C169": {
+      "text": "2006: 1st round (lost to Gary Anderson 1–3)",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00019",
+        "block_kind": "list_item",
+        "section_path": [
+          "World Championship results",
+          "BDO"
+        ],
+        "char_start": 0,
+        "char_end": 43,
+        "id": "C169"
+      }
+    },
+    "C170": {
+      "text": "2007: Quarter-finals (lost to Niels de Ruiter 4–5)",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00020",
+        "block_kind": "list_item",
+        "section_path": [
+          "World Championship results",
+          "BDO"
+        ],
+        "char_start": 0,
+        "char_end": 50,
+        "id": "C170"
+      }
+    },
+    "C183": {
+      "text": "Outcome | No. | Year | Championship | Opponent in the final | Score\nWinner | 1. | 2005 | World Darts Trophy | Mervyn King | 6–4 (s)\nRunner-up | 1. | 2014 | Zuiderduin Masters | Jamie Hughes | 0–5 (s)",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00035",
+        "block_kind": "table",
+        "section_path": [
+          "Career finals",
+          "BDO major finals: 2 (1 title, 1 runner-up)"
+        ],
+        "char_start": 0,
+        "char_end": 199,
+        "id": "C183"
+      }
+    },
+    "C184": {
+      "text": "Tournament | 1995 | 1996 | 1997 | 1998 | 1999 | 2000 | 2001 | 2002 | 2003 | 2004 | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020\nBDO World Championship | DNQ | 1R | DNQ | 1R | 2R | 1R | 1R | QF | 2R | QF | 1R | QF | 1R | 1R | 2R | 2R | 1R | DNQ | 1R | 1R | 1R\nBDO World Trophy | Not held | SF | 2R | DNQ | 1R | 1R | NH\nInternational Darts League | Not held | RR | RR | RR | RR | QF | Not held\nWorld Darts Trophy | Not held | DNQ | QF | 2R | W | 1R | RR | Not held\nWinmau World Masters |",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00037",
+        "block_kind": "table",
+        "section_path": [
+          "Performance timeline"
+        ],
+        "char_start": 0,
+        "char_end": 550,
+        "id": "C184"
+      }
+    },
+    "C185": {
+      "text": "1R | DNQ | 2R | DNQ | 1R | 1R | QF | 3R | 6R | 6R | 5R | 5R | QF | 6R | 6R | QF | 5R | 4R | 4R | QF | DNQ | NH\nFinder Darts Masters | Not held | DNP | RR | RR | NH | SF | QF | SF | QF | RR | DNP | QF | F | RR | DNP | NH\nGrand Slam of Darts | Not held | DNQ | RR | DNQ",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00037",
+        "block_kind": "table",
+        "section_path": [
+          "Performance timeline"
+        ],
+        "char_start": 551,
+        "char_end": 818,
+        "id": "C185"
+      }
+    },
+    "C186": {
+      "text": "Key",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00038",
+        "block_kind": "paragraph",
+        "section_path": [
+          "Performance timeline"
+        ],
+        "char_start": 0,
+        "char_end": 3,
+        "id": "C186"
+      }
+    },
+    "C187": {
+      "text": "Performance Table Legend\nW | Won the tournament | F | Finalist | SF | Semifinalist | QF | Quarterfinalist | #R RR L# | Lost in # round Round-robin Last # stage | DQ | Disqualified\nDNQ | Did not qualify | DNP | Did not participate | WD | Withdrew | NH | Tournament not held | NYF | Not yet founded",
+      "source": {
+        "page_id": 8857643,
+        "title": "Gary Robson (darts player)",
+        "url": "https://en.wikipedia.org/wiki/Gary_Robson_(darts_player)",
+        "revision_url": "https://en.wikipedia.org/w/index.php?title=Gary_Robson_%28darts_player%29&oldid=1381551113",
+        "revision_id": 1381551113,
+        "block_id": "B00039",
+        "block_kind": "table",
+        "section_path": [
+          "Performance timeline"
+        ],
+        "char_start": 0,
+        "char_end": 296,
+        "id": "C187"
+      }
+    }
+  },
+  "tokenization": {
+    "raw_prompt_tokens": 15344,
+    "token_ids_sha256": "df668613e996f3e49cc693be7c70e38c793dd75e6f48ed9bd34d95a4e058b204",
+    "prompt_sha256": "8b650fcf6ff5fae0ae746a8f14f610db286796da411736d9b2fbe084f3317f80",
+    "tokenizer_process": 79967,
+    "tokenizer_url": "http://127.0.0.1:52251/tokenize",
+    "tokenizer_options": {
+      "add_special": false,
+      "parse_special": true
+    }
+  },
+  "expected_prompt_tokens": 15354,
+  "context": 20480,
+  "consistent": true,
+  "wall_seconds": 93.87727929099992
+}

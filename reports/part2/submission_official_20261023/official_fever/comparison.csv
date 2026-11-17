@@ -1,0 +1,8 @@
+model,origin,n,label_accuracy,fever_score,classification_macro_f1
+claim_only_H2,local frozen evaluation,19998,0.5878087808780879,0.12226222622262226,0.5775470145550188
+retrieved_roberta,local frozen evaluation,19998,0.5237023702370237,0.35068506850685066,0.41749771239735556
+calibrated_ensemble,local frozen evaluation,19998,0.6169616961696169,0.4532953295329533,0.6077983147796523
+GEAR,published Dev reference; not rerun,19998,0.7484,0.7069,
+KGAT_BERT_Base_ESIM,published Dev reference; not rerun,19998,0.7551,0.7161,
+KGAT_BERT_Base,published Dev reference; not rerun,19998,0.7802,0.7588,
+KGAT_RoBERTa_Large,published Dev reference; not rerun,19998,0.7829,0.7611,

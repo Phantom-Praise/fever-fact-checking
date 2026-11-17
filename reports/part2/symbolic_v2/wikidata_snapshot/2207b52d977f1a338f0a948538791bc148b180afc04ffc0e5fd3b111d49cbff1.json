@@ -1,0 +1,387 @@
+{
+  "params": {
+    "action": "wbgetentities",
+    "ids": "Q108672547",
+    "props": "claims|labels|aliases",
+    "languages": "en"
+  },
+  "response": {
+    "entities": {
+      "Q108672547": {
+        "type": "item",
+        "id": "Q108672547",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "Grace Jones"
+          }
+        },
+        "aliases": {},
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "5963e3cad5eee4ae1cffbefbac15327800b9a7e6",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 7725634,
+                    "id": "Q7725634"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q108672547$650bdd9a-9404-4cc0-8466-592fbc8f4d71",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "32b3e8863fc9d32414889ff42e0768bf790eec48",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "3e1de2c5b9383a5d0f78aae603f09eb0c7a93581",
+                        "datavalue": {
+                          "value": "http://www.caineprize.com/the-winner-1",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                },
+                {
+                  "hash": "8d05bcb31c816154b4f0abbd0df7188ed40cd90f",
+                  "snaks": {
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "d09d8451316364d839fef116aed9f3f3379297b1",
+                        "datavalue": {
+                          "value": "https://en.wikipedia.org/wiki/Grace_Jones_(short_story)",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "fe1b034ca069e08f52b0bef947269a4527fb322c",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2026-09-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P4656",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P495": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P495",
+                "hash": "03e395f665a62ed18cb75f67859dca8a271bfbbb",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1033,
+                    "id": "Q1033"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q108672547$05C38B71-6AD3-4F85-987F-31B1132C2120",
+              "rank": "normal"
+            }
+          ],
+          "P407": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P407",
+                "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1860,
+                    "id": "Q1860"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q108672547$8E9D460E-A902-4DA4-A38B-C84EB7159B50",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "c714a7527249ce9e76f21010551a0b012eeed366",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 328,
+                            "id": "Q328"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "1518d273675e6a0a0f1ec7ea11bfccccdb8dc838",
+                        "datavalue": {
+                          "value": "https://en.wikipedia.org/w/index.php?title=Grace_Jones_(short_story)&oldid=1240686977",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143",
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P7937": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P7937",
+                "hash": "344234eea01922b15b8a31c77de8bfa2caa8a8aa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 49084,
+                    "id": "Q49084"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q108672547$cd87693c-4ba8-ecbe-7c60-891a6125d075",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "464c75291100d15fbb3ae289fb560717be2ced61",
+                  "snaks": {
+                    "P4656": [
+                      {
+                        "snaktype": "value",
+                        "property": "P4656",
+                        "hash": "d09d8451316364d839fef116aed9f3f3379297b1",
+                        "datavalue": {
+                          "value": "https://en.wikipedia.org/wiki/Grace_Jones_(short_story)",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P4656"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1476": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1476",
+                "hash": "3482db6f1615eb21608ce65de7aee08ce66cad4c",
+                "datavalue": {
+                  "value": {
+                    "text": "Grace Jones",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q108672547$c367e6ba-45a2-a90c-36ed-1b749b72fc40",
+              "rank": "normal"
+            }
+          ],
+          "P50": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P50",
+                "hash": "80a126efa0d80b3ccfc4225f8f1d11039f75ad45",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 59967478,
+                    "id": "Q59967478"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q108672547$44485942-4f7a-d8e1-b1a1-fbf680e08d82",
+              "rank": "normal"
+            }
+          ],
+          "P136": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P136",
+                "hash": "b10801a687623ff01ccfb45e24fdc6f7f30a2f5c",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 676,
+                    "id": "Q676"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q108672547$5e06dcdb-4ac6-6737-ab9a-2138c78abd6f",
+              "rank": "normal"
+            }
+          ],
+          "P577": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P577",
+                "hash": "f62076b84573f05500321ef280c21c3e90f38c41",
+                "datavalue": {
+                  "value": {
+                    "time": "+2019-00-00T00:00:00Z",
+                    "timezone": 0,
+                    "before": 0,
+                    "after": 0,
+                    "precision": 9,
+                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                  },
+                  "type": "time"
+                },
+                "datatype": "time"
+              },
+              "type": "statement",
+              "id": "Q108672547$f83c97e0-4593-b267-177c-137fef9f3f9e",
+              "rank": "normal"
+            }
+          ],
+          "P166": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P166",
+                "hash": "973fb56115d170c958f92b8b41c779e6b01bf7bc",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 1025887,
+                    "id": "Q1025887"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P585": [
+                  {
+                    "snaktype": "value",
+                    "property": "P585",
+                    "hash": "09f85c089438e099c1cd33998f5c59a57729afd2",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2020-00-00T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 9,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P585"
+              ],
+              "id": "Q108672547$90560c10-421d-c20e-9468-77d96b9d3e96",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "58b32a7b36cff03f63904a61d2b6c9debb10853e",
+                  "snaks": {
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "94aaf32cf69d54969b8fa0e9dcdc54a9596a25d9",
+                        "datavalue": {
+                          "value": "https://lithub.com/nigerian-british-writer-irenosen-okojie-has-won-the-caine-prize-for-a-story-about-a-grace-jones-impersonator/",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P854"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:29:00.340377+00:00"
+}

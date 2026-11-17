@@ -1,0 +1,13 @@
+{
+  "per_label": 10,
+  "n": 30,
+  "selection": "First n claims of each gold class within the existing first-100 validation artifact; gold used only for sampling.",
+  "limitations": [
+    "Balanced pilot prevalence differs from full FEVER.",
+    "Development sample; not a held-out test."
+  ],
+  "input_sha256": {
+    "data/processed/retrieved/validation_first_100_top5_title_fast.jsonl": "53f48709f6670c33f036c6bb4f1f1b1bb378d199a5f0aa55d179ab639d6edd18",
+    "reports/part2/paired/predictions.csv": "704cae7e68603bbbd810d1dadb83844aee93ceb13e4b6d0fdbcb29fda80314bf"
+  }
+}

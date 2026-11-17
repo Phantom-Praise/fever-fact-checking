@@ -1,0 +1,349 @@
+{
+  "id": 4751,
+  "claim": "Same-sex marriage is legal in the American territory",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.05402534455060959,
+    0.9456819295883179,
+    0.00029273194377310574
+  ],
+  "logits": [
+    0.39669376611709595,
+    3.2591466903686523,
+    -4.8212571144104
+  ],
+  "inference_seconds": 0.109798167000001,
+  "evidence_text": "Legal status of same-sex marriage LGBT rights by country or territory They are also available in parts of the United States (Arizona, California, Colorado, Hawaii, Illinois, New Jersey, Nevada and Oregon) and Canada. Status of same-sex marriage The American Anthropological Association stated on 26 February 2004: Sweden, but was phased out in 2013. In the United States, transgender and intersex marriages was subject to legal complications. As definitions and enforcement of marriage are defined by the states, these complications vary from state to state, as some of them prohibit legal changes of gender. The summary table below lists the jurisdictions which have legalized same-sex marriage, in chronological order. As of 2025, 38 states have legalized in some capacity. There are differing positions regarding the manner in which same-sex marriage has been introduced into democratic jurisdictions. A \"majority rules\" position holds that same-sex marriage is valid, or void and illegal, based upon whether it has been accepted by a simple majority of voters or of their elected representatives. As of 2026, Bermuda is the first and only jurisdiction in the world that formally legalized same-sex marriage and where that legalization is now repealed. 1998, and by constitutional amendment in June 2006. Same-sex marriage, also known as gay marriage or same-gender marriage, is the marriage of two people of the same legal sex or gender. As of 2026, marriage between same-sex couples is legally performed and recognized in 38 countries, with a total population of 1.5 billion people (20% of the world's population). The most recent jurisdiction to legalize same-sex marriage is Thailand; legalization has also been mandated for Nepal. same sex, but stayed its ruling pending action by the U.S. Supreme Court. Same-sex marriage is legally performed and recognized in 38 countries: Andorra, Argentina, Australia, Austria, Belgium, Brazil, Canada, Chile, Colombia, Costa Rica, Cuba, Denmark, Ecuador, Estonia, Finland, France, Germany, Greece, Iceland, Ireland, Liechtenstein, Luxembourg, Malta, Mexico, the Netherlands, New Zealand, Norway, Portugal, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, Thailand, the United Kingdom, the United States, and Uruguay. Same-sex marriage performed remotely or abroad is recognized with full marital rights by Israel. In the United States before the case of Obergefell v. Hodges, couples in same-sex marriages could only obtain a divorce in jurisdictions that recognized same-sex marriages, with some exceptions. Same-sex marriage is legally recognized in a majority of the world's developed countries and across much of the Western world. Most jurisdictions which allow same-sex marriage also grant adoption rights to those couples. Some countries, such as Nigeria and Russia, restrict advocacy for same-sex marriage. A few of these are among the 35 countries (as of 2023) that constitutionally define marriage as being between couples of the opposite sex, with most of those provisions enacted in recent decades as a preventative measure. Opinion polls for same-sex marriage by country 4. The Court exercises its discretion not to answer this question. Timeline of same-sex marriage in the United States on cases based on how they feel.\" The Bolivian constitutional court granted a couple the legal right to marry in that country, but the option is not generally available. Same-sex marriage has been mandated by the Supreme Court of Nepal, but marriages are recorded in a separate register and not recognized by the government. Our State Constitution and our morality are under attack by a federal court decision that has no basis in the Constitution of the United States. Nothing in the United States Constitution grants to the Federal Government the authority to desecrate the institution of marriage. In response to the international spread of same-sex marriage, a number of countries have enacted preventative constitutional bans, with the most recent being Gabon in 2024. In other countries, such restrictions and limitations are effected through legislation. Even before same-sex marriage was first legislated, some countries had constitutions that specified that marriage was between one man and one woman. 9 counties, 8% of residents",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 852,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 838,
+    "evidence_tokens_retained": 498,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 92656,
+        "tokens_total": 7,
+        "tokens_kept": 7,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 92656,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 92656,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 23115865,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 92656,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 92656,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 92656,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 92656,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 92656,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 92656,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 92656,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 92656,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 92656,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 23115865,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 92656,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 92656,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 92656,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 23115865,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 23115865,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 92656,
+        "tokens_total": 103,
+        "tokens_kept": 103,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 92656,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 92656,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 92656,
+        "tokens_total": 27,
+        "tokens_kept": 11,
+        "visibility": "partial"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 92656,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 92656,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 92656,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 92656,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 92656,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 1381015,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 1381015,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 23115865,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 23115865,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 92656,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 92656,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 23115865,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 23115865,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 92656,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 92656,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 92656,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 23115865,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Same-sex marriage is legal in the American territory</s></s>Legal status of same-sex marriage LGBT rights by country or territory They are also available in parts of the United States (Arizona, California, Colorado, Hawaii, Illinois, New Jersey, Nevada and Oregon) and Canada. Status of same-sex marriage The American Anthropological Association stated on 26 February 2004: Sweden, but was phased out in 2013. In the United States, transgender and intersex marriages was subject to legal complications. As definitions and enforcement of marriage are defined by the states, these complications vary from state to state, as some of them prohibit legal changes of gender. The summary table below lists the jurisdictions which have legalized same-sex marriage, in chronological order. As of 2025, 38 states have legalized in some capacity. There are differing positions regarding the manner in which same-sex marriage has been introduced into democratic jurisdictions. A \"majority rules\" position holds that same-sex marriage is valid, or void and illegal, based upon whether it has been accepted by a simple majority of voters or of their elected representatives. As of 2026, Bermuda is the first and only jurisdiction in the world that formally legalized same-sex marriage and where that legalization is now repealed. 1998, and by constitutional amendment in June 2006. Same-sex marriage, also known as gay marriage or same-gender marriage, is the marriage of two people of the same legal sex or gender. As of 2026, marriage between same-sex couples is legally performed and recognized in 38 countries, with a total population of 1.5 billion people (20% of the world's population). The most recent jurisdiction to legalize same-sex marriage is Thailand; legalization has also been mandated for Nepal. same sex, but stayed its ruling pending action by the U.S. Supreme Court. Same-sex marriage is legally performed and recognized in 38 countries: Andorra, Argentina, Australia, Austria, Belgium, Brazil, Canada, Chile, Colombia, Costa Rica, Cuba, Denmark, Ecuador, Estonia, Finland, France, Germany, Greece, Iceland, Ireland, Liechtenstein, Luxembourg, Malta, Mexico, the Netherlands, New Zealand, Norway, Portugal, Slovenia, South Africa, Spain, Sweden, Switzerland, Taiwan, Thailand, the United Kingdom, the United States, and Uruguay. Same-sex marriage performed remotely or abroad is recognized with full marital rights by Israel. In the United States before the case of Obergefell v. Hodges, couples in same-sex marriages could only</s>"
+  }
+}

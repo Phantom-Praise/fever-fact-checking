@@ -1,0 +1,70 @@
+{
+  "id": 22369,
+  "claim": "Fantastic Beasts and Where to Find Them premiered somewhere other than in New York City.",
+  "condition": "five_sentence_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.05232289806008339,
+    0.9476052522659302,
+    7.180414831964299e-05
+  ],
+  "logits": [
+    0.6948004961013794,
+    3.5913045406341553,
+    -5.896446228027344
+  ],
+  "inference_seconds": 0.05941191599999929,
+  "evidence_text": "Fantastic Beasts and Where to Find Them premiered in New York City on 10 November 2016 and was released worldwide on 18 November 2016 in 3D , IMAX 4K Laser and other large format cinemas . Fantastic Beasts and Where to Find Them is a 2001 book written by British author J. K. Rowling -LRB- under the pen name of the fictitious author Newt Scamander -RRB- about the magical creatures in the Harry Potter universe . Fantastic Beasts and Where to Find Them is a 2016 fantasy film directed by David Yates and distributed by Warner Bros. . Fantastic Beasts and Where to Find Them is the score by James Newton Howard to the film Fantastic Beasts and Where to Find Them . The story features Newt Scamander as a main character and is set in New York City , 70 years before Harry 's story started .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 190,
+    "tokens_retained": 190,
+    "truncated": false,
+    "evidence_tokens_total": 168,
+    "evidence_tokens_retained": 168,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Fantastic_Beasts_and_Where_to_Find_Them_-LRB-film-RRB-",
+        "tokens_total": 42,
+        "tokens_kept": 42,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Fantastic_Beasts_and_Where_to_Find_Them",
+        "tokens_total": 50,
+        "tokens_kept": 50,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "Fantastic_Beasts_and_Where_to_Find_Them_-LRB-film-RRB-",
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Fantastic_Beasts_and_Where_to_Find_Them_-LRB-soundtrack-RRB-",
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Fantastic_Beasts_and_Where_to_Find_Them",
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Fantastic Beasts and Where to Find Them premiered somewhere other than in New York City.</s></s>Fantastic Beasts and Where to Find Them premiered in New York City on 10 November 2016 and was released worldwide on 18 November 2016 in 3D , IMAX 4K Laser and other large format cinemas . Fantastic Beasts and Where to Find Them is a 2001 book written by British author J. K. Rowling -LRB- under the pen name of the fictitious author Newt Scamander -RRB- about the magical creatures in the Harry Potter universe . Fantastic Beasts and Where to Find Them is a 2016 fantasy film directed by David Yates and distributed by Warner Bros. . Fantastic Beasts and Where to Find Them is the score by James Newton Howard to the film Fantastic Beasts and Where to Find Them . The story features Newt Scamander as a main character and is set in New York City , 70 years before Harry 's story started .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

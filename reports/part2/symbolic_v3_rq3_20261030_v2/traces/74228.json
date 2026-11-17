@@ -1,0 +1,116 @@
+{
+  "id": 74228,
+  "claim": "Philip Seymour Hoffman was an actor in Almost Famous.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07837279199999969,
+      "symbolic": {
+        "claim": "Philip Seymour Hoffman was an actor in Almost Famous.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3707999999112985e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Philip_Seymour_Hoffman",
+          "sentence_id": 0,
+          "text": "Philip Seymour Hoffman -LRB- July 23 , 1967 -- February 2 , 2014 -RRB- was an American actor , director , and producer of film and theater .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Philip_Seymour_Hoffman_on_stage_and_screen",
+          "sentence_id": 0,
+          "text": "Philip Seymour Hoffman -LRB- 19672014 -RRB- was an American actor , director , and producer .",
+          "score": 4.014285714285714
+        },
+        {
+          "page_id": "Philip_Seymour_Hoffman",
+          "sentence_id": 6,
+          "text": "He gained recognition for his supporting work , notably in Boogie Nights -LRB- 1997 -RRB- , Happiness -LRB- 1998 -RRB- , Patch Adams -LRB- 1998 -RRB- , The Big Lebowski -LRB- 1998 -RRB- , Magnolia -LRB- 1999 -RRB- , The Talented Mr. Ripley -LRB- 1999 -RRB- , Almost Famous -LRB- 2000 -RRB- , Punch-Drunk Love -LRB- 2002 -RRB- , and Along Came Polly -LRB- 2004 -RRB- .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Philip_Seymour_Hoffman",
+          "sentence_id": 13,
+          "text": "Hoffman was also an accomplished theater actor and director .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Philip_Seymour_Hoffman",
+          "sentence_id": 20,
+          "text": "Remembered for his fearlessness in playing reprehensible characters , and for bringing depth and humanity to such roles , Hoffman was described in his New York Times obituary as `` perhaps the most ambitious and widely admired American actor of his generation '' .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9889147877693176,
+        0.010986228473484516,
+        9.905636397888884e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0723452920000014,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Philip_Seymour_Hoffman",
+          "sentence_id": 0,
+          "text": "Philip Seymour Hoffman -LRB- July 23 , 1967 -- February 2 , 2014 -RRB- was an American actor , director , and producer of film and theater .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Philip_Seymour_Hoffman_on_stage_and_screen",
+          "sentence_id": 0,
+          "text": "Philip Seymour Hoffman -LRB- 19672014 -RRB- was an American actor , director , and producer .",
+          "score": 4.014285714285714
+        },
+        {
+          "page_id": "Philip_Seymour_Hoffman",
+          "sentence_id": 6,
+          "text": "He gained recognition for his supporting work , notably in Boogie Nights -LRB- 1997 -RRB- , Happiness -LRB- 1998 -RRB- , Patch Adams -LRB- 1998 -RRB- , The Big Lebowski -LRB- 1998 -RRB- , Magnolia -LRB- 1999 -RRB- , The Talented Mr. Ripley -LRB- 1999 -RRB- , Almost Famous -LRB- 2000 -RRB- , Punch-Drunk Love -LRB- 2002 -RRB- , and Along Came Polly -LRB- 2004 -RRB- .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Philip_Seymour_Hoffman",
+          "sentence_id": 13,
+          "text": "Hoffman was also an accomplished theater actor and director .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Philip_Seymour_Hoffman",
+          "sentence_id": 20,
+          "text": "Remembered for his fearlessness in playing reprehensible characters , and for bringing depth and humanity to such roles , Hoffman was described in his New York Times obituary as `` perhaps the most ambitious and widely admired American actor of his generation '' .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9889147877693176,
+        0.010986228473484516,
+        9.905636397888884e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05936079099999958,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.7320258021354675,
+        0.08008250594139099,
+        0.18789167702198029
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

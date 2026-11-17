@@ -1,0 +1,62 @@
+{
+  "id": 92516,
+  "claim": "Tom Cruise was in the film Vanilla Sky.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9922802448272705,
+    0.007580670528113842,
+    0.00013911002315580845
+  ],
+  "logits": [
+    4.2203521728515625,
+    -0.6540518999099731,
+    -4.652143478393555
+  ],
+  "evidence": [
+    {
+      "page_id": "Vanilla_Sky_-LRB-disambiguation-RRB-",
+      "sentence_id": 0,
+      "text": "Vanilla Sky is a 2001 film starring Tom Cruise and directed by Cameron Crowe .",
+      "score": 5.014285714285714
+    },
+    {
+      "page_id": "Vanilla_Sky",
+      "sentence_id": 5,
+      "text": "Vanilla Sky stars Tom Cruise , Penelope Cruz , and Cameron Diaz with Jason Lee and Kurt Russell appearing in supporting roles .",
+      "score": 4.1
+    },
+    {
+      "page_id": "Tom_Cruise",
+      "sentence_id": 12,
+      "text": "In the 2000s , Cruise starred in a number of successful films , including the science fiction thrillers Vanilla Sky -LRB- 2001 -RRB- and Minority Report -LRB- 2002 -RRB- , the epic war film The Last Samurai -LRB- 2003 -RRB- , the crime film Collateral -LRB- 2004 -RRB- , the science fiction disaster thriller War of the Worlds -LRB- 2005 -RRB- , and the historical thriller Valkyrie -LRB- 2008 -RRB- .",
+      "score": 4.05
+    },
+    {
+      "page_id": "Vanilla_Sky",
+      "sentence_id": 0,
+      "text": "Vanilla Sky is a 2001 American science fiction psychological thriller film directed , written , and co-produced by Cameron Crowe .",
+      "score": 3.1
+    },
+    {
+      "page_id": "Tom_Cruise",
+      "sentence_id": 21,
+      "text": "In 2002 , Cruise won the Saturn Award for Best Actor for Vanilla Sky .",
+      "score": 3.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 203,
+    "tokens_retained": 203,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Tom Cruise was in the film Vanilla Sky.</s></s>Vanilla Sky is a 2001 film starring Tom Cruise and directed by Cameron Crowe . Vanilla Sky stars Tom Cruise , Penelope Cruz , and Cameron Diaz with Jason Lee and Kurt Russell appearing in supporting roles . In the 2000s , Cruise starred in a number of successful films , including the science fiction thrillers Vanilla Sky -LRB- 2001 -RRB- and Minority Report -LRB- 2002 -RRB- , the epic war film The Last Samurai -LRB- 2003 -RRB- , the crime film Collateral -LRB- 2004 -RRB- , the science fiction disaster thriller War of the Worlds -LRB- 2005 -RRB- , and the historical thriller Valkyrie -LRB- 2008 -RRB- . Vanilla Sky is a 2001 American science fiction psychological thriller film directed , written , and co-produced by Cameron Crowe . In 2002 , Cruise won the Saturn Award for Best Actor for Vanilla Sky .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.22017441599999987
+}

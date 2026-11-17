@@ -1,0 +1,116 @@
+{
+  "id": 190284,
+  "claim": "Steven Knight is a film producer.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0566810000000002,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.6562252044677734,
+        0.020307505503296852,
+        0.32346731424331665
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.18498704200000038,
+      "symbolic": {
+        "claim": "Steven Knight is a film producer.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.5084000000165076e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Steven_Knight",
+          "sentence_id": 0,
+          "text": "Steven Knight -LRB- born 1959 -RRB- is a British screenwriter and film director .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Film_producer",
+          "sentence_id": 0,
+          "text": "Film producers fill a variety of roles depending upon the type of producer .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Film_producer",
+          "sentence_id": 3,
+          "text": "Then , unless the film is supposed to be based on an original script , the producer has to find an appropriate screenwriter .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Steven_Baker_-LRB-producer-RRB-",
+          "sentence_id": 0,
+          "text": "Steven Baker -LRB- born 1976 in Brisbane , Australia -RRB- is an arranger , orchestrator and record producer , best known for his work in the UK classical/pop crossover genre .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Steven_Rosenbaum_-LRB-producer-RRB-",
+          "sentence_id": 0,
+          "text": "Steven J. Rosenbaum -LRB- born 1961 -RRB- is an American entrepreneur , curator , filmmaker , National Emmy Nominee , New York Emmy Award-winning producer -LRB- NY Emmy -RRB- , director , author and public speaker .",
+          "score": 2.025
+        }
+      ],
+      "probabilities": [
+        0.9917110204696655,
+        0.008175333961844444,
+        0.00011361891665728763
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.12936937499999956,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Steven_Knight",
+          "sentence_id": 0,
+          "text": "Steven Knight -LRB- born 1959 -RRB- is a British screenwriter and film director .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Film_producer",
+          "sentence_id": 0,
+          "text": "Film producers fill a variety of roles depending upon the type of producer .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Film_producer",
+          "sentence_id": 3,
+          "text": "Then , unless the film is supposed to be based on an original script , the producer has to find an appropriate screenwriter .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Steven_Baker_-LRB-producer-RRB-",
+          "sentence_id": 0,
+          "text": "Steven Baker -LRB- born 1976 in Brisbane , Australia -RRB- is an arranger , orchestrator and record producer , best known for his work in the UK classical/pop crossover genre .",
+          "score": 2.033333333333333
+        },
+        {
+          "page_id": "Steven_Rosenbaum_-LRB-producer-RRB-",
+          "sentence_id": 0,
+          "text": "Steven J. Rosenbaum -LRB- born 1961 -RRB- is an American entrepreneur , curator , filmmaker , National Emmy Nominee , New York Emmy Award-winning producer -LRB- NY Emmy -RRB- , director , author and public speaker .",
+          "score": 2.025
+        }
+      ],
+      "probabilities": [
+        0.9917110204696655,
+        0.008175333961844444,
+        0.00011361891665728763
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": 218194,
+  "claim": "Boyd Holbrook turned down the role he was offered in A Walk Among the Tombstones.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07611891699999962,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Boyd_Holbrook",
+          "sentence_id": 1,
+          "text": "He has appeared in films such as Milk , Out of the Furnace , Run All Night , A Walk Among the Tombstones , and Gone Girl , and stars as DEA Agent Steve Murphy in the Netflix series Narcos .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Boyd_Holbrook",
+          "sentence_id": 0,
+          "text": "Robert Boyd Holbrook -LRB- born circa 1981 -RRB- is an American actor and fashion model .",
+          "score": 2.1
+        },
+        {
+          "page_id": "The_World_Turned_Upside_Down",
+          "sentence_id": 0,
+          "text": "`` The World Turned Upside Down '' is an English ballad .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Boyd_Holbrook",
+          "sentence_id": 2,
+          "text": "In 2017 , he portrayed villain Donald Pierce in Logan .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Holbrook",
+          "sentence_id": 0,
+          "text": "Holbrook may refer to :",
+          "score": 1.0333333333333334
+        }
+      ],
+      "probabilities": [
+        0.038528941571712494,
+        0.9613872766494751,
+        8.37948391563259e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.056521334000000145,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.0167594775557518,
+        0.950710117816925,
+        0.0325302928686142
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.06412179199999901,
+      "symbolic": {
+        "claim": "Boyd Holbrook turned down the role he was offered in A Walk Among the Tombstones.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.4332999999311369e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Boyd_Holbrook",
+          "sentence_id": 1,
+          "text": "He has appeared in films such as Milk , Out of the Furnace , Run All Night , A Walk Among the Tombstones , and Gone Girl , and stars as DEA Agent Steve Murphy in the Netflix series Narcos .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Boyd_Holbrook",
+          "sentence_id": 0,
+          "text": "Robert Boyd Holbrook -LRB- born circa 1981 -RRB- is an American actor and fashion model .",
+          "score": 2.1
+        },
+        {
+          "page_id": "The_World_Turned_Upside_Down",
+          "sentence_id": 0,
+          "text": "`` The World Turned Upside Down '' is an English ballad .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Boyd_Holbrook",
+          "sentence_id": 2,
+          "text": "In 2017 , he portrayed villain Donald Pierce in Logan .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Holbrook",
+          "sentence_id": 0,
+          "text": "Holbrook may refer to :",
+          "score": 1.0333333333333334
+        }
+      ],
+      "probabilities": [
+        0.038528941571712494,
+        0.9613872766494751,
+        8.37948391563259e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "claims": 100,
+  "tasks": 1200,
+  "repeats": 3,
+  "input_sha256": {
+    "data/processed/retrieved/validation_first_100_top5_title_fast.jsonl": "53f48709f6670c33f036c6bb4f1f1b1bb378d199a5f0aa55d179ab639d6edd18",
+    "reports/part2/paired/predictions.csv": "704cae7e68603bbbd810d1dadb83844aee93ceb13e4b6d0fdbcb29fda80314bf"
+  },
+  "protocol": [
+    "No gold labels or gold evidence exposed in judge tasks.",
+    "Choose and record an exact model version, temperature, seed policy, token limit and date before execution.",
+    "Randomize task order using a recorded seed; isolate each request from previous messages.",
+    "Model is held fixed across prompt/evidence/repeat conditions.",
+    "Evidence-constrained empty condition is an abstention control, not a closed-book factual baseline.",
+    "Record usage, latency, raw response, errors and retries; do not silently drop failed tasks.",
+    "For RQ1 add a separately sampled LLM-generated claim corpus with prompt/model provenance.",
+    "Use two blinded annotators and adjudicate disagreements. No human labels are filled automatically.",
+    "Do not assume a synthetic perturbation is false; verify it independently.",
+    "This preparation alone does not answer RQ1 or RQ2."
+  ]
+}

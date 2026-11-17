@@ -1,0 +1,116 @@
+{
+  "id": 154533,
+  "claim": "Cleopatra's legacy is gone.",
+  "conditions": {
+    "claim_only": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05672379199999966,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.198440819978714,
+        0.6674732565879822,
+        0.13408595323562622
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.0643090839999978,
+      "symbolic": {
+        "claim": "Cleopatra's legacy is gone.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3917000000418511e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Cleopatra",
+          "sentence_id": 22,
+          "text": "Her legacy survives in numerous works of art and many dramatizations of incidents from her life in literature and other media , such as William Shakespeare 's tragedy Antony and Cleopatra , George Frideric Handel 's opera Giulio Cesare , George Bernard Shaw 's play Caesar and Cleopatra , Jules Massenet 's opera Cléopâtre , and the films Cleopatra -LRB- 1934 -RRB- and Cleopatra -LRB- 1963 -RRB- .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Cleopatra",
+          "sentence_id": 0,
+          "text": "Cleopatra VII Philopator -LRB- Κλεοπάτρα Φιλοπάτωρ 69 -- August 12 , 30 BC -RRB- , known to history simply as Cleopatra , was the last active ruler of Ptolemaic Egypt , briefly survived as pharaoh by her son Caesarion .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Cleopatra",
+          "sentence_id": 4,
+          "text": "Cleopatra was a member of the Ptolemaic dynasty , a Greek family of Macedonian origin that ruled Egypt after Alexander the Great 's death during the Hellenistic period .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Cleopatra",
+          "sentence_id": 6,
+          "text": "By contrast , Cleopatra did learn to speak Egyptian and represented herself as the reincarnation of the Egyptian goddess Isis .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Cleopatra",
+          "sentence_id": 9,
+          "text": "Cleopatra originally ruled jointly with her father Ptolemy XII Auletes , and later with her brothers Ptolemy XIII and Ptolemy XIV , whom she married as per Egyptian custom , but eventually she became sole ruler .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.22798925638198853,
+        0.7718098759651184,
+        0.00020082668925169855
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.05927924999999945,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Cleopatra",
+          "sentence_id": 22,
+          "text": "Her legacy survives in numerous works of art and many dramatizations of incidents from her life in literature and other media , such as William Shakespeare 's tragedy Antony and Cleopatra , George Frideric Handel 's opera Giulio Cesare , George Bernard Shaw 's play Caesar and Cleopatra , Jules Massenet 's opera Cléopâtre , and the films Cleopatra -LRB- 1934 -RRB- and Cleopatra -LRB- 1963 -RRB- .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Cleopatra",
+          "sentence_id": 0,
+          "text": "Cleopatra VII Philopator -LRB- Κλεοπάτρα Φιλοπάτωρ 69 -- August 12 , 30 BC -RRB- , known to history simply as Cleopatra , was the last active ruler of Ptolemaic Egypt , briefly survived as pharaoh by her son Caesarion .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Cleopatra",
+          "sentence_id": 4,
+          "text": "Cleopatra was a member of the Ptolemaic dynasty , a Greek family of Macedonian origin that ruled Egypt after Alexander the Great 's death during the Hellenistic period .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Cleopatra",
+          "sentence_id": 6,
+          "text": "By contrast , Cleopatra did learn to speak Egyptian and represented herself as the reincarnation of the Egyptian goddess Isis .",
+          "score": 1.1
+        },
+        {
+          "page_id": "Cleopatra",
+          "sentence_id": 9,
+          "text": "Cleopatra originally ruled jointly with her father Ptolemy XII Auletes , and later with her brothers Ptolemy XIII and Ptolemy XIV , whom she married as per Egyptian custom , but eventually she became sole ruler .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.22798925638198853,
+        0.7718098759651184,
+        0.00020082668925169855
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

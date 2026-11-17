@@ -1,0 +1,243 @@
+{
+  "status": "complete_machine_pilot",
+  "human_review_completed": false,
+  "models": {
+    "llama3.1:8b": {
+      "installed": {
+        "name": "llama3.1:8b",
+        "model": "llama3.1:8b",
+        "modified_at": "2026-03-13T13:02:12.733274727-04:00",
+        "size": 4920753328,
+        "digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "8.0B",
+          "quantization_level": "Q4_K_M",
+          "context_length": 131072,
+          "embedding_length": 4096,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      },
+      "server": {
+        "version": "0.40.3"
+      }
+    },
+    "gemma3:1B": {
+      "installed": {
+        "name": "gemma3:1B",
+        "model": "gemma3:1B",
+        "modified_at": "2025-03-17T09:06:43.31977936-04:00",
+        "size": 815319769,
+        "digest": "2d27a774bc629ba3d5a3b31a8f11d315e8f49e5b8f7e6fc024dce67f539d1a84",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "gemma3",
+          "families": [
+            "gemma3"
+          ],
+          "parameter_size": "999.89M",
+          "quantization_level": "Q4_K_M",
+          "context_length": 32768,
+          "embedding_length": 1152,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion"
+        ]
+      },
+      "server": {
+        "version": "0.40.3"
+      }
+    }
+  },
+  "source_distributions": {
+    "llama3.1:8b": {
+      "FEVER": {
+        "n": 30,
+        "valid": 30,
+        "invalid": 0,
+        "label": {
+          "NOT ENOUGH INFO": 7,
+          "SUPPORTS": 23
+        },
+        "atomic": {
+          "NO": 5,
+          "YES": 25
+        },
+        "claim_type": {
+          "RELATION": 7,
+          "DATE": 6,
+          "NUMBER": 1,
+          "OTHER": 1,
+          "PERSON": 9,
+          "LOCATION": 6
+        },
+        "error_type": {
+          "NONE": 30
+        }
+      },
+      "generated": {
+        "n": 30,
+        "valid": 30,
+        "invalid": 0,
+        "label": {
+          "UNRATEABLE": 1,
+          "SUPPORTS": 24,
+          "NOT ENOUGH INFO": 5
+        },
+        "atomic": {
+          "YES": 25,
+          "NO": 5
+        },
+        "claim_type": {
+          "OTHER": 3,
+          "RELATION": 6,
+          "PERSON": 10,
+          "DATE": 8,
+          "LOCATION": 2,
+          "ORGANIZATION": 1
+        },
+        "error_type": {
+          "NONE": 30
+        }
+      }
+    },
+    "gemma3:1B": {
+      "FEVER": {
+        "n": 30,
+        "valid": 30,
+        "invalid": 0,
+        "label": {
+          "SUPPORTS": 23,
+          "UNRATEABLE": 7
+        },
+        "atomic": {
+          "YES": 20,
+          "NO": 10
+        },
+        "claim_type": {
+          "RELATION": 15,
+          "OTHER": 2,
+          "DATE": 3,
+          "NUMBER": 4,
+          "PERSON": 6
+        },
+        "error_type": {
+          "NONE": 30
+        }
+      },
+      "generated": {
+        "n": 30,
+        "valid": 30,
+        "invalid": 0,
+        "label": {
+          "SUPPORTS": 30
+        },
+        "atomic": {
+          "YES": 30
+        },
+        "claim_type": {
+          "RELATION": 13,
+          "ORGANIZATION": 2,
+          "DATE": 2,
+          "PERSON": 10,
+          "LOCATION": 2,
+          "NUMBER": 1
+        },
+        "error_type": {
+          "NONE": 30
+        }
+      }
+    }
+  },
+  "fever_calibration": {
+    "llama3.1:8b": {
+      "n": 30,
+      "accuracy": 0.3,
+      "macro_f1": 0.20083184789067143,
+      "confusion_matrix": [
+        [
+          8,
+          0,
+          2
+        ],
+        [
+          6,
+          0,
+          4
+        ],
+        [
+          9,
+          0,
+          1
+        ]
+      ],
+      "note": "UNRATEABLE and invalid outputs count as incorrect; FEVER labels remain the original human references."
+    },
+    "gemma3:1B": {
+      "n": 30,
+      "accuracy": 0.3,
+      "macro_f1": 0.1818181818181818,
+      "confusion_matrix": [
+        [
+          9,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          0
+        ]
+      ],
+      "note": "UNRATEABLE and invalid outputs count as incorrect; FEVER labels remain the original human references."
+    }
+  },
+  "machine_agreement": {
+    "label": {
+      "joint_valid_n": 60,
+      "fraction": 0.6833333333333333,
+      "cohen_kappa": -0.034482758620689724
+    },
+    "atomic": {
+      "joint_valid_n": 60,
+      "fraction": 0.7333333333333333,
+      "cohen_kappa": 0.040000000000000036
+    },
+    "claim_type": {
+      "joint_valid_n": 60,
+      "fraction": 0.48333333333333334,
+      "cohen_kappa": 0.34298834334157546
+    },
+    "error_type": {
+      "joint_valid_n": 60,
+      "fraction": 1.0,
+      "cohen_kappa": null
+    }
+  },
+  "disputed_or_invalid_claims": 40,
+  "protocol_sha256": "8471f12dd1247f31a13be17718c0c0f92ab8e6f69e646efd02189bb7773f3c56",
+  "limitations": [
+    "Machine coding is not independent human truth annotation.",
+    "Citations are checked for index validity, not independently verified entailment.",
+    "Generated labels are evidence-relative model judgments, not established factual-error ground truth.",
+    "Retrieval misses and historical evidence can cause NEI even for true current-world claims.",
+    "Thirty claims per source, biased topic sampling, and two selected local quantized models limit generalization.",
+    "Model agreement is not proof of correctness; human validation remains pending."
+  ]
+}

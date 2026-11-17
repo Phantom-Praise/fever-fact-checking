@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "n": 10,
+  "previous_rag_correct": 4,
+  "model_label_correct": 4,
+  "derived_label_correct": 4,
+  "invalid": 3,
+  "inconsistent": 0,
+  "limitations": [
+    "Ten already inspected development claims; not an unseen or statistically reliable improvement estimate.",
+    "Three additions tested together; this run cannot isolate which addition caused a change.",
+    "Same 256-token output cap. Truncated or invalid results remain INVALID and count as errors; no retries or silent repairs.",
+    "Citation validity and label aggregation do not establish semantic correctness. No claim-specific vocabulary, gold labels or example answers are added to prompts."
+  ],
+  "before_model_correct": 5,
+  "before_derived_correct": 7,
+  "derived_fixed": [],
+  "derived_regressed": [
+    219203,
+    178210,
+    47172
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "n": 120,
+  "selected": "E_claim_fallback",
+  "conditions": {
+    "A_original": {
+      "n": 120,
+      "accuracy": 0.5166666666666667,
+      "macro_f1": 0.49728997289972904,
+      "fever_score": 0.43333333333333335,
+      "confusion_matrix": [
+        [
+          27,
+          2,
+          11,
+          0
+        ],
+        [
+          4,
+          9,
+          27,
+          0
+        ],
+        [
+          11,
+          3,
+          26,
+          0
+        ]
+      ],
+      "invalid": 0,
+      "retrieval_complete_hits": 45,
+      "retrieval_eligible": 80,
+      "retrieval_complete_recall": 0.5625,
+      "claim_overrides": 0
+    },
+    "E_claim_fallback": {
+      "n": 120,
+      "accuracy": 0.5916666666666667,
+      "macro_f1": 0.5821122417149378,
+      "fever_score": 0.475,
+      "confusion_matrix": [
+        [
+          26,
+          4,
+          10,
+          0
+        ],
+        [
+          4,
+          30,
+          6,
+          0
+        ],
+        [
+          12,
+          13,
+          15,
+          0
+        ]
+      ],
+      "invalid": 0,
+      "retrieval_complete_hits": 52,
+      "retrieval_eligible": 80,
+      "retrieval_complete_recall": 0.65,
+      "claim_overrides": 4
+    }
+  },
+  "paired_selected_vs_baseline": {
+    "n": 120,
+    "fixed_errors": 25,
+    "newly_wrong": 16,
+    "both_correct": 46,
+    "both_wrong": 33,
+    "accuracy_delta": 0.075,
+    "paired_accuracy_ci95": [
+      -0.025,
+      0.18333333333333332
+    ],
+    "mcnemar_exact_p_unadjusted": 0.21102359760880063,
+    "bootstrap_samples": 10000,
+    "bootstrap_seed": 42
+  },
+  "neural_reference": {
+    "neural_combined_256": {
+      "accuracy": 0.6083333333333333,
+      "macro_f1": 0.5916724177593742,
+      "confusion_matrix": [
+        [
+          36,
+          2,
+          2
+        ],
+        [
+          8,
+          24,
+          8
+        ],
+        [
+          24,
+          3,
+          13
+        ]
+      ]
+    },
+    "neural_evidence_256": {
+      "accuracy": 0.5416666666666666,
+      "macro_f1": 0.43342853257173947,
+      "confusion_matrix": [
+        [
+          37,
+          3,
+          0
+        ],
+        [
+          12,
+          28,
+          0
+        ],
+        [
+          25,
+          15,
+          0
+        ]
+      ]
+    },
+    "neural_combined_512": {
+      "accuracy": 0.6083333333333333,
+      "macro_f1": 0.5916724177593742,
+      "confusion_matrix": [
+        [
+          36,
+          2,
+          2
+        ],
+        [
+          8,
+          24,
+          8
+        ],
+        [
+          24,
+          3,
+          13
+        ]
+      ]
+    },
+    "neural_evidence_512": {
+      "accuracy": 0.5416666666666666,
+      "macro_f1": 0.43342853257173947,
+      "confusion_matrix": [
+        [
+          37,
+          3,
+          0
+        ],
+        [
+          12,
+          28,
+          0
+        ],
+        [
+          25,
+          15,
+          0
+        ]
+      ]
+    }
+  },
+  "limitations": [
+    "Exploratory 60-calibration/120-assessment study; small samples and one generation per claim.",
+    "Fresh LLM assessment subset is disjoint from the earlier LLM pilot, but official development has previously been evaluated with RoBERTa. It is not a blind official test.",
+    "Entity retrieval changes candidate inclusion and sentence ranking together; it does not isolate only one retrieval subcomponent.",
+    "Prompt variant adds explicit comparison rules and fictional examples together; no individual clause is isolated.",
+    "Hybrid E can improve labels without improving annotated evidence; report strict FEVER alongside label accuracy.",
+    "All response failures remain INVALID in the full denominator. Model-generated explanations are not internal reasoning traces.",
+    "No model retraining, default changes, new downloads or paid API requests. Existing results are preserved."
+  ],
+  "selection_sha256": "e1a7ea75ad7443436ac82c9fef91fefe8be7290474050ff8b8bb9bbbed694893",
+  "assessment_responses_sha256": "4b2ddbc1b33059bb2c1daeca4b7d7e71602a4455501e0a89075ce40a9f51edcd"
+}

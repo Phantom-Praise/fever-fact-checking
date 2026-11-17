@@ -1,0 +1,13 @@
+{
+  "experiment": "retrieved_evidence_roberta_zero_shot_transfer",
+  "checkpoint": "checkpoints/roberta_evidence/epoch_1",
+  "input_file": "data/processed/retrieved/validation_first_100_top5_title_fast.jsonl",
+  "num_examples": 100,
+  "batch_size": 8,
+  "max_length": 256,
+  "accuracy": 0.55,
+  "macro_f1": 0.41628396479142743,
+  "total_model_inference_seconds": 3.232404625,
+  "mean_model_inference_seconds_per_claim": 0.03232404625,
+  "note": "Model inference only; excludes Wikipedia retrieval time. Checkpoint trained with gold evidence, evaluated with retrieved evidence."
+}

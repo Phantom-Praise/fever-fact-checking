@@ -1,0 +1,15 @@
+family,run,epoch,seed,learning_rate,weight_decay,batch_size,max_length,train_fraction,evaluation,n,accuracy,macro_f1,selected,source
+claim_only_tuned,H1_seed42,1,42,2e-05,0.01,8,256,0.2,first_2000_validation_claims,2000,0.6235,0.5861216281691951,False,reports/part2/tuning/H1_seed42.csv
+claim_only_tuned,H1_seed42,2,42,2e-05,0.01,8,256,0.2,first_2000_validation_claims,2000,0.6465,0.610322175913533,False,reports/part2/tuning/H1_seed42.csv
+claim_only_tuned,H2_seed42,1,42,1e-05,0.01,8,256,0.2,first_2000_validation_claims,2000,0.5865,0.5667906477195107,False,reports/part2/tuning/H2_seed42.csv
+claim_only_tuned,H2_seed42,2,42,1e-05,0.01,8,256,0.2,first_2000_validation_claims,2000,0.6775,0.6202489588068947,True,reports/part2/tuning/H2_seed42.csv
+claim_only_tuned,H3_seed42,1,42,3e-05,0.01,8,256,0.2,first_2000_validation_claims,2000,0.613,0.5766189085211223,False,reports/part2/tuning/H3_seed42.csv
+claim_only_tuned,H3_seed42,2,42,3e-05,0.01,8,256,0.2,first_2000_validation_claims,2000,0.637,0.5951666863249834,False,reports/part2/tuning/H3_seed42.csv
+claim_only_tuned,H4_seed42,1,42,2e-05,0.0,8,256,0.2,first_2000_validation_claims,2000,0.601,0.5728929524327421,False,reports/part2/tuning/H4_seed42.csv
+claim_only_tuned,H4_seed42,2,42,2e-05,0.0,8,256,0.2,first_2000_validation_claims,2000,0.6575,0.6165337401866297,False,reports/part2/tuning/H4_seed42.csv
+claim_only_weighted_legacy,claim_only_weighted_legacy_seed42,1,42,2e-05,0.01,8,256,0.2,first_2000_validation_claims,2000,0.5675,0.5635285202502444,False,results/weighted_training_log.csv
+claim_only_weighted_legacy,claim_only_weighted_legacy_seed42,2,42,2e-05,0.01,8,256,0.2,first_2000_validation_claims,2000,0.6325,0.5981691982024346,False,results/weighted_training_log.csv
+gold_evidence_roberta,gold_evidence_roberta_seed42,1,42,2e-05,0.01,8,256,0.2,first_2000_validation_gold_evidence,2000,0.9415,0.9334845915483756,True,results/main_training_log.csv
+gold_evidence_roberta,gold_evidence_roberta_seed42,2,42,2e-05,0.01,8,256,0.2,first_2000_validation_gold_evidence,2000,0.9365,0.9312860146553911,False,results/main_training_log.csv
+unweighted_legacy,legacy_log_observation_1,1,,,,,,,legacy_validation_no_run_manifest,,0.5465,0.23558573122103676,False,results/training_log.csv
+unweighted_legacy,legacy_log_observation_2,1,,,,,,,legacy_validation_no_run_manifest,,0.5465,0.23558573122103676,False,results/training_log.csv

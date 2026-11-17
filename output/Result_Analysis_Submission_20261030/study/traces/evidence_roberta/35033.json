@@ -1,0 +1,62 @@
+{
+  "id": 35033,
+  "claim": "Wyatt Earp only has sisters.",
+  "label": "REFUTES",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.03493405133485794,
+    0.9649764895439148,
+    8.953941141953692e-05
+  ],
+  "logits": [
+    0.3793439567089081,
+    3.6979856491088867,
+    -5.587194442749023
+  ],
+  "evidence": [
+    {
+      "page_id": "Wyatt_Earp",
+      "sentence_id": 0,
+      "text": "Wyatt Berry Stapp Earp -LRB- March 19 , 1848 -- January 13 , 1929 -RRB- was an American Old West gambler , a deputy sheriff in Pima County , and deputy town marshal in Tombstone , Arizona Territory , who took part in the gunfight at the O.K. Corral , during which lawmen killed three outlaw cowboys .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Wyatt_Earp",
+      "sentence_id": 26,
+      "text": "Wyatt was never wounded in any of the gunfights in which he took part , unlike his brothers Virgil and James , or his friend , Doc Holliday , which only added to his mystique after his death .",
+      "score": 2.1
+    },
+    {
+      "page_id": "Wyatt_Earp",
+      "sentence_id": 41,
+      "text": "Wyatt Earp died on January 13 , 1929 .",
+      "score": 2.1
+    },
+    {
+      "page_id": "ASV_Wyatt_Earp",
+      "sentence_id": 0,
+      "text": "The Antarctic Survey Vessel -LRB- ASV -RRB- Wyatt Earp -LRB- ASV 01/DMS 329 -RRB- is a survey launch operated by the Australian Hydrographic Service since 1993 .",
+      "score": 2.05
+    },
+    {
+      "page_id": "ASV_Wyatt_Earp",
+      "sentence_id": 1,
+      "text": "Based on the Royal Australian Navy 's Fantome-class survey launches , Wyatt Earp was built specifically for hydrographic survey duties in Antarctic waters .",
+      "score": 2.05
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 224,
+    "tokens_retained": 224,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>Wyatt Earp only has sisters.</s></s>Wyatt Berry Stapp Earp -LRB- March 19 , 1848 -- January 13 , 1929 -RRB- was an American Old West gambler , a deputy sheriff in Pima County , and deputy town marshal in Tombstone , Arizona Territory , who took part in the gunfight at the O.K. Corral , during which lawmen killed three outlaw cowboys . Wyatt was never wounded in any of the gunfights in which he took part , unlike his brothers Virgil and James , or his friend , Doc Holliday , which only added to his mystique after his death . Wyatt Earp died on January 13 , 1929 . The Antarctic Survey Vessel -LRB- ASV -RRB- Wyatt Earp -LRB- ASV 01/DMS 329 -RRB- is a survey launch operated by the Australian Hydrographic Service since 1993 . Based on the Royal Australian Navy 's Fantome-class survey launches , Wyatt Earp was built specifically for hydrographic survey duties in Antarctic waters .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.07603175000000029
+}

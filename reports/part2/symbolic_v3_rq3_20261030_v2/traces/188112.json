@@ -1,0 +1,116 @@
+{
+  "id": 188112,
+  "claim": "Thiokol was also known as Cordant Technologies Inc. and it was American.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.12322412500000013,
+      "symbolic": {
+        "claim": "Thiokol was also known as Cordant Technologies Inc. and it was American.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2416000000570193e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Thiokol",
+          "sentence_id": 0,
+          "text": "Thiokol -LRB- variously Thiokol Chemical Corporation , Morton-Thiokol Inc. , Cordant Technologies Inc. , Thiokol Propulsion , AIC Group , ATK Thiokol ; finally ATK Launch Systems Group before becoming part of Orbital ATK -RRB- was an American corporation concerned initially with rubber and related chemicals , and later with rocket and missile propulsion systems .",
+          "score": 5.1
+        },
+        {
+          "page_id": "MagiQ_Technologies,_Inc.",
+          "sentence_id": 0,
+          "text": "MagiQ Technologies , Inc. , or MagiQ , is an American technology development company headquartered in Somerville , Massachusetts .",
+          "score": 3.025
+        },
+        {
+          "page_id": "Metabolic_Technologies,_Inc.",
+          "sentence_id": 0,
+          "text": "Metabolic Technologies , Inc is an American life sciences company that sells dietary supplements and analytical services .",
+          "score": 3.02
+        },
+        {
+          "page_id": "RS_Technologies_Inc.",
+          "sentence_id": 0,
+          "text": "RS Technologies Inc. -LRB- RS -RRB- , formerly known as Resin Systems Inc. , is a Canadian company that designs , engineers and manufactures composite utility poles .",
+          "score": 3.0142857142857142
+        },
+        {
+          "page_id": "42_Technologies_Inc.",
+          "sentence_id": 0,
+          "text": "42 Technologies Inc. is a cloud-based business-to-business predictive analytics platform for retailers .",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.9881645441055298,
+        0.011743728071451187,
+        9.175985906040296e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.056454500000000074,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.6216275095939636,
+        0.07937921583652496,
+        0.298993319272995
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.06422887500000041,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Thiokol",
+          "sentence_id": 0,
+          "text": "Thiokol -LRB- variously Thiokol Chemical Corporation , Morton-Thiokol Inc. , Cordant Technologies Inc. , Thiokol Propulsion , AIC Group , ATK Thiokol ; finally ATK Launch Systems Group before becoming part of Orbital ATK -RRB- was an American corporation concerned initially with rubber and related chemicals , and later with rocket and missile propulsion systems .",
+          "score": 5.1
+        },
+        {
+          "page_id": "MagiQ_Technologies,_Inc.",
+          "sentence_id": 0,
+          "text": "MagiQ Technologies , Inc. , or MagiQ , is an American technology development company headquartered in Somerville , Massachusetts .",
+          "score": 3.025
+        },
+        {
+          "page_id": "Metabolic_Technologies,_Inc.",
+          "sentence_id": 0,
+          "text": "Metabolic Technologies , Inc is an American life sciences company that sells dietary supplements and analytical services .",
+          "score": 3.02
+        },
+        {
+          "page_id": "RS_Technologies_Inc.",
+          "sentence_id": 0,
+          "text": "RS Technologies Inc. -LRB- RS -RRB- , formerly known as Resin Systems Inc. , is a Canadian company that designs , engineers and manufactures composite utility poles .",
+          "score": 3.0142857142857142
+        },
+        {
+          "page_id": "42_Technologies_Inc.",
+          "sentence_id": 0,
+          "text": "42 Technologies Inc. is a cloud-based business-to-business predictive analytics platform for retailers .",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.9881645441055298,
+        0.011743728071451187,
+        9.175985906040296e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

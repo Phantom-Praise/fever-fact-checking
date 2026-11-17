@@ -1,0 +1,397 @@
+{
+  "id": 118775,
+  "claim": "Jason Bonham played a real estate agent for Led Zeppelin.",
+  "condition": "rag_512",
+  "label": "REFUTES",
+  "probabilities": [
+    0.08397486805915833,
+    0.9156760573387146,
+    0.000349092239048332
+  ],
+  "logits": [
+    0.5985267162322998,
+    2.9876718521118164,
+    -4.8844099044799805
+  ],
+  "inference_seconds": 0.11318504200000135,
+  "evidence_text": "In 1988, Bonham joined Led Zeppelin guitarist Jimmy Page for his Outrider album and tour. In May of the same year, Bonham appeared with the three surviving members of Led Zeppelin for a performance at Atlantic Records 40th Anniversary concert in New York City. On 12 September 2007, it was announced that Jason Bonham would take over his father's role and play drums for Led Zeppelin at the Led Zeppelin reunion concert. This took place on 10 December 2007 at London's O2 arena as part of an all-star tribute to Ahmet Ertegun. His performance was described as \"flawless\" by music critics. Jason John Bonham (born 15 July 1966) is an English drummer. He is the son of Led Zeppelin drummer John Bonham. Since his father's death in September 1980, he has performed with the surviving three members of Led Zeppelin on several occasions, including the Ahmet Ertegun Tribute Concert at The O2 Arena in London in December 2007. He has also done extensive work as a session musician, led the group Bonham in the 1980s and '90s, and is a member of the supergroup Black Country Communion. Jason Bonham Bonham in 2021 Background information Born | (1966-07-15) 15 July 1966 Dudley, England Origin | Liverpool, England Genres | Hard rock blues rock heavy metal Occupations | Musician songwriter Instruments | Drums vocals Years active | 19701980–present Member of | Black Country Communion Jason Bonham's Led Zeppelin Evening Formerly of | Bonham Foreigner Steel Dragon Damnocracy Airrace Virginia Wolf Healing Sixes UFO California Breed Led Zeppelin Sammy Hagar and the Circle Website | jasonbonham.net In 1995, Bonham and his sister Zoe represented their father when Led Zeppelin was inducted into the Rock and Roll Hall of Fame. In February 2009, Jason Bonham and James Dylan began working together in what would become Jason Bonham's Led Zeppelin Evening, a live homage to his late father's band. During the autumn of 2010, Jason Bonham's Led Zeppelin Evening embarked on their first North American tour and toured worldwide throughout 2011. Bonham more recently played drums, along with sisters Ann and Nancy Wilson of the group Heart on vocals and guitar respectively, with successive additions of band, string and horn sections, and choirs (including the Joyce Garrett Youth Choir) for a show-ending performance of \"Stairway to Heaven\" during the Led Zeppelin tribute at the Kennedy Center Honors hosted by Barack Obama in December 2012 with his late father's band members Robert Plant, Jimmy Page, and John Paul Jones in attendance. It was described as a \"bring down the house\" version. In 2014, Bonham joined Sammy Hagar's supergroup Sammy Hagar and the Circle. The band featured Led Zeppelin tracks along with songs from Hagar's various career projects, such as Montrose, Van Halen, and Chickenfoot. Bonham starred with Ted Nugent, Evan Seinfeld (Biohazard), Sebastian Bach (Skid Row), and Scott Ian (Anthrax) on the VH1 reality television show, Supergroup, in May 2006. The musicians formed a band called Damnocracy (after ditching the names FIST, God War, and Savage Animal) for the show, during which they lived in a mansion in Las Vegas for twelve days and created music. Jason also played drums live with Foreigner from 2004 to 2007 and part of 2007 to 2008. Following an album and tour with his aunt Debbie Bonham, Jason Bonham was invited to drum for hard rock group UFO. In 2006, he recorded with Joe Bonamassa. In the Summer of 2013, Jason Bonham's Led Zeppelin Evening joined forces with the band Heart for \"The Heartbreaker Tour\" celebrating the music of Led Zeppelin. On 14 May 1988, the Atlantic Records label held its 40th Anniversary Celebration by staging a non-stop concert lasting almost 13 hours. A reformed Led Zeppelin, with Jason on drums, closed the event. Live In London by The Quireboys (2009) From early March to late May 2015, Jason Bonham's Led Zeppelin Evening toured extensively in North America. On 4 December 2015, the band began their North American Winter Tour in San Jose, California. In early May 2016, they embarked on a one-month / 22-date North American tour. Most recently, they embarked on another tour throughout the United States, with dates running through November 2021. He also joined Kid Rock on his Bad Reputation Tour. Bonham has endorsed DW Drums. Prior to this, for many years he played a Ludwig Vistalite drumkit similar to his late father's. Celebration Day by Led Zeppelin (2012) In the Name of My Father: The Zepset by Jason Bonham Band (1997)",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1011,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 994,
+    "evidence_tokens_retained": 495,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 312567,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 312567,
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 312567,
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 312567,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 312567,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 312567,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 312567,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 312567,
+        "tokens_total": 46,
+        "tokens_kept": 46,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 312567,
+        "tokens_total": 38,
+        "tokens_kept": 38,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 312567,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 312567,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 312567,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 312567,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 312567,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 312567,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 312567,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 312567,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 312567,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 312567,
+        "tokens_total": 15,
+        "tokens_kept": 15,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 312567,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 312567,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 312567,
+        "tokens_total": 28,
+        "tokens_kept": 28,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 312567,
+        "tokens_total": 36,
+        "tokens_kept": 36,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 312567,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 312567,
+        "tokens_total": 100,
+        "tokens_kept": 51,
+        "visibility": "partial"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 312567,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 312567,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 312567,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 312567,
+        "tokens_total": 45,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 312567,
+        "tokens_total": 45,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 312567,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 312567,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 312567,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 312567,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 312567,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 312567,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 312567,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 312567,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 312567,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 312567,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 312567,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 312567,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 312567,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 312567,
+        "tokens_total": 24,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 312567,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 312567,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Jason Bonham played a real estate agent for Led Zeppelin.</s></s>In 1988, Bonham joined Led Zeppelin guitarist Jimmy Page for his Outrider album and tour. In May of the same year, Bonham appeared with the three surviving members of Led Zeppelin for a performance at Atlantic Records 40th Anniversary concert in New York City. On 12 September 2007, it was announced that Jason Bonham would take over his father's role and play drums for Led Zeppelin at the Led Zeppelin reunion concert. This took place on 10 December 2007 at London's O2 arena as part of an all-star tribute to Ahmet Ertegun. His performance was described as \"flawless\" by music critics. Jason John Bonham (born 15 July 1966) is an English drummer. He is the son of Led Zeppelin drummer John Bonham. Since his father's death in September 1980, he has performed with the surviving three members of Led Zeppelin on several occasions, including the Ahmet Ertegun Tribute Concert at The O2 Arena in London in December 2007. He has also done extensive work as a session musician, led the group Bonham in the 1980s and '90s, and is a member of the supergroup Black Country Communion. Jason Bonham Bonham in 2021 Background information Born | (1966-07-15) 15 July 1966 Dudley, England Origin | Liverpool, England Genres | Hard rock blues rock heavy metal Occupations | Musician songwriter Instruments | Drums vocals Years active | 19701980–present Member of | Black Country Communion Jason Bonham's Led Zeppelin Evening Formerly of | Bonham Foreigner Steel Dragon Damnocracy Airrace Virginia Wolf Healing Sixes UFO California Breed Led Zeppelin Sammy Hagar and the Circle Website | jasonbonham.net In 1995, Bonham and his sister Zoe represented their father when Led Zeppelin was inducted into the Rock and Roll Hall of Fame. In February 2009, Jason Bonham and James Dylan began working together in what would become Jason Bonham's Led Zeppelin Evening, a live homage to his late father's band. During the autumn of 2010, Jason Bonham's Led Zeppelin Evening embarked on their first North American tour and toured worldwide throughout 2011. Bonham more recently played drums, along with sisters Ann and Nancy Wilson of the group Heart on vocals and guitar respectively, with successive additions of band, string and horn sections, and choirs (including the Joyce Garrett Youth Choir) for a show-</s>"
+  }
+}

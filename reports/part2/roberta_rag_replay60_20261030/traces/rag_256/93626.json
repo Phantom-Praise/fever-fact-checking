@@ -1,0 +1,509 @@
+{
+  "id": 93626,
+  "claim": "Saint Peter was ordained as a clergyman.",
+  "condition": "rag_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.8097045421600342,
+    0.18851840496063232,
+    0.0017770231934264302
+  ],
+  "logits": [
+    2.245875120162964,
+    0.7884013056755066,
+    -3.875854969024658
+  ],
+  "inference_seconds": 0.056501416999999776,
+  "evidence_text": "...as also the church of Rome, which makes Clement to have been ordained in like manner by Peter. In the New Testament, he is among the first of the disciples called during Jesus' ministry. Peter became the first listed apostle ordained by Jesus in the early Church. Christians of different theological backgrounds are in disagreement as to the exact significance of Peter's ministry. For instance: Acts of Peter; According to Tertullian's book Prescription against Heretics, it is stated that Clement was ordained by Peter as the bishop of Rome: Catholics view Peter as the first pope. The Catholic Church asserts that Peter's ministry, conferred upon him by Jesus of Nazareth in the gospels, lays down the theological foundation for the pope's exercise of pastoral authority over the Church. The New Apostolic Church, which believes in the re-established Apostle ministry, sees Peter as the first Chief Apostle. Acts of Peter and Paul; Acts of Peter and Andrew; List of Catholic saints Anglicanism, Lutheranism) 18 January: Confession of Saint Peter (Anglicanism, Lutheranism) 22 February: Chair of Saint Peter (Catholic Church) Venerated in | All Christian denominations that venerate saints Title as Saint | Saint Peter the Apostle Canonized | Pre-Congregation Attributes | Keys of Heaven, Red Martyr, pallium, papal vestments, rooster, man crucified upside down, vested as an Apostle, holding a book or scroll, Cross of Saint Peter Patronage | Patronage list Shrines | St. Peter's Basilica Church of St. Peter We honor Peter and in fact some of our churches are named after him, but he was not the first pope, nor was he Roman Catholic. If you read his first letter, you will see that he did not teach a Roman hierarchy, but that all Christians are royal priests. The same keys given to Peter in Matthew 16 are given to the whole church of believers in Matthew 18. List of popes The ancient Christian churches venerate Peter as a major saint and the founder of the Church of Antioch and the Church of Rome, but they differ in their attitudes regarding the authority of his successors. According to Catholic teaching, Jesus promised Peter a special position in the church. In the New Testament, the name \"Simon Peter\" is found 19 times. He is the brother of Andrew, and they both were fishermen. The Gospel of Mark, in particular, is traditionally thought to show the influence of Peter's preaching and eyewitness accounts. He is also mentioned as Peter or Cephas in Paul's First Letter to the Corinthians and the Epistle to the Galatians. The New Testament also includes two general epistles, First Peter and Second Peter, which are traditionally attributed to him, but modern scholarship generally rejects the Petrine authorship of both. The Very Reverend Peter B. Short 38th Moderator of the United Church of Canada Installed | August 16, 2003 Term ended | August 19, 2006 Predecessor | Marion Pardy Successor | David Giuliano Orders Ordination | 1969 Personal details Born | (1948-07-22) July 22, 1948 Kingston, Ontario Residence | Fredericton, New Brunswick Education | Emmanuel College, Toronto The Eastern Orthodox Church regards Apostle Peter, together with Apostle Paul, as \"Preeminent Apostles\". Another title used for Peter is Coryphaeus, which could be translated as \"Choir-director\", or lead singer. The church recognises Apostle Peter's leadership role in the early church, especially in the very early days at Jerusalem, but does not consider him to have had any \"princely\" role over his fellow Apostles. Kruger, Michael J. (1999). \"The Authenticity of 2 Peter\". Journal of Evangelical Society. 42 (4): 645–671. Clement of Alexandria (c. 150 – c. 215) states that \"Peter had preached the Word publicly at Rome (AD 190)\". In the Orthodox Daily Office every Thursday throughout the year is dedicated to the Holy Apostles, including Peter. There are also three feast days in the year which are dedicated to him: — John 1:42 List of Eastern Orthodox saints",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 857,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 844,
+    "evidence_tokens_retained": 243,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 31665644,
+        "tokens_total": 21,
+        "tokens_kept": 21,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 31665644,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 31665644,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 31665644,
+        "tokens_total": 18,
+        "tokens_kept": 18,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 31665644,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 31665644,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 31665644,
+        "tokens_total": 29,
+        "tokens_kept": 29,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 31665644,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 31665644,
+        "tokens_total": 39,
+        "tokens_kept": 39,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 31665644,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 31665644,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 31665644,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 31665644,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 31665644,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 31665644,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 31665644,
+        "tokens_total": 8,
+        "tokens_kept": 3,
+        "visibility": "partial"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 31665644,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 31665644,
+        "tokens_total": 42,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 31665644,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 31665644,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 31665644,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 31665644,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 31665644,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 31665644,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 31665644,
+        "tokens_total": 21,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 31665644,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 31665644,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 31665644,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 31665644,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 31665644,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 31665644,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 31665644,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 31665644,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 363087,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 363087,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 363087,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 363087,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 363087,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 363087,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 363087,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 363087,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 363087,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 363087,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 363087,
+        "tokens_total": 17,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 363087,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 363087,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 31665644,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 31665644,
+        "tokens_total": 25,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 31665644,
+        "tokens_total": 43,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 31665644,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 31665644,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 31665644,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 31665644,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 31665644,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 31665644,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 31665644,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 31665644,
+        "tokens_total": 20,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 31665644,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 31665644,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 60,
+        "id": "E60",
+        "page_id": 31665644,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Saint Peter was ordained as a clergyman.</s></s>...as also the church of Rome, which makes Clement to have been ordained in like manner by Peter. In the New Testament, he is among the first of the disciples called during Jesus' ministry. Peter became the first listed apostle ordained by Jesus in the early Church. Christians of different theological backgrounds are in disagreement as to the exact significance of Peter's ministry. For instance: Acts of Peter; According to Tertullian's book Prescription against Heretics, it is stated that Clement was ordained by Peter as the bishop of Rome: Catholics view Peter as the first pope. The Catholic Church asserts that Peter's ministry, conferred upon him by Jesus of Nazareth in the gospels, lays down the theological foundation for the pope's exercise of pastoral authority over the Church. The New Apostolic Church, which believes in the re-established Apostle ministry, sees Peter as the first Chief Apostle. Acts of Peter and Paul; Acts of Peter and Andrew; List of Catholic saints Anglicanism, Lutheranism) 18 January: Confession of Saint Peter (Anglicanism, Lutheranism) 22 February: Chair of Saint Peter (Catholic Church) Venerated in | All Christian denominations that venerate saints Title as Saint</s>"
+  }
+}

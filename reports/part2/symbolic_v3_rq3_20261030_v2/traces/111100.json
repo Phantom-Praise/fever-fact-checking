@@ -1,0 +1,116 @@
+{
+  "id": 111100,
+  "claim": "Selena Gomez's album is called Revival.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.1390953330000002,
+      "symbolic": {
+        "claim": "Selena Gomez's album is called Revival.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.2416999998876577e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Revival_-LRB-Selena_Gomez_album-RRB-",
+          "sentence_id": 0,
+          "text": "Revival is the second studio album by American singer Selena Gomez .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Sober_-LRB-Selena_Gomez_song-RRB-",
+          "sentence_id": 0,
+          "text": "`` Sober '' is a song by American singer Selena Gomez from her second solo studio album , Revival -LRB- 2015 -RRB- , included as the fifth track on the record .",
+          "score": 4.011111111111111
+        },
+        {
+          "page_id": "Revival_-LRB-Selena_Gomez_album-RRB-",
+          "sentence_id": 19,
+          "text": "Gomez promoted the album with several televised performances and embarked on her Revival Tour in May 2016 , which visited North America , Asia and Oceania .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Selena_Gomez_discography",
+          "sentence_id": 0,
+          "text": "American singer Selena Gomez has released two studio albums , one compilation album , one extended play , ten singles -LRB- including three as a featured artist -RRB- , six promotional singles and eight music videos .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "For_You_-LRB-Selena_Gomez_album-RRB-",
+          "sentence_id": 0,
+          "text": "For You is the first compilation album by American singer Selena Gomez .",
+          "score": 3.02
+        }
+      ],
+      "probabilities": [
+        0.9706092476844788,
+        0.029315639287233353,
+        7.50532271922566e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05636795799999916,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5541203022003174,
+        0.27208465337753296,
+        0.17379508912563324
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.12234529200000033,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Revival_-LRB-Selena_Gomez_album-RRB-",
+          "sentence_id": 0,
+          "text": "Revival is the second studio album by American singer Selena Gomez .",
+          "score": 4.1
+        },
+        {
+          "page_id": "Sober_-LRB-Selena_Gomez_song-RRB-",
+          "sentence_id": 0,
+          "text": "`` Sober '' is a song by American singer Selena Gomez from her second solo studio album , Revival -LRB- 2015 -RRB- , included as the fifth track on the record .",
+          "score": 4.011111111111111
+        },
+        {
+          "page_id": "Revival_-LRB-Selena_Gomez_album-RRB-",
+          "sentence_id": 19,
+          "text": "Gomez promoted the album with several televised performances and embarked on her Revival Tour in May 2016 , which visited North America , Asia and Oceania .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Selena_Gomez_discography",
+          "sentence_id": 0,
+          "text": "American singer Selena Gomez has released two studio albums , one compilation album , one extended play , ten singles -LRB- including three as a featured artist -RRB- , six promotional singles and eight music videos .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "For_You_-LRB-Selena_Gomez_album-RRB-",
+          "sentence_id": 0,
+          "text": "For You is the first compilation album by American singer Selena Gomez .",
+          "score": 3.02
+        }
+      ],
+      "probabilities": [
+        0.9706092476844788,
+        0.029315639287233353,
+        7.50532271922566e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

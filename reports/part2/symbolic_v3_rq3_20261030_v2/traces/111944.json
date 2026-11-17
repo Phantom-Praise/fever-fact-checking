@@ -1,0 +1,116 @@
+{
+  "id": 111944,
+  "claim": "The Spider-Man series had an impact.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.059078999999996995,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.8378257751464844,
+        0.019520312547683716,
+        0.1426539123058319
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.10988129099999355,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Spider-Man_series",
+          "sentence_id": 0,
+          "text": "Spider-Man series may refer to :",
+          "score": 3.1
+        },
+        {
+          "page_id": "Spider-Man_series",
+          "sentence_id": 3,
+          "text": "List of Spider-Man titles , a list of Spider-Man comic book series",
+          "score": 3.1
+        },
+        {
+          "page_id": "Spider-Man_series",
+          "sentence_id": 5,
+          "text": "Spider-Man television series , animation and live action on TV .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Spider-Man_book_series",
+          "sentence_id": 0,
+          "text": "Since the characters inception in the 1960s Spider-Man has appeared in several forms of media , including novels and book series .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Spider-Man",
+          "sentence_id": 7,
+          "text": "The Spider-Man series broke ground by featuring Peter Parker , the high school student behind Spider-Man 's secret identity and with whose `` self-obsessions with rejection , inadequacy , and loneliness '' young readers could relate .",
+          "score": 3.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.983258068561554,
+        0.01664067804813385,
+        0.00010122230014530942
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.1017481250000003,
+      "symbolic": {
+        "claim": "The Spider-Man series had an impact.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.4041000000020176e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Spider-Man_series",
+          "sentence_id": 0,
+          "text": "Spider-Man series may refer to :",
+          "score": 3.1
+        },
+        {
+          "page_id": "Spider-Man_series",
+          "sentence_id": 3,
+          "text": "List of Spider-Man titles , a list of Spider-Man comic book series",
+          "score": 3.1
+        },
+        {
+          "page_id": "Spider-Man_series",
+          "sentence_id": 5,
+          "text": "Spider-Man television series , animation and live action on TV .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Spider-Man_book_series",
+          "sentence_id": 0,
+          "text": "Since the characters inception in the 1960s Spider-Man has appeared in several forms of media , including novels and book series .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Spider-Man",
+          "sentence_id": 7,
+          "text": "The Spider-Man series broke ground by featuring Peter Parker , the high school student behind Spider-Man 's secret identity and with whose `` self-obsessions with rejection , inadequacy , and loneliness '' young readers could relate .",
+          "score": 3.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.983258068561554,
+        0.01664067804813385,
+        0.00010122230014530942
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

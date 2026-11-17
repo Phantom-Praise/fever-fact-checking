@@ -1,0 +1,72 @@
+{
+  "n": 60,
+  "token_count_mismatch_ids": [],
+  "all_completed_workspaces_deleted": true,
+  "temporary_root_empty": true,
+  "invalid_errors": {
+    "ValueError: Incomplete or output-token-limited response": 4
+  },
+  "claims_with_fetch_errors": 7,
+  "fetch_error_total": 7,
+  "claims_with_duplicate_resolved_pages": [],
+  "main_predicted_counts": {
+    "NOT ENOUGH INFO": 22,
+    "REFUTES": 16,
+    "SUPPORTS": 18,
+    "INVALID": 4
+  },
+  "baseline_predicted_counts": {
+    "SUPPORTS": 37,
+    "REFUTES": 23
+  },
+  "baseline_truncated_inputs": 2,
+  "pipeline_seconds": {
+    "n": 60,
+    "minimum": 23.74952175,
+    "median": 59.5485719374999,
+    "mean": 58.75750074941665,
+    "maximum": 69.45566874999986
+  },
+  "fetch_seconds": {
+    "n": 60,
+    "minimum": 5.545728917,
+    "median": 41.1830224790001,
+    "mean": 40.062594212466685,
+    "maximum": 47.32730404200015
+  },
+  "embedding_seconds": {
+    "n": 60,
+    "minimum": 3.6331457920000503,
+    "median": 5.505940833499835,
+    "mean": 5.5782259500166544,
+    "maximum": 8.697071042000061
+  },
+  "generation_seconds": {
+    "n": 60,
+    "minimum": 9.034372041999632,
+    "median": 12.121441437500067,
+    "mean": 12.626938499283337,
+    "maximum": 20.062117124999986
+  },
+  "chunks": {
+    "n": 60,
+    "minimum": 62,
+    "median": 194.0,
+    "mean": 218.26666666666668,
+    "maximum": 718
+  },
+  "prompt_tokens": {
+    "n": 60,
+    "minimum": 1760,
+    "median": 2415.5,
+    "mean": 2380.5333333333333,
+    "maximum": 2945
+  },
+  "peak_per_claim_storage_bytes": {
+    "n": 60,
+    "minimum": 825117,
+    "median": 2603506.5,
+    "mean": 2850043,
+    "maximum": 8272799
+  }
+}

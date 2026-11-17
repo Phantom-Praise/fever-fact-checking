@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "n": 19998,
+  "checks": [
+    "All frozen input SHA256 hashes unchanged",
+    "Full official claim IDs and original ordering",
+    "Exact saved evidence references and reconstructed text hashes",
+    "Unchanged claim-only probabilities",
+    "512 retained token counts",
+    "All 256-token baseline metrics exactly reproduce original benchmark",
+    "All 512-token combined predictions reproduce frozen fusion",
+    "Confusion and one-vs-rest counts match full population",
+    "Net fixed-minus-introduced errors equals accuracy change"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "metric": "validation macro-F1 only",
+  "winner_last_blocks": 3,
+  "candidates": [
+    {
+      "last_blocks": 1,
+      "validation_macro_f1": 0.6629705397811517,
+      "validation_loss": 0.6809180378913879,
+      "selected_step": 11000,
+      "completed_steps": 14546,
+      "state_sha256": "982723bafdf2a3e631321606bc427b4c87abc6e2d1f386f45c27866efb9def2a"
+    },
+    {
+      "last_blocks": 2,
+      "validation_macro_f1": 0.6824249026227345,
+      "validation_loss": 0.6490874886512756,
+      "selected_step": 11000,
+      "completed_steps": 14546,
+      "state_sha256": "bfe5f5354747fd25a5e54100cd06f17aed6a08104b4d8a9d7313d2204716fc67"
+    },
+    {
+      "last_blocks": 3,
+      "validation_macro_f1": 0.6942348053196353,
+      "validation_loss": 0.6345609426498413,
+      "selected_step": 11000,
+      "completed_steps": 14546,
+      "state_sha256": "e2fe1583b3c925e84871629123096f63f20a3600ac6b92867a9ac45d697590cc"
+    }
+  ],
+  "official_labels_used": false
+}

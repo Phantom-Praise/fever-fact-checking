@@ -1,0 +1,62 @@
+{
+  "id": 136396,
+  "claim": "The Eagles are a band who sang Hotel California.",
+  "label": "SUPPORTS",
+  "label_order": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT ENOUGH INFO"
+  ],
+  "probabilities": [
+    0.9462072849273682,
+    0.05366888642311096,
+    0.00012383995635900646
+  ],
+  "logits": [
+    3.5658321380615234,
+    0.6962039470672607,
+    -5.375394821166992
+  ],
+  "evidence": [
+    {
+      "page_id": "Hotel_California_-LRB-Eagles_album-RRB-",
+      "sentence_id": 0,
+      "text": "Hotel California is the fifth studio album by American rock band the Eagles , and is one of the best-selling albums of all time .",
+      "score": 4.05
+    },
+    {
+      "page_id": "Hotel_California_-LRB-Eagles_album-RRB-",
+      "sentence_id": 10,
+      "text": "The album topped the charts and won the band two Grammy Awards for `` Hotel California '' and `` New Kid in Town '' .",
+      "score": 3.05
+    },
+    {
+      "page_id": "Hotel_California",
+      "sentence_id": 0,
+      "text": "`` Hotel California '' is the title track from the Eagles ' album of the same name and was released as a single in February 1977 .",
+      "score": 3.025
+    },
+    {
+      "page_id": "Eagles_-LRB-band-RRB-",
+      "sentence_id": 3,
+      "text": "Hotel California is ranked 37th in Rolling Stones list of `` The 500 Greatest Albums of All Time '' and the band was ranked number 75 on the magazine 's 2004 list of the 100 Greatest Artists of All Time .",
+      "score": 3.0142857142857142
+    },
+    {
+      "page_id": "Eagles_-LRB-band-RRB-",
+      "sentence_id": 6,
+      "text": "The Eagles are one of the world 's best-selling bands of all time , having sold more than 150 million records -- 100 million in the U.S. alone -- including 42 million copies of Their Greatest Hits -LRB- 1971 -- 1975 -RRB- and 32 million copies of Hotel California .",
+      "score": 3.0142857142857142
+    }
+  ],
+  "token_trace": {
+    "tokens_before": 200,
+    "tokens_retained": 200,
+    "truncated": false,
+    "max_length": 256,
+    "decoded_retained_input": "<s>The Eagles are a band who sang Hotel California.</s></s>Hotel California is the fifth studio album by American rock band the Eagles , and is one of the best-selling albums of all time . The album topped the charts and won the band two Grammy Awards for `` Hotel California '' and `` New Kid in Town '' . `` Hotel California '' is the title track from the Eagles ' album of the same name and was released as a single in February 1977 . Hotel California is ranked 37th in Rolling Stones list of `` The 500 Greatest Albums of All Time '' and the band was ranked number 75 on the magazine 's 2004 list of the 100 Greatest Artists of All Time . The Eagles are one of the world 's best-selling bands of all time , having sold more than 150 million records -- 100 million in the U.S. alone -- including 42 million copies of Their Greatest Hits -LRB- 1971 -- 1975 -RRB- and 32 million copies of Hotel California .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "status": "complete",
+  "device": "cpu",
+  "wall_seconds": 0.26670183299999906
+}

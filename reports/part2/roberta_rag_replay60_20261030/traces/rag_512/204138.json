@@ -1,0 +1,341 @@
+{
+  "id": 204138,
+  "claim": "Ann Romney is a politician's wife.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.8951584696769714,
+    0.10225046426057816,
+    0.0025910544209182262
+  ],
+  "logits": [
+    2.4181947708129883,
+    0.2486192286014557,
+    -3.426741123199463
+  ],
+  "inference_seconds": 0.10871137499999861,
+  "evidence_text": "Ann Lois Romney (née Davies; born April 16, 1949) is an American author and philanthropist. She is married to politician and businessman Mitt Romney and was First Lady of Massachusetts during her husband's tenure as governor of that state. is by the friends I have and the loved ones that I have and the people that I care about in my life.\" emphasizing her husband's personal nature and character, rather than simply present issue and record arguments against Obama. At the conclusion of her time as Massachusetts First Lady, Romney said that the role \"doesn't need to change your life at all. I think it's an opportunity for service and an opportunity to see people of all walks of life from across the Commonwealth...It's an enriching part of your life [and one will] treasure it forever.\" Her health was still a primary factor in family decisions about her husband's career, and Mitt said in 2005 that if her multiple sclerosis flared up, \"I wouldn't be involved in politics anymore; that would be over.\" Her political message was often mixed with discussions of her family, her recipes, or managing her condition. Romney's television advertisements in the early primary states prominently featured her and by the close of 2007, she was the most visible of all the Republican candidates' wives in campaigning. Regarding having to witness criticism of her husband, she later acknowledged that she sometimes wanted to \"come out of my seat and clock somebody [but] you learn to just take a deep breath.\" By the time he ended his campaign in February 2008, she had become openly distasteful of the whole process. Romney joined in her husband's campaign in the 2002 Massachusetts gubernatorial election from the start, and nominated him at the state party convention. A commercial entitled \"Mitt and Ann\", highlighting their romance and marriage, began the campaign's television advertising. She avoided media interviews like the one that plagued her in 1994, but was a force behind the scenes during the eventually successful campaign. Once the campaign began, she stumped for her husband in early primary states and criticized the record and ideological direction of the Obama administration. As part of trying to lighten her husband's image, she sometimes participated in comic setup routines with him. Romney said that if she became First Lady of the United States, she would seek to work with at-risk youths and on behalf of those with multiple sclerosis. She expressed admiration for three former first ladies, Mamie Eisenhower, Nancy Reagan, and Barbara Bush. It was partly due to her urging that her husband entered politics and ran in the 1994 U.S. Senate election in Massachusetts against incumbent Democrat Ted Kennedy. The race constituted her first prolonged public exposure as she campaigned for him on a nightly basis. She was seen as superficial and too deferential to him and some columnists labelled her a \"Stepford wife\". Late in that campaign, she gave a long interview to The Boston Globe. Her statement in it that she and her husband had never had a serious argument during their married years came in for ridicule, and her portrayal of the couple's student years as financially impoverished, while they lived off of sales of George Romney's stock and loans, made her seem privileged and naïve and brought a harsh public reaction. Boston University political science professor later said, \"She definitely hurt him in that race.\" Asked following her husband's loss if she would be involved in future campaigns, Ann said, \"Never. You couldn In June 2009, due to her husband's request, Ann Romney became the first spouse to be included in the official Massachusetts State House gubernatorial portrait. During the course of the 2016 election cycle, Romney expressed sympathy toward Democratic front-runner Hillary Clinton since she had also experienced claims of not being relatable. She was also puzzled by Republican front-runner Donald Trump's success despite touting his wealth whereas the Romneys had not, yet still were criticized for not relating to common voters because of theirs. Though highly critical of her husband after he spoke negatively of the Trump candidacy in March 2016, Trump praised Ann Romney as \"a lovely woman\". Ann Romney earned at least one vote for president when her husband cast a write-in vote for her in November 2016, later saying he voted for \"a person who I admire deeply, who I think would be an excellent president\". Two years later Romney hit the campaign trail again, this time to support her husband in the 2018 United States Senate election in Utah. It was a run that she encouraged him to make, saying \"This is a time when you're needed. You have deep roots in this state. Your family heritage is in this state. And when people are needed you gotta step up.\" In this case, as in the past, he relied strongly on her advice. His campaign was successful and he took office in January 2019. Living in Washington, however, had little appeal to her, and she rarely joined her husband at the townhouse they bought there. In April 2019, the couple's self-help volume Simple Truths for an Abundant Life: From One Generation to Another was published. In it they described how their own life experiences illustrated ways for principles for handling different aspects and stages of life. Romney family, a family prominent in U.S. politics",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 1061,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 1049,
+    "evidence_tokens_retained": 500,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 11260577,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 11260577,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 11260577,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 11260577,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 11260577,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 11260577,
+        "tokens_total": 86,
+        "tokens_kept": 86,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 11260577,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 11260577,
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 11260577,
+        "tokens_total": 61,
+        "tokens_kept": 61,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 11260577,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 11260577,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 11260577,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 11260577,
+        "tokens_total": 27,
+        "tokens_kept": 27,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 11260577,
+        "tokens_total": 22,
+        "tokens_kept": 22,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 11260577,
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 11260577,
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 11260577,
+        "tokens_total": 21,
+        "tokens_kept": 5,
+        "visibility": "partial"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 11260577,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 11260577,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 11260577,
+        "tokens_total": 23,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 11260577,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 11260577,
+        "tokens_total": 64,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 11260577,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 11260577,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 11260577,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 11260577,
+        "tokens_total": 31,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 11260577,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 11260577,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 11260577,
+        "tokens_total": 46,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 11260577,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 11260577,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 11260577,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 11260577,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 11260577,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 11260577,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 11260577,
+        "tokens_total": 26,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 11260577,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 11260577,
+        "tokens_total": 22,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 381984,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Ann Romney is a politician's wife.</s></s>Ann Lois Romney (née Davies; born April 16, 1949) is an American author and philanthropist. She is married to politician and businessman Mitt Romney and was First Lady of Massachusetts during her husband's tenure as governor of that state. is by the friends I have and the loved ones that I have and the people that I care about in my life.\" emphasizing her husband's personal nature and character, rather than simply present issue and record arguments against Obama. At the conclusion of her time as Massachusetts First Lady, Romney said that the role \"doesn't need to change your life at all. I think it's an opportunity for service and an opportunity to see people of all walks of life from across the Commonwealth...It's an enriching part of your life [and one will] treasure it forever.\" Her health was still a primary factor in family decisions about her husband's career, and Mitt said in 2005 that if her multiple sclerosis flared up, \"I wouldn't be involved in politics anymore; that would be over.\" Her political message was often mixed with discussions of her family, her recipes, or managing her condition. Romney's television advertisements in the early primary states prominently featured her and by the close of 2007, she was the most visible of all the Republican candidates' wives in campaigning. Regarding having to witness criticism of her husband, she later acknowledged that she sometimes wanted to \"come out of my seat and clock somebody [but] you learn to just take a deep breath.\" By the time he ended his campaign in February 2008, she had become openly distasteful of the whole process. Romney joined in her husband's campaign in the 2002 Massachusetts gubernatorial election from the start, and nominated him at the state party convention. A commercial entitled \"Mitt and Ann\", highlighting their romance and marriage, began the campaign's television advertising. She avoided media interviews like the one that plagued her in 1994, but was a force behind the scenes during the eventually successful campaign. Once the campaign began, she stumped for her husband in early primary states and criticized the record and ideological direction of the Obama administration. As part of trying to lighten her husband's image, she sometimes participated in comic setup routines with him. Romney said that if she became First Lady of the United States, she would seek to work with at-risk youths and on behalf of those with multiple sclerosis. She expressed admiration for three former first ladies, Mamie Eisenhower, Nancy Reagan, and Barbara Bush. It was partly due to</s>"
+  }
+}

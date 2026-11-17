@@ -1,0 +1,70 @@
+{
+  "id": 204138,
+  "claim": "Ann Romney is a politician's wife.",
+  "condition": "five_sentence_256",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9903588891029358,
+    0.00954404566437006,
+    9.704961121315137e-05
+  ],
+  "logits": [
+    4.244002342224121,
+    -0.39814770221710205,
+    -4.986598491668701
+  ],
+  "inference_seconds": 0.056429791999999424,
+  "evidence_text": "Ann Lois Romney -LRB- née Davies ; born April 16 , 1949 -RRB- is the wife of American businessman and politician , Mitt Romney . Ann and Mitt Romney have five sons , born between 1970 and 1981 , and twenty-three grandchildren . The Politician 's Wife is a British television political drama broadcast on Channel 4 in 1995 , written by Paula Milne , and starring Trevor Eve and Juliet Stevenson . From 2003 to 2007 , Romney was First Lady of Massachusetts , while her husband served as Governor . She was raised in Bloomfield Hills , Michigan , and attended the private Kingswood School there , where she dated Mitt Romney .",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 141,
+    "tokens_retained": 141,
+    "truncated": false,
+    "evidence_tokens_total": 129,
+    "evidence_tokens_retained": 129,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": null,
+        "page_id": "Ann_Romney",
+        "tokens_total": 32,
+        "tokens_kept": 32,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": null,
+        "page_id": "Ann_Romney",
+        "tokens_total": 20,
+        "tokens_kept": 20,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": null,
+        "page_id": "The_Politician's_Wife",
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": null,
+        "page_id": "Ann_Romney",
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": null,
+        "page_id": "Ann_Romney",
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      }
+    ],
+    "decoded_retained_input": "<s>Ann Romney is a politician's wife.</s></s>Ann Lois Romney -LRB- née Davies ; born April 16 , 1949 -RRB- is the wife of American businessman and politician , Mitt Romney . Ann and Mitt Romney have five sons , born between 1970 and 1981 , and twenty-three grandchildren . The Politician 's Wife is a British television political drama broadcast on Channel 4 in 1995 , written by Paula Milne , and starring Trevor Eve and Juliet Stevenson . From 2003 to 2007 , Romney was First Lady of Massachusetts , while her husband served as Governor . She was raised in Bloomfield Hills , Michigan , and attended the private Kingswood School there , where she dated Mitt Romney .</s><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad><pad>"
+  },
+  "saved_probability_max_difference": 0.0
+}

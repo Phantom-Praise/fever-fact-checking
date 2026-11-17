@@ -1,0 +1,188 @@
+{
+  "id": 82096,
+  "claim": "Tamara Taylor was born in the seventies.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0857192910000002,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Tamara_Taylor",
+          "sentence_id": 0,
+          "text": "Tamara Taylor -LRB- born September 27 , 1970 -RRB- is a Canadian actress .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Tamara_Taylor_-LRB-rugby_union-RRB-",
+          "sentence_id": 0,
+          "text": "Tamara Taylor -LRB- born 8 October 1981 -RRB- is an English female rugby union player , who captained England in the 2015 Women 's Six Nations Championship .",
+          "score": 3.0166666666666666
+        },
+        {
+          "page_id": "Tamara_Taylor_-LRB-disambiguation-RRB-",
+          "sentence_id": 0,
+          "text": "Tamara Taylor may refer to :",
+          "score": 2.05
+        },
+        {
+          "page_id": "Tamara_Taylor_-LRB-disambiguation-RRB-",
+          "sentence_id": 3,
+          "text": "Tamara Taylor , Canadian actress",
+          "score": 2.05
+        },
+        {
+          "page_id": "Tamara_Taylor_-LRB-disambiguation-RRB-",
+          "sentence_id": 5,
+          "text": "Tamara Taylor -LRB- rugby union -RRB- , English rugby player",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.9031160473823547,
+        0.09665150195360184,
+        0.00023245232296176255
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 6.313737792000001,
+      "symbolic": {
+        "claim": "Tamara Taylor was born in the seventies.",
+        "label": null,
+        "reason": "service_failure_fallback",
+        "parts": [],
+        "parsed": {
+          "subject": "Tamara Taylor",
+          "human": true,
+          "parts": [
+            {
+              "property": "P19",
+              "kind": "entity",
+              "expected": "the seventies"
+            }
+          ]
+        },
+        "error": "Wikidata unavailable; explicit operational fallback",
+        "queries": [
+          {
+            "params": {
+              "action": "wbsearchentities",
+              "search": "Tamara Taylor",
+              "language": "en",
+              "limit": 50
+            },
+            "snapshot_file": "ea2ff2105aafd00277cee06e6fb6b22fb9ae34e69e37dcd57daa6f1b641a43ad.json",
+            "fetched_utc": "2026-10-31T00:07:21.133045+00:00"
+          },
+          {
+            "params": {
+              "action": "wbgetentities",
+              "ids": "Q236948",
+              "props": "info|claims|labels|aliases",
+              "languages": "en"
+            },
+            "snapshot_file": "d48938bc414f840c4f61caf9e5e72292f15e980009dab2b28ccb5e2134938b14.json",
+            "fetched_utc": "2026-10-31T00:07:21.625931+00:00"
+          },
+          {
+            "params": {
+              "action": "wbgetentities",
+              "ids": "Q16612147",
+              "props": "info|claims|labels|aliases",
+              "languages": "en"
+            },
+            "snapshot_file": "9dcad8a3e383ee88d9a73ce9432e7ef35496ceb39e2d334eceafa493d9b5451d.json",
+            "fetched_utc": "2026-10-31T00:07:22.139150+00:00"
+          },
+          {
+            "params": {
+              "action": "wbgetentities",
+              "ids": "Q119564871",
+              "props": "info|claims|labels|aliases",
+              "languages": "en"
+            },
+            "snapshot_file": "bf45bddc766efc5c8f854e89222ef0eb1a76e69048e0ed1f5ed0619182e480a6.json",
+            "fetched_utc": "2026-10-31T00:07:22.612032+00:00"
+          },
+          {
+            "params": {
+              "action": "wbgetentities",
+              "ids": "Q92726599",
+              "props": "info|claims|labels|aliases",
+              "languages": "en"
+            },
+            "snapshot_file": "445b6bcc78960f28b3e84863839400f87dd669d3dcd903ab87af6d55b5025e6d.json",
+            "fetched_utc": "2026-10-31T00:07:23.150472+00:00"
+          },
+          {
+            "params": {
+              "action": "wbgetentities",
+              "ids": "Q3514665",
+              "props": "info|claims|labels|aliases",
+              "languages": "en"
+            },
+            "snapshot_file": "97c31604fa50701d41718003a4af3eaee0cbf5e50649d34d6ef18ebbe585612d.json",
+            "fetched_utc": "2026-10-31T00:07:23.667829+00:00"
+          }
+        ],
+        "http_calls": 9,
+        "wall_seconds": 6.206408916999997
+      },
+      "evidence": [
+        {
+          "page_id": "Tamara_Taylor",
+          "sentence_id": 0,
+          "text": "Tamara Taylor -LRB- born September 27 , 1970 -RRB- is a Canadian actress .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Tamara_Taylor_-LRB-rugby_union-RRB-",
+          "sentence_id": 0,
+          "text": "Tamara Taylor -LRB- born 8 October 1981 -RRB- is an English female rugby union player , who captained England in the 2015 Women 's Six Nations Championship .",
+          "score": 3.0166666666666666
+        },
+        {
+          "page_id": "Tamara_Taylor_-LRB-disambiguation-RRB-",
+          "sentence_id": 0,
+          "text": "Tamara Taylor may refer to :",
+          "score": 2.05
+        },
+        {
+          "page_id": "Tamara_Taylor_-LRB-disambiguation-RRB-",
+          "sentence_id": 3,
+          "text": "Tamara Taylor , Canadian actress",
+          "score": 2.05
+        },
+        {
+          "page_id": "Tamara_Taylor_-LRB-disambiguation-RRB-",
+          "sentence_id": 5,
+          "text": "Tamara Taylor -LRB- rugby union -RRB- , English rugby player",
+          "score": 2.05
+        }
+      ],
+      "probabilities": [
+        0.9031160473823547,
+        0.09665150195360184,
+        0.00023245232296176255
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.05670870799999861,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.531114935874939,
+        0.37627190351486206,
+        0.0926131010055542
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

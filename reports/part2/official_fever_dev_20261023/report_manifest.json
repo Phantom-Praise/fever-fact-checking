@@ -1,0 +1,26 @@
+{
+  "status": "verified_complete",
+  "n": 19998,
+  "source_and_checkpoint_hashes_verified": true,
+  "official_metrics_reproduced": true,
+  "publication_reference_source": "https://aclanthology.org/2020.acl-main.655.pdf",
+  "report_source_sha256": "ef0ba9b7f56b49b11a7359d3e7aef9b4bab1f0d221f3d4cd57738f83a0358958",
+  "output_sha256": {
+    "OFFICIAL_COMPARISON.md": "85e37309c47e7dce3eb80ef50c5fd21124711d413bfe74a9e45212817e86a3e3",
+    "calibrated_ensemble.jsonl": "547bbeebc97a06ddf427d00c3aa9eb5ed10918c5259de853a9b85cf38a01372b",
+    "claim_only_H2.jsonl": "2d236659ed9b2d730c89bd4999e8fa5a386e436734e4562ceb04b04ec3d8f732",
+    "comparison.csv": "3339714de7477a8063752a18b3681d13b204a2581166cfc8ef86e2f3ec554529",
+    "corpus_annotation_availability.json": "30f6744e81468d75da8ac1528542b9c4d66a265fa467cd4fdc1a00a8761b5b26",
+    "environment.json": "e5ec7fa53d2e473a90f7c0990cb516003595e19d0db1cca5c30264c63b801a86",
+    "illustrative_cases.json": "12699d8f3913325b1e69990add83d6411ebb939d72663d9a58f7809aefb0c8d1",
+    "nonoverlap_sensitivity.json": "8a4a0275bc24640c1eb9b6faebe2623f062f20f8d61a784cfcf3ac2cd6e4136d",
+    "normalized_overlap_audit.json": "ee2701a546d7e1576a8dbc53283879f0fbd24709df453004cd74581fcce9e94f",
+    "outputs.jsonl": "757cc6b4caabb344ae572df276bc9e6232e99d4797b0fdc5ea92a517ac151a8b",
+    "progress.json": "58bab447a0143ab684001460af753143662da8c1054ac13c6efeda0ba6fd883b",
+    "protocol.json": "2b6fc5fcd87839eeb25b4d57a8257004cad592140f674d8fce44ae5e32e1676e",
+    "retrieved_roberta.jsonl": "714babe7694ad6d19bb913c77fd673b8940e17b7c1de2977c2c9b8d208ebc7f0",
+    "runner_source.py": "8e036a1ab747ea17efa7654032bf98ee6214e54e366f206450481fd6ec4b192e",
+    "summary.json": "b7422ee9853904e28d58e855245aabcd4c6f5d6f01bf96c8805844222c2c48cd",
+    "training_subset_reconstruction_audit.json": "fe31a9f1f703e9e5084a16dc228cf551bb6f0005e0cd01c57720432676cf9747"
+  }
+}

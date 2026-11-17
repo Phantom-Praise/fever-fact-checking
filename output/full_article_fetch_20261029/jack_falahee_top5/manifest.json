@@ -1,0 +1,177 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-29T13:57:09.218011+00:00",
+  "claim": "Jack Falahee was born.",
+  "selection_method": "Unchanged existing title FTS/BM25 ranking: retrieve 10 candidate articles, retain the first top_k. No new article reranker.",
+  "ranked_candidates": [
+    {
+      "rank": 1,
+      "page_id": "Jack_Falahee",
+      "url": "https://en.wikipedia.org/wiki/Jack_Falahee"
+    },
+    {
+      "rank": 2,
+      "page_id": "Jack_&_Jack",
+      "url": "https://en.wikipedia.org/wiki/Jack_%26_Jack"
+    },
+    {
+      "rank": 3,
+      "page_id": "Jack-Jack_Attack",
+      "url": "https://en.wikipedia.org/wiki/Jack-Jack_Attack"
+    },
+    {
+      "rank": 4,
+      "page_id": "Jack",
+      "url": "https://en.wikipedia.org/wiki/Jack"
+    },
+    {
+      "rank": 5,
+      "page_id": "Jack_Allen_-LRB-footballer,_born_1891-RRB-",
+      "url": "https://en.wikipedia.org/wiki/Jack_Allen_%28footballer%2C_born_1891%29"
+    },
+    {
+      "rank": 6,
+      "page_id": "Jack_Allen_-LRB-footballer,_born_1903-RRB-",
+      "url": "https://en.wikipedia.org/wiki/Jack_Allen_%28footballer%2C_born_1903%29"
+    },
+    {
+      "rank": 7,
+      "page_id": "Jack_Anderson_-LRB-footballer,_born_1908-RRB-",
+      "url": "https://en.wikipedia.org/wiki/Jack_Anderson_%28footballer%2C_born_1908%29"
+    },
+    {
+      "rank": 8,
+      "page_id": "Jack_Anderson_-LRB-footballer,_born_1909-RRB-",
+      "url": "https://en.wikipedia.org/wiki/Jack_Anderson_%28footballer%2C_born_1909%29"
+    },
+    {
+      "rank": 9,
+      "page_id": "Jack_Angus_-LRB-footballer,_born_1868-RRB-",
+      "url": "https://en.wikipedia.org/wiki/Jack_Angus_%28footballer%2C_born_1868%29"
+    },
+    {
+      "rank": 10,
+      "page_id": "Jack_Angus_-LRB-footballer,_born_1909-RRB-",
+      "url": "https://en.wikipedia.org/wiki/Jack_Angus_%28footballer%2C_born_1909%29"
+    }
+  ],
+  "selected_articles": [
+    {
+      "rank": 1,
+      "page_id": "Jack_Falahee",
+      "url": "https://en.wikipedia.org/wiki/Jack_Falahee"
+    },
+    {
+      "rank": 2,
+      "page_id": "Jack_&_Jack",
+      "url": "https://en.wikipedia.org/wiki/Jack_%26_Jack"
+    },
+    {
+      "rank": 3,
+      "page_id": "Jack-Jack_Attack",
+      "url": "https://en.wikipedia.org/wiki/Jack-Jack_Attack"
+    },
+    {
+      "rank": 4,
+      "page_id": "Jack",
+      "url": "https://en.wikipedia.org/wiki/Jack"
+    },
+    {
+      "rank": 5,
+      "page_id": "Jack_Allen_-LRB-footballer,_born_1891-RRB-",
+      "url": "https://en.wikipedia.org/wiki/Jack_Allen_%28footballer%2C_born_1891%29"
+    }
+  ],
+  "articles": [
+    {
+      "rank": 1,
+      "requested_url": "https://en.wikipedia.org/wiki/Jack_Falahee",
+      "title": "Jack Falahee",
+      "revision_id": 1382173874,
+      "revision_timestamp": "2026-10-27T02:06:14Z",
+      "retrieved_utc": "2026-10-29T13:57:09.635274+00:00",
+      "url": "https://en.wikipedia.org/wiki/Jack_Falahee",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Jack_Falahee&oldid=1382173874",
+      "folder": "/Users/praiseben/fever-fact-checking/data/processed/wikipedia_full_articles/pages/enwiki_42724117_1382173874_1d4f58bbc13baf1b_article_blocks_v1",
+      "cache_hit": false,
+      "characters": 4967,
+      "words": 842,
+      "blocks": 20,
+      "body_headings": 8
+    },
+    {
+      "rank": 2,
+      "requested_url": "https://en.wikipedia.org/wiki/Jack_%26_Jack",
+      "title": "Jack & Jack",
+      "revision_id": 1376190349,
+      "revision_timestamp": "2026-09-22T17:09:47Z",
+      "retrieved_utc": "2026-10-29T13:57:10.191665+00:00",
+      "url": "https://en.wikipedia.org/wiki/Jack_%26_Jack",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Jack_%26_Jack&oldid=1376190349",
+      "folder": "/Users/praiseben/fever-fact-checking/data/processed/wikipedia_full_articles/pages/enwiki_43576012_1376190349_6091e579505707c9_article_blocks_v1",
+      "cache_hit": false,
+      "characters": 10951,
+      "words": 1784,
+      "blocks": 55,
+      "body_headings": 19
+    },
+    {
+      "rank": 3,
+      "requested_url": "https://en.wikipedia.org/wiki/Jack-Jack_Attack",
+      "title": "Jack-Jack Attack",
+      "revision_id": 1376832477,
+      "revision_timestamp": "2026-09-26T14:17:24Z",
+      "retrieved_utc": "2026-10-29T13:57:10.610663+00:00",
+      "url": "https://en.wikipedia.org/wiki/Jack-Jack_Attack",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Jack-Jack_Attack&oldid=1376832477",
+      "folder": "/Users/praiseben/fever-fact-checking/data/processed/wikipedia_full_articles/pages/enwiki_1695314_1376832477_54e65d90bc38e52c_article_blocks_v1",
+      "cache_hit": false,
+      "characters": 5595,
+      "words": 946,
+      "blocks": 29,
+      "body_headings": 8
+    },
+    {
+      "rank": 4,
+      "requested_url": "https://en.wikipedia.org/wiki/Jack",
+      "title": "Jack",
+      "revision_id": 1381222372,
+      "revision_timestamp": "2026-10-20T20:01:17Z",
+      "retrieved_utc": "2026-10-29T13:57:11.161050+00:00",
+      "url": "https://en.wikipedia.org/wiki/Jack",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Jack&oldid=1381222372",
+      "folder": "/Users/praiseben/fever-fact-checking/data/processed/wikipedia_full_articles/pages/enwiki_324118_1381222372_21e49e416546c39e_article_blocks_v1",
+      "cache_hit": false,
+      "characters": 5432,
+      "words": 848,
+      "blocks": 120,
+      "body_headings": 24
+    },
+    {
+      "rank": 5,
+      "requested_url": "https://en.wikipedia.org/wiki/Jack_Allen_%28footballer%2C_born_1891%29",
+      "title": "Jack Allen (footballer, born 1891)",
+      "revision_id": 1382435424,
+      "revision_timestamp": "2026-10-28T18:05:31Z",
+      "retrieved_utc": "2026-10-29T13:57:12.650947+00:00",
+      "url": "https://en.wikipedia.org/wiki/Jack_Allen_(footballer,_born_1891)",
+      "revision_url": "https://en.wikipedia.org/w/index.php?title=Jack_Allen_%28footballer%2C_born_1891%29&oldid=1382435424",
+      "folder": "/Users/praiseben/fever-fact-checking/data/processed/wikipedia_full_articles/pages/enwiki_28364054_1382435424_fea9d7e1607f3a5f_article_blocks_v1",
+      "cache_hit": false,
+      "characters": 2080,
+      "words": 465,
+      "blocks": 14,
+      "body_headings": 4
+    }
+  ],
+  "errors": [],
+  "no_llm_calls": true,
+  "no_embedding_calls": true,
+  "source_sha256": {
+    "/Users/praiseben/fever-fact-checking/src/fetch_wikipedia_articles.py": "d003df09fc226563668bd44989dcb495294e52cf32cd1011dcbeb1d67a9aa169",
+    "/Users/praiseben/fever-fact-checking/src/retrieve_title_aware.py": "b76ccc025032b0ab9f939573018570602441dead07f9572b9240b40bbde0ce3b"
+  },
+  "corpus_note": "Fetched Wikipedia revisions form a separate corpus. They are not the historical FEVER sentence snapshot or FEVER evidence IDs.",
+  "finished_utc": "2026-10-29T13:57:12.654365+00:00",
+  "http_requests": 10
+}

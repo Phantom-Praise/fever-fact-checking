@@ -1,0 +1,2810 @@
+{
+  "params": {
+    "action": "wbgetentities",
+    "ids": "Q10800557",
+    "props": "claims|labels|aliases",
+    "languages": "en"
+  },
+  "response": {
+    "entities": {
+      "Q10800557": {
+        "type": "item",
+        "id": "Q10800557",
+        "labels": {
+          "en": {
+            "language": "en",
+            "value": "film actor"
+          }
+        },
+        "aliases": {
+          "en": [
+            {
+              "language": "en",
+              "value": "movie actor"
+            },
+            {
+              "language": "en",
+              "value": "film actress"
+            },
+            {
+              "language": "en",
+              "value": "movie actress"
+            }
+          ]
+        },
+        "claims": {
+          "P31": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P31",
+                "hash": "f30f69757b255b16e25b24c93de40865de96f495",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 4220920,
+                    "id": "Q4220920"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q10800557$aecae220-4a93-e216-91a0-e3453755f420",
+              "rank": "normal"
+            }
+          ],
+          "P279": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P279",
+                "hash": "64607d99d9eb68a698c269fa3bde39109145909c",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 33999,
+                    "id": "Q33999"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "q10800557$218C0313-723C-4CC7-BF6E-CB6A28578CD3",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P279",
+                "hash": "12c1d1be1ec105afc71d98c61c3acd4efa8a5ee7",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 34388953,
+                    "id": "Q34388953"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q10800557$2446261c-41a3-8e50-88a4-ca0afb530cc1",
+              "rank": "normal"
+            }
+          ],
+          "P952": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P952",
+                "hash": "f074447f16cf24c9e0cdd5875eddb64fa926e8d6",
+                "datavalue": {
+                  "value": "2455",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q10800557$05277637-404d-65bc-a136-c03a569e3d17",
+              "rank": "normal"
+            }
+          ],
+          "P2521": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "fb605ddc6a7885f73d76f901f27132298dc65715",
+                "datavalue": {
+                  "value": {
+                    "text": "киноактриса",
+                    "language": "ru"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$60068360-410d-0f7d-e0b8-55c8f4111109",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "ef33d2a864c072503e5d18216fb2ab988fae9338",
+                "datavalue": {
+                  "value": {
+                    "text": "actrice de cinéma",
+                    "language": "fr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$99ca6898-4068-e2ea-c357-6410638cbaa1",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9e7b636dc09d4a5037b2519cb51b3b87f4315f6b",
+                "datavalue": {
+                  "value": {
+                    "text": "actriz de cine",
+                    "language": "es"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$b43dc59e-45c6-8e60-4d5c-9729b430feee",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "12cf0a6876a2462768b4df503ad2bdd09fa49edf",
+                "datavalue": {
+                  "value": {
+                    "text": "Filmschauspielerin",
+                    "language": "de"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$d3d73fb2-4f5a-910d-b7ba-802ead115553",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "6b65358af5651314ecc738ea7fa0ba032a78ac2d",
+                "datavalue": {
+                  "value": {
+                    "text": "attrice cinematografica",
+                    "language": "it"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$d53ad6b0-44d5-a05d-c155-604349a82388",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "6ccc951bc7d2db704a31a10ec18db262a7910f16",
+                "datavalue": {
+                  "value": {
+                    "text": "aktorka filmowa",
+                    "language": "pl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$828e9641-4215-5e3b-256c-45006fcb6b5b",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "51175723d29ce06cb02b3c9888f9f1e80891e129",
+                "datavalue": {
+                  "value": {
+                    "text": "filmová herečka",
+                    "language": "cs"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$23AD98E0-1882-475E-A6FF-BF41EED438F5",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "27bb59c213f9488bf288d96c18321f59b6c218f4",
+                "datavalue": {
+                  "value": {
+                    "text": "filmactrice",
+                    "language": "nl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$42612F46-08D3-4E16-9855-92D14D06A5D9",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "f20b42c4619b1a27451f0181e93903eb8b1dbe3c",
+                "datavalue": {
+                  "value": {
+                    "text": "filmskådespelerska",
+                    "language": "sv"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$ea89e781-4e23-7be6-52dc-52cf8e775961",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "326da8ea6fc0d7ede1cac60b73d458bcfb78a05e",
+                "datavalue": {
+                  "value": {
+                    "text": "film actress",
+                    "language": "en"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$46be6770-4259-46e9-3875-53c8bf782c9c",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "5a9ca1caf734a838a8b8e758d3e5387420157943",
+                "datavalue": {
+                  "value": {
+                    "text": "filmska igralka",
+                    "language": "sl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$bf64fddd-4a74-4929-9f96-b393ced086b7",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "fee7d4c6e95f214bc8fcfecacfb5904e364e7f9a",
+                "datavalue": {
+                  "value": {
+                    "text": "actriță de film",
+                    "language": "ro"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$680fa8ff-4ce9-fa4f-2f2d-18338db2b85b",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "57744ade0049110fdc7f2e515036a45c0ef1f686",
+                "datavalue": {
+                  "value": {
+                    "text": "ممثلة أفلام",
+                    "language": "ar"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$8a3e2754-490d-8422-7799-54f472f9f568",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "047880a3bc2ec654b93db30cfa1ae0ef2a6f14fb",
+                "datavalue": {
+                  "value": {
+                    "text": "филмска глумица",
+                    "language": "sr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$56d03025-4345-3998-a4e5-37fcc9300d28",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "f945717aad44ea7f07c7a979e168f4a410eea455",
+                "datavalue": {
+                  "value": {
+                    "text": "kinoaktrise",
+                    "language": "lv"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$422160C1-750E-4F16-A26C-F008BDCCF34B",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "980aa83f067bdca0ca08be716f68d66949ee5830",
+                "datavalue": {
+                  "value": {
+                    "text": "филмска глумица",
+                    "language": "mk"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$ddbf3920-4b93-0d7e-f924-82c2212b4165",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "21ce0e710db1156cfd71166e4a720dc567efbd6a",
+                "datavalue": {
+                  "value": {
+                    "text": "filmaktorino",
+                    "language": "eo"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$9bd929bc-4520-1d22-17ff-9628b5c997da",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "8401b478b168fa350ede3906777359520d54bdfd",
+                "datavalue": {
+                  "value": {
+                    "text": "actriu de cinema",
+                    "language": "ca"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$4ef720a2-4c44-b79d-c650-91e790c0cc9a",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "f6734e6e9ab0245d0465c1796a3130cb1cb9e9ef",
+                "datavalue": {
+                  "value": {
+                    "text": "שחקנית קולנוע",
+                    "language": "he"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$242e8f20-482d-989e-78b4-83fd93687db0",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9d922285c42c0174460e505051cff28e0244df0b",
+                "datavalue": {
+                  "value": {
+                    "text": "filmová herečka",
+                    "language": "sk"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$0f6438e2-4f13-4a36-d6bf-ded000175684",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "47d86fb36c4a1a8c3be92514068b049f20e4ff35",
+                "datavalue": {
+                  "value": {
+                    "text": "Filmschauspillerin",
+                    "language": "lb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$278aad4f-4c0a-30d1-083d-d235480f757a",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9ede87ab163419a533bf1e3e6d05af7b40f6940c",
+                "datavalue": {
+                  "value": {
+                    "text": "aktres ti pelikula",
+                    "language": "ilo"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$9f7c6008-4133-6fc5-204b-6e68ad2d5495",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "15ca350528196c366dcc84dbcaf4d11b9678d1a7",
+                "datavalue": {
+                  "value": {
+                    "text": "кінаактрыса",
+                    "language": "be"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$b9195c90-42ba-7ec5-e772-74f34ad9a30d",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "1747f4ba2249a250ad67adc5502fcb7c078fb3d3",
+                "datavalue": {
+                  "value": {
+                    "text": "кіноакторка",
+                    "language": "uk"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$8537758a-4eb3-fd45-8969-ff5bed35a8dc",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "70911a01a683bfcee364c913c8227062010a599e",
+                "datavalue": {
+                  "value": {
+                    "text": "kinoartistu",
+                    "language": "olo"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$9c3b8cdc-4fb8-89c3-95d1-9f943a2a3149",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "620f101efd3c4cc67da031ec7e9ebcec27fd3b0f",
+                "datavalue": {
+                  "value": {
+                    "text": "filminäitleja",
+                    "language": "et"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$76beb29a-4441-2dd2-f9b0-b3c922a7869d",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "af69742501f1b2bcbe0cacb25f2e05bfdad9b700",
+                "datavalue": {
+                  "value": {
+                    "text": "فلم اداکارہ",
+                    "language": "ur"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$681124af-45f1-65f1-b048-a68551d8acda",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "cd8561fd832d74ff0a43ef74776d579a586f4d78",
+                "datavalue": {
+                  "value": {
+                    "text": "կինոդերասանուհի",
+                    "language": "hy"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$e3536720-4c68-78f5-ecba-ea2709fab054",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "6164c4acf76bc253e8f2b1e599a4bf9ea8165fed",
+                "datavalue": {
+                  "value": {
+                    "text": "Filmactrice",
+                    "language": "lb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$19fa6134-4b42-6235-514f-0a77d5cc9551",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "6e78ba23c67553321ff79f9add2ef569ca8517d1",
+                "datavalue": {
+                  "value": {
+                    "text": "actriz de cinema",
+                    "language": "gl"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$8d1e849d-4b11-1dd4-c1b8-826b30d167e6",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "3e0ea584321adee6ee9d257a4d4058a629c040ca",
+                "datavalue": {
+                  "value": {
+                    "text": "actriz de cine",
+                    "language": "ast"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$607891ae-42d6-e5c9-7e18-abd7f38e5637",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "95df4108c5e02aa01e20a6fe9fff26a9d061bd11",
+                "datavalue": {
+                  "value": {
+                    "text": "atriz de cinema",
+                    "language": "pt-br"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$EDDCC18A-3FF1-408E-AB28-F111F14CDC8F",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "fec47258522ea443e38f1e7bc0accc031f301729",
+                "datavalue": {
+                  "value": {
+                    "text": "filmaktrise",
+                    "language": "fy"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$3d875366-4afc-b2b0-f8f0-16e49f17646d",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "4fc4ec3a8fdb380cce63fb2d1f8b02f2e05c1bb0",
+                "datavalue": {
+                  "value": {
+                    "text": "Muigizaji wa Filamu wa Kike",
+                    "language": "sw"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$f1978ab1-4bc0-3164-1614-56531ac3ce8b",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "660655311b89489f14632568f47f960903b33a22",
+                "datavalue": {
+                  "value": {
+                    "text": "'yar wasan kwaikwayo",
+                    "language": "ha"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$d6723643-4968-4442-c78b-50e6b0efe73f",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "c0586969d12a672d3111b3f4cc90e0caf39cd40b",
+                "datavalue": {
+                  "value": {
+                    "text": "kino aktrisası",
+                    "language": "az"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$09934cc2-4ad2-931b-4ae1-16d486c654ab",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "0501836ec333b6cfd73b0fbb3a314d93b6c5d579",
+                "datavalue": {
+                  "value": {
+                    "text": "кінаакторка",
+                    "language": "be-tarask"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$be175890-4c20-31af-cfbb-06fb17fb7de2",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "f0436966b14259a23998312d3a33abf4ed77521e",
+                "datavalue": {
+                  "value": {
+                    "text": "կինոդերասանուհի",
+                    "language": "hyw"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$5778ef36-4184-2dd4-561a-f836788101b2",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "758775e99083418e022373fe4fec4a122a3c860d",
+                "datavalue": {
+                  "value": {
+                    "text": "kino aktrisası",
+                    "language": "crh-latn"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$caa73e77-4caf-f6af-6701-029463f31650",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "c758c36bace9467e56e6a1e6a05db7560275a387",
+                "datavalue": {
+                  "value": {
+                    "text": "kino aktrisası",
+                    "language": "crh"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$a78c27e1-40d7-4f7e-51dd-c34c2705fc70",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "9424fd781ae0759c0ca826cdc2a52ca2ce770bc5",
+                "datavalue": {
+                  "value": {
+                    "text": "filmskuespillerinne",
+                    "language": "nb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$ed37a983-4128-85d1-99d3-fc731052eef7",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "8dc87cd1d80332cace74243fa2b57124900d850e",
+                "datavalue": {
+                  "value": {
+                    "text": "filmskuespillerinde",
+                    "language": "da"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$9cd334c4-4d90-1511-7cc9-0f90b42e4949",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "b8914b8deac8e9189d8e6ab629026bdd4b81683a",
+                "datavalue": {
+                  "value": {
+                    "text": "бозигари синамо",
+                    "language": "tg"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$38f4e72b-4268-1db2-5667-6d93e9928b27",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "d923631d0d76cb315298a8329e970d0e153f50a7",
+                "datavalue": {
+                  "value": {
+                    "text": "ممثلة افلام",
+                    "language": "arz"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$13db5296-42aa-ebe8-371e-beadebe026e2",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "7a8151f7ff357bdbffca13acd8972c44b657b637",
+                "datavalue": {
+                  "value": {
+                    "text": "киноактрисæ",
+                    "language": "os"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$2d24bc0e-457d-0f14-c408-b0d0603ce4b9",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "5133920e53febbf6aee305510be1bb7998996496",
+                "datavalue": {
+                  "value": {
+                    "text": "atriz de cinema",
+                    "language": "pt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$8844ecea-47f1-321a-db44-89c4fed35252",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "0a9029311f3a67c408a55371a89e9b770cb5208a",
+                "datavalue": {
+                  "value": {
+                    "text": "映画女優",
+                    "language": "ja"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$90c1bf53-4da3-ec0e-19c5-0b51b8efc0fb",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "b083fca0b3c0f37a4ca4cfe097ef16793dacdf12",
+                "datavalue": {
+                  "value": {
+                    "text": "atrís de cini",
+                    "language": "ext"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$db14d115-4f6b-cd4d-968c-04c8247d4983",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "967214aaad2fad84f8afef06e78bd8fd380f9ba7",
+                "datavalue": {
+                  "value": {
+                    "text": "aktourez sinema",
+                    "language": "br"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$5bb2a8b5-444c-c720-91b4-54a633a9d2c1",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "b2e7dc4333a49bdbe7d10a92bff54f226c7ae087",
+                "datavalue": {
+                  "value": {
+                    "text": "kino aktorė",
+                    "language": "lt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$e3f24dc9-4322-9864-4a7b-35fe75c59d28",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "6e0b92f3f797517ae75c75124d61f66c1aa54b2c",
+                "datavalue": {
+                  "value": {
+                    "text": "ηθοποιός ταινιών",
+                    "language": "el"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$ce2dab91-4395-98cb-e225-69678dcfa66f",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2521",
+                "hash": "4e840e3b7406ca5b32d3ae3c55b7a62930b7f1ac",
+                "datavalue": {
+                  "value": {
+                    "text": "ben-aghteyr fillym",
+                    "language": "gv"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$274541b7-4eef-f8b8-864c-808dbb25da21",
+              "rank": "normal"
+            }
+          ],
+          "P227": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P227",
+                "hash": "728f6b8665e32361b2227a0e9b18404bfe38699a",
+                "datavalue": {
+                  "value": "4017140-1",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "7ae4cb459bbf0e038383d25d83d7ca5ec4f78943",
+                    "datavalue": {
+                      "value": "Filmschauspieler",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q10800557$E3FFDDB2-8BE8-48D7-8157-B2EFBB52E226",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                  "snaks": {
+                    "P143": [
+                      {
+                        "snaktype": "value",
+                        "property": "P143",
+                        "hash": "d38375ffe6fe142663ff55cd783aa4df4301d83d",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 48183,
+                            "id": "Q48183"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P143"
+                  ]
+                }
+              ]
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P227",
+                "hash": "fa0892be02a95e73d45cc1f9125a37208dd253b1",
+                "datavalue": {
+                  "value": "4017141-3",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "681765f4bbede041dfea86d328fc66004a7f61c5",
+                    "datavalue": {
+                      "value": "Filmschauspielerin",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q10800557$f7616737-4417-431b-4a69-974c4022879d",
+              "rank": "normal"
+            }
+          ],
+          "P910": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P910",
+                "hash": "39f7bbff3312be26f5b2d567faee1ae7e2b43d3b",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 5479723,
+                    "id": "Q5479723"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q10800557$5333b0a3-4aab-dbb5-e329-fdf92d2f0bee",
+              "rank": "normal"
+            }
+          ],
+          "P3321": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "35eb8444d7fea9ef2cd93448a3edd09543727711",
+                "datavalue": {
+                  "value": {
+                    "text": "Filmschauspiller",
+                    "language": "lb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$90355a83-4f11-e203-d73b-662cced45e96",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "3eeb71cd0f8e6c5e701f3f9cda2d74b7b44b015d",
+                "datavalue": {
+                  "value": {
+                    "text": "kinoartistu",
+                    "language": "olo"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$f08139b8-4378-2fea-bd26-01d3297b3df7",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "04de90d4b0fa695c2eccf5e3b7173bfcb4a9b238",
+                "datavalue": {
+                  "value": {
+                    "text": "فلم اداکار",
+                    "language": "ur"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$f59f64f5-4b82-a041-a962-ecf92a64a66f",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "48547d866436e2d217692bcb3f8410171989ae64",
+                "datavalue": {
+                  "value": {
+                    "text": "Filmacteur",
+                    "language": "lb"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$775d2c59-4021-20e3-031c-c9eb3053c98d",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "14e11f237208e2d1eafb9a0db68f27395bc85d75",
+                "datavalue": {
+                  "value": {
+                    "text": "ator de cinema",
+                    "language": "pt-br"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$6902E884-DD2A-4A6C-A895-86B990F2B549",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "71758bdae075846aac82b2c3a9d400948dc13e8f",
+                "datavalue": {
+                  "value": {
+                    "text": "Muigizaji wa Filamu wa Kiume",
+                    "language": "sw"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$600f6e49-4fd6-0169-68bf-1263cecf4565",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "7f7a16778c6f3685737c239b26c7fbb077f38fed",
+                "datavalue": {
+                  "value": {
+                    "text": "филмски глумац",
+                    "language": "sr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$20e91073-403d-449b-ee82-d3d51ba2607c",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "bca87a006bf32061a3c579e7459831afa2ad3095",
+                "datavalue": {
+                  "value": {
+                    "text": "ɗan wasan kwaikwayo",
+                    "language": "ha"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$6dcf3574-45b6-b0cc-78e1-e7fa50fe341e",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "f2d9f938e55969bc0edb520083a685082cc31876",
+                "datavalue": {
+                  "value": {
+                    "text": "кінаактор",
+                    "language": "be-tarask"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$da9b8479-4d92-2366-0c52-fba197c9dca8",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "8bd80ebd789b90bbdafe6fd53a1e96e85adf5f81",
+                "datavalue": {
+                  "value": {
+                    "text": "ҳунарпешаи синамо",
+                    "language": "tg"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$249df1b1-4874-ba12-ff44-565a65b49b08",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "b4d4fae5cbbb9900b1dfb54ac1702ad1f267c871",
+                "datavalue": {
+                  "value": {
+                    "text": "lîstikvanê fîlman",
+                    "language": "ku"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$81fb52b5-46ee-b93f-768e-98114f1f1a8b",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "09a91f0f58b71a6ba7240cc6c5fd1682894d53f0",
+                "datavalue": {
+                  "value": {
+                    "text": "acteur de cinéma",
+                    "language": "fr"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$06fa2dee-4ab9-fb34-9d6d-71a702076d1d",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "93961166b781558cb66927eb4b4ed4bc0f4c0180",
+                "datavalue": {
+                  "value": {
+                    "text": "ator de cinema",
+                    "language": "pt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$c86b8cc3-4de1-ef11-b8e3-c78db488a364",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "63cb6b9b986ecb1bd2b0e00cebdb82f08653e92a",
+                "datavalue": {
+                  "value": {
+                    "text": "attore cinematografico",
+                    "language": "it"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$C16B8C8F-0A3B-44D9-9037-7F84802D89FF",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "ae917f306ead968f06fe9c36d9f7a0c50a245d6d",
+                "datavalue": {
+                  "value": {
+                    "text": "映画俳優",
+                    "language": "ja"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$a43ad589-4b02-aada-2127-d83006740cb4",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "9f2b3a5c0e475ddef0a6fa3a2e58e6e2f9a551cd",
+                "datavalue": {
+                  "value": {
+                    "text": "atol de cini",
+                    "language": "ext"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$df62818e-4e6c-a57c-135d-37cc87a6e9c6",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "faddc0dc981497a8f2b3ef7a9f15c369e1a1392c",
+                "datavalue": {
+                  "value": {
+                    "text": "aktour sinema",
+                    "language": "br"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$acb4062f-443f-9412-df56-03a2b383ee6c",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P3321",
+                "hash": "a46dcb7f49a32b7106aac0c9eecf20377b3717dc",
+                "datavalue": {
+                  "value": {
+                    "text": "kino aktorius",
+                    "language": "lt"
+                  },
+                  "type": "monolingualtext"
+                },
+                "datatype": "monolingualtext"
+              },
+              "type": "statement",
+              "id": "Q10800557$6764c32d-4143-d8ec-6800-f88016c175fa",
+              "rank": "normal"
+            }
+          ],
+          "P1256": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1256",
+                "hash": "befe1b8975bd6c9878e338269f06740952abb26b",
+                "datavalue": {
+                  "value": "48C8712",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$15C42715-9DDE-4429-9CB9-C600D2E22687",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1256",
+                "hash": "b7e8eb24ead89f85f5b432a93d926fa64f02504a",
+                "datavalue": {
+                  "value": "48C8711",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$17E4E290-621D-429C-9C6E-C5D35C18432E",
+              "rank": "normal"
+            }
+          ],
+          "P1687": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1687",
+                "hash": "3dda7e7f1abcc9a63c2c3d2176bb95eac1aaad8e",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "property",
+                    "numeric-id": 161,
+                    "id": "P161"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-property"
+              },
+              "type": "statement",
+              "id": "Q10800557$6f6e83f2-4c06-6dd1-5797-752567b6dbbd",
+              "rank": "normal"
+            }
+          ],
+          "P373": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P373",
+                "hash": "b4ea522de7b5c3ea9c00d9873ac2308970e20b4c",
+                "datavalue": {
+                  "value": "Film actors",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "id": "Q10800557$E7515AFA-DC60-4875-B0A9-7A482C61934F",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "1a3aa3210da68b7059ce626b2523e7005cb825f4",
+                  "snaks": {
+                    "P3452": [
+                      {
+                        "snaktype": "value",
+                        "property": "P3452",
+                        "hash": "86ce338fb96171f5702120625205fd707d43969d",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 5479723,
+                            "id": "Q5479723"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P3452"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P1889": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1889",
+                "hash": "e69f922da9b02ac8ad51901bc6ebdcf8a167bdaa",
+                "datavalue": {
+                  "value": {
+                    "entity-type": "item",
+                    "numeric-id": 10798782,
+                    "id": "Q10798782"
+                  },
+                  "type": "wikibase-entityid"
+                },
+                "datatype": "wikibase-item"
+              },
+              "type": "statement",
+              "id": "Q10800557$5d650c24-49d1-aa63-dee1-f2a2cf6d0a2a",
+              "rank": "normal"
+            }
+          ],
+          "P8814": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8814",
+                "hash": "b4ff88ae1c1002a1832dcdc41117ca83a12be177",
+                "datavalue": {
+                  "value": "10583526-n",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$DBDA8F32-B364-4BCD-ACFA-D19DABE6184B",
+              "rank": "normal"
+            }
+          ],
+          "P2671": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2671",
+                "hash": "ca581302587ed23640f2ee815acceec566f097cf",
+                "datavalue": {
+                  "value": "/g/120ykz7p",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$80FD6AC9-54BC-4C44-B1C5-E01A41117C20",
+              "rank": "normal"
+            }
+          ],
+          "P244": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P244",
+                "hash": "607215b8fa59ef5d3fc94148bd57879cb9d1d7ba",
+                "datavalue": {
+                  "value": "sh85088027",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "158bc748a158165f45cbdb3f62c5eb9388b991e6",
+                    "datavalue": {
+                      "value": "Motion picture actors and actresses",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q10800557$59823D2E-6BE0-483D-8958-FC79907EA9C7",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "ced024eb12b5fe38ed87cb5720ea18f3c54229a9",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "019a50b7de741e0068bde41c9d9955b22a5de47b",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 36578,
+                            "id": "Q36578"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P508": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P508",
+                "hash": "5557aff4c28c7000644187c5cbf2bb613c742e7c",
+                "datavalue": {
+                  "value": "2163",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "c94f1beda229c8fbd578c8bd31ca63bf2096d732",
+                    "datavalue": {
+                      "value": "Attori cinematografici",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ],
+                "P4970": [
+                  {
+                    "snaktype": "value",
+                    "property": "P4970",
+                    "hash": "7c296da3d7d6a8840d7fdf8aa4905b2aece7a5e4",
+                    "datavalue": {
+                      "value": "Attori del cinema",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810",
+                "P4970"
+              ],
+              "id": "Q10800557$923aff07-8f4a-46dc-bf05-1f918479bb6d",
+              "rank": "normal"
+            }
+          ],
+          "P268": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P268",
+                "hash": "9572d190549e7d69b9b23c2bdaa9672e000c1164",
+                "datavalue": {
+                  "value": "11930821n",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "901c97a91189fe3466c7486960903a8f6e2c55ce",
+                    "datavalue": {
+                      "value": "Acteurs de cinéma",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q10800557$2dc3516b-7b0c-418c-9799-c817771f7775",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "2ff3fb5131a45ee6b53cd243fcae656e94cd21dd",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 16583225,
+                            "id": "Q16583225"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "e3b22361da701e3e317dfde8b22d21ec9adc2a1d",
+                        "datavalue": {
+                          "value": "https://thes.bncf.firenze.sbn.it/termine.php?id=2163",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "fa626481f5288f46170160e657d94c0b692e3140",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2021-06-13T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P8309": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8309",
+                "hash": "0a95013e4c120ddf668a2ebd25484057e98407da",
+                "datavalue": {
+                  "value": "18-219518",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "8947bd1cf8a950d7fc317ebbe7909564a7ab27e3",
+                    "datavalue": {
+                      "value": "elokuvanäyttelijät",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q10800557$392fe23f-4c35-4886-0f8e-94ce5178bf1a",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8309",
+                "hash": "76832a623018eccfb5ca90008574929beb03b4b2",
+                "datavalue": {
+                  "value": "18-165756",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "223908670d230920e18dc7c3998ecaefa53f863f",
+                    "datavalue": {
+                      "value": "elokuvanäyttelijä",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q10800557$216e20dc-4790-789b-de3c-c2af300c4fed",
+              "rank": "normal"
+            }
+          ],
+          "P2347": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2347",
+                "hash": "00856ba03b4cc59e750e21c8c31e5ff396719f7d",
+                "datavalue": {
+                  "value": "16553",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P14457": [
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "e19811e14b71424dcb7dfb64b7825e852ae4037d",
+                    "datavalue": {
+                      "value": {
+                        "text": "elokuvanäyttelijät",
+                        "language": "fi"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "90f230e1cd03350bd635b327e130a2785288f61f",
+                    "datavalue": {
+                      "value": {
+                        "text": "film actors",
+                        "language": "en"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "e08bdd1f1f66aef4d12fb6a03201f9072a33f4db",
+                    "datavalue": {
+                      "value": {
+                        "text": "filbmaneavttárat",
+                        "language": "se"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "598b2fb6542d2cb8aa94e16d6dadd56e12606a9f",
+                    "datavalue": {
+                      "value": {
+                        "text": "filmskådespelare",
+                        "language": "sv"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ],
+                "P14458": [
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "c936cbbd784d069e862248aaf152484a7fef5087",
+                    "datavalue": {
+                      "value": {
+                        "text": "filmitähdet",
+                        "language": "fi"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "693f9cf07fa215771c61fe2b153f2ce06935d41f",
+                    "datavalue": {
+                      "value": {
+                        "text": "filmstjärnor",
+                        "language": "sv"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "b5053220c9e61e50828c4af36372ad297ccbd02c",
+                    "datavalue": {
+                      "value": {
+                        "text": "filbmanásttit",
+                        "language": "se"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P14457",
+                "P14458"
+              ],
+              "id": "Q10800557$19718e34-4133-3b81-6e14-23c254d3d980",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P2347",
+                "hash": "00856ba03b4cc59e750e21c8c31e5ff396719f7d",
+                "datavalue": {
+                  "value": "16553",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P14457": [
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "e19811e14b71424dcb7dfb64b7825e852ae4037d",
+                    "datavalue": {
+                      "value": {
+                        "text": "elokuvanäyttelijät",
+                        "language": "fi"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "90f230e1cd03350bd635b327e130a2785288f61f",
+                    "datavalue": {
+                      "value": {
+                        "text": "film actors",
+                        "language": "en"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "e08bdd1f1f66aef4d12fb6a03201f9072a33f4db",
+                    "datavalue": {
+                      "value": {
+                        "text": "filbmaneavttárat",
+                        "language": "se"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "598b2fb6542d2cb8aa94e16d6dadd56e12606a9f",
+                    "datavalue": {
+                      "value": {
+                        "text": "filmskådespelare",
+                        "language": "sv"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ],
+                "P14458": [
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "c936cbbd784d069e862248aaf152484a7fef5087",
+                    "datavalue": {
+                      "value": {
+                        "text": "filmitähdet",
+                        "language": "fi"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "693f9cf07fa215771c61fe2b153f2ce06935d41f",
+                    "datavalue": {
+                      "value": {
+                        "text": "filmstjärnor",
+                        "language": "sv"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14458",
+                    "hash": "b5053220c9e61e50828c4af36372ad297ccbd02c",
+                    "datavalue": {
+                      "value": {
+                        "text": "filbmanásttit",
+                        "language": "se"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P14457",
+                "P14458"
+              ],
+              "id": "Q10800557$87AA5BCD-7799-4EF8-903C-C7F962598DCE",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "4ad6f3f9a5f7cfb7a9461fa3291d385bb878a632",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "7133f11674741f52cadaae6029068fad9cbb52e3",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 89345680,
+                            "id": "Q89345680"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "68ec24073dbaa625343d470b243b5a7931681852",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2022-03-17T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P6293": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P6293",
+                "hash": "5bc815bf485326104b54266590612cbd6bff696b",
+                "datavalue": {
+                  "value": "Y94999",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$45fd1ad2-4326-66b5-8f41-fbd115940be6",
+              "rank": "normal"
+            }
+          ],
+          "P691": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P691",
+                "hash": "e081cd9bf393adc73c4dc1e7910ae9b8d10d298b",
+                "datavalue": {
+                  "value": "ph114538",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "29f08a46fbf7768a08bc4dec855c8358c4a0e6a1",
+                    "datavalue": {
+                      "value": "filmoví herci",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q10800557$E38CF454-9912-41CE-85CD-31BECD7D1DB7",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P691",
+                "hash": "3475ffc6f404987d999437978ad39bbe20470673",
+                "datavalue": {
+                  "value": "ph120196",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "3c4527b166a91b941aeb44b596b6971be44bf040",
+                    "datavalue": {
+                      "value": "filmové herečky",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q10800557$F3FE8FEC-33B2-4CF5-9105-4A99D09AB349",
+              "rank": "normal"
+            }
+          ],
+          "P8189": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8189",
+                "hash": "b91c2db0b122652fe551e87758ceb5a3374aded4",
+                "datavalue": {
+                  "value": "987007548297005171",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P14457": [
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "fa09c995a6d9a438052aa9cd97593e8ea368adf4",
+                    "datavalue": {
+                      "value": {
+                        "text": "Motion picture actors and actresses",
+                        "language": "en"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "9005eb265a13bc8c63b1c6b9692670f2c8f6aecb",
+                    "datavalue": {
+                      "value": {
+                        "text": "שחקנים ושחקניות קולנוע",
+                        "language": "he"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  },
+                  {
+                    "snaktype": "value",
+                    "property": "P14457",
+                    "hash": "83d79aa91f4193fc642159d049e72fd74752a509",
+                    "datavalue": {
+                      "value": {
+                        "text": "الممثلون والممثلات السينمائيون",
+                        "language": "ar"
+                      },
+                      "type": "monolingualtext"
+                    },
+                    "datatype": "monolingualtext"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P14457"
+              ],
+              "id": "Q10800557$1635B355-C2E4-4B3A-B7A2-86C807D621F6",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "ecb7a39cf436eb1fba419853af168ef9f2ba1dab",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "a03bb6ffe37be9554492f4eea5bd18afcb57df19",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 106509962,
+                            "id": "Q106509962"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P8283": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P8283",
+                "hash": "1f5941500ab1562b80440b214fad3a39f0d7c5d4",
+                "datavalue": {
+                  "value": "2655",
+                  "type": "string"
+                },
+                "datatype": "string"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P4390": [
+                  {
+                    "snaktype": "value",
+                    "property": "P4390",
+                    "hash": "cf2e72f259de6985120c9cce1364b7bc8c87f8d9",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 39894595,
+                        "id": "Q39894595"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ],
+                "P4900": [
+                  {
+                    "snaktype": "value",
+                    "property": "P4900",
+                    "hash": "bbc6324bb2798fc96a3feec967b832fb3a11689a",
+                    "datavalue": {
+                      "value": {
+                        "entity-type": "item",
+                        "numeric-id": 33999,
+                        "id": "Q33999"
+                      },
+                      "type": "wikibase-entityid"
+                    },
+                    "datatype": "wikibase-item"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P4390",
+                "P4900"
+              ],
+              "id": "Q10800557$3cb829a2-4c72-8da9-5edc-5ec07962c763",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "e0bbce12615d4b6404eb3d881e9900d73312bbfb",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "ebdc91738a710bec5ceec485cc8b905b56119b05",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 113864458,
+                            "id": "Q113864458"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P854": [
+                      {
+                        "snaktype": "value",
+                        "property": "P854",
+                        "hash": "840b2a3e11c5e3e50f177e124a42455ef87ab505",
+                        "datavalue": {
+                          "value": "http://data.europa.eu/esco/isco/C2655",
+                          "type": "string"
+                        },
+                        "datatype": "url"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "2d6f29f7eb962b5ab5dd7bce31a74cd9a4a35bf9",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2026-04-30T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P854",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P10565": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P10565",
+                "hash": "51b08a59478a54c7bd58dbb99e9ee965fea1a1a4",
+                "datavalue": {
+                  "value": "20578",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$1E93E904-836A-4CAA-81F1-523EAC3214C5",
+              "rank": "normal"
+            }
+          ],
+          "P12596": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P12596",
+                "hash": "1e0e1fb8b14e3197e0b2713638c3c94962c83027",
+                "datavalue": {
+                  "value": "113180",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$D73C1757-D677-4F3B-8CCA-651D24A3F319",
+              "rank": "normal"
+            }
+          ],
+          "P13591": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P13591",
+                "hash": "0f910d5c8962d705b4f0b55f9f75dafe5f56821d",
+                "datavalue": {
+                  "value": "concept/dca256b0-67df-4142-9d30-79991fd1a088",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$D18AA88C-AB55-400B-AFF5-7480BAC8B3BB",
+              "rank": "normal"
+            }
+          ],
+          "P13059": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P13059",
+                "hash": "53b1e7d0356720f90f60a8ff557c253efb4125bc",
+                "datavalue": {
+                  "value": "78588",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$6A563C89-C26D-4F19-9256-9A6E652A8F24",
+              "rank": "normal"
+            }
+          ],
+          "P1036": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P1036",
+                "hash": "3562668cb59a7df33291644cfbe47ad58919e330",
+                "datavalue": {
+                  "value": "791.43028092",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$71C2C3D4-F78F-4C89-9DE9-3E123DCDB8FF",
+              "rank": "normal",
+              "references": [
+                {
+                  "hash": "d01917a4962247466b76dcd9bffdd9b80ad38356",
+                  "snaks": {
+                    "P248": [
+                      {
+                        "snaktype": "value",
+                        "property": "P248",
+                        "hash": "3b090a7bae73c288393b2c8b9846cc7ed9a58f91",
+                        "datavalue": {
+                          "value": {
+                            "entity-type": "item",
+                            "numeric-id": 16583225,
+                            "id": "Q16583225"
+                          },
+                          "type": "wikibase-entityid"
+                        },
+                        "datatype": "wikibase-item"
+                      }
+                    ],
+                    "P508": [
+                      {
+                        "snaktype": "value",
+                        "property": "P508",
+                        "hash": "5557aff4c28c7000644187c5cbf2bb613c742e7c",
+                        "datavalue": {
+                          "value": "2163",
+                          "type": "string"
+                        },
+                        "datatype": "external-id"
+                      }
+                    ],
+                    "P813": [
+                      {
+                        "snaktype": "value",
+                        "property": "P813",
+                        "hash": "6d4c9e5b0416a20f72876d06319d4d54168395a8",
+                        "datavalue": {
+                          "value": {
+                            "time": "+2025-11-21T00:00:00Z",
+                            "timezone": 0,
+                            "before": 0,
+                            "after": 0,
+                            "precision": 11,
+                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                          },
+                          "type": "time"
+                        },
+                        "datatype": "time"
+                      }
+                    ]
+                  },
+                  "snaks-order": [
+                    "P248",
+                    "P508",
+                    "P813"
+                  ]
+                }
+              ]
+            }
+          ],
+          "P4839": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P4839",
+                "hash": "74378287ddbd8a2229c5ec9adf5818224ae59253",
+                "datavalue": {
+                  "value": "Entity[\"Concept\", \"MovieActor::zdpx3\"]",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$83589F5D-D745-44DE-85B6-71406BCCEC7B",
+              "rank": "normal"
+            }
+          ],
+          "P11924": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P11924",
+                "hash": "7831229a74b523c24ee89f9233a125c543085f03",
+                "datavalue": {
+                  "value": "film-actor",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$0414E746-23D0-49D1-9FD9-195EF3D2B79D",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P11924",
+                "hash": "1d798a9989dfb57357930253ec4a80774eafd5ac",
+                "datavalue": {
+                  "value": "movie-actor",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$858E0C92-5890-4D96-8779-D97A6A3A4F01",
+              "rank": "normal"
+            }
+          ],
+          "P13204": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P13204",
+                "hash": "df523367d11432c32c52d9ec6149430363deaa2e",
+                "datavalue": {
+                  "value": "tqvgp4p6",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "id": "Q10800557$364FA9A1-BE45-4078-A308-0823E824DEC8",
+              "rank": "normal"
+            }
+          ],
+          "P9322": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P9322",
+                "hash": "04dfd406d2003eb5dbb855722bb557e8f45b4e5a",
+                "datavalue": {
+                  "value": "0202292-filmove-herecky",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "3c4527b166a91b941aeb44b596b6971be44bf040",
+                    "datavalue": {
+                      "value": "filmové herečky",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q10800557$9880F54E-69EB-4D4C-ADC8-D630ADD9617F",
+              "rank": "normal"
+            },
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P9322",
+                "hash": "547d0eca2af937b3a02a2743071ba18fbbf226c4",
+                "datavalue": {
+                  "value": "h0001392-filmovi-herci",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "29f08a46fbf7768a08bc4dec855c8358c4a0e6a1",
+                    "datavalue": {
+                      "value": "filmoví herci",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810"
+              ],
+              "id": "Q10800557$C0153580-FD43-43EF-86EC-85E2CA7566CA",
+              "rank": "normal"
+            }
+          ],
+          "P14541": [
+            {
+              "mainsnak": {
+                "snaktype": "value",
+                "property": "P14541",
+                "hash": "e96ae344a00e68cf331561588e542fc5757f80e0",
+                "datavalue": {
+                  "value": "1rFETm",
+                  "type": "string"
+                },
+                "datatype": "external-id"
+              },
+              "type": "statement",
+              "qualifiers": {
+                "P1810": [
+                  {
+                    "snaktype": "value",
+                    "property": "P1810",
+                    "hash": "6fe5e34ed098f382aa65170ff1558d4316534113",
+                    "datavalue": {
+                      "value": "电影演员",
+                      "type": "string"
+                    },
+                    "datatype": "string"
+                  }
+                ],
+                "P5017": [
+                  {
+                    "snaktype": "value",
+                    "property": "P5017",
+                    "hash": "df970d47d6a1402a5baf774276a745c3e84a91bd",
+                    "datavalue": {
+                      "value": {
+                        "time": "+2023-03-13T00:00:00Z",
+                        "timezone": 0,
+                        "before": 0,
+                        "after": 0,
+                        "precision": 11,
+                        "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                      },
+                      "type": "time"
+                    },
+                    "datatype": "time"
+                  }
+                ]
+              },
+              "qualifiers-order": [
+                "P1810",
+                "P5017"
+              ],
+              "id": "Q10800557$059FAE87-56A2-4407-9E2D-842FC7742D0F",
+              "rank": "normal"
+            }
+          ]
+        }
+      }
+    },
+    "success": 1
+  },
+  "fetched_utc": "2026-10-23T17:31:08.019693+00:00"
+}

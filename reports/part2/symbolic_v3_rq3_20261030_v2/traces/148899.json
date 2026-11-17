@@ -1,0 +1,116 @@
+{
+  "id": 148899,
+  "claim": "Specific art forms were banned in Nazi Germany.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0894920420000016,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Nazi_Germany",
+          "sentence_id": 28,
+          "text": "The government controlled artistic expression , promoting specific art forms and banning or discouraging others .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Nazi_Germany",
+          "sentence_id": 0,
+          "text": "Nazi Germany is the common English name for the period in German history from 1933 to 1945 , when Germany was governed by a dictatorship under the control of Adolf Hitler and the Nazi Party -LRB- NSDAP -RRB- .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Nazi_Germany",
+          "sentence_id": 1,
+          "text": "Under Hitler 's rule , Germany was transformed into a fascist state in which the Nazi Party took totalitarian control over nearly all aspects of life .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Nazi_Germany",
+          "sentence_id": 4,
+          "text": "The Nazi regime came to an end after the Allied Powers defeated Germany in May 1945 , ending World War II in Europe .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Nazi_Germany",
+          "sentence_id": 31,
+          "text": "Beginning in the late 1930s , Nazi Germany made increasingly aggressive territorial demands , threatening war if they were not met .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9805373549461365,
+        0.01939312554895878,
+        6.958529411349446e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.056602874999999386,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.40064290165901184,
+        0.23880842328071594,
+        0.3605486750602722
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07280987499999902,
+      "symbolic": {
+        "claim": "Specific art forms were banned in Nazi Germany.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3499999999666557e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Nazi_Germany",
+          "sentence_id": 28,
+          "text": "The government controlled artistic expression , promoting specific art forms and banning or discouraging others .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Nazi_Germany",
+          "sentence_id": 0,
+          "text": "Nazi Germany is the common English name for the period in German history from 1933 to 1945 , when Germany was governed by a dictatorship under the control of Adolf Hitler and the Nazi Party -LRB- NSDAP -RRB- .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Nazi_Germany",
+          "sentence_id": 1,
+          "text": "Under Hitler 's rule , Germany was transformed into a fascist state in which the Nazi Party took totalitarian control over nearly all aspects of life .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Nazi_Germany",
+          "sentence_id": 4,
+          "text": "The Nazi regime came to an end after the Allied Powers defeated Germany in May 1945 , ending World War II in Europe .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Nazi_Germany",
+          "sentence_id": 31,
+          "text": "Beginning in the late 1930s , Nazi Germany made increasingly aggressive territorial demands , threatening war if they were not met .",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9805373549461365,
+        0.01939312554895878,
+        6.958529411349446e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

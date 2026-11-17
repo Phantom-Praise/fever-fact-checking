@@ -1,0 +1,21 @@
+{
+  "purpose": "development diagnosis and original-split continued RoBERTa training",
+  "seed": 42,
+  "train_n": 116356,
+  "validation_n": 14534,
+  "official_evaluation_n": 19998,
+  "sources": {
+    "data/processed/train.jsonl": "9db57a59c4dd7b85fb18aec61024714dce892d0376580150c7a45d188d0a1838",
+    "data/processed/validation.jsonl": "7dae66bba22858d756cb857d405783a1500fa8f3aff92a92e5462d308628c0ef",
+    "data/official_fever/shared_task_dev.jsonl": "e89865bfe1b4dd054e03dd57d7241a6fde24862905f31117cf0cd719f7c78df7",
+    "src/retrieve_title_aware.py": "b76ccc025032b0ab9f939573018570602441dead07f9572b9240b40bbde0ce3b",
+    "colab/prepare_experiments.py": "d572048908c5b0b62ff31b626a2deba2bf50a6a2543286f49e0571bbbc7d854d"
+  },
+  "wiki_database": {
+    "bytes": 11903868928,
+    "mtime_ns": 1792674496346371586
+  },
+  "training_evidence": "historical retrieved top-five sentences; not live full-article RAG; labels retained even when retrieval misses",
+  "selection_note": "Official dev and training-text overlaps excluded from validation. Original internal test remains unused.",
+  "full_training_requested": true
+}

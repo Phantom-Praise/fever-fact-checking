@@ -1,0 +1,116 @@
+{
+  "id": 121609,
+  "claim": "The University of Oxford is located in Oxford, England.",
+  "conditions": {
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09557004199999852,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Oxford_University_Innovation",
+          "sentence_id": 0,
+          "text": "Oxford University Innovation , previously known as Isis Innovation , is a British technology transfer company , wholly owned by the University of Oxford , located on Botley Road , Oxford , England .",
+          "score": 4.025
+        },
+        {
+          "page_id": "University_of_Oxford",
+          "sentence_id": 0,
+          "text": "The University of Oxford -LRB- informally Oxford University or simply Oxford -RRB- is a collegiate research university located in Oxford , England .",
+          "score": 4.01
+        },
+        {
+          "page_id": "Oxford_Brookes_University",
+          "sentence_id": 0,
+          "text": "Oxford Brookes University is a public university in Oxford , England .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Oxford_University_College",
+          "sentence_id": 0,
+          "text": "University College , Oxford , is in England .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Oxford_University_Gazette",
+          "sentence_id": 0,
+          "text": "The Oxford University Gazette -LRB- often simply known as the Gazette locally -RRB- is the publication of record for the University of Oxford in England , used for official announcements .",
+          "score": 3.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.9881340861320496,
+        0.01179059874266386,
+        7.536693738074973e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.09149270799999698,
+      "symbolic": {
+        "claim": "The University of Oxford is located in Oxford, England.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.475000000183968e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Oxford_University_Innovation",
+          "sentence_id": 0,
+          "text": "Oxford University Innovation , previously known as Isis Innovation , is a British technology transfer company , wholly owned by the University of Oxford , located on Botley Road , Oxford , England .",
+          "score": 4.025
+        },
+        {
+          "page_id": "University_of_Oxford",
+          "sentence_id": 0,
+          "text": "The University of Oxford -LRB- informally Oxford University or simply Oxford -RRB- is a collegiate research university located in Oxford , England .",
+          "score": 4.01
+        },
+        {
+          "page_id": "Oxford_Brookes_University",
+          "sentence_id": 0,
+          "text": "Oxford Brookes University is a public university in Oxford , England .",
+          "score": 3.1
+        },
+        {
+          "page_id": "Oxford_University_College",
+          "sentence_id": 0,
+          "text": "University College , Oxford , is in England .",
+          "score": 3.05
+        },
+        {
+          "page_id": "Oxford_University_Gazette",
+          "sentence_id": 0,
+          "text": "The Oxford University Gazette -LRB- often simply known as the Gazette locally -RRB- is the publication of record for the University of Oxford in England , used for official announcements .",
+          "score": 3.033333333333333
+        }
+      ],
+      "probabilities": [
+        0.9881340861320496,
+        0.01179059874266386,
+        7.536693738074973e-05
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.060034791999999726,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.8321927785873413,
+        0.07651001960039139,
+        0.09129715710878372
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": 44479,
+  "claim": "Usain Bolt was in the 2008 movie The Hangover.",
+  "conditions": {
+    "symbolic_first": {
+      "label": "REFUTES",
+      "wall_seconds": 0.07987045799999848,
+      "symbolic": {
+        "claim": "Usain Bolt was in the 2008 movie The Hangover.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.195799999820224e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Usain_Bolt",
+          "sentence_id": 0,
+          "text": "Usain St Leo Bolt , OJ , CD -LRB- -LSB- ˈjuːseɪn -RSB- born 21 August 1986 -RRB- is a Jamaican sprinter .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Usain_Bolt",
+          "sentence_id": 9,
+          "text": "Bolt is the only sprinter to win Olympic 100 m and 200 m titles at three consecutive olympics -LRB- 2008 , 2012 and 2016 -RRB- , a feat referred to as the `` triple double . ''",
+          "score": 2.1
+        },
+        {
+          "page_id": "Usain_Bolt_Sports_Complex",
+          "sentence_id": 0,
+          "text": "Usain Bolt Sports Complex is a sports venue at the Cavehill campus of the University of the West Indies in Barbados consisting of an IAAF certified track and FIFA certified football field .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Usain_Bolt_Sports_Complex",
+          "sentence_id": 5,
+          "text": "The naming of the sports complex was criticized by some Barbadians for being named after a Jamaican athlete , Usain Bolt instead of a Barbadian athlete .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Usain_Bolt",
+          "sentence_id": 7,
+          "text": "An eight-time Olympic gold medalist , Bolt won the 100 m , 200 m and 4 × 100 m relay at three consecutive Olympic Games , although he subsequently lost one of the gold medals -LRB- as well as the world record set therein -RRB- nine years after the fact due to teammate Nesta Carter 's disqualification for doping offences .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.3360555171966553,
+        0.6634562015533447,
+        0.0004882943467237055
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.0577336250000009,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.44537705183029175,
+        0.17179499566555023,
+        0.382828027009964
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "retrieval_roberta": {
+      "label": "REFUTES",
+      "wall_seconds": 0.0701744160000004,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Usain_Bolt",
+          "sentence_id": 0,
+          "text": "Usain St Leo Bolt , OJ , CD -LRB- -LSB- ˈjuːseɪn -RSB- born 21 August 1986 -RRB- is a Jamaican sprinter .",
+          "score": 2.1
+        },
+        {
+          "page_id": "Usain_Bolt",
+          "sentence_id": 9,
+          "text": "Bolt is the only sprinter to win Olympic 100 m and 200 m titles at three consecutive olympics -LRB- 2008 , 2012 and 2016 -RRB- , a feat referred to as the `` triple double . ''",
+          "score": 2.1
+        },
+        {
+          "page_id": "Usain_Bolt_Sports_Complex",
+          "sentence_id": 0,
+          "text": "Usain Bolt Sports Complex is a sports venue at the Cavehill campus of the University of the West Indies in Barbados consisting of an IAAF certified track and FIFA certified football field .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Usain_Bolt_Sports_Complex",
+          "sentence_id": 5,
+          "text": "The naming of the sports complex was criticized by some Barbadians for being named after a Jamaican athlete , Usain Bolt instead of a Barbadian athlete .",
+          "score": 2.05
+        },
+        {
+          "page_id": "Usain_Bolt",
+          "sentence_id": 7,
+          "text": "An eight-time Olympic gold medalist , Bolt won the 100 m , 200 m and 4 × 100 m relay at three consecutive Olympic Games , although he subsequently lost one of the gold medals -LRB- as well as the world record set therein -RRB- nine years after the fact due to teammate Nesta Carter 's disqualification for doping offences .",
+          "score": 1.1
+        }
+      ],
+      "probabilities": [
+        0.3360555171966553,
+        0.6634562015533447,
+        0.0004882943467237055
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

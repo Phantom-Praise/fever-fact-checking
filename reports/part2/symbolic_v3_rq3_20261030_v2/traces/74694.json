@@ -1,0 +1,116 @@
+{
+  "id": 74694,
+  "claim": "Michelle Williams began her career on television.",
+  "conditions": {
+    "claim_only": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.056604499999998836,
+      "symbolic": null,
+      "evidence": [],
+      "probabilities": [
+        0.5799521803855896,
+        0.3051076829433441,
+        0.11494018882513046
+      ],
+      "model_called": true,
+      "retrieval_called": false
+    },
+    "symbolic_first": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.08727537500000082,
+      "symbolic": {
+        "claim": "Michelle Williams began her career on television.",
+        "label": null,
+        "reason": "unsupported_claim_structure",
+        "parts": [],
+        "parsed": null,
+        "queries": [],
+        "http_calls": 0,
+        "wall_seconds": 1.3832999997021034e-05
+      },
+      "evidence": [
+        {
+          "page_id": "Michelle_Williams_-LRB-actress-RRB-",
+          "sentence_id": 1,
+          "text": "She began her career with television guest appearances , and made her feature film debut in Lassie -LRB- 1994 -RRB- , which earned her a Youth in Film nomination .",
+          "score": 4.0125
+        },
+        {
+          "page_id": "Michelle_Williams_discography",
+          "sentence_id": 3,
+          "text": "Williams ' begun her career in 1999 as a backing vocalist for Grammy Award-winning R&B recording artist Monica and in 2000 a member of one of the best-selling American bands of all time , Destiny 's Child , who have sold approximately 60 million records worldwide .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Serena_Williams's_early_career",
+          "sentence_id": 0,
+          "text": "The Serena Williams tennis career began at 1995 but did n't compete in 1996 .",
+          "score": 3.0142857142857142
+        },
+        {
+          "page_id": "Michelle_Williams",
+          "sentence_id": 0,
+          "text": "Michelle Williams may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "Michelle_Williams",
+          "sentence_id": 3,
+          "text": "Michelle Williams -LRB- actress -RRB- -LRB- born September 9 , 1980 -RRB- , American actress",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9347100853919983,
+        0.06502516567707062,
+        0.0002647765213623643
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    },
+    "retrieval_roberta": {
+      "label": "SUPPORTS",
+      "wall_seconds": 0.07807129200000062,
+      "symbolic": null,
+      "evidence": [
+        {
+          "page_id": "Michelle_Williams_-LRB-actress-RRB-",
+          "sentence_id": 1,
+          "text": "She began her career with television guest appearances , and made her feature film debut in Lassie -LRB- 1994 -RRB- , which earned her a Youth in Film nomination .",
+          "score": 4.0125
+        },
+        {
+          "page_id": "Michelle_Williams_discography",
+          "sentence_id": 3,
+          "text": "Williams ' begun her career in 1999 as a backing vocalist for Grammy Award-winning R&B recording artist Monica and in 2000 a member of one of the best-selling American bands of all time , Destiny 's Child , who have sold approximately 60 million records worldwide .",
+          "score": 3.033333333333333
+        },
+        {
+          "page_id": "Serena_Williams's_early_career",
+          "sentence_id": 0,
+          "text": "The Serena Williams tennis career began at 1995 but did n't compete in 1996 .",
+          "score": 3.0142857142857142
+        },
+        {
+          "page_id": "Michelle_Williams",
+          "sentence_id": 0,
+          "text": "Michelle Williams may refer to :",
+          "score": 2.1
+        },
+        {
+          "page_id": "Michelle_Williams",
+          "sentence_id": 3,
+          "text": "Michelle Williams -LRB- actress -RRB- -LRB- born September 9 , 1980 -RRB- , American actress",
+          "score": 2.1
+        }
+      ],
+      "probabilities": [
+        0.9347100853919983,
+        0.06502516567707062,
+        0.0002647765213623643
+      ],
+      "model_called": true,
+      "retrieval_called": true
+    }
+  }
+}

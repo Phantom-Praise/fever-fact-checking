@@ -1,0 +1,485 @@
+{
+  "id": 143127,
+  "claim": "Imagine Dragons have a drummer.",
+  "condition": "rag_512",
+  "label": "SUPPORTS",
+  "probabilities": [
+    0.9087967872619629,
+    0.08931330591440201,
+    0.0018899323185905814
+  ],
+  "logits": [
+    2.5397791862487793,
+    0.21980804204940796,
+    -3.635801315307617
+  ],
+  "inference_seconds": 0.10788933399999934,
+  "evidence_text": "Andrew Tolman – drums -piece. On March 3, 2023, drummer Daniel Platzman announced that he would be absent from the South American leg of the Mercury Tour to focus on his health. The band's former drummer Andrew Tolman sat in for Platzman during the tour and all other performances throughout 2023. He officially announced his departure on August 21, 2024. In his absence, Andrew Tolman continued to serve as the band's touring drummer for the Loom World Tour and beyond. Imagine Dragons on Tour (2011–2012) Imagine Dragons Imagine Dragons at Mohegan Sun in 2017. Left to right: Wayne Sermon, Dan Reynolds, former drummer Daniel Platzman, and Ben McKee. Background information Origin | Las Vegas, Nevada, U.S. Genres | Pop rock electropop indie pop arena rock alternative rock Works | Years active | 2008–present Labels | Kidinakorner Interscope Spinoffs | Egyptian Awards | Full list Members | Dan Reynolds Wayne Sermon Ben McKee Past members | Andrew Beck Aurora Florence Dave Lemke Andrew Tolman Brittany Tolman Theresa Flaminio Daniel Platzman Website | imaginedragonsmusic.com Imagine Dragons blur the lines between rock and pop, and have been described as pop rock, electropop, arena rock, alternative rock, indie pop and indie rock. Their music also contains elements of dance-pop, drum and bass, dubstep, EDM, folk, hip-hop, industrial, R&B, synth-pop, and trip hop. In 2008, lead singer Dan Reynolds met drummer Andrew Tolman at Brigham Young University, where they were both students. Reynolds and Tolman recruited Andrew Beck, Dave Lemke, and Aurora Florence to play guitar, bass, and piano, respectively, for their band. Their name is an anagram for a phrase only known to members of the group, which Reynolds stated each member approved of. The five-piece recorded demos that they uploaded to MySpace that year, but Beck and Florence left the band later that year. In 2009, Tolman recruited long-time high school friend Wayne Sermon, who had graduated from Berklee College of Music, to play guitar. Tolman later recruited his wife, Brittany Tolman, to sing back-up and play keys, and the band began to play shows together again. Lemke left the band shortly thereafter, leading Sermon to recruit another Berklee music student, Ben McKee, to join the band as their bassist and complete the line Imagine Dragons: The band worked closely with Alex da Kid, with whom they recorded their first major-label release at Westlake Recording Studios in West Hollywood, California. Dan Reynolds – lead vocals Origins (2018) The band has ignored calls from pro-Palestinian activists to boycott Israel, performing in Tel Aviv, Israel on August 30, 2023. In a similar case, the band performed in Baku, Azerbaijan, which was criticized by System of a Down singer and activist Serj Tankian, as it could be seen as \"an endorsement of Azerbaijan's authoritarian president, Ilham Aliyev\". Reynolds defended the performances in a 2024 interview with Rolling Stone, stating, \"I don't believe in depriving our fans who want to see us play because of the acts of their leaders and their governments. I think that's a really slippery slope. I think the second you start to do that, there's corrupt leaders and warmongers all over the world, and where do you draw the line?\" In May 2025, the band garnered attention when Reynolds displayed the Palestinian flag at the end of the band's performance in Milan, Italy. –2015) Will Wells – keyboards, guitar, backing vocals (2015–2017) Elliot Schwartzman – keyboards, guitar, backing vocals (2017–2022) Brittany Tolman – keyboard, backing vocals Smoke + Mirrors Tour (2015–2016) Imagine Dragons discography Imagine Dragons on the set of their performance on Walmart Soundcheck Studio albums | 6 EPs | 12 Live albums | 5 Compilation albums | 1 Singles | 43 Music videos | 50 Promotional singles | 8 Smoke + Mirrors (2015) Loom World Tour (2024–2025) Imagine Dragons Ben McKee – bass Dan Reynolds – lead vocals Wayne Sermon – guitar Andrew Tolman – drums Brittany Tolman – backing vocals, keyboard | Additional personnel Brandon Darner – co-producer Mark Everton Gray – recording Mark Needham – mixing Will Brierre – engineer Joe LaPorta – mastering Evolve World Tour (2017–2019) Loom (2024) Ben McKee – bass guitar",
+  "token_trace": {
+    "max_length": 512,
+    "tokens_before": 953,
+    "tokens_retained": 512,
+    "truncated": true,
+    "evidence_tokens_total": 943,
+    "evidence_tokens_retained": 502,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 35111685,
+        "tokens_total": 5,
+        "tokens_kept": 5,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 29324498,
+        "tokens_total": 3,
+        "tokens_kept": 3,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 29324498,
+        "tokens_total": 33,
+        "tokens_kept": 33,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 29324498,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 29324498,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 29324498,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 29324498,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 29324498,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 29324498,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 29324498,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 29324498,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 29324498,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 29324498,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 29324498,
+        "tokens_total": 2,
+        "tokens_kept": 2,
+        "visibility": "full"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 29324498,
+        "tokens_total": 6,
+        "tokens_kept": 6,
+        "visibility": "full"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 29324498,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 29324498,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 29324498,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 29324498,
+        "tokens_total": 10,
+        "tokens_kept": 10,
+        "visibility": "full"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 29324498,
+        "tokens_total": 24,
+        "tokens_kept": 24,
+        "visibility": "full"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 29324498,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 29324498,
+        "tokens_total": 34,
+        "tokens_kept": 34,
+        "visibility": "full"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 29324498,
+        "tokens_total": 40,
+        "tokens_kept": 40,
+        "visibility": "full"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 29324498,
+        "tokens_total": 23,
+        "tokens_kept": 23,
+        "visibility": "full"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 29324498,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 29324498,
+        "tokens_total": 25,
+        "tokens_kept": 25,
+        "visibility": "full"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 29324498,
+        "tokens_total": 26,
+        "tokens_kept": 26,
+        "visibility": "full"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 29324498,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 29324498,
+        "tokens_total": 30,
+        "tokens_kept": 30,
+        "visibility": "full"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 29324498,
+        "tokens_total": 35,
+        "tokens_kept": 21,
+        "visibility": "partial"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 35111685,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 29324498,
+        "tokens_total": 30,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 35111685,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 29324498,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 29324498,
+        "tokens_total": 27,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 29324498,
+        "tokens_total": 51,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 29324498,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 29324498,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 29324498,
+        "tokens_total": 58,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 29324498,
+        "tokens_total": 33,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 35111685,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 29324498,
+        "tokens_total": 10,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 37078465,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 37078465,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 37078465,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 37078465,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 37078465,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 37078465,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 37078465,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 37078465,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 37078465,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 29324498,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 29324498,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 37694286,
+        "tokens_total": 63,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 29324498,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 29324498,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 35111685,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Imagine Dragons have a drummer.</s></s>Andrew Tolman – drums -piece. On March 3, 2023, drummer Daniel Platzman announced that he would be absent from the South American leg of the Mercury Tour to focus on his health. The band's former drummer Andrew Tolman sat in for Platzman during the tour and all other performances throughout 2023. He officially announced his departure on August 21, 2024. In his absence, Andrew Tolman continued to serve as the band's touring drummer for the Loom World Tour and beyond. Imagine Dragons on Tour (2011–2012) Imagine Dragons Imagine Dragons at Mohegan Sun in 2017. Left to right: Wayne Sermon, Dan Reynolds, former drummer Daniel Platzman, and Ben McKee. Background information Origin | Las Vegas, Nevada, U.S. Genres | Pop rock electropop indie pop arena rock alternative rock Works | Years active | 2008–present Labels | Kidinakorner Interscope Spinoffs | Egyptian Awards | Full list Members | Dan Reynolds Wayne Sermon Ben McKee Past members | Andrew Beck Aurora Florence Dave Lemke Andrew Tolman Brittany Tolman Theresa Flaminio Daniel Platzman Website | imaginedragonsmusic.com Imagine Dragons blur the lines between rock and pop, and have been described as pop rock, electropop, arena rock, alternative rock, indie pop and indie rock. Their music also contains elements of dance-pop, drum and bass, dubstep, EDM, folk, hip-hop, industrial, R&B, synth-pop, and trip hop. In 2008, lead singer Dan Reynolds met drummer Andrew Tolman at Brigham Young University, where they were both students. Reynolds and Tolman recruited Andrew Beck, Dave Lemke, and Aurora Florence to play guitar, bass, and piano, respectively, for their band. Their name is an anagram for a phrase only known to members of the group, which Reynolds stated each member approved of. The five-piece recorded demos that they uploaded to MySpace that year, but Beck and Florence left the band later that year. In 2009, Tolman recruited long-time high school friend Wayne Sermon, who had graduated from Berklee College of Music, to play guitar. Tolman later recruited his wife, Brittany Tolman, to sing back-up and play keys, and the band began to play shows together again. Lemke left the band shortly thereafter, leading Sermon to recruit another Berklee music student, Ben McK</s>"
+  }
+}

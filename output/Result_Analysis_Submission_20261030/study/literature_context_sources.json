@@ -1,0 +1,26 @@
+{
+  "historical_baseline": {
+    "n": 19998,
+    "label_accuracy": 0.5237023702370237,
+    "strict_fever": 0.35068506850685066,
+    "source": "reports/part2/official_fever_dev_20261023/summary.json",
+    "sha256": "b7422ee9853904e28d58e855245aabcd4c6f5d6f01bf96c8805844222c2c48cd"
+  },
+  "published_dev_references": {
+    "GEAR": {
+      "n": 19998,
+      "label_accuracy": 0.7484,
+      "strict_fever": 0.7069
+    },
+    "KGAT_RoBERTa_large": {
+      "n": 19998,
+      "label_accuracy": 0.7829,
+      "strict_fever": 0.7611
+    }
+  },
+  "published_source": "https://aclanthology.org/2020.acl-main.655.pdf",
+  "table": 2,
+  "columns": "Dev LA and FEVER; not Test",
+  "models_rerun": false,
+  "main_test_study_excluded_from_full_benchmark_table": true
+}

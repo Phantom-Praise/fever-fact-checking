@@ -1,0 +1,6 @@
+System,Accuracy,Macro-F1,Strict FEVER,Origin
+Claim-only H2,58.78%,0.5775,12.23%,Measured locally; P1
+Evidence RoBERTa,52.37%,0.4175,35.07%,Measured locally; P1
+Frozen fusion — primary local result,61.70%,0.6078,45.33%,Measured locally; P1
+GEAR development reference,74.84%,Not reported here,70.69%,Published in KGAT Table 2; not rerun
+KGAT RoBERTa-large development reference,78.29%,Not reported here,76.11%,Published in KGAT Table 2; not rerun

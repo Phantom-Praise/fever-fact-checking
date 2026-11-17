@@ -1,0 +1,5 @@
+model,source,n,valid,invalid,SUPPORTS,REFUTES,NOT ENOUGH INFO,UNRATEABLE,atomic_yes,atomic_no,label_origin
+llama3.1:8b,FEVER,30,30,0,23,0,7,0,25,5,machine_evidence_relative_not_human_truth
+llama3.1:8b,generated,30,30,0,24,0,5,1,25,5,machine_evidence_relative_not_human_truth
+gemma3:1B,FEVER,30,30,0,23,0,0,7,20,10,machine_evidence_relative_not_human_truth
+gemma3:1B,generated,30,30,0,30,0,0,0,30,0,machine_evidence_relative_not_human_truth

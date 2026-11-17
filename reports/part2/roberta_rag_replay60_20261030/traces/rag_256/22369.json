@@ -1,0 +1,509 @@
+{
+  "id": 22369,
+  "claim": "Fantastic Beasts and Where to Find Them premiered somewhere other than in New York City.",
+  "condition": "rag_256",
+  "label": "REFUTES",
+  "probabilities": [
+    0.0323871485888958,
+    0.9673669934272766,
+    0.0002459135139361024
+  ],
+  "logits": [
+    -0.0072814226150512695,
+    3.3895347118377686,
+    -4.887818813323975
+  ],
+  "inference_seconds": 0.05935420800000024,
+  "evidence_text": "Fantastic Beasts and Where to Find Them had its world premiere at Alice Tully Hall in New York City on 10 November 2016 and was released worldwide on 18 November 2016. 28 September 2016. Fantastic Beasts (disambiguation) Fantastic Beasts and Where to Find Them (film), a 2016 film by David Yates Fantastic Beasts and Where to Find Them may refer to: -format locations and $1.75 million from Cinemark XD. Fantastic Beasts and Where to Find Them was released on Digital HD on 7 March 2017, and on 4K UHD, 3D Blu-ray, Blu-ray and DVD on 28 March 2017. Principal photography began on 17 August 2015, at Warner Bros. Studios, Leavesden, in Hertfordshire, England and wrapped in January 2016. Several scenes were shot on location in London. After two months, the production moved to the Cunard Building and St George's Hall in Liverpool, which was transformed into 1920s New York City. Framestore in London produced the visual effects for the film. Initially, in October 2014, the studio announced the film would be the start of a trilogy. In July 2016, David Yates confirmed that Rowling had written the screenplay for the second film and had ideas for the third. In October 2016, Rowling announced that the series would comprise five films. Fantastic Beasts and Where to Find Them Theatrical release poster Directed by | David Yates Written by | J. K. Rowling Produced by | David Heyman J. K. Rowling Steve Kloves Lionel Wigram Starring | Eddie Redmayne Katherine Waterston Dan Fogler Alison Sudol Ezra Miller Samantha Morton Jon Voight Carmen Ejogo Colin Farrell Cinematography | Philippe Rousselot Edited by | Mark Day Music by | James Newton Howard Production companies | Warner Bros. Pictures Heyday Films Distributed by | Warner Bros. Pictures Release dates | 10 November 2016 (2016-11-10) (Alice Tully Hall) 18 November 2016 (2016-11-18) (United Kingdom and United States) Running time | 133 minutes Countries | United Kingdom United States Language | English Budget | $175–200 million Box office | $814 million Fantastic Beasts and Where to Find Them (book), a 2001 book by J. K. Rowling Fantastic Beasts and Where to Find Them (soundtrack), a 2016 soundtrack album by James Newton Howard On 28 June 2016, Rowling released a second part to her History of Magic in North America series, concerning the fictitious Ilvermorny School of Witchcraft and Wizardry, detailing the founding of the pre-eminent American Wizarding academy and allowing users to sort themselves into one of the four houses of the school. The school itself is mentioned in the film. On 4 November 2015, Entertainment Weekly released the first official publicity shots of the film, including pictures of characters Newt, Tina and Queenie, and behind-the-scenes shots of production and filming on various sets designed to mirror 1920s New York City. On 10 December 2015, @Fantastic Beasts announced on Twitter that an \"announcement trailer\" would be released on 15 December. A teaser poster was also released along with the one-minute trailer. The film's script was published in book form on 18 November 2016. Fantastic Beasts and Where to Find Them: The Original Screenplay was written by Rowling herself. A new Wizarding World film series was first announced in September 2013, two years after the final Harry Potter film—Harry Potter and the Deathly Hallows – Part 2—was released. The following month, it was also announced that producer David Heyman and writer Steve Kloves, who were both Potter film franchise veterans, will return in the new film series. In August 2014, Warner Bros. announced that Yates would direct at least one film of the planned trilogy, after rumors in which Alfonso Cuarón would direct, of which he refuted three months earlier. Filming took place from August 2015 to January 2016, at Warner Bros. Studios Leavesden, and also on location in England. Rowling, J. K. (2016). Fantastic Beasts and Where to Find Them: The Original Screenplay. New York: Arthur A. Levine Books. ISBN 978-0-325-40112-6.",
+  "token_trace": {
+    "max_length": 256,
+    "tokens_before": 884,
+    "tokens_retained": 256,
+    "truncated": true,
+    "evidence_tokens_total": 862,
+    "evidence_tokens_retained": 234,
+    "excerpts": [
+      {
+        "rank": 1,
+        "id": "E1",
+        "page_id": 47569084,
+        "tokens_total": 35,
+        "tokens_kept": 35,
+        "visibility": "full"
+      },
+      {
+        "rank": 2,
+        "id": "E2",
+        "page_id": 47569084,
+        "tokens_total": 4,
+        "tokens_kept": 4,
+        "visibility": "full"
+      },
+      {
+        "rank": 3,
+        "id": "E3",
+        "page_id": 77158886,
+        "tokens_total": 8,
+        "tokens_kept": 8,
+        "visibility": "full"
+      },
+      {
+        "rank": 4,
+        "id": "E4",
+        "page_id": 77158886,
+        "tokens_total": 16,
+        "tokens_kept": 16,
+        "visibility": "full"
+      },
+      {
+        "rank": 5,
+        "id": "E5",
+        "page_id": 77158886,
+        "tokens_total": 11,
+        "tokens_kept": 11,
+        "visibility": "full"
+      },
+      {
+        "rank": 6,
+        "id": "E6",
+        "page_id": 47569084,
+        "tokens_total": 14,
+        "tokens_kept": 14,
+        "visibility": "full"
+      },
+      {
+        "rank": 7,
+        "id": "E7",
+        "page_id": 47569084,
+        "tokens_total": 40,
+        "tokens_kept": 40,
+        "visibility": "full"
+      },
+      {
+        "rank": 8,
+        "id": "E8",
+        "page_id": 47569084,
+        "tokens_total": 12,
+        "tokens_kept": 12,
+        "visibility": "full"
+      },
+      {
+        "rank": 9,
+        "id": "E9",
+        "page_id": 47569084,
+        "tokens_total": 17,
+        "tokens_kept": 17,
+        "visibility": "full"
+      },
+      {
+        "rank": 10,
+        "id": "E10",
+        "page_id": 47569084,
+        "tokens_total": 9,
+        "tokens_kept": 9,
+        "visibility": "full"
+      },
+      {
+        "rank": 11,
+        "id": "E11",
+        "page_id": 47569084,
+        "tokens_total": 31,
+        "tokens_kept": 31,
+        "visibility": "full"
+      },
+      {
+        "rank": 12,
+        "id": "E12",
+        "page_id": 47569084,
+        "tokens_total": 13,
+        "tokens_kept": 13,
+        "visibility": "full"
+      },
+      {
+        "rank": 13,
+        "id": "E13",
+        "page_id": 47569084,
+        "tokens_total": 19,
+        "tokens_kept": 19,
+        "visibility": "full"
+      },
+      {
+        "rank": 14,
+        "id": "E14",
+        "page_id": 47569084,
+        "tokens_total": 24,
+        "tokens_kept": 5,
+        "visibility": "partial"
+      },
+      {
+        "rank": 15,
+        "id": "E15",
+        "page_id": 47569084,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 16,
+        "id": "E16",
+        "page_id": 47569084,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 17,
+        "id": "E17",
+        "page_id": 47569084,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 18,
+        "id": "E18",
+        "page_id": 47569084,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 19,
+        "id": "E19",
+        "page_id": 47569084,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 20,
+        "id": "E20",
+        "page_id": 47569084,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 21,
+        "id": "E21",
+        "page_id": 47569084,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 22,
+        "id": "E22",
+        "page_id": 47569084,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 23,
+        "id": "E23",
+        "page_id": 47569084,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 24,
+        "id": "E24",
+        "page_id": 47569084,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 25,
+        "id": "E25",
+        "page_id": 47569084,
+        "tokens_total": 29,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 26,
+        "id": "E26",
+        "page_id": 47569084,
+        "tokens_total": 8,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 27,
+        "id": "E27",
+        "page_id": 47569084,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 28,
+        "id": "E28",
+        "page_id": 47569084,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 29,
+        "id": "E29",
+        "page_id": 47569084,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 30,
+        "id": "E30",
+        "page_id": 47569084,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 31,
+        "id": "E31",
+        "page_id": 47569084,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 32,
+        "id": "E32",
+        "page_id": 47569084,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 33,
+        "id": "E33",
+        "page_id": 47569084,
+        "tokens_total": 36,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 34,
+        "id": "E34",
+        "page_id": 47569084,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 35,
+        "id": "E35",
+        "page_id": 47569084,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 36,
+        "id": "E36",
+        "page_id": 47569084,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 37,
+        "id": "E37",
+        "page_id": 47569084,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 38,
+        "id": "E38",
+        "page_id": 47569084,
+        "tokens_total": 7,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 39,
+        "id": "E39",
+        "page_id": 77158886,
+        "tokens_total": 16,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 40,
+        "id": "E40",
+        "page_id": 77158886,
+        "tokens_total": 2,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 41,
+        "id": "E41",
+        "page_id": 77158886,
+        "tokens_total": 1,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 42,
+        "id": "E42",
+        "page_id": 77158886,
+        "tokens_total": 19,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 43,
+        "id": "E43",
+        "page_id": 47569084,
+        "tokens_total": 65,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 44,
+        "id": "E44",
+        "page_id": 47569084,
+        "tokens_total": 9,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 45,
+        "id": "E45",
+        "page_id": 47569084,
+        "tokens_total": 51,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 46,
+        "id": "E46",
+        "page_id": 47569084,
+        "tokens_total": 28,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 47,
+        "id": "E47",
+        "page_id": 47569084,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 48,
+        "id": "E48",
+        "page_id": 47569084,
+        "tokens_total": 14,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 49,
+        "id": "E49",
+        "page_id": 47569084,
+        "tokens_total": 18,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 50,
+        "id": "E50",
+        "page_id": 47569084,
+        "tokens_total": 38,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 51,
+        "id": "E51",
+        "page_id": 47569084,
+        "tokens_total": 35,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 52,
+        "id": "E52",
+        "page_id": 47569084,
+        "tokens_total": 41,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 53,
+        "id": "E53",
+        "page_id": 47569084,
+        "tokens_total": 15,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 54,
+        "id": "E54",
+        "page_id": 47569084,
+        "tokens_total": 11,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 55,
+        "id": "E55",
+        "page_id": 47569084,
+        "tokens_total": 4,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 56,
+        "id": "E56",
+        "page_id": 47569084,
+        "tokens_total": 5,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 57,
+        "id": "E57",
+        "page_id": 47569084,
+        "tokens_total": 13,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 58,
+        "id": "E58",
+        "page_id": 47569084,
+        "tokens_total": 6,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 59,
+        "id": "E59",
+        "page_id": 47569084,
+        "tokens_total": 3,
+        "tokens_kept": 0,
+        "visibility": "none"
+      },
+      {
+        "rank": 60,
+        "id": "E60",
+        "page_id": 47569084,
+        "tokens_total": 12,
+        "tokens_kept": 0,
+        "visibility": "none"
+      }
+    ],
+    "decoded_retained_input": "<s>Fantastic Beasts and Where to Find Them premiered somewhere other than in New York City.</s></s>Fantastic Beasts and Where to Find Them had its world premiere at Alice Tully Hall in New York City on 10 November 2016 and was released worldwide on 18 November 2016. 28 September 2016. Fantastic Beasts (disambiguation) Fantastic Beasts and Where to Find Them (film), a 2016 film by David Yates Fantastic Beasts and Where to Find Them may refer to: -format locations and $1.75 million from Cinemark XD. Fantastic Beasts and Where to Find Them was released on Digital HD on 7 March 2017, and on 4K UHD, 3D Blu-ray, Blu-ray and DVD on 28 March 2017. Principal photography began on 17 August 2015, at Warner Bros. Studios, Leavesden, in Hertfordshire, England and wrapped in January 2016. Several scenes were shot on location in London. After two months, the production moved to the Cunard Building and St George's Hall in Liverpool, which was transformed into 1920s New York City. Framestore in London produced the visual effects for the film. Initially, in October 2014, the studio announced the film would be the start of a trilogy. In July 2016, David</s>"
+  }
+}

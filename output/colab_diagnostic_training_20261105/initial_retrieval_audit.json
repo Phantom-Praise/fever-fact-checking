@@ -1,0 +1,14 @@
+{
+  "scope": "first 5000 original-training claims, preparation audit only; no model run",
+  "n": 5000,
+  "class_counts": {
+    "SUPPORTS": 2661,
+    "REFUTES": 1027,
+    "NOT ENOUGH INFO": 1312
+  },
+  "complete_annotated_group_retrieved": {
+    "REFUTES": 606,
+    "SUPPORTS": 1622
+  },
+  "note": "NEI has no annotated supporting evidence. Missing a reference group is a retrieval warning, not proof that every retrieved passage is irrelevant."
+}

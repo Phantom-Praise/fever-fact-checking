@@ -1,0 +1,7 @@
+component,configuration,reason
+Unweighted baseline,Original epoch 1,Reference for the majority-class failure in Part 1.
+Claim-only model,"H2, epoch 2; LR 1e-5; weight decay 0.01",Highest validation macro-F1 among H1-H4.
+Evidence model,Epoch 1; LR 2e-5; weight decay 0.01,Better gold-validation macro-F1 than epoch 2; evaluated separately with retrieved text.
+Retrieval,"Original title-aware retrieval, top-5",Top-10 gave no consistent benefit; new rankers did not improve recall.
+Combined model,Claim weight 0.75; NEI adjustment 2,Selected on internal calibration before the official evaluation; strongest local full-benchmark result.
+Symbolic stage,Experimental comparison only,No resolved claims or avoided model calls in the measured samples.

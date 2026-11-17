@@ -1,0 +1,225 @@
+{
+  "device": "cpu",
+  "checkpoint": "checkpoints/roberta_evidence/epoch_1",
+  "max_length": 256,
+  "batch_size": 1,
+  "repeats": 3,
+  "results": [
+    {
+      "db": "data/processed/wiki_fts.db",
+      "db_bytes": 11903868928,
+      "db_mtime_ns": 1792674496346371586,
+      "repeat": 0,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 11.185585751000007,
+      "mean_seconds": 0.11185585751000007,
+      "p50_seconds": 0.08869652099999925,
+      "p95_seconds": 0.2550538684000007,
+      "claims_per_second": 8.940077187380183,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/wiki_fts.db",
+      "db_bytes": 11903868928,
+      "db_mtime_ns": 1792674496346371586,
+      "repeat": 0,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 11.183688876999996,
+      "mean_seconds": 0.11183688876999996,
+      "p50_seconds": 0.09816391700000082,
+      "p95_seconds": 0.2075851058999994,
+      "claims_per_second": 8.94159352069036,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/wiki_fts.db",
+      "db_bytes": 11903868928,
+      "db_mtime_ns": 1792674496346371586,
+      "repeat": 1,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 10.601818376000011,
+      "mean_seconds": 0.1060181837600001,
+      "p50_seconds": 0.09181433350000034,
+      "p95_seconds": 0.17815349165000105,
+      "claims_per_second": 9.432344193556094,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/wiki_fts.db",
+      "db_bytes": 11903868928,
+      "db_mtime_ns": 1792674496346371586,
+      "repeat": 1,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 9.332068917,
+      "mean_seconds": 0.09332068917000001,
+      "p50_seconds": 0.08346491649999876,
+      "p95_seconds": 0.15387773365000007,
+      "claims_per_second": 10.715737409293286,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/wiki_fts.db",
+      "db_bytes": 11903868928,
+      "db_mtime_ns": 1792674496346371586,
+      "repeat": 2,
+      "condition": "baseline",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 10.81181741799994,
+      "mean_seconds": 0.1081181741799994,
+      "p50_seconds": 0.08754822899999937,
+      "p95_seconds": 0.16540312769999793,
+      "claims_per_second": 9.24913880191096,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    },
+    {
+      "db": "data/processed/wiki_fts.db",
+      "db_bytes": 11903868928,
+      "db_mtime_ns": 1792674496346371586,
+      "repeat": 2,
+      "condition": "cached_symbolic",
+      "n": 100,
+      "retrieval_calls": 100,
+      "transformer_calls": 100,
+      "total_seconds": 10.045283505999983,
+      "mean_seconds": 0.10045283505999983,
+      "p50_seconds": 0.0872782294999972,
+      "p95_seconds": 0.17011558784999606,
+      "claims_per_second": 9.954920629195845,
+      "accuracy": 0.55,
+      "macro_f1": 0.41628396479142743,
+      "confusion_matrix": [
+        [
+          37,
+          10,
+          0
+        ],
+        [
+          6,
+          18,
+          0
+        ],
+        [
+          14,
+          15,
+          0
+        ]
+      ]
+    }
+  ],
+  "input_sha256": {
+    "data/processed/retrieved/validation_first_100_top5_title_fast.jsonl": "53f48709f6670c33f036c6bb4f1f1b1bb378d199a5f0aa55d179ab639d6edd18",
+    "reports/part2/symbolic_v2/run_20261023_retry/predictions.csv": "9b61f7aac5816cd8bebb7ca975ba5cc2ac0c6d1dbafd534d902f073690ec0be9",
+    "/Users/praiseben/fever-fact-checking/src/benchmark_hierarchy.py": "7169b125bfd29a28fdbfe1b15aa272e16f21d3abf35f9a92020a8b0716a341b2"
+  },
+  "limitations": [
+    "Warm local cache, serialized per-claim inference; model loading excluded.",
+    "Symbolic route is a saved decision lookup: excludes KB network and rule execution.",
+    "One corpus size cannot establish scalability. Repeat with independently built nested indexes.",
+    "No monetary cost or live network hybrid latency is measured.",
+    "Condition order alternates; OS cache and thermal effects remain."
+  ]
+}
